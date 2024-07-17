@@ -1,0 +1,146 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.membership-plan-page {
+
+    padding-bottom: 10rem;
+
+    &__mlsa-logo {
+        width: 500px;
+        margin-left: 110px;
+        margin-top: 72px;
+    }
+
+    &__header {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 40px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    &__card--yearly-membership {
+        margin-top: 32px;
+        margin-left: 110px;
+        margin-right: 32px;
+        border: 1px solid gray;
+        width: 500px;
+        height: 670px;
+        border-radius: 8px;
+    }
+
+    &__yearly-membership-header {
+        font-size: 36px;
+        margin-top: 32px;
+        font-weight: 700;
+        margin-left: 80px;
+    }
+
+    &__yearly-membership-description {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 32px;
+    }
+
+    &__yearly-membership-price {
+        font-size: 32px;
+        margin-left: 70px;
+        margin-top: 24px;
+    }
+
+    &__yearly-membership-price-number {
+        font-weight: 500;
+    }
+
+    &__yearly-membership-first-line {
+        font-weight: 500;
+        margin-left: 70px;
+        margin-top: 24px;
+    }
+
+    &__check-icon {
+        width: 24px;
+    }
+
+    &__yearly-membership-first-line-text {
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    &__yearly-membership-lines {
+        margin-left: 70px;
+    }
+
+    &__yearly-membership-text {
+        margin-left: 10px;
+    }
+
+    &__select-plan-button {
+        margin-top: 24px;
+        margin-left: 165px;
+        background-color: $access-blue;
+        border: 1px solid $access-blue;
+        width: 140px;
+        height: 42px;
+        color: white;
+        border-radius: 24px;
+        font-weight: 500;
+    }
+
+    &__card--monthly-membership {
+        margin-top: 32px;
+        margin-left: 110px;
+        margin-right: 32px;
+        border: 1px solid gray;
+        width: 500px;
+        height: 670px;
+        border-radius: 8px;
+    }
+
+    &__monthly-membership-header {
+        font-size: 36px;
+        margin-top: 32px;
+        font-weight: 700;
+        margin-left: 66px;
+    }
+
+    &__monthly-membership-description {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 32px;
+    }
+
+    &__monthly-membership-price {
+        font-size: 32px;
+        margin-left: 70px;
+        margin-top: 24px;
+    }
+
+    &__monthly-membership-price-number {
+        font-weight: 500;
+    }
+
+    &__monthly-membership-monthly-text {
+        margin-left: 10px;
+    }
+
+    &__monthly-membership-first-line {
+        margin-left: 70px;
+        margin-top: 24px;
+    }
+
+    &__monthly-membership-first-line-text {
+        margin-left: 10px;
+    }
+
+    &__monthly-membership-lines {
+        margin-left: 70px;
+    }
+
+    &__monthly-membership-text {
+        margin-left: 10px;
+    }
+
+}
