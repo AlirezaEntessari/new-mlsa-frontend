@@ -2,6 +2,7 @@ import React from "react";
 import "./MembershipPlanPage.scss";
 import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import CheckIcon from "../../assets/icons/CheckinCircle.svg";
+import { Link } from "react-router-dom";
 
 export default function MembershipPlanPage() {
   return (
@@ -97,9 +98,11 @@ export default function MembershipPlanPage() {
               Add up to 5 additional users per Admin account
             </span>
           </p>
-          <button className="membership-plan-page__yearly-select-plan-button">
-            Select Plan
-          </button>
+          <Link to="/agency-information-page">
+            <button className="membership-plan-page__yearly-select-plan-button">
+              Select Plan
+            </button>
+          </Link>
         </div>
         <div className="membership-plan-page__card--monthly-membership">
           <p className="membership-plan-page__monthly-membership-header">
@@ -174,9 +177,11 @@ export default function MembershipPlanPage() {
               Add up to 5 additional users per Admin account
             </span>
           </p>
-          <button className="membership-plan-page__monthly-select-plan-button">
-            Select Plan
-          </button>
+          <Link to="/agency-information-page">
+            <button className="membership-plan-page__monthly-select-plan-button">
+              Select Plan
+            </button>
+          </Link>
         </div>
       </div>
     </div>

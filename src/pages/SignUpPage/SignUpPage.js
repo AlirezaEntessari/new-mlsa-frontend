@@ -2,6 +2,7 @@ import React from "react";
 import "./SignUpPage.scss";
 import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import RightArrowIcon from "../../assets/icons/right arrow.svg";
+import { Link } from "react-router-dom";
 
 export default function SignUpPage() {
   return (
@@ -23,14 +24,16 @@ export default function SignUpPage() {
         id="email"
         placeholder="Enter your email"
       />
-      <button className="sign-up__next-button">
-        Next{" "}
-        <img
-          className="sign-up__right-arrow-icon"
-          src={RightArrowIcon}
-          alt="Right Arrow"
-        />
-      </button>
+      <Link to="/membership-plan-page">
+        <button className="sign-up__next-button">
+          Next{" "}
+          <img
+            className="sign-up__right-arrow-icon"
+            src={RightArrowIcon}
+            alt="Right Arrow"
+          />
+        </button>
+      </Link>
       <p className="sign-up__already-have-account">
         Already have an account? <span className="sign-up__log-in">Log In</span>
       </p>

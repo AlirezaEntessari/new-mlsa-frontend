@@ -1,0 +1,81 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.agency-information-page {
+
+    &__mlsa-logo {
+        width: 500px;
+        margin-left: 110px;
+        margin-top: 72px;
+    }
+
+    &__header {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 48px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    &__instructions {
+        margin-top: 40px;
+        margin-left: 168px;
+        font-size: 18px;
+    }
+
+    &__input-container {
+        margin-left: 64px;
+        margin-top: 48px;
+    }
+
+    &__staffing-agency-name-label {
+        font-weight: 500;
+    }
+
+    &__red-asterisk-icon {
+        width: 10px;
+        margin-bottom: 12px;
+    }
+
+    &__staffing-agency-name-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+    &__staffing-agency-ein-label {
+        font-weight: 500;
+        margin-top: 24px;
+    }
+
+    &__staffing-agency-ein-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+    &__staffing-agency-website-label {
+        font-weight: 500;
+        margin-top: 24px;
+    }
+
+    &__staffing-agency-website-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+}
