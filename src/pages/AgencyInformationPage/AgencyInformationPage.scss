@@ -176,4 +176,184 @@
         margin-left: 180px;
     }
 
+    &__checkbox-container-6 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__engineering-checkbox-icon {
+        width: 36px;
+    }
+
+    &__professional-services-checkbox-icon {
+        width: 36px;
+        margin-left: 166px;
+    }
+
+    &__checkbox-container-7 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__financial-checkbox-icon {
+        width: 36px;
+    }
+
+    &__checkbox-container-8 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__government-checkbox-icon {
+        width: 36px;
+    }
+
+    &__telecommunications-checkbox-icon {
+        width: 36px;
+        margin-left: 162px;
+    }
+
+    &__checkbox-container-9 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__healthcare-checkbox-icon {
+        width: 36px;
+    }
+
+    &__other-checkbox-icon {
+        width: 36px;
+        margin-left: 174px;
+    }
+
+    &__full-name-admin-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__dont-show-icon-admin {
+        position: absolute;
+        top: 1680px;
+        left: 600px;
+    }
+
+    &__full-name-admin-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+    }
+
+    &__rules-line-1 {
+        margin-top: 32px;
+        margin-left: 72px;
+    }
+
+    &__rules-line-2 {
+        margin-left: 84px;
+    }
+
+    &__bold {
+        font-weight: 500;
+    }
+
+    &__rules-line-3 {
+        margin-left: 84px;
+    }
+
+    &__rules-line-4 {
+        margin-left: 160px;
+    }
+
+    &__rules-line-5 {
+        margin-left: 160px;
+    }
+
+    &__rules-line-6 {
+        margin-left: 160px;
+    }
+
+    &__rules-line-7 {
+        margin-left: 160px;
+    }
+
+    &__rules-line-8 {
+        margin-left: 84px;
+    }
+
+    &__rules-line-9 {
+        margin-left: 84px;
+    }
+
+    &__rules-line-10 {
+        margin-left: 84px;
+    }
+
+    &__rules-line-11 {
+        margin-left: 84px;
+    }
+
+    &__rules-line-12 {
+        margin-left: 84px;
+    }
+
+    &__password-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__password-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+    }
+
+    &__dont-show-icon-password {
+        position: absolute;
+        top: 2320px;
+        left: 600px;
+    }
+
+    &__confirm-password-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__confirm-password-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+    }
+
+    &__dont-show-icon-confirm-password {
+        position: absolute;
+        top: 2452px;
+        left: 600px;
+    }
+
 }
