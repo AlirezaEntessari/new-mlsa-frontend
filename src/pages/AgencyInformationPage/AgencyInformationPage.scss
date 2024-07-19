@@ -4,6 +4,8 @@
 
 .agency-information-page {
 
+    padding-bottom: 10rem;
+
     &__mlsa-logo {
         width: 500px;
         margin-left: 110px;
@@ -76,6 +78,102 @@
         border: 1px solid lightgray;
         padding-left: 10px;
         margin-top: 3px;
+    }
+
+    &__industry-field-label {
+        font-weight: 500;
+        margin-top: 48px;
+        margin-left: 64px;
+    }
+
+    &__industry-field-description {
+        margin-left: 64px;
+        margin-top: 12px;
+        margin-right: 48px;
+        text-align: justify;
+    }
+
+    &__checkbox-container-1 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__aerospace-and-defense-check-box-icon {
+        width: 36px;
+    }
+
+    &__industry-field-text {
+        font-weight: 500;
+    }
+
+    &__insurance-check-box-icon {
+        width: 36px;
+        margin-left: 100px;
+    }
+
+    &__checkbox-container-2 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__agricultural-checkbox-icon {
+        width: 36px;
+    }
+
+    &__manufacturing-checkbox-icon {
+        width: 36px;
+        margin-left: 168px;
+    }
+
+    &__computers-and-technology-checkbox-icon {
+        width: 36px;
+    }
+
+    &__checkbox-container-3 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__computers-and-technology-checkbox-icon {
+        width: 36px;
+    }
+
+    &__oil-and-gas-checkbox-icon {
+        width: 36px;
+        margin-left: 70px;
+    }
+
+    &__checkbox-container-4 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__consumer-goods-checkbox-icon {
+        width: 36px;
+    }
+
+    &__pharmaceuticals-checkbox-icon {
+        width: 36px;
+        margin-left: 128px;
+    }
+
+    &__checkbox-container-5 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__education-checkbox-icon {
+        width: 36px;
+    }
+
+    &__power-and-utilities-checkbox-icon {
+        width: 36px;
+        margin-left: 180px;
     }
 
 }
