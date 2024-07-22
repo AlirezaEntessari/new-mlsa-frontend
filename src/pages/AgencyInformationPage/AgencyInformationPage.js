@@ -100,14 +100,14 @@ export default function AgencyInformationPage() {
                 Aerospace & Defense
               </span>
             </p>
-            <p className="agency-information-page__insurance">
+            <p className="agency-information-page__hospitality-and-leisure">
               <img
-                className="agency-information-page__insurance-check-box-icon"
+                className="agency-information-page__hospitality-and-leisure-check-box-icon"
                 src={CheckboxIcon}
                 alt="Check Box"
               />
               <span className="agency-information-page__industry-field-text">
-                Insurance
+                Hospitality & Leisure
               </span>
             </p>
           </div>
@@ -122,14 +122,14 @@ export default function AgencyInformationPage() {
                 Agricultural
               </span>
             </p>
-            <p className="agency-information-page__manufacturing">
+            <p className="agency-information-page__insurance">
               <img
-                className="agency-information-page__manufacturing-checkbox-icon"
+                className="agency-information-page__insurance-checkbox-icon"
                 src={CheckboxIcon}
                 alt="Check Box"
               />
               <span className="agency-information-page__industry-field-text">
-                Manufacturing
+                Insurance
               </span>
             </p>
           </div>
@@ -144,7 +144,51 @@ export default function AgencyInformationPage() {
                 Computers & Technology
               </span>
             </p>
+            <p className="agency-information-page__landscaping">
+              <img
+                className="agency-information-page__landscaping-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Check Box"
+              />
+              <span className="agency-information-page__industry-field-text">
+                Landscaping
+              </span>
+            </p>
+          </div>
+          <div className="agency-information-page__checkbox-container-4">
+            <p className="agency-information-page__construction">
+              <img
+                className="agency-information-page__construction-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Check Box"
+              />
+              <span className="agency-information-page__industry-field-text">
+                Construction
+              </span>
+            </p>
+            <p className="agency-information-page__manufacturing">
+              <img
+                className="agency-information-page__manufacturing-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Check Box"
+              />
+              <span className="agency-information-page__industry-field-text">
+                Manufacturing
+              </span>
+            </p>
+          </div>
+          <div className="agency-information-page__checkbox-container-5">
             <p className="agency-information-page__consumer-goods">
+              <img
+                className="agency-information-page__consumer-goods-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Check Box"
+              />
+              <span className="agency-information-page__industry-field-text">
+                Consumer Goods
+              </span>
+            </p>
+            <p className="agency-information-page__oil-and-gas">
               <img
                 className="agency-information-page__oil-and-gas-checkbox-icon"
                 src={CheckboxIcon}
@@ -155,15 +199,15 @@ export default function AgencyInformationPage() {
               </span>
             </p>
           </div>
-          <div className="agency-information-page__checkbox-container-4">
-            <p className="agency-information-page__consumer-goods">
+          <div className="agency-information-page__checkbox-container-6">
+            <p className="agency-information-page__education">
               <img
-                className="agency-information-page__consumer-goods-checkbox-icon"
+                className="agency-information-page__education-checkbox-icon"
                 src={CheckboxIcon}
                 alt="Check Box"
               />
               <span className="agency-information-page__industry-field-text">
-                Consumer Goods
+                Education
               </span>
             </p>
             <p className="agency-information-page__pharmaceuticals">
@@ -177,15 +221,15 @@ export default function AgencyInformationPage() {
               </span>
             </p>
           </div>
-          <div className="agency-information-page__checkbox-container-5">
-            <p className="agency-information-page__education">
+          <div className="agency-information-page__checkbox-container-7">
+            <p className="agency-information-page__engineering">
               <img
-                className="agency-information-page__education-checkbox-icon"
+                className="agency-information-page__engineering-checkbox-icon"
                 src={CheckboxIcon}
                 alt="Check Box"
               />
               <span className="agency-information-page__industry-field-text">
-                Education
+                Engineering
               </span>
             </p>
             <p className="agency-information-page__power-and-utilities">
@@ -199,29 +243,7 @@ export default function AgencyInformationPage() {
               </span>
             </p>
           </div>
-          <div className="agency-information-page__checkbox-container-6">
-            <p className="agency-information-page__engineering">
-              <img
-                className="agency-information-page__engineering-checkbox-icon"
-                src={CheckboxIcon}
-                alt="Check Box"
-              />
-              <span className="agency-information-page__industry-field-text">
-                Engineering
-              </span>
-            </p>
-            <p className="agency-information-page__professional-services">
-              <img
-                className="agency-information-page__professional-services-checkbox-icon"
-                src={CheckboxIcon}
-                alt="Check Box"
-              />
-              <span className="agency-information-page__industry-field-text">
-                Professional Services/Consulting
-              </span>
-            </p>
-          </div>
-          <div className="agency-information-page__checkbox-container-7">
+          <div className="agency-information-page__checkbox-container-8">
             <p className="agency-information-page__financial">
               <img
                 className="agency-information-page__financial-checkbox-icon"
@@ -232,8 +254,18 @@ export default function AgencyInformationPage() {
                 Financial
               </span>
             </p>
+            <p className="agency-information-page__professional-services-consulting">
+              <img
+                className="agency-information-page__professional-services-consulting-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Check Box"
+              />
+              <span className="agency-information-page__industry-field-text">
+                Professional Services/Consulting
+              </span>
+            </p>
           </div>
-          <div className="agency-information-page__checkbox-container-8">
+          <div className="agency-information-page__checkbox-container-9">
             <p className="agency-information-page__government">
               <img
                 className="agency-information-page__government-checkbox-icon"
@@ -255,7 +287,7 @@ export default function AgencyInformationPage() {
               </span>
             </p>
           </div>
-          <div className="agency-information-page__checkbox-container-9">
+          <div className="agency-information-page__checkbox-container-10">
             <p className="agency-information-page__healthcare">
               <img
                 className="agency-information-page__healthcare-checkbox-icon"
@@ -290,11 +322,6 @@ export default function AgencyInformationPage() {
               alt="Required"
             />
           </label>
-          <img
-            className="agency-information-page__dont-show-icon-admin"
-            src={DontShowIcon}
-            alt="Hidden"
-          />
           <input
             className="agency-information-page__full-name-admin-input"
             type="text"
