@@ -4,6 +4,7 @@ import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import CheckboxIcon from "../../assets/icons/CheckBoxEmpty.svg";
 import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
+import RightArrowIcon from "../../assets/icons/right arrow.svg";
 
 export default function AgencyInformationPage() {
   return (
@@ -372,7 +373,40 @@ export default function AgencyInformationPage() {
         src={DontShowIcon}
         alt="Hidden"
       />
-      <input className="agency-information-page__confirm-password-input" type="text" placeholder="Enter your password again" />
+      <input
+        className="agency-information-page__confirm-password-input"
+        type="text"
+        placeholder="Enter your password again"
+      />
+      <p className="agency-information-page__terms-and-conditions">
+        <img
+          className="agency-information-page__terms-and-conditions-checkbox"
+          src={CheckboxIcon}
+          alt="Required"
+        />{" "}
+        <span className="agency-information-page__terms-and-conditions-text">
+          I agree to the terms and conditions
+        </span>
+      </p>
+      <p className="agency-information-page__view-agreement">View Agreement</p>
+      <button className="agency-information-page__next-button">
+        Next{" "}
+        <img
+          className="agency-information-page__right-arrow-icon"
+          src={RightArrowIcon}
+          alt="Right Arrow"
+        />
+      </button>
+      <p className="agency-information-page__terms-of-use">
+        By continuing, you agree to MLSA's{" "}
+        <span className="agency-information-page__terms-of-use-text">
+          Terms of Use
+        </span>{" "}
+        and confirm that you have read the{" "}
+        <span className="agency-information-page__privacy-policy">
+          Privacy Policy
+        </span>
+      </p>
     </div>
   );
 }

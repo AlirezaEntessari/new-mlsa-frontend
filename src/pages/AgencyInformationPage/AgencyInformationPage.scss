@@ -356,4 +356,39 @@
         left: 600px;
     }
 
+    &__terms-and-conditions {
+        margin-left: 64px;
+        margin-top: 28px;
+    }
+
+    &__terms-and-conditions-checkbox {
+        width: 36px;
+    }
+
+    &__view-agreement {
+        text-decoration: underline;
+        margin-left: 72px;
+        color: $logo-orange;
+    }
+
+    &__next-button {
+        margin-top: 42px;
+        margin-left: 260px;
+        background-color: $access-blue;
+        border: 1px solid $access-blue;
+        width: 170px;
+        height: 50px;
+        color: white;
+        border-radius: 48px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+
+    &__terms-of-use {
+        margin-top: 48px;
+        margin-left: 84px;
+        text-align: center;
+        width: 500px;
+    }
+
 }
