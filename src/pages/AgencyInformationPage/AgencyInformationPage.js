@@ -5,6 +5,7 @@ import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import CheckboxIcon from "../../assets/icons/CheckBoxEmpty.svg";
 import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
 import RightArrowIcon from "../../assets/icons/right arrow.svg";
+import { Link } from "react-router-dom";
 
 export default function AgencyInformationPage() {
   return (
@@ -430,14 +431,16 @@ export default function AgencyInformationPage() {
           </p>
         </div>
       </div>
-      <button className="agency-information-page__next-button">
-        Next{" "}
-        <img
-          className="agency-information-page__right-arrow-icon"
-          src={RightArrowIcon}
-          alt="Right Arrow"
-        />
-      </button>
+      <Link to="/membership-subscription-page">
+        <button className="agency-information-page__next-button">
+          Next{" "}
+          <img
+            className="agency-information-page__right-arrow-icon"
+            src={RightArrowIcon}
+            alt="Right Arrow"
+          />
+        </button>
+      </Link>
       <p className="agency-information-page__terms-of-use">
         By continuing, you agree to MLSA's{" "}
         <span className="agency-information-page__terms-of-use-text">
