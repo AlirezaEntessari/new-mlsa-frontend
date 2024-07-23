@@ -877,7 +877,7 @@
 
         &__instructions {
             margin-top: 48px;
-            margin-left: 738px;
+            margin-left: 743px;
             font-size: 18px;
         }
 
@@ -985,6 +985,312 @@
         &__insurance-checkbox-icon {
             width: 36px;
             margin-left: 168px;
+        }
+
+        &__checkbox-container-3 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__computers-and-technology-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__landscaping-checkbox-icon {
+            width: 36px;
+            margin-left: 70px;
+        }
+
+        &__checkbox-container-4 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__construction-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__manufacturing-checkbox-icon {
+            width: 36px;
+            margin-left: 160px;
+        }
+
+        &__checkbox-container-5 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__consumer-goods-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__oil-and-gas-checkbox-icon {
+            width: 36px;
+            margin-left: 128px;
+        }
+
+        &__checkbox-container-6 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__education-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__pharmaceuticals-checkbox-icon {
+            width: 36px;
+            margin-left: 180px;
+        }
+
+        &__checkbox-container-7 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__engineering-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__power-and-utilities-checkbox-icon {
+            width: 36px;
+            margin-left: 164px;
+        }
+
+        &__checkbox-container-8 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__financial-checkbox-icon {
+            width: 36px;
+        }
+
+        &__professional-services-consulting {
+            font-size: inherit;
+        }
+    
+        &__professional-services-consulting-checkbox-icon {
+            width: 36px;
+            margin-left: 188px;
+        }
+
+        &__checkbox-container-9 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__government-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__telecommunications-checkbox-icon {
+            width: 36px;
+            margin-left: 161px;
+        }
+
+        &__checkbox-container-10 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__healthcare-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__other-checkbox-icon {
+            width: 36px;
+            margin-left: 174px;
+        }
+
+        &__full-name-admin-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__dont-show-icon-admin {
+            position: absolute;
+            top: 500px;
+            left: 900px;
+        }
+
+        &__full-name-admin-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-1 {
+            margin-top: 24px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-2 {
+            margin-left: 24px;
+        }
+
+        &__bold {
+            font-weight: 500;
+        }
+    
+        &__rules-line-3 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-4 {
+            margin-left: 72px;
+        }
+    
+        &__rules-line-5 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-6 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-7 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-8 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-9 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-10 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-11 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-12 {
+            margin-left: 24px;
+        }
+
+        &__password-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+    
+        &__password-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-password {
+            position: absolute;
+            top: 1163px;
+            left: 1600px;
+        }
+    
+        &__confirm-password-label {
+            margin-top: 16px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__confirm-password-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-confirm-password {
+            position: absolute;
+            top: 1260px;
+            left: 1600px;
+        }
+
+        &__terms-and-conditions {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    
+        &__terms-and-conditions-checkbox {
+            width: 36px;
+        }
+
+        &__view-agreement {
+            text-decoration: underline;
+            margin-left: 8px;
+            color: $logo-orange;
+        }
+
+        &__next-button {
+            margin-top: 64px;
+            margin-left: 830px;
+            background-color: $access-blue;
+            border: 1px solid $access-blue;
+            width: 170px;
+            height: 50px;
+            color: white;
+            border-radius: 48px;
+            padding-left: 10px;
+            font-weight: 500;
+        }
+
+        &__terms-of-use {
+            margin-top: 78px;
+            margin-left: 650px;
+            text-align: center;
+            width: 500px;
+        }
+
+        &__terms-of-use-text {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__privacy-policy {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__left-container {
+            width: 50%;
+            margin-left: 180px;
+            margin-top: 72px;
+        }
+
+        &__right-container {
+            width: 50%;
+            margin-left: 32px;
+            margin-top: 72px;
         }
 
     }
