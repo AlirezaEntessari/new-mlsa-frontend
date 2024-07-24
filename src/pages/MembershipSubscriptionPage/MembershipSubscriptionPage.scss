@@ -81,4 +81,61 @@
         margin-top: 3px;
     }
 
+    &__payment-method {
+        margin-left: 92px;
+        font-weight: 500;
+        margin-top: 36px;
+        font-size: 18px;
+    }
+
+    &__payment-method-description {
+        margin-left: 92px;
+    }
+
+    &__circle-button-on-icon {
+        width: 20px;
+    }
+
+    &__credit-or-debit {
+        margin-left: 120px;
+    }
+
+    &__credit-or-debit-card-text {
+        margin-left: 10px;
+    }
+
+    &__payment-logos-container {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    &__circle-button-off-icon {
+        width: 20px;
+    }
+
+    &__paypal-logo {
+        width: 20px;
+        margin-left: 5px;
+    }
+
+    &__google-pay {
+        margin-left: 100px;
+    }
+
+    &__google-pay-logo {
+        width: 20px;
+        margin-left: 5px;
+    }
+
+    &__apple-pay {
+       position: absolute;
+       left: 400px;
+       top: 824px;
+    }
+
+    &__apple-pay-logo {
+        width: 50px;
+        margin-left: 5px;
+    }
+
 }
