@@ -119,8 +119,109 @@ export default function MembershipSubscriptionPage() {
           className="membership-subscription__first-name-input"
           type="text"
         />
-        <label htmlFor="last-name"></label>
+        <label
+          className="membership-subscription__last-name-label"
+          htmlFor="last-name"
+        >
+          Last name
+        </label>
+        <input
+          className="membership-subscription__last-name-input"
+          type="text"
+        />
+        <label
+          className="membership-subscription__card-number-label"
+          htmlFor="card-number"
+        >
+          Card number
+        </label>
+        <input
+          className="membership-subscription__card-number-input"
+          type="text"
+        />
+        <label
+          className="membership-subscription__expires-label"
+          htmlFor="expires"
+        >
+          Expires
+        </label>
+        <input className="membership-subscription__expires-input" type="text" />
+        <label className="membership-subscription__cvv-label" htmlFor="cvv">
+          CVV
+        </label>
+        <input className="membership-subscription__cvv-input" type="text" />
+        <label
+          className="membership-subscription__address-line-1-label"
+          htmlFor="address-line-1"
+        >
+          Address Line 1
+        </label>
+        <input
+          className="membership-subscription__address-line-1-input"
+          type="text"
+        />
+        <label
+          className="membership-subscription__address-line-2-label"
+          htmlFor="address-line-2"
+        >
+          Address Line 2
+        </label>
+        <input
+          className="membership-subscription__address-line-2-input"
+          type="text"
+        />
+        <label className="membership-subscription__city-label" htmlFor="city">
+          City
+        </label>
+        <input className="membership-subscription__city-input" type="text" />
+        <label className="membership-subscription__state-label" htmlFor="state">
+          State
+        </label>
+        <input className="membership-subscription__state-input" type="text" />
+        <label
+          className="membership-subscription__country-region-label"
+          htmlFor="country-region"
+        >
+          Country/region
+        </label>
+        <input
+          className="membership-subscription__country-region-input"
+          type="text"
+        />
+        <label
+          className="membership-subscription__zip-code-label"
+          htmlFor="zip-code"
+        >
+          Zip Code
+        </label>
+        <input
+          className="membership-subscription__zip-code-input"
+          type="text"
+        />
       </div>
+      <p className="membership-subscription__payment-summary">
+        Payment Summary
+      </p>
+      <p className="membership-subscription__mlsa-membership">
+        <span className="membership-subscription__mlsa-membership-text">
+          MLSA Membership
+        </span>
+        <span className="membership-subscription__mlsa-membership-price">
+          $2,499.00
+        </span>
+      </p>
+      <p className="membership-subscription__auto-renews">
+        Auto-Renews Yearly on 8/30
+      </p>
+      <p className="membership-subscription__amount-due">
+        <span className="membership-subscription__amount-due-text">
+          Amount due
+        </span>
+        <span className="membership-subscription__amount-due-price">$2,499.00</span>
+      </p>
+      <p className="membership-subscription__amount-due-date">August 30, 2024</p>
+      <p className="membership-subscription__cancellation-policy">Cancellation Policy</p>
+      <button className="membership-subscription__submit-payment-button">Submit Payment</button>
     </div>
   );
 }

@@ -35,6 +35,10 @@
         margin-top: 24px;
     }
 
+    &__bill-yearly-container:hover {
+        border: 1px solid $logo-orange;
+    }
+
     &__bill-yearly-header {
         padding-left: 12px;
         padding-top: 10px;
@@ -60,6 +64,10 @@
         margin-left: 200px;
         border-radius: 8px;
         margin-top: 24px;
+    }
+
+    &__bill-monthly-container:hover {
+        border: 1px solid $logo-orange;
     }
 
     &__bill-monthly-header {
@@ -136,6 +144,255 @@
     &__apple-pay-logo {
         width: 50px;
         margin-left: 5px;
+    }
+
+    &__credit-card-details-container {
+        width: 500px;
+        height: 1130px;
+        border: 1px solid $soft-black;
+        margin-top: 60px;
+        border-radius: 8px;
+        margin-left: 100px;
+        background-color: $background-light-blue;
+    }
+
+    &__credit-card-details-header {
+        margin-top: 10px;
+        margin-left: 24px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__first-name-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__first-name-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__last-name-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__last-name-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__card-number-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__card-number-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__expires-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__expires-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__cvv-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__cvv-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__address-line-1-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__address-line-1-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__address-line-2-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__address-line-2-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__city-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__city-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__state-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__state-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__country-region-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__country-region-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__zip-code-label {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+
+    &__zip-code-input {
+        margin-left: 24px;
+        border: 1px solid $dark-gray;
+        border-radius: 6px;
+        width: 425px;
+        height: 43px;
+        margin-top: 3px;
+    }
+
+    &__payment-summary {
+        margin-left: 92px;
+        margin-top: 32px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &__mlsa-membership {
+        margin-left: 92px;
+        margin-top: 32px;
+    }
+
+    &__mlsa-membership-text {
+        font-weight: 500;
+    }
+
+    &__mlsa-membership-price {
+        margin-left: 280px;
+        font-weight: 500;
+    }
+
+    &__auto-renews {
+        color: $dark-gray;
+        margin-left: 92px;
+        border-bottom: 2px solid $dark-gray;
+        margin-right: 116px;
+        padding-bottom: 24px;
+    }
+
+    &__amount-due {
+        margin-left: 92px;
+        margin-top: 32px;
+    }
+
+    &__amount-due-text {
+        font-weight: 500;
+    }
+
+    &__amount-due-price {
+        margin-left: 324px;
+        font-weight: 500;
+        color: $logo-blue;
+    }
+
+    &__amount-due-date {
+        margin-left: 92px;
+    }
+
+    &__cancellation-policy {
+        margin-top: 80px;
+        text-decoration: underline;
+        color: $logo-blue;
+        margin-left: 270px;
+    }
+
+    &__submit-payment-button {
+        background-color: $access-blue;
+        color: $white-text;
+        border: 1px solid $access-blue;
+        width: 220px;
+        height: 45px;
+        margin-left: 226px;
+        margin-top: 24px;
+        border-radius: 32px;
+        font-weight: 500;
     }
 
 }
