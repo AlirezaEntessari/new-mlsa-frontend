@@ -116,26 +116,56 @@ export default function MembershipSubscriptionPage() {
           <p className="membership-subscription__credit-card-details-header">
             Credit Card Details
           </p>
-          <label
-            className="membership-subscription__first-name-label"
-            htmlFor="first-name"
-          >
-            First name
-          </label>
-          <input
-            className="membership-subscription__first-name-input"
-            type="text"
-          />
-          <label
-            className="membership-subscription__last-name-label"
-            htmlFor="last-name"
-          >
-            Last name
-          </label>
-          <input
-            className="membership-subscription__last-name-input"
-            type="text"
-          />
+          <div className="membership-subscription__name-container">
+            <label
+              className="membership-subscription__first-name-label"
+              htmlFor="first-name"
+            >
+              First name
+            </label>
+            <input
+              className="membership-subscription__first-name-input"
+              type="text"
+              id="first-name"
+            />
+            <label
+              className="membership-subscription__last-name-label"
+              htmlFor="last-name"
+            >
+              Last name
+            </label>
+            <input
+              className="membership-subscription__last-name-input"
+              type="text"
+              id="last-name"
+            />
+          </div>
+          <div className="membership-subscription__tablet-name-labels-container">
+            <label
+              className="membership-subscription__tablet-first-name-label"
+              htmlFor="tablet-first-name"
+            >
+              First name
+            </label>
+            <label
+              className="membership-subscription__tablet-last-name-label"
+              htmlFor="tablet-last-name"
+            >
+              Last name
+            </label>
+          </div>
+          <div className="membership-subscription__tablet-name-input-container">
+            <input
+              className="membership-subscription__tablet-first-name-input"
+              type="text"
+              id="tablet-first-name"
+            />
+            <input
+              className="membership-subscription__tablet-last-name-input"
+              type="text"
+              id="tablet-last-name"
+            />
+          </div>
           <label
             className="membership-subscription__card-number-label"
             htmlFor="card-number"
@@ -146,20 +176,46 @@ export default function MembershipSubscriptionPage() {
             className="membership-subscription__card-number-input"
             type="text"
           />
-          <label
-            className="membership-subscription__expires-label"
-            htmlFor="expires"
-          >
-            Expires
-          </label>
-          <input
-            className="membership-subscription__expires-input"
-            type="text"
-          />
-          <label className="membership-subscription__cvv-label" htmlFor="cvv">
-            CVV
-          </label>
-          <input className="membership-subscription__cvv-input" type="text" />
+          <div className="membership-subscription__expires-cvv-container">
+            <label
+              className="membership-subscription__expires-label"
+              htmlFor="expires"
+            >
+              Expires
+            </label>
+            <input
+              className="membership-subscription__expires-input"
+              type="text"
+            />
+            <label className="membership-subscription__cvv-label" htmlFor="cvv">
+              CVV
+            </label>
+            <input className="membership-subscription__cvv-input" type="text" />
+          </div>
+          <div className="membership-subscription__tablet-expires-cvv-labels-container">
+            <label
+              className="membership-subscription__tablet-expires-label"
+              htmlFor="tablet-expires"
+            >
+              Expires
+            </label>
+            <label
+              className="membership-subscription__tablet-cvv-label"
+              htmlFor="tablet-cvv"
+            >
+              CVV
+            </label>
+          </div>
+          <div className="membership-subscription__tablet-expires-cvv-input-container">
+            <input
+              className="membership-subscription__tablet-expires-input"
+              type="text"
+            />
+            <input
+              className="membership-subscription__tablet-cvv-input"
+              type="text"
+            />
+          </div>
           <label
             className="membership-subscription__address-line-1-label"
             htmlFor="address-line-1"
@@ -180,17 +236,34 @@ export default function MembershipSubscriptionPage() {
             className="membership-subscription__address-line-2-input"
             type="text"
           />
-          <label className="membership-subscription__city-label" htmlFor="city">
-            City
-          </label>
-          <input className="membership-subscription__city-input" type="text" />
-          <label
-            className="membership-subscription__state-label"
-            htmlFor="state"
-          >
-            State
-          </label>
-          <input className="membership-subscription__state-input" type="text" />
+          <div className="membership-subscription__city-state-container">
+            <label
+              className="membership-subscription__city-label"
+              htmlFor="city"
+            >
+              City
+            </label>
+            <input
+              className="membership-subscription__city-input"
+              type="text"
+              id="city"
+            />
+            <label
+              className="membership-subscription__state-label"
+              htmlFor="state"
+              id="state"
+            >
+              State
+            </label>
+            <input
+              className="membership-subscription__state-input"
+              type="text"
+            />
+          </div>
+          <div className="membership-subscription__tablet-city-state-labels-container">
+            <label className="membership-subscription__tablet-city-label" htmlFor="tablet-city">City</label>
+            <label className="membership-subscription__tablet-state-label" htmlFor="tablet-state">State</label>
+          </div>
           <label
             className="membership-subscription__country-region-label"
             htmlFor="country-region"

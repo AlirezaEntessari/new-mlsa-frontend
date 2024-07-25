@@ -151,7 +151,7 @@
         height: 1130px;
         border: 1px solid $soft-black;
         margin-top: 60px;
-        border-radius: 8px;
+        border-radius: 12px;
         margin-left: 100px;
         background-color: $background-light-blue;
     }
@@ -395,6 +395,22 @@
         font-weight: 500;
     }
 
+    &__tablet-name-labels-container {
+        display: none;
+    }
+
+    &__tablet-name-input-container {
+        display: none;
+    }
+
+    &__tablet-expires-cvv-labels-container {
+        display: none;
+    }
+
+    &__tablet-expires-cvv-input-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -558,6 +574,154 @@
         &__apple-pay-logo {
             width: 50px;
             margin-left: 5px;
+        }
+
+        &__credit-card-details-container {
+            width: 675px;
+            height: 1130px;
+            border: 1px solid $soft-black;
+            margin-top: 60px;
+            border-radius: 12px;
+            margin-left: 60px;
+            background-color: $background-light-blue;
+        }
+
+        &__credit-card-details-header {
+            margin-top: 15px;
+            margin-left: 24px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__name-container {
+            display: none;
+        }
+
+        &__tablet-name-labels-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 36px;
+        }
+
+        &__tablet-last-name-label {
+            margin-left: 243px;
+        }
+
+        &__tablet-name-input-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__tablet-first-name-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__tablet-last-name-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+
+        &__card-number-label {
+            display: block;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+    
+        &__card-number-input {
+            margin-left: 24px;
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 615px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__expires-cvv-container {
+            display: none;
+        }
+
+        &__tablet-expires-cvv-labels-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+
+        &__tablet-cvv-label {
+            margin-left: 266px;
+        }
+
+        &__tablet-expires-cvv-input-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__tablet-expires-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__tablet-cvv-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+
+        &__address-line-1-label {
+            display: block;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+    
+        &__address-line-1-input {
+            margin-left: 24px;
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 615px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__address-line-2-label {
+            display: block;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+    
+        &__address-line-2-input {
+            margin-left: 24px;
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 615px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__city-state-container {
+            display: none;
+        }
+
+        &__tablet-city-state-labels-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+
+        &__tablet-state-label {
+            margin-left: 200px;
         }
 
 
