@@ -396,3 +396,171 @@
     }
 
 }
+
+@include tablet {
+
+    .membership-subscription {
+
+        padding-bottom: 15rem;
+
+        &__mlsa-logo {
+            width: 450px;
+            margin-left: 290px;
+            margin-top: 72px;
+        }
+
+        &__container {
+            margin-left: 100px;
+            margin-right: 100px;
+            border: 1.5px solid $soft-black;
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+
+        &__header {
+            font-size: 34px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 48px;
+        }
+
+        &__payment-details {
+            margin-left: 48px;
+            font-weight: 500;
+            margin-top: 32px;
+            font-size: 18px;
+        }
+
+        &__bill-container {
+            display: flex;
+            margin-left: 48px;
+        }
+
+        &__bill-yearly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 0px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-yearly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-yearly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+        }
+
+        &__check-in-circle-icon {
+            width: 24px;
+        }
+    
+        &__bill-yearly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-yearly-description {
+            margin-left: 32px;
+            margin-top: 3px;
+        }
+
+        &__bill-monthly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-monthly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-monthly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+    
+        &__exit-icon {
+            width: 24px;
+        }
+    
+        &__bill-monthly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-monthly-description {
+            margin-left: 44px;
+            margin-top: 3px;
+        }
+
+        &__payment-method {
+            margin-left: 48px;
+            font-weight: 500;
+            margin-top: 36px;
+            font-size: 18px;
+        }
+
+        &__payment-method-description {
+            margin-left: 48px;
+        }
+
+        &__payment-container {
+            display: flex;
+        }
+    
+        &__credit-or-debit {
+            margin-left: 48px;
+        }
+
+        &__circle-button-on-icon {
+            width: 20px;
+        }
+    
+        &__credit-or-debit-card-text {
+            margin-left: 10px;
+        }
+    
+        &__payment-logos-container {
+            display: flex;
+            margin-left: 72px;
+        }
+
+        &__circle-button-off-icon {
+            width: 20px;
+        }
+    
+        &__paypal-logo {
+            width: 20px;
+            margin-left: 5px;
+        }
+
+        &__google-pay {
+            margin-left: 100px;
+        }
+    
+        &__google-pay-logo {
+            width: 20px;
+            margin-left: 5px;
+        }
+    
+        &__apple-pay {
+           position: absolute;
+           left: 670px;
+           top: 595px;
+        }
+    
+        &__apple-pay-logo {
+            width: 50px;
+            margin-left: 5px;
+        }
+
+
+    }
+
+}
