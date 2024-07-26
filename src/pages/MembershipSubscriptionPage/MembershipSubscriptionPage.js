@@ -261,29 +261,81 @@ export default function MembershipSubscriptionPage() {
             />
           </div>
           <div className="membership-subscription__tablet-city-state-labels-container">
-            <label className="membership-subscription__tablet-city-label" htmlFor="tablet-city">City</label>
-            <label className="membership-subscription__tablet-state-label" htmlFor="tablet-state">State</label>
+            <label
+              className="membership-subscription__tablet-city-label"
+              htmlFor="tablet-city"
+            >
+              City
+            </label>
+            <label
+              className="membership-subscription__tablet-state-label"
+              htmlFor="tablet-state"
+            >
+              State
+            </label>
           </div>
-          <label
-            className="membership-subscription__country-region-label"
-            htmlFor="country-region"
-          >
-            Country/region
-          </label>
-          <input
-            className="membership-subscription__country-region-input"
-            type="text"
-          />
-          <label
-            className="membership-subscription__zip-code-label"
-            htmlFor="zip-code"
-          >
-            Zip Code
-          </label>
-          <input
-            className="membership-subscription__zip-code-input"
-            type="text"
-          />
+          <div className="membership-subscription__tablet-city-state-input-container">
+            <input
+              className="membership-subscription__tablet-city-input"
+              type="text"
+              id="tablet-city"
+            />
+            <input
+              className="membership-subscription__tablet-state-input"
+              type="text"
+              id="tablet-state"
+            />
+          </div>
+          <div className="membership-subscription__country-region-zip-code-container">
+            <label
+              className="membership-subscription__country-region-label"
+              htmlFor="country-region"
+            >
+              Country/region
+            </label>
+            <input
+              className="membership-subscription__country-region-input"
+              type="text"
+              id="country-region"
+            />
+            <label
+              className="membership-subscription__zip-code-label"
+              htmlFor="zip-code"
+            >
+              Zip Code
+            </label>
+            <input
+              className="membership-subscription__zip-code-input"
+              type="text"
+              id="zip-code"
+            />
+          </div>
+          <div className="membership-subscription__tablet-country-region-zip-code-labels-container">
+            <label
+              className="membership-subscription__tablet-country-region-label"
+              htmlFor="tablet-country-region"
+            >
+              Country/region
+            </label>
+            <label
+              className="membership-subscription__tablet-zip-code-label"
+              htmlFor="tablet-zip-code"
+            >
+              Zip code
+            </label>
+          </div>
+          <div className="membership-subscription__tablet-country-region-zip-code-input-container">
+            <input
+              className="membership-subscription__tablet-country-region-input"
+              type="text"
+              id="tablet-country-region"
+            />
+            <input
+              className="membership-subscription__tablet-zip-code-input"
+              type="text"
+              id="tablet-zip-code"
+            />
+          </div>
         </div>
         <p className="membership-subscription__payment-summary">
           Payment Summary
@@ -310,12 +362,14 @@ export default function MembershipSubscriptionPage() {
         <p className="membership-subscription__amount-due-date">
           August 30, 2024
         </p>
-        <p className="membership-subscription__cancellation-policy">
-          Cancellation Policy
-        </p>
-        <button className="membership-subscription__submit-payment-button">
-          Submit Payment
-        </button>
+        <div className="membership-subscription__cancellation-policy-submit-payment-container">
+          <p className="membership-subscription__cancellation-policy">
+            Cancellation Policy
+          </p>
+          <button className="membership-subscription__submit-payment-button">
+            Submit Payment
+          </button>
+        </div>
       </div>
     </div>
   );

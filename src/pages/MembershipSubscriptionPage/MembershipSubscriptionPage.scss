@@ -411,6 +411,22 @@
         display: none;
     }
 
+    &__tablet-city-state-labels-container {
+        display: none;
+    }
+
+    &__tablet-city-state-input-container {
+        display: none;
+    }
+
+    &__tablet-country-region-zip-code-labels-container {
+        display: none;
+    }
+
+    &__tablet-country-region-zip-code-input-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -431,6 +447,7 @@
             border: 1.5px solid $soft-black;
             margin-top: 50px;
             border-radius: 8px;
+            padding-bottom: 50px;
         }
 
         &__header {
@@ -578,7 +595,7 @@
 
         &__credit-card-details-container {
             width: 675px;
-            height: 1130px;
+            height: 770px;
             border: 1px solid $soft-black;
             margin-top: 60px;
             border-radius: 12px;
@@ -721,9 +738,351 @@
         }
 
         &__tablet-state-label {
-            margin-left: 200px;
+            margin-left: 290px;
         }
 
+        &__tablet-city-state-input-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__tablet-city-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__tablet-state-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+
+        &__country-region-zip-code-container {
+            display: none;
+        }
+
+        &__tablet-country-region-zip-code-labels-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+
+        &__tablet-zip-code-label {
+            margin-left: 210px;
+        }
+
+        &__tablet-country-region-zip-code-input-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__tablet-country-region-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        &__tablet-zip-code-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 300px;
+            height: 43px;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+
+        &__payment-summary {
+            margin-left: 60px;
+            margin-top: 32px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__mlsa-membership {
+            margin-left: 92px;
+            margin-top: 32px;
+        }
+
+        &__mlsa-membership-text {
+            font-weight: 500;
+        }
+    
+        &__mlsa-membership-price {
+            margin-left: 396px;
+            font-weight: 500;
+        }
+
+        &__auto-renews {
+            color: $dark-gray;
+            margin-left: 92px;
+            border-bottom: 2px solid $dark-gray;
+            margin-right: 100px;
+            padding-bottom: 24px;
+        }
+
+        &__amount-due {
+            margin-left: 92px;
+            margin-top: 16px;
+        }
+    
+        &__amount-due-text {
+            font-weight: 500;
+        }
+
+        &__amount-due-price {
+            margin-left: 440px;
+            font-weight: 500;
+            color: $logo-blue;
+        }
+
+        &__amount-due-date {
+            margin-left: 92px;
+        }
+
+        &__cancellation-policy-submit-payment-container {
+            display: flex;
+        }
+
+        &__cancellation-policy {
+            text-decoration: underline;
+            color: $logo-blue;
+            margin-left: 92px;
+            margin-top: 64px;
+        }
+
+        &__submit-payment-button {
+            background-color: $access-blue;
+            color: $white-text;
+            border: 1px solid $access-blue;
+            width: 220px;
+            height: 45px;
+            margin-left: 255px;
+            margin-top: 15px;
+            border-radius: 32px;
+            font-weight: 500;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .membership-subscription {
+
+        padding-bottom: 15rem;
+
+        &__mlsa-logo {
+            width: 500px;
+            margin-left: 700px;
+            margin-top: 72px;
+        }
+
+        &__container {
+            margin-left: 400px;
+            margin-right: 400px;
+            border: 1.5px solid $soft-black;
+            margin-top: 50px;
+            border-radius: 8px;
+            padding-bottom: 50px;
+        }
+
+        &__header {
+            font-size: 34px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 72px;
+        }
+
+        &__payment-details {
+            margin-left: 72px;
+            font-weight: 500;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+
+        &__bill-container {
+            display: flex;
+            margin-left: 72px;
+        }
+
+        &__bill-yearly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 0px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-yearly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-yearly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+        }
+
+        &__check-in-circle-icon {
+            width: 24px;
+        }
+    
+        &__bill-yearly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-yearly-description {
+            margin-left: 32px;
+            margin-top: 3px;
+        }
+
+        &__bill-monthly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-monthly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-monthly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        &__exit-icon {
+            width: 24px;
+        }
+    
+        &__bill-monthly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-monthly-description {
+            margin-left: 44px;
+            margin-top: 3px;
+        }
+
+        &__payment-method {
+            margin-left: 72px;
+            font-weight: 500;
+            margin-top: 36px;
+            font-size: 18px;
+        }
+
+        &__payment-method-description {
+            margin-left: 72px;
+        }
+
+        &__payment-container {
+            display: flex;
+        }
+    
+        &__credit-or-debit {
+            margin-left: 72px;
+        }
+
+        &__circle-button-on-icon {
+            width: 20px;
+        }
+    
+        &__credit-or-debit-card-text {
+            margin-left: 10px;
+        }
+
+        &__payment-logos-container {
+            display: flex;
+            margin-left: 72px;
+        }
+
+        &__circle-button-off-icon {
+            width: 20px;
+        }
+
+        &__paypal-logo {
+            width: 20px;
+            margin-left: 5px;
+        }
+
+        &__google-pay {
+            margin-left: 100px;
+        }
+
+        &__google-pay-logo {
+            width: 20px;
+            margin-left: 5px;
+        }
+    
+        &__apple-pay {
+           position: absolute;
+           left: 1010px;
+           top: 617px;
+        }
+    
+        &__apple-pay-logo {
+            width: 50px;
+            margin-left: 5px;
+        }
+
+        &__credit-card-details-container {
+            width: 975px;
+            height: 770px;
+            border: 1px solid $soft-black;
+            margin-top: 40px;
+            border-radius: 12px;
+            margin-left: 60px;
+            background-color: $background-light-blue;
+        }
+
+        &__credit-card-details-header {
+            margin-top: 24px;
+            margin-left: 36px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__name-container {
+            display: none;
+        }
+
+        &__tablet-name-labels-container {
+            display: flex;
+            margin-left: 36px;
+            margin-top: 36px;
+        }
+
+        &__tablet-last-name-label {
+            margin-left: 300px;
+        }
+
+        &__tablet-name-input-container {
+            display: flex;
+            margin-left: 36px;
+        }
+
+        &__tablet-first-name-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 400px;
+            height: 43px;
+            margin-top: 3px;
+        }
+
+        
 
     }
 
