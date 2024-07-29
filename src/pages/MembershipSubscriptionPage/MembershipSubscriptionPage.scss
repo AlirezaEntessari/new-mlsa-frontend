@@ -176,6 +176,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__last-name-label {
@@ -191,6 +192,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__card-number-label {
@@ -206,6 +208,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__expires-label {
@@ -221,6 +224,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__cvv-label {
@@ -236,6 +240,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__address-line-1-label {
@@ -251,6 +256,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__address-line-2-label {
@@ -266,6 +272,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__city-label {
@@ -281,6 +288,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__state-label {
@@ -296,6 +304,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__country-region-label {
@@ -311,6 +320,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__zip-code-label {
@@ -326,6 +336,7 @@
         width: 425px;
         height: 43px;
         margin-top: 3px;
+        padding-left: 10px;
     }
 
     &__payment-summary {
@@ -635,6 +646,7 @@
             width: 300px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-last-name-input {
@@ -644,6 +656,7 @@
             height: 43px;
             margin-top: 3px;
             margin-left: 15px;
+            padding-left: 10px;
         }
 
         &__card-number-label {
@@ -659,6 +672,7 @@
             width: 615px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__expires-cvv-container {
@@ -686,6 +700,7 @@
             width: 300px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-cvv-input {
@@ -695,6 +710,7 @@
             height: 43px;
             margin-top: 3px;
             margin-left: 15px;
+            padding-left: 10px;
         }
 
         &__address-line-1-label {
@@ -710,6 +726,7 @@
             width: 615px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__address-line-2-label {
@@ -725,6 +742,7 @@
             width: 615px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__city-state-container {
@@ -752,6 +770,7 @@
             width: 300px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-state-input {
@@ -761,6 +780,7 @@
             height: 43px;
             margin-top: 3px;
             margin-left: 15px;
+            padding-left: 10px;
         }
 
         &__country-region-zip-code-container {
@@ -788,6 +808,7 @@
             width: 300px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-zip-code-input {
@@ -797,6 +818,7 @@
             height: 43px;
             margin-top: 3px;
             margin-left: 15px;
+            padding-left: 10px;
         }
 
         &__payment-summary {
@@ -1080,6 +1102,7 @@
             width: 430px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-last-name-input {
@@ -1104,6 +1127,7 @@
             width: 875px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__expires-cvv-container {
@@ -1131,6 +1155,7 @@
             width: 430px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__tablet-cvv-input {
@@ -1140,6 +1165,7 @@
             height: 43px;
             margin-top: 3px;
             margin-left: 15px;
+            padding-left: 10px;
         }
 
         &__address-line-1-label {
@@ -1155,6 +1181,7 @@
             width: 875px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__address-line-2-label {
@@ -1170,6 +1197,7 @@
             width: 875px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
         }
 
         &__city-state-container {
@@ -1183,7 +1211,7 @@
         }
 
         &__tablet-state-label {
-            margin-left: 290px;
+            margin-left: 420px;
         }
 
         &__tablet-city-state-input-container {
@@ -1197,6 +1225,125 @@
             width: 430px;
             height: 43px;
             margin-top: 3px;
+            padding-left: 10px;
+        }
+
+        &__tablet-state-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 430px;
+            height: 43px;
+            margin-top: 3px; 
+            padding-left: 10px;
+        }
+
+        &__country-region-zip-code-container {
+            display: none;
+        }
+
+        &__tablet-country-region-zip-code-labels-container {
+            display: flex;
+            margin-left: 36px;
+            margin-top: 24px;
+        }
+
+        &__tablet-zip-code-label {
+            margin-left: 340px;
+        }
+
+        &__tablet-country-region-zip-code-input-container {
+            display: flex;
+            margin-left: 36px;
+        }
+
+        &__tablet-country-region-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 430px;
+            height: 43px;
+            margin-top: 3px;
+            padding-left: 10px;
+        }
+
+        &__tablet-zip-code-input {
+            border: 1px solid $dark-gray;
+            border-radius: 6px;
+            width: 430px;
+            height: 43px;
+            margin-top: 3px;
+            margin-left: 15px;
+            padding-left: 10px;
+        }
+
+        &__payment-summary {
+            margin-left: 60px;
+            margin-top: 32px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__mlsa-membership {
+            margin-left: 138px;
+            margin-top: 32px;
+        }
+
+        &__mlsa-membership-text {
+            font-weight: 500;
+        }
+    
+        &__mlsa-membership-price {
+            margin-left: 655px;
+            font-weight: 500;
+        }
+
+        &__auto-renews {
+            color: $dark-gray;
+            margin-left: 138px;
+            border-bottom: 2px solid $dark-gray;
+            margin-right: 100px;
+            padding-bottom: 24px;
+        }
+
+        &__amount-due {
+            margin-left: 138px;
+            margin-top: 16px;
+        }
+
+        &__amount-due-text {
+            font-weight: 500;
+        }
+
+        &__amount-due-price {
+            margin-left: 700px;
+            font-weight: 500;
+            color: $logo-blue;
+        }
+
+        &__amount-due-date {
+            margin-left: 138px;
+        }
+
+        &__cancellation-policy-submit-payment-container {
+            display: flex;
+        }
+
+        &__cancellation-policy {
+            text-decoration: underline;
+            color: $logo-blue;
+            margin-left: 138px;
+            margin-top: 48px;
+        }
+
+        &__submit-payment-button {
+            background-color: $access-blue;
+            color: $white-text;
+            border: 1px solid $access-blue;
+            width: 220px;
+            height: 45px;
+            margin-left: 512px;
+            margin-top: 15px;
+            border-radius: 32px;
+            font-weight: 500;
         }
 
         
