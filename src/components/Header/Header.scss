@@ -1,0 +1,41 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.header {
+
+    &__mlsa-logo {
+        width: 500px;
+        margin-left: 110px;
+        margin-top: 72px;
+    }
+
+}
+
+@include tablet {
+
+    .header {
+
+        &__mlsa-logo {
+            width: 450px;
+            margin-left: 290px;
+            margin-top: 72px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .header {
+
+        &__mlsa-logo {
+            width: 500px;
+            margin-left: 700px;
+            margin-top: 72px;
+        }
+
+    }
+
+}
