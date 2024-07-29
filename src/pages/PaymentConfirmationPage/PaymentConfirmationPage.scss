@@ -146,12 +146,14 @@
             border: 2px solid $soft-black;
             margin-left: 100px;
             margin-right: 100px;
-            margin-top: 48px;
+            margin-top: 64px;
             border-radius: 8px;
         }
 
         &__header-container {
             display: flex;
+            margin-top: 32px;
+            margin-left: 44px;
         }
 
         &__header {
@@ -162,10 +164,285 @@
         }
 
         &__header-logo {
-            width: 400px;
+            width: 350px;
             display: inherit;
+            margin-left: 60px;
         }
 
+        &__payment-confirmation-header {
+            margin-left: 60px;
+            margin-top: 72px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        &__payment-was-received {
+            margin-left: 60px;
+            font-weight: 500;
+        }
+
+        &__mlsa-membership {
+            margin-left: 60px;
+            margin-top: 48px;
+            margin-bottom: 8px;
+        }
+
+        &__mlsa-membership-1-year {
+            font-weight: 500;
+        }
+    
+        &__mlsa-membership-price {
+            margin-left: 350px;
+            font-weight: 500;
+        }
+
+        &__auto-renews {
+            margin-left: 60px;
+            color: $dark-gray;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 24px;
+            margin-right: 110px;
+        }
+    
+        &__amount-paid {
+            margin-left: 60px;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        &__amount-paid-text {
+            font-weight: 500;
+        }
+    
+        &__amount-paid-price {
+            margin-left: 445px;
+            color: $logo-blue;
+            font-weight: 500;
+        }
+
+        &__amount-paid-date {
+            color: $dark-gray;
+            margin-left: 60px;
+            margin-bottom: 8px;
+        }
+    
+        &__credit-card {
+            margin-left: 60px;
+            color: $dark-gray;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 24px;
+            margin-right: 110px;
+        }
+
+        &__balance-due {
+            margin-left: 60px;
+            margin-top: 24px;
+        }
+    
+        &__balance-due-text {
+            font-weight: 500;
+        }
+
+        &__balance-due-number {
+            margin-left: 476px;
+            font-weight: 500;
+        }
+    
+        &__next-payment-due {
+            margin-left: 60px;
+            font-weight: 500;
+            margin-top: 48px;
+            margin-bottom: 8px;
+        }
+
+        &__next-payment-due-date {
+            margin-left: 60px;
+            color: $dark-gray;
+        }
+    
+        &__reminder-text {
+            color: $dark-gray;
+            margin-top: 60px;
+            margin-left: 60px;
+        }
+
+        &__cancellation-policy {
+            margin-left: 60px;
+            margin-top: 64px;
+            text-decoration: underline;
+            color: $logo-blue;
+        }
+
+        &__log-in-button {
+            margin-top: 64px;
+            margin-left: 280px;
+            border: 1px solid $access-blue;
+            color: $white-text;
+            background-color: $access-blue;
+            width: 210px;
+            height: 45px;
+            font-weight: 500;
+            border-radius: 24px;
+            font-size: 17px;
+            margin-bottom: 64px;
+        }
+    
+    }
+
+}
+
+@include desktop {
+
+    .payment-confirmation {
+
+        padding-bottom: 15rem;
+
+        &__container {
+            border: 2px solid $soft-black;
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 64px;
+            border-radius: 8px;
+        }
+
+        &__header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 60px;
+        }
+
+        &__header {
+            margin-left: 10px;
+            margin-top: 24px;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        &__header-logo {
+            width: 350px;
+            display: inherit;
+            margin-left: 100px;
+        }
+
+        &__payment-confirmation-header {
+            margin-left: 76px;
+            margin-top: 72px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        &__payment-was-received {
+            margin-left: 76px;
+            font-weight: 500;
+        }
+
+        &__mlsa-membership {
+            margin-left: 76px;
+            margin-top: 48px;
+            margin-bottom: 8px;
+        }
+
+        &__mlsa-membership-1-year {
+            font-weight: 500;
+        }
+    
+        &__mlsa-membership-price {
+            margin-left: 425px;
+            font-weight: 500;
+        }
+
+        &__auto-renews {
+            margin-left: 76px;
+            color: $dark-gray;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 24px;
+            margin-right: 110px;
+        }
+
+        &__amount-paid {
+            margin-left: 76px;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        &__amount-paid-text {
+            font-weight: 500;
+        }
+
+        &__amount-paid-price {
+            margin-left: 520px;
+            color: $logo-blue;
+            font-weight: 500;
+        }
+
+        &__amount-paid-date {
+            color: $dark-gray;
+            margin-left: 76px;
+            margin-bottom: 8px;
+        }
+    
+        &__credit-card {
+            margin-left: 76px;
+            color: $dark-gray;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 24px;
+            margin-right: 110px;
+        }
+
+        &__balance-due {
+            margin-left: 76px;
+            margin-top: 24px;
+        }
+    
+        &__balance-due-text {
+            font-weight: 500;
+        }
+
+        &__balance-due-number {
+            margin-left: 555px;
+            font-weight: 500;
+        }
+    
+        &__next-payment-due {
+            margin-left: 76px;
+            font-weight: 500;
+            margin-top: 48px;
+            margin-bottom: 8px;
+        }
+
+        &__next-payment-due-date {
+            margin-left: 76px;
+            color: $dark-gray;
+        }
+    
+        &__reminder-text {
+            color: $dark-gray;
+            margin-top: 60px;
+            margin-left: 76px;
+        }
+
+        &__cancellation-policy {
+            margin-left: 76px;
+            margin-top: 64px;
+            text-decoration: underline;
+            color: $logo-blue;
+        }
+
+        &__log-in-button {
+            margin-top: 64px;
+            margin-left: 330px;
+            border: 1px solid $access-blue;
+            color: $white-text;
+            background-color: $access-blue;
+            width: 210px;
+            height: 45px;
+            font-weight: 500;
+            border-radius: 24px;
+            font-size: 17px;
+            margin-bottom: 64px;
+        }
+
+    
     }
 
 }
