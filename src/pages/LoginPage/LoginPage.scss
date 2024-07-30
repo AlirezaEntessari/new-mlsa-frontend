@@ -4,6 +4,8 @@
 
 .login {
 
+    padding-bottom: 10rem;
+
     &__header {
         text-align: center;
         margin-top: 32px;
@@ -18,32 +20,163 @@
 
     &__email-label {
         display: block;
-        margin-left: 72px;
-        margin-top: 36px;
+        margin-left: 84px;
+        margin-top: 48px;
     }
 
     &__email-input {
         width: 550px;
         height: 47px;
-        margin-left: 72px;
+        margin-left: 84px;
         border: 1px solid $dark-gray;
         border-radius: 5px;
         padding-left: 10px;
     }
 
+    &__hide-icon {
+        position: absolute;
+        top: 540px;
+        left: 585px;
+    }
+
     &__password-label {
         display: block;
-        margin-left: 72px;
+        margin-left: 84px;
         margin-top: 24px;
     }
 
     &__password-input {
         width: 550px;
         height: 47px;
-        margin-left: 72px;
+        margin-left: 84px;
         border: 1px solid $dark-gray;
         border-radius: 5px;
         padding-left: 10px;
+    }
+
+    &__keep-me-signed-in {
+        margin-left: 76px;
+        margin-top: 24px;
+    }
+
+    &__checkbox-empty-icon {
+        width: 36px;
+    }
+
+    &__keep-me-signed-in-text {
+        margin-left: 10px;
+    }
+
+    &__forgot-your-password-text {
+        color: $logo-orange;
+        margin-left: 210px;
+    }
+
+    &__reCAPTCHA-icon {
+        width: 350px;
+        margin-top: 72px;
+        margin-left: 160px;
+    }
+
+    &__enter-button {
+        display: block;
+        background-color: $access-blue;
+        border: 1px solid $access-blue;
+        width: 200px;
+        height: 50px;
+        color: $white-text;
+        font-weight: 500;
+        font-size: 17px;
+        margin-left: 225px;
+        margin-top: 48px;
+        border-radius: 24px;
+    }
+
+    &__dont-have-an-account {
+        margin-left: 190px;
+        margin-top: 72px;
+    }
+
+    &__sign-up-text {
+        margin-left: 28px;
+        color: $logo-orange;
+        font-weight: 500;
+    }
+
+}
+
+@include tablet {
+
+    .login {
+
+        padding-bottom: 15rem;
+
+        &__header {
+            text-align: center;
+            margin-top: 48px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        &__enter-text {
+            text-align: center;
+            margin-top: 32px;
+        }
+    
+        &__email-label {
+            display: block;
+            margin-left: 180px;
+            margin-top: 48px;
+        }
+
+        &__email-input {
+            width: 700px;
+            height: 47px;
+            margin-left: 180px;
+            border: 1px solid $dark-gray;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+
+        &__hide-icon {
+            position: absolute;
+            top: 543px;
+            left: 1000px;
+        }
+    
+        &__password-label {
+            display: block;
+            margin-left: 180px;
+            margin-top: 24px;
+        }
+    
+        &__password-input {
+            width: 700px;
+            height: 47px;
+            margin-left: 180px;
+            border: 1px solid $dark-gray;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+
+        &__keep-me-signed-in {
+            margin-left: 180px;
+            margin-top: 24px;
+        }
+    
+        &__checkbox-empty-icon {
+            width: 36px;
+        }
+
+        &__keep-me-signed-in-text {
+            margin-left: 10px;
+        }
+    
+        &__forgot-your-password-text {
+            color: $logo-orange;
+            margin-left: 358px;
+        }
+
     }
 
 }
