@@ -31,6 +31,7 @@
         border: 1px solid $dark-gray;
         border-radius: 5px;
         padding-left: 10px;
+        margin-top: 3px;
     }
 
     &__hide-icon {
@@ -52,6 +53,7 @@
         border: 1px solid $dark-gray;
         border-radius: 5px;
         padding-left: 10px;
+        margin-top: 3px;
     }
 
     &__keep-me-signed-in {
@@ -136,6 +138,7 @@
             border: 1px solid $dark-gray;
             border-radius: 5px;
             padding-left: 10px;
+            margin-top: 3px;
         }
 
         &__hide-icon {
@@ -157,6 +160,7 @@
             border: 1px solid $dark-gray;
             border-radius: 5px;
             padding-left: 10px;
+            margin-top: 3px;
         }
 
         &__keep-me-signed-in {
@@ -176,6 +180,147 @@
             color: $logo-orange;
             margin-left: 358px;
         }
+
+        &__reCAPTCHA-icon {
+            width: 350px;
+            margin-top: 72px;
+            margin-left: 345px;
+        }
+
+        &__enter-button {
+            display: block;
+            background-color: $access-blue;
+            border: 1px solid $access-blue;
+            width: 200px;
+            height: 50px;
+            color: $white-text;
+            font-weight: 500;
+            font-size: 17px;
+            margin-left: 405px;
+            margin-top: 64px;
+            border-radius: 24px;
+        }
+
+        &__dont-have-an-account {
+            margin-left: 373px;
+            margin-top: 72px;
+        }
+    
+        &__sign-up-text {
+            margin-left: 28px;
+            color: $logo-orange;
+            font-weight: 500;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .login {
+
+        padding-bottom: 15rem;
+
+        &__header {
+            text-align: center;
+            margin-top: 48px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        &__enter-text {
+            text-align: center;
+            margin-top: 32px;
+        }
+    
+        &__email-label {
+            display: block;
+            margin-left: 520px;
+            margin-top: 64px;
+        }
+
+        &__email-input {
+            width: 850px;
+            height: 50px;
+            margin-left: 520px;
+            border: 1px solid $dark-gray;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__hide-icon {
+            position: absolute;
+            top: 583px;
+            left: 1320px;
+        }
+    
+        &__password-label {
+            display: block;
+            margin-left: 520px;
+            margin-top: 24px;
+        }
+    
+        &__password-input {
+            width: 850px;
+            height: 50px;
+            margin-left: 520px;
+            border: 1px solid $dark-gray;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__keep-me-signed-in {
+            margin-left: 510px;
+            margin-top: 24px;
+        }
+    
+        &__checkbox-empty-icon {
+            width: 36px;
+        }
+
+        &__keep-me-signed-in-text {
+            margin-left: 10px;
+        }
+    
+        &__forgot-your-password-text {
+            color: $logo-orange;
+            margin-left: 518px;
+        }
+
+        &__reCAPTCHA-icon {
+            width: 350px;
+            margin-top: 72px;
+            margin-left: 790px;
+        }
+
+        &__enter-button {
+            display: block;
+            background-color: $access-blue;
+            border: 1px solid $access-blue;
+            width: 200px;
+            height: 50px;
+            color: $white-text;
+            font-weight: 500;
+            font-size: 17px;
+            margin-left: 860px;
+            margin-top: 64px;
+            border-radius: 24px;
+        }
+
+        &__dont-have-an-account {
+            margin-left: 829px;
+            margin-top: 72px;
+        }
+    
+        &__sign-up-text {
+            margin-left: 28px;
+            color: $logo-orange;
+            font-weight: 500;
+        }
+
 
     }
 
