@@ -2,6 +2,7 @@ import React from "react";
 import "./PaymentConfirmationPage.scss";
 import Header from "../../components/Header/Header";
 import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
+import { Link } from "react-router-dom";
 
 export default function PaymentConfirmationPage() {
   return (
@@ -65,7 +66,11 @@ export default function PaymentConfirmationPage() {
         <p className="payment-confirmation__cancellation-policy">
           Cancellation Policy
         </p>
-        <button className="payment-confirmation__log-in-button">Log In</button>
+        <Link to="/login-page">
+          <button className="payment-confirmation__log-in-button">
+            Log In
+          </button>
+        </Link>
       </div>
     </div>
   );

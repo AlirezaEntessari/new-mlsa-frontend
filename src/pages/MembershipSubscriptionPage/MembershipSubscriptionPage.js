@@ -8,6 +8,7 @@ import CircleButtonOffIcon from "../../assets/icons/CircleButtonOff.svg";
 import PayPalLogo from "../../assets/logos/PPPaypalLogo.svg";
 import GooglePayLogo from "../../assets/logos/GooglePay.png";
 import ApplePayLogo from "../../assets/logos/ApplePay.png";
+import { Link } from "react-router-dom";
 
 export default function MembershipSubscriptionPage() {
   return (
@@ -366,9 +367,11 @@ export default function MembershipSubscriptionPage() {
           <p className="membership-subscription__cancellation-policy">
             Cancellation Policy
           </p>
-          <button className="membership-subscription__submit-payment-button">
-            Submit Payment
-          </button>
+          <Link to="/payment-confirmation-page">
+            <button className="membership-subscription__submit-payment-button">
+              Submit Payment
+            </button>
+          </Link>
         </div>
       </div>
     </div>

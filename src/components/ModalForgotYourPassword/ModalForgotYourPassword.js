@@ -2,7 +2,7 @@ import React from "react";
 import "./ModalForgotYourPassword.scss";
 import ClosePopUpWindowIcon from "../../assets/icons/XsmWindow.svg";
 
-export default function ModalForgotYourPassword({ closeModal }) {
+export default function ModalForgotYourPassword({ closeModal, handleContinue }) {
   return (
     <div className="modal-forgot-your-password">
       <div className="modal-forgot-your-password__overlay" onClick={closeModal}>
@@ -38,7 +38,10 @@ export default function ModalForgotYourPassword({ closeModal }) {
             type="text"
             placeholder="Enter your email"
           />
-          <button className="modal-forgot-your-password__continue-button">
+          <button
+            className="modal-forgot-your-password__continue-button"
+            onClick={handleContinue}
+          >
             Continue
           </button>
         </div>

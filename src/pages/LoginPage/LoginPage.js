@@ -5,16 +5,28 @@ import HideIcon from "../../assets/icons/ph_eye-light (1).svg";
 import CheckboxEmptyIcon from "../../assets/icons/CheckBoxEmpty.svg";
 import reCAPTCHAIcon from "../../assets/icons/reCAPTCHA.svg";
 import ModalForgotYourPassword from "../../components/ModalForgotYourPassword/ModalForgotYourPassword";
+import ModalCheckYourEmail from "../../components/ModalCheckYourEmail/ModalCheckYourEmail";
+import { Link } from "react-router-dom";
 
 export default function LoginPage() {
-  const [isModalVisible, setModalVisible] = useState(false);
+  const [isForgotPasswordModalVisible, setForgotPasswordModalVisible] = useState(false);
+  const [isCheckYourEmailModalVisible, setCheckYourEmailModalVisible] = useState(false);
 
   const handleForgotPasswordClick = () => {
-    setModalVisible(true);
+    setForgotPasswordModalVisible(true);
   };
 
-  const closeModal = () => {
-    setModalVisible(false);
+  const closeForgotPasswordModal = () => {
+    setForgotPasswordModalVisible(false);
+  };
+
+  const handleContinue = () => {
+    setForgotPasswordModalVisible(false);
+    setCheckYourEmailModalVisible(true);
+  };
+
+  const closeCheckYourEmailModal = () => {
+    setCheckYourEmailModalVisible(false);
   };
 
   return (
@@ -63,9 +75,17 @@ export default function LoginPage() {
       <button className="login__enter-button">Enter</button>
       <p className="login__dont-have-an-account">
         Don't have an account?{" "}
-        <span className="login__sign-up-text">Sign Up</span>
+        <Link to="/sign-up-page" className="login__sign-up-link"><span className="login__sign-up-text">Sign Up</span></Link>
       </p>
-      {isModalVisible && <ModalForgotYourPassword closeModal={closeModal} />}
+      {isForgotPasswordModalVisible && (
+        <ModalForgotYourPassword 
+          closeModal={closeForgotPasswordModal} 
+          handleContinue={handleContinue} 
+        />
+      )}
+      {isCheckYourEmailModalVisible && (
+        <ModalCheckYourEmail closeModal={closeCheckYourEmailModal} />
+      )}
     </div>
   );
 }
