@@ -6,11 +6,15 @@ import CheckboxEmptyIcon from "../../assets/icons/CheckBoxEmpty.svg";
 import reCAPTCHAIcon from "../../assets/icons/reCAPTCHA.svg";
 import ModalForgotYourPassword from "../../components/ModalForgotYourPassword/ModalForgotYourPassword";
 import ModalCheckYourEmail from "../../components/ModalCheckYourEmail/ModalCheckYourEmail";
+import ModalResetYourPassword from "../../components/ModalResetYourPassword/ModalResetYourPassword";
+import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
 import { Link } from "react-router-dom";
 
 export default function LoginPage() {
   const [isForgotPasswordModalVisible, setForgotPasswordModalVisible] = useState(false);
   const [isCheckYourEmailModalVisible, setCheckYourEmailModalVisible] = useState(false);
+  const [isResetYourPasswordModalVisible, setResetYourPasswordModalVisible] = useState(false);
+  const [isPasswordConfirmationModalVisible, setPasswordConfirmationModalVisible] = useState(false);
 
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);
@@ -20,13 +24,31 @@ export default function LoginPage() {
     setForgotPasswordModalVisible(false);
   };
 
-  const handleContinue = () => {
+  const handleContinueFromForgotPassword = () => {
     setForgotPasswordModalVisible(false);
     setCheckYourEmailModalVisible(true);
   };
 
   const closeCheckYourEmailModal = () => {
     setCheckYourEmailModalVisible(false);
+  };
+
+  const handleContinueFromCheckYourEmail = () => {
+    setCheckYourEmailModalVisible(false);
+    setResetYourPasswordModalVisible(true);
+  };
+
+  const closeResetYourPasswordModal = () => {
+    setResetYourPasswordModalVisible(false);
+  };
+
+  const handleResetPassword = () => {
+    setResetYourPasswordModalVisible(false);
+    setPasswordConfirmationModalVisible(true);
+  };
+
+  const closePasswordConfirmationModal = () => {
+    setPasswordConfirmationModalVisible(false);
   };
 
   return (
@@ -80,11 +102,23 @@ export default function LoginPage() {
       {isForgotPasswordModalVisible && (
         <ModalForgotYourPassword 
           closeModal={closeForgotPasswordModal} 
-          handleContinue={handleContinue} 
+          handleContinue={handleContinueFromForgotPassword} 
         />
       )}
       {isCheckYourEmailModalVisible && (
-        <ModalCheckYourEmail closeModal={closeCheckYourEmailModal} />
+        <ModalCheckYourEmail 
+          closeModal={closeCheckYourEmailModal} 
+          handleContinue={handleContinueFromCheckYourEmail} 
+        />
+      )}
+      {isResetYourPasswordModalVisible && (
+        <ModalResetYourPassword 
+          closeModal={closeResetYourPasswordModal} 
+          handleResetPassword={handleResetPassword} 
+        />
+      )}
+      {isPasswordConfirmationModalVisible && (
+        <ModalPasswordConfirmation closeModal={closePasswordConfirmationModal} />
       )}
     </div>
   );
