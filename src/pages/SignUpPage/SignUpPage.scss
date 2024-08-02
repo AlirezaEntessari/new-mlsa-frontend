@@ -75,6 +75,11 @@
         font-weight: 500;
     }
 
+    &__log-in-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
