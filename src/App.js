@@ -6,6 +6,7 @@ import AgencyInformationPage from './pages/AgencyInformationPage/AgencyInformati
 import MembershipSubscriptionPage from './pages/MembershipSubscriptionPage/MembershipSubscriptionPage';
 import PaymentConfirmationPage from './pages/PaymentConfirmationPage/PaymentConfirmationPage';
 import LoginPage from './pages/LoginPage/LoginPage';
+import AccountSettingsProfilePage from './pages/AccountSettingsProfilePage/AccountSettingsProfilePage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/membership-subscription-page" element={<MembershipSubscriptionPage />} />
         <Route path="/payment-confirmation-page" element={<PaymentConfirmationPage />} />
         <Route path="/login-page" element={<LoginPage />} />
+        <Route path="/account-settings-profile-page" element={<AccountSettingsProfilePage />} />
       </Routes>
       </BrowserRouter>
     </div>
