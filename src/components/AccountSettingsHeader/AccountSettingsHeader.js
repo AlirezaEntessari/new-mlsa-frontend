@@ -17,15 +17,15 @@ export default function AccountSettingsHeader() {
         <img
           className="account-settings-header__messages-off-icon"
           src={MessagesOffIcon}
-          alt="Messages On"
+          alt="Messages Off"
         />
         <img
           className="account-settings-header__notifications-off-icon"
           src={NotificationsOffIcon}
-          alt="Notifications On"
+          alt="Notifications Off"
         />
       </div>
-      <img src={ProfilePic} alt="Profile Picture" />
+      <img className="account-settings-header__profile-pic" src={ProfilePic} alt="Profile Picture" />
     </div>
   );
 }

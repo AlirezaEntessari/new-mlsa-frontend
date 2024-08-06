@@ -4,6 +4,8 @@
 
 .account-settings-header {
     display: flex;
+    border-bottom: 2px solid $medium-gray;
+    padding-bottom: 24px;
 
     &__logo {
         width: 350px;
@@ -26,7 +28,11 @@
         border-radius: 6px;
         height: 40px;
         margin-top: 58px;
-        margin-left: 20px;
+        margin-left: 60px;
+    }
+
+    &__profile-pic {
+        margin-left: 40px;
     }
 
 }

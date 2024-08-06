@@ -1,0 +1,38 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.account-settings-profile {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__side-panel  {
+        background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd.svg");
+        width: 200px;
+        height: 500px;
+    }
+
+    &__account-option {
+        background-color: $dark-navy;
+        height: 50px;
+        color: $logo-blue;
+        border-radius: 6px;
+        font-weight: 500;
+        padding-left: 32px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    &__dashboard-home {
+        color: $white-text;
+        margin-left: 24px;
+    }
+
+    &__search-jobs {
+        color: $white-text;
+        margin-left: 24px;
+    }
+
+}
