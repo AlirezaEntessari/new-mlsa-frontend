@@ -1,6 +1,8 @@
 import React from "react";
 import "./AccountSettingsProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
+import ProfilePic from "../../assets/icons/profilepicnav.svg";
+import UploadIcon from "../../assets/icons/UPload (2).svg";
 
 export default function AccountSettingsProfilePage() {
   return (
@@ -60,8 +62,66 @@ export default function AccountSettingsProfilePage() {
             <span className="account-settings-profile__personal-details-text">
               Update your photo and personal details here
             </span>
-            <button className="account-settings-profile__personal-details-cancel-button">Cancel</button>
-            <button className="account-settings-profile__personal-details-save-changes-button">Save Changes</button>
+            <button className="account-settings-profile__personal-details-cancel-button">
+              Cancel
+            </button>
+            <button className="account-settings-profile__personal-details-save-changes-button">
+              Save Changes
+            </button>
+          </div>
+          <label
+            className="account-settings-profile__name-label"
+            htmlFor="name"
+          >
+            Name
+          </label>
+          <input
+            className="account-settings-profile__name-input"
+            id="name"
+            type="text"
+            placeholder="First Name"
+          />
+          <input
+            className="account-settings-profile__last-name-input"
+            type="text"
+            placeholder="Last Name"
+          />
+          <label
+            className="account-settings-profile__email-label"
+            htmlFor="email"
+          >
+            Email
+          </label>
+          <input
+            className="account-settings-profile__email-input"
+            type="text"
+            id="email"
+          />
+          <label
+            className="account-settings-profile__phone-label"
+            htmlFor="phone"
+          >
+            Phone
+          </label>
+          <input
+            className="account-settings-profile__phone-input"
+            type="text"
+          />
+          <p className="account-settings-profile__your-photo-text">
+            Your Photo
+          </p>
+          <p className="account-settings-profile__your-photo-description">
+            This photo will be displayed on your profile.
+          </p>
+          <div className="account-settings-profile__photo-container">
+            <img
+              className="account-settings-profile__profile-pic-icon"
+              src={ProfilePic}
+              alt="Profile Pic"
+            />
+            <div className="account-settings-profile__right-photo-container">
+              <img className="account-settings-profile__upload-icon" src={UploadIcon} alt="Upload Icon" />
+            </div>
           </div>
         </div>
       </div>
