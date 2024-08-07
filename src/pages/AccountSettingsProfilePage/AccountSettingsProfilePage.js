@@ -3,6 +3,7 @@ import "./AccountSettingsProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import ProfilePic from "../../assets/icons/profilepicnav.svg";
 import UploadIcon from "../../assets/icons/UPload (2).svg";
+import RadioButton from "../../assets/icons/RadioButtonGrayOff.svg";
 
 export default function AccountSettingsProfilePage() {
   return (
@@ -120,9 +121,40 @@ export default function AccountSettingsProfilePage() {
               alt="Profile Pic"
             />
             <div className="account-settings-profile__right-photo-container">
-              <img className="account-settings-profile__upload-icon" src={UploadIcon} alt="Upload Icon" />
+              <img
+                className="account-settings-profile__upload-icon"
+                src={UploadIcon}
+                alt="Upload Icon"
+              />
+              <p className="account-settings-profile__right-photo-container-description">
+                Click to upload or drag and drop SVG, PNG, or JPG (max 800 x
+                400px)
+              </p>
             </div>
           </div>
+          <p className="account-settings-profile__biography">Biography</p>
+          <p className="account-settings-profile__biography-description">
+            Type a biography up to 250 words which will be displayed on your
+            profile.
+          </p>
+          <p className="account-settings-profile__personal-bio">
+            <img
+              className="account-settings-profile__radio-button"
+              src={RadioButton}
+              alt="Radio Button"
+            />
+            <span className="account-settings-profile__personal-bio-text">
+              Personal Bio is hidden from Profile
+            </span>
+          </p>
+          <textarea
+            className="account-settings-profile__text-area"
+            name="account"
+            id="account"
+          ></textarea>
+          <button className="account-settings-profile__save-draft-button">
+            Save Draft
+          </button>
         </div>
       </div>
     </div>
