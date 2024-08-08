@@ -14,12 +14,15 @@
         margin-left: 24px;
         font-weight: 700;
         font-size: 24px;
-        margin-bottom: 12px;
+        // margin-bottom: 12px;
+        margin-bottom: 6px;
     }
 
     &__administrator-text {
         margin-left: 24px;
         margin-top: 0px;
+        font-weight: 500;
+        font-size: 18px;
     }
 
     &__agency-information-header {
@@ -29,14 +32,189 @@
 
     &__personal-details-container {
         display: flex;
+        margin-left: 24px;
     }
 
     &__personal-details {
-        width: 50%;
+        width: 40%;
     }
 
-    &__agency-information-container {
-        width: 50%;
+    &__cancel-button {
+        width: 100px;
+        height: 30px;
+        border: 1px solid $dark-navy;
+        border-radius: 6px;
+        background-color: $white-background;
+        border-radius: 20px; 
+        margin-top: 8px;
+        margin-left: 24px;
+    }
+
+    &__save-changes-button {
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+        border: 1px solid $dark-navy;
+        border-radius: 6px;
+        background-color: $white-background;
+        border-radius: 20px;
+        background-color: $dark-navy;
+        color: $white-text;
+        margin-top: 8px;
+    }
+
+    &__name-of-agency-label {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+
+    &__name-of-agency-input {
+        display: block;
+        margin-left: 24px;
+        margin-top: 3px;
+        width: 450px;
+        height: 47px;
+        padding-left: 10px;
+        border-radius: 8px;
+        border: 1px solid $medium-gray;
+    }
+
+    &__agency-phone-label {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+
+    &__agency-phone-input {
+        display: block;
+        margin-left: 24px;
+        margin-top: 3px;
+        width: 450px;
+        height: 47px;
+        padding-left: 10px;
+        border-radius: 8px;
+        border: 1px solid $medium-gray;
+    }
+
+    &__agency-website-label {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+
+    &__agency-website-input {
+        display: block;
+        margin-left: 24px;
+        margin-top: 3px;
+        width: 450px;
+        height: 47px;
+        padding-left: 10px;
+        border-radius: 8px;
+        border: 1px solid $medium-gray;
+    }
+
+    &__agency-logo {
+        margin-top: 48px;
+        margin-left: 24px;
+    }
+
+    &__agency-logo-description {
+        margin-left: 24px;
+    }
+
+    &__human-re-logo {
+        width: 250px;
+        border: 1px solid gray;
+        border-radius: 80px;
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+
+    &__upload-container {
+        border: 1px solid $soft-black;
+        margin-top: 32px;
+        width: 470px;
+        border-radius: 8px;
+    }
+
+    &__upload-icon {
+        width: 60px;
+        margin-left: 205px;
+    }
+
+    &__click-to-upload {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &__upload-format {
+        text-align: center;
+    }
+
+    &__social-media-links-label {
+        margin-top: 50px;
+    }
+
+    &__facebook-input {
+        width: 470px;
+        height: 47px;
+        border: 1px solid $dark-gray;
+        display: block;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+    &__instagram-input {
+        width: 470px;
+        height: 47px;
+        display: block;
+        border: 1px solid $dark-gray;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-top: 12px;
+    }
+
+    &__youtube-input {
+        width: 470px;
+        height: 47px;
+        display: block;
+        border: 1px solid $dark-gray;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-top: 12px;
+    }
+
+    &__about-your-agency-header {
+        margin-top: 48px;
+    }
+
+    &__about-your-agency-description {
+        width: 445px;
+    }
+
+    &__radio-button {
+        width: 50px;
+    }
+
+    &__hidden-from-profile {
+        margin-left: 18px;
+        margin-top: 32px;
+    }
+
+    &__text-area {
+        margin-top: 24px;
+        border-radius: 6px;
+    }
+
+    &__save-draft-button {
+        display: block;
+        background-color: $white-background;
+        border: 1px solid $soft-black;
+        border-radius: 6px;
+        width: 120px;
+        margin-left: 160px;
+        margin-top: 32px;
+        height: 32px;
+        border-radius: 24px;
     }
 
 }
