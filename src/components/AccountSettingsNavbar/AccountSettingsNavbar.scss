@@ -1,0 +1,40 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.account-settings-navbar {
+
+    &__header-bar {
+        margin-top: 36px;
+        margin-left: 24px;
+        border-bottom: 1px solid $soft-black;
+        margin-right: 86px;
+    }
+
+    &__agency-option {
+        margin-left: 40px;
+    }
+
+    &__password-option {
+        margin-left: 40px;
+    }
+
+    &__billing-option {
+        margin-left: 40px;
+    }
+
+    &__notifications-option {
+        margin-left: 40px;
+    }
+
+    &__profile-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__agency-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+}
