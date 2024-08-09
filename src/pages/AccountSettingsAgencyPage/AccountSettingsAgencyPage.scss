@@ -217,4 +217,130 @@
         border-radius: 24px;
     }
 
+    &__manage-agency-header {
+        margin-top: 100px;
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+    &__manage-agency-description {
+        font-size: 14px;
+    }
+
+    &__name-of-team-member-label {
+        margin-top: 24px;
+    }
+
+    &__name-of-team-member-input {
+        width: 470px;
+        height: 47px;
+        display: block;
+        border: 1px solid $dark-gray;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+    &__team-member-email-label {
+        margin-top: 32px;
+    }
+
+    &__team-member-email-input {
+        width: 470px;
+        height: 47px;
+        display: block;
+        border: 1px solid $dark-gray;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-top: 3px;
+    }
+
+    &__add-team-member-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-top: 48px;
+        margin-left: 124px;
+        width: 200px;
+        height: 35px;
+        border-radius: 24px;
+    }
+
+    &__current-team-members {
+        margin-top: 72px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__first-row-checkbox-container {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    &__checkbox-left-side {
+        margin-bottom: 0px;
+    }
+
+    &__left-side-checkbox-icon {
+        width: 36px;
+    }
+
+    &__checkbox-right-side {
+        margin-bottom: 0px;
+    }
+
+    &__checkbox-text {
+        text-decoration: underline;
+    }
+
+    &__first-right-side-checkbox-icon {
+        width: 36px;
+        margin-left: 80px;
+    }
+
+    &__checkbox-container {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    &__second-right-side-checkbox-icon {
+        width: 36px;
+        margin-left: 136px;
+    }
+
+    &__checkbox-icon {
+        width: 36px;
+    }
+
+    &__third-right-side-checkbox-icon {
+        width: 36px;
+        margin-left: 132px;
+    }
+
+    &__fourth-right-side-checkbox-icon {
+        width: 36px;
+        margin-left: 106px;
+    }
+
+    &__stand-alone-checkbox-field {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    &__pending-invitation {
+        margin-top: 32px;
+        margin-bottom: 6px;
+    }
+
+    &__delete-team-member-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-top: 48px;
+        margin-left: 124px;
+        width: 210px;
+        height: 35px;
+        border-radius: 24px;
+    }
+
 }

@@ -6,6 +6,7 @@ import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/
 import HumanReLogo from "../../assets/icons/HumanReLogo.svg";
 import UploadIcon from "../../assets/icons/UPload (2).svg";
 import RadioButton from "../../assets/icons/RadioButtonGrayOff.svg";
+import CheckboxIcon from "../../assets/icons/CheckBoxEmpty.svg";
 
 export default function AccountSettingsAgencyPage() {
   return (
@@ -118,10 +119,171 @@ export default function AccountSettingsAgencyPage() {
               src={RadioButton}
               alt="Radio Button"
             />
-            <span className="account-settings-agency__hidden-from-profile">Agency Bio is hidden from profile</span>
+            <span className="account-settings-agency__hidden-from-profile">
+              Agency Bio is hidden from profile
+            </span>
           </p>
-          <textarea className="account-settings-agency__text-area" rows="10" cols="62"></textarea>
-          <button className="account-settings-agency__save-draft-button">Save Draft</button>
+          <textarea
+            className="account-settings-agency__text-area"
+            rows="10"
+            cols="62"
+          ></textarea>
+          <button className="account-settings-agency__save-draft-button">
+            Save Draft
+          </button>
+          <p className="account-settings-agency__manage-agency-header">
+            Manage Agency MLSA Team Members
+          </p>
+          <p className="account-settings-agency__manage-agency-description">
+            Add, Delete or Click to View Your Agency MLSA Team Members here
+          </p>
+          <label
+            className="account-settings-agency__name-of-team-member-label"
+            htmlFor="name-of-team-member"
+          >
+            Name of Team Member
+          </label>
+          <input
+            className="account-settings-agency__name-of-team-member-input"
+            type="text"
+            id="name-of-team-member"
+          />
+          <label
+            className="account-settings-agency__team-member-email-label"
+            htmlFor="team-member-email"
+          >
+            Team Member's Email
+          </label>
+          <input
+            className="account-settings-agency__team-member-email-input"
+            type="text"
+          />
+          <button className="account-settings-agency__add-team-member-button">
+            Add Team Member
+          </button>
+          <p className="account-settings-agency__current-team-members">
+            Current Team Members
+          </p>
+          <div className="account-settings-agency__first-row-checkbox-container">
+            <p className="account-settings-agency__checkbox-left-side">
+              <img
+                className="account-settings-agency__left-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />{" "}
+              <span className="account-settings-agency__checkbox-text">
+                Jacqueline Norton
+              </span>
+            </p>
+            <p className="account-settings-agency__checkbox-right-side">
+              <img
+                className="account-settings-agency__first-right-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />
+              <span className="account-settings-agency__checkbox-text">
+                Robert Pratt
+              </span>
+            </p>
+          </div>
+          <div className="account-settings-agency__checkbox-container">
+            <p className="account-settings-agency__checkbox-left-side">
+              <img
+                className="account-settings-agency__left-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />{" "}
+              <span className="account-settings-agency__checkbox-text">
+                Chris Frost
+              </span>
+            </p>
+            <p className="account-settings-agency__checkbox-right-side">
+              <img
+                className="account-settings-agency__second-right-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />
+              <span className="account-settings-agency__checkbox-text">
+                Andrew Watkins
+              </span>
+            </p>
+          </div>
+          <div className="account-settings-agency__checkbox-container">
+            <p className="account-settings-agency__checkbox-left-side">
+              <img
+                className="account-settings-agency__left-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />{" "}
+              <span className="account-settings-agency__checkbox-text">
+                Tony Oliver
+              </span>
+            </p>
+            <p className="account-settings-agency__checkbox-right-side">
+              <img
+                className="account-settings-agency__third-right-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />
+              <span className="account-settings-agency__checkbox-text">
+                Angela Dugan
+              </span>
+            </p>
+          </div>
+          <div className="account-settings-agency__checkbox-container">
+            <p className="account-settings-agency__checkbox-left-side">
+              <img
+                className="account-settings-agency__left-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />{" "}
+              <span className="account-settings-agency__checkbox-text">
+                Jane Matthews
+              </span>
+            </p>
+            <p className="account-settings-agency__checkbox-right-side">
+              <img
+                className="account-settings-agency__fourth-right-side-checkbox-icon"
+                src={CheckboxIcon}
+                alt="Checkbox"
+              />
+              <span className="account-settings-agency__checkbox-text">
+                Christina O'Brien
+              </span>
+            </p>
+          </div>
+          <p className="account-settings-agency__stand-alone-checkbox-field">
+            <img
+              className="account-settings-agency__checkbox-icon"
+              src={CheckboxIcon}
+              alt="Check Box"
+            />
+            <span className="account-settings-agency__checkbox-text">
+              Michael Nielsen
+            </span>
+          </p>
+          <p className="account-settings-agency__stand-alone-checkbox-field">
+            <img
+              className="account-settings-agency__checkbox-icon"
+              src={CheckboxIcon}
+              alt="Check Box"
+            />
+            <span className="account-settings-agency__checkbox-text">
+              Brian Dowd
+            </span>
+          </p>
+          <p className="account-settings-agency__pending-invitation">Pending Invitation</p>
+          <p className="account-settings-agency__stand-alone-checkbox-field">
+            <img
+              className="account-settings-agency__checkbox-icon"
+              src={CheckboxIcon}
+              alt="Check Box"
+            />
+            <span className="account-settings-agency__checkbox-text">
+              Kim Miller
+            </span>
+          </p>
+          <button className="account-settings-agency__delete-team-member-button">Delete Team Member</button>
         </div>
       </div>
     </div>
