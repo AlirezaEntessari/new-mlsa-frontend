@@ -36,3 +36,44 @@
     }
 
 }
+
+@include tablet {
+    
+    .account-settings-header {
+        display: flex;
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 24px;
+
+        &__logo {
+            width: 350px;
+            margin-top: 24px;
+            margin-left: 24px;
+        }
+
+        &__messages-off-icon {
+            width: 30px;
+        }
+
+        &__notifications-off-icon {
+            width: 30px;
+            margin-left: 10px;
+        }
+
+        &__logo-container {
+            padding: 5px;
+            border: 1px solid lightgray;
+            border-radius: 6px;
+            height: 40px;
+            margin-top: 58px;
+            margin-left: 240px;
+        }
+
+        &__profile-pic {
+            margin-left: 60px;
+        }
+
+
+    }
+
+
+}

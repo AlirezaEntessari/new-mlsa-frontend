@@ -125,8 +125,6 @@ export default function AccountSettingsAgencyPage() {
           </p>
           <textarea
             className="account-settings-agency__text-area"
-            rows="10"
-            cols="62"
           ></textarea>
           <button className="account-settings-agency__save-draft-button">
             Save Draft

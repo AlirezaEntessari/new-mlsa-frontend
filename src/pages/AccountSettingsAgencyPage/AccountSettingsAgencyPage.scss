@@ -131,8 +131,9 @@
     &__upload-container {
         border: 1px solid $soft-black;
         margin-top: 32px;
-        width: 470px;
+        width: 450px;
         border-radius: 8px;
+        margin-left: 24px;
     }
 
     &__upload-icon {
@@ -151,48 +152,55 @@
 
     &__social-media-links-label {
         margin-top: 50px;
+        margin-left: 24px;
     }
 
     &__facebook-input {
-        width: 470px;
+        width: 450px;
         height: 47px;
         border: 1px solid $dark-gray;
         display: block;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 3px;
+        margin-left: 24px;
     }
 
     &__instagram-input {
-        width: 470px;
+        width: 450px;
         height: 47px;
         display: block;
         border: 1px solid $dark-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 12px;
+        margin-left: 24px;
     }
 
     &__youtube-input {
-        width: 470px;
+        width: 450px;
         height: 47px;
         display: block;
         border: 1px solid $dark-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 12px;
+        margin-left: 24px;
     }
 
     &__about-your-agency-header {
         margin-top: 48px;
+        margin-left: 24px;
     }
 
     &__about-your-agency-description {
         width: 445px;
+        margin-left: 24px;
     }
 
     &__radio-button {
         width: 50px;
+        margin-left: 24px;
     }
 
     &__hidden-from-profile {
@@ -203,6 +211,9 @@
     &__text-area {
         margin-top: 24px;
         border-radius: 6px;
+        margin-left: 24px;
+        width: 450px;
+        height: 300px;
     }
 
     &__save-draft-button {
@@ -211,7 +222,7 @@
         border: 1px solid $soft-black;
         border-radius: 6px;
         width: 120px;
-        margin-left: 160px;
+        margin-left: 185px;
         margin-top: 32px;
         height: 32px;
         border-radius: 24px;
@@ -221,38 +232,44 @@
         margin-top: 100px;
         font-weight: 500;
         font-size: 19px;
+        margin-left: 24px;
     }
 
     &__manage-agency-description {
         font-size: 14px;
+        margin-left: 24px;
     }
 
     &__name-of-team-member-label {
         margin-top: 24px;
+        margin-left: 24px;
     }
 
     &__name-of-team-member-input {
-        width: 470px;
+        width: 450px;
         height: 47px;
         display: block;
         border: 1px solid $dark-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 3px;
+        margin-left: 24px;
     }
 
     &__team-member-email-label {
         margin-top: 32px;
+        margin-left: 24px;
     }
 
     &__team-member-email-input {
-        width: 470px;
+        width: 450px;
         height: 47px;
         display: block;
         border: 1px solid $dark-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 3px;
+        margin-left: 24px;
     }
 
     &__add-team-member-button {
@@ -260,7 +277,7 @@
         border: 1px solid $dark-navy;
         color: $white-text;
         margin-top: 48px;
-        margin-left: 124px;
+        margin-left: 138px;
         width: 200px;
         height: 35px;
         border-radius: 24px;
@@ -270,11 +287,13 @@
         margin-top: 72px;
         font-weight: 500;
         font-size: 18px;
+        margin-left: 24px;
     }
 
     &__first-row-checkbox-container {
         display: flex;
         margin-bottom: 0px;
+        margin-left: 24px;
     }
 
     &__checkbox-left-side {
@@ -301,6 +320,7 @@
     &__checkbox-container {
         display: flex;
         margin-bottom: 0px;
+        margin-left: 24px;
     }
 
     &__second-right-side-checkbox-icon {
@@ -325,11 +345,13 @@
     &__stand-alone-checkbox-field {
         margin-top: 0px;
         margin-bottom: 0px;
+        margin-left: 24px;
     }
 
     &__pending-invitation {
         margin-top: 32px;
         margin-bottom: 6px;
+        margin-left: 24px;
     }
 
     &__delete-team-member-button {
@@ -337,7 +359,7 @@
         border: 1px solid $dark-navy;
         color: $white-text;
         margin-top: 48px;
-        margin-left: 124px;
+        margin-left: 136px;
         width: 210px;
         height: 35px;
         border-radius: 24px;
