@@ -47,7 +47,7 @@
             margin-top: 36px;
             margin-left: 36px;
             border-bottom: 1px solid $soft-black;
-            margin-right: 0px;
+            margin-right: 8px;
         }
     
         &__agency-option {
@@ -64,6 +64,60 @@
     
         &__notifications-option {
             margin-left: 65px;
+        }
+    
+        &__profile-link {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        &__agency-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .account-settings-navbar {
+
+        &__header-bar {
+            margin-top: 36px;
+            margin-left: 60px;
+            border-bottom: 2px solid $soft-black;
+            margin-right: 0px;
+        }
+
+        &__profile-option {
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        &__agency-option {
+            margin-left: 120px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        &__password-option {
+            margin-left: 120px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        &__billing-option {
+            margin-left: 120px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        &__notifications-option {
+            margin-left: 120px;
+            font-size: 17px;
+            font-weight: 500;
         }
     
         &__profile-link {

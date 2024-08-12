@@ -72,8 +72,50 @@
             margin-left: 60px;
         }
 
-
     }
 
+}
+
+@include desktop {
+
+    .account-settings-header {
+        display: flex;
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 24px;
+
+        &__logo {
+            width: 500px;
+            margin-top: 36px;
+            margin-left: 36px;
+        }
+
+        &__messages-off-icon {
+            width: 42px;
+            margin-left: 16px;
+            margin-top: 10px;
+        }
+
+        &__notifications-off-icon {
+            width: 42px;
+            margin-left: 16px;
+            margin-top: 6px;
+        }
+
+        &__logo-container {
+            padding: 0px;
+            border: 1px solid lightgray;
+            border-radius: 32px;
+            height: 60px;
+            width: 132px;
+            margin-top: 72px;
+            margin-left: 900px;
+        }
+
+        &__profile-pic {
+            margin-left: 72px;
+            margin-top: 20px;
+        }
+
+    }
 
 }

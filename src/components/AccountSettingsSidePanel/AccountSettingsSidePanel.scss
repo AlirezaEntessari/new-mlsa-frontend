@@ -5,15 +5,15 @@
 .account-settings-side-panel {
 
     &__side-panel  {
-        background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd.svg");
+        background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
         width: 200px;
-        height: 1600px;
+        height: 1500px;
     }
 
     &__account-option {
         background-color: $dark-navy;
         height: 50px;
-        color: $logo-blue;
+        color: $background-light-blue;
         border-radius: 6px;
         font-weight: 500;
         padding-left: 32px;
@@ -23,79 +23,287 @@
 
     &__dashboard-home {
         color: $white-text;
-        margin-left: 24px;
+        margin-top: 36px;
+        margin-left: 36px;
     }
 
     &__search-jobs {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__search-candidates {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__search-agencies {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__my-jobs {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__my-candidates {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__placements {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__my-documents {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px;
+        margin-left: 36px;
+        margin-top: 36px;
     }
 
     &__ratings {
         color: $white-text;
-        margin-left: 24px;
-        margin-top: 24px; 
+        margin-left: 36px;
+        margin-top: 36px; 
     }
 
     &__profile {
         color: $white-text;
-        margin-left: 24px;  
-        margin-top: 24px;
+        margin-left: 36px;  
+        margin-top: 36px;
     }
 
     &__account {
         color: $white-text;
-        margin-left: 24px; 
-        margin-top: 24px; 
+        margin-left: 36px; 
+        margin-top: 36px; 
     }
 
     &__help {
         color: $white-text;
-        margin-left: 24px;  
-        margin-top: 24px;
+        margin-left: 36px;  
+        margin-top: 36px;
     }
 
     &__sign-out {
         color: $white-text;
-        margin-left: 24px;  
-        margin-top: 24px;
+        margin-left: 36px;  
+        margin-top: 36px;
     }
 
 }
+
+@include tablet {
+
+    .account-settings-side-panel {
+
+        &__side-panel  {
+            background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
+            width: 200px;
+            height: 1500px;
+        }
+    
+        &__account-option {
+            background-color: $dark-navy;
+            height: 50px;
+            color: $background-light-blue;
+            border-radius: 6px;
+            font-weight: 500;
+            padding-left: 32px;
+            padding-top: 10px;
+            font-size: 18px;
+        }
+
+        &__dashboard-home {
+            color: $white-text;
+            margin-top: 48px;
+            margin-left: 36px;
+        }
+    
+        &__search-jobs {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__search-candidates {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__search-agencies {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__my-jobs {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__my-candidates {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__placements {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__my-documents {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__ratings {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px; 
+        }
+    
+        &__profile {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+    
+        &__account {
+            color: $white-text;
+            margin-left: 36px; 
+            margin-top: 48px; 
+        }
+    
+        &__help {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+    
+        &__sign-out {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .account-settings-side-panel {
+
+        &__side-panel  {
+            background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
+            width: 220px;
+            height: 1500px;
+        }
+    
+        &__account-option {
+            background-color: $dark-navy;
+            height: 50px;
+            color: $background-light-blue;
+            border-radius: 6px;
+            font-weight: 500;
+            padding-left: 36px;
+            padding-top: 10px;
+            font-size: 18px;
+        }
+
+        &__dashboard-home {
+            color: $white-text;
+            margin-top: 48px;
+            margin-left: 36px;
+        }
+    
+        &__search-jobs {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+
+        &__search-candidates {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__search-agencies {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+
+        &__my-jobs {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__my-candidates {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+
+        &__placements {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+    
+        &__my-documents {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px;
+        }
+
+        &__ratings {
+            color: $white-text;
+            margin-left: 36px;
+            margin-top: 48px; 
+        }
+    
+        &__profile {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+
+        &__account {
+            color: $white-text;
+            margin-left: 36px; 
+            margin-top: 48px; 
+        }
+    
+        &__help {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+
+        &__sign-out {
+            color: $white-text;
+            margin-left: 36px;  
+            margin-top: 48px;
+        }
+
+    }
+
+}
+
