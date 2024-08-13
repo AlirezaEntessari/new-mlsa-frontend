@@ -122,7 +122,7 @@
 
     &__human-re-logo {
         width: 250px;
-        border: 1px solid gray;
+        border: 1px solid $soft-black;
         border-radius: 80px;
         margin-left: 24px;
         margin-top: 20px;
@@ -158,7 +158,7 @@
     &__facebook-input {
         width: 450px;
         height: 47px;
-        border: 1px solid $dark-gray;
+        border: 1px solid $medium-gray;
         display: block;
         border-radius: 8px;
         padding-left: 10px;
@@ -170,7 +170,7 @@
         width: 450px;
         height: 47px;
         display: block;
-        border: 1px solid $dark-gray;
+        border: 1px solid $medium-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 12px;
@@ -181,7 +181,7 @@
         width: 450px;
         height: 47px;
         display: block;
-        border: 1px solid $dark-gray;
+        border: 1px solid $medium-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 12px;
@@ -249,7 +249,7 @@
         width: 450px;
         height: 47px;
         display: block;
-        border: 1px solid $dark-gray;
+        border: 1px solid $medium-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 3px;
@@ -265,7 +265,7 @@
         width: 450px;
         height: 47px;
         display: block;
-        border: 1px solid $dark-gray;
+        border: 1px solid $medium-gray;
         border-radius: 8px;
         padding-left: 10px;
         margin-top: 3px;
@@ -498,7 +498,7 @@
         &__human-re-logo {
             width: 100px;
             height: 80px;
-            border: 1px solid gray;
+            border: 1px solid $soft-black;
             border-radius: 32px;
             margin-left: 24px;
             margin-top: 55px;
@@ -537,7 +537,7 @@
         &__facebook-input {
             width: 600px;
             height: 45px;
-            border: 1px solid $dark-gray;
+            border: 1px solid $medium-gray;
             display: block;
             border-radius: 8px;
             padding-left: 10px;
@@ -549,7 +549,7 @@
             width: 600px;
             height: 45px;
             display: block;
-            border: 1px solid $dark-gray;
+            border: 1px solid $medium-gray;
             border-radius: 8px;
             padding-left: 10px;
             margin-top: 24px;
@@ -560,7 +560,7 @@
             width: 600px;
             height: 45px;
             display: block;
-            border: 1px solid $dark-gray;
+            border: 1px solid $medium-gray;
             border-radius: 8px;
             padding-left: 10px;
             margin-top: 24px;
@@ -625,6 +625,7 @@
             margin-top: 48px;
             margin-left: 36px;
             border-radius: 6px;
+            padding-bottom: 40px;
         }
 
         &__manage-agency-header {
@@ -649,7 +650,7 @@
             width: 600px;
             height: 45px;
             display: block;
-            border: 1px solid $dark-gray;
+            border: 1px solid $medium-gray;
             border-radius: 8px;
             padding-left: 10px;
             margin-top: 3px;
@@ -665,7 +666,7 @@
             width: 600px;
             height: 45px;
             display: block;
-            border: 1px solid $dark-gray;
+            border: 1px solid $medium-gray;
             border-radius: 8px;
             padding-left: 10px;
             margin-top: 3px;
@@ -742,8 +743,443 @@
             margin-left: 106px;
         }
 
+        &__stand-alone-checkbox-field {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 36px;
+        }
+    
+        &__pending-invitation {
+            margin-top: 32px;
+            margin-bottom: 6px;
+            margin-left: 36px;
+        }
+
+        &__delete-team-member-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-top: 48px;
+            margin-left: 240px;
+            width: 210px;
+            height: 35px;
+            border-radius: 24px;
+            // margin-bottom: 12px;
+        }
+
 
 
     } 
     
+}
+
+@include desktop {
+
+    .account-settings-agency {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            margin-top: 36px;
+            margin-left: 60px;
+            font-weight: 700;
+            font-size: 36px;
+            // margin-bottom: 12px;
+            margin-bottom: 6px;
+        }
+
+        &__administrator-text {
+            margin-left: 60px;
+            margin-top: 0px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    
+        &__agency-information-header {
+            margin-left: 60px;
+            margin-top: 40px;
+            margin-bottom: 6px;
+        }
+
+        &__personal-details-container {
+            display: flex;
+            margin-left: 60px;
+        }
+    
+        &__personal-details {
+            width: 800px;
+            font-size: 14px;
+        }
+
+        &__cancel-button {
+            width: 110px;
+            height: 35px;
+            border: 1px solid $dark-navy;
+            border-radius: 6px;
+            background-color: $white-background;
+            border-radius: 20px; 
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+        &__save-changes-button {
+            width: 150px;
+            height: 35px;
+            margin-left: 16px;
+            border: 1px solid $dark-navy;
+            border-radius: 6px;
+            background-color: $white-background;
+            border-radius: 20px;
+            background-color: $dark-navy;
+            color: $white-text;
+            margin-top: 0px;
+        }
+
+        &__name-of-agency-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+    
+        &__name-of-agency-input {
+            display: block;
+            margin-left: 60px;
+            margin-top: 3px;
+            width: 800px;
+            height: 45px;
+            padding-left: 10px;
+            border-radius: 8px;
+            border: 1px solid $medium-gray;
+        }
+
+        &__agency-phone-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+    
+        &__agency-phone-input {
+            display: block;
+            margin-left: 60px;
+            margin-top: 3px;
+            width: 800px;
+            height: 45px;
+            padding-left: 10px;
+            border-radius: 8px;
+            border: 1px solid $medium-gray;
+        }
+
+        &__agency-website-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+    
+        &__agency-website-input {
+            display: block;
+            margin-left: 60px;
+            margin-top: 3px;
+            width: 800px;
+            height: 45px;
+            padding-left: 10px;
+            border-radius: 8px;
+            border: 1px solid $medium-gray;
+        }
+
+        &__general-container {
+            display: flex;
+            margin-top: 18px;
+            margin-left: 60px;
+        }
+
+        &__agency-logo {
+            margin-top: 48px;
+            margin-left: 0px;
+        }
+    
+        &__agency-logo-description {
+            margin-left: 0px;
+            font-size: 14px;
+        }
+
+        &__human-re-logo {
+            width: 100px;
+            height: 80px;
+            border: 1px solid $soft-black;
+            border-radius: 32px;
+            margin-left: 120px;
+            margin-top: 55px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+    
+        &__upload-container {
+            border: 1px solid $soft-black;
+            margin-top: 32px;
+            width: 500px;
+            border-radius: 8px;
+            margin-left: 120px;
+            height: 140px;
+        }
+
+        &__upload-icon {
+            width: 43px;
+            margin-left: 225px;
+            margin-top: 12px;
+        }
+    
+        &__click-to-upload {
+            text-align: inherit;
+            margin-bottom: 5px;
+            font-size: 12px;
+            margin-left: 160px;
+            margin-top: 5px;
+        }
+
+        &__upload-format {
+            text-align: center;
+            font-size: 12px;
+        }
+    
+        &__social-media-links-label {
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+
+        &__facebook-input {
+            width: 800px;
+            height: 45px;
+            border: 1px solid $medium-gray;
+            display: block;
+            border-radius: 8px;
+            padding-left: 10px;
+            margin-top: 5px;
+            margin-left: 60px;
+        }
+    
+        &__instagram-input {
+            width: 800px;
+            height: 45px;
+            display: block;
+            border: 1px solid $medium-gray;
+            border-radius: 8px;
+            padding-left: 10px;
+            margin-top: 36px;
+            margin-left: 60px;
+        }
+    
+        &__youtube-input {
+            width: 800px;
+            height: 45px;
+            display: block;
+            border: 1px solid $medium-gray;
+            border-radius: 8px;
+            padding-left: 10px;
+            margin-top: 36px;
+            margin-left: 60px;
+        }
+
+        &__about-your-agency-general-container {
+            display: flex;
+            margin-left: 60px;
+        }
+
+        &__about-your-agency-header {
+            margin-top: 48px;
+            margin-left: 0px;
+        }
+
+        &__about-your-agency-description {
+            width: inherit;
+            margin-left: 0px;
+            font-size: 14px;
+        }
+
+        &__profile {
+            margin-top: 86px;
+            margin-left: 120px;
+        }
+
+        &__radio-button {
+            width: 60px;
+            margin-left: 0px;
+        }
+    
+        &__hidden-from-profile {
+            margin-left: 12px;
+            margin-top: 32px;
+            font-size: 14px;
+        }
+
+        &__text-area {
+            margin-top: 36px;
+            border-radius: 6px;
+            margin-left: 60px;
+            width: 1100px;
+            height: 500px;
+        }
+    
+        &__save-draft-button {
+            display: block;
+            background-color: $white-background;
+            border: 1px solid $soft-black;
+            border-radius: 6px;
+            width: 150px;
+            margin-left: 520px;
+            margin-top: 32px;
+            height: 32px;
+            border-radius: 24px;
+        }
+
+        &__bottom-container {
+            border: 1px solid $soft-black;
+            margin-right: 38px;
+            margin-top: 48px;
+            margin-left: 60px;
+            border-radius: 6px;
+            padding-bottom: 60px;
+        }
+
+        &__manage-agency-header {
+            margin-top: 36px;
+            font-weight: 500;
+            font-size: 19px;
+            margin-left: 60px;
+            margin-bottom: 6px;
+        }
+
+        &__manage-agency-description {
+            font-size: 14px;
+            margin-left: 60px;
+        }
+
+        &__name-of-team-member-label {
+            margin-top: 24px;
+            margin-left: 60px;
+        }
+
+        &__name-of-team-member-input {
+            width: 800px;
+            height: 45px;
+            display: block;
+            border: 1px solid $medium-gray;
+            border-radius: 8px;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 60px;
+        }
+
+        &__team-member-email-label {
+            margin-top: 32px;
+            margin-left: 60px;
+        }
+    
+        &__team-member-email-input {
+            width: 800px;
+            height: 45px;
+            display: block;
+            border: 1px solid $medium-gray;
+            border-radius: 8px;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 60px;
+        }
+
+        &__add-team-member-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-top: 48px;
+            margin-left: 440px;
+            width: 200px;
+            height: 35px;
+            border-radius: 24px;
+        }
+
+        &__current-team-members {
+            margin-top: 72px;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 60px;
+        }
+
+        &__first-row-checkbox-container {
+            display: flex;
+            margin-bottom: 0px;
+            margin-left: 60px;
+        }
+
+        &__checkbox-left-side {
+            margin-bottom: 0px;
+        }
+    
+        &__left-side-checkbox-icon {
+            width: 36px;
+        }
+
+        &__checkbox-right-side {
+            margin-bottom: 0px;
+        }
+    
+        &__checkbox-text {
+            text-decoration: underline;
+        }
+
+        &__first-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 80px;
+        }
+
+        &__checkbox-container {
+            display: flex;
+            margin-bottom: 0px;
+            margin-left: 60px;
+        }
+    
+        &__second-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 136px;
+        }
+
+        &__checkbox-icon {
+            width: 36px;
+        }
+
+        &__third-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 132px;
+        }
+    
+        &__fourth-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 106px;
+        }
+
+        &__stand-alone-checkbox-field {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 60px;
+        }
+    
+        &__pending-invitation {
+            margin-top: 32px;
+            margin-bottom: 6px;
+            margin-left: 60px;
+        }
+
+        &__delete-team-member-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-top: 48px;
+            margin-left: 450px;
+            width: 210px;
+            height: 35px;
+            border-radius: 24px;
+            // margin-bottom: 12px;
+        }
+        
+
+
+    }
+
 }
