@@ -19,11 +19,13 @@ export default function SignUpPage() {
       await axios.post("http://localhost:5000/api/agency_information", {
         email: email,
       });
+      localStorage.setItem("email", email); // Store email in local storage
       navigate("/membership-plan-page");
     } catch (err) {
       console.error(err);
     }
   };
+  
 
   return (
     <div className="sign-up">

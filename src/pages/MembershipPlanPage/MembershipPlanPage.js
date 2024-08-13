@@ -13,11 +13,13 @@ export default function MembershipPlanPage() {
       await axios.post("http://localhost:5000/api/agency_information", {
         membershipPlan: plan,
       });
+      localStorage.setItem("membershipPlan", plan); // Store membership plan in local storage
       navigate("/agency-information-page");
     } catch (err) {
       console.error(err);
     }
   };
+  
 
   return (
     <div className="membership-plan-page">
