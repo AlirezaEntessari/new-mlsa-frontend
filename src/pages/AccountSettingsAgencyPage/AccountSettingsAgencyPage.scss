@@ -683,6 +683,65 @@
             border-radius: 24px;
         }
 
+        &__current-team-members {
+            margin-top: 72px;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 36px;
+        }
+
+        &__first-row-checkbox-container {
+            display: flex;
+            margin-bottom: 0px;
+            margin-left: 36px;
+        }
+
+        &__checkbox-left-side {
+            margin-bottom: 0px;
+        }
+    
+        &__left-side-checkbox-icon {
+            width: 36px;
+        }
+    
+        &__checkbox-right-side {
+            margin-bottom: 0px;
+        }
+    
+        &__checkbox-text {
+            text-decoration: underline;
+        }
+
+        &__first-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 80px;
+        }
+    
+        &__checkbox-container {
+            display: flex;
+            margin-bottom: 0px;
+            margin-left: 36px;
+        }
+    
+        &__second-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 136px;
+        }
+    
+        &__checkbox-icon {
+            width: 36px;
+        }
+
+        &__third-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 132px;
+        }
+    
+        &__fourth-right-side-checkbox-icon {
+            width: 36px;
+            margin-left: 106px;
+        }
+
 
 
     } 

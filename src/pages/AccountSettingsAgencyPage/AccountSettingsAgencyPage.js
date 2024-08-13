@@ -169,7 +169,7 @@ export default function AccountSettingsAgencyPage() {
               Add Team Member
             </button>
             <p className="account-settings-agency__current-team-members">
-              Current Team Members
+              Current Users
             </p>
             <div className="account-settings-agency__first-row-checkbox-container">
               <p className="account-settings-agency__checkbox-left-side">
