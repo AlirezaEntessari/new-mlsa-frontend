@@ -15,18 +15,10 @@ export default function SignUpPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      await axios.post("http://localhost:5000/api/agency_information", {
-        email: email,
-      });
-      localStorage.setItem("email", email); // Store email in local storage
-      navigate("/membership-plan-page");
-    } catch (err) {
-      console.error(err);
-    }
+    localStorage.setItem("email", email);
+    navigate("/membership-plan-page");
   };
   
-
   return (
     <div className="sign-up">
       <img className="sign-up__mlsa-logo" src={MLSALogo} alt="MLSA Logo" />

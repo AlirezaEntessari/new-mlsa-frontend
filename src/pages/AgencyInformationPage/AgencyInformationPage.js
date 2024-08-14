@@ -43,6 +43,12 @@ export default function AgencyInformationPage() {
     const email = localStorage.getItem("email");
     const membershipPlan = localStorage.getItem("membershipPlan");
 
+    // Ensure both email and membership plan are retrieved correctly
+    if (!email || !membershipPlan) {
+      console.error("Email or membership plan is missing from local storage");
+      return;
+    }
+
     const requestData = {
       email: email, // Include email
       membershipPlan: membershipPlan, // Include membership plan
@@ -54,7 +60,10 @@ export default function AgencyInformationPage() {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/agency_information", requestData);
+      await axios.post(
+        "http://localhost:5000/api/agency_information",
+        requestData
+      );
       navigate("/membership-subscription-page");
     } catch (err) {
       console.error(err);
@@ -457,7 +466,7 @@ export default function AgencyInformationPage() {
             />
             <input
               className="agency-information-page__password-input"
-              type="text"
+              type="password"
               id="password"
               placeholder="Enter your password"
               value={password}
@@ -481,7 +490,7 @@ export default function AgencyInformationPage() {
             />
             <input
               className="agency-information-page__confirm-password-input"
-              type="text"
+              type="password"
               placeholder="Enter your password again"
             />
             <p className="agency-information-page__terms-and-conditions">
@@ -499,16 +508,14 @@ export default function AgencyInformationPage() {
             </p>
           </div>
         </div>
-        <Link to="/membership-subscription-page">
-          <button className="agency-information-page__next-button">
-            Next{" "}
-            <img
-              className="agency-information-page__right-arrow-icon"
-              src={RightArrowIcon}
-              alt="Right Arrow"
-            />
-          </button>
-        </Link>
+        <button className="agency-information-page__next-button">
+          Next{" "}
+          <img
+            className="agency-information-page__right-arrow-icon"
+            src={RightArrowIcon}
+            alt="Right Arrow"
+          />
+        </button>
       </form>
       <p className="agency-information-page__terms-of-use">
         By continuing, you agree to MLSA's{" "}

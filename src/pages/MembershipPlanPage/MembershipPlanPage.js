@@ -9,18 +9,10 @@ export default function MembershipPlanPage() {
   const navigate = useNavigate();
 
   const handleSelectPlan = async (plan) => {
-    try {
-      await axios.post("http://localhost:5000/api/agency_information", {
-        membershipPlan: plan,
-      });
-      localStorage.setItem("membershipPlan", plan); // Store membership plan in local storage
-      navigate("/agency-information-page");
-    } catch (err) {
-      console.error(err);
-    }
+    localStorage.setItem("membershipPlan", plan);
+    navigate("/agency-information-page");
   };
   
-
   return (
     <div className="membership-plan-page">
       <img
