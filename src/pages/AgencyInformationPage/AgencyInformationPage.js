@@ -5,7 +5,7 @@ import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import CheckboxIcon from "../../assets/icons/CheckBoxEmpty.svg";
 import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
 import RightArrowIcon from "../../assets/icons/right arrow.svg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function AgencyInformationPage() {
