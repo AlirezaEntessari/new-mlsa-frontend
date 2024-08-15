@@ -7,6 +7,7 @@ import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
 import RightArrowIcon from "../../assets/icons/right arrow.svg";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import CheckBoxWithLogic from "../../components/CheckBoxWithLogic/CheckBoxWithLogic";
 
 export default function AgencyInformationPage() {
   const [staffingAgencyName, setStaffingAgencyName] = useState("");
@@ -160,224 +161,64 @@ export default function AgencyInformationPage() {
               select, select "Other".
             </p>
             <div className="agency-information-page__checkbox-container-1">
-              <p className="agency-information-page__aerospace-and-defense">
-                <img
-                  className="agency-information-page__aerospace-and-defense-check-box-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Aerospace & Defense
-                </span>
-              </p>
-              <p className="agency-information-page__hospitality-and-leisure">
-                <img
-                  className="agency-information-page__hospitality-and-leisure-check-box-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Hospitality & Leisure
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Aerospace and Defense" />
+              <div className="agency-information-page__hospitality-and-leisure-container">
+                <CheckBoxWithLogic labelText="Hospitality & Leisure" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-2">
-              <p className="agency-information-page__agricultural">
-                <img
-                  className="agency-information-page__agricultural-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Agricultural
-                </span>
-              </p>
-              <p className="agency-information-page__insurance">
-                <img
-                  className="agency-information-page__insurance-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Insurance
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Agricultural" />
+              <div className="agency-information-page__insurance-container">
+                <CheckBoxWithLogic labelText="Insurance" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-3">
-              <p className="agency-information-page__computers-and-technology">
-                <img
-                  className="agency-information-page__computers-and-technology-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Computers & Technology
-                </span>
-              </p>
-              <p className="agency-information-page__landscaping">
-                <img
-                  className="agency-information-page__landscaping-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Landscaping
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Computers and Technology" />
+              <div className="agency-information-page__landscaping-container">
+                <CheckBoxWithLogic labelText="Landscaping" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-4">
-              <p className="agency-information-page__construction">
-                <img
-                  className="agency-information-page__construction-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Construction
-                </span>
-              </p>
-              <p className="agency-information-page__manufacturing">
-                <img
-                  className="agency-information-page__manufacturing-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Manufacturing
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Construction" />
+              <div className="agency-information-page__manufacturing-container">
+                <CheckBoxWithLogic labelText="Manufacturing" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-5">
-              <p className="agency-information-page__consumer-goods">
-                <img
-                  className="agency-information-page__consumer-goods-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Consumer Goods
-                </span>
-              </p>
-              <p className="agency-information-page__oil-and-gas">
-                <img
-                  className="agency-information-page__oil-and-gas-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Oil & Gas
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Consumer Goods" />
+              <div className="agency-information-page__oil-and-gas-container">
+                <CheckBoxWithLogic labelText="Oil & Gas" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-6">
-              <p className="agency-information-page__education">
-                <img
-                  className="agency-information-page__education-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Education
-                </span>
-              </p>
-              <p className="agency-information-page__pharmaceuticals">
-                <img
-                  className="agency-information-page__pharmaceuticals-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Pharmaceuticals
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Education" />
+              <div className="agency-information-page__pharmaceuticals-container">
+                <CheckBoxWithLogic labelText="Pharmaceuticals" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-7">
-              <p className="agency-information-page__engineering">
-                <img
-                  className="agency-information-page__engineering-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Engineering
-                </span>
-              </p>
-              <p className="agency-information-page__power-and-utilities">
-                <img
-                  className="agency-information-page__power-and-utilities-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Power & Utilities
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Engineering" />
+              <div className="agency-information-page__power-and-utilities-container">
+                <CheckBoxWithLogic labelText="Power and Utilities" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-8">
-              <p className="agency-information-page__financial">
-                <img
-                  className="agency-information-page__financial-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Financial
-                </span>
-              </p>
-              <p className="agency-information-page__professional-services-consulting">
-                <img
-                  className="agency-information-page__professional-services-consulting-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Professional Services/Consulting
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Financial" />
+              <div className="agency-information-page__professional-services-consulting-container">
+                <CheckBoxWithLogic labelText="Professional Services/Consulting" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-9">
-              <p className="agency-information-page__government">
-                <img
-                  className="agency-information-page__government-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Government
-                </span>
-              </p>
-              <p className="agency-information-page__telecommunications">
-                <img
-                  className="agency-information-page__telecommunications-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Telecommunications
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Government" />
+              <div className="agency-information-page__telecommunications-container">
+                <CheckBoxWithLogic labelText="Telecommunications" />
+              </div>
             </div>
             <div className="agency-information-page__checkbox-container-10">
-              <p className="agency-information-page__healthcare">
-                <img
-                  className="agency-information-page__healthcare-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Healthcare
-                </span>
-              </p>
-              <p className="agency-information-page__other">
-                <img
-                  className="agency-information-page__other-checkbox-icon"
-                  src={CheckboxIcon}
-                  alt="Check Box"
-                />
-                <span className="agency-information-page__industry-field-text">
-                  Other
-                </span>
-              </p>
+              <CheckBoxWithLogic labelText="Healthcare" />
+              <div className="agency-information-page__other-container">
+                <CheckBoxWithLogic labelText="Other" />
+              </div>
             </div>
           </div>
           <div className="agency-information-page__right-container">

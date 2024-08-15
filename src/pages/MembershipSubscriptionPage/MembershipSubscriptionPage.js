@@ -12,6 +12,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function MembershipSubscriptionPage() {
+  const [billingDuration, setBillingDuration] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [cardNumber, setCardNumber] = useState("");
@@ -23,7 +24,6 @@ export default function MembershipSubscriptionPage() {
   const [state, setState] = useState("");
   const [countryRegion, setCountryRegion] = useState("");
   const [zipCode, setZipCode] = useState("");
-  const [billingDuration, setBillingDuration] = useState(""); // State to store billing duration
 
   const navigate = useNavigate(); // Initialize the useNavigate hook
 
@@ -39,6 +39,7 @@ export default function MembershipSubscriptionPage() {
     e.preventDefault(); // Prevent the default form submission
 
     const paymentDetails = {
+      billingDuration,
       firstName,
       lastName,
       cardNumber,
@@ -50,11 +51,13 @@ export default function MembershipSubscriptionPage() {
       state,
       countryRegion,
       zipCode,
-      billingDuration,
     };
 
     try {
-      const response = await axios.post("http://localhost:5000/api/payment-details", paymentDetails);
+      const response = await axios.post(
+        "http://localhost:5000/api/payment-details",
+        paymentDetails
+      );
 
       if (response.status === 200) {
         console.log("Payment details saved successfully");
@@ -83,7 +86,10 @@ export default function MembershipSubscriptionPage() {
             Payment Details
           </p>
           <div className="membership-subscription__bill-container">
-            <div className="membership-subscription__bill-yearly-container" onClick={handleYearlyClick} >
+            <div
+              className="membership-subscription__bill-yearly-container"
+              onClick={handleYearlyClick}
+            >
               <p className="membership-subscription__bill-yearly-header">
                 <img
                   className="membership-subscription__check-in-circle-icon"
@@ -98,7 +104,10 @@ export default function MembershipSubscriptionPage() {
                 </p>
               </p>
             </div>
-            <div className="membership-subscription__bill-monthly-container" onClick={handleMonthlyClick}>
+            <div
+              className="membership-subscription__bill-monthly-container"
+              onClick={handleMonthlyClick}
+            >
               <p className="membership-subscription__bill-monthly-header">
                 <img
                   className="membership-subscription__exit-icon"

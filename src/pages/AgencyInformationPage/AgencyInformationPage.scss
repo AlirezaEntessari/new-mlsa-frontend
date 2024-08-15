@@ -99,16 +99,7 @@
         margin-left: 80px;
     }
 
-    &__aerospace-and-defense-check-box-icon {
-        width: 36px;
-    }
-
-    &__industry-field-text {
-        font-weight: 500;
-    }
-
-    &__hospitality-and-leisure-check-box-icon {
-        width: 36px;
+    &__hospitality-and-leisure-container {
         margin-left: 100px;
     }
 
@@ -118,13 +109,8 @@
         margin-left: 80px;
     }
 
-    &__agricultural-checkbox-icon {
-        width: 36px;
-    }
-
-    &__insurance-checkbox-icon {
-        width: 36px;
-        margin-left: 168px;
+    &__insurance-container {
+        margin-left: 185px;
     }
 
     &__checkbox-container-3 {
@@ -133,12 +119,7 @@
         margin-left: 80px;
     }
 
-    &__computers-and-technology-checkbox-icon {
-        width: 36px;
-    }
-
-    &__landscaping-checkbox-icon {
-        width: 36px;
+    &__landscaping-container {
         margin-left: 70px;
     }
 
@@ -956,159 +937,106 @@
         &__checkbox-container-1 {
             display: flex;
             margin-top: 0px;
-            margin-left: 0px;
+            margin-left: 9px;
         }
-    
-        &__aerospace-and-defense-check-box-icon {
-            width: 36px;
+
+        &__hospitality-and-leisure-checkbox {
+            margin-left: 28px;
+            width: 100px;
         }
-    
-        &__industry-field-text {
-            font-weight: 500;
-        }
-    
-        &__hospitality-and-leisure-check-box-icon {
-            width: 36px;
-            margin-left: 100px;
+
+        &__hospitality-and-leisure-container {
+            margin-left: 94px;
         }
 
         &__checkbox-container-2 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__agricultural-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__insurance-checkbox-icon {
-            width: 36px;
-            margin-left: 168px;
+
+        &__insurance-container {
+            margin-left: 178px;
         }
 
         &__checkbox-container-3 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__computers-and-technology-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__landscaping-checkbox-icon {
-            width: 36px;
-            margin-left: 70px;
+
+        &__landscaping-container {
+            margin-left: 64px;
         }
 
         &__checkbox-container-4 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__construction-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__manufacturing-checkbox-icon {
-            width: 36px;
-            margin-left: 160px;
+
+        &__manufacturing-container {
+            margin-left: 170px;
         }
 
         &__checkbox-container-5 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__consumer-goods-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__oil-and-gas-checkbox-icon {
-            width: 36px;
-            margin-left: 128px;
+
+        &__oil-and-gas-container {
+            margin-left: 138px;
         }
 
         &__checkbox-container-6 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__education-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__pharmaceuticals-checkbox-icon {
-            width: 36px;
-            margin-left: 180px;
+
+        &__pharmaceuticals-container {
+            margin-left: 190px;
         }
 
         &__checkbox-container-7 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__engineering-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__power-and-utilities-checkbox-icon {
-            width: 36px;
-            margin-left: 164px;
+
+        &__power-and-utilities-container {
+            margin-left: 174px;
         }
 
         &__checkbox-container-8 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
-        }
-    
-        &__financial-checkbox-icon {
-            width: 36px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
 
-        &__professional-services-consulting {
-            font-size: inherit;
-        }
-    
-        &__professional-services-consulting-checkbox-icon {
-            width: 36px;
-            margin-left: 188px;
+        &__professional-services-consulting-container {
+            margin-left: 198px;
         }
 
         &__checkbox-container-9 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
-    
-        &__government-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__telecommunications-checkbox-icon {
-            width: 36px;
-            margin-left: 161px;
+
+        &__telecommunications-container {
+            margin-left: 170px;
         }
 
         &__checkbox-container-10 {
             display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin-top: 24px;
+            margin-left: 9px;
         }
     
-        &__healthcare-checkbox-icon {
-            width: 36px;
-        }
-    
-        &__other-checkbox-icon {
-            width: 36px;
-            margin-left: 174px;
+        &__other-container {
+            margin-left: 182px;
         }
 
         &__full-name-admin-label {
