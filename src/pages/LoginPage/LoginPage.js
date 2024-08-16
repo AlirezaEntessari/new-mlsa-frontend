@@ -8,13 +8,48 @@ import ModalForgotYourPassword from "../../components/ModalForgotYourPassword/Mo
 import ModalCheckYourEmail from "../../components/ModalCheckYourEmail/ModalCheckYourEmail";
 import ModalResetYourPassword from "../../components/ModalResetYourPassword/ModalResetYourPassword";
 import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
-import { Link } from "react-router-dom";
+import axios from "axios";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
-  const [isForgotPasswordModalVisible, setForgotPasswordModalVisible] = useState(false);
-  const [isCheckYourEmailModalVisible, setCheckYourEmailModalVisible] = useState(false);
-  const [isResetYourPasswordModalVisible, setResetYourPasswordModalVisible] = useState(false);
-  const [isPasswordConfirmationModalVisible, setPasswordConfirmationModalVisible] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isForgotPasswordModalVisible, setForgotPasswordModalVisible] =
+    useState(false);
+  const [isCheckYourEmailModalVisible, setCheckYourEmailModalVisible] =
+    useState(false);
+  const [isResetYourPasswordModalVisible, setResetYourPasswordModalVisible] =
+    useState(false);
+  const [isPasswordConfirmationModalVisible, setPasswordConfirmationModalVisible] =
+    useState(false);
+  const navigate = useNavigate();
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleLogin = async () => {
+    try {
+      const response = await axios.post("http://localhost:5000/api/login", {
+        email,
+        password,
+      });
+
+      if (response.status === 200) {
+        navigate("/dashboard"); // Navigate to the desired page on successful login
+      }
+    } catch (error) {
+      if (error.response && error.response.status === 401) {
+        alert("Email and password do not match");
+      } else {
+        alert("An error occurred during login. Please try again.");
+      }
+    }
+  };
 
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);
@@ -64,6 +99,9 @@ export default function LoginPage() {
         type="text"
         id="email"
         placeholder="Enter your email"
+        value={email}
+        onChange={handleEmailChange}
+        required
       />
       <img className="login__hide-icon" src={HideIcon} alt="Don't Show" />
       <label className="login__password-label" htmlFor="password">
@@ -71,9 +109,11 @@ export default function LoginPage() {
       </label>
       <input
         className="login__password-input"
-        type="text"
+        type="password"
         id="password"
         placeholder="Enter your password"
+        value={password}
+        onChange={handlePasswordChange}
       />
       <p className="login__keep-me-signed-in">
         <img
@@ -94,31 +134,37 @@ export default function LoginPage() {
         src={reCAPTCHAIcon}
         alt="reCAPTCHA Icon"
       />
-      <button className="login__enter-button">Enter</button>
+      <button className="login__enter-button" onClick={handleLogin}>
+        Enter
+      </button>
       <p className="login__dont-have-an-account">
         Don't have an account?{" "}
-        <Link to="/sign-up-page" className="login__sign-up-link"><span className="login__sign-up-text">Sign Up</span></Link>
+        <Link to="/sign-up-page" className="login__sign-up-link">
+          <span className="login__sign-up-text">Sign Up</span>
+        </Link>
       </p>
       {isForgotPasswordModalVisible && (
-        <ModalForgotYourPassword 
-          closeModal={closeForgotPasswordModal} 
-          handleContinue={handleContinueFromForgotPassword} 
+        <ModalForgotYourPassword
+          closeModal={closeForgotPasswordModal}
+          handleContinue={handleContinueFromForgotPassword}
         />
       )}
       {isCheckYourEmailModalVisible && (
-        <ModalCheckYourEmail 
-          closeModal={closeCheckYourEmailModal} 
-          handleContinue={handleContinueFromCheckYourEmail} 
+        <ModalCheckYourEmail
+          closeModal={closeCheckYourEmailModal}
+          handleContinue={handleContinueFromCheckYourEmail}
         />
       )}
       {isResetYourPasswordModalVisible && (
-        <ModalResetYourPassword 
-          closeModal={closeResetYourPasswordModal} 
-          handleResetPassword={handleResetPassword} 
+        <ModalResetYourPassword
+          closeModal={closeResetYourPasswordModal}
+          handleResetPassword={handleResetPassword}
         />
       )}
       {isPasswordConfirmationModalVisible && (
-        <ModalPasswordConfirmation closeModal={closePasswordConfirmationModal} />
+        <ModalPasswordConfirmation
+          closeModal={closePasswordConfirmationModal}
+        />
       )}
     </div>
   );

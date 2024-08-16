@@ -87,7 +87,9 @@ export default function MembershipSubscriptionPage() {
           </p>
           <div className="membership-subscription__bill-container">
             <div
-              className="membership-subscription__bill-yearly-container"
+              className={`membership-subscription__bill-yearly-container ${
+                billingDuration === "Yearly" ? "selected" : ""
+              }`}
               onClick={handleYearlyClick}
             >
               <p className="membership-subscription__bill-yearly-header">
@@ -105,7 +107,9 @@ export default function MembershipSubscriptionPage() {
               </p>
             </div>
             <div
-              className="membership-subscription__bill-monthly-container"
+              className={`membership-subscription__bill-monthly-container ${
+                billingDuration === "Monthly" ? "selected" : ""
+              }`}
               onClick={handleMonthlyClick}
             >
               <p className="membership-subscription__bill-monthly-header">

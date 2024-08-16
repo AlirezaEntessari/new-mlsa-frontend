@@ -1,23 +1,13 @@
-// CheckBoxWithLogic Component
 import React, { useState } from "react";
 
-export default function CheckBoxWithLogic({ labelText, selectedIndustries, setSelectedIndustries }) {
-  const [checked, setChecked] = useState(false);
-
+export default function CheckBoxTermsAndConditions({ isChecked, setIsChecked }) {
   const handleCheckboxClick = () => {
-    const updatedChecked = !checked;
-    setChecked(updatedChecked);
-
-    if (updatedChecked) {
-      setSelectedIndustries([...selectedIndustries, labelText]);
-    } else {
-      setSelectedIndustries(selectedIndustries.filter(item => item !== labelText));
-    }
+    setIsChecked(!isChecked);
   };
 
   return (
     <div
-      className="checkbox-with-logic"
+      className="checkbox-terms-and-conditions"
       onClick={handleCheckboxClick}
       style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
     >
@@ -33,11 +23,11 @@ export default function CheckBoxWithLogic({ labelText, selectedIndustries, setSe
           y="1"
           width="22"
           height="22"
-          fill={checked ? "#007BFF" : "white"}
+          fill={isChecked ? "#007BFF" : "white"}
           stroke="#221001"
           strokeWidth="2"
         />
-        {checked && (
+        {isChecked && (
           <path
             d="M6 12L10 16L18 8"
             stroke="white"
@@ -47,7 +37,9 @@ export default function CheckBoxWithLogic({ labelText, selectedIndustries, setSe
           />
         )}
       </svg>
-      <span style={{ marginLeft: "8px", fontWeight: 500 }}>{labelText}</span>
+      <span style={{ marginLeft: "8px", fontWeight: 500 }}>
+        I agree to the terms and conditions
+      </span>
     </div>
   );
 }

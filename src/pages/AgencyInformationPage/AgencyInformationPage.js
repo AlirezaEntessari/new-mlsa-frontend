@@ -8,13 +8,18 @@ import RightArrowIcon from "../../assets/icons/right arrow.svg";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import CheckBoxWithLogic from "../../components/CheckBoxWithLogic/CheckBoxWithLogic";
+import CheckBoxTermsAndConditions from "../../components/CheckBoxTermsAndConditions/CheckBoxTermsAndConditions";
 
 export default function AgencyInformationPage() {
   const [staffingAgencyName, setStaffingAgencyName] = useState("");
   const [staffingAgencyEIN, setStaffingAgencyEIN] = useState("");
   const [staffingAgencyWebsite, setStaffingAgencyWebsite] = useState("");
+  const [selectedIndustries, setSelectedIndustries] = useState([]);
   const [fullName, setFullName] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState(""); // State for confirm password
+  const [errorMessage, setErrorMessage] = useState(""); // State for error message
+  const [isChecked, setIsChecked] = useState(false);
   const navigate = useNavigate();
 
   const handleAgencyNameChange = (e) => {
@@ -37,8 +42,24 @@ export default function AgencyInformationPage() {
     setPassword(e.target.value);
   };
 
+  const handleConfirmPasswordChange = (e) => {
+    setConfirmPassword(e.target.value);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Check if passwords match
+    if (password !== confirmPassword) {
+      alert("Passwords do not match");
+      return; // Prevent form submission if passwords don't match
+    }
+
+    // Check if terms and conditions are agreed upon
+    if (!isChecked) {
+      alert("You must agree to the terms and conditions");
+      return; // Prevent form submission if terms and conditions are not agreed
+    }
 
     // Retrieve email and membership plan from local storage
     const email = localStorage.getItem("email");
@@ -56,6 +77,7 @@ export default function AgencyInformationPage() {
       staffingAgencyName,
       staffingAgencyEIN,
       staffingAgencyWebsite,
+      industryField: selectedIndustries.join(", "),
       fullNameAdmin: fullName,
       password,
     };
@@ -161,63 +183,143 @@ export default function AgencyInformationPage() {
               select, select "Other".
             </p>
             <div className="agency-information-page__checkbox-container-1">
-              <CheckBoxWithLogic labelText="Aerospace and Defense" />
+              <CheckBoxWithLogic
+                labelText="Aerospace and Defense"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__hospitality-and-leisure-container">
-                <CheckBoxWithLogic labelText="Hospitality & Leisure" />
+                <CheckBoxWithLogic
+                  labelText="Hospitality & Leisure"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-2">
-              <CheckBoxWithLogic labelText="Agricultural" />
+              <CheckBoxWithLogic
+                labelText="Agricultural"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__insurance-container">
-                <CheckBoxWithLogic labelText="Insurance" />
+                <CheckBoxWithLogic
+                  labelText="Insurance"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-3">
-              <CheckBoxWithLogic labelText="Computers and Technology" />
+              <CheckBoxWithLogic
+                labelText="Computers and Technology"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__landscaping-container">
-                <CheckBoxWithLogic labelText="Landscaping" />
+                <CheckBoxWithLogic
+                  labelText="Landscaping"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-4">
-              <CheckBoxWithLogic labelText="Construction" />
+              <CheckBoxWithLogic
+                labelText="Construction"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__manufacturing-container">
-                <CheckBoxWithLogic labelText="Manufacturing" />
+                <CheckBoxWithLogic
+                  labelText="Manufacturing"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-5">
-              <CheckBoxWithLogic labelText="Consumer Goods" />
+              <CheckBoxWithLogic
+                labelText="Consumer Goods"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__oil-and-gas-container">
-                <CheckBoxWithLogic labelText="Oil & Gas" />
+                <CheckBoxWithLogic
+                  labelText="Oil & Gas"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-6">
-              <CheckBoxWithLogic labelText="Education" />
+              <CheckBoxWithLogic
+                labelText="Education"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__pharmaceuticals-container">
-                <CheckBoxWithLogic labelText="Pharmaceuticals" />
+                <CheckBoxWithLogic
+                  labelText="Pharmaceuticals"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-7">
-              <CheckBoxWithLogic labelText="Engineering" />
+              <CheckBoxWithLogic
+                labelText="Engineering"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__power-and-utilities-container">
-                <CheckBoxWithLogic labelText="Power and Utilities" />
+                <CheckBoxWithLogic
+                  labelText="Power and Utilities"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-8">
-              <CheckBoxWithLogic labelText="Financial" />
+              <CheckBoxWithLogic
+                labelText="Financial"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__professional-services-consulting-container">
-                <CheckBoxWithLogic labelText="Professional Services/Consulting" />
+                <CheckBoxWithLogic
+                  labelText="Professional Services/Consulting"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-9">
-              <CheckBoxWithLogic labelText="Government" />
+              <CheckBoxWithLogic
+                labelText="Government"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__telecommunications-container">
-                <CheckBoxWithLogic labelText="Telecommunications" />
+                <CheckBoxWithLogic
+                  labelText="Telecommunications"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
             <div className="agency-information-page__checkbox-container-10">
-              <CheckBoxWithLogic labelText="Healthcare" />
+              <CheckBoxWithLogic
+                labelText="Healthcare"
+                selectedIndustries={selectedIndustries}
+                setSelectedIndustries={setSelectedIndustries}
+              />
               <div className="agency-information-page__other-container">
-                <CheckBoxWithLogic labelText="Other" />
+                <CheckBoxWithLogic
+                  labelText="Other"
+                  selectedIndustries={selectedIndustries}
+                  setSelectedIndustries={setSelectedIndustries}
+                />
               </div>
             </div>
           </div>
@@ -333,17 +435,21 @@ export default function AgencyInformationPage() {
               className="agency-information-page__confirm-password-input"
               type="password"
               placeholder="Enter your password again"
+              id="confirm-password"
+              value={confirmPassword}
+              onChange={handleConfirmPasswordChange}
             />
-            <p className="agency-information-page__terms-and-conditions">
-              <img
-                className="agency-information-page__terms-and-conditions-checkbox"
-                src={CheckboxIcon}
-                alt="Required"
-              />{" "}
-              <span className="agency-information-page__terms-and-conditions-text">
-                I agree to the terms and conditions
-              </span>
-            </p>
+            {errorMessage && (
+              <p className="agency-information-page__error-message">
+                {errorMessage}
+              </p>
+            )}
+            <div className="agency-information-page__agree-terms-and-conditions-container">
+              <CheckBoxTermsAndConditions
+                isChecked={isChecked}
+                setIsChecked={setIsChecked}
+              />
+            </div>
             <p className="agency-information-page__view-agreement">
               View Agreement
             </p>

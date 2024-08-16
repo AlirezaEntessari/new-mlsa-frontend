@@ -89,6 +89,16 @@
         margin-top: 3px;
     }
 
+    &__bill-yearly-container.selected,
+    &__bill-monthly-container.selected {
+      border: 2px solid $logo-orange; // Solid border when selected
+    }
+
+    &__bill-yearly-container.selected:hover,
+    &__bill-monthly-container.selected:hover {
+        border: 2px solid $logo-orange; // Ensure hover works when selected
+    }
+
     &__payment-method {
         margin-left: 92px;
         font-weight: 500;
