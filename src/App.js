@@ -8,6 +8,7 @@ import PaymentConfirmationPage from './pages/PaymentConfirmationPage/PaymentConf
 import LoginPage from './pages/LoginPage/LoginPage';
 import AccountSettingsProfilePage from './pages/AccountSettingsProfilePage/AccountSettingsProfilePage';
 import AccountSettingsAgencyPage from './pages/AccountSettingsAgencyPage/AccountSettingsAgencyPage';
+import AccountSettingsPasswordPage from './pages/AccountSettingsPasswordPage/AccountSettingsPasswordPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login-page" element={<LoginPage />} />
         <Route path="/account-settings-profile-page" element={<AccountSettingsProfilePage />} />
         <Route path="/account-settings-agency-page" element={<AccountSettingsAgencyPage />} />
+        <Route path="/account-settings-password-page" element={<AccountSettingsPasswordPage />} />
       </Routes>
       </BrowserRouter>
     </div>

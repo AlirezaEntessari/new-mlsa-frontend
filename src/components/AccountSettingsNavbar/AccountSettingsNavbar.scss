@@ -37,6 +37,11 @@
         color: inherit;
     }
 
+    &__password-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -72,6 +77,11 @@
         }
     
         &__agency-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__password-link {
             text-decoration: none;
             color: inherit;
         }
@@ -126,6 +136,11 @@
         }
     
         &__agency-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__password-link {
             text-decoration: none;
             color: inherit;
         }

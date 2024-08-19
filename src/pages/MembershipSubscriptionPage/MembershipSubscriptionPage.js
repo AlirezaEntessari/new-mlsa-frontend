@@ -35,9 +35,44 @@ export default function MembershipSubscriptionPage() {
     setBillingDuration("Monthly");
   };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault(); // Prevent the default form submission
+
+  //   const paymentDetails = {
+  //     billingDuration,
+  //     firstName,
+  //     lastName,
+  //     cardNumber,
+  //     expires,
+  //     cvv,
+  //     addressLine1,
+  //     addressLine2,
+  //     city,
+  //     state,
+  //     countryRegion,
+  //     zipCode,
+  //   };
+
+  //   try {
+  //     const response = await axios.post(
+  //       "http://localhost:5000/api/payment-details",
+  //       paymentDetails
+  //     );
+
+  //     if (response.status === 200) {
+  //       console.log("Payment details saved successfully");
+  //       navigate("/payment-confirmation-page"); // Navigate to the confirmation page on success
+  //     } else {
+  //       console.error("Failed to save payment details");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error:", error);
+  //   }
+  // };
+
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the default form submission
-
+  
     const paymentDetails = {
       billingDuration,
       firstName,
@@ -52,23 +87,24 @@ export default function MembershipSubscriptionPage() {
       countryRegion,
       zipCode,
     };
-
+  
     try {
       const response = await axios.post(
         "http://localhost:5000/api/payment-details",
         paymentDetails
       );
-
-      if (response.status === 200) {
-        console.log("Payment details saved successfully");
-        navigate("/payment-confirmation-page"); // Navigate to the confirmation page on success
+  
+      if (response.status === 200 && response.data.url) {
+        // Redirect to Stripe payment page
+        window.location.href = response.data.url;
       } else {
-        console.error("Failed to save payment details");
+        console.error("Failed to create payment session");
       }
     } catch (error) {
       console.error("Error:", error);
     }
   };
+  
 
   return (
     <div className="membership-subscription">

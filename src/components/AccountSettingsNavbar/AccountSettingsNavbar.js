@@ -20,9 +20,14 @@ export default function AccountSettingsNavbar() {
         >
           <span className="account-settings-navbar__agency-option">Agency</span>
         </Link>
-        <span className="account-settings-navbar__password-option">
-          Password
-        </span>
+        <Link
+          to="/account-settings-password-page"
+          className="account-settings-navbar__password-link"
+        >
+          <span className="account-settings-navbar__password-option">
+            Password
+          </span>
+        </Link>
         <span className="account-settings-navbar__billing-option">Billing</span>
         <span className="account-settings-navbar__notifications-option">
           Notifications
