@@ -105,7 +105,388 @@
         margin-left: 24px;
         margin-top: 20px;
     }
-    
 
+    &__billing-container {
+        margin-left: 24px;
+        margin-top: 60px;
+        border: 1px solid $soft-black;
+        width: 450px;
+        height: 260px;
+        border-radius: 12px;
+    }
+
+    &__billing-text {
+        padding-top: 10px;
+        padding-left: 24px;
+        background-color: $medium-gray;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 250px;
+        border: 1px solid $soft-black;
+        height: 45px;
+        font-weight: 500;
+    }
+
+    &__credit-card-on-file {
+        margin-left: 24px;
+        font-weight: 500;
+    }
+
+    &__credit-card-number {
+        font-weight: 500;
+        margin-left: 80px;
+    }
+
+    &__last-payment-received {
+        margin-left: 24px;
+    }
+
+    &__last-payment-received-date {
+        margin-left: 50px;
+    }
+
+    &__change-payment-method-button {
+        margin-left: 36px;
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 32px;
+        border-radius: 24px;
+        margin-top: 12px;
+    }
+
+    &__payment-history {
+        color: $access-blue;
+        text-decoration: underline;
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+
+    &__referral-credits-container {
+        margin-left: 24px;
+        margin-top: 60px;
+        border: 1px solid $soft-black;
+        width: 450px;
+        height: 260px;
+        border-radius: 12px;
+    }
+
+    &__referral-credits-text {
+        padding-top: 10px;
+        padding-left: 24px;
+        background-color: $medium-gray;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 250px;
+        border: 1px solid $soft-black;
+        height: 45px;
+        font-weight: 500;
+    }
+
+    &__agency-referrals {
+        margin-left: 24px;
+        font-weight: 500;
+    }
+
+    &__abc-staffing-inc {
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+
+    &__abc-staffing-inc-date {
+        margin-left: 120px;
+    }
+
+    &__referral-credit {
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+
+    &__refer-an-agency-button {
+        margin-left: 36px;
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        margin-top: 10px;
+        width: 180px;
+        border-radius: 20px;
+        height: 32px;
+    }
+
+    &__questions-subscription-billing {
+        margin-left: 75px;
+        margin-top: 32px;
+        margin-bottom: 10px;
+    } 
+
+    &__email-us {
+        margin-left: 83px;
+    }
+    
+}
+
+@include tablet {
+    
+    .account-settings-billing {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            margin-top: 24px;
+            margin-left: 36px;
+            font-weight: 700;
+            font-size: 24px;
+            // margin-bottom: 12px;
+            margin-bottom: 6px;
+        }
+
+        &__administrator-text {
+            margin-left: 36px;
+            margin-top: 0px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    
+        &__subscription-and-billing-container {
+            display: flex;
+        }
+    
+        &__subscription-and-billing-settings {
+            font-weight: 500;
+            margin-left: 36px;
+            margin-top: 10px;
+        }
+
+        &__cancel-button {
+            width: 100px;
+            background-color: $white-background;
+            height: 27px;
+            border: 1.5px solid $dark-navy;
+            margin-top: 40px;
+            border-radius: 24px;
+            font-size: 14px;
+            margin-left: 170px;
+        }
+    
+        &__save-changes-button {
+            width: 132px;
+            background-color: $dark-navy;
+            height: 27px;
+            border: 1.5px solid $dark-navy;
+            margin-top: 40px;
+            border-radius: 24px; 
+            font-size: 14px;
+            margin-left: 10px;
+            color: $white-text;
+        }
+
+        &__subscription-container {
+            margin-left: 36px;
+            margin-top: 60px;
+            border: 1px solid $soft-black;
+            width: 640px;
+            height: 240px;
+            border-radius: 12px;
+            position: relative;
+        }
+    
+        &__subscription-text {
+            padding-top: 10px;
+            padding-left: 24px;
+            background-color: $medium-gray;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            width: 220px;
+            border: 1px solid $soft-black;
+            height: 45px;
+            font-weight: 500;
+        }
+
+        &__monthly-plan {
+            margin-left: 24px;
+            font-weight: 500;
+            font-size: 15px;
+            margin-top: 40px;
+        }
+
+        &__monthly-plan-amount {
+            margin-left: 90px;
+        }
+    
+        &__next-payment-due {
+            margin-left: 24px;
+            font-size: 15px;
+        }
+
+        &__next-payment-due-date {
+            margin-left: 60px;
+            font-size: 15px;
+        }
+
+        &__upgrade-to-yearly-plan-button {
+            position: absolute;
+            top: 6px;
+            left: 368px;
+            margin-left: 0px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 250px;
+            height: 32px;
+            border-radius: 24px;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        &__cancel-subscription {
+            color: $access-blue;
+            text-decoration: underline;
+            margin-left: 24px;
+            margin-top: 20px;
+        }
+
+        &__billing-container {
+            margin-left: 36px;
+            margin-top: 60px;
+            border: 1px solid $soft-black;
+            width: 640px;
+            height: 240px;
+            border-radius: 12px;
+            position: relative;
+        }
+    
+        &__billing-text {
+            padding-top: 10px;
+            padding-left: 24px;
+            background-color: $medium-gray;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            width: 220px;
+            border: 1px solid $soft-black;
+            height: 45px;
+            font-weight: 500;
+        }
+
+        &__credit-card-on-file {
+            margin-left: 24px;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+    
+        &__credit-card-number {
+            font-weight: 500;
+            margin-left: 80px;
+        }
+
+        &__last-payment-received {
+            margin-left: 24px;
+        }
+    
+        &__last-payment-received-date {
+            margin-left: 50px;
+        }
+
+        &__change-payment-method-button {
+            position: absolute;
+            top: 6px;
+            left: 368px;
+            margin-left: 0px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 250px;
+            height: 32px;
+            border-radius: 24px;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+    
+        &__payment-history {
+            color: $access-blue;
+            text-decoration: underline;
+            margin-left: 24px;
+            margin-top: 20px;
+        }
+
+        &__referral-credits-container {
+            margin-left: 36px;
+            margin-top: 60px;
+            border: 1px solid $soft-black;
+            width: 640px;
+            height: 240px;
+            border-radius: 12px;
+            position: relative;
+        }
+    
+        &__referral-credits-text {
+            padding-top: 10px;
+            padding-left: 24px;
+            background-color: $medium-gray;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            width: 220px;
+            border: 1px solid $soft-black;
+            height: 45px;
+            font-weight: 500;
+        }
+
+        &__agency-referrals {
+            margin-left: 24px;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+    
+        &__abc-staffing-inc {
+            margin-left: 24px;
+            margin-top: 20px;
+        }
+
+        &__abc-staffing-inc-date {
+            margin-left: 120px;
+        }
+    
+        &__referral-credit {
+            margin-left: 24px;
+            margin-top: 20px;
+        }
+
+        &__refer-an-agency-button {
+            position: absolute;
+            top: 6px;
+            left: 384px;
+            margin-left: 0px;
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 200px;
+            height: 32px;
+            border-radius: 24px;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        &__footer-container {
+            display: flex;
+        }
+
+        &__questions-subscription-billing {
+            margin-left: 176px;
+            margin-top: 38px;
+            margin-bottom: 10px;
+        } 
+    
+        &__email-us {
+            margin-left: 184px;
+        }
+
+    }
 
 }
