@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import AccountSettingsProfilePage from './pages/AccountSettingsProfilePage/AccountSettingsProfilePage';
 import AccountSettingsAgencyPage from './pages/AccountSettingsAgencyPage/AccountSettingsAgencyPage';
 import AccountSettingsPasswordPage from './pages/AccountSettingsPasswordPage/AccountSettingsPasswordPage';
+import AccountSettingsBillingPage from './pages/AccountSettingsBillingPage/AccountSettingsBillingPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/account-settings-profile-page" element={<AccountSettingsProfilePage />} />
         <Route path="/account-settings-agency-page" element={<AccountSettingsAgencyPage />} />
         <Route path="/account-settings-password-page" element={<AccountSettingsPasswordPage />} />
+        <Route path="/account-settings-billing-page" element={<AccountSettingsBillingPage />} />
       </Routes>
       </BrowserRouter>
     </div>

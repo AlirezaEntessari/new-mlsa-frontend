@@ -28,7 +28,14 @@ export default function AccountSettingsNavbar() {
             Password
           </span>
         </Link>
-        <span className="account-settings-navbar__billing-option">Billing</span>
+        <Link
+          to="/account-settings-billing-page"
+          className="account-settings-navbar__billing-link"
+        >
+          <span className="account-settings-navbar__billing-option">
+            Billing
+          </span>
+        </Link>
         <span className="account-settings-navbar__notifications-option">
           Notifications
         </span>

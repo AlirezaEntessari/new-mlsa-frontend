@@ -32,14 +32,35 @@
         color: inherit;
     }
 
+    &__profile-link:hover {
+        color: $logo-orange;
+    }
+
     &__agency-link {
         text-decoration: none;
         color: inherit;
     }
 
+    &__agency-link:hover {
+        color: $logo-orange;
+    }
+
     &__password-link {
         text-decoration: none;
         color: inherit;
+    }
+
+    &__password-link:hover {
+        color: $logo-orange;
+    }
+
+    &__billing-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__billing-link:hover {
+        color: $logo-orange;
     }
 
 }
@@ -52,7 +73,7 @@
             margin-top: 36px;
             margin-left: 36px;
             border-bottom: 1px solid $soft-black;
-            margin-right: 8px;
+            // margin-right: 8px;
         }
     
         &__agency-option {
@@ -98,7 +119,8 @@
             margin-top: 36px;
             margin-left: 60px;
             border-bottom: 2px solid $soft-black;
-            margin-right: 100px;
+            margin-right: 0px;
+            width: 100%;
         }
 
         &__profile-option {

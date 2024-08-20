@@ -1,0 +1,111 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.account-settings-billing {
+    padding-bottom: 100px;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        margin-top: 24px;
+        margin-left: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        // margin-bottom: 12px;
+        margin-bottom: 6px;
+    }
+
+    &__administrator-text {
+        margin-left: 24px;
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__subscription-and-billing-container {
+        display: flex;
+    }
+
+    &__subscription-and-billing-settings {
+        font-weight: 500;
+        margin-left: 24px;
+        margin-top: 36px;
+    }
+
+    &__cancel-button {
+        width: 100px;
+        background-color: $white-background;
+        height: 30px;
+        border: 1.5px solid $dark-navy;
+        margin-top: 80px;
+        border-radius: 24px;
+        font-size: 14px;
+    }
+
+    &__save-changes-button {
+        width: 132px;
+        background-color: $dark-navy;
+        height: 30px;
+        border: 1.5px solid $dark-navy;
+        margin-top: 80px;
+        border-radius: 24px; 
+        font-size: 14px;
+        margin-left: 10px;
+        color: $white-text;
+    }
+
+    &__subscription-container {
+        margin-left: 24px;
+        margin-top: 60px;
+        border: 1px solid $soft-black;
+        width: 450px;
+        height: 260px;
+        border-radius: 12px;
+    }
+
+    &__subscription-text {
+        padding-top: 10px;
+        padding-left: 24px;
+        background-color: $medium-gray;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 250px;
+        border: 1px solid $soft-black;
+        height: 45px;
+        font-weight: 500;
+    }
+
+    &__monthly-plan {
+        margin-left: 24px;
+        font-weight: 500;
+    }
+
+    &__next-payment-due {
+        margin-left: 24px;
+    }
+
+    &__upgrade-to-yearly-plan-button {
+        margin-left: 36px;
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 32px;
+        border-radius: 24px;
+        margin-top: 12px;
+    }
+
+    &__cancel-subscription {
+        color: $access-blue;
+        text-decoration: underline;
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+    
+
+
+}
