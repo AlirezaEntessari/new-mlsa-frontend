@@ -58,5 +58,116 @@
         border-radius: 20px;
     }
 
+    &__vacation-mode-container {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 50px;
+    }
+
+    &__radio-button {
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    &__off-text {
+        color: $medium-dark-gray;
+        margin-left: 8px;
+    }
+
+    &__clear-all-button {
+        margin-left: 116px;
+        background-color: $white-background;
+        border: 1px solid $dark-navy;
+        width: 120px;
+        height: 32px;
+        border-radius: 20px;
+    }
+
+    &__email-notifications-container {
+        width: 450px;
+        border: 1px solid $soft-black;
+        margin-left: 24px;
+        margin-top: 60px;
+        height: 400px;
+        border-radius: 12px;
+    }
+
+    &__email-notifications-top-container {
+        display: flex;
+    }
+
+    &__email-notifications-text {
+        padding-top: 10px;
+        padding-left: 24px;
+        background-color: $medium-gray;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 230px;
+        border: 1px solid $soft-black;
+        height: 45px;
+        font-weight: 500;
+    }
+
+    &__radio-button-blue-on {
+        width: 50px;
+        margin-left: 150px;
+        margin-bottom: 12px;
+    }
+
+    &__submission-updates-container-one {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 18px;
+    }
+
+    &__email-updates {
+        font-weight: 500;
+    }
+
+    &__checkbox-container-submissions-updates-one {
+        margin-left: 126px;
+        margin-top: 4px;
+    }
+
+    &__submissions-updates-text {
+        margin-left: 2px;
+    }
+
+    &__application-updates-container-one {
+        display: flex;
+    }
+
+    &__checkbox-container-applications-updates-one {
+        margin-left: 210px;
+        margin-top: 4px;
+    }
+
+    &__email-partner-updates-container {
+        background-color: $medium-gray;
+        margin-top: 20px;
+    }
+
+    &__submission-updates-container-two {
+        padding-left: 24px;
+        padding-top: 16px;
+        display: flex;
+    }
+
+    &__email-partner-updates {
+        font-weight: 500;
+    }
+
+    &__checkbox-container-submissions-updates-two {
+        margin-left: 66px;
+        margin-top: 4px;
+    }
+
+    &__applications-updates-container-two {
+        display: flex;
+        margin-left: 208px;
+        padding-bottom: 16px;
+    }
+
 
 }
