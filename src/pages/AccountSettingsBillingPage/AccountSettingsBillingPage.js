@@ -90,12 +90,14 @@ export default function AccountSettingsBillingPage() {
               Refer an Agency
             </button>
           </div>
-          <p className="account-settings-billing__questions-subscription-billing">
-            Questions about your Subscription or Billing?
-          </p>
-          <p className="account-settings-billing__email-us">
-            Email Us at getemailforstripesupport.com
-          </p>
+          <div className="account-settings-billing__footer-container">
+            <p className="account-settings-billing__questions-subscription-billing">
+              Questions about your Subscription or Billing?
+            </p>
+            <p className="account-settings-billing__email-us">
+              Email Us at getemailforstripesupport.com
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -36,9 +36,14 @@ export default function AccountSettingsNavbar() {
             Billing
           </span>
         </Link>
-        <span className="account-settings-navbar__notifications-option">
-          Notifications
-        </span>
+        <Link
+          to="/account-settings-notifications-page"
+          className="account-settings-navbar__notifications-link"
+        >
+          <span className="account-settings-navbar__notifications-option">
+            Notifications
+          </span>
+        </Link>
       </p>
     </div>
   );

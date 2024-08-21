@@ -63,6 +63,15 @@
         color: $logo-orange;
     }
 
+    &__notifications-link {
+        text-decoration: none;
+        color: inherit; 
+    }
+
+    &__notifications-link:hover {
+        color: $logo-orange;
+    }
+
 }
 
 @include tablet {
