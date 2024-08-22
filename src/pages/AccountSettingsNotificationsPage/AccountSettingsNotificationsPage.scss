@@ -324,7 +324,7 @@
             position: absolute;
             font-size: 14px;
             top: 324px;
-            left: 600px;
+            left: 604px;
         }
 
         &__update-your-notifications-here {
@@ -376,9 +376,9 @@
         }
 
         &__email-notifications-container {
-            width: 450px;
+            width: 500px;
             border: 1px solid $soft-black;
-            margin-left: 24px;
+            margin-left: 130px;
             margin-top: 60px;
             height: 530px;
             border-radius: 12px;
@@ -400,6 +400,292 @@
             height: 45px;
             font-weight: 500;
         }
+
+        &__radio-button-blue-on {
+            width: 50px;
+            margin-left: 200px;
+            margin-bottom: 12px;
+        }
+    
+        &__submission-updates-container-one {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 18px;
+        }
+
+        &__email-updates {
+            font-weight: 500;
+        }
+    
+        &__checkbox-container-submissions-updates-one {
+            margin-left: 156px;
+            margin-top: 4px;
+        }
+    
+        &__submissions-updates-text {
+            margin-left: 2px;
+        }
+
+        &__application-updates-container-one {
+            display: flex;
+        }
+    
+        &__checkbox-container-applications-updates-one {
+            margin-left: 240px;
+            margin-top: 4px;
+        }
+    
+        &__email-partner-updates-container {
+            background-color: $medium-gray;
+            margin-top: 20px;
+        }
+    
+        &__submission-updates-container-two {
+            padding-left: 24px;
+            padding-top: 16px;
+            display: flex;
+        }
+    
+        &__email-partner-updates {
+            font-weight: 500;
+        }
+    
+        &__checkbox-container-submissions-updates-two {
+            margin-left: 96px;
+            margin-top: 4px;
+        }
+    
+        &__applications-updates-container-two {
+            display: flex;
+            margin-left: 238px;
+            padding-bottom: 16px;
+        }
+    
+        &__checkbox-container-applications-updates-two {
+            margin-top: 4px;
+        }
+    
+        &__email-new-job-alerts-container {
+            background-color: $white-background;
+            margin-top: 20px;
+        }
+    
+        &__submission-updates-container-three {
+            padding-left: 24px;
+            padding-top: 16px;
+            display: flex;
+        }
+    
+        &__email-new-job-alerts {
+            font-weight: 500;
+        }
+    
+        &__checkbox-container-submissions-updates-three {
+            margin-left: 104px;
+            margin-top: 4px;
+        }
+    
+        &__applications-updates-container-three {
+            display: flex;
+            margin-left: 238px;
+        }
+    
+        &__checkbox-container-applications-updates-three {
+            margin-top: 4px;
+        }
+    
+        &__email-new-candidate-alerts-container {
+            background-color: $medium-gray;
+            margin-top: 20px;
+        }
+    
+        &__submission-updates-container-four {
+            padding-left: 24px;
+            padding-top: 16px;
+            display: flex;
+        }
+    
+        &__email-new-candidate-alerts {
+            font-weight: 500;
+        }
+    
+        &__checkbox-container-submissions-updates-four {
+            margin-left: 54px;
+            margin-top: 4px;
+        }
+    
+        &__applications-updates-container-four {
+            display: flex;
+            margin-left: 236px;
+            padding-bottom: 16px;
+        }
+    
+        &__checkbox-container-applications-updates-four {
+            margin-top: 4px;
+        }
+    
+        &__message-notifications-container {
+            width: 500px;
+            border: 1px solid $soft-black;
+            margin-left: 130px;
+            margin-top: 60px;
+            height: 530px;
+            border-radius: 12px;
+        }
+    
+        &__message-notifications-top-container {
+            display: flex;
+        }
+    
+        &__message-notifications-text {
+            padding-top: 10px;
+            padding-left: 24px;
+            background-color: $medium-gray;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            width: 230px;
+            border: 1px solid $soft-black;
+            height: 45px;
+            font-weight: 500;
+        }
+    
+        &__message-updates {
+            font-weight: 500;
+        }
+    
+        &__message-partner-updates {
+            font-weight: 500;
+        }
+    
+        &__message-new-job-alerts {
+            font-weight: 500;
+        }
+    
+        &__message-new-candidate-alerts {
+            font-weight: 500;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .account-settings-notifications {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            margin-top: 36px;
+            margin-left: 60px;
+            font-weight: 700;
+            font-size: 32px;
+            margin-bottom: 6px;
+        }
+
+        &__administrator-text {
+            margin-left: 60px;
+            margin-top: 0px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    
+        &__notification-settings-container {
+            display: flex;
+        }
+
+        &__notification-settings {
+            margin-left: 60px;
+            margin-top: 20px;
+            font-weight: 500;
+            margin-bottom: 2px;
+            font-size: 22px;
+        }
+    
+        &__save-changes-button {
+            height: 36px;
+            width: 160px;
+            margin-top: 32px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 20px;
+            margin-left: 158px;
+            position: absolute;
+            font-size: 16px;
+            top: 388px;
+            left: 1004px;
+        }
+
+        &__update-your-notifications-here {
+            margin-top: 4px;
+            margin-left: 60px;
+            font-size: 16px;
+        }
+    
+        &__cancel-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            margin-left: 376px;
+            height: 36px;
+            width: 100px;
+            border-radius: 20px;
+            font-size: 16px;
+            position: absolute;
+            top: 422px;
+            left: 524px;
+        }
+
+        &__vacation-mode-container {
+            display: flex;
+            margin-left: 60px;
+            margin-top: 48px;
+        }
+    
+        &__radio-button {
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        &__off-text {
+            color: $medium-dark-gray;
+            margin-left: 8px;
+        }
+
+        &__clear-all-button {
+            margin-left: 120px;
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            width: 136px;
+            height: 36px;
+            border-radius: 20px;
+            position: absolute;
+            font-size: 16px;
+            top: 422px;
+            left: 894px;
+        }
+
+        &__notifications-container {
+            display: flex;
+        }
+
+        &__email-notifications-container {
+            width: 500px;
+            border: 1px solid $soft-black;
+            margin-left: 60px;
+            margin-top: 60px;
+            height: 530px;
+            border-radius: 12px;
+        }
+
+        &__email-notifications-top-container {
+            display: flex;
+        }
+
 
     }
 
