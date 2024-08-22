@@ -51,55 +51,193 @@ export default function AccountSettingsNotificationsPage() {
               Clear All
             </button>
           </div>
-          <div className="account-settings-notifications__email-notifications-container">
-            <div className="account-settings-notifications__email-notifications-top-container">
-              <p className="account-settings-notifications__email-notifications-text">
-                Email Notifications
-              </p>
-              <img
-                className="account-settings-notifications__radio-button-blue-on"
-                src={RadioButtonBlueOn}
-                alt="Radio Button Blue On"
-              />
-            </div>
-            <div className="account-settings-notifications__submission-updates-container-one">
-              <p className="account-settings-notifications__email-updates">
-                Updates
-              </p>
-              <div className="account-settings-notifications__checkbox-container-submissions-updates-one">
-                <SVGCheckbox />
-              </div>
-              <span className="account-settings-notifications__submissions-updates-text">
-                Submissions Updates
-              </span>
-            </div>
-            <div className="account-settings-notifications__application-updates-container-one">
-              <div className="account-settings-notifications__checkbox-container-applications-updates-one">
-                <SVGCheckbox />
-              </div>
-              <span className="account-settings-notifications__applications-updates-text">
-                Applications Updates
-              </span>
-            </div>
-            <div className="account-settings-notifications__email-partner-updates-container">
-              <div className="account-settings-notifications__submission-updates-container-two">
-                <p className="account-settings-notifications__email-partner-updates">
-                  Partner Updates
+          <div className="account-settings-notifications__notifications-container">
+            <div className="account-settings-notifications__email-notifications-container">
+              <div className="account-settings-notifications__email-notifications-top-container">
+                <p className="account-settings-notifications__email-notifications-text">
+                  Email Notifications
                 </p>
-                <div className="account-settings-notifications__checkbox-container-submissions-updates-two">
+                <img
+                  className="account-settings-notifications__radio-button-blue-on"
+                  src={RadioButtonBlueOn}
+                  alt="Radio Button Blue On"
+                />
+              </div>
+              <div className="account-settings-notifications__submission-updates-container-one">
+                <p className="account-settings-notifications__email-updates">
+                  Updates
+                </p>
+                <div className="account-settings-notifications__checkbox-container-submissions-updates-one">
                   <SVGCheckbox />
                 </div>
                 <span className="account-settings-notifications__submissions-updates-text">
                   Submissions Updates
                 </span>
               </div>
-              <div className="account-settings-notifications__applications-updates-container-two">
-                <div className="account-settings-notifications__checkbox-container-applications-updates-two">
+              <div className="account-settings-notifications__application-updates-container-one">
+                <div className="account-settings-notifications__checkbox-container-applications-updates-one">
                   <SVGCheckbox />
                 </div>
                 <span className="account-settings-notifications__applications-updates-text">
                   Applications Updates
                 </span>
+              </div>
+              <div className="account-settings-notifications__email-partner-updates-container">
+                <div className="account-settings-notifications__submission-updates-container-two">
+                  <p className="account-settings-notifications__email-partner-updates">
+                    Partner Updates
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-two">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-two">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-two">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
+              </div>
+              <div className="account-settings-notifications__email-new-job-alerts-container">
+                <div className="account-settings-notifications__submission-updates-container-three">
+                  <p className="account-settings-notifications__email-new-job-alerts">
+                    New Job Alerts
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-three">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-three">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-three">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
+              </div>
+              <div className="account-settings-notifications__email-new-candidate-alerts-container">
+                <div className="account-settings-notifications__submission-updates-container-four">
+                  <p className="account-settings-notifications__email-new-candidate-alerts">
+                    New Candidate Alerts
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-four">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-four">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-four">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="account-settings-notifications__message-notifications-container">
+              <div className="account-settings-notifications__message-notifications-top-container">
+                <p className="account-settings-notifications__message-notifications-text">
+                  Message Notifications
+                </p>
+                <img
+                  className="account-settings-notifications__radio-button-blue-on"
+                  src={RadioButtonBlueOn}
+                  alt="Radio Button Blue On"
+                />
+              </div>
+              <div className="account-settings-notifications__submission-updates-container-one">
+                <p className="account-settings-notifications__message-updates">
+                  Updates
+                </p>
+                <div className="account-settings-notifications__checkbox-container-submissions-updates-one">
+                  <SVGCheckbox />
+                </div>
+                <span className="account-settings-notifications__submissions-updates-text">
+                  Submissions Updates
+                </span>
+              </div>
+              <div className="account-settings-notifications__application-updates-container-one">
+                <div className="account-settings-notifications__checkbox-container-applications-updates-one">
+                  <SVGCheckbox />
+                </div>
+                <span className="account-settings-notifications__applications-updates-text">
+                  Applications Updates
+                </span>
+              </div>
+              <div className="account-settings-notifications__email-partner-updates-container">
+                <div className="account-settings-notifications__submission-updates-container-two">
+                  <p className="account-settings-notifications__message-partner-updates">
+                    Partner Updates
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-two">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-two">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-two">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
+              </div>
+              <div className="account-settings-notifications__email-new-job-alerts-container">
+                <div className="account-settings-notifications__submission-updates-container-three">
+                  <p className="account-settings-notifications__message-new-job-alerts">
+                    New Job Alerts
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-three">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-three">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-three">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
+              </div>
+              <div className="account-settings-notifications__email-new-candidate-alerts-container">
+                <div className="account-settings-notifications__submission-updates-container-four">
+                  <p className="account-settings-notifications__message-new-candidate-alerts">
+                    New Candidate Alerts
+                  </p>
+                  <div className="account-settings-notifications__checkbox-container-submissions-updates-four">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__submissions-updates-text">
+                    Submissions Updates
+                  </span>
+                </div>
+                <div className="account-settings-notifications__applications-updates-container-four">
+                  <div className="account-settings-notifications__checkbox-container-applications-updates-four">
+                    <SVGCheckbox />
+                  </div>
+                  <span className="account-settings-notifications__applications-updates-text">
+                    Applications Updates
+                  </span>
+                </div>
               </div>
             </div>
           </div>
