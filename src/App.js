@@ -11,6 +11,7 @@ import AccountSettingsAgencyPage from './pages/AccountSettingsAgencyPage/Account
 import AccountSettingsPasswordPage from './pages/AccountSettingsPasswordPage/AccountSettingsPasswordPage';
 import AccountSettingsBillingPage from './pages/AccountSettingsBillingPage/AccountSettingsBillingPage';
 import AccountSettingsNotificationsPage from './pages/AccountSettingsNotificationsPage/AccountSettingsNotificationsPage';
+import TeamMemberAccountSettingsProfilePage from './pages/TeamMemberAccountSettingsProfilePage/TeamMemberAccountSettingsProfilePage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/account-settings-password-page" element={<AccountSettingsPasswordPage />} />
         <Route path="/account-settings-billing-page" element={<AccountSettingsBillingPage />} />
         <Route path="/account-settings-notifications-page" element={<AccountSettingsNotificationsPage />} />
+        <Route path="/team-member-account-settings-profile-page" element={<TeamMemberAccountSettingsProfilePage />} />
       </Routes>
       </BrowserRouter>
     </div>
