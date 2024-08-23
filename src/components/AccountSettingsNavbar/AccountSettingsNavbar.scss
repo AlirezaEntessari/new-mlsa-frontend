@@ -31,6 +31,7 @@
     &__profile-link {
         text-decoration: none;
         color: inherit;
+        cursor: pointer;
     }
 
     &__profile-link:hover {
@@ -40,6 +41,7 @@
     &__agency-link {
         text-decoration: none;
         color: inherit;
+        cursor: pointer;
     }
 
     &__agency-link:hover {
@@ -49,6 +51,7 @@
     &__password-link {
         text-decoration: none;
         color: inherit;
+        cursor: pointer;
     }
 
     &__password-link:hover {
@@ -58,6 +61,7 @@
     &__billing-link {
         text-decoration: none;
         color: inherit;
+        cursor: pointer;
     }
 
     &__billing-link:hover {
@@ -67,6 +71,7 @@
     &__notifications-link {
         text-decoration: none;
         color: inherit; 
+        cursor: pointer;
     }
 
     &__notifications-link:hover {
@@ -105,16 +110,19 @@
         &__profile-link {
             text-decoration: none;
             color: inherit;
+            cursor: pointer;
         }
     
         &__agency-link {
             text-decoration: none;
             color: inherit;
+            cursor: pointer;
         }
 
         &__password-link {
             text-decoration: none;
             color: inherit;
+            cursor: pointer;
         }
 
     }

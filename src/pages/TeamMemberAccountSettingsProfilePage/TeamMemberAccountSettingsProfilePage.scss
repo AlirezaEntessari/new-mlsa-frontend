@@ -245,6 +245,417 @@
             font-size: 14px;
         }
 
+        &__cancel-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            font-size: 14px;
+            margin-left: 5px;
+            border-radius: 20px;
+            width: 96px;
+            height: 34px;
+            margin-left: 170px;
+        }
+    
+        &__save-changes-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 5px;
+            font-size: 14px;
+            width: 150px;
+            height: 34px;
+            border-radius: 20px;
+        }
+
+        &__name-label {
+            margin-left: 36px;
+            margin-top: 32px;
+        }
+
+        &__name-container {
+            display: flex;
+        }
+    
+        &__name-input {
+            display: block;
+            margin-left: 36px;
+            width: 340px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            margin-top: 3px;
+            padding-left: 10px;
+        }
+
+        &__last-name-input {
+            display: block;
+            margin-left: 16px;
+            width: 340px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__email-label {
+            margin-left: 36px;
+            margin-top: 32px;
+        }
+    
+        &__email-input {
+            display: block;
+            margin-left: 36px;
+            width: 340px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__phone-label {
+            margin-left: 36px;
+            margin-top: 32px;
+        }
+    
+        &__phone-input {
+            display: block;
+            margin-left: 36px;
+            width: 340px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__photo-upload-container {
+            display: flex;
+        }
+
+        &__your-photo-header {
+            margin-left: 36px;
+            margin-top: 32px;
+            margin-bottom: 6px;
+        }
+    
+        &__photo-displayed {
+            margin-left: 36px;
+        }
+
+        &__photo-container {
+            display: flex;
+            margin-left: 36px;
+            margin-top: 36px;
+        }
+
+        &__photo-displayed {
+            font-size: 14px;
+        }
+    
+        &__profile-picture {
+            width: 80px;
+        }
+
+        &__upload-container {
+            border: 1px solid $soft-black;
+            margin-left: 20px;
+            width: 340px;
+            border-radius: 12px;
+            padding-bottom: 12px;
+        }
+    
+        &__upload-icon {
+            width: 45px;
+            margin-left: 140px;
+            padding-top: 8px;
+        }
+
+        &__click-to-upload-text {
+            margin-left: 52px;
+            margin-bottom: 5px;
+        }
+    
+        &__upload-format {
+            margin-left: 46px;
+        }
+
+        &__biography-header {
+            margin-left: 36px;
+            margin-top: 36px;
+            margin-bottom: 6px;
+        }
+    
+        &__biography-description {
+            margin-left: 36px;
+            margin-right: 10px;
+        }
+
+        &__hidden-container {
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+    
+        &__radio-button-off {
+            width: 52px;
+        }
+
+        &__personal-bio-hidden-from-profile {
+            margin-left: 8px;
+        }
+    
+        &__text-area {
+            margin-left: 36px;
+            margin-top: 36px;
+            width: 740px;
+            height: 300px;
+            border-radius: 12px;
+        }
+
+        &__save-draft-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            margin-top: 36px;
+            margin-left: 326px;
+            width: 140px;
+            height: 36px;
+            border-radius: 20px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .team-member-account-settings-profile {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            margin-top: 24px;
+            margin-left: 60px;
+            font-weight: 700;
+            font-size: 32px;
+            margin-bottom: 0px;
+        }
+
+        &__user-text {
+            margin-left: 60px;
+            margin-top: 0px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    
+        &__profile-information {
+            margin-left: 60px;
+            margin-top: 28px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__personal-details-container {
+            display: flex;
+            margin-left: 60px;
+        }
+    
+        &__update-photo-personal-details {
+            font-size: 16px;
+        }
+
+        &__cancel-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            font-size: 16px;
+            margin-left: 5px;
+            border-radius: 20px;
+            width: 106px;
+            height: 40px;
+            margin-left: 710px;
+        }
+    
+        &__save-changes-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 14px;
+            font-size: 16px;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        &__name-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+
+        &__name-container {
+            display: flex;
+        }
+
+        &__name-input {
+            display: block;
+            margin-left: 60px;
+            width: 636px;
+            height: 50px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            margin-top: 3px;
+            padding-left: 10px;
+        }
+
+        &__last-name-input {
+            display: block;
+            margin-left: 24px;
+            width: 636px;
+            height: 50px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__email-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+    
+        &__email-input {
+            display: block;
+            margin-left: 60px;
+            width: 636px;
+            height: 50px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__phone-label {
+            margin-left: 60px;
+            margin-top: 32px;
+        }
+    
+        &__phone-input {
+            display: block;
+            margin-left: 60px;
+            width: 636px;
+            height: 50px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 6px;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__photo-upload-container {
+            display: flex;
+            margin-top: 40px;
+        }
+
+        &__your-photo-header {
+            margin-left: 60px;
+            margin-top: 32px;
+            margin-bottom: 6px;
+        }
+
+        &__photo-displayed {
+            margin-left: 60px;
+        }
+
+        &__photo-container {
+            display: flex;
+            margin-left: 60px;
+            margin-top: 36px;
+        }
+
+        &__photo-displayed {
+            font-size: 16px;
+        }
+    
+        &__profile-picture {
+            width: 100px;
+            margin-bottom: 20px;
+            margin-left: 170px;
+        }
+
+        &__upload-container {
+            border: 1px solid $soft-black;
+            margin-left: 50px;
+            width: 540px;
+            border-radius: 12px;
+            padding-bottom: 24px;
+        }
+    
+        &__upload-icon {
+            width: 45px;
+            margin-left: 240px;
+            padding-top: 12px;
+        }
+
+        &__click-to-upload-text {
+            margin-left: 150px;
+            margin-bottom: 5px;
+        }
+    
+        &__upload-format {
+            margin-left: 146px;
+            padding-top: 4px;
+        }
+
+        &__biography-hidden-container {
+            display: flex;
+            margin-top: 60px;
+        }
+
+        &__biography-header {
+            margin-left: 60px;
+            margin-top: 0px;
+            margin-bottom: 6px;
+        }
+    
+        &__biography-description {
+            margin-left: 60px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+
+        &__hidden-container {
+            margin-left: 160px;
+            margin-top: 30px;
+        }
+    
+        &__radio-button-off {
+            width: 60px;
+        }
+
+        &__personal-bio-hidden-from-profile {
+            margin-left: 8px;
+        }
+
+        &__text-area {
+            margin-left: 60px;
+            margin-top: 36px;
+            width: 1230px;
+            height: 360px;
+            border-radius: 12px;
+        }
+
+        &__save-draft-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            margin-top: 50px;
+            margin-left: 590px;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+
     }
 
 }

@@ -41,17 +41,19 @@ export default function TeamMemberAccountSettingsProfilePage() {
           >
             Name
           </label>
-          <input
-            className="team-member-account-settings-profile__name-input"
-            id="name"
-            type="text"
-            placeholder="First Name"
-          />
-          <input
-            className="team-member-account-settings-profile__last-name-input"
-            type="text"
-            placeholder="Last Name"
-          />
+          <div className="team-member-account-settings-profile__name-container">
+            <input
+              className="team-member-account-settings-profile__name-input"
+              id="name"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              className="team-member-account-settings-profile__last-name-input"
+              type="text"
+              placeholder="Last Name"
+            />
+          </div>
           <label
             className="team-member-account-settings-profile__email-label"
             htmlFor="email"
@@ -74,49 +76,64 @@ export default function TeamMemberAccountSettingsProfilePage() {
             id="phone"
             type="text"
           />
-          <p className="team-member-account-settings-profile__your-photo-header">
-            Your Photo
-          </p>
-          <p className="team-member-account-settings-profile__photo-displayed">
-            This photo will be displayed on your profile
-          </p>
-          <div className="team-member-account-settings-profile__photo-container">
-            <img
-              className="team-member-account-settings-profile__profile-picture"
-              src={ProfilePic}
-              alt="Profile Picture"
-            />
-            <div className="team-member-account-settings-profile__upload-container">
-              <img
-                className="team-member-account-settings-profile__upload-icon"
-                src={UploadIcon}
-                alt="Upload Icon"
-              />
-              <p className="team-member-account-settings-profile__click-to-upload-text">
-                Click to upload or drag and drop
+          <div className="team-member-account-settings-profile__photo-upload-container">
+            <div className="team-member-account-settings-profile__your-photo-container">
+              <p className="team-member-account-settings-profile__your-photo-header">
+                Your Photo
               </p>
-              <p className="team-member-account-settings-profile__upload-format">
-                SVG, PNG or JPG (max 800 x 400px)
+              <p className="team-member-account-settings-profile__photo-displayed">
+                This photo will be displayed on your profile
               </p>
             </div>
+            <div className="team-member-account-settings-profile__photo-container">
+              <img
+                className="team-member-account-settings-profile__profile-picture"
+                src={ProfilePic}
+                alt="Profile Picture"
+              />
+              <div className="team-member-account-settings-profile__upload-container">
+                <img
+                  className="team-member-account-settings-profile__upload-icon"
+                  src={UploadIcon}
+                  alt="Upload Icon"
+                />
+                <p className="team-member-account-settings-profile__click-to-upload-text">
+                  Click to upload or drag and drop
+                </p>
+                <p className="team-member-account-settings-profile__upload-format">
+                  SVG, PNG or JPG (max 800 x 400px)
+                </p>
+              </div>
+            </div>
           </div>
-          <p className="team-member-account-settings-profile__biography-header">
-            Biography
-          </p>
-          <p className="team-member-account-settings-profile__biography-description">
-            Type a biography up to 250 words which will be displayed on your
-            profile
-          </p>
-          <div className="team-member-account-settings-profile__hidden-container">
-            <img
-              className="team-member-account-settings-profile__radio-button-off"
-              src={RadioButtonOff}
-              alt="Radio Button Off"
-            />
-            <span className="team-member-account-settings-profile__personal-bio-hidden-from-profile">Personal Bio is hidden from Profile</span>
+          <div className="team-member-account-settings-profile__biography-hidden-container">
+            <div className="team-member-account-settings-profile__inner-biography-container">
+              <p className="team-member-account-settings-profile__biography-header">
+                Biography
+              </p>
+              <p className="team-member-account-settings-profile__biography-description">
+                Type a biography up to 250 words which will be displayed on your
+                profile
+              </p>
+            </div>
+            <div className="team-member-account-settings-profile__hidden-container">
+              <img
+                className="team-member-account-settings-profile__radio-button-off"
+                src={RadioButtonOff}
+                alt="Radio Button Off"
+              />
+              <span className="team-member-account-settings-profile__personal-bio-hidden-from-profile">
+                Personal Bio is hidden from Profile
+              </span>
+            </div>
           </div>
-          <textarea className="team-member-account-settings-profile__text-area" name="text-area"></textarea>
-          <button className="team-member-account-settings-profile__save-draft-button">Save Draft</button>
+          <textarea
+            className="team-member-account-settings-profile__text-area"
+            name="text-area"
+          ></textarea>
+          <button className="team-member-account-settings-profile__save-draft-button">
+            Save Draft
+          </button>
         </div>
       </div>
     </div>

@@ -52,5 +52,56 @@
 
     } 
 
+}
+
+@include desktop {
+
+    .team-member-account-settings-navbar {
+
+        &__header-bar {
+            margin-top: 36px;
+            margin-left: 60px;
+            border-bottom: 2px solid $soft-black;
+            width: 1300px;
+            padding-bottom: 6px;
+        }
+    
+        &__profile-option {
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__profile-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__profile-link:hover {
+            color: $logo-orange;
+        }
+    
+        &__password-option {
+            margin-left: 200px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__password-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__password-link:hover {
+            color: $logo-orange;
+        }
+    
+        &__notifications-option {
+            margin-left: 200px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+    } 
 
 }
