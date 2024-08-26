@@ -3,6 +3,8 @@ import "./TeamMemberAccountSettingsPasswordPage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/AccountSettingsSidePanel";
 import TeamMemberAccountSettingsNavbar from "../../components/TeamMemberAccountSettingsNavbar/TeamMemberAccountSettingsNavbar";
+import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
+import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
 
 export default function TeamMemberAccountSettingsPasswordPage() {
   return (
@@ -69,9 +71,52 @@ export default function TeamMemberAccountSettingsPasswordPage() {
           <p className="team-member-account-settings-password__regular-updates">
             <span className="team-member-account-settings-password__bold">
               4. Regular Updates:{" "}
-            </span> Change your password periodically.
+            </span>{" "}
+            Change your password periodically.
           </p>
-          <p className="team-member-account-settings-password__tip">*Tip: A combination of unrelated words can be both strong and memorable.</p>
+          <p className="team-member-account-settings-password__tip">
+            *Tip: A combination of unrelated words can be both strong and
+            memorable.
+          </p>
+          <label
+            className="team-member-account-settings-password__password-label"
+            htmlFor="password"
+          >
+            Password{" "}
+            <img
+              className="team-member-account-settings-password__red-asterisk-icon"
+              src={RedAsteriskIcon}
+              alt="Red Asterisk Icon"
+            />
+          </label>
+          <img
+            className="team-member-account-settings-password__dont-show-icon-one"
+            src={DontShowIcon}
+            alt="Don't Show Icon"
+          />
+          <input
+            className="team-member-account-settings-password__password-input"
+            id="password"
+            type="text"
+            placeholder="Enter your password"
+          />
+          <label
+            className="team-member-account-settings-password__confirm-password-label"
+            htmlFor="confirm-password"
+          >
+            Confirm Password{" "}
+            <img
+              className="team-member-account-settings-password__red-asterisk-icon"
+              src={RedAsteriskIcon}
+              alt="Red Asterisk Icon"
+            />
+          </label>
+          <img
+            className="team-member-account-settings-password__dont-show-icon-two"
+            src={DontShowIcon}
+            alt="Don't Show Icon"
+          />
+          <input className="team-member-account-settings-password__confirm-password-input" type="text" placeholder="Enter your password again" />
         </div>
       </div>
     </div>
