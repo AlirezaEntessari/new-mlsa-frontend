@@ -22,9 +22,14 @@ export default function TeamMemberAccountSettingsNavbar() {
             Password
           </span>
         </Link>
-        <span className="team-member-account-settings-navbar__notifications-option">
-          Notifications
-        </span>
+        <Link
+          to="/team-member-account-settings-notifications-page"
+          className="team-member-account-settings-navbar__notifications-link"
+        >
+          <span className="team-member-account-settings-navbar__notifications-option">
+            Notifications
+          </span>
+        </Link>
       </p>
     </div>
   );

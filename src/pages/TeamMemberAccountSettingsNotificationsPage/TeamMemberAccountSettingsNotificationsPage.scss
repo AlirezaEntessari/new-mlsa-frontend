@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.account-settings-notifications {
+.team-member-account-settings-notifications {
     padding-bottom: 100px;
 
     &__main-container {
@@ -17,7 +17,7 @@
         margin-bottom: 6px;
     }
 
-    &__administrator-text {
+    &__user-text {
         margin-left: 24px;
         margin-top: 0px;
         font-weight: 500;
@@ -279,7 +279,7 @@
 
 @include tablet {
     
-    .account-settings-notifications {
+    .team-member-account-settings-notifications {
         padding-bottom: 100px;
 
         &__main-container {
@@ -294,7 +294,7 @@
             margin-bottom: 6px;
         }
 
-        &__administrator-text {
+        &__user-text {
             margin-left: 36px;
             margin-top: 0px;
             font-weight: 600;
@@ -572,7 +572,7 @@
 
 @include desktop {
 
-    .account-settings-notifications {
+    .team-member-account-settings-notifications {
         padding-bottom: 100px;
 
         &__main-container {
@@ -587,7 +587,7 @@
             margin-bottom: 6px;
         }
 
-        &__administrator-text {
+        &__user-text {
             margin-left: 60px;
             margin-top: 0px;
             font-weight: 600;

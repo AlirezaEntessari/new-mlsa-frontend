@@ -34,6 +34,11 @@
         color: inherit;
     }
 
+    &__notifications-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -70,6 +75,11 @@
             color: inherit;
         }
 
+        &__notifications-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
     } 
 
 }
@@ -82,7 +92,7 @@
             margin-top: 36px;
             margin-left: 60px;
             border-bottom: 2px solid $soft-black;
-            width: 1300px;
+            width: 1400px;
             padding-bottom: 6px;
         }
     
@@ -120,6 +130,11 @@
             margin-left: 200px;
             font-weight: 500;
             font-size: 18px;
+        }
+
+        &__notifications-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     } 
