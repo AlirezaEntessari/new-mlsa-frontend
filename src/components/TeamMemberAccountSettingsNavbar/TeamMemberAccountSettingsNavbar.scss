@@ -24,6 +24,16 @@
         margin-left: 40px;
     }
 
+    &__profile-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__password-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -48,6 +58,16 @@
     
         &__notifications-option {
             margin-left: 80px;
+        }
+
+        &__profile-link {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        &__password-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     } 
