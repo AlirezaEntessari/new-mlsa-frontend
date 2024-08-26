@@ -39,6 +39,18 @@
         color: inherit;
     }
 
+    &__profile-link:hover {
+        color: $logo-orange;
+    }
+
+    &__password-link:hover {
+        color: $logo-orange;
+    }
+
+    &__notifications-link:hover {
+        color: $logo-orange;
+    }
+
 }
 
 @include tablet {
@@ -78,6 +90,14 @@
         &__notifications-link {
             text-decoration: none;
             color: inherit;
+        }
+        
+        &__profile-link:hover {
+            color: $logo-orange;
+        }
+
+        &__notifications-link:hover {
+            color: $logo-orange;
         }
 
     } 
@@ -135,6 +155,10 @@
         &__notifications-link {
             text-decoration: none;
             color: inherit;
+        }
+
+        &__notifications-link:hover {
+            color: $logo-orange;
         }
 
     } 
