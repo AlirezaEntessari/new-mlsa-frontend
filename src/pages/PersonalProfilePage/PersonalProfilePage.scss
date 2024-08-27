@@ -9,5 +9,169 @@
         display: flex;
     }
 
+    &__right-container {
+        background-color: $background-light-blue;
+        width: 100%;
+    }
+
+    &__profile-pic-container {
+        display: flex;
+        margin-left: 135px;
+    }
+
+    &__profile-pic {
+        width: 180px;
+        margin-top: 10px;
+    }
+
+    &__edit-profile-container {
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    &__edit-pencil-icon {
+        width: 25px;
+        margin-left: 28px;
+        margin-bottom: 5px;
+    }
+
+    &__edit-profile-text {
+        text-decoration: underline;
+        color: $logo-blue;
+    }
+
+    &__hero-container {
+        display: flex;
+    }
+
+    &__social-media-logos-container {
+        margin-left: 50px;
+    }
+
+    &__youtube-icon {
+        display: block;
+        width: 36px;
+    }
+
+    &__instagram-icon {
+        display: block;
+        width: 36px;
+        margin-top: 20px;
+    }
+
+    &__facebook-icon {
+        display: block;
+        width: 36px;
+        margin-top: 20px;
+    }
+
+    &__name-container {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    &__name-text {
+        margin-left: 46px;
+    }
+
+    &__name-email {
+        margin-left: 14px;
+    }
+
+    &__name-phone-number {
+        margin-left: 38px;
+    }
+
+    &__central-container {
+        border: 1px solid $soft-black;
+        margin-top: 48px;
+        margin-left: 36px;
+        border-radius: 12px;
+        background-color: $white-background;
+        width: 420px;
+        height: 400px;
+    }
+
+    &__human-re-logo {
+        margin-left: 36px;
+        width: 340px;
+        height: 175px;
+        border: 1px solid lightgray;
+        margin-top: 28px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(211, 211, 211, 0.5);
+    }
+
+    &__rating-industry-container {
+        margin-top: 20px;
+    }
+
+    &__rating-label {
+        margin-left: 70px;
+        font-weight: 500;
+    }
+
+    &__industry-label {
+        margin-left: 150px;
+        font-weight: 500;
+    }
+
+    &__rating-star-container {
+        margin-top: 10px;
+    }
+
+    &__rating-star-logo-one {
+        margin-left: 24px;
+    }
+
+    &__rating-star-logo-two {
+        margin-left: 5px;
+    }
+
+    &__rating-star-logo-three {
+        margin-left: 5px;
+    }
+
+    &__rating-star-logo-four {
+        margin-left: 5px;
+    }
+
+    &__rating-star-logo-five {
+        margin-left: 5px;
+    }
+
+    &__agency-industry-container {
+        display: flex;
+    }
+
+    &__agency-container {
+        margin-top: 20px;
+    }
+
+    &__agency-label {
+        margin-left: 64px;
+        font-weight: 500;
+    }
+
+    &__agency-text {
+        margin-left: 60px;
+        color: $logo-blue;
+        text-decoration: underline;
+    }
+
+    &__aerospace {
+        margin-left: 132px;
+        margin-bottom: 0px;
+    }
+
+    &__engineering {
+        margin-left: 128px;
+        margin-bottom: 0px;
+    }
+
+    &__government {
+        margin-left: 128px;
+    }
+
 
 }
