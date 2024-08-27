@@ -14,6 +14,7 @@ import AccountSettingsNotificationsPage from './pages/AccountSettingsNotificatio
 import TeamMemberAccountSettingsProfilePage from './pages/TeamMemberAccountSettingsProfilePage/TeamMemberAccountSettingsProfilePage';
 import TeamMemberAccountSettingsPasswordPage from './pages/TeamMemberAccountSettingsPasswordPage/TeamMemberAccountSettingsPasswordPage';
 import TeamMemberAccountSettingsNotificationsPage from './pages/TeamMemberAccountSettingsNotificationsPage/TeamMemberAccountSettingsNotificationsPage';
+import PersonalProfilePage from './pages/PersonalProfilePage/PersonalProfilePage';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/team-member-account-settings-profile-page" element={<TeamMemberAccountSettingsProfilePage />} />
         <Route path="/team-member-account-settings-password-page" element={<TeamMemberAccountSettingsPasswordPage />} />
         <Route path="/team-member-account-settings-notifications-page" element={<TeamMemberAccountSettingsNotificationsPage />} />
+        <Route path="/personal-profile-page" element={<PersonalProfilePage />} />
       </Routes>
       </BrowserRouter>
     </div>

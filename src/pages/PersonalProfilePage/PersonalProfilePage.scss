@@ -1,0 +1,13 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.personal-profile-page {
+    padding-bottom: 100px;
+
+    &__main-container {
+        display: flex;
+    }
+
+
+}
