@@ -121,7 +121,8 @@ export default function PersonalProfilePage() {
           </div>
           <div className="personal-profile-page__top-button-container">
             <button className="personal-profile-page__my-documents-button">My Documents</button>
-            
+            <button className="personal-profile-page__ratings-button">Ratings</button>
+            <button className="personal-profile-page__partnerships-button">Partnerships</button>
           </div>
         </div>
       </div>

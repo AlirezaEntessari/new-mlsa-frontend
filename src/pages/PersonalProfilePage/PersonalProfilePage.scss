@@ -173,5 +173,42 @@
         margin-left: 128px;
     }
 
+    &__top-button-container {
+        margin-top: 40px;
+    }
+
+    &__my-documents-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 30px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__ratings-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 14px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__partnerships-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 16px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
 
 }
