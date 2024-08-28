@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PersonalProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import ProfileSidePanel from "../../components/ProfileSidePanel/ProfileSidePanel";
@@ -9,8 +9,17 @@ import InstagramIcon from "../../assets/icons/Instagram50.svg";
 import FacebookIcon from "../../assets/icons/Facebook50.svg";
 import HumanReLogo from "../../assets/icons/HumanReLogo.svg";
 import RatingStarLogo from "../../assets/icons/RatingStar.svg";
+import AgencyVidPlaceholder from "../../assets/icons/AgencyVidPlaceholder.svg";
+import ActionIcon from "../../assets/icons/3verticaldots.svg";
+import FullScrollbarIcon from "../../assets/icons/scrollbarfull.svg";
 
 export default function PersonalProfilePage() {
+  const [activeSection, setActiveSection] = useState(null);
+
+  const handleSectionClick = (section) => {
+    setActiveSection(activeSection === section ? null : section);
+  };
+
   return (
     <div className="personal-profile-page">
       <AccountSettingsHeader />
@@ -120,9 +129,158 @@ export default function PersonalProfilePage() {
             </div>
           </div>
           <div className="personal-profile-page__top-button-container">
-            <button className="personal-profile-page__my-documents-button">My Documents</button>
-            <button className="personal-profile-page__ratings-button">Ratings</button>
-            <button className="personal-profile-page__partnerships-button">Partnerships</button>
+            <button className="personal-profile-page__my-documents-button">
+              My Documents
+            </button>
+            <button className="personal-profile-page__ratings-button">
+              Ratings
+            </button>
+            <button className="personal-profile-page__partnerships-button">
+              Partnerships
+            </button>
+          </div>
+          <div className="personal-profile-page__bottom-button-container">
+            <button className="personal-profile-page__refer-an-agency-button">
+              Refer an Agency
+            </button>
+            <button className="personal-profile-page__account-settings-button">
+              Account Settings
+            </button>
+          </div>
+          <div className="personal-profile-page__about-container">
+            <div
+              className={`personal-profile-page__about-inside-container-1 ${
+                activeSection === "about1" ? "active" : ""
+              }`}
+              onClick={() => handleSectionClick("about1")}
+            >
+              <p className="personal-profile-page__about-inside-container-1-header">
+                About John Smith
+              </p>
+              <p className="personal-profile-page__about-inside-container-1-content">
+                John Smith is a seasoned recruiter with over a decade of
+                experience in connecting top talent with leading companies
+                across various industries. With a keen eye for identifying
+                potential and a passion for helping individuals achieve their
+                career goals, John has successfully placed hundreds of
+                candidates in roles that align with their skills and
+                aspirations. His comprehensive understanding of the job market,
+                combined with his exceptional interpersonal skills, allows him
+                to build lasting relationships with both clients and candidates.
+                John's dedication to excellence and his unwavering commitment to
+                finding the perfect fit make him an invaluable asset to any
+                recruitment team.
+              </p>
+            </div>
+            <div
+              className={`personal-profile-page__about-inside-container-2 ${
+                activeSection === "about2" ? "active" : ""
+              }`}
+              onClick={() => handleSectionClick("about2")}
+            >
+              <p className="personal-profile-page__about-inside-container-2-header">
+                About HumanRe
+              </p>
+              <p className="personal-profile-page__about-inside-container-2-content">
+                HumanRe is a premier agency renowned for its exceptional
+                expertise and dedication to excellence. With a team of highly
+                skilled professionals, HumanRe delivers innovative solutions
+                tailored to meet the unique needs of each client. Whether it's
+                marketing, branding, digital strategy, or creative design,
+                HumanRe consistently exceeds expectations, driving growth and
+                success for businesses of all sizes. Their commitment to
+                quality, creativity, and client satisfaction sets them apart as
+                leaders in the industry, making HumanRe the go-to choice for
+                companies seeking outstanding results.
+              </p>
+            </div>
+            <img
+              className="personal-profile-page__agency-video-placeholder-icon"
+              src={AgencyVidPlaceholder}
+              alt="Agency Video Placeholder"
+            />
+            <p className="personal-profile-page__agency-video-intro">
+              Agency Video Intro
+            </p>
+            <div className="personal-profile-page__partnerships-container">
+              <p className="personal-profile-page__partnerships-container-header">
+                Partnerships
+              </p>
+              <div className="personal-profile-page__partnership-name-container">
+                <p className="personal-profile-page__partnership">
+                  ABC Staffing Inc.
+                </p>
+                <p className="personal-profile-page__partnership">
+                  Acme Staffing Company
+                </p>
+                <p className="personal-profile-page__partnership">
+                  Olympian Staffing
+                </p>
+                <p className="personal-profile-page__partnership">
+                  Impact Agency Inc.
+                </p>
+              </div>
+              <img
+                className="personal-profile-page__full-scroll-bar-partnerships"
+                src={FullScrollbarIcon}
+                alt="Full Scroll Bar"
+              />
+            </div>
+            <div className="personal-profile-page__team-container">
+              <p className="personal-profile-page__team-container-header">
+                Team
+              </p>
+              <div className="personal-profile-page__recruiter-container">
+                <div className="personal-profile-page__recruiter-description-container">
+                  <p className="personal-profile-page__recruiter">
+                    Chris Frost
+                  </p>
+                  <p className="personal-profile-page__recruiter-status">
+                    Recruiter - Active
+                  </p>
+                </div>
+                <img
+                  className="personal-profile-page__action-icon"
+                  src={ActionIcon}
+                  alt="Action"
+                />
+              </div>
+              <div className="personal-profile-page__recruiter-container">
+                <div className="personal-profile-page__recruiter-description-container">
+                  <p className="personal-profile-page__recruiter">
+                    Chris Frost
+                  </p>
+                  <p className="personal-profile-page__recruiter-status">
+                    Recruiter - Active
+                  </p>
+                </div>
+                <img
+                  className="personal-profile-page__action-icon"
+                  src={ActionIcon}
+                  alt="Action"
+                />
+              </div>
+              <div className="personal-profile-page__recruiter-container">
+                <div className="personal-profile-page__recruiter-description-container">
+                  <p className="personal-profile-page__recruiter">
+                    Chris Frost
+                  </p>
+                  <p className="personal-profile-page__recruiter-status">
+                    Recruiter - Active
+                  </p>
+                </div>
+                <img
+                  className="personal-profile-page__action-icon"
+                  src={ActionIcon}
+                  alt="Action"
+                />
+              </div>
+              <img
+                className="personal-profile-page__full-scroll-bar-team"
+                src={FullScrollbarIcon}
+                alt="Full Scroll Bar"
+              />
+            </div>
           </div>
         </div>
       </div>

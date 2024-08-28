@@ -25,7 +25,7 @@ export default function AccountSettingsHeader() {
           alt="Notifications Off"
         />
       </div>
-      <img className="account-settings-header__profile-pic" src={ProfilePic} alt="Profile Picture" />
+      {/* <img className="account-settings-header__profile-pic" src={ProfilePic} alt="Profile Picture" /> */}
     </div>
   );
 }
