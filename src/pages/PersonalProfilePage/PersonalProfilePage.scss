@@ -382,5 +382,199 @@
         border-radius: 12px;
     }
 
+    &__tablet-top-container {
+        display: none;
+    }
+
+
+}
+
+@include tablet {
+
+    .personal-profile-page {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__right-container {
+            background-color: $background-light-blue;
+            width: 100%;
+            padding-bottom: 10rem;
+        }
+
+        &__profile-pic-container {
+            display: flex;
+            margin-left: 135px;
+        }
+    
+        &__profile-pic {
+            width: 180px;
+            margin-top: 10px;
+        }
+
+        &__mobile-top-container {
+            display: none;
+        }
+
+        &__tablet-top-container {
+            display: inherit;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        &__tablet-profile-pic-icon {
+            width: 220px;
+        }
+
+        &__tablet-profile-name-text {
+            font-weight: 700;
+            font-size: 28px;
+            margin-left: 36px;
+            margin-bottom: 10px;
+        }
+
+        &__tablet-profile-name-email {
+            margin-left: 32px;
+        }
+
+        &__tablet-profile-phone-number {
+            margin-left: 56px;
+        }
+
+        &__tablet-social-media-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__tablet-facebook-icon {
+            width: 36px;
+        }
+
+        &__tablet-instagram-icon {
+            width: 36px;
+            margin-left: 24px;
+        }
+
+        &__tablet-youtube-icon {
+            width: 36px;
+            margin-left: 24px;
+        }
+
+        &__tablet-edit-profile-container {
+            display: flex;
+            margin-top: 40px;
+            margin-left: 42px;
+        }
+
+        &__tablet-edit-profile-text {
+            text-decoration: underline;
+            color: $logo-blue;
+        }
+
+        &__tablet-edit-pencil-icon {
+            width: 26px;
+            margin-left: 20px;
+        }
+
+        &__central-container {
+            border: 1px solid $soft-black;
+            margin-top: 48px;
+            margin-left: 36px;
+            border-radius: 12px;
+            background-color: $white-background;
+            width: 470px;
+            height: 400px;
+        }
+
+        &__human-re-logo {
+            margin-left: 59px;
+            width: 340px;
+            height: 175px;
+            border: 1px solid lightgray;
+            margin-top: 28px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(211, 211, 211, 0.5);
+        }
+    
+        &__rating-industry-container {
+            margin-top: 20px;
+        }
+
+        &__rating-label {
+            margin-left: 74px;
+            font-weight: 500;
+        }
+    
+        &__industry-label {
+            margin-left: 182px;
+            font-weight: 500;
+        }
+
+        &__rating-star-container {
+            margin-top: 10px;
+        }
+    
+        &__rating-star-logo-one {
+            margin-left: 26x;
+        }
+    
+        &__rating-star-logo-two {
+            margin-left: 5px;
+        }
+    
+        &__rating-star-logo-three {
+            margin-left: 5px;
+        }
+    
+        &__rating-star-logo-four {
+            margin-left: 5px;
+        }
+    
+        &__rating-star-logo-five {
+            margin-left: 5px;
+        }
+
+        &__agency-industry-container {
+            display: flex;
+        }
+    
+        &__agency-container {
+            margin-top: 20px;
+        }
+    
+        &__agency-label {
+            margin-left: 64px;
+            font-weight: 500;
+        }
+    
+        &__agency-text {
+            margin-left: 60px;
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__aerospace {
+            margin-left: 169px;
+            margin-bottom: 0px;
+        }
+    
+        &__engineering {
+            margin-left: 164px;
+            margin-bottom: 0px;
+        }
+    
+        &__government {
+            margin-left: 163px;
+        }
+
+        &__tablet-button-container {
+            display: flex;
+        }
+
+
+    }
 
 }

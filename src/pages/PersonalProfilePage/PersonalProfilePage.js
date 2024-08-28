@@ -26,49 +26,96 @@ export default function PersonalProfilePage() {
       <div className="personal-profile-page__main-container">
         <ProfileSidePanel />
         <div className="personal-profile-page__right-container">
-          <div className="personal-profile-page__profile-pic-container">
-            <img
-              className="personal-profile-page__profile-pic"
-              src={ProfilePic}
-              alt="Profile Pic"
-            />
-            <div className="personal-profile-page__edit-profile-container">
+          <div className="personal-profile-page__mobile-top-container">
+            <div className="personal-profile-page__profile-pic-container">
               <img
-                className="personal-profile-page__edit-pencil-icon"
-                src={EditPencilIcon}
-                alt="Edit Pencil"
+                className="personal-profile-page__profile-pic"
+                src={ProfilePic}
+                alt="Profile Pic"
               />
-              <p className="personal-profile-page__edit-profile-text">
-                Edit Profile
-              </p>
+              <div className="personal-profile-page__edit-profile-container">
+                <img
+                  className="personal-profile-page__edit-pencil-icon"
+                  src={EditPencilIcon}
+                  alt="Edit Pencil"
+                />
+                <p className="personal-profile-page__edit-profile-text">
+                  Edit Profile
+                </p>
+              </div>
+            </div>
+            <div className="personal-profile-page__hero-container">
+              <div className="personal-profile-page__social-media-logos-container">
+                <img
+                  className="personal-profile-page__youtube-icon"
+                  src={YouTubeIcon}
+                  alt="YouTube Icon"
+                />
+                <img
+                  className="personal-profile-page__instagram-icon"
+                  src={InstagramIcon}
+                  alt="Instagram Icon"
+                />
+                <img
+                  className="personal-profile-page__facebook-icon"
+                  src={FacebookIcon}
+                  alt="Facebook Icon"
+                />
+              </div>
+              <div className="personal-profile-page__name-container">
+                <p className="personal-profile-page__name-text">John Smith</p>
+                <p className="personal-profile-page__name-email">
+                  jsmith@humanre.com
+                </p>
+                <p className="personal-profile-page__name-phone-number">
+                  561-123-4567
+                </p>
+              </div>
             </div>
           </div>
-          <div className="personal-profile-page__hero-container">
-            <div className="personal-profile-page__social-media-logos-container">
+          <div className="personal-profile-page__tablet-top-container">
+            <div className="personal-profile-page__tablet-profile-pic-container">
               <img
-                className="personal-profile-page__youtube-icon"
-                src={YouTubeIcon}
-                alt="YouTube Icon"
+                className="personal-profile-page__tablet-profile-pic-icon"
+                src={ProfilePic}
+                alt="Profile Pic"
+              />
+              <p className="personal-profile-page__tablet-profile-name-text">
+                John Smith
+              </p>
+              <p className="personal-profile-page__tablet-profile-name-email">
+                jsmith@humanre.com
+              </p>
+              <p className="personal-profile-page__tablet-profile-phone-number">
+                561-123-4567
+              </p>
+            </div>
+            <div className="personal-profile-page__tablet-social-media-container">
+              <img
+                className="personal-profile-page__tablet-facebook-icon"
+                src={FacebookIcon}
+                alt="Facebook Icon"
               />
               <img
-                className="personal-profile-page__instagram-icon"
+                className="personal-profile-page__tablet-instagram-icon"
                 src={InstagramIcon}
                 alt="Instagram Icon"
               />
               <img
-                className="personal-profile-page__facebook-icon"
-                src={FacebookIcon}
-                alt="Facebook Icon"
+                className="personal-profile-page__tablet-youtube-icon"
+                src={YouTubeIcon}
+                alt="YouTube Icon"
               />
             </div>
-            <div className="personal-profile-page__name-container">
-              <p className="personal-profile-page__name-text">John Smith</p>
-              <p className="personal-profile-page__name-email">
-                jsmith@humanre.com
-              </p>
-              <p className="personal-profile-page__name-phone-number">
-                561-123-4567
-              </p>
+            <div className="personal-profile-page__tablet-edit-profile-container">
+              <span className="personal-profile-page__tablet-edit-profile-text">
+                Edit Profile
+              </span>
+              <img
+                className="personal-profile-page__tablet-edit-pencil-icon"
+                src={EditPencilIcon}
+                alt="Edit Pencil"
+              />
             </div>
           </div>
           <div className="personal-profile-page__central-container">
@@ -128,25 +175,25 @@ export default function PersonalProfilePage() {
               </div>
             </div>
           </div>
-          <div className="personal-profile-page__top-button-container">
-            <button className="personal-profile-page__my-documents-button">
-              My Documents
-            </button>
-            <button className="personal-profile-page__ratings-button">
-              Ratings
-            </button>
-            <button className="personal-profile-page__partnerships-button">
-              Partnerships
-            </button>
-          </div>
-          <div className="personal-profile-page__bottom-button-container">
-            <button className="personal-profile-page__refer-an-agency-button">
-              Refer an Agency
-            </button>
-            <button className="personal-profile-page__account-settings-button">
-              Account Settings
-            </button>
-          </div>
+            <div className="personal-profile-page__top-button-container">
+              <button className="personal-profile-page__my-documents-button">
+                My Documents
+              </button>
+              <button className="personal-profile-page__ratings-button">
+                Ratings
+              </button>
+              <button className="personal-profile-page__partnerships-button">
+                Partnerships
+              </button>
+            </div>
+            <div className="personal-profile-page__bottom-button-container">
+              <button className="personal-profile-page__refer-an-agency-button">
+                Refer an Agency
+              </button>
+              <button className="personal-profile-page__account-settings-button">
+                Account Settings
+              </button>
+            </div>
           <div className="personal-profile-page__about-container">
             <div
               className={`personal-profile-page__about-inside-container-1 ${
