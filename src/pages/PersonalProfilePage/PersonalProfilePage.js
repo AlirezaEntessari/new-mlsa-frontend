@@ -175,25 +175,42 @@ export default function PersonalProfilePage() {
               </div>
             </div>
           </div>
-            <div className="personal-profile-page__top-button-container">
-              <button className="personal-profile-page__my-documents-button">
-                My Documents
-              </button>
-              <button className="personal-profile-page__ratings-button">
-                Ratings
-              </button>
-              <button className="personal-profile-page__partnerships-button">
-                Partnerships
-              </button>
-            </div>
-            <div className="personal-profile-page__bottom-button-container">
-              <button className="personal-profile-page__refer-an-agency-button">
-                Refer an Agency
-              </button>
-              <button className="personal-profile-page__account-settings-button">
-                Account Settings
-              </button>
-            </div>
+          <div className="personal-profile-page__top-button-container">
+            <button className="personal-profile-page__my-documents-button">
+              My Documents
+            </button>
+            <button className="personal-profile-page__ratings-button">
+              Ratings
+            </button>
+            <button className="personal-profile-page__partnerships-button">
+              Partnerships
+            </button>
+          </div>
+          <div className="personal-profile-page__bottom-button-container">
+            <button className="personal-profile-page__refer-an-agency-button">
+              Refer an Agency
+            </button>
+            <button className="personal-profile-page__account-settings-button">
+              Account Settings
+            </button>
+          </div>
+          <div className="personal-profile-page__tablet-button-container">
+            <button className="personal-profile-page__tablet-my-documents-button">
+              My Documents
+            </button>
+            <button className="personal-profile-page__tablet-ratings-button">
+              Ratings
+            </button>
+            <button className="personal-profile-page__tablet-partnerships-button">
+              Partnerships
+            </button>
+            <button className="personal-profile-page__tablet-refer-an-agency-button">
+              Refer an Agency
+            </button>
+            <button className="personal-profile-page__tablet-account-settings-button">
+              Account Settings
+            </button>
+          </div>
           <div className="personal-profile-page__about-container">
             <div
               className={`personal-profile-page__about-inside-container-1 ${
@@ -241,14 +258,16 @@ export default function PersonalProfilePage() {
                 companies seeking outstanding results.
               </p>
             </div>
-            <img
-              className="personal-profile-page__agency-video-placeholder-icon"
-              src={AgencyVidPlaceholder}
-              alt="Agency Video Placeholder"
-            />
-            <p className="personal-profile-page__agency-video-intro">
-              Agency Video Intro
-            </p>
+            <div className="personal-profile-page__agency-video-container">
+              <img
+                className="personal-profile-page__agency-video-placeholder-icon"
+                src={AgencyVidPlaceholder}
+                alt="Agency Video Placeholder"
+              />
+              <p className="personal-profile-page__agency-video-intro">
+                Agency Video Intro
+              </p>
+            </div>
             <div className="personal-profile-page__partnerships-container">
               <p className="personal-profile-page__partnerships-container-header">
                 Partnerships
