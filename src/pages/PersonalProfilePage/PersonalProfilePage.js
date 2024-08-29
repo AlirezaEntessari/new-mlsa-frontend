@@ -12,6 +12,7 @@ import RatingStarLogo from "../../assets/icons/RatingStar.svg";
 import AgencyVidPlaceholder from "../../assets/icons/AgencyVidPlaceholder.svg";
 import ActionIcon from "../../assets/icons/3verticaldots.svg";
 import FullScrollbarIcon from "../../assets/icons/scrollbarfull.svg";
+import { Link } from "react-router-dom";
 
 export default function PersonalProfilePage() {
   const [activeSection, setActiveSection] = useState(null);
@@ -119,11 +120,13 @@ export default function PersonalProfilePage() {
             </div>
           </div>
           <div className="personal-profile-page__central-container">
-            <img
-              className="personal-profile-page__human-re-logo"
-              src={HumanReLogo}
-              alt="HumanRe Logo"
-            />
+            <Link to="/agency-profile-page">
+              <img
+                className="personal-profile-page__human-re-logo"
+                src={HumanReLogo}
+                alt="HumanRe Logo"
+              />
+            </Link>
             <div className="personal-profile-page__rating-industry-container">
               <label className="personal-profile-page__rating-label">
                 Rating
@@ -258,94 +261,96 @@ export default function PersonalProfilePage() {
                 companies seeking outstanding results.
               </p>
             </div>
-            <div className="personal-profile-page__agency-video-container">
-              <img
-                className="personal-profile-page__agency-video-placeholder-icon"
-                src={AgencyVidPlaceholder}
-                alt="Agency Video Placeholder"
-              />
-              <p className="personal-profile-page__agency-video-intro">
-                Agency Video Intro
-              </p>
-            </div>
-            <div className="personal-profile-page__partnerships-container">
-              <p className="personal-profile-page__partnerships-container-header">
-                Partnerships
-              </p>
-              <div className="personal-profile-page__partnership-name-container">
-                <p className="personal-profile-page__partnership">
-                  ABC Staffing Inc.
-                </p>
-                <p className="personal-profile-page__partnership">
-                  Acme Staffing Company
-                </p>
-                <p className="personal-profile-page__partnership">
-                  Olympian Staffing
-                </p>
-                <p className="personal-profile-page__partnership">
-                  Impact Agency Inc.
+            <div className="personal-profile-page__desktop-bottom-container">
+              <div className="personal-profile-page__agency-video-container">
+                <img
+                  className="personal-profile-page__agency-video-placeholder-icon"
+                  src={AgencyVidPlaceholder}
+                  alt="Agency Video Placeholder"
+                />
+                <p className="personal-profile-page__agency-video-intro">
+                  Agency Video Intro
                 </p>
               </div>
-              <img
-                className="personal-profile-page__full-scroll-bar-partnerships"
-                src={FullScrollbarIcon}
-                alt="Full Scroll Bar"
-              />
-            </div>
-            <div className="personal-profile-page__team-container">
-              <p className="personal-profile-page__team-container-header">
-                Team
-              </p>
-              <div className="personal-profile-page__recruiter-container">
-                <div className="personal-profile-page__recruiter-description-container">
-                  <p className="personal-profile-page__recruiter">
-                    Chris Frost
+              <div className="personal-profile-page__partnerships-container">
+                <p className="personal-profile-page__partnerships-container-header">
+                  Partnerships
+                </p>
+                <div className="personal-profile-page__partnership-name-container">
+                  <p className="personal-profile-page__partnership">
+                    ABC Staffing Inc.
                   </p>
-                  <p className="personal-profile-page__recruiter-status">
-                    Recruiter - Active
+                  <p className="personal-profile-page__partnership">
+                    Acme Staffing Company
+                  </p>
+                  <p className="personal-profile-page__partnership">
+                    Olympian Staffing
+                  </p>
+                  <p className="personal-profile-page__partnership">
+                    Impact Agency Inc.
                   </p>
                 </div>
                 <img
-                  className="personal-profile-page__action-icon"
-                  src={ActionIcon}
-                  alt="Action"
+                  className="personal-profile-page__full-scroll-bar-partnerships"
+                  src={FullScrollbarIcon}
+                  alt="Full Scroll Bar"
                 />
               </div>
-              <div className="personal-profile-page__recruiter-container">
-                <div className="personal-profile-page__recruiter-description-container">
-                  <p className="personal-profile-page__recruiter">
-                    Chris Frost
-                  </p>
-                  <p className="personal-profile-page__recruiter-status">
-                    Recruiter - Active
-                  </p>
+              <div className="personal-profile-page__team-container">
+                <p className="personal-profile-page__team-container-header">
+                  Team
+                </p>
+                <div className="personal-profile-page__recruiter-container">
+                  <div className="personal-profile-page__recruiter-description-container">
+                    <p className="personal-profile-page__recruiter">
+                      Chris Frost
+                    </p>
+                    <p className="personal-profile-page__recruiter-status">
+                      Recruiter - Active
+                    </p>
+                  </div>
+                  <img
+                    className="personal-profile-page__action-icon"
+                    src={ActionIcon}
+                    alt="Action"
+                  />
+                </div>
+                <div className="personal-profile-page__recruiter-container">
+                  <div className="personal-profile-page__recruiter-description-container">
+                    <p className="personal-profile-page__recruiter">
+                      Chris Frost
+                    </p>
+                    <p className="personal-profile-page__recruiter-status">
+                      Recruiter - Active
+                    </p>
+                  </div>
+                  <img
+                    className="personal-profile-page__action-icon"
+                    src={ActionIcon}
+                    alt="Action"
+                  />
+                </div>
+                <div className="personal-profile-page__recruiter-container">
+                  <div className="personal-profile-page__recruiter-description-container">
+                    <p className="personal-profile-page__recruiter">
+                      Chris Frost
+                    </p>
+                    <p className="personal-profile-page__recruiter-status">
+                      Recruiter - Active
+                    </p>
+                  </div>
+                  <img
+                    className="personal-profile-page__action-icon"
+                    src={ActionIcon}
+                    alt="Action"
+                  />
                 </div>
                 <img
-                  className="personal-profile-page__action-icon"
-                  src={ActionIcon}
-                  alt="Action"
+                  className="personal-profile-page__full-scroll-bar-team"
+                  src={FullScrollbarIcon}
+                  alt="Full Scroll Bar"
                 />
               </div>
-              <div className="personal-profile-page__recruiter-container">
-                <div className="personal-profile-page__recruiter-description-container">
-                  <p className="personal-profile-page__recruiter">
-                    Chris Frost
-                  </p>
-                  <p className="personal-profile-page__recruiter-status">
-                    Recruiter - Active
-                  </p>
-                </div>
-                <img
-                  className="personal-profile-page__action-icon"
-                  src={ActionIcon}
-                  alt="Action"
-                />
-              </div>
-              <img
-                className="personal-profile-page__full-scroll-bar-team"
-                src={FullScrollbarIcon}
-                alt="Full Scroll Bar"
-              />
             </div>
           </div>
         </div>

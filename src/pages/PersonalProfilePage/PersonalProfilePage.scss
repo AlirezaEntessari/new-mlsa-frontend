@@ -786,7 +786,7 @@
         &__right-container {
             background-color: $background-light-blue;
             width: 100%;
-            padding-bottom: 10rem;
+            padding-bottom: 20rem;
         }
 
         &__profile-pic-container {
@@ -866,7 +866,7 @@
 
         &__tablet-edit-pencil-icon {
             width: 32px;
-            margin-left: 30px;
+            margin-left: 32px;
         }
 
         &__central-container {
@@ -1038,6 +1038,135 @@
             font-weight: 500;
         }
 
+        &__about-container {
+            margin-top: 60px;
+            background-color: $white-background;
+            margin-left: 36px;
+            margin-right: 36px;
+            height: 1000px;
+            border: 1px solid $medium-gray;
+            border-radius: 12px;
+        }
+    
+        &__about-inside-container-1 {
+            margin-top: 36px;
+            margin-left: 36px;
+            margin-right: 36px;
+        }
+
+        &__about-inside-container-1-header {
+            padding-top: 16px;
+            padding-left: 16px;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+
+        &__about-inside-container-1-content {
+            padding-top: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+            text-align: justify;
+        }
+
+        &__about-inside-container-2 {
+            margin-top: 36px;
+            margin-left: 36px;
+            margin-right: 36px;
+        }
+
+        &__about-inside-container-2-header {
+            padding-top: 16px;
+            padding-left: 16px;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+    
+        &__about-inside-container-2-content {
+            padding-top: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+            text-align: justify;
+        }
+
+        &__desktop-bottom-container {
+            display: flex;
+            margin-top: 72px;
+        }
+
+        &__agency-video-container {
+            margin-top: 0px;
+            margin-left: 36px;
+        }
+
+        &__agency-video-placeholder-icon {
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+    
+        &__agency-video-intro {
+            padding-left: 0px;
+            padding-top: 0px;
+            margin-top: 10px;
+            margin-left: 104px;
+        }
+
+        &__partnerships-container {
+            margin-top: 0px;
+            border: 1px solid $medium-gray;
+            margin-left: 166px;
+            margin-right: 24px;
+            height: 250px;
+            border-radius: 8px;
+            position: relative;
+            width: 400px;
+        }
+    
+        &__partnerships-container-header {
+            padding-top: 12px;
+            padding-left: 16px;
+            font-size: 18px;
+        }
+
+        &__partnership-name-container {
+            margin-left: 48px;
+        }
+    
+        &__partnership {
+            margin-bottom: 14px;
+            text-decoration: underline;
+            color: $logo-blue;
+        }
+
+        &__full-scroll-bar-partnerships {
+            position: absolute;
+            top: 30px;
+            left: 320px;
+        }
+    
+        &__team-container {
+            margin-top: 0px;
+            border: 1px solid $medium-gray;
+            margin-right: 24px;
+            height: 320px;
+            border-radius: 8px;
+            position: relative;
+            width: 400px;
+            margin-left: 166px;
+        }
+
+        &__team-container-header {
+            padding-top: 12px;
+            padding-left: 16px;
+            font-size: 18px;
+        }
+    
+        &__recruiter-container {
+            display: flex;
+            margin-left: 48px;
+            border-bottom: 1px solid $soft-black;
+            margin-right: 120px;
+            margin-top: 12px;
+        }
 
     }
 

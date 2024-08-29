@@ -15,6 +15,7 @@ import TeamMemberAccountSettingsProfilePage from './pages/TeamMemberAccountSetti
 import TeamMemberAccountSettingsPasswordPage from './pages/TeamMemberAccountSettingsPasswordPage/TeamMemberAccountSettingsPasswordPage';
 import TeamMemberAccountSettingsNotificationsPage from './pages/TeamMemberAccountSettingsNotificationsPage/TeamMemberAccountSettingsNotificationsPage';
 import PersonalProfilePage from './pages/PersonalProfilePage/PersonalProfilePage';
+import AgencyProfilePage from './pages/AgencyProfilePage/AgencyProfilePage';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/team-member-account-settings-password-page" element={<TeamMemberAccountSettingsPasswordPage />} />
         <Route path="/team-member-account-settings-notifications-page" element={<TeamMemberAccountSettingsNotificationsPage />} />
         <Route path="/personal-profile-page" element={<PersonalProfilePage />} />
+        <Route path="/agency-profile-page" element={<AgencyProfilePage />} />
       </Routes>
       </BrowserRouter>
     </div>
