@@ -67,4 +67,276 @@
         margin-top: 20px;
     }
 
+    &__company-container {
+        margin-top: 24px;
+    }
+
+    &__company-text {
+        margin-left: 94px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__company-website {
+        margin-left: 62px;
+    }
+
+    &__company-phone-number {
+        margin-left: 98px;
+    }
+
+    &__agency-video-placeholder {
+        margin-top: 36px;
+        margin-left: 56px;
+    }
+
+    &__top-button-container {
+        margin-top: 36px;
+    }
+
+    &__my-documents-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 38px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__ratings-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 16px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__partnerships-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 16px;
+        height: 36px;
+        width: 130px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__bottom-button-container {
+        margin-top: 36px;
+    }
+
+    &__refer-an-agency-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 92px;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__account-settings-button {
+        background-color: $white-background;
+        border: 2px solid $soft-black;
+        margin-left: 16px;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__about-container {
+        margin-top: 100px;
+        margin-left: 36px;
+        background-color: $white-background;
+        width: 425px;
+        height: 1500px;
+        border-radius: 12px;
+        border: 1px solid $soft-black;
+    }
+
+    &__about-inside-container {
+        padding-top: 24px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    &__about-company-header {
+        font-size: 18px;
+    }
+
+    &__about-company-content {
+        text-align: justify;
+    }
+
+    &__rating-container {
+        border: 1px solid $medium-dark-gray;
+        margin-top: 32px;
+        height: 320px;
+        border-radius: 8px;
+    }
+
+    &__rating-header {
+        padding-top: 18px;
+        padding-left: 18px;
+        font-size: 18px;
+    }
+
+    &__rating-star-container {
+        margin-left: 100px;
+    }
+
+    &__star-logo {
+        width: 16px;
+        margin-left: 10px;
+    }
+
+    &__rating-number {
+        margin-left: 162px;
+        font-weight: 500;
+        font-size: 32px;
+        margin-top: 5px;
+    }
+
+    &__rating-description-first-line {
+        padding-left: 18px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    &__rating-description-second-line {
+        padding-left: 18px;
+        font-style: italic;
+    }
+
+    &__industry-container {
+        border: 1px solid $medium-dark-gray;
+        margin-top: 32px;
+        height: 320px;
+        border-radius: 8px;
+    }
+
+    &__industry-header {
+        padding-top: 18px;
+        padding-left: 18px;
+        font-size: 18px;
+    }
+
+    &__healthcare-text {
+        margin-left: 140px;
+        margin-top: 32px;
+    }
+
+    &__partnerships-container {
+        margin-top: 54px;
+        border: 1px solid $medium-dark-gray;
+        height: 250px;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    &__partnerships-container-header {
+        padding-top: 18px;
+        padding-left: 18px;
+        font-size: 18px;
+    }
+
+    &__partnership-name-container {
+        margin-left: 48px;
+    }
+
+    &__partnership {
+        margin-bottom: 14px;
+        text-decoration: underline;
+        color: $logo-blue;
+    }
+
+    &__full-scroll-bar-partnerships {
+        position: absolute;
+        top: 30px;
+        left: 320px;
+    }
+
+    &__team-container {
+        margin-top: 54px;
+        border: 1px solid $medium-dark-gray;
+        height: 320px;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    &__team-container-header {
+        padding-top: 12px;
+        padding-left: 16px;
+        font-size: 18px;
+    }
+
+    &__recruiter-container {
+        display: flex;
+        margin-left: 48px;
+        border-bottom: 1px solid $soft-black;
+        margin-right: 120px;
+        margin-top: 12px;
+    }
+
+    &__recruiter {
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    &__recruiter-status {
+        margin-bottom: 10px;
+    }
+
+    &__action-icon {
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+
+    &__full-scroll-bar-team {
+        position: absolute;
+        top: 70px;
+        left: 320px;
+    }
+
+}
+
+@include tablet {
+
+    .agency-profile-page {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__right-container {
+            background-color: $background-light-blue;
+            width: 100%;
+            padding-bottom: 10rem;
+        }
+
+        &__mobile-top-container {
+            display: none;
+        }
+
+        &__tablet-human-re-logo {
+            border-radius: 100%;
+            width: 250px;
+            border: 1px solid $medium-dark-gray;
+            margin-left: 105px;
+            margin-top: 40px;
+        }
+
+
+    }
+
 }
