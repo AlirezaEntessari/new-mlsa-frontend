@@ -336,6 +336,54 @@
             margin-top: 40px;
         }
 
+        &__tablet-human-re-title {
+            margin-left: 172px;
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        &__tablet-website {
+            margin-left: 160px;
+        }
+
+        &__tablet-phone-number {
+            margin-left: 172px;
+        }
+
+        &__tablet-social-media-container {
+            margin-left: 150px;
+        }
+
+        &__tablet-facebook-icon {
+            width: 36px;
+        }
+
+        &__tablet-instagram-icon {
+            width: 36px;
+            margin-left: 20px;
+        }
+
+        &__tablet-youtube-icon {
+            width: 36px;
+            margin-left: 20px;
+        }
+
+        &__tablet-edit-profile-container {
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+
+        &__tablet-edit-profile-text {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__tablet-edit-pencil-icon {
+            width: 30px;
+            margin-left: 30px;
+        }
+
 
     }
 
