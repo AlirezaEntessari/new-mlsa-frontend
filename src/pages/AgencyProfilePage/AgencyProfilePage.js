@@ -68,18 +68,46 @@ export default function AgencyProfilePage() {
             </div>
           </div>
           <div className="agency-profile-page__tablet-top-container">
-            <img className="agency-profile-page__tablet-human-re-logo" src={HumanReLogo} alt="HumanRe Logo" />
-            <p className="agency-profile-page__tablet-human-re-title">HumanRe</p>
-            <p className="agency-profile-page__tablet-website">www.humane.com</p>
-            <p className="agency-profile-page__tablet-phone-number">561-123-4567</p>
+            <img
+              className="agency-profile-page__tablet-human-re-logo"
+              src={HumanReLogo}
+              alt="HumanRe Logo"
+            />
+            <p className="agency-profile-page__tablet-human-re-title">
+              HumanRe
+            </p>
+            <p className="agency-profile-page__tablet-website">
+              www.humane.com
+            </p>
+            <p className="agency-profile-page__tablet-phone-number">
+              561-123-4567
+            </p>
             <div className="agency-profile-page__tablet-social-media-container">
-              <img className="agency-profile-page__tablet-facebook-icon" src={FacebookIcon} alt="Facebook Icon" />
-              <img className="agency-profile-page__tablet-instagram-icon" src={InstagramIcon} alt="Instagram Icon" />
-              <img className="agency-profile-page__tablet-youtube-icon" src={YouTubeIcon} alt="YouTube Icon" />
+              <img
+                className="agency-profile-page__tablet-facebook-icon"
+                src={FacebookIcon}
+                alt="Facebook Icon"
+              />
+              <img
+                className="agency-profile-page__tablet-instagram-icon"
+                src={InstagramIcon}
+                alt="Instagram Icon"
+              />
+              <img
+                className="agency-profile-page__tablet-youtube-icon"
+                src={YouTubeIcon}
+                alt="YouTube Icon"
+              />
             </div>
             <div className="agency-profile-page__tablet-edit-profile-container">
-              <span className="agency-profile-page__tablet-edit-profile-text">Edit Profile</span>
-              <img className="agency-profile-page__tablet-edit-pencil-icon" src={EditPencilIcon} alt="Edit Pencil Icon" />
+              <span className="agency-profile-page__tablet-edit-profile-text">
+                Edit Profile
+              </span>
+              <img
+                className="agency-profile-page__tablet-edit-pencil-icon"
+                src={EditPencilIcon}
+                alt="Edit Pencil Icon"
+              />
             </div>
           </div>
           <img
@@ -87,24 +115,33 @@ export default function AgencyProfilePage() {
             src={AgencyVidPlaceholder}
             alt="Agency Video Placeholder"
           />
-          <div className="agency-profile-page__top-button-container">
-            <button className="agency-profile-page__my-documents-button">
-              My Documents
-            </button>
-            <button className="agency-profile-page__ratings-button">
-              Ratings
-            </button>
-            <button className="agency-profile-page__partnerships-button">
-              Partnerships
-            </button>
+          <div className="agency-profile-page__mobile-button-container">
+            <div className="agency-profile-page__top-button-container">
+              <button className="agency-profile-page__my-documents-button">
+                My Documents
+              </button>
+              <button className="agency-profile-page__ratings-button">
+                Ratings
+              </button>
+              <button className="agency-profile-page__partnerships-button">
+                Partnerships
+              </button>
+            </div>
+            <div className="agency-profile-page__bottom-button-container">
+              <button className="agency-profile-page__refer-an-agency-button">
+                Refer an Agency
+              </button>
+              <button className="agency-profile-page__account-settings-button">
+                Account Settings
+              </button>
+            </div>
           </div>
-          <div className="agency-profile-page__bottom-button-container">
-            <button className="agency-profile-page__refer-an-agency-button">
-              Refer an Agency
-            </button>
-            <button className="agency-profile-page__account-settings-button">
-              Account Settings
-            </button>
+          <div className="agency-profile-page__tablet-button-container">
+            <button className="agency-profile-page__tablet-my-documents-button">My Documents</button>
+            <button className="agency-profile-page__tablet-ratings-button">Ratings</button>
+            <button className="agency-profile-page__tablet-partnerships-button">Partnerships</button>
+            <button className="agency-profile-page__tablet-refer-an-agency-button">Refer an Agency</button>
+            <button className="agency-profile-page__tablet-account-settings-button">Account Settings</button>
           </div>
           <div className="agency-profile-page__about-container">
             <div className="agency-profile-page__about-inside-container">
