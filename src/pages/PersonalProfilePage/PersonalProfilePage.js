@@ -12,7 +12,7 @@ import RatingStarLogo from "../../assets/icons/RatingStar.svg";
 import AgencyVidPlaceholder from "../../assets/icons/AgencyVidPlaceholder.svg";
 import ActionIcon from "../../assets/icons/3verticaldots.svg";
 import FullScrollbarIcon from "../../assets/icons/scrollbarfull.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function PersonalProfilePage() {
   const [activeSection, setActiveSection] = useState(null);
@@ -52,6 +52,7 @@ export default function PersonalProfilePage() {
                   src={YouTubeIcon}
                   alt="YouTube Icon"
                 />
+
                 <img
                   className="personal-profile-page__instagram-icon"
                   src={InstagramIcon}
@@ -190,9 +191,11 @@ export default function PersonalProfilePage() {
             </button>
           </div>
           <div className="personal-profile-page__bottom-button-container">
-            <button className="personal-profile-page__refer-an-agency-button">
-              Refer an Agency
-            </button>
+            <Link to="/refer-agency-page">
+              <button className="personal-profile-page__refer-an-agency-button">
+                Refer an Agency
+              </button>
+            </Link>
             <button className="personal-profile-page__account-settings-button">
               Account Settings
             </button>
@@ -207,9 +210,11 @@ export default function PersonalProfilePage() {
             <button className="personal-profile-page__tablet-partnerships-button">
               Partnerships
             </button>
-            <button className="personal-profile-page__tablet-refer-an-agency-button">
-              Refer an Agency
-            </button>
+            <Link to="/refer-agency-page">
+              <button className="personal-profile-page__tablet-refer-an-agency-button">
+                Refer an Agency
+              </button>
+            </Link>
             <button className="personal-profile-page__tablet-account-settings-button">
               Account Settings
             </button>

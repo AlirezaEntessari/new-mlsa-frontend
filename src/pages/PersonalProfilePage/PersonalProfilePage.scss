@@ -390,6 +390,10 @@
         display: none;
     }
 
+    &__tablet-profile-name-text {
+        font-family: 'Roboto Serif';
+    }
+
 
 }
 
@@ -436,7 +440,7 @@
         &__tablet-profile-name-text {
             font-weight: 700;
             font-size: 28px;
-            margin-left: 36px;
+            margin-left: 30px;
             margin-bottom: 10px;
         }
 
@@ -817,7 +821,7 @@
         &__tablet-profile-name-text {
             font-weight: 700;
             font-size: 34px;
-            margin-left: 72px;
+            margin-left: 58px;
             margin-bottom: 10px;
             margin-top: 10px;
         }

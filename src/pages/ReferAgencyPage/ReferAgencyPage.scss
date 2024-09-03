@@ -1,0 +1,138 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.refer-agency-page {
+    padding-bottom: 100px;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        margin-top: 48px;
+        margin-left: 36px;
+        font-weight: 500;
+        font-family: 'Roboto Serif';
+        font-size: 32px;
+    }
+
+    &__agency-referral-program {
+        color: $rust;
+        margin-left: 36px;
+        margin-top: 48px;
+        font-weight: 600;
+        font-size: 20px;
+        border-bottom: 2px solid $soft-black;
+        width: 500px;
+        padding-bottom: 10px;
+    }
+
+    &__refer-staffing-agency {
+        margin-top: 36px;
+        margin-left: 36px;
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    &__why-participate-in-referral-program {
+        font-weight: 500;
+        margin-left: 36px;
+        margin-top: 36px;
+    }
+
+    &__why-participate-description {
+        margin-left: 36px;
+        text-align: justify;
+        margin-right: 75px;
+    }
+
+    &__bold {
+        font-weight: 500;
+    }
+
+    &__how-it-works-container {
+        border: 2px solid $logo-blue;
+        margin-top: 36px;
+        width: 425px;
+        height: 750px;
+        margin-left: 36px;
+        border-radius: 16px;
+    }
+
+    &__how-it-works-header {
+        padding-top: 16px;
+        padding-left: 16px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__how-it-works-description {
+        padding-left: 16px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__how-it-works-options-container {
+        margin-top: 60px;
+    }
+
+    &__submit-your-referral-container {
+        border: 1px solid $medium-gray;
+        margin-left: 16px;
+        margin-right: 30px;
+        margin-top: 20px;
+        border-radius: 12px;
+        height: 200px;
+        position: relative;
+    }
+
+    &__submit-referral-icon {
+        position: absolute;
+        bottom: 120px;
+        right: 30px;
+    }
+
+    &__submit-your-referral-header {
+        padding-left: 24px;
+        padding-top: 24px;
+        font-weight: 500;
+    }
+
+    &__submit-your-referral-description {
+        padding-left: 24px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+    &__enjoy-your-reward-container {
+        border: 1px solid $medium-gray;
+        margin-left: 16px;
+        margin-right: 30px;
+        margin-top: 70px;
+        border-radius: 12px;
+        height: 200px;
+        position: relative;
+    }
+
+    &__enjoy-reward-logo {
+        position: absolute;
+        bottom: 130px;
+        right: 40px;
+        // width: 20px;
+    }
+
+    &__enjoy-your-reward-header {
+        padding-left: 24px;
+        padding-top: 24px;
+        font-weight: 500;
+    }
+
+    &__enjoy-your-reward-description {
+        padding-left: 24px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+
+}

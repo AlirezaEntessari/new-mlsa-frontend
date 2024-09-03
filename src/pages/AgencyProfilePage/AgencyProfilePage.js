@@ -12,6 +12,7 @@ import RatingStarLogo from "../../assets/icons/RatingStar.svg";
 import AgencyVidPlaceholder from "../../assets/icons/AgencyVidPlaceholder.svg";
 import ActionIcon from "../../assets/icons/3verticaldots.svg";
 import FullScrollbarIcon from "../../assets/icons/scrollbarfull.svg";
+import { Link } from "react-router-dom";
 
 export default function AgencyProfilePage() {
   return (
@@ -128,9 +129,11 @@ export default function AgencyProfilePage() {
               </button>
             </div>
             <div className="agency-profile-page__bottom-button-container">
-              <button className="agency-profile-page__refer-an-agency-button">
-                Refer an Agency
-              </button>
+              <Link to="/refer-agency-page">
+                <button className="agency-profile-page__refer-an-agency-button">
+                  Refer an Agency
+                </button>
+              </Link>
               <button className="agency-profile-page__account-settings-button">
                 Account Settings
               </button>
@@ -146,9 +149,11 @@ export default function AgencyProfilePage() {
             <button className="agency-profile-page__tablet-partnerships-button">
               Partnerships
             </button>
-            <button className="agency-profile-page__tablet-refer-an-agency-button">
-              Refer an Agency
-            </button>
+            <Link to="/refer-agency-page">
+              <button className="agency-profile-page__tablet-refer-an-agency-button">
+                Refer an Agency
+              </button>
+            </Link>
             <button className="agency-profile-page__tablet-account-settings-button">
               Account Settings
             </button>
