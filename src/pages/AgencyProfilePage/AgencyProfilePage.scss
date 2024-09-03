@@ -315,6 +315,10 @@
         display: none;
     }
 
+    &__desktop-about-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -620,6 +624,209 @@
             left: 380px;
         }
 
+        &__desktop-about-container {
+            display: none;
+        }
+
     }
+
+}
+
+@include desktop {
+
+    .agency-profile-page {
+        padding-bottom: 100px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__right-container {
+            background-color: $background-light-blue;
+            width: 100%;
+            padding-bottom: 10rem;
+        }
+
+        &__mobile-top-container {
+            display: none;
+        }
+
+        &__tablet-top-container {
+            position: absolute;
+            top: 50px;
+            right: 250px;
+            display: inherit;
+        }
+
+        &__tablet-human-re-logo {
+            border-radius: 100%;
+            width: 300px;
+            border: 1px solid $medium-dark-gray;
+            margin-left: 105px;
+            // margin-top: 40px;
+            margin-top: 0px;
+        }
+
+        &__tablet-human-re-title {
+            margin-left: 174px;
+            margin-top: 10px;
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        &__tablet-website {
+            margin-left: 180px;
+            margin-top: 36px;
+            font-size: 20px;
+        }
+
+        &__tablet-phone-number {
+            margin-left: 190px;
+            margin-top: 36px;
+            font-size: 20px;
+        }
+
+        &__tablet-social-media-container {
+            margin-left: 160px;
+            margin-top: 40px;
+        }
+
+        &__tablet-facebook-icon {
+            width: 50px;
+        }
+
+        &__tablet-instagram-icon {
+            width: 50px;
+            margin-left: 24px;
+        }
+
+        &__tablet-youtube-icon {
+            width: 50px;
+            margin-left: 24px;
+        }
+
+        &__tablet-edit-profile-container {
+            margin-top: 48px;
+            margin-left: 184px;
+        }
+
+        &__tablet-edit-profile-text {
+            color: $logo-blue;
+            text-decoration: underline;
+            font-size: 18px;
+        }
+
+        &__tablet-edit-pencil-icon {
+            width: 36px;
+            margin-left: 28px;
+        }
+
+        &__agency-video-placeholder {
+            width: 900px;
+            margin-left: 72px;
+        }
+
+        &__mobile-button-container {
+            display: none;
+        }
+
+        &__tablet-button-container {
+            margin-top: 80px;
+            margin-left: 72px;
+            display: inherit;
+        }
+
+        &__tablet-my-documents-button {
+            background-color: $white-background;
+            border: 2px solid $soft-black;
+            margin-left: 0px;
+            height: 50px;
+            width: 180px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__tablet-ratings-button {
+            background-color: $white-background;
+            border: 2px solid $soft-black;
+            margin-left: 100px;
+            height: 50px;
+            width: 180px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__tablet-partnerships-button {
+            background-color: $white-background;
+            border: 2px solid $soft-black;
+            margin-left: 100px;
+            height: 50px;
+            width: 180px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__tablet-refer-an-agency-button {
+            background-color: $white-background;
+            border: 2px solid $soft-black;
+            margin-left: 100px;
+            height: 50px;
+            width: 180px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__tablet-account-settings-button {
+            background-color: $white-background;
+            border: 2px solid $soft-black;
+            margin-left: 100px;
+            height: 50px;
+            width: 180px;
+            border-radius: 32px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &__about-container {
+            display: none;
+        }
+
+        &__desktop-about-container {
+            margin-left: 72px;
+            margin-top: 100px;
+            background-color: $white-background;
+            width: 1500px;
+            height: 900px;
+            border-radius: 20px;
+            border: 1px solid $soft-black;
+            display: inherit;
+        }
+
+        &__desktop-about-header {
+            padding-top: 48px;
+            padding-left: 48px;
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        &__desktop-rating-container {
+            border: 1px solid $medium-dark-gray;
+            margin-top: 48px;
+            margin-left: 48px;
+            width: 300px;
+        }
+
+        &__desktop-rating-header {
+            padding-top: 16px;
+            padding-left: 120px;
+        }
+
+
+    }
+
 
 }

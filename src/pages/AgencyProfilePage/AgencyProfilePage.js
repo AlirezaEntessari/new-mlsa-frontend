@@ -77,7 +77,7 @@ export default function AgencyProfilePage() {
               HumanRe
             </p>
             <p className="agency-profile-page__tablet-website">
-              www.humane.com
+              www.humanre.com
             </p>
             <p className="agency-profile-page__tablet-phone-number">
               561-123-4567
@@ -137,11 +137,21 @@ export default function AgencyProfilePage() {
             </div>
           </div>
           <div className="agency-profile-page__tablet-button-container">
-            <button className="agency-profile-page__tablet-my-documents-button">My Documents</button>
-            <button className="agency-profile-page__tablet-ratings-button">Ratings</button>
-            <button className="agency-profile-page__tablet-partnerships-button">Partnerships</button>
-            <button className="agency-profile-page__tablet-refer-an-agency-button">Refer an Agency</button>
-            <button className="agency-profile-page__tablet-account-settings-button">Account Settings</button>
+            <button className="agency-profile-page__tablet-my-documents-button">
+              My Documents
+            </button>
+            <button className="agency-profile-page__tablet-ratings-button">
+              Ratings
+            </button>
+            <button className="agency-profile-page__tablet-partnerships-button">
+              Partnerships
+            </button>
+            <button className="agency-profile-page__tablet-refer-an-agency-button">
+              Refer an Agency
+            </button>
+            <button className="agency-profile-page__tablet-account-settings-button">
+              Account Settings
+            </button>
           </div>
           <div className="agency-profile-page__about-container">
             <div className="agency-profile-page__about-inside-container">
@@ -283,6 +293,15 @@ export default function AgencyProfilePage() {
                   src={FullScrollbarIcon}
                   alt="Full Scroll Bar"
                 />
+              </div>
+            </div>
+          </div>
+          <div className="agency-profile-page__desktop-about-container">
+            <p className="agency-profile-page__desktop-about-header">About HumanRe</p>
+            <div className="agency-profile-page__desktop-rating-container">
+              <p className="agency-profile-page__desktop-rating-header">Rating</p>
+              <div className="agency-profile-page__desktop-star-container">
+                <img className="agency-profile-page__star-logo" src={RatingStarLogo} alt="Star Logo" />
               </div>
             </div>
           </div>
