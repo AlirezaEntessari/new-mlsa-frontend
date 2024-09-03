@@ -750,7 +750,8 @@
         &__tablet-ratings-button {
             background-color: $white-background;
             border: 2px solid $soft-black;
-            margin-left: 100px;
+            // margin-left: 100px;
+            margin-left: 120px;
             height: 50px;
             width: 180px;
             border-radius: 32px;
@@ -761,7 +762,8 @@
         &__tablet-partnerships-button {
             background-color: $white-background;
             border: 2px solid $soft-black;
-            margin-left: 100px;
+            // margin-left: 100px;
+            margin-left: 120px;
             height: 50px;
             width: 180px;
             border-radius: 32px;
@@ -772,7 +774,8 @@
         &__tablet-refer-an-agency-button {
             background-color: $white-background;
             border: 2px solid $soft-black;
-            margin-left: 100px;
+            // margin-left: 100px;
+            margin-left: 120px;
             height: 50px;
             width: 180px;
             border-radius: 32px;
@@ -783,7 +786,8 @@
         &__tablet-account-settings-button {
             background-color: $white-background;
             border: 2px solid $soft-black;
-            margin-left: 100px;
+            // margin-left: 100px;
+            margin-left: 120px;
             height: 50px;
             width: 180px;
             border-radius: 32px;
@@ -799,8 +803,8 @@
             margin-left: 72px;
             margin-top: 100px;
             background-color: $white-background;
-            width: 1500px;
-            height: 900px;
+            width: 1600px;
+            height: 700px;
             border-radius: 20px;
             border: 1px solid $soft-black;
             display: inherit;
@@ -813,16 +817,146 @@
             font-size: 24px;
         }
 
+        &__desktop-about-middle-container {
+            display: flex;
+        }
+
         &__desktop-rating-container {
-            border: 1px solid $medium-dark-gray;
+            border: 1px solid $medium-gray;
             margin-top: 48px;
             margin-left: 48px;
-            width: 300px;
+            width: 350px;
+            border-radius: 18px;
+            height: 250px;
         }
 
         &__desktop-rating-header {
             padding-top: 16px;
+            padding-left: 132px;
+            font-size: 24px;
+        }
+
+        &__desktop-star-container {
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+
+        &__desktop-star-logo {
+            width: 22px;
+            margin-left: 10px;
+        }
+
+        &__desktop-industry-container {
+            border: 1px solid $medium-gray;
+            margin-top: 48px;
+            margin-left: 32px;
+            width: 350px;
+            border-radius: 18px;
+            height: 250px;
+        }
+
+        &__desktop-industry-header {
+            padding-top: 16px;
             padding-left: 120px;
+            font-size: 24px;
+        }
+
+        &__desktop-industry-name {
+            padding-left: 114px;
+            padding-top: 34px;
+            font-size: 20px;
+        }
+
+        &__desktop-team-container {
+            border: 1px solid $medium-gray;
+            margin-top: 48px;
+            margin-left: 32px;
+            width: 350px;
+            border-radius: 18px;
+            height: 250px;
+            position: relative;
+        }
+
+        &__desktop-team-header {
+            padding-top: 16px;
+            padding-left: 140px;
+            font-size: 24px;
+        }
+
+        &__desktop-team-member-container {
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        &__desktop-team-member-1 {
+            text-decoration: underline;
+            color: $logo-blue;
+            font-size: 18px;
+        }
+
+        &__desktop-team-member-2 {
+            text-decoration: underline;
+            color: $logo-blue;
+            font-size: 18px;
+        }
+
+        &__desktop-team-member-3 {
+            text-decoration: underline;
+            color: $logo-blue;
+            font-size: 18px;
+        }
+
+        &__team-full-scrollbar-icon {
+            position: absolute;
+            top: 30px;
+            left: 280px;
+        }
+
+        &__desktop-partnerships-container {
+            border: 1px solid $medium-gray;
+            margin-top: 48px;
+            margin-left: 32px;
+            width: 350px;
+            border-radius: 18px;
+            height: 250px;
+            position: relative;
+        }
+
+        &__desktop-partnerships-header {
+            padding-top: 16px;
+            padding-left: 110px;
+            font-size: 24px;
+        }
+
+        &__desktop-partners-container {
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+
+        &__desktop-partners-1 {
+            text-decoration: underline;
+            color: $logo-blue;
+            font-size: 18px;
+        }
+
+        &__desktop-partners-2 {
+            text-decoration: underline;
+            color: $logo-blue;
+            font-size: 18px;
+        }
+
+        &__partnerships-full-scrollbar-icon {
+            position: absolute;
+            top: 30px;
+            left: 280px;
+        }
+
+        &__desktop-human-re-description {
+            margin-left: 48px;
+            font-size: 18px;
+            margin-top: 50px;
+            margin-right: 60px;
+            text-align: justify;
         }
 
 

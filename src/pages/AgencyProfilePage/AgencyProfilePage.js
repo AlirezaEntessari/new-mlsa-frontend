@@ -297,13 +297,100 @@ export default function AgencyProfilePage() {
             </div>
           </div>
           <div className="agency-profile-page__desktop-about-container">
-            <p className="agency-profile-page__desktop-about-header">About HumanRe</p>
-            <div className="agency-profile-page__desktop-rating-container">
-              <p className="agency-profile-page__desktop-rating-header">Rating</p>
-              <div className="agency-profile-page__desktop-star-container">
-                <img className="agency-profile-page__star-logo" src={RatingStarLogo} alt="Star Logo" />
+            <p className="agency-profile-page__desktop-about-header">
+              About HumanRe
+            </p>
+            <div className="agency-profile-page__desktop-about-middle-container">
+              <div className="agency-profile-page__desktop-rating-container">
+                <p className="agency-profile-page__desktop-rating-header">
+                  Rating
+                </p>
+                <div className="agency-profile-page__desktop-star-container">
+                  <img
+                    className="agency-profile-page__desktop-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="agency-profile-page__desktop-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="agency-profile-page__desktop-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="agency-profile-page__desktop-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="agency-profile-page__desktop-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                </div>
+              </div>
+              <div className="agency-profile-page__desktop-industry-container">
+                <p className="agency-profile-page__desktop-industry-header">
+                  Industry
+                </p>
+                <p className="agency-profile-page__desktop-industry-name">
+                  Healthcare
+                </p>
+              </div>
+              <div className="agency-profile-page__desktop-team-container">
+                <p className="agency-profile-page__desktop-team-header">Team</p>
+                <div className="agency-profile-page__desktop-team-member-container">
+                  <p className="agency-profile-page__desktop-team-member-1">
+                    John Smith
+                  </p>
+                  <p className="agency-profile-page__desktop-team-member-2">
+                    Ethan Pritzman
+                  </p>
+                  <p className="agency-profile-page__desktop-team-member-3">
+                    Julianna Harris
+                  </p>
+                </div>
+                <img
+                  className="agency-profile-page__team-full-scrollbar-icon"
+                  src={FullScrollbarIcon}
+                  alt="Full Scroll Bar"
+                />
+              </div>
+              <div className="agency-profile-page__desktop-partnerships-container">
+                <p className="agency-profile-page__desktop-partnerships-header">
+                  Partnerships
+                </p>
+                <div className="agency-profile-page__desktop-partners-container">
+                  <p className="agency-profile-page__desktop-partners-1">
+                    ABC Staffing Inc.
+                  </p>
+                  <p className="agency-profile-page__desktop-partners-2">
+                    Acme Staffing Co.
+                  </p>
+                </div>
+                <img
+                  className="agency-profile-page__partnerships-full-scrollbar-icon"
+                  src={FullScrollbarIcon}
+                  alt="Full Scroll Bar"
+                />
               </div>
             </div>
+            <p className="agency-profile-page__desktop-human-re-description">
+              HumanRe is a premier agency renowned for its exceptional expertise
+              and dedication for excellence. With a team of highly skilled
+              professionals, HumanRe delivers innovative solutions tailored to
+              meet the unique needs of each client. Whether it's marketing,
+              branding, digital strategy, or creative design, HumanRe
+              consistently exceeds expectations, driving growth and success for
+              businesses of all sizes. Their commitment to quality, creativity,
+              and client satisfaction sets them apart as leaders in the
+              industry, making HumanRe the go-to choice for companies seeking
+              outstanding results.
+            </p>
           </div>
         </div>
       </div>
