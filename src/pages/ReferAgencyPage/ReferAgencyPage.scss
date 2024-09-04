@@ -353,7 +353,7 @@
 @include tablet {
 
     .refer-agency-page {
-        padding-bottom: 100px;
+        padding-bottom: 250px;
 
         &__main-container {
             display: flex;
@@ -494,7 +494,7 @@
             border: 2px solid $logo-blue;
             margin-top: 36px;
             width: 700px;
-            height: 1490px;
+            height: 1520px;
             margin-left: 36px;
             border-radius: 16px;
             background-color: $background-light-blue;
@@ -502,9 +502,9 @@
     
         &__agency-referral-form-header {
             padding-top: 24px;
-            padding-left: 220px;
-            font-size: 20px;
-            font-weight: 600;
+            padding-left: 213px;
+            font-size: 22px;
+            font-weight: 700;
             font-family: 'Roboto Serif';
         }
 
@@ -531,12 +531,444 @@
             margin-top: 10px;
             margin-left: 16px;
             border: 1px solid $medium-gray;
-            height: 47px;
-            width: 375px;
+            height: 50px;
+            width: 650px;
             border-radius: 8px;
             padding-left: 10px;
             display: block;
         }
+
+        &__website-address-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__website-address-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+            display: block;
+        }
+
+        &__industry-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__industry-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__email-contact-address-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__email-contact-address-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+            display: block;
+        }
+
+        &__phone-number-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__phone-number-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-information-header {
+            font-family: 'Roboto Serif';
+            padding-top: 50px;
+            padding-left: 240px;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    
+        &__your-name-label {
+            padding-left: 16px;
+            padding-top: 5px;
+        }
+
+        &__your-name-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-email-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__your-email-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-agency-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__your-agency-input {
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 650px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-message-label {
+            padding-left: 16px;
+            padding-top: 32px;
+        }
+    
+        &__your-message-text-area {
+            display: block;
+            margin-top: 10px;
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            padding-left: 10px;
+            padding-top: 10px;
+            border-radius: 8px;
+            width: 650px;
+            height: 250px;
+        }
+
+        &__reCAPTCHA-icon {
+            width: 350px;
+            margin-top: 60px;
+            margin-left: 210px;
+        }
+    
+        &__bottom-button-container {
+            margin-top: 50px;
+            margin-left: 275px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .refer-agency-page {
+        padding-bottom: 250px;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            margin-top: 48px;
+            margin-left: 80px;
+            font-weight: 500;
+            font-family: 'Roboto Serif';
+            font-size: 38px;
+            font-weight: 700;
+        }
+
+        &__agency-referral-program {
+            color: $rust;
+            margin-left: 80px;
+            margin-top: 48px;
+            font-weight: 600;
+            font-size: 22px;
+            border-bottom: 2px solid $soft-black;
+            width: 1500px;
+            padding-bottom: 10px;
+        }
+    
+        &__refer-staffing-agency {
+            margin-top: 36px;
+            margin-left: 80px;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__why-participate-in-referral-program {
+            font-weight: 600;
+            margin-left: 80px;
+            margin-top: 36px;
+            font-size: 18px;
+        }
+    
+        &__why-participate-description {
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 150px;
+        }
+
+        &__bold {
+            font-weight: 500;
+        }
+    
+        &__how-it-works-container {
+            border: 2px solid $logo-blue;
+            margin-top: 48px;
+            width: 1510px;
+            height: 700px;
+            margin-left: 80px;
+            border-radius: 16px;
+        }
+
+        &__how-it-works-header {
+            padding-top: 48px;
+            padding-left: 60px;
+            font-size: 28px;
+            font-weight: 500;
+        }
+    
+        &__how-it-works-description {
+            padding-left: 60px;
+            text-align: justify;
+            margin-right: 0px;
+            width: 1200px;
+        }
+
+        &__how-it-works-options-container {
+            margin-top: 80px;
+            display: flex;
+            margin-left: 60px;
+        }
+    
+        &__submit-your-referral-container {
+            border: 1px solid $medium-gray;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            border-radius: 12px;
+            height: 400px;
+            position: relative;
+            width: 650px;
+        }
+
+        &__submit-referral-icon {
+            position: absolute;
+            bottom: 306px;
+            right: 32px;
+        }
+    
+        &__submit-your-referral-header {
+            padding-left: 24px;
+            padding-top: 36px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__submit-your-referral-description {
+            padding-left: 24px;
+            padding-right: 60px;
+            padding-top: 20px;
+            text-align: justify;
+            font-size: 18px;
+        }
+    
+        &__enjoy-your-reward-container {
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            margin-right: 0px;
+            margin-top: 0px;
+            border-radius: 12px;
+            height: 400px;
+            position: relative;
+            width: 650px;
+        }
+
+        &__enjoy-reward-logo {
+            position: absolute;
+            bottom: 336px;
+            right: 32px;
+        }
+    
+        &__enjoy-your-reward-header {
+            padding-left: 24px;
+            padding-top: 36px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+    
+        &__enjoy-your-reward-description {
+            padding-left: 24px;
+            padding-right: 60px;
+            text-align: justify;
+            font-size: 18px;
+            padding-top: 20px;
+        }
+
+        &__agency-referral-form-container {
+            border: 2px solid $logo-blue;
+            margin-top: 90px;
+            width: 1510px;
+            height: 1520px;
+            margin-left: 80px;
+            border-radius: 16px;
+            background-color: $background-light-blue;
+        }
+    
+        &__agency-referral-form-header {
+            padding-top: 48px;
+            padding-left: 550px;
+            font-size: 28px;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+        }
+
+        &__fill-out-instructions {
+            margin-left: 360px;
+            padding-top: 0px;
+            text-align: justify;
+            padding-right: 0px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 20px;
+            width: 700px;
+            padding-left: 0px;
+            margin-top: 10px;
+        }
+    
+        &__name-label {
+            padding-left: 60px;
+            padding-top: 40px;
+        }
+
+        &__red-asterisk-icon {
+            width: 10px;
+            margin-bottom: 12px;
+        }
+    
+        &__name-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+            display: block;
+        }
+
+        &__website-address-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__website-address-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+            display: block;
+        }
+
+        &__industry-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__industry-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__email-contact-address-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__email-contact-address-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+            display: block;
+        }
+
+        &__phone-number-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__phone-number-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-information-header {
+            font-family: 'Roboto Serif';
+            padding-top: 80px;
+            padding-left: 590px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+    
+        &__your-name-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+
+        &__your-name-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        
 
 
     }
