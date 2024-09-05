@@ -1,0 +1,394 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.agencies-side-panel {
+
+    &__side-panel  {
+        background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
+        width: 200px;
+        height: 1500px;
+        transition: all 0.3s ease;
+    }
+
+    &__profile-option {
+        background-color: $dark-navy;
+        // height: 50px;
+        height: 60px;
+        color: $background-light-blue;
+        border-radius: 6px;
+        font-weight: 500;
+        padding-left: 32px;
+        padding-top: 10px;
+        font-size: 22px;
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+        width: 220px;
+        font-family: 'Roboto Serif';
+    }
+
+    &__dashboard-home {
+        color: $white-text;
+        margin-top: 12px;
+        margin-left: 24px;
+    }
+
+    &__search-jobs {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__search-candidates {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__search-agencies {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__my-jobs {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__my-candidates {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__placements {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__my-documents {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px;
+    }
+
+    &__ratings {
+        color: $white-text;
+        margin-left: 24px;
+        margin-top: 48px; 
+    }
+
+    &__profile {
+        color: $white-text;
+        margin-left: 24px;  
+        margin-top: 48px;
+    }
+
+    &__account {
+        color: $white-text;
+        margin-left: 24px; 
+        margin-top: 48px; 
+    }
+
+    &__help {
+        color: $white-text;
+        margin-left: 24px;  
+        margin-top: 48px;
+    }
+
+    &__sign-out {
+        color: $white-text;
+        margin-left: 24px;  
+        margin-top: 48px;
+    }
+
+    &__right-arrow {
+        margin-bottom: 0px;
+        margin-left: 4px;
+    }
+      
+}
+
+@include tablet {
+
+    .agencies-side-panel {
+
+        &__side-panel  {
+            background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
+            width: 200px;
+            height: 1500px;
+        }
+    
+        &__profile-option {
+            background-color: $dark-navy;
+            // height: 50px;
+            height: 60px;
+            color: $background-light-blue;
+            border-radius: 6px;
+            font-weight: 500;
+            padding-left: 32px;
+            padding-top: 10px;
+            font-size: 22px;
+            border-top-right-radius: 32px;
+            border-bottom-right-radius: 32px;
+            width: 220px;
+        }
+
+        &__dashboard-home {
+            color: $white-text;
+            margin-top: 16px;
+            margin-left: 24px;
+        }
+    
+        &__search-jobs {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__search-candidates {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__search-agencies {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__my-jobs {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__my-candidates {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__placements {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__my-documents {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__ratings {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px; 
+        }
+    
+        &__profile {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+    
+        &__account {
+            color: $white-text;
+            margin-left: 24px; 
+            margin-top: 48px; 
+        }
+    
+        &__help {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+    
+        &__sign-out {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+
+        &__right-arrow {
+            margin-bottom: 0px;
+            margin-left: 4px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .agencies-side-panel {
+
+        &__side-panel  {
+            background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
+            width: 220px;
+            height: 1500px;
+        }
+    
+        &__profile-option {
+            background-color: $dark-navy;
+            // height: 50px;
+            height: 66px;
+            color: $background-light-blue;
+            border-radius: 6px;
+            font-weight: 500;
+            padding-left: 32px;
+            padding-top: 10px;
+            font-size: 22px;
+            border-top-right-radius: 32px;
+            border-bottom-right-radius: 32px;
+            width: 250px;
+        }
+
+        &__dashboard-home {
+            color: $white-text;
+            margin-top: 16px;
+            margin-left: 24px;
+        }
+    
+        &__search-jobs {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+
+        &__search-candidates {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__search-agencies {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+
+        &__my-jobs {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__my-candidates {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+
+        &__placements {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+    
+        &__my-documents {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+
+        &__ratings {
+            color: $white-text;
+            margin-left: 24px;
+            margin-top: 48px; 
+        }
+    
+        &__profile {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+
+        &__account {
+            color: $white-text;
+            margin-left: 24px; 
+            margin-top: 48px; 
+        }
+    
+        &__help {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+
+        &__sign-out {
+            color: $white-text;
+            margin-left: 24px;  
+            margin-top: 48px;
+        }
+
+        &__right-arrow {
+            margin-bottom: 0px;
+            margin-left: 4px;
+        }
+
+    }
+
+}
+
+.agencies-side-panel__right-arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.agencies-side-panel {
+    display: flex;
+    transition: width 0.3s ease;
+    width: 200px; // Default expanded width
+  }
+  
+  .agencies-side-panel.collapsed {
+    width: 50px; // Sliver width for collapsed state
+    height: 1500px;
+  }
+  
+  .agencies-side-panel__side-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .agencies-side-panel__profile-option {
+    width: 210px; // Default width for account-option when expanded
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  .agencies-side-panel__profile-option.collapsed {
+    width: 50px; // Reduced width when collapsed
+  }
+  
+  .agencies-side-panel__profile-option img {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .agencies-side-panel__right-arrow.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .agencies-side-panel__options {
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+  }
+  
+  .agencies-side-panel.collapsed .agencies-side-panel__options {
+    opacity: 0; // Hide the other elements when collapsed
+    transition: opacity 0.3s ease;
+  }
+

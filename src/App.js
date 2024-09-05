@@ -17,6 +17,7 @@ import TeamMemberAccountSettingsNotificationsPage from './pages/TeamMemberAccoun
 import PersonalProfilePage from './pages/PersonalProfilePage/PersonalProfilePage';
 import AgencyProfilePage from './pages/AgencyProfilePage/AgencyProfilePage';
 import ReferAgencyPage from './pages/ReferAgencyPage/ReferAgencyPage';
+import SearchAgenciesAllAgenciesPage from './pages/SearchAgenciesAllAgenciesPage/SearchAgenciesAllAgenciesPage';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/personal-profile-page" element={<PersonalProfilePage />} />
         <Route path="/agency-profile-page" element={<AgencyProfilePage />} />
         <Route path="/refer-agency-page" element={<ReferAgencyPage />} /> 
+        <Route path="/search-agencies-all-agencies-page" element={<SearchAgenciesAllAgenciesPage />} />
       </Routes>
       </BrowserRouter>
     </div>

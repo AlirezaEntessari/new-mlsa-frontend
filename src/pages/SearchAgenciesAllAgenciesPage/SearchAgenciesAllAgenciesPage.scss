@@ -1,0 +1,340 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.search-agencies-all-agencies-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        margin-left: 160px;
+        margin-top: 28px;
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        font-size: 22px;
+    }
+
+    &__button-container {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    &__all-agencies-button, 
+    &__industry-button, 
+    &__ratings-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        border-radius: 28px;
+        width: 150px;
+        height: 40px;
+        color: $dark-navy;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+
+    &__button--active {
+        background-color: #1F264F;
+        color: #FFFFFF;
+    }
+
+    &__search-icon {
+        position: absolute;
+        left: 630px;
+        top: 364px;
+    }
+
+    &__keyword-search-input {
+        margin-top: 48px;
+        margin-left: 12px;
+        width: 470px;
+        height: 50px;
+        padding-left: 10px;
+        border: 1px solid $medium-dark-gray;
+        border-radius: 24px;
+        padding-left: 20px;
+    }
+
+    &__sort-by-agency-name-container {
+        margin-left: 36px;
+        margin-top: 48px;
+    }
+
+    &__sort-by-text {
+        font-weight: 500;
+    }
+
+    &__agency-name-text {
+        font-weight: 500;
+        margin-left: 32px;
+    }
+
+    &__menu-circle-arrow-gray-icon {
+        margin-left: 10px;
+    }
+
+    &__human-re-agency-card {
+        border: 1px solid $soft-black;
+        margin-top: 44px;
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 310px;
+        border-radius: 16px;
+    }
+
+    &__human-re-agency-card-header {
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    &__human-re-agency-card-header-text {
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-header-agency {
+        text-decoration: underline;
+        margin-left: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+    }
+
+    &__partnership-logo {
+        margin-left: 180px;
+    }
+
+    &__human-re-agency-card-rating-container {
+        display: flex;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    &__rating-text {
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-star-container {
+        margin-left: 20px;
+    }
+
+    &__rating-star-logo {
+        width: 18px;
+        margin-left: 5px;
+    }
+
+    &__human-re-agency-card-rating-number {
+        margin-left: 40px;
+        color: $dark-navy;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__human-re-agency-card-industry-container {
+        display: flex;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    &__human-re-agency-card-industry-text {
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-industry-name {
+        margin-left: 18px;
+    }
+
+    &__human-re-agency-card-industry-action {
+        margin-left: 80px;
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-number-of-jobs-container {
+        margin-left: 16px;
+        margin-top: 32px;
+    }
+
+    &__human-re-agency-card-number-of-jobs-text {
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-number-of-jobs-number {
+        font-weight: 500;
+        text-decoration: underline;
+        background-color: $background-blue;
+        margin-left: 90px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 100%;
+    }
+
+    &__human-re-agency-card-message-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-left: 56px;
+        width: 150px;
+        height: 36px;
+        border-radius: 28px;
+    }
+
+    &__human-re-agency-card-number-of-candidates-container {
+        margin-left: 16px;
+        margin-top: 32px;
+    }
+
+    &__human-re-agency-card-number-of-candidates-text {
+        font-weight: 500;
+    }
+
+    &__human-re-agency-card-number-of-candidates-number {
+        font-weight: 500;
+        text-decoration: underline;
+        background-color: rgb(248, 200, 117);
+        margin-left: 44px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 100%;
+    }
+
+    &__human-re-agency-card-request-partnership-button {
+        background-color: $white-background;
+        border: 1px solid $dark-navy;
+        width: 200px;
+        height: 36px;
+        border-radius: 28px;
+        margin-left: 30px;
+        color: $dark-navy;
+    }
+
+    &__acme-agency-card {
+        border: 1px solid $soft-black;
+        margin-top: 44px;
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 310px;
+        border-radius: 16px;
+        background-color: $background-light-blue;
+    }
+
+    &__acme-agency-card-header {
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    &__acme-agency-card-header-text {
+        font-weight: 500;
+    }
+
+    &__acme-agency-card-header-agency {
+        text-decoration: underline;
+        margin-left: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+    }
+
+    &__acme-agency-card-rating-container {
+        display: flex;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    &__acme-agency-card-star-container {
+        margin-left: 20px;
+    }
+
+    &__acme-agency-card-rating-number {
+        margin-left: 74px;
+        color: $dark-navy;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__acme-agency-card-industry-container {
+        display: flex;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    &__acme-agency-card-industry-text {
+        font-weight: 500;
+    }
+
+    &__acme-agency-card-industry-name {
+        margin-left: 18px;
+    }
+
+    &__acme-agency-card-industry-action {
+        margin-left: 110px;
+        font-weight: 500;
+    }
+
+    &__acme-agency-card-number-of-jobs-container {
+        margin-left: 16px;
+        margin-top: 32px;
+    }
+
+    &__acme-agency-card-number-of-jobs-text {
+        font-weight: 500;
+    }
+
+    &__acme-agency-card-number-of-jobs-number {
+        font-weight: 500;
+        text-decoration: underline;
+        background-color: $background-blue;
+        margin-left: 90px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 100%;
+    }
+
+    &__acme-agency-card-message-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-left: 48px;
+        width: 150px;
+        height: 36px;
+        border-radius: 28px;
+    }
+
+    &__acme-agency-card-number-of-candidates-container {
+        margin-left: 16px;
+        margin-top: 32px;
+    }
+
+    &__acme-agency-card-number-of-candidates-text {
+        font-weight: 500;
+    }
+
+    &__acme-agency-card-number-of-candidates-number {
+        font-weight: 500;
+        text-decoration: underline;
+        background-color: rgb(248, 200, 117);
+        margin-left: 44px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 100%;
+    }
+
+    &__acme-agency-card-request-partnership-button {
+        background-color: $white-background;
+        border: 1px solid $dark-navy;
+        width: 200px;
+        height: 36px;
+        border-radius: 28px;
+        margin-left: 30px;
+        color: $dark-navy;
+    }
+
+
+}

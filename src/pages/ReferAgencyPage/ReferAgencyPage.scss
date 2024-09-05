@@ -681,6 +681,31 @@
             margin-left: 275px;
         }
 
+        &__submit-button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            border: 2px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 24px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__cancel-button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            border-radius: 24px;
+            font-weight: 500;
+            font-size: 17px;
+            margin-top: 15px;
+        }
+
     }
 
 }
@@ -835,7 +860,7 @@
             border: 2px solid $logo-blue;
             margin-top: 90px;
             width: 1510px;
-            height: 1520px;
+            height: 2200px;
             margin-left: 80px;
             border-radius: 16px;
             background-color: $background-light-blue;
@@ -968,8 +993,88 @@
             padding-left: 10px;
         }
 
-        
+        &__your-email-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__your-email-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
 
+        &__your-agency-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__your-agency-input {
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            height: 55px;
+            width: 1300px;
+            border-radius: 8px;
+            padding-left: 10px;
+        }
+
+        &__your-message-label {
+            padding-left: 60px;
+            padding-top: 50px;
+        }
+    
+        &__your-message-text-area {
+            display: block;
+            margin-top: 10px;
+            margin-left: 60px;
+            border: 1px solid $medium-gray;
+            padding-left: 24px;
+            padding-top: 24px;
+            border-radius: 8px;
+            width: 1300px;
+            height: 550px;
+        }
+
+        &__reCAPTCHA-icon {
+            width: 350px;
+            margin-top: 86px;
+            margin-left: 630px;
+        }
+    
+        &__bottom-button-container {
+            margin-top: 70px;
+            margin-left: 688px;
+        }
+
+        &__submit-button {
+            display: block;
+            width: 225px;
+            height: 55px;
+            border: 2px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 32px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__cancel-button {
+            display: block;
+            width: 225px;
+            height: 55px;
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            border-radius: 32px;
+            font-weight: 500;
+            font-size: 17px;
+            margin-top: 18px;
+        }
 
     }
 
