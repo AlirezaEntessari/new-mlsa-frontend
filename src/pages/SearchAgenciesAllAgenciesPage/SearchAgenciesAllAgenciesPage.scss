@@ -917,13 +917,15 @@
 
         &__tablet-table {
             border: 2px solid $dark-gray;
-            margin-left: 44px;
-            margin-top: 20px;
+            margin-left: 20px;
+            margin-top: 50px;
             display: inherit;
+            width: 770px;
+            border-radius: 12px;
         }
 
-        &__table-header-row {
-            margin-top: 50px;
+        &__header-row {
+            border-bottom: 2px solid $dark-gray;
         }
 
         &__agency-name-row {
@@ -934,9 +936,135 @@
 
         &__rating-name-row {
             padding-top: 20px;
-            padding-left: 10px;
+            padding-left: 50px;
             padding-bottom: 20px;
             padding-left: 10px;
+        }
+
+        &__industry-row {
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        &__number-of-jobs-row {
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        &__number-of-candidates-row {
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        &__action-row {
+            padding-top: 20px;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        &__tablet-arrow-gray-icon {
+            margin-right: 10px;
+        }
+
+        &__table-star-logo {
+            width: 12px;
+        }
+
+        &__table-rating-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            margin-left: 8px;
+        }
+
+        &__agency-name-data-row {
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__table-partnership-logo {
+            display: block;
+            width: 14px;
+        }
+
+        &__rating-data-row-five-stars {
+            padding-left: 2px;
+        }
+
+        &__industry-data-row {
+            padding-left: 10px;
+        }
+
+        &__number-of-jobs-data-row {
+            padding-left: 45px;
+            text-decoration: underline;
+            color: $dark-navy;
+        }
+
+        &__number-of-candidates-data-row {
+            padding-left: 70px;
+            text-decoration: underline;
+            color: $dark-navy;
+        }
+
+        &__message-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            border-radius: 28px;
+            width: 100px;
+            font-size: 12px;
+        }
+
+        &__request-partnership-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            font-size: 10px;
+            display: block;
+            margin-top: 10px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 20px;
+            margin-bottom: 5px;
+        }
+
+        &__table-row-blue {
+            background-color: $background-light-blue;
+        }
+
+        &__rating-data-row-four-stars {
+            padding-left: 5px;
+        }
+
+        &__agency-name-data-row-excellence-staffing-inc {
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 12px;
+        }
+
+        &__rating-data-row-three-stars {
+            padding-left: 10px;
+        }
+
+        &__agency-name-data-row-great-solutions-staffing {
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 12px;
         }
 
 

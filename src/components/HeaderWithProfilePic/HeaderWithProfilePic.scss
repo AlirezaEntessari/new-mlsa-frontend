@@ -57,24 +57,26 @@
 
         &__messages-off-icon {
             width: 30px;
-            margin-left: 6px;
+            margin-left: 26px;
+            margin-top: 4px;
         }
 
         &__notifications-off-icon {
             width: 30px;
             margin-left: 10px;
             margin-left: 16px;
+            margin-top: 1px;
         }
 
         &__logo-container {
-            padding: 5px;
             border: 1px solid lightgray;
-            border-radius: 20px;
-            height: 40px;
+            border-radius: 32px;
+            height: 20px;
             margin-top: 58px;
             // margin-left: 240px;
             margin-left: 160px;
-            width: 100px;
+            height: 55px;
+            width: 140px;
         }
 
         &__profile-pic {
