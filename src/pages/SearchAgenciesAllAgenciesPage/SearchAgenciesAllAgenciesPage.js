@@ -78,162 +78,947 @@ export default function SearchAgenciesAllAgenciesPage() {
               alt="Menu Circle Arrow Gray Icon"
             />
           </div>
-          <div className="search-agencies-all-agencies-page__human-re-agency-card">
-            <p className="search-agencies-all-agencies-page__human-re-agency-card-header">
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-header-text">
-                Agency:
-              </span>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-header-agency">
-                HumanRe Agency
-              </span>
-              <img
-                className="search-agencies-all-agencies-page__partnership-logo"
-                src={PartnershipLogo}
-                alt="Partnership Logo"
-              />
-            </p>
-            <div className="search-agencies-all-agencies-page__human-re-agency-card-rating-container">
-              <span className="search-agencies-all-agencies-page__rating-text">
-                Rating:
-              </span>
-              <div className="search-agencies-all-agencies-page__human-re-agency-card-star-container">
+          <div className="search-agencies-all-agencies-page__mobile-card-container">
+            <div className="search-agencies-all-agencies-page__human-re-agency-card">
+              <p className="search-agencies-all-agencies-page__human-re-agency-card-header">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-header-agency">
+                  HumanRe Agency
+                </span>
                 <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
+                  className="search-agencies-all-agencies-page__partnership-logo"
+                  src={PartnershipLogo}
+                  alt="Partnership Logo"
                 />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
+              </p>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__human-re-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-rating-number">
+                  5
+                </span>
               </div>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-rating-number">
-                5
-              </span>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-number">
+                  6
+                </span>
+                <button className="search-agencies-all-agencies-page__human-re-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__human-re-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
             </div>
-            <div className="search-agencies-all-agencies-page__human-re-agency-card-industry-container">
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-text">
-                Industry:
-              </span>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-name">
-                Manufacturing
-              </span>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-action">
-                Action:
-              </span>
+            <div className="search-agencies-all-agencies-page__acme-agency-card">
+              <p className="search-agencies-all-agencies-page__acme-agency-card-header">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-header-agency">
+                  Acme Agency
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__acme-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-rating-number">
+                  4
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-name">
+                  Healthcare
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-number">
+                  27
+                </span>
+                <button className="search-agencies-all-agencies-page__acme-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-number">
+                  0
+                </span>
+                <button className="search-agencies-all-agencies-page__acme-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
             </div>
-            <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-container">
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-text">
-                # of Jobs:
-              </span>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-number">
-                6
-              </span>
-              <button className="search-agencies-all-agencies-page__human-re-agency-card-message-button">
-                Message
-              </button>
+            <div className="search-agencies-all-agencies-page__staffing-smarter-card">
+              <p className="search-agencies-all-agencies-page__staffing-smarter-card-header">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-header-agency">
+                  Staffing Smarter
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__staffing-smarter-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-rating-number">
+                  5
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-industry-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-number">
+                  6
+                </span>
+                <button className="search-agencies-all-agencies-page__staffing-smarter-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__staffing-smarter-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
             </div>
-            <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-container">
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-text">
-                # of Candidates:
-              </span>
-              <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-number">
-                3
-              </span>
-              <button className="search-agencies-all-agencies-page__human-re-agency-card-request-partnership-button">
-                Request Partnership
-              </button>
+            <div className="search-agencies-all-agencies-page__champion-agency-card">
+              <p className="search-agencies-all-agencies-page__champion-agency-card-header">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-header-agency">
+                  Champion Agency
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__champion-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-rating-number">
+                  4
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-name">
+                  Oil & Gas
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__champion-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-number">
+                  8
+                </span>
+                <button className="search-agencies-all-agencies-page__champion-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__first-agency-card">
+              <p className="search-agencies-all-agencies-page__first-agency-card-header">
+                <span className="search-agencies-all-agencies-page__first-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-header-agency">
+                  First Agency
+                </span>
+                <img
+                  className="search-agencies-all-agencies-page__partnership-logo"
+                  src={PartnershipLogo}
+                  alt="Partnership Logo"
+                />
+              </p>
+              <div className="search-agencies-all-agencies-page__first-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__first-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__first-agency-card-rating-number">
+                  5
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-number">
+                  22
+                </span>
+                <button className="search-agencies-all-agencies-page__first-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-number">
+                  28
+                </span>
+                <button className="search-agencies-all-agencies-page__first-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__excellence-staffing-card">
+              <p className="search-agencies-all-agencies-page__excellence-staffing-card-header">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-header-agency">
+                  Excellence Staffing Inc.
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__excellence-staffing-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-rating-number">
+                  3
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-industry-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-industry-name">
+                  Education
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__excellence-staffing-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-candidates-number">
+                  8
+                </span>
+                <button className="search-agencies-all-agencies-page__excellence-staffing-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__human-re-agency-card">
+              <p className="search-agencies-all-agencies-page__human-re-agency-card-header">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-header-agency">
+                  HumanRe Agency
+                </span>
+                <img
+                  className="search-agencies-all-agencies-page__partnership-logo"
+                  src={PartnershipLogo}
+                  alt="Partnership Logo"
+                />
+              </p>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__human-re-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-rating-number">
+                  5
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-jobs-number">
+                  6
+                </span>
+                <button className="search-agencies-all-agencies-page__human-re-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__human-re-agency-card-number-of-candidates-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__human-re-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__acme-agency-card">
+              <p className="search-agencies-all-agencies-page__acme-agency-card-header">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-header-agency">
+                  Acme Agency
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__acme-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-rating-number">
+                  4
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-name">
+                  Healthcare
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-number">
+                  27
+                </span>
+                <button className="search-agencies-all-agencies-page__acme-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-number">
+                  0
+                </span>
+                <button className="search-agencies-all-agencies-page__acme-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__staffing-smarter-card">
+              <p className="search-agencies-all-agencies-page__staffing-smarter-card-header">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-header-agency">
+                  Staffing Smarter
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__staffing-smarter-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-rating-number">
+                  5
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-industry-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-jobs-number">
+                  6
+                </span>
+                <button className="search-agencies-all-agencies-page__staffing-smarter-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__staffing-smarter-card-number-of-candidates-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__staffing-smarter-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__champion-agency-card">
+              <p className="search-agencies-all-agencies-page__champion-agency-card-header">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-header-agency">
+                  Champion Agency
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__champion-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-rating-number">
+                  4
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-name">
+                  Oil & Gas
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-jobs-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__champion-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__champion-agency-card-number-of-candidates-number">
+                  8
+                </span>
+                <button className="search-agencies-all-agencies-page__champion-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__first-agency-card">
+              <p className="search-agencies-all-agencies-page__first-agency-card-header">
+                <span className="search-agencies-all-agencies-page__first-agency-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-header-agency">
+                  First Agency
+                </span>
+                <img
+                  className="search-agencies-all-agencies-page__partnership-logo"
+                  src={PartnershipLogo}
+                  alt="Partnership Logo"
+                />
+              </p>
+              <div className="search-agencies-all-agencies-page__first-agency-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__first-agency-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__first-agency-card-rating-number">
+                  5
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-industry-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-name">
+                  Manufacturing
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-jobs-number">
+                  22
+                </span>
+                <button className="search-agencies-all-agencies-page__first-agency-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__first-agency-card-number-of-candidates-number">
+                  28
+                </span>
+                <button className="search-agencies-all-agencies-page__first-agency-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
+            </div>
+            <div className="search-agencies-all-agencies-page__excellence-staffing-card">
+              <p className="search-agencies-all-agencies-page__excellence-staffing-card-header">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-header-text">
+                  Agency:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-header-agency">
+                  Excellence Staffing Inc.
+                </span>
+              </p>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-rating-container">
+                <span className="search-agencies-all-agencies-page__rating-text">
+                  Rating:
+                </span>
+                <div className="search-agencies-all-agencies-page__excellence-staffing-card-star-container">
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star"
+                  />
+                </div>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-rating-number">
+                  3
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-industry-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-agency-card-industry-text">
+                  Industry:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-industry-name">
+                  Education
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-industry-action">
+                  Action:
+                </span>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-text">
+                  # of Jobs:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-jobs-number">
+                  3
+                </span>
+                <button className="search-agencies-all-agencies-page__excellence-staffing-card-message-button">
+                  Message
+                </button>
+              </div>
+              <div className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-candidates-container">
+                <span className="search-agencies-all-agencies-page__excellence-staffing-agency-card-number-of-candidates-text">
+                  # of Candidates:
+                </span>
+                <span className="search-agencies-all-agencies-page__excellence-staffing-card-number-of-candidates-number">
+                  8
+                </span>
+                <button className="search-agencies-all-agencies-page__excellence-staffing-card-request-partnership-button">
+                  Request Partnership
+                </button>
+              </div>
             </div>
           </div>
-          <div className="search-agencies-all-agencies-page__acme-agency-card">
-            <p className="search-agencies-all-agencies-page__acme-agency-card-header">
-              <span className="search-agencies-all-agencies-page__acme-agency-card-header-text">
-                Agency:
-              </span>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-header-agency">
-                Acme Agency
-              </span>
-            </p>
-            <div className="search-agencies-all-agencies-page__acme-agency-card-rating-container">
-              <span className="search-agencies-all-agencies-page__rating-text">
-                Rating:
-              </span>
-              <div className="search-agencies-all-agencies-page__acme-agency-card-star-container">
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-                <img
-                  className="search-agencies-all-agencies-page__rating-star-logo"
-                  src={RatingStarLogo}
-                  alt="Rating Star"
-                />
-              </div>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-rating-number">
-                4
-              </span>
-            </div>
-            <div className="search-agencies-all-agencies-page__acme-agency-card-industry-container">
-              <span className="search-agencies-all-agencies-page__acme-agency-card-industry-text">
-                Industry:
-              </span>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-industry-name">
-                Healthcare
-              </span>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-industry-action">
-                Action:
-              </span>
-            </div>
-            <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-container">
-              <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-text">
-                # of Jobs:
-              </span>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-jobs-number">
-                27
-              </span>
-              <button className="search-agencies-all-agencies-page__acme-agency-card-message-button">
-                Message
-              </button>
-            </div>
-            <div className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-container">
-              <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-text">
-                # of Candidates:
-              </span>
-              <span className="search-agencies-all-agencies-page__acme-agency-card-number-of-candidates-number">
-                0
-              </span>
-              <button className="search-agencies-all-agencies-page__acme-agency-card-request-partnership-button">
-                Request Partnership
-              </button>
-            </div>
-          </div>
+          <table className="search-agencies-all-agencies-page__tablet-table">
+            <thead>
+              <tr>
+                <th className="search-agencies-all-agencies-page__agency-name-row">
+                  Agency Name{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__tablet-arrow-gray-icon"
+                    src={MenuCircleArrowGrayIcon}
+                    alt="Arrow Gray Icon"
+                  />
+                </th>
+                <th className="search-agencies-all-agencies-page__rating-name-row">Rating <img
+                    className="search-agencies-all-agencies-page__tablet-arrow-gray-icon"
+                    src={MenuCircleArrowGrayIcon}
+                    alt="Arrow Gray Icon"
+                  /></th>
+                <th>Industry</th>
+                <th># of Jobs</th>
+                <th># of Candidates</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+          </table>
         </div>
       </div>
     </div>
