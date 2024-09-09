@@ -1397,7 +1397,7 @@ export default function SearchAgenciesAllAgenciesPage() {
                   </span>
                 </td>
                 <td className="search-agencies-all-agencies-page__industry-data-row">
-                 Healthcare
+                  Healthcare
                 </td>
                 <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
                   12
@@ -1456,6 +1456,313 @@ export default function SearchAgenciesAllAgenciesPage() {
                 </td>
                 <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
                   7
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row-innovative-solutions-inc">
+                  Innovative Solutions Inc.
+                  <img
+                    className="search-agencies-all-agencies-page__table-partnership-logo"
+                    src={PartnershipLogo}
+                    alt="Partnership Logo"
+                  />
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-five-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    5
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Aerospace & Defense
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  12
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  13
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row-blue">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row">
+                  Joyous Staffing Co.
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-three-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    4
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Agricultural
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  43
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  42
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row">
+                  Kramer Associates Inc.
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-five-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    5
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Healthcare
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  38
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  11
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row-blue">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row">
+                  Longwood Staffing
+                  <img
+                    className="search-agencies-all-agencies-page__table-partnership-logo"
+                    src={PartnershipLogo}
+                    alt="Partnership Logo"
+                  />
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-three-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    4
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Consumer Goods
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  9
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  21
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row">
+                  Mammoth Agency
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-five-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    5
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Manufacturing
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  17
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  9
+                </td>
+                <td className="search-agencies-all-agencies-page__action-data-row">
+                  <button className="search-agencies-all-agencies-page__message-button">
+                    Message
+                  </button>
+                  <button className="search-agencies-all-agencies-page__request-partnership-button">
+                    Request Partnership
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-agencies-all-agencies-page__table-row-blue">
+                <td className="search-agencies-all-agencies-page__agency-name-data-row">
+                  Longwood Staffing
+                  <img
+                    className="search-agencies-all-agencies-page__table-partnership-logo"
+                    src={PartnershipLogo}
+                    alt="Partnership Logo"
+                  />
+                </td>
+                <td className="search-agencies-all-agencies-page__rating-data-row-three-stars">
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <img
+                    className="search-agencies-all-agencies-page__table-star-logo"
+                    src={RatingStarLogo}
+                    alt="Star Logo"
+                  />{" "}
+                  <span className="search-agencies-all-agencies-page__table-rating-text">
+                    3
+                  </span>
+                </td>
+                <td className="search-agencies-all-agencies-page__industry-data-row">
+                  Education
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-jobs-data-row">
+                  26
+                </td>
+                <td className="search-agencies-all-agencies-page__number-of-candidates-data-row">
+                  30
                 </td>
                 <td className="search-agencies-all-agencies-page__action-data-row">
                   <button className="search-agencies-all-agencies-page__message-button">
