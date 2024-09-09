@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./SearchAgenciesAllAgenciesPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import AgenciesSidePanel from "../../components/AgenciesSidePanel/AgenciesSidePanel";
@@ -11,13 +11,24 @@ import PageArrowRight from "../../assets/icons/PageArrowRight.svg";
 import PageNumberBlue1 from "../../assets/icons/PageNumberBlue1.svg";
 import PageNumberGray2 from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3 from "../../assets/icons/PageNumberGray3.svg";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function SearchAgenciesAllAgenciesPage() {
-  const [activeButton, setActiveButton] = useState("");
+  const navigate = useNavigate();
+  const [activeButton, setActiveButton] = useState(
+    localStorage.getItem("activeButton") || ""
+  );
 
-  const handleButtonClick = (button) => {
-    setActiveButton(button);
+  // Store the activeButton state in localStorage when it changes
+  useEffect(() => {
+    if (activeButton) {
+      localStorage.setItem("activeButton", activeButton);
+    }
+  }, [activeButton]);
+
+  const handleButtonClick = (button, path) => {
+    setActiveButton(button); // Set the active button
+    navigate(path); // Navigate to the respective page
   };
 
   const getButtonClass = (button) => {
@@ -36,21 +47,26 @@ export default function SearchAgenciesAllAgenciesPage() {
             Search Agencies
           </p>
           <div className="search-agencies-all-agencies-page__button-container">
-            <Link to="/search-agencies-all-agencies-page">
-              <button
-                className={`search-agencies-all-agencies-page__all-agencies-button ${getButtonClass(
-                  "all-agencies"
-                )}`}
-                onClick={() => handleButtonClick("all-agencies")}
-              >
-                All Agencies
-              </button>
-            </Link>
+            <button
+              className={`search-agencies-all-agencies-page__all-agencies-button ${getButtonClass(
+                "all-agencies"
+              )}`}
+              onClick={() =>
+                handleButtonClick(
+                  "all-agencies",
+                  "/search-agencies-all-agencies-page"
+                )
+              }
+            >
+              All Agencies
+            </button>
             <button
               className={`search-agencies-all-agencies-page__industry-button ${getButtonClass(
                 "industry"
               )}`}
-              onClick={() => handleButtonClick("industry")}
+              onClick={() =>
+                handleButtonClick("industry", "/search-agencies-industry-page")
+              }
             >
               Industry
             </button>
@@ -58,7 +74,9 @@ export default function SearchAgenciesAllAgenciesPage() {
               className={`search-agencies-all-agencies-page__ratings-button ${getButtonClass(
                 "ratings"
               )}`}
-              onClick={() => handleButtonClick("ratings")}
+              onClick={() =>
+                handleButtonClick("ratings", "/search-agencies-ratings-page")
+              }
             >
               Ratings
             </button>
