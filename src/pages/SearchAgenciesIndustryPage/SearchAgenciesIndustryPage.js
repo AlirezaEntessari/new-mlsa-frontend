@@ -12,7 +12,7 @@ import PageNumberBlue1 from "../../assets/icons/PageNumberBlue1.svg";
 import PageNumberGray2 from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3 from "../../assets/icons/PageNumberGray3.svg";
 import CircleButtonOnOrange from "../../assets/icons/CircleButtonOnOrange.svg";
-import CircleButtonOffGrayIcon from "../../assets/icons/CircleButtonOff.svg";
+import CircleButtonOffGrayIcon from "../../assets/icons/CircleButtonOffGray (1).svg";
 import { useNavigate } from "react-router-dom";
 
 export default function SearchAgenciesIndustryPage() {
@@ -91,10 +91,409 @@ export default function SearchAgenciesIndustryPage() {
                 src={CircleButtonOnOrange}
                 alt="Circle Button On Orange"
               />
-              <span className="search-agencies-industry-page__aerospace-and-defense-text">
+              <span className="search-agencies-industry-page__industry-text">
                 Aerospace & Defense
               </span>
             </p>
+            <p className="search-agencies-industry-page__agricultural">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Agricultural
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__computers-and-technology">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Computers & Technology
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__construction">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Construction
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__consumer-goods">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Consumer Goods
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__education">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Education
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__engineering">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Engineering
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__financial">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Financial
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__government">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Government
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__healthcare">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Healthcare
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__hospitality-and-leisure">
+              <img
+                className="search-agencies-industry-page__circle-button-on-orange"
+                src={CircleButtonOnOrange}
+                alt="Circle Button On Orange"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Hospitality & Leisure
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__insurance">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Insurance
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__landscaping">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Landscaping
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__manufacturing">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Manufacturing
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__oil-and-gas">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Oil & Gas
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__pharmaceuticals">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Pharmaceuticals
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__power-and-utilities">
+              <img
+                className="search-agencies-industry-page__circle-button-on-orange"
+                src={CircleButtonOnOrange}
+                alt="Circle Button On Orange"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Power & Utilities
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__professional-services-consulting">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />
+              <span className="search-agencies-industry-page__industry-text">
+                Professional Services/Consulting
+              </span>
+            </p>
+            <p className="search-agencies-industry-page__telecommunications">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Telecommunications
+              </span>{" "}
+            </p>
+            <p className="search-agencies-industry-page__other">
+              <img
+                className="search-agencies-industry-page__circle-button-off-gray-icon"
+                src={CircleButtonOffGrayIcon}
+                alt="Circle Button Off Gray Icon"
+              />{" "}
+              <span className="search-agencies-industry-page__industry-text">
+                Other
+              </span>{" "}
+            </p>
+          </div>
+          <div className="search-agencies-industry-page__tablet-desktop-radio-container">
+            <div className="search-agencies-industry-page__tablet-desktop-radio-first-container">
+              <p className="search-agencies-industry-page__aerospace-and-defense">
+                {" "}
+                <img
+                  className="search-agencies-industry-page__circle-button-on-orange"
+                  src={CircleButtonOnOrange}
+                  alt="Circle Button On Orange"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Aerospace & Defense
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__agricultural">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Agricultural
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__computers-and-technology">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Computers & Technology
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__construction">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Construction
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__consumer-goods">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Consumer Goods
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__education">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Education
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__engineering">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Engineering
+                </span>
+              </p>
+            </div>
+            <div className="search-agencies-industry-page__tablet-desktop-radio-second-container">
+              <p className="search-agencies-industry-page__financial">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Financial
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__government">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Government
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__healthcare">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Healthcare
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__hospitality-and-leisure">
+                <img
+                  className="search-agencies-industry-page__circle-button-on-orange"
+                  src={CircleButtonOnOrange}
+                  alt="Circle Button On Orange"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Hospitality & Leisure
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__insurance">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Insurance
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__landscaping">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Landscaping
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__manufacturing">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Manufacturing
+                </span>
+              </p>
+            </div>
+            <div className="search-agencies-industry-page__tablet-desktop-radio-third-container">
+              <p className="search-agencies-industry-page__oil-and-gas">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Oil & Gas
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__pharmaceuticals">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Pharmaceuticals
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__power-and-utilities">
+                <img
+                  className="search-agencies-industry-page__circle-button-on-orange"
+                  src={CircleButtonOnOrange}
+                  alt="Circle Button On Orange"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Power & Utilities
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__professional-services-consulting">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />
+                <span className="search-agencies-industry-page__industry-text">
+                  Professional Services/Consulting
+                </span>
+              </p>
+              <p className="search-agencies-industry-page__telecommunications">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Telecommunications
+                </span>{" "}
+              </p>
+              <p className="search-agencies-industry-page__other">
+                <img
+                  className="search-agencies-industry-page__circle-button-off-gray-icon"
+                  src={CircleButtonOffGrayIcon}
+                  alt="Circle Button Off Gray Icon"
+                />{" "}
+                <span className="search-agencies-industry-page__industry-text">
+                  Other
+                </span>{" "}
+              </p>
+            </div>
           </div>
           <img
             className="search-agencies-industry-page__search-icon"

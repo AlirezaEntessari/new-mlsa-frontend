@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.search-agencies-industry-page {
+.search-agencies-all-agencies-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -41,28 +41,10 @@
         color: #FFFFFF;
     }
 
-    &__mobile-radio-container {
-        margin-top: 40px;
-        margin-left: 120px;
-    }
-
-    &__circle-button-on-orange {
-        width: 24px;
-    }
-
-    &__circle-button-off-gray-icon {
-        width: 24px;
-    }
-
-    &__industry-text {
-        margin-left: 6px;
-        font-weight: 500;
-    }
-
     &__search-icon {
         position: absolute;
         left: 630px;
-        top: 1245px;
+        top: 364px;
     }
 
     &__keyword-search-input {
@@ -854,39 +836,11 @@
         display: none;
     }
 
-    &__tablet-desktop-radio-container {
-        display: none;
-    }
-
-    &__page-number-container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        position: absolute;
-        top: 5630px;
-        left: 316px;
-    }
-
-    &__page-number-blue-1 {
-        margin-left: 10px;
-    }
-
-    &__page-number-gray-2 {
-        margin-left: 10px;
-    }
-
-    &__page-number-gray-3 {
-        margin-left: 10px;
-    }
-
-    &__right-arrow {
-        margin-left: 10px;
-    }
-
 }
 
 @include tablet {
 
-    .search-agencies-industry-page {
+    .search-agencies-all-agencies-page {
 
         padding-bottom: 10rem;
 
@@ -936,14 +890,14 @@
         
         &__search-icon {
             position: absolute;
-            left: 880px;
-            top: 712px;
+            left: 810px;
+            top: 370px;
         }
     
         &__keyword-search-input {
             margin-top: 48px;
             margin-left: 44px;
-            width: 700px;
+            width: 630px;
             height: 50px;
             padding-left: 10px;
             border: 1px solid $medium-dark-gray;
@@ -1126,7 +1080,7 @@
             padding-top: 40px;
             padding-bottom: 40px;
             position: absolute;
-            top: 1840px;
+            top: 1500px;
             left: 494px;
         }
 
@@ -1146,34 +1100,13 @@
             margin-left: 10px;
         }
 
-        &__mobile-radio-container {
-            display: none;
-        }
-
-        &__tablet-desktop-radio-container {
-            display: flex;
-            margin-top: 48px;
-        }
-
-        &__tablet-desktop-radio-first-container {
-            margin-left: 48px;
-        }
-
-        &__tablet-desktop-radio-second-container {
-            margin-left: 36px;
-        }
-
-        &__tablet-desktop-radio-third-container {
-            margin-left: 36px;
-        }
-
     }
 
 }
 
 @include desktop {
 
-    .search-agencies-industry-page {
+    .search-agencies-all-agencies-page {
 
         padding-bottom: 10rem;
 
@@ -1216,7 +1149,7 @@
         &__search-icon {
             position: absolute;
             left: 1420px;
-            top: 865px;
+            top: 472px;
         }
     
         &__keyword-search-input {
@@ -1409,7 +1342,7 @@
             padding-top: 40px;
             padding-bottom: 40px;
             position: absolute;
-            top: 2000px;
+            top: 1600px;
             left: 850px;
         }
 
@@ -1427,23 +1360,6 @@
 
         &__right-arrow {
             margin-left: 15px;
-        }
-
-        &__tablet-desktop-radio-container {
-            display: flex;
-            margin-top: 100px;
-        }
-
-        &__tablet-desktop-radio-first-container {
-            margin-left: 90px;
-        }
-
-        &__tablet-desktop-radio-second-container {
-            margin-left: 180px;
-        }
-
-        &__tablet-desktop-radio-third-container {
-            margin-left: 180px;
         }
 
     }
