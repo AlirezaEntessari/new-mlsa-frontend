@@ -19,6 +19,7 @@ import AgencyProfilePage from './pages/AgencyProfilePage/AgencyProfilePage';
 import ReferAgencyPage from './pages/ReferAgencyPage/ReferAgencyPage';
 import SearchAgenciesAllAgenciesPage from './pages/SearchAgenciesAllAgenciesPage/SearchAgenciesAllAgenciesPage';
 import SearchAgenciesIndustryPage from './pages/SearchAgenciesIndustryPage/SearchAgenciesIndustryPage';
+import SearchAgenciesRatingsPage from './pages/SearchAgenciesRatingsPage/SearchAgenciesRatingsPage';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/refer-agency-page" element={<ReferAgencyPage />} /> 
         <Route path="/search-agencies-all-agencies-page" element={<SearchAgenciesAllAgenciesPage />} />
         <Route path="/search-agencies-industry-page" element={<SearchAgenciesIndustryPage />} />
+        <Route path="/search-agencies-ratings-page" element={<SearchAgenciesRatingsPage />} />
       </Routes>
       </BrowserRouter>
     </div>

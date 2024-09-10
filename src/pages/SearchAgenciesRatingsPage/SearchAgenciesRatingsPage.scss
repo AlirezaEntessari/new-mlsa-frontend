@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.search-agencies-all-agencies-page {
+.search-agencies-ratings-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -836,11 +836,55 @@
         display: none;
     }
 
+    &__mobile-rating-container {
+        margin-top: 64px;
+        margin-left: 100px;
+    }
+
+    &__five-star-rating-container {
+        display: flex;
+    }
+
+    &__five-star-logo-container {
+        margin-bottom: 8px;
+        margin-left: 10px;
+    }
+
+    &__rating-star-logo {
+        margin-left: 10px;
+    }
+
+    &__circle-button-on-orange {
+        width: 24px;
+    }
+
+    &__five-star-rating-text {
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 17px;
+    }
+
+    &__four-star-rating-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__four-star-logo-container {
+        margin-bottom: 8px;
+        margin-left: 38px;
+    }
+
+    &__four-star-rating-text {
+        margin-left: 20px;
+        margin-top: 2px;
+        font-size: 17px;
+    }
+
 }
 
 @include tablet {
 
-    .search-agencies-all-agencies-page {
+    .search-agencies-ratings-page {
 
         padding-bottom: 10rem;
 
@@ -1106,7 +1150,7 @@
 
 @include desktop {
 
-    .search-agencies-all-agencies-page {
+    .search-agencies-ratings-page {
 
         padding-bottom: 10rem;
 
