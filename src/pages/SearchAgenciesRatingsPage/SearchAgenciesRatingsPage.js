@@ -153,6 +153,233 @@ export default function SearchAgenciesRatingsPage() {
                 4 Star Rating
               </span>
             </div>
+            <div className="search-agencies-ratings-page__three-star-rating-container">
+              <img
+                className="search-agencies-ratings-page__circle-button-off-gray"
+                src={CircleButtonOffGray}
+                alt="Circle Button Off Gray"
+              />
+              <div className="search-agencies-ratings-page__three-star-logo-container">
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+              </div>
+              <span className="search-agencies-ratings-page__three-star-rating-text">
+                3 Star Rating
+              </span>
+            </div>
+            <div className="search-agencies-ratings-page__two-star-rating-container">
+              <img
+                className="search-agencies-ratings-page__circle-button-off-gray"
+                src={CircleButtonOffGray}
+                alt="Circle Button Off Gray"
+              />
+              <div className="search-agencies-ratings-page__two-star-logo-container">
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+              </div>
+              <span className="search-agencies-ratings-page__two-star-rating-text">
+                2 Star Rating
+              </span>
+            </div>
+            <div className="search-agencies-ratings-page__one-star-rating-container">
+              <img
+                className="search-agencies-ratings-page__circle-button-off-gray"
+                src={CircleButtonOffGray}
+                alt="Circle Button Off Gray"
+              />
+              <div className="search-agencies-ratings-page__one-star-logo-container">
+                <img
+                  className="search-agencies-ratings-page__rating-star-logo"
+                  src={RatingStarLogo}
+                  alt="Rating Star Logo"
+                />
+              </div>
+              <span className="search-agencies-ratings-page__one-star-rating-text">
+                1 Star Rating
+              </span>
+            </div>
+            <div className="search-agencies-ratings-page__no-ratings-container">
+              <img
+                className="search-agencies-ratings-page__circle-button-off-gray"
+                src={CircleButtonOffGray}
+                alt="Circle Button Off Gray"
+              />
+              <span className="search-agencies-ratings-page__no-star-rating-text">
+                No Ratings
+              </span>
+            </div>
+          </div>
+          <div className="search-agencies-ratings-page__tablet-desktop-ratings-container">
+            <div className="search-agencies-ratings-page__tablet-desktop-ratings-first-container">
+              <div className="search-agencies-ratings-page__tablet-desktop-five-star-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-on-orange"
+                  src={CircleButtonOnOrange}
+                  alt="Circle Button On Orange"
+                />
+                <div className="search-agencies-ratings-page__tablet-desktop-five-star-logo-container">
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                </div>
+                <span className="search-agencies-ratings-page__tablet-desktop-ratings-text">
+                  5 Star Rating
+                </span>
+              </div>
+              <div className="search-agencies-ratings-page__tablet-desktop-four-star-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-on-orange"
+                  src={CircleButtonOnOrange}
+                  alt="Circle Button On Orange"
+                />
+                <div className="search-agencies-ratings-page__tablet-desktop-four-star-logo-container">
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                </div>
+                <span className="search-agencies-ratings-page__tablet-desktop-ratings-text">
+                  4 Star Rating
+                </span>
+              </div>
+              <div className="search-agencies-ratings-page__tablet-desktop-three-star-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-off-gray"
+                  src={CircleButtonOffGray}
+                  alt="Circle Button Off Gray"
+                />
+                <div className="search-agencies-ratings-page__tablet-desktop-three-star-logo-container">
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                </div>
+                <span className="search-agencies-ratings-page__tablet-desktop-ratings-text">
+                  3 Star Rating
+                </span>
+              </div>
+            </div>
+            <div className="search-agencies-ratings-page__tablet-desktop-ratings-second-container">
+              <div className="search-agencies-ratings-page__tablet-desktop-two-star-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-off-gray"
+                  src={CircleButtonOffGray}
+                  alt="Circle Button Off Gray"
+                />
+                <div className="search-agencies-ratings-page__tablet-desktop-two-star-logo-container">
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                </div>
+                <span className="search-agencies-ratings-page__tablet-desktop-ratings-text">
+                  2 Star Rating
+                </span>
+              </div>
+              <div className="search-agencies-ratings-page__tablet-desktop-one-star-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-off-gray"
+                  src={CircleButtonOffGray}
+                  alt="Circle Button Off Gray"
+                />
+                <div className="search-agencies-ratings-page__tablet-desktop-one-star-logo-container">
+                  <img
+                    className="search-agencies-ratings-page__rating-star-logo"
+                    src={RatingStarLogo}
+                    alt="Rating Star Logo"
+                  />
+                </div>
+                <span className="search-agencies-ratings-page__tablet-desktop-ratings-text">
+                  1 Star Rating
+                </span>
+              </div>
+              <div className="search-agencies-ratings-page__tablet-desktop-no-ratings-container">
+                <img
+                  className="search-agencies-ratings-page__circle-button-off-gray"
+                  src={CircleButtonOffGray}
+                  alt="Circle Button Off Gray"
+                />
+                <span className="search-agencies-ratings-page__tablet-desktop-no-ratings-text">
+                  No Ratings
+                </span>
+              </div>
+            </div>
           </div>
           <img
             className="search-agencies-ratings-page__search-icon"
