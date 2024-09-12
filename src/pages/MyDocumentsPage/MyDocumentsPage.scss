@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .my-documents-page {
+    padding-bottom: 10rem;
 
     &__main-container {
         display: flex;
@@ -35,6 +36,7 @@
         width: 450px;
         height: 45px;
         border-radius: 28px;
+        padding-left: 24px;
     }
 
     &__card-container {
@@ -80,11 +82,41 @@
         padding-left: 50px;
     }
 
+    &__tablet-white-row-container {
+        display: none;
+    }
+
+    &__tablet-gray-row-container {
+        display: none;
+    }
+
+    &__page-number-container {
+        margin-left: 138px;
+        margin-top: 40px;
+    }
+
+    &__page-number-peach-1-icon {
+        margin-left: 5px;
+    }
+
+    &__page-number-gray-2-icon {
+        margin-left: 10px;
+    }
+
+    &__page-number-gray-3-icon {
+        margin-left: 10px;
+    }
+
+    &__page-arrow-right-icon {
+        margin-left: 5px;
+    }
+
 }
 
 @include tablet {
 
     .my-documents-page {
+        padding-bottom: 15rem;
 
         &__main-container {
             display: flex;
@@ -122,6 +154,192 @@
             width: 550px;
             height: 45px;
             border-radius: 28px;
+        }
+
+        &__card-container {
+            display: none;
+        }
+
+        &__tablet-row-containers {
+            margin-top: 0px;
+        }
+
+        &__tablet-white-row-container {
+            margin-left: 28px;
+            height: 45px;
+            padding-top: 5px;
+            display: inherit;
+        }
+
+        &__pdf-logo-small {
+            width: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-white-row-text {
+            margin-left: 80px;
+        }
+
+        &__white-row-checkbox-empty-icon {
+            width: 30px;
+            margin-bottom: 5px;
+            margin-left: 130px;
+        }
+
+        &__tablet-gray-row-container {
+            background-color: $card-light-gray-background-color;
+            margin-left: 28px;
+            height: 45px;
+            padding-top: 5px;
+            display: inherit;
+        }
+
+        &__tablet-gray-row-text {
+            margin-left: 80px;
+        }
+
+        &__gray-row-checkbox-empty-icon {
+            width: 30px;
+            margin-bottom: 5px;
+            margin-left: 178px;
+        }
+
+        &__page-number-container {
+            margin-left: 290px;
+            margin-top: 40px;
+        }
+
+        &__page-number-peach-1-icon {
+            margin-left: 5px;
+        }
+
+        &__page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__page-arrow-right-icon {
+            margin-left: 5px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-documents-page {
+        padding-bottom: 15rem;
+
+        &__main-container {
+            display: flex;
+        }
+    
+        &__header {
+            margin-left: 80px;
+            margin-top: 48px;
+            font-weight: 800;
+            font-family: 'Roboto Serif';
+            font-size: 32px;
+        }
+
+        &__search-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 40px;
+        }
+
+        &__search-agreements-label {
+            margin-left: 0px;
+            margin-top: 24px;
+        }
+
+        &__search-icon {
+            position: absolute;
+            top: 446px;
+            left: 1200px;
+        }
+    
+        &__search-agreements-input {
+            display: block;
+            margin-left: 36px;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 16px;
+            width: 800px;
+            height: 45px;
+            border-radius: 28px;
+        }
+
+        &__card-container {
+            display: none;
+        }
+
+        &__tablet-row-containers {
+            margin-top: 0px;
+        }
+
+        &__tablet-white-row-container {
+            margin-left: 80px;
+            height: 45px;
+            padding-top: 5px;
+            display: inherit;
+        }
+
+        &__pdf-logo-small {
+            width: 20px;
+            margin-left: 80px;
+        }
+
+        &__tablet-white-row-text {
+            margin-left: 80px;
+        }
+
+        &__white-row-checkbox-empty-icon {
+            width: 30px;
+            margin-bottom: 5px;
+            margin-left: 584px;
+        }
+
+        &__tablet-gray-row-container {
+            background-color: $card-light-gray-background-color;
+            margin-left: 80px;
+            height: 45px;
+            padding-top: 5px;
+            display: inherit;
+        }
+
+        &__tablet-gray-row-text {
+            margin-left: 80px;
+        }
+
+        &__gray-row-checkbox-empty-icon {
+            width: 30px;
+            margin-bottom: 5px;
+            margin-left: 632px;
+        }
+
+        &__page-number-container {
+            margin-left: 650px;
+            margin-top: 40px;
+        }
+
+        &__page-number-peach-1-icon {
+            margin-left: 5px;
+        }
+
+        &__page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__page-arrow-right-icon {
+            margin-left: 5px;
         }
 
     }

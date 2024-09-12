@@ -33,7 +33,6 @@
 @include tablet {
 
     .my-documents-navbar {
-
         margin-left: 36px;
         margin-top: 48px;
 
@@ -43,6 +42,37 @@
             font-size: 17px;
             font-weight: 500;
             width: 750px;
+        }
+
+        &__reports {
+            margin-left: 150px;
+        }
+
+        &__archive {
+            margin-left: 150px;
+        }
+
+        &__agreements:hover, &__reports:hover, &__archive:hover {
+            color: $rust;
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-documents-navbar {
+        margin-left: 80px;
+        margin-top: 48px;
+
+        &__container {
+            border-bottom: 2px solid $soft-black;
+            padding-bottom: 6px;
+            font-size: 17px;
+            font-weight: 500;
+            width: 1500px;
         }
 
         &__reports {
