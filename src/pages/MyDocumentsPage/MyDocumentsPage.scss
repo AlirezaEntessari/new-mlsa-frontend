@@ -1,0 +1,129 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-documents-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        margin-left: 142px;
+        margin-top: 32px;
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        font-size: 24px;
+    }
+
+    &__search-agreements-label {
+        margin-left: 20px;
+        margin-top: 24px;
+    }
+
+    &__search-icon {
+        position: absolute;
+        top: 380px;
+        left: 620px;
+    }
+
+    &__search-agreements-input {
+        display: block;
+        margin-left: 20px;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 4px;
+        width: 450px;
+        height: 45px;
+        border-radius: 28px;
+    }
+
+    &__card-container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__card-white-background {
+        border: 2px solid $medium-gray;
+        margin-top: 40px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__card-text {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    &__logo-container {
+        margin-left: 165px;
+    }
+
+    &__pdf-logo {
+        width: 50px;
+    }
+
+    &__download-icon {
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    &__card-gray-background {
+        border: 2px solid $medium-gray;
+        margin-top: 40px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(236, 236, 236);
+    }
+
+    &__card-gray-text {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+}
+
+@include tablet {
+
+    .my-documents-page {
+
+        &__main-container {
+            display: flex;
+        }
+    
+        &__header {
+            margin-left: 36px;
+            margin-top: 32px;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+            font-size: 24px;
+        }
+
+        &__search-container {
+            display: flex;
+            margin-left: 36px;
+        }
+
+        &__search-agreements-label {
+            margin-left: 0px;
+            margin-top: 24px;
+        }
+    
+        &__search-icon {
+            position: absolute;
+            top: 344px;
+            left: 900px;
+        }
+    
+        &__search-agreements-input {
+            display: block;
+            margin-left: 28px;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 16px;
+            width: 550px;
+            height: 45px;
+            border-radius: 28px;
+        }
+
+    }
+
+}

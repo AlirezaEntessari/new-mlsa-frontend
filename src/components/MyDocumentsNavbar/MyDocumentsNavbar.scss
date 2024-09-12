@@ -1,0 +1,63 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-documents-navbar {
+
+    margin-left: 20px;
+    margin-top: 48px;
+
+    &__container {
+        border-bottom: 2px solid $soft-black;
+        padding-bottom: 6px;
+        font-size: 17px;
+        font-weight: 500;
+        width: 450px;
+    }
+
+    &__reports {
+        margin-left: 80px;
+    }
+
+    &__archive {
+        margin-left: 68px;
+    }
+
+    &__agreements:hover, &__reports:hover, &__archive:hover {
+        color: $rust;
+        cursor: pointer;
+    }
+
+}
+
+@include tablet {
+
+    .my-documents-navbar {
+
+        margin-left: 36px;
+        margin-top: 48px;
+
+        &__container {
+            border-bottom: 2px solid $soft-black;
+            padding-bottom: 6px;
+            font-size: 17px;
+            font-weight: 500;
+            width: 750px;
+        }
+
+        &__reports {
+            margin-left: 150px;
+        }
+
+        &__archive {
+            margin-left: 150px;
+        }
+
+        &__agreements:hover, &__reports:hover, &__archive:hover {
+            color: $rust;
+            cursor: pointer;
+        }
+
+    }
+
+}

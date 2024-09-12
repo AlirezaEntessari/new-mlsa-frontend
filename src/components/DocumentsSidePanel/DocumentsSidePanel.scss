@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.documents-side-panel {
+.profile-side-panel {
 
     &__side-panel  {
         background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
@@ -114,7 +114,7 @@
 
 @include tablet {
 
-    .documents-side-panel {
+    .profile-side-panel {
 
         &__side-panel  {
             background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
@@ -226,7 +226,7 @@
 
 @include desktop {
 
-    .documents-side-panel {
+    .profile-side-panel {
 
         &__side-panel  {
             background-image: url("../../assets/icons/mobileverticalnavbarbkgrnd2\ \(1\).svg");
@@ -336,29 +336,29 @@
 
 }
 
-.agencies-side-panel__right-arrow.rotate {
+.profile-side-panel__right-arrow.rotate {
     transform: rotate(180deg);
 }
 
-.agencies-side-panel {
+.profile-side-panel {
     display: flex;
     transition: width 0.3s ease;
     width: 200px; // Default expanded width
   }
   
-  .agencies-side-panel.collapsed {
+  .profile-side-panel.collapsed {
     width: 50px; // Sliver width for collapsed state
     height: 1500px;
   }
   
-  .agencies-side-panel__side-panel {
+  .profile-side-panel__side-panel {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
   }
   
-  .agencies-side-panel__profile-option {
+  .profile-side-panel__profile-option {
     width: 210px; // Default width for account-option when expanded
     cursor: pointer;
     display: flex;
@@ -367,27 +367,27 @@
     transition: width 0.3s ease;
   }
   
-  .agencies-side-panel__profile-option.collapsed {
+  .profile-side-panel__profile-option.collapsed {
     width: 50px; // Reduced width when collapsed
   }
   
-  .agencies-side-panel__profile-option img {
+  .profile-side-panel__profile-option img {
     margin-right: 10px;
     transition: transform 0.3s ease;
   }
   
-  .agencies-side-panel__right-arrow.rotate {
+  .profile-side-panel__right-arrow.rotate {
     transform: rotate(180deg);
   }
   
-  .agencies-side-panel__options {
+  .profile-side-panel__options {
     padding-left: 20px;
     white-space: nowrap;
     overflow: hidden;
     transition: opacity 0.3s ease;
   }
   
-  .agencies-side-panel.collapsed .agencies-side-panel__options {
+  .profile-side-panel.collapsed .profile-side-panel__options {
     opacity: 0; // Hide the other elements when collapsed
     transition: opacity 0.3s ease;
   }
