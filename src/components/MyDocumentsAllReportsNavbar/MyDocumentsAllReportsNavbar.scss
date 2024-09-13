@@ -97,6 +97,10 @@
             margin-bottom: 0px;
         }
 
+        &__all-reports {
+            margin-left: 60px;
+        }
+
         &__all-reports:hover {
             color: $rust;
             border-bottom: 1px solid $rust;
@@ -105,7 +109,7 @@
     
         &__view-button {
             display: inline-block;
-            margin-left: 960px;
+            margin-left: 900px;
             border: 2px solid $dark-navy;
             background-color: $dark-navy;
             width: 150px;

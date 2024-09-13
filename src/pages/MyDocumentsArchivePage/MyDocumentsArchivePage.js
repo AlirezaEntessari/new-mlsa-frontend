@@ -4,7 +4,7 @@ import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWi
 import DocumentsSidePanel from "../../components/DocumentsSidePanel/DocumentsSidePanel";
 import MyDocumentsNavbar from "../../components/MyDocumentsNavbar/MyDocumentsNavbar";
 import SearchIcon from "../../assets/icons/Search (2).svg";
-import MyDocumentsNDANavbar from "../../components/MyDocumentsNDANavbar/MyDocumentsNDANavbar";
+import MyDocumentsAllArchivedDocumentsNavbar from "../../components/MyDocumentsAllArchivedDocumentsNavbar/MyDocumentsAllArchivedDocumentsNavbar";
 import PDFLogo from "../../assets/icons/pdflogo.svg";
 import DownloadIcon from "../../assets/icons/downloadicon.svg";
 import CheckBoxEmptyIcon from "../../assets/icons/CheckBoxEmpty.svg";
@@ -36,12 +36,12 @@ export default function MyDocumentsArchivePage() {
               alt="Search Icon"
             />
             <input
-              className="my-documents-archive-page__search-agreements-input"
+              className="my-documents-archive-page__search-archive-input"
               type="text"
               id="search-archive"
             />
           </div>
-          <MyDocumentsNDANavbar />
+          <MyDocumentsAllArchivedDocumentsNavbar />
           <div className="my-documents-archive-page__card-container">
             <div className="my-documents-archive-page__card-white-background">
               <p className="my-documents-archive-page__card-text">

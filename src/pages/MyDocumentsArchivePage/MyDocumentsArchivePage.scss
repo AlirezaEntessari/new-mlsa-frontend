@@ -17,7 +17,7 @@
         font-size: 24px;
     }
 
-    &__search-agreements-label {
+    &__search-archive-label {
         margin-left: 20px;
         margin-top: 24px;
     }
@@ -28,7 +28,7 @@
         left: 620px;
     }
 
-    &__search-agreements-input {
+    &__search-archive-input {
         display: block;
         margin-left: 20px;
         border: 1px solid $medium-dark-gray;
@@ -133,20 +133,21 @@
         &__search-container {
             display: flex;
             margin-left: 36px;
+            margin-top: 28px;
         }
 
-        &__search-agreements-label {
+        &__search-archive-label {
             margin-left: 0px;
             margin-top: 24px;
         }
     
         &__search-icon {
             position: absolute;
-            top: 344px;
-            left: 900px;
+            top: 356px;
+            left: 870px;
         }
     
-        &__search-agreements-input {
+        &__search-archive-input {
             display: block;
             margin-left: 28px;
             border: 1px solid $medium-dark-gray;
@@ -178,12 +179,13 @@
 
         &__tablet-white-row-text {
             margin-left: 80px;
+            font-size: 14px;
         }
 
         &__white-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 130px;
+            margin-left: 118px;
         }
 
         &__tablet-gray-row-container {
@@ -196,12 +198,13 @@
 
         &__tablet-gray-row-text {
             margin-left: 80px;
+            font-size: 14px;
         }
 
         &__gray-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 178px;
+            margin-left: 160px;
         }
 
         &__page-number-container {
@@ -252,7 +255,7 @@
             margin-top: 40px;
         }
 
-        &__search-agreements-label {
+        &__search-archive-label {
             margin-left: 0px;
             margin-top: 24px;
         }
@@ -263,12 +266,12 @@
             left: 1200px;
         }
     
-        &__search-agreements-input {
+        &__search-archive-input {
             display: block;
             margin-left: 36px;
             border: 1px solid $medium-dark-gray;
             margin-top: 16px;
-            width: 800px;
+            width: 830px;
             height: 45px;
             border-radius: 28px;
         }
@@ -295,12 +298,13 @@
 
         &__tablet-white-row-text {
             margin-left: 80px;
+            font-size: inherit;
         }
 
         &__white-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 584px;
+            margin-left: 606px;
         }
 
         &__tablet-gray-row-container {
@@ -313,12 +317,13 @@
 
         &__tablet-gray-row-text {
             margin-left: 80px;
+            font-size: inherit;
         }
 
         &__gray-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 632px;
+            margin-left: 654px;
         }
 
         &__page-number-container {

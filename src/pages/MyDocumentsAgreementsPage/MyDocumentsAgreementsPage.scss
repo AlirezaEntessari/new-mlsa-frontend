@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.my-documents-page {
+.my-documents-agreements-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -115,7 +115,7 @@
 
 @include tablet {
 
-    .my-documents-page {
+    .my-documents-agreements-page {
         padding-bottom: 15rem;
 
         &__main-container {
@@ -231,7 +231,7 @@
 
 @include desktop {
 
-    .my-documents-page {
+    .my-documents-agreements-page {
         padding-bottom: 15rem;
 
         &__main-container {

@@ -28,6 +28,21 @@
         cursor: pointer;
     }
 
+    &__agreements-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__reports-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__archive-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
