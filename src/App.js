@@ -21,6 +21,8 @@ import SearchAgenciesAllAgenciesPage from './pages/SearchAgenciesAllAgenciesPage
 import SearchAgenciesIndustryPage from './pages/SearchAgenciesIndustryPage/SearchAgenciesIndustryPage';
 import SearchAgenciesRatingsPage from './pages/SearchAgenciesRatingsPage/SearchAgenciesRatingsPage';
 import MyDocumentsPage from './pages/MyDocumentsPage/MyDocumentsPage';
+import MyDocumentsReportsPage from './pages/MyDocumentsReportsPage/MyDocumentsReportsPage';
+import MyDocumentsArchivePage from './pages/MyDocumentsArchivePage/MyDocumentsArchivePage';
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
         <Route path="/search-agencies-industry-page" element={<SearchAgenciesIndustryPage />} />
         <Route path="/search-agencies-ratings-page" element={<SearchAgenciesRatingsPage />} />
         <Route path="/my-documents-page" element={<MyDocumentsPage />} />
+        <Route path="/my-documents-reports-page" element={<MyDocumentsReportsPage />} />
+        <Route path="/my-documents-archive-page" element={<MyDocumentsArchivePage />} />
       </Routes>
       </BrowserRouter>
     </div>

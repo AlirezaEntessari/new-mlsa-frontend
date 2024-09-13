@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.my-documents-reports-page {
+.my-documents-archive-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -17,30 +17,18 @@
         font-size: 24px;
     }
 
-    &__generate-report-button {
-        border: 1px solid $dark-navy;
-        background-color: $dark-navy;
-        color: $white-text;
-        width: 175px;
-        height: 40px;
-        border-radius: 28px;
-        font-weight: 500;
-        margin-left: 140px;
-        margin-top: 24px;
-    }
-
-    &__search-reports-label {
+    &__search-agreements-label {
         margin-left: 20px;
         margin-top: 24px;
     }
 
     &__search-icon {
         position: absolute;
-        top: 445px;
+        top: 380px;
         left: 620px;
     }
 
-    &__search-reports-input {
+    &__search-agreements-input {
         display: block;
         margin-left: 20px;
         border: 1px solid $medium-dark-gray;
@@ -127,7 +115,7 @@
 
 @include tablet {
 
-    .my-documents-reports-page {
+    .my-documents-archive-page {
         padding-bottom: 15rem;
 
         &__main-container {
@@ -142,43 +130,28 @@
             font-size: 24px;
         }
 
-        &__generate-report-button {
-            border: 1px solid $dark-navy;
-            background-color: $dark-navy;
-            color: $white-text;
-            width: 175px;
-            height: 40px;
-            border-radius: 28px;
-            font-weight: 500;
-            margin-left: 0px;
-            margin-top: 0px;
-            position: absolute;
-            top: 336px;
-            left: 784px;
-        }
-
         &__search-container {
             display: flex;
             margin-left: 36px;
         }
 
-        &__search-reports-label {
+        &__search-agreements-label {
             margin-left: 0px;
             margin-top: 24px;
         }
     
         &__search-icon {
             position: absolute;
-            top: 345px;
-            left: 705px;
+            top: 344px;
+            left: 900px;
         }
     
-        &__search-reports-input {
+        &__search-agreements-input {
             display: block;
-            margin-left: 20px;
+            margin-left: 28px;
             border: 1px solid $medium-dark-gray;
             margin-top: 16px;
-            width: 395px;
+            width: 550px;
             height: 45px;
             border-radius: 28px;
         }
@@ -205,13 +178,12 @@
 
         &__tablet-white-row-text {
             margin-left: 80px;
-            font-size: 14px;
         }
 
         &__white-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 126px;
+            margin-left: 130px;
         }
 
         &__tablet-gray-row-container {
@@ -224,13 +196,12 @@
 
         &__tablet-gray-row-text {
             margin-left: 80px;
-            font-size: 14px;
         }
 
         &__gray-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 168px;
+            margin-left: 178px;
         }
 
         &__page-number-container {
@@ -260,7 +231,7 @@
 
 @include desktop {
 
-    .my-documents-reports-page {
+    .my-documents-archive-page {
         padding-bottom: 15rem;
 
         &__main-container {
@@ -275,28 +246,13 @@
             font-size: 32px;
         }
 
-        &__generate-report-button {
-            border: 1px solid $dark-navy;
-            background-color: $dark-navy;
-            color: $white-text;
-            width: 195px;
-            height: 44px;
-            border-radius: 28px;
-            font-weight: 500;
-            margin-left: 0px;
-            margin-top: 0px;
-            position: absolute;
-            top: 438px;
-            left: 1400px;
-        }
-
         &__search-container {
             display: flex;
             margin-left: 80px;
             margin-top: 40px;
         }
 
-        &__search-reports-label {
+        &__search-agreements-label {
             margin-left: 0px;
             margin-top: 24px;
         }
@@ -304,15 +260,15 @@
         &__search-icon {
             position: absolute;
             top: 446px;
-            left: 1210px;
+            left: 1200px;
         }
     
-        &__search-reports-input {
+        &__search-agreements-input {
             display: block;
             margin-left: 36px;
             border: 1px solid $medium-dark-gray;
             margin-top: 16px;
-            width: 850px;
+            width: 800px;
             height: 45px;
             border-radius: 28px;
         }
@@ -344,7 +300,7 @@
         &__white-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 700px;
+            margin-left: 584px;
         }
 
         &__tablet-gray-row-container {
@@ -362,7 +318,7 @@
         &__gray-row-checkbox-empty-icon {
             width: 30px;
             margin-bottom: 5px;
-            margin-left: 742px;
+            margin-left: 632px;
         }
 
         &__page-number-container {
