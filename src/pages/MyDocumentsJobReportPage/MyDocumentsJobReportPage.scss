@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .my-documents-job-report-page {
+    padding-bottom: 10rem;
 
     &__main-container {
         display: flex;
@@ -22,6 +23,7 @@
         margin-top: 48px;
         width: 456px;
         height: 1000px;
+        border-radius: 20px;
     }
 
     &__client-name-label {
@@ -79,24 +81,53 @@
         display: block;
         border: 1px solid $medium-dark-gray;
         margin-top: 2px;
-        width: 175px;
+        width: 200px;
         padding-left: 4px;
         height: 50px;
         border-radius: 6px;
     }
 
     &__environment-container {
-        margin-left: 50px;
+        margin-left: 32px;
     }
 
     &__environment-select {
         display: block;
         border: 1px solid $medium-dark-gray;
         margin-top: 2px;
-        width: 175px;
+        width: 150px;
         padding-left: 4px;
         height: 50px;
         border-radius: 6px;
+    }
+
+    &__industry-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__industry-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 350px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__location-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__city-input {
+        display: block;
+    }
+
+    &__state-select {
+        display: block;
     }
 
 }
