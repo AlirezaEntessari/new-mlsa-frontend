@@ -1,0 +1,102 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-documents-job-report-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-left: 176px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__central-container {
+        border: 1px solid $medium-dark-gray;
+        margin-left: 20px;
+        margin-top: 48px;
+        width: 456px;
+        height: 1000px;
+    }
+
+    &__client-name-label {
+        padding-top: 28px;
+        margin-left: 24px;
+    }
+
+    &__client-name-input {
+        display: block;
+        margin-left: 24px;
+        width: 400px;
+        height: 48px;
+        margin-top: 4px;
+        border: 1px solid $medium-dark-gray;
+        border-radius: 8px;
+    }
+
+    &__job-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__job-type-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 125px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__job-status-container {
+        margin-left: 50px;
+    }
+
+    &__job-status-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__job-title-environment-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__job-title-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__environment-container {
+        margin-left: 50px;
+    }
+
+    &__environment-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+}

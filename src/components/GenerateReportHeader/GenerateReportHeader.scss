@@ -1,0 +1,17 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.generate-report-header {
+
+    &__header {
+        font-weight: 500;
+        border-bottom: 2px solid $soft-black;
+        margin-left: 20px;
+        padding-bottom: 6px;
+        font-size: 17px;
+        margin-top: 20px;
+        width: 450px;
+    }
+
+}

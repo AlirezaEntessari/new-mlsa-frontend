@@ -13,6 +13,7 @@ import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
 import PageNumberPeach1Icon from "../../assets/icons/PageNumberPeach1.svg";
 import PageNumberGray2Icon from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3Icon from "../../assets/icons/PageNumberGray3.svg";
+import { Link } from "react-router-dom";
 
 export default function MyDocumentsReportsPage() {
   return (
@@ -23,7 +24,14 @@ export default function MyDocumentsReportsPage() {
         <div className="my-documents-reports-page__right-container">
           <p className="my-documents-reports-page__header">My Documents</p>
           <MyDocumentsNavbar />
-          <button className="my-documents-reports-page__generate-report-button">Generate Report</button>
+          <Link
+            className="my-documents-reports-page__job-report-link"
+            to="/my-documents-job-report-page"
+          >
+            <button className="my-documents-reports-page__generate-report-button">
+              Generate Report
+            </button>
+          </Link>
           <div className="my-documents-reports-page__search-container">
             <label
               className="my-documents-reports-page__search-reports-label"
@@ -644,7 +652,11 @@ export default function MyDocumentsReportsPage() {
               src={PageNumberGray3Icon}
               alt="Page Number Gray 3 Icon"
             />
-            <img className="my-documents-reports-page__page-arrow-right-icon" src={PageArrowRightIcon} alt="Page Arrow Right Icon" />
+            <img
+              className="my-documents-reports-page__page-arrow-right-icon"
+              src={PageArrowRightIcon}
+              alt="Page Arrow Right Icon"
+            />
           </div>
         </div>
       </div>

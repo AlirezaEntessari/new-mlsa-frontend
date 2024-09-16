@@ -23,6 +23,7 @@ import SearchAgenciesRatingsPage from './pages/SearchAgenciesRatingsPage/SearchA
 import MyDocumentsAgreementsPage from './pages/MyDocumentsAgreementsPage/MyDocumentsAgreementsPage';
 import MyDocumentsReportsPage from './pages/MyDocumentsReportsPage/MyDocumentsReportsPage';
 import MyDocumentsArchivePage from './pages/MyDocumentsArchivePage/MyDocumentsArchivePage';
+import MyDocumentsJobReportPage from './pages/MyDocumentsJobReportPage/MyDocumentsJobReportPage';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route path="/my-documents-agreements-page" element={<MyDocumentsAgreementsPage />} />
         <Route path="/my-documents-reports-page" element={<MyDocumentsReportsPage />} />
         <Route path="/my-documents-archive-page" element={<MyDocumentsArchivePage />} />
+        <Route path="/my-documents-job-report-page" element={<MyDocumentsJobReportPage />} />
       </Routes>
       </BrowserRouter>
     </div>
