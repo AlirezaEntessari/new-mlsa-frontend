@@ -22,7 +22,7 @@
         margin-left: 20px;
         margin-top: 48px;
         width: 456px;
-        height: 1000px;
+        height: 1350px;
         border-radius: 20px;
     }
 
@@ -124,10 +124,242 @@
 
     &__city-input {
         display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 200px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__state-container {
+        margin-left: 32px;
     }
 
     &__state-select {
         display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__country-zip-code-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__country-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__zip-code-container {
+        margin-left: 50px;
+    }
+
+    &__zip-code-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__number-of-openings-citizenship-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__number-of-openings-label {
+        width: 150px;
+    }
+
+    &__number-of-openings-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 80px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__citizenship-container {
+        margin-left: 50px;
+    }
+
+    &__citizenship-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__experience-required-start-date-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__experience-required-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__start-date-container {
+       margin-left: 50px;
+    }
+
+    &__start-date-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__salary-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__salary-type-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 125px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__salary-range-first-container {
+        margin-left: 20px;
+    }
+
+    &__salary-range-first-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 100px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__salary-range-second-container {
+        margin-left: 20px;
+    }
+
+    &__dash {
+        margin-top: 36px;
+        margin-left: 18px;
+    }
+
+    &__salary-range-second-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 100px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+        margin-top: 26px;
+    }
+
+    &__fee-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__fee-type-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__fee-negotiable-container {
+        margin-left: 50px;
+    }
+
+    &__fee-negotiable-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 100px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__guarantee-period-travel-required-container {
+        margin-top: 32px;
+        margin-left: 24px;
+        display: flex;
+    }
+
+    &__guarantee-period-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__travel-required-container {
+        margin-left: 32px;
+    }
+
+    &__travel-required-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__generate-report-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        width: 175px;
+        border-radius: 28px;
+        margin-top: 72px;
+        margin-left: 250px;
+        color: $white-text;
+        height: 40px;
+        font-weight: 500;
     }
 
 }
