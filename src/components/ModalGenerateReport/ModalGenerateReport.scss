@@ -92,7 +92,7 @@
         &__content {
             width: 630px;
             // height: 730px;
-            height: 700px;
+            height: 375px;
             padding: 3rem;
             text-align: left;
             position: relative;
@@ -113,6 +113,41 @@
             margin-right: 6px;
             margin-top: 6px;
         }
+
+        &__text {
+            font-family: 'Roboto Serif';
+            margin-left: 110px;
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 20px;
+            width: 300px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        &__button-container {
+            margin-top: 50px;
+            margin-left: 126px;
+        }
+    
+        &__ok-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 125px;
+            height: 40px;
+            color: $white-text;
+            border-radius: 24px;
+        }
+
+        &__undo-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            width: 125px;
+            height: 40px;
+            color: $dark-navy;
+            border-radius: 24px;
+            margin-left: 20px;
+        } 
 
     }
 

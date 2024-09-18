@@ -374,16 +374,12 @@
         display: none;
     }
 
-    &__tablet-central-container {
-        display: none;
-    } 
-
 }
 
 @include tablet {
 
     .my-documents-job-report-page {
-        padding-bottom: 10rem;
+        padding-bottom: 30rem;
 
         &__main-container {
             display: flex;
@@ -406,7 +402,7 @@
             margin-left: 20px;
             margin-top: 48px;
             width: 470px;
-            height: 1350px;
+            height: 1075px;
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px; 
@@ -424,18 +420,12 @@
             display: none;
         }
 
-        &__tablet-report-header-container {
-            display: inherit;
-            margin-left: 32px;
-            margin-top: 48px;
-        }
-
         &__tablet-middle-container {
             display: inherit;
         }
 
         &__tablet-client-name-container {
-            margin-top: 28px;
+            margin-top: 36px;
             margin-left: 28px;
         }
 
@@ -450,7 +440,7 @@
         }
 
         &__tablet-job-container {
-            margin-top: 28px;
+            margin-top: 36px;
             margin-left: 28px;
         }
 
@@ -467,7 +457,7 @@
         &__tablet-job-type-status-environment-container {
             display: flex;
             margin-left: 28px;
-            margin-top: 28px;
+            margin-top: 36px;
         }
 
         &__tablet-job-type-select {
@@ -511,7 +501,7 @@
         &__tablet-industry-city-container {
             display: flex;
             margin-left: 28px;
-            margin-top: 28px;
+            margin-top: 36px;
         }
 
         &__tablet-industry-select {
@@ -542,7 +532,7 @@
         &__tablet-location-container {
             display: flex;
             margin-left: 28px;
-            margin-top: 28px;
+            margin-top: 36px;
         }
 
         &__tablet-state-select {
@@ -586,7 +576,7 @@
         &__tablet-openings-citizenship-experience-required-container {
             display: flex;
             margin-left: 28px;
-            margin-top: 28px;
+            margin-top: 36px;
         }
 
         &__tablet-number-of-openings-label {
@@ -627,6 +617,178 @@
             border-radius: 6px;
         }
 
+        &__tablet-start-date-salary-type-range-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 36px;
+        }
+
+        &__tablet-start-date-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-salary-type-container {
+            margin-left: 10px;
+        }
+
+        &__tablet-salary-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-salary-range-first-container {
+            margin-left: 10px;
+        }
+
+        &__tablet-salary-range-first-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-salary-range-second-container {
+            margin-left: 10px;
+        }
+
+        &__tablet-salary-range-second-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+            margin-top: 26px;
+        }
+
+        &__tablet-fee-guarantee-period-travel-required-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 36px;
+        }
+
+        &__tablet-fee-negotiable-container {
+            margin-left: 16px;
+        }
+
+        &__tablet-fee-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 105px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-fee-negotiable-label {
+            font-size: 12px;
+            width: 100px;
+        }
+
+        &__tablet-fee-negotiable-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 60px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-guarantee-period-label {
+            font-size: 12px;
+        }
+
+        &__tablet-guarantee-period-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 80px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-travel-required-container {
+            margin-left: 14px;
+        }
+
+        &__tablet-travel-required-label {
+            font-size: 14px;
+        }
+
+        &__tablet-travel-required-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-generate-report-button {
+            margin-top: 72px;
+            margin-left: 270px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 175px;
+            height: 44px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__desktop-middle-container {
+            display: none;
+        }
+
     }
+
+}
+
+@include desktop {
+
+    .my-documents-job-report-page {
+        padding-bottom: 30rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 90px;
+            margin-top: 24px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    
+        &__central-container {
+            display: none;
+        }
+
+        &__tablet-middle-container {
+            display: none;
+        }
+        
+    }
+
 
 }

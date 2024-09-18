@@ -523,9 +523,7 @@ export default function MyDocumentsJobReportPage() {
               Generate Report
             </button>
           </div>
-          <div className="my-documents-job-report-page__tablet-report-header-container">
-            <GenerateReportHeader />
-          </div>
+          <GenerateReportHeader />
           <div className="my-documents-job-report-page__tablet-middle-container">
             <GenerateReportOptions />
             <div className="my-documents-job-report-page__tablet-central-container">
@@ -880,7 +878,11 @@ export default function MyDocumentsJobReportPage() {
                   >
                     Salary Type
                   </label>
-                  <select name="tablet-salary-type" id="tablet-salary-type">
+                  <select
+                    className="my-documents-job-report-page__tablet-salary-type-select"
+                    name="tablet-salary-type"
+                    id="tablet-salary-type"
+                  >
                     <option value="Yearly" disabled selected>
                       Yearly
                     </option>
@@ -889,8 +891,142 @@ export default function MyDocumentsJobReportPage() {
                     <option value="monthly">Monthly</option>
                   </select>
                 </div>
+                <div className="my-documents-job-report-page__tablet-salary-range-first-container">
+                  <label
+                    className="my-documents-job-report-page__tablet-salary-range-first-label"
+                    htmlFor="tablet-salary-range-first"
+                  >
+                    Salary Range
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__tablet-salary-range-first-select"
+                    name="tablet-salary-range-first"
+                    id="tablet-salary-range-first"
+                  >
+                    <option value="0" disabled selected>
+                      0
+                    </option>
+                    <option value="50,000">50,000</option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000+">500,000+</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__tablet-salary-range-second-container">
+                  <select
+                    className="my-documents-job-report-page__tablet-salary-range-second-select"
+                    name="tablet-salary-range-second"
+                    id="tablet-salary-range-second"
+                  >
+                    <option value="50,000" disabled selected>
+                      50,000
+                    </option>
+                    <option value="100,000">50,000</option>
+                    <option value="150,000">100,000</option>
+                    <option value="200,000">150,000</option>
+                    <option value="250,000">200,000</option>
+                    <option value="500,000">250,000</option>
+                    <option value=""></option>
+                  </select>
+                </div>
               </div>
+              <div className="my-documents-job-report-page__tablet-fee-guarantee-period-travel-required-container">
+                <div className="my-documents-job-report-page__tablet-fee-type-container">
+                  <label
+                    className="my-documents-job-report-page__tablet-fee-type-label"
+                    htmlFor="tablet-fee-type"
+                  >
+                    Fee Type
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__tablet-fee-type-select"
+                    name="tablet-fee-type"
+                    id="tablet-fee-type"
+                  >
+                    <option value="50% / 50%" disabled selected>
+                      50% / 50%
+                    </option>
+                    <option value="0% / 100%">0% / 100%</option>
+                    <option value="25% / 75%">25% / 75%</option>
+                    <option value="50% / 50%">50% / 50%</option>
+                    <option value="75% / 25%">75% / 25%</option>
+                    <option value="100% / 0%">100% / 0%</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__tablet-fee-negotiable-container">
+                  <label
+                    className="my-documents-job-report-page__tablet-fee-negotiable-label"
+                    htmlFor="tablet-fee-negotiable"
+                  >
+                    Fee Negotiable
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__tablet-fee-negotiable-select"
+                    name="tablet-fee-negotiable"
+                    id="tablet-fee-negotiable"
+                  >
+                    <option value="yes" disabled selected>
+                      Yes
+                    </option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__tablet-guarantee-period-container">
+                  <label
+                    className="my-documents-job-report-page__tablet-guarantee-period-label"
+                    htmlFor="tablet-guarantee-period"
+                  >
+                    Guarantee Period
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__tablet-guarantee-period-select"
+                    name="tablet-guarantee-period"
+                    id="tablet-guarantee-period"
+                  >
+                    <option value="0 days" disabled selected>
+                      0 days
+                    </option>
+                    <option value="1 day">1 day</option>
+                    <option value="2 days">2 days</option>
+                    <option value="3 days">3 days</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="1 month">1 month</option>
+                    <option value="6 months">6 months</option>
+                    <option value="1 year">1 year</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__tablet-travel-required-container">
+                  <label
+                    className="my-documents-job-report-page__tablet-travel-required-label"
+                    htmlFor="tablet-travel-required"
+                  >
+                    Travel Required
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__tablet-travel-required-select"
+                    name="tablet-travel-required"
+                    id="tablet-travel-required"
+                  >
+                    <option value="Yes" disabled selected>
+                      Yes
+                    </option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </div>
+              <button
+                onClick={handleGenerateReport}
+                className="my-documents-job-report-page__tablet-generate-report-button"
+              >
+                Generate Report
+              </button>
             </div>
+          </div>
+          <div className="my-documents-job-report-page__desktop-middle-container">
+            <GenerateReportOptions />
           </div>
         </div>
       </div>
