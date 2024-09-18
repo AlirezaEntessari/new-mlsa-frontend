@@ -362,4 +362,271 @@
         font-weight: 500;
     }
 
+    &__tablet-central-container {
+        display: none;
+    } 
+
+    &__tablet-report-header-container {
+        display: none;
+    }
+
+    &__tablet-middle-container {
+        display: none;
+    }
+
+    &__tablet-central-container {
+        display: none;
+    } 
+
+}
+
+@include tablet {
+
+    .my-documents-job-report-page {
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 32px;
+            margin-top: 24px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    
+        &__central-container {
+            display: none;
+        }
+
+        &__tablet-central-container {
+            border: 1px solid $medium-dark-gray;
+            margin-left: 20px;
+            margin-top: 48px;
+            width: 470px;
+            height: 1350px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px; 
+            display: inherit;
+            position: absolute;
+            top: 268px;
+            left: 480px;
+        }
+
+        &__tablet-container {
+            display: flex;
+        }
+
+        &__mobile-report-container {
+            display: none;
+        }
+
+        &__tablet-report-header-container {
+            display: inherit;
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-middle-container {
+            display: inherit;
+        }
+
+        &__tablet-client-name-container {
+            margin-top: 28px;
+            margin-left: 28px;
+        }
+
+        &__tablet-client-name-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 420px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-container {
+            margin-top: 28px;
+            margin-left: 28px;
+        }
+
+        &__tablet-job-title-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 420px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-type-status-environment-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 28px;
+        }
+
+        &__tablet-job-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 120px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-status-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-job-status-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 140px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-environment-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-environment-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 120px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-industry-city-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 28px;
+        }
+
+        &__tablet-industry-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        &__tablet-city-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-city-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-location-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 28px;
+        }
+
+        &__tablet-state-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 75px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-country-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-country-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 130px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-zip-code-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-zip-code-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 170px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-openings-citizenship-experience-required-container {
+            display: flex;
+            margin-left: 28px;
+            margin-top: 28px;
+        }
+
+        &__tablet-number-of-openings-label {
+            width: 125px;
+        }
+
+        &__tablet-number-of-openings-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 80px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-citizenship-container {
+            margin-left: 0px;
+        }
+
+        &__tablet-citizenship-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 130px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+        &__tablet-experience-required-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 130px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 6px;
+        }
+
+    }
+
 }

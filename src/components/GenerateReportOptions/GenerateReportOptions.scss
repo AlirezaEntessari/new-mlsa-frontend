@@ -51,3 +51,57 @@
     }
 
 }
+
+@include tablet {
+
+    .generate-report-options {
+        margin-left: 32px;
+    
+        &__job-report-option {
+            color: $dark-navy;
+            background-color: rgb(230, 227, 227);
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 20px;
+            margin-top: 28px;
+            width: 225px;
+            font-weight: 500;
+        }
+    
+        &__candidate-report-option {
+            color: $dark-navy;
+            background-color: rgb(230, 227, 227);
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 20px;
+            width: 225px;
+            font-weight: 500;
+        }
+    
+        &__partnership-report-option {
+            color: $dark-navy;
+            background-color: rgb(230, 227, 227);
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 20px;
+            width: 225px;
+            font-weight: 500;
+        }
+    
+        &__user-activity-report-option {
+            color: $dark-navy;
+            background-color: rgb(230, 227, 227);
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 20px;
+            width: 225px;
+            font-weight: 500;
+        }
+    
+        &__job-report-option:hover, &__candidate-report-option:hover, &__partnership-report-option:hover, &__user-activity-report-option:hover {
+            color: $rust;
+        }
+    
+    } 
+
+}

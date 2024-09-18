@@ -15,3 +15,21 @@
     }
 
 }
+
+@include tablet {
+
+    .generate-report-header {
+
+        &__header {
+            font-weight: 500;
+            border-bottom: 2px solid $soft-black;
+            margin-left: 0px;
+            padding-bottom: 6px;
+            font-size: 17px;
+            margin-top: 0px;
+            width: 750px;
+        }
+
+    } 
+
+}
