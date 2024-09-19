@@ -1,0 +1,74 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-documents-candidate-report-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-left: 176px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-central-container {
+        border: 1px solid $medium-dark-gray;
+        margin-left: 20px;
+        margin-top: 48px;
+        width: 456px;
+        height: 1350px;
+        border-radius: 20px;
+    }
+    
+    &__mobile-name-label {
+        padding-top: 28px;
+        margin-left: 24px;
+    }
+
+    &__mobile-name-input {
+        display: block;
+        margin-left: 24px;
+        width: 400px;
+        height: 48px;
+        margin-top: 4px;
+        border: 1px solid $medium-dark-gray;
+        border-radius: 8px;
+    }
+
+    &__mobile-job-type-title-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-job-type-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-title-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-title-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 215px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+}

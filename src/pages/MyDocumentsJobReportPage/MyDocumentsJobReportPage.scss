@@ -801,7 +801,7 @@
             margin-left: 0px;
             margin-top: 48px;
             width: 1050px;
-            height: 1075px;
+            height: 1000px;
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px; 
@@ -991,6 +991,219 @@
             padding-left: 4px;
             height: 48px;
             border-radius: 8px;
+        }
+
+        &__desktop-number-of-openings-citizenship-experience-required-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-number-of-openings-label {
+            font-size: 17px;
+        }
+
+        &__desktop-number-of-openings-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 290px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-citizenship-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-citizenship-label {
+            font-size: 17px;
+        }
+
+        &__desktop-citizenship-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 290px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-experience-required-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-experience-required-label {
+            font-size: 17px;
+        }
+
+        &__desktop-experience-required-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 290px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-start-date-salary-type-salary-range-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-start-date-label {
+            font-size: 17px;
+        }
+
+        &__desktop-start-date-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-salary-type-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-salary-type-label {
+            font-size: 17px;
+        }
+
+        &__desktop-salary-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-salary-range-first-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-salary-range-first-label {
+            font-size: 17px;
+        }
+
+        &__desktop-salary-range-first-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-salary-range-second-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-salary-range-second-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+            margin-top: 28px;
+        }
+
+        &__desktop-fee-guarantee-period-travel-required-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-fee-type-label {
+            font-size: 17px;
+        }
+
+        &__desktop-fee-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-fee-negotiable-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-fee-negotiable-label {
+            font-size: 17px;
+        }
+
+        &__desktop-fee-negotiable-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-guarantee-period-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-guarantee-period-label {
+            font-size: 17px;
+        }
+
+        &__desktop-guarantee-period-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-travel-required-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-travel-required-label {
+            font-size: 17px;
+        }
+
+        &__desktop-travel-required-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 205px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-generate-report-button {
+            margin-top: 100px;
+            margin-left: 782px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 190px;
+            border-radius: 28px;
+            color: $white-text;
+            height: 44px;
+            font-weight: 500;
         }
         
     }

@@ -523,7 +523,6 @@ export default function MyDocumentsJobReportPage() {
               Generate Report
             </button>
           </div>
-          <GenerateReportHeader />
           <div className="my-documents-job-report-page__tablet-middle-container">
             <GenerateReportOptions />
             <div className="my-documents-job-report-page__tablet-central-container">
@@ -923,12 +922,12 @@ export default function MyDocumentsJobReportPage() {
                     <option value="50,000" disabled selected>
                       50,000
                     </option>
-                    <option value="100,000">50,000</option>
-                    <option value="150,000">100,000</option>
-                    <option value="200,000">150,000</option>
-                    <option value="250,000">200,000</option>
-                    <option value="500,000">250,000</option>
-                    <option value=""></option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000">500,000</option>
+                    <option value="500,000+">500,000+</option>
                   </select>
                 </div>
               </div>
@@ -1260,10 +1259,268 @@ export default function MyDocumentsJobReportPage() {
                   </select>
                 </div>
                 <div className="my-documents-job-report-page__desktop-zip-code-container">
-                  <label className="my-documents-job-report-page__desktop-zip-code-label" htmlFor="desktop-zip-code">Zip Code</label>
-                  <input className="my-documents-job-report-page__desktop-zip-code-input" type="text" id="desktop-zip-code" />
+                  <label
+                    className="my-documents-job-report-page__desktop-zip-code-label"
+                    htmlFor="desktop-zip-code"
+                  >
+                    Zip Code
+                  </label>
+                  <input
+                    className="my-documents-job-report-page__desktop-zip-code-input"
+                    type="text"
+                    id="desktop-zip-code"
+                  />
                 </div>
               </div>
+              <div className="my-documents-job-report-page__desktop-number-of-openings-citizenship-experience-required-container">
+                <div className="my-documents-job-report-page__desktop-number-of-openings-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-number-of-openings-label"
+                    htmlFor="number-of-openings"
+                  >
+                    Number of Openings
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-number-of-openings-select"
+                    name="desktop-number-of-openings"
+                    id="desktop-number-of-openings"
+                  >
+                    <option value="0" disabled selected>
+                      0
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-citizenship-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-citizenship-label"
+                    htmlFor="desktop-citizenship"
+                  >
+                    Citizenship/Type of VISA
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-citizenship-select"
+                    name="desktop-citizenship"
+                    id="desktop-citizenship"
+                  >
+                    <option value="VISA" disabled selected>
+                      VISA
+                    </option>
+                    <option value="US Citizen">US Citizen</option>
+                    <option value="Permanent Resident">
+                      Permanent Resident
+                    </option>
+                    <option value="OPT">OPT</option>
+                    <option value="H1B">H1B</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-experience-required-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-experience-required-label"
+                    htmlFor="desktop-experience-required"
+                  >
+                    Experience Required
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-experience-required-select"
+                    name="desktop-experience-required"
+                    id="desktop-experience-required"
+                  >
+                    <option value="0 - 1 years" disabled selected>
+                      0 - 1 years
+                    </option>
+                    <option value="1 - 2 years">1 - 2 years</option>
+                    <option value="2 - 3 years">2 - 3 years</option>
+                    <option value="3 - 4 years">3 - 4 years</option>
+                    <option value="4 - 5 years">4 - 5 years</option>
+                    <option value="5 - 6 years">5 - 6 years</option>
+                    <option value="6 - 7 years">6 - 7 years</option>
+                    <option value="7 - 8 years">7 - 8 years</option>
+                    <option value="8 - 9 years">8 - 9 years</option>
+                    <option value="9 - 10 years">9 - 10 years</option>
+                  </select>
+                </div>
+              </div>
+              <div className="my-documents-job-report-page__desktop-start-date-salary-type-salary-range-container">
+                <div className="my-documents-job-report-page__desktop-start-date-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-start-date-label"
+                    htmlFor="desktop-start-date"
+                  >
+                    Start Date
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-start-date-select"
+                    name="desktop-start-date"
+                    id="desktop-start-date"
+                  >
+                    <option value="01/01/25" disabled selected>
+                      01/01/25
+                    </option>
+                    <option value="01/02/25">01/02/25</option>
+                    <option value="01/03/25">01/03/25</option>
+                    <option value="01/04/25">01/04/25</option>
+                    <option value="01/05/25">01/05/25</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-salary-type-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-salary-type-label"
+                    htmlFor="desktop-salary-type"
+                  >
+                    Salary Type
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-salary-type-select"
+                    name="desktop-salary-type"
+                    id="desktop-salary-type"
+                  >
+                    <option value="Yearly" disabled selected>
+                      Yearly
+                    </option>
+                    <option value="weekly">Weekly</option>
+                    <option value="biweekly">Biweekly</option>
+                    <option value="monthly">Monthly</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-salary-range-first-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-salary-range-first-label"
+                    htmlFor="desktop-salary-range-first"
+                  >
+                    Salary Range
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-salary-range-first-select"
+                    name="desktop-salary-range-first"
+                    id="desktop-salary-range-first"
+                  >
+                    <option value="0" disabled selected>
+                      0
+                    </option>
+                    <option value="50,000">50,000</option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000+">500,000+</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-salary-range-second-container">
+                  <select
+                    className="my-documents-job-report-page__desktop-salary-range-second-select"
+                    name="desktop-salary-range-second"
+                    id="desktop-salary-range-second"
+                  >
+                    <option value="50,000" disabled selected>
+                      50,000
+                    </option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000">500,000</option>
+                    <option value="500,000+">500,000+</option>
+                  </select>
+                </div>
+              </div>
+              <div className="my-documents-job-report-page__desktop-fee-guarantee-period-travel-required-container">
+                <div className="my-documents-job-report-page__desktop-fee-type-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-fee-type-label"
+                    htmlFor="desktop-fee-type"
+                  >
+                    Fee Type
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-fee-type-select"
+                    name="desktop-fee-type"
+                    id="desktop-fee-type"
+                  >
+                    <option value="50% / 50%" disabled selected>
+                      50% / 50%
+                    </option>
+                    <option value="0% / 100%">0% / 100%</option>
+                    <option value="25% / 75%">25% / 75%</option>
+                    <option value="50% / 50%">50% / 50%</option>
+                    <option value="75% / 25%">75% / 25%</option>
+                    <option value="100% / 0%">100% / 0%</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-fee-negotiable-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-fee-negotiable-label"
+                    htmlFor="desktop-fee-negotiable"
+                  >
+                    Fee Negotiable
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-fee-negotiable-select"
+                    name="desktop-fee-negotiable"
+                    id="desktop-fee-negotiable"
+                  >
+                    <option value="Yes" disabled selected>
+                      Yes
+                    </option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-guarantee-period-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-guarantee-period-label"
+                    htmlFor="desktop-guarantee-period"
+                  >
+                    Guarantee Period
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-guarantee-period-select"
+                    name="desktop-guarantee-period"
+                    id="desktop-guarantee-period"
+                  >
+                    <option value="0 days" disabled selected>
+                      0 days
+                    </option>
+                    <option value="1 day">1 day</option>
+                    <option value="2 days">2 days</option>
+                    <option value="3 days">3 days</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="1 month">1 month</option>
+                    <option value="6 months">6 months</option>
+                    <option value="1 year">1 year</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-travel-required-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-travel-required-label"
+                    htmlFor="desktop-travel-required"
+                  >
+                    Travel Required
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-travel-required-select"
+                    name="desktop-travel-required"
+                    id="desktop-travel-required"
+                  >
+                    <option value="Yes" disabled selected>
+                      Yes
+                    </option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </div>
+              <button onClick={handleGenerateReport} className="my-documents-job-report-page__desktop-generate-report-button">
+                Generate Report
+              </button>
             </div>
           </div>
         </div>
