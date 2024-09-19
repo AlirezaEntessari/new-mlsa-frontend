@@ -374,6 +374,10 @@
         display: none;
     }
 
+    &__desktop-middle-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -777,7 +781,7 @@
             margin-left: 90px;
             margin-top: 24px;
             font-weight: 700;
-            font-size: 24px;
+            font-size: 36px;
         }
     
         &__central-container {
@@ -787,8 +791,208 @@
         &__tablet-middle-container {
             display: none;
         }
+
+        &__desktop-middle-container {
+            display: inherit;
+        }
+
+        &__desktop-central-container {
+            border: 2px solid $medium-dark-gray;
+            margin-left: 0px;
+            margin-top: 48px;
+            width: 1050px;
+            height: 1075px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px; 
+            display: inherit;
+            position: absolute;
+            top: 390px;
+            left: 700px;
+        }
+
+        &__desktop-client-name-job-type-job-status-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-client-name-label {
+            font-size: 17px;
+        }
+
+        &__desktop-client-name-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 300px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-job-type-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-job-type-label {
+            font-size: 17px;
+        }
+
+        &__desktop-job-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 275px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-job-status-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-job-status-label {
+            font-size: 17px;
+        }
+
+        &__desktop-job-status-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 275px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-job-title-environment-industry-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-job-title-label {
+            font-size: 17px;
+        }
+
+        &__desktop-job-title-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 300px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-environment-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-environment-label {
+            font-size: 17px;
+        }
+
+        &__desktop-environment-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 275px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-industry-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-industry-label {
+            font-size: 17px;
+        }
+
+        &__desktop-industry-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 275px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-city-state-country-zip-code-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 48px;
+        }
+
+        &__desktop-city-label {
+            font-size: 17px;
+        }
+
+        &__desktop-city-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 250px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-state-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-state-label {
+            font-size: 17px;
+        }
+
+        &__desktop-state-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 155px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-country-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-country-label {
+            font-size: 17px;
+        }
+
+        &__desktop-country-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 155px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        &__desktop-zip-code-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-zip-code-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 250px;
+            padding-left: 4px;
+            height: 48px;
+            border-radius: 8px;
+        }
         
     }
-
 
 }

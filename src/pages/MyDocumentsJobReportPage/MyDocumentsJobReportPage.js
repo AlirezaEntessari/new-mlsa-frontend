@@ -1027,6 +1027,244 @@ export default function MyDocumentsJobReportPage() {
           </div>
           <div className="my-documents-job-report-page__desktop-middle-container">
             <GenerateReportOptions />
+            <div className="my-documents-job-report-page__desktop-central-container">
+              <div className="my-documents-job-report-page__desktop-client-name-job-type-job-status-container">
+                <div className="my-documents-job-report-page__desktop-client-name-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-client-name-label"
+                    htmlFor="client-name"
+                  >
+                    Client Name
+                  </label>
+                  <input
+                    className="my-documents-job-report-page__desktop-client-name-input"
+                    type="text"
+                  />
+                </div>
+                <div className="my-documents-job-report-page__desktop-job-type-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-job-type-label"
+                    htmlFor="desktop-job-type"
+                  >
+                    Job Type
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-job-type-select"
+                    name="desktop-job-type"
+                    id="desktop-job-type"
+                  >
+                    <option value="Full Time" disabled selected>
+                      Full Time
+                    </option>
+                    <option value="Part Time">Part Time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="Temporary">Temporary</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-job-status-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-job-status-label"
+                    htmlFor="desktop-job-status"
+                  >
+                    Job Status
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-job-status-select"
+                    name="desktop-job-status"
+                    id="desktop-job-status"
+                  >
+                    <option value="Expiring Soon" disabled selected>
+                      Expiring Soon
+                    </option>
+                    <option value="new job">New Job</option>
+                    <option value="hot job">Hot Job</option>
+                  </select>
+                </div>
+              </div>
+              <div className="my-documents-job-report-page__desktop-job-title-environment-industry-container">
+                <div className="my-documents-job-report-page__desktop-job-title-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-job-title-label"
+                    htmlFor="desktop-job-title"
+                  >
+                    Job Title
+                  </label>
+                  <input
+                    className="my-documents-job-report-page__desktop-job-title-input"
+                    type="text"
+                    id="desktop-job-title"
+                  />
+                </div>
+                <div className="my-documents-job-report-page__desktop-environment-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-environment-label"
+                    htmlFor="desktop-environment"
+                  >
+                    Environment
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-environment-select"
+                    name="desktop-environment"
+                    id="desktop-environment"
+                  >
+                    <option value="on-site" disabled selected>
+                      On-Site
+                    </option>
+                    <option value="remote">Remote</option>
+                    <option value="traveling">Traveling</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-industry-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-industry-label"
+                    htmlFor="desktop-industry"
+                  >
+                    Industry
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-industry-select"
+                    name="desktop-industry"
+                    id="desktop-industry"
+                  >
+                    <option
+                      value="professional-services-consulting"
+                      disabled
+                      selected
+                    >
+                      Professional Services/Consulting
+                    </option>
+                    <option value="aerospace-defense">
+                      Aerospace and Defense
+                    </option>
+                    <option value="agricultural">Agricultural</option>
+                    <option value="computers-and-technology">
+                      Computers and Technology
+                    </option>
+                    <option value="conglomerate">Conglomerate</option>
+                    <option value="consumer-goods">Consumer Goods</option>
+                    <option value="financial">Financial</option>
+                    <option value="government">Government</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="oil-and-gas">Oil and Gas</option>
+                    <option value="pharmaceuticals">Pharmaceuticals</option>
+                    <option value="power-and-utilities">
+                      Power and Utilities
+                    </option>
+                    <option value="telecommunications">
+                      Telecommunications
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div className="my-documents-job-report-page__desktop-city-state-country-zip-code-container">
+                <div className="my-documents-job-report-page__desktop-city-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-city-label"
+                    htmlFor="desktop-city"
+                  >
+                    City
+                  </label>
+                  <input
+                    className="my-documents-job-report-page__desktop-city-input"
+                    type="text"
+                    id="desktop-city"
+                  />
+                </div>
+                <div className="my-documents-job-report-page__desktop-state-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-state-label"
+                    htmlFor="desktop-state"
+                  >
+                    State
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-state-select"
+                    name="desktop-state"
+                    id="desktop-state"
+                  >
+                    <option value="Alabama" disabled selected>
+                      AL
+                    </option>
+                    <option value="Alaska">AK</option>
+                    <option value="Arizona">AZ</option>
+                    <option value="Arkansas">AR</option>
+                    <option value="California">CA</option>
+                    <option value="Colorado">CO</option>
+                    <option value="Connecticut">CT</option>
+                    <option value="Delaware">DE</option>
+                    <option value="Florida">FL</option>
+                    <option value="Georgia">GA</option>
+                    <option value="Hawaii">HI</option>
+                    <option value="Idaho">ID</option>
+                    <option value="Illinois">IL</option>
+                    <option value="Indiana">IN</option>
+                    <option value="Iowa">IA</option>
+                    <option value="Kansas">KS</option>
+                    <option value="Kentucky">KY</option>
+                    <option value="Louisiana">LA</option>
+                    <option value="Maine">ME</option>
+                    <option value="Maryland">MD</option>
+                    <option value="Massachusetts">MA</option>
+                    <option value="Michigan">MI</option>
+                    <option value="Minnesota">MN</option>
+                    <option value="Missouri">MO</option>
+                    <option value="Montana">MT</option>
+                    <option value="Nebraska">NE</option>
+                    <option value="Nevada">NV</option>
+                    <option value="New Hampshire">NH</option>
+                    <option value="New Jersey">NJ</option>
+                    <option value="New Mexico">NM</option>
+                    <option value="New York">NY</option>
+                    <option value="North Carolina">NC</option>
+                    <option value="North Dakota">ND</option>
+                    <option value="Ohio">OH</option>
+                    <option value="Oklahoma">OK</option>
+                    <option value="Oregon">OR</option>
+                    <option value="Pennsylvania">PA</option>
+                    <option value="Rhode Island">RI</option>
+                    <option value="South Carolina">SC</option>
+                    <option value="South Dakota">SD</option>
+                    <option value="Tennessee">TN</option>
+                    <option value="Texas">TX</option>
+                    <option value="Utah">UT</option>
+                    <option value="Vermont">VT</option>
+                    <option value="Virginia">VA</option>
+                    <option value="Washington">WA</option>
+                    <option value="West Virginia">WV</option>
+                    <option value="Wisconsin">WI</option>
+                    <option value="Wyoming">WY</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-country-container">
+                  <label
+                    className="my-documents-job-report-page__desktop-country-label"
+                    htmlFor="desktop-country"
+                  >
+                    Country
+                  </label>
+                  <select
+                    className="my-documents-job-report-page__desktop-country-select"
+                    name="desktop-country"
+                    id="desktop-country"
+                  >
+                    <option value="USA" disabled selected>
+                      USA
+                    </option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Germany">Germany</option>
+                  </select>
+                </div>
+                <div className="my-documents-job-report-page__desktop-zip-code-container">
+                  <label className="my-documents-job-report-page__desktop-zip-code-label" htmlFor="desktop-zip-code">Zip Code</label>
+                  <input className="my-documents-job-report-page__desktop-zip-code-input" type="text" id="desktop-zip-code" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
