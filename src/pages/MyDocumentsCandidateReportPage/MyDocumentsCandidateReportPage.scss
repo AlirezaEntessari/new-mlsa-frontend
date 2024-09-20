@@ -22,7 +22,7 @@
         margin-left: 20px;
         margin-top: 48px;
         width: 456px;
-        height: 1350px;
+        height: 1150px;
         border-radius: 20px;
     }
     
@@ -69,6 +69,388 @@
         padding-left: 4px;
         height: 50px;
         border-radius: 6px;
+    }
+
+    &__mobile-experience-environment-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-experience-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-environment-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-environment-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 215px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-industry-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-industry-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 300px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-city-state-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-city-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 200px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-state-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-state-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 155px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-country-zip-code-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-country-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 155px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-zip-code-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-zip-code-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 200px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-email-citizenship-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-email-input {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 200px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-citizenship-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-citizenship-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 150px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-willing-to-travel-availability-date-salary-type-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-willing-to-travel-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 110px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-availability-date-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-availability-date-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 110px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-salary-type-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-salary-type-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 110px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-salary-range-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-salary-range-first-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-salary-range-second-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-salary-range-second-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 26px;
+        width: 175px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-generate-report-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        width: 175px;
+        border-radius: 28px;
+        margin-top: 72px;
+        margin-left: 240px;
+        color: $white-text;
+        height: 44px;
+        font-weight: 500;
+    }
+
+    &__tablet-desktop-generate-report-container {
+        display: none;
+    }
+
+    &__tablet-central-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-documents-candidate-report-page {
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 32px;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__mobile-report-container {
+            display: none;
+        }
+
+        &__mobile-central-container {
+            display: none;
+        }
+
+        &__tablet-desktop-generate-report-container {
+            display: inherit;
+        }
+
+        &__tablet-central-container {
+            display: flex;
+        }
+
+        &__tablet-content-container {
+            border: 2px solid $medium-dark-gray;
+            margin-left: 32px;
+            margin-top: 10px;
+            width: 480px;
+            height: 1075px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        &__tablet-client-name-container {
+            margin-top: 36px;
+            margin-left: 28px;
+        }
+
+        &__tablet-client-name-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 410px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-title-container {
+            margin-top: 36px;
+            margin-left: 28px;
+        }
+
+        &__tablet-job-title-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 410px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-type-job-status-environment-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-job-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 120px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-job-status-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-job-status-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 140px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-environment-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-environment-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 120px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-industry-city-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-industry-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        &__tablet-city-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-city-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
     }
 
 }
