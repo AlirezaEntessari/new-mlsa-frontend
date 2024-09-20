@@ -451,6 +451,170 @@
             border-radius: 6px;
         }
 
+        &__tablet-state-country-zip-code-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-state-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-country-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-country-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-zip-code-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-zip-code-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 175px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-number-of-openings-citizenship-experience-required-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-number-of-openings-label {
+            width: 120px;
+        }
+
+        &__tablet-number-of-openings-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 70px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-citizenship-container {
+            margin-left: 16px;
+        }
+
+        &__tablet-citizenship-label {
+            width: 120px;
+        }
+
+        &__tablet-citizenship-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-experience-required-container {
+            margin-left: 28px;
+        }
+
+        &__tablet-experience-required-label {
+            width: 120px;
+        }
+
+        &__tablet-experience-required-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 130px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-start-date-salary-type-salary-range-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-start-date-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        &__tablet-salary-type-container {
+            margin-left: 16px;
+        }
+
+        &__tablet-salary-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 90px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        &__tablet-salary-range-first-container {
+            margin-left: 16px;
+        }
+
+        &__tablet-salary-range-first-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        &__tablet-salary-range-second-container {
+            margin-left: 16px;
+        }
+
+        &__tablet-salary-range-second-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 100px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 26px;
+        }
+        
+
     }
 
 }
