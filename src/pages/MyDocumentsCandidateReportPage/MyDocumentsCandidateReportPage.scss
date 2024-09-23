@@ -751,7 +751,7 @@
             margin-left: 72px;
             margin-top: 10px;
             width: 1050px;
-            height: 1125px;
+            height: 1000px;
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
@@ -759,7 +759,7 @@
 
         &__desktop-name-job-type-title-container {
             display: flex;
-            margin-top: 50px;
+            margin-top: 72px;
             margin-left: 48px;
         }
 
@@ -803,7 +803,7 @@
 
         &__desktop-experience-environment-industry-container {
             display: flex;
-            margin-top: 50px;
+            margin-top: 72px;
             margin-left: 48px;
         }
 
@@ -847,7 +847,7 @@
 
         &__desktop-city-state-country-zip-code-container {
             display: flex;
-            margin-top: 50px;
+            margin-top: 72px;
             margin-left: 48px;
         }
 
@@ -905,7 +905,7 @@
 
         &__desktop-email-citizenship-willing-to-travel-container {
             display: flex;
-            margin-top: 50px;
+            margin-top: 72px;
             margin-left: 48px;
         }
 
@@ -945,6 +945,83 @@
             padding-left: 4px;
             height: 50px;
             border-radius: 6px;
+        }
+
+        &__desktop-availability-date-salary-type-salary-range-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 48px;
+        }
+
+        &__desktop-availability-date-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-salary-type-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-salary-type-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-salary-range-first-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-salary-range-first-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-salary-range-dash {
+            margin-top: 28px;
+            margin-left: 36px;
+            font-size: 24px;
+        }
+
+        &__desktop-salary-range-second-container {
+            margin-left: 36px;
+            margin-top: 24px;
+        }
+
+        &__desktop-salary-range-second-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 200px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-generate-report-button {
+            margin-top: 100px;
+            margin-left: 810px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 190px;
+            border-radius: 28px;
+            color: $white-text;
+            height: 46px;
+            font-weight: 500;
         }
 
     }

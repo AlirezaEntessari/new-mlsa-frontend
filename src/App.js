@@ -25,6 +25,7 @@ import MyDocumentsReportsPage from './pages/MyDocumentsReportsPage/MyDocumentsRe
 import MyDocumentsArchivePage from './pages/MyDocumentsArchivePage/MyDocumentsArchivePage';
 import MyDocumentsJobReportPage from './pages/MyDocumentsJobReportPage/MyDocumentsJobReportPage';
 import MyDocumentsCandidateReportPage from './pages/MyDocumentsCandidateReportPage/MyDocumentsCandidateReportPage';
+import MyDocumentsPartnershipReportPage from './pages/MyDocumentsPartnershipReportPage/MyDocumentsPartnershipReportPage';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/my-documents-archive-page" element={<MyDocumentsArchivePage />} />
         <Route path="/my-documents-job-report-page" element={<MyDocumentsJobReportPage />} />
         <Route path="/my-documents-candidate-report-page" element={<MyDocumentsCandidateReportPage />} />
+        <Route path="/my-documents-partnership-report-page" element={<MyDocumentsPartnershipReportPage />} />
       </Routes>
       </BrowserRouter>
     </div>

@@ -1226,11 +1226,106 @@ export default function MyDocumentsCandidateReportPage() {
                     name="desktop-willing-to-travel"
                     id="desktop-willing-to-travel"
                   >
-                    <option value="yes" disabled selected>Yes</option>
+                    <option value="yes" disabled selected>
+                      Yes
+                    </option>
                     <option value="no">No</option>
                   </select>
                 </div>
               </div>
+              <div className="my-documents-candidate-report-page__desktop-availability-date-salary-type-salary-range-container">
+                <div className="my-documents-candidate-report-page__desktop-availability-date-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-availability-date-label"
+                    htmlFor="desktop-availability-date"
+                  >
+                    Availability Date
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-availability-date-select"
+                    name="desktop-availability-date"
+                    id="desktop-availability-date"
+                  >
+                    <option value="01/01/25" disabled selected>
+                      01/01/25
+                    </option>
+                    <option value="01/02/25">01/02/25</option>
+                    <option value="01/03/25">01/03/25</option>
+                    <option value="01/04/25">01/04/25</option>
+                    <option value="01/05/25">01/05/25</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-salary-type-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-salary-type-label"
+                    htmlFor="desktop-salary-type"
+                  >
+                    Salary Type
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-salary-type-select"
+                    name="desktop-salary-type"
+                    id="desktop-salary-type"
+                  >
+                    <option value="Yearly" disabled selected>
+                      Yearly
+                    </option>
+                    <option value="weekly">Weekly</option>
+                    <option value="biweekly">Biweekly</option>
+                    <option value="monthly">Monthly</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-salary-range-first-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-salary-range-first-label"
+                    htmlFor="desktop-salary-range-first"
+                  >
+                    Salary Range
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-salary-range-first-select"
+                    name="desktop-salary-range-first"
+                    id="desktop-salary-range-first"
+                  >
+                    <option value="0" disabled selected>
+                      0
+                    </option>
+                    <option value="50,000">50,000</option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000">500,000</option>
+                    <option value="500,000+">500,000+</option>
+                  </select>
+                </div>
+                <span className="my-documents-candidate-report-page__desktop-salary-range-dash">
+                  -
+                </span>
+                <div className="my-documents-candidate-report-page__desktop-salary-range-second-container">
+                  <select
+                    className="my-documents-candidate-report-page__desktop-salary-range-second-select"
+                    name="salary-range-second"
+                    id="salary-range-second"
+                  >
+                    <option value="50,000" disabled selected>
+                      50,000
+                    </option>
+                    <option value="100,000">100,000</option>
+                    <option value="150,000">150,000</option>
+                    <option value="200,000">200,000</option>
+                    <option value="250,000">250,000</option>
+                    <option value="500,000">500,000</option>
+                    <option value="500,000+">500,000+</option>
+                  </select>
+                </div>
+              </div>
+              <button
+                onClick={handleGenerateReport}
+                className="my-documents-candidate-report-page__desktop-generate-report-button"
+              >
+                Generate Report
+              </button>
             </div>
           </div>
         </div>
