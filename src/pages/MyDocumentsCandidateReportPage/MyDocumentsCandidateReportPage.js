@@ -854,6 +854,382 @@ export default function MyDocumentsCandidateReportPage() {
                     <option value="100% / 0%">100% / 0%</option>
                   </select>
                 </div>
+                <div className="my-documents-candidate-report-page__tablet-fee-negotiable-container">
+                  <label
+                    className="my-documents-candidate-report-page__tablet-fee-negotiable-label"
+                    htmlFor="'tablet-fee-negotiable"
+                  >
+                    Fee Negotiable
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__tablet-fee-negotiable-select"
+                    name="tablet-fee-negotiable"
+                    id="tablet-fee-negotiable"
+                  >
+                    <option value="yes" disabled selected>
+                      Yes
+                    </option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__tablet-guarantee-period-container">
+                  <label
+                    className="my-documents-candidate-report-page__tablet-guarantee-period-label"
+                    htmlFor="tablet-guarantee-period"
+                  >
+                    Guarantee Period
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__tablet-guarantee-period-select"
+                    name="tablet-guarantee-period"
+                    id="tablet-guarantee-period"
+                  >
+                    <option value="guarantee-period" disabled selected>
+                      30 days
+                    </option>
+                    <option value="0 days">0 days</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="3 weeks">3 weeks</option>
+                    <option value="1 month">1 month</option>
+                    <option value="2 months">2 months</option>
+                    <option value="6 months">6 months</option>
+                    <option value="1 year">1 year</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__tablet-travel-required-container">
+                  <label
+                    className="my-documents-candidate-report-page__tablet-travel-required"
+                    htmlFor="tablet-travel-required"
+                  >
+                    Travel Required
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__tablet-travel-required-select"
+                    name="tablet-travel-required"
+                    id="tablet-travel-required"
+                  >
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+              </div>
+              <button
+                onClick={handleGenerateReport}
+                className="my-documents-candidate-report-page__generate-report-button"
+              >
+                Generate Report
+              </button>
+            </div>
+          </div>
+          <div className="my-documents-candidate-report-page__desktop-central-container">
+            <GenerateReportOptions />
+            <div className="my-documents-candidate-report-page__desktop-content-container">
+              <div className="my-documents-candidate-report-page__desktop-name-job-type-title-container">
+                <div className="my-documents-candidate-report-page__desktop-name-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-name-label"
+                    htmlFor="desktop-name"
+                  >
+                    Name
+                  </label>
+                  <input
+                    className="my-documents-candidate-report-page__desktop-name-input"
+                    type="text"
+                    id="desktop-name"
+                  />
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-job-type-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-job-type-label"
+                    htmlFor="desktop-job-type"
+                  >
+                    Job Type
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-job-type-select"
+                    name="desktop-job-type"
+                    id="desktop-job-type"
+                  >
+                    <option value="" disabled selected>
+                      Full Time
+                    </option>
+
+                    <option value="part-time">Part Time</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-title-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-title-label"
+                    htmlFor="desktop-title"
+                  >
+                    Title
+                  </label>
+                  <input
+                    className="my-documents-candidate-report-page__desktop-title-input"
+                    type="text"
+                    id="desktop-title"
+                  />
+                </div>
+              </div>
+              <div className="my-documents-candidate-report-page__desktop-experience-environment-industry-container">
+                <div className="my-documents-candidate-report-page__desktop-experience-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-experience-label"
+                    htmlFor="desktop-experience"
+                  >
+                    Experience
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-experience-select"
+                    name="desktop-experience"
+                    id="desktop-experience"
+                  >
+                    <option value="0 - 1 years" disabled selected>
+                      0 - 1 years
+                    </option>
+                    <option value="1 - 2 years">1 - 2 years</option>
+                    <option value="2 - 3 years">2 - 3 years</option>
+                    <option value="3 - 4 years">3 - 4 years</option>
+                    <option value="4 - 5 years">4 - 5 years</option>
+                    <option value="5 - 6 years">5 - 6 years</option>
+                    <option value="6 - 7 years">6 - 7 years</option>
+                    <option value="7 - 8 years">7 - 8 years</option>
+                    <option value="8 - 9 years">8 - 9 years</option>
+                    <option value="9 - 10 years">9 - 10 years</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-environment-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-environment-label"
+                    htmlFor="desktop-environment"
+                  >
+                    Environment
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-environment-select"
+                    name="desktop-environment"
+                    id="desktop-environment"
+                  >
+                    <option value="on-site" disabled selected>
+                      On-Site
+                    </option>
+                    <option value="remote">Remote</option>
+                    <option value="traveling">Traveling</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-industry-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-industry-label"
+                    htmlFor="desktop-industry"
+                  >
+                    Industry
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-industry-select"
+                    name="desktop-industry"
+                    id="desktop-industry"
+                  >
+                    <option
+                      value="professional-services-consulting"
+                      disabled
+                      selected
+                    >
+                      Professional Services/Consulting
+                    </option>
+                    <option value="aerospace-defense">
+                      Aerospace and Defense
+                    </option>
+                    <option value="agricultural">Agricultural</option>
+                    <option value="computers-and-technology">
+                      Computers and Technology
+                    </option>
+                    <option value="conglomerate">Conglomerate</option>
+                    <option value="consumer-goods">Consumer Goods</option>
+                    <option value="financial">Financial</option>
+                    <option value="government">Government</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="oil-and-gas">Oil and Gas</option>
+                    <option value="pharmaceuticals">Pharmaceuticals</option>
+                    <option value="power-and-utilities">
+                      Power and Utilities
+                    </option>
+                    <option value="telecommunications">
+                      Telecommunications
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div className="my-documents-candidate-report-page__desktop-city-state-country-zip-code-container">
+                <div className="my-documents-candidate-report-page__desktop-city-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-city-label"
+                    htmlFor="desktop-city"
+                  >
+                    City
+                  </label>
+                  <input
+                    className="my-documents-candidate-report-page__desktop-city-input"
+                    type="text"
+                  />
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-state-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-state-label"
+                    htmlFor="desktop-state"
+                  >
+                    State
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-state-select"
+                    name="desktop-state"
+                    id="desktop-state"
+                  >
+                    <option value="Alabama" disabled selected>
+                      AL
+                    </option>
+                    <option value="Alaska">AK</option>
+                    <option value="Arizona">AZ</option>
+                    <option value="Arkansas">AR</option>
+                    <option value="California">CA</option>
+                    <option value="Colorado">CO</option>
+                    <option value="Connecticut">CT</option>
+                    <option value="Delaware">DE</option>
+                    <option value="Florida">FL</option>
+                    <option value="Georgia">GA</option>
+                    <option value="Hawaii">HI</option>
+                    <option value="Idaho">ID</option>
+                    <option value="Illinois">IL</option>
+                    <option value="Indiana">IN</option>
+                    <option value="Iowa">IA</option>
+                    <option value="Kansas">KS</option>
+                    <option value="Kentucky">KY</option>
+                    <option value="Louisiana">LA</option>
+                    <option value="Maine">ME</option>
+                    <option value="Maryland">MD</option>
+                    <option value="Massachusetts">MA</option>
+                    <option value="Michigan">MI</option>
+                    <option value="Minnesota">MN</option>
+                    <option value="Missouri">MO</option>
+                    <option value="Montana">MT</option>
+                    <option value="Nebraska">NE</option>
+                    <option value="Nevada">NV</option>
+                    <option value="New Hampshire">NH</option>
+                    <option value="New Jersey">NJ</option>
+                    <option value="New Mexico">NM</option>
+                    <option value="New York">NY</option>
+                    <option value="North Carolina">NC</option>
+                    <option value="North Dakota">ND</option>
+                    <option value="Ohio">OH</option>
+                    <option value="Oklahoma">OK</option>
+                    <option value="Oregon">OR</option>
+                    <option value="Pennsylvania">PA</option>
+                    <option value="Rhode Island">RI</option>
+                    <option value="South Carolina">SC</option>
+                    <option value="South Dakota">SD</option>
+                    <option value="Tennessee">TN</option>
+                    <option value="Texas">TX</option>
+                    <option value="Utah">UT</option>
+                    <option value="Vermont">VT</option>
+                    <option value="Virginia">VA</option>
+                    <option value="Washington">WA</option>
+                    <option value="West Virginia">WV</option>
+                    <option value="Wisconsin">WI</option>
+                    <option value="Wyoming">WY</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-country-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-country-label"
+                    htmlFor="desktop-country"
+                  >
+                    Country
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-country-select"
+                    name="desktop-country"
+                    id="desktop-country"
+                  >
+                    <option value="USA" disabled selected>
+                      USA
+                    </option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Germany">Germany</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-zip-code-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-zip-code-label"
+                    htmlFor="desktop-zip-code"
+                  >
+                    Zip Code
+                  </label>
+                  <input
+                    className="my-documents-candidate-report-page__desktop-zip-code-input"
+                    type="text"
+                    id="desktop-zip-code"
+                  />
+                </div>
+              </div>
+              <div className="my-documents-candidate-report-page__desktop-email-citizenship-willing-to-travel-container">
+                <div className="my-documents-candidate-report-page__desktop-email-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-email-label"
+                    htmlFor="desktop-email"
+                  >
+                    Email
+                  </label>
+                  <input
+                    className="my-documents-candidate-report-page__desktop-email-input"
+                    type="text"
+                  />
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-citizenship-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-citizenship-label"
+                    htmlFor="desktop-citizenship"
+                  >
+                    Citizenship/Type of VISA
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-citizenship-select"
+                    name="desktop-citizenship"
+                    id="desktop-citizenship"
+                  >
+                    <option value="VISA" disabled selected>
+                      VISA
+                    </option>
+                    <option value="US Citizen">US Citizen</option>
+                    <option value="Permanent Resident">
+                      Permanent Resident
+                    </option>
+                    <option value="OPT">OPT</option>
+                    <option value="H1B">H1B</option>
+                  </select>
+                </div>
+                <div className="my-documents-candidate-report-page__desktop-willing-to-travel-container">
+                  <label
+                    className="my-documents-candidate-report-page__desktop-willing-to-travel-label"
+                    htmlFor="desktop-willing-to-travel"
+                  >
+                    Willing to travel
+                  </label>
+                  <select
+                    className="my-documents-candidate-report-page__desktop-willing-to-travel-select"
+                    name="desktop-willing-to-travel"
+                    id="desktop-willing-to-travel"
+                  >
+                    <option value="yes" disabled selected>Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>

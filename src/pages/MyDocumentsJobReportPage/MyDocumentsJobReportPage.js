@@ -513,6 +513,7 @@ export default function MyDocumentsJobReportPage() {
                   <option value="guarantee-period" disabled selected>
                     Yes
                   </option>
+                  <option value="no">No</option>
                 </select>
               </div>
             </div>
