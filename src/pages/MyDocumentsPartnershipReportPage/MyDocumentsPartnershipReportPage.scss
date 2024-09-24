@@ -2,16 +2,16 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.my-documents-candidate-report-page {
-    padding-bottom: 10rem;
+.my-documents-partnership-report-page {
 
     &__main-container {
         display: flex;
+        padding-bottom: 15rem;
     }
 
     &__header {
         font-family: 'Roboto Serif';
-        margin-left: 176px;
+        margin-left: 170px;
         margin-top: 20px;
         font-weight: 700;
         font-size: 20px;
@@ -22,12 +22,12 @@
         margin-left: 20px;
         margin-top: 48px;
         width: 456px;
-        height: 1150px;
+        height: 725px;
         border-radius: 20px;
     }
 
     &__mobile-active-partnerships-container {
-        margin-top: 28px;
+        margin-top: 32px;
         margin-left: 24px;
     }
 
@@ -40,4 +40,312 @@
         border-radius: 8px;
     }
 
+    &__mobile-rejected-requests-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-rejected-requests-select {
+        display: block;
+        width: 250px;
+        height: 48px;
+        margin-top: 4px;
+        border: 1px solid $medium-dark-gray;
+        border-radius: 8px;
+    }
+
+    &__mobile-terminated-partnerships-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-terminated-partnerships-select {
+        display: block;
+        width: 250px;
+        height: 48px;
+        margin-top: 4px;
+        border: 1px solid $medium-dark-gray;
+        border-radius: 8px;
+    }
+
+    &__mobile-partnership-requests-sent-container {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+
+    &__circle-button-on-blue-icon {
+        width: 20px;
+    }
+
+    &__mobile-partnership-requests-sent-text {
+        margin-left: 16px;
+    }
+
+    &__mobile-partnership-requests-pending-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__circle-button-off-gray-icon {
+        width: 20px;
+    }
+
+    &__mobile-partnership-requests-pending-text {
+        margin-left: 16px;
+    }
+
+    &__mobile-partnership-requests-received-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-partnership-requests-received-text {
+        margin-left: 16px;
+    }
+
+    &__mobile-generate-report-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        width: 175px;
+        border-radius: 28px;
+        margin-top: 72px;
+        margin-left: 240px;
+        color: $white-text;
+        height: 44px;
+        font-weight: 500;
+    }
+
+    &__tablet-desktop-generate-report-container {
+        display: none;
+    }
+
+    &__tablet-central-container {
+        display: none;
+    }
+
+    &__desktop-central-container {
+        display: none;
+    }
+
 } 
+
+@include tablet {
+
+    .my-documents-partnership-report-page {
+
+        &__main-container {
+            display: flex;
+            padding-bottom: 15rem;
+        }
+    
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 32px;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__mobile-report-container {
+            display: none;
+        }
+
+        &__mobile-central-container {
+            display: none;
+        }
+
+        &__tablet-desktop-generate-report-container {
+            display: inherit;
+        }
+
+        &__tablet-central-container {
+            display: flex;
+        }
+
+        &__tablet-content-container {
+            border: 2px solid $medium-dark-gray;
+            margin-left: 32px;
+            margin-top: 10px;
+            width: 480px;
+            height: 625px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        &__tablet-active-partnerships-rejected-requests-container {
+            display: flex;
+            margin-top: 36px;
+            margin-left: 28px;
+        }
+
+        &__tablet-active-partnerships-select {
+            display: block;
+            width: 150px;
+            height: 48px;
+            margin-top: 4px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 8px;
+        }
+
+        &__tablet-rejected-requests-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-rejected-requests-select {
+            display: block;
+            width: 230px;
+            height: 48px;
+            margin-top: 4px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 8px;
+        }
+
+        &__tablet-terminated-partnerships-container {
+            margin-top: 36px;
+            margin-left: 28px;
+        }
+
+        &__tablet-terminated-partnerships-select {
+            display: block;
+            width: 260px;
+            height: 48px;
+            margin-top: 4px;
+            border: 1px solid $medium-dark-gray;
+            border-radius: 8px;
+        }
+
+        &__tablet-partnerships-container {
+            margin-top: 60px;
+            margin-left: 28px;
+        }
+
+        &__tablet-partnership-requests-sent-text {
+            margin-left: 16px;
+        }
+
+        &__tablet-partnership-requests-pending-container {
+            margin-top: 32px;
+        }
+
+        &__tablet-partnership-requests-pending-text {
+            margin-left: 16px;
+        }
+
+        &__tablet-partnership-requests-received-container {
+            margin-top: 32px;
+        }
+
+        &__tablet-partnership-requests-received-text {
+            margin-left: 16px;
+        }
+
+        &__tablet-generate-report-button {
+            margin-top: 75px;
+            margin-left: 250px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 190px;
+            border-radius: 28px;
+            color: $white-text;
+            height: 46px;
+            font-weight: 500;
+        }
+
+        &__desktop-central-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-documents-partnership-report-page {
+
+        &__main-container {
+            display: flex;
+            padding-bottom: 15rem;
+        }
+    
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 32px;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__mobile-report-container {
+            display: none;
+        }
+
+        &__mobile-central-container {
+            display: none;
+        }
+
+        &__tablet-desktop-generate-report-container {
+            display: inherit;
+        }
+
+        &__tablet-central-container {
+            display: none;
+        }
+
+        &__desktop-central-container {
+            display: flex;
+        }
+
+        &__desktop-content-container {
+            border: 2px solid $medium-dark-gray;
+            margin-left: 72px;
+            margin-top: 10px;
+            width: 1050px;
+            height: 1000px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        &__desktop-active-partnerships-rejected-requests-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 72px;
+        }
+
+        &__desktop-active-partnerships-label {
+            font-size: 18px;
+        }
+
+        &__desktop-active-partnerships-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 300px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-rejected-requests-container {
+            margin-left: 100px;
+        }
+
+        &__desktop-rejected-requests-label {
+            font-size: 18px;
+        }
+
+        &__desktop-rejected-requests-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 300px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+    }
+
+}
