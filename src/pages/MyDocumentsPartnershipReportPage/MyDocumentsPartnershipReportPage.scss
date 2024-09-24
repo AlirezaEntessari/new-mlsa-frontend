@@ -302,7 +302,7 @@
             margin-left: 72px;
             margin-top: 10px;
             width: 1050px;
-            height: 1000px;
+            height: 650px;
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
@@ -315,7 +315,7 @@
         }
 
         &__desktop-active-partnerships-label {
-            font-size: 18px;
+            font-size: 17px;
         }
 
         &__desktop-active-partnerships-select {
@@ -329,11 +329,11 @@
         }
 
         &__desktop-rejected-requests-container {
-            margin-left: 100px;
+            margin-left: 175px;
         }
 
         &__desktop-rejected-requests-label {
-            font-size: 18px;
+            font-size: 17px;
         }
 
         &__desktop-rejected-requests-select {
@@ -344,6 +344,59 @@
             padding-left: 4px;
             height: 50px;
             border-radius: 6px;
+        }
+
+        &__desktop-terminated-partnerships-partnership-requests-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 72px;
+        }
+
+        &__desktop-terminated-partnerships-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 300px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__desktop-partnership-requests-container {
+            margin-left: 175px;
+            margin-top: 22px;
+        }
+
+        &__desktop-partnership-requests-sent-text {
+            margin-left: 16px;
+        }
+
+        &__desktop-partnership-requests-pending-container {
+            margin-top: 32px;
+        }
+
+        &__desktop-partnership-requests-pending-text {
+            margin-left: 16px;
+        }
+
+        &__desktop-partnership-requests-received-container {
+            margin-top: 32px;
+        }
+
+        &__desktop-partnership-requests-received-text {
+            margin-left: 16px;
+        }
+
+        &__desktop-generate-report-button {
+            margin-top: 100px;
+            margin-left: 790px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 190px;
+            border-radius: 28px;
+            color: $white-text;
+            height: 46px;
+            font-weight: 500;
         }
 
     }

@@ -287,12 +287,71 @@ export default function MyDocumentsPartnershipReportPage() {
                     </option>
                   </select>
                 </div>
-                <div className="my-documents-partnership-report-page__desktop-terminated-partnerships-partnership-choices-container">
-                  <div className="my-documents-partnership-report-page__desktop-terminated-partnerships-container">
-                    
+              </div>
+              <div className="my-documents-partnership-report-page__desktop-terminated-partnerships-partnership-requests-container">
+                <div className="my-documents-partnership-report-page__desktop-terminated-partnerships-container">
+                  <label
+                    className="my-documents-partnership-report-page__desktop-terminated-partnerships-label"
+                    htmlFor="desktop-terminated-partnerships"
+                  >
+                    Terminated Partnerships
+                  </label>
+                  <select
+                    className="my-documents-partnership-report-page__desktop-terminated-partnerships-select"
+                    name="desktop-terminated-partnerships"
+                    id="desktop-terminated-partnerships"
+                  >
+                    <option
+                      value="terminated by another agency"
+                      disabled
+                      selected
+                    >
+                      Terminated by Another Agency
+                    </option>
+                    <option value="terminated by multiple agencies">
+                      Terminated by Multiple Agencies
+                    </option>
+                  </select>
+                </div>
+                <div className="my-documents-partnership-report-page__desktop-partnership-requests-container">
+                  <div className="my-documents-partnership-report-page__desktop-partnership-requests-sent-container">
+                    <img
+                      className="my-documents-partnership-report-page__circle-button-on-blue-icon"
+                      src={CircleButtonOnBlueIcon}
+                      alt="Circle Button On Blue Icon"
+                    />
+                    <span className="my-documents-partnership-report-page__desktop-partnership-requests-sent-text">
+                      Partnership Requests Sent
+                    </span>
+                  </div>
+                  <div className="my-documents-partnership-report-page__desktop-partnership-requests-pending-container">
+                    <img
+                      className="my-documents-partnership-report-page__circle-button-off-gray-icon"
+                      src={CircleButtonOffGrayIcon}
+                      alt="Circle Button Off Gray Icon"
+                    />
+                    <span className="my-documents-partnership-report-page__desktop-partnership-requests-pending-text">
+                      Partnership Requests Pending
+                    </span>
+                  </div>
+                  <div className="my-documents-partnership-report-page__desktop-partnership-requests-received-container">
+                    <img
+                      className="my-documents-partnership-report-page__circle-button-off-gray-icon"
+                      src={CircleButtonOffGrayIcon}
+                      alt="Circle Button Off Gray Icon"
+                    />
+                    <span className="my-documents-partnership-report-page__desktop-partnership-requests-received-text">
+                      Partnership Requests Received
+                    </span>
                   </div>
                 </div>
               </div>
+              <button
+                onClick={handleGenerateReport}
+                className="my-documents-partnership-report-page__desktop-generate-report-button"
+              >
+                Generate Report
+              </button>
             </div>
           </div>
         </div>
