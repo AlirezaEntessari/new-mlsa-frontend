@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .my-documents-user-activity-report-page {
+    padding-bottom: 20rem;
 
     &__main-container {
         display: flex;
@@ -21,7 +22,7 @@
         margin-left: 20px;
         margin-top: 48px;
         width: 456px;
-        height: 1150px;
+        height: 700px;
         border-radius: 20px;
     }
 
@@ -64,10 +65,191 @@
         display: block;
         border: 1px solid $medium-dark-gray;
         margin-top: 2px;
-        width: 150px;
+        width: 250px;
         padding-left: 4px;
         height: 50px;
         border-radius: 6px;
+    }
+
+    &__mobile-date-or-range-of-activity-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-date-or-range-of-activity-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 250px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-type-of-activity-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-type-of-activity-select {
+        display: block;
+        border: 1px solid $medium-dark-gray;
+        margin-top: 2px;
+        width: 250px;
+        padding-left: 4px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    &__mobile-generate-report-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        width: 175px;
+        border-radius: 28px;
+        margin-top: 72px;
+        margin-left: 240px;
+        color: $white-text;
+        height: 44px;
+        font-weight: 500;
+    }
+
+    &__tablet-desktop-generate-report-container {
+        display: none;
+    }
+
+    &__tablet-central-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-documents-user-activity-report-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+        }
+    
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-left: 32px;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__mobile-report-container {
+            display: none;
+        }
+
+        &__mobile-central-container {
+            display: none;
+        }
+
+        &__tablet-central-container {
+            display: flex;
+        }
+
+        &__tablet-content-container {
+            border: 2px solid $medium-dark-gray;
+            margin-left: 32px;
+            margin-top: 10px;
+            width: 480px;
+            height: 560px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        &__tablet-daily-activity-keyword-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 28px;
+        }
+
+        &__tablet-daily-activity-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 125px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-keyword-container {
+            margin-left: 36px;
+        }
+
+        &__tablet-keyword-input {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 250px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-user-name-date-or-range-of-activity-container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 28px;
+        }
+
+        &__tablet-user-name-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 186px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-date-or-range-of-activity-container {
+            margin-left: 36px;
+        }
+
+        &__tablet-date-or-range-of-activity-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 186px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        &__tablet-generate-report-button {
+            margin-top: 75px;
+            margin-left: 250px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 190px;
+            border-radius: 28px;
+            color: $white-text;
+            height: 46px;
+            font-weight: 500;
+        }
+
+        &__tablet-type-of-activity-container {
+            margin-top: 50px;
+            margin-left: 28px;
+        }
+
+        &__tablet-type-of-activity-select {
+            display: block;
+            border: 1px solid $medium-dark-gray;
+            margin-top: 2px;
+            width: 186px;
+            padding-left: 4px;
+            height: 50px;
+            border-radius: 6px;
+        }
+
     }
 
 }

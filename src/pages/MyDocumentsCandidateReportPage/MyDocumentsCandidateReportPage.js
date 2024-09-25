@@ -916,7 +916,7 @@ export default function MyDocumentsCandidateReportPage() {
               </div>
               <button
                 onClick={handleGenerateReport}
-                className="my-documents-candidate-report-page__generate-report-button"
+                className="my-documents-candidate-report-page__tablet-generate-report-button"
               >
                 Generate Report
               </button>
