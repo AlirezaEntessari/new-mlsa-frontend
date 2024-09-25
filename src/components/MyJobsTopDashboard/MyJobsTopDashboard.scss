@@ -1,0 +1,148 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-jobs-top-dashboard {
+
+    &__top-container {
+        display: flex;
+        margin-top: 48px;
+    }
+
+    &__active-dashboard {
+        width: 160px;
+        height: 60px;
+        border: 1px solid $medium-gray;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 5px;
+        box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+    }
+
+    &__active-dashboard-text {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__active-dashboard-number {
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+    }
+
+    &__placements-dashboard {
+        width: 160px;
+        height: 60px;
+        border: 1px solid $medium-gray;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 5px;
+        box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+    }
+
+    &__placements-text {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__placements-number {
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+    }
+
+    &__expiring-soon-dashboard {
+        width: 160px;
+        height: 60px;
+        border: 1px solid $medium-gray;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 5px;
+        box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+    }
+
+    &__expiring-soon-text {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__expiring-soon-number {
+        margin-left: 14px;
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+        color: $logo-orange;
+    }
+
+    &__middle-button-container {
+        margin-top: 32px;
+    }
+
+    &__view-drafts-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        margin-left: 8px;
+        width: 140px;
+        height: 44px;
+        border-radius: 28px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__archived-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        margin-left: 16px;
+        width: 140px;
+        height: 44px;
+        border-radius: 28px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__generate-report-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        margin-left: 16px;
+        width: 170px;
+        height: 44px;
+        border-radius: 28px;
+        font-weight: 500;
+        color: $dark-navy;
+    }
+
+    &__bottom-button-container {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    &__post-job-button {
+        background-color: $dark-navy;
+        color: $white-text;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-left: 68px;
+        width: 160px;
+        height: 44px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__batch-upload-button {
+        background-color: $dark-navy;
+        color: $white-text;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        margin-left: 28px;
+        width: 180px;
+        height: 44px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+}

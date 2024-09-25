@@ -1,0 +1,19 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-jobs-home-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 202px;
+    }
+
+}

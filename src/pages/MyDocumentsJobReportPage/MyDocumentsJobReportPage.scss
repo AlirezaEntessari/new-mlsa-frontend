@@ -402,7 +402,7 @@
         }
 
         &__tablet-central-container {
-            border: 1px solid $medium-dark-gray;
+            border: 2px solid $medium-dark-gray;
             margin-left: 20px;
             margin-top: 48px;
             width: 470px;
@@ -412,7 +412,7 @@
             border-bottom-right-radius: 20px; 
             display: inherit;
             position: absolute;
-            top: 268px;
+            top: 170px;
             left: 480px;
         }
 
@@ -793,22 +793,18 @@
         }
 
         &__desktop-middle-container {
-            display: inherit;
+            display: flex;
         }
 
         &__desktop-central-container {
             border: 2px solid $medium-dark-gray;
-            margin-left: 0px;
-            margin-top: 48px;
+            margin-left: 84px;
+            margin-top: 10px;
             width: 1050px;
             height: 1000px;
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px; 
-            display: inherit;
-            position: absolute;
-            top: 390px;
-            left: 700px;
         }
 
         &__desktop-client-name-job-type-job-status-container {

@@ -50,6 +50,22 @@
         color: $rust;
     }
 
+    &__job-report-link {
+        text-decoration: none;
+    }
+
+    &__candidate-report-link {
+        text-decoration: none;
+    }
+
+    &__partnership-report-link {
+        text-decoration: none;
+    }
+
+    &__user-activity-report-link {
+        text-decoration: none;
+    }
+
 }
 
 @include tablet {
