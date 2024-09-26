@@ -152,3 +152,41 @@
     }
 
 }
+
+@include tablet {
+
+    .my-jobs-top-dashboard {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-post-job-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 58px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__tablet-batch-upload-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 58px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            font-weight: 500;
+            display: block;
+            margin-top: 32px;
+        }
+
+    }
+
+}

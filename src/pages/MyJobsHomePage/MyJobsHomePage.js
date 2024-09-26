@@ -118,8 +118,379 @@ export default function MyJobsHomePage() {
                 alt="Menu Circle Arrow Gray Icon"
               />
             </div>
-            <div className="my-jobs-home-page__card-one">
-              
+            <div className="my-jobs-home-page__mobile-card-container">
+              <div className="my-jobs-home-page__mobile-card-one">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838473
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      07/01/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      Allied - CMA
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-one-job-title-applicants-number">
+                      3
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-client-company-name">
+                      Texas Health Presbyterian
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-one-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Manufacturing
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-home-page__mobile-card-two">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838474
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      07/01/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      NP
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-two-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-one-job-title-applicants-number">
+                      6
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-two-client-company-name">
+                      Missouri Catholic Health
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-two-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      St. Louis, MO
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-home-page__mobile-card-three">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838461
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      08/04/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      CT Tech
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-three-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-three-job-title-applicants-number">
+                      13
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-three-client-company-name">
+                      New York University Hospital
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-three-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      New York, NY
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-home-page__mobile-card-four">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838355
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      07/30/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      Operator
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-four-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-one-job-title-applicants-number">
+                      2
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-four-client-company-name">
+                      Garden City Catholic Health
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-four-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      Garden City, NY
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-home-page__mobile-card-five">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838334
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      08/21/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      CT Tech
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-three-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-three-job-title-applicants-number">
+                      22
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-three-client-company-name">
+                      Massachusetts General Hospital
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-five-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      Boston, MA
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-home-page__mobile-card-six">
+                <div className="my-jobs-home-page__mobile-card-one-inner-container">
+                  <p className="my-jobs-home-page__mobile-card-one-header">
+                    <span className="my-jobs-home-page__mobile-card-one-job-id">
+                      Job ID:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-id-number">
+                      67838274
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted">
+                      Posted:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-posted-date">
+                      07/03/24
+                    </span>
+                  </p>
+                  <div className="my-jobs-home-page__mobile-card-one-job-title-container">
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-text">
+                      Job Title:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-job-title-job">
+                      NP
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-six-job-title-applicants">
+                      Applicants:
+                    </span>
+                    <p className="my-jobs-home-page__mobile-card-one-job-title-applicants-number">
+                     1
+                    </p>
+                  </div>
+                  <div className="my-jobs-home-page__mobile-card-one-client-container">
+                    <span className="my-jobs-home-page__mobile-card-one-client-text">
+                      Client:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-four-client-company-name">
+                      Missouri Catholic Health
+                    </span>
+                    <button className="my-jobs-home-page__mobile-card-six-find-candidate-button">
+                      Find Candidate
+                    </button>
+                  </div>
+                  <p className="my-jobs-home-page__mobile-card-one-industry">
+                    <span className="my-jobs-home-page__mobile-card-one-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-jobs-home-page__mobile-card-one-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-jobs-home-page__mobile-card-one-location">
+                    <span className="my-jobs-home-page__mobile-card-one-location-text">
+                      Location:
+                    </span>
+                    <span className="my-jobs-home-page__mobile-card-one-location-place">
+                      Garden City, NY
+                    </span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
