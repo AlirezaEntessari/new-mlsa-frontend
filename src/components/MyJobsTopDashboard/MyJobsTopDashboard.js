@@ -1,5 +1,6 @@
 import React from "react";
 import "./MyJobsTopDashboard.scss";
+import PlusWhiteIcon from "../../assets/icons/PlusWhite.svg";
 
 export default function MyJobsTopDashboard() {
   return (
@@ -38,8 +39,17 @@ export default function MyJobsTopDashboard() {
         </button>
       </div>
       <div className="my-jobs-top-dashboard__bottom-button-container">
-        <button className="my-jobs-top-dashboard__post-job-button">Post Job</button>
-        <button className="my-jobs-top-dashboard__batch-upload-button">Batch Upload</button>
+        <button className="my-jobs-top-dashboard__post-job-button">
+          <img
+            className="my-jobs-top-dashboard__plus-white-icon"
+            src={PlusWhiteIcon}
+            alt="Plus White Icon"
+          />{" "}
+          Post Job
+        </button>
+        <button className="my-jobs-top-dashboard__batch-upload-button">
+          Batch Upload
+        </button>
       </div>
     </div>
   );

@@ -126,9 +126,9 @@
         color: $white-text;
         border: 1px solid $dark-navy;
         color: $white-text;
-        margin-left: 68px;
-        width: 160px;
-        height: 44px;
+        margin-left: 58px;
+        width: 170px;
+        height: 46px;
         border-radius: 28px;
         font-weight: 500;
     }
@@ -140,9 +140,15 @@
         color: $white-text;
         margin-left: 28px;
         width: 180px;
-        height: 44px;
+        height: 46px;
         border-radius: 28px;
         font-weight: 500;
+    }
+
+    &__plus-white-icon {
+        width: 12px;
+        margin-right: 8px;
+        margin-bottom: 2px;
     }
 
 }

@@ -16,4 +16,197 @@
         margin-left: 202px;
     }
 
+    &__search-my-jobs-container {
+        margin-top: 60px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    &__search-icon {
+        position: absolute;
+        top: 11px;
+        left: 418px;
+    }
+
+    &__search-my-jobs-input {
+        width: 335px;
+        height: 46px;
+        border: 1px solid $medium-dark-gray;
+        margin-left: 20px;
+        border-radius: 28px;
+    }
+
+    &__all-jobs-container {
+        border: 2px solid $dark-navy;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 50px;
+        height: 1000px;
+        border-radius: 18px;
+        background-color: $background-light-blue;
+    }
+
+    &__all-jobs-header {
+        margin-top: 20px;
+        margin-left: 20px;
+        border-bottom: 2px solid $dark-navy;
+        width: 90px;
+        padding-bottom: 5px;
+    }
+
+    &__all-jobs-bullet-icon {
+        width: 16px;
+    }
+
+    &__all-jobs-text {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-status-top-container {
+        margin-left: 20px;
+        margin-top: 28px;
+        display: flex;
+    }
+
+    &__all-jobs-pending {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+    }
+
+    &__jobs-pending-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-pending-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-reviews {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-reviews-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-reviews-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-submissions {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-submissions-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-submissions-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-status-bottom-container {
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__all-jobs-interviews {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+    }
+
+    &__jobs-interviews-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-interviews-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__jobs-offers {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-offers-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-offers-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__jobs-placements {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-placements-icon {
+        width: 16px;
+    }
+
+    &__jobs-placements-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__sort-by-container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__sort-by-text {
+        font-weight: 500;
+    }
+
+    &__job-id {
+        margin-left: 40px;
+    }
+
+    &__menu-circle-arrow-gray-icon {
+        margin-left: 10px;
+    }
+
 }
