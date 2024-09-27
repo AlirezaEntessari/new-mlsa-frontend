@@ -12,6 +12,10 @@ import JobsInterviewsBulletIcon from "../../assets/icons/JobsInterviewsBullet.sv
 import JobsOffersBulletIcon from "../../assets/icons/JobsOffersBullet.svg";
 import JobsPlacementIcon from "../../assets/icons/JobsPlacementsBullet.svg";
 import MenuCircleArrowGrayIcon from "../../assets/icons/MenuCircleArrowGray.svg";
+import ScrollDownArrowIcon from "../../assets/icons/ScrollDownArrow.svg";
+import OnHoldBlueIcon from "../../assets/icons/OnHoldBlue.svg";
+import PageArrowLeftIcon from "../../assets/icons/PageArrowLeft.svg";
+import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
 
 export default function MyJobsHomePage() {
   return (
@@ -520,9 +524,384 @@ export default function MyJobsHomePage() {
                 src={JobsReviewsBulletIcon}
                 alt="Jobs Reviews Bullet"
               />
-              <span className="my-jobs-home-page__tablet-reviews-text">Reviews</span>
+              <span className="my-jobs-home-page__tablet-reviews-text">
+                Reviews
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-submissions-header">
+              <img
+                className="my-jobs-home-page__jobs-submissions-bullet-icon"
+                src={JobsSubmissionsBulletIcon}
+                alt="Jobs Submissions Bullet Icon"
+              />
+              <span className="my-jobs-home-page__tablet-submissions-text">
+                Submissions
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-interviews-header">
+              <img
+                className="my-jobs-home-page__jobs-interviews-bullet-icon"
+                src={JobsInterviewsBulletIcon}
+                alt="Jobs Interviews Bullet Icon"
+              />
+              <span className="my-jobs-home-page__tablet-interviews-text">
+                Interviews
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-offers-header">
+              <img
+                className="my-jobs-home-page__jobs-offers-bullet-icon"
+                src={JobsOffersBulletIcon}
+                alt="Jobs Offers Bullet Icon"
+              />
+              <span className="my-jobs-home-page__tablet-offers-text">
+                Offers
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-placements-header">
+              <img
+                className="my-jobs-home-page__jobs-placements-icon"
+                src={JobsPlacementIcon}
+                alt="Jobs Placements Bullet Icon"
+              />
+              <span className="my-jobs-home-page__tablet-placements-text">
+                Placements
+              </span>
             </p>
           </div>
+          <table className="my-jobs-home-page__tablet-table">
+            <thead>
+              <tr className="my-jobs-home-page__header-row">
+                <th className="my-jobs-home-page__job-id-column">
+                  Job ID{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__client-column">
+                  Client{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__job-title-column">
+                  Job Title{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__industry-column">
+                  Industry{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__location-column">
+                  Location{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__posted-column">
+                  Posted{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__appl-column">
+                  Appl{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+                <th className="my-jobs-home-page__action-column">
+                  Action{" "}
+                  <img
+                    className="my-jobs-home-page__scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373652
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373653{" "}
+                  <img
+                    className="my-jobs-home-page__on-hold-blue-icon"
+                    src={OnHoldBlueIcon}
+                    alt="On Hold Blue Icon"
+                  />
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">2</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373654
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373655
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373656
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373657
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373658
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+              <div className="my-jobs-home-page__margin-top"></div>
+              <tr>
+                <td className="my-jobs-home-page__job-id-data-column">
+                  6373659
+                </td>
+                <td className="my-jobs-home-page__client-data-column">
+                  Texas Health Presbyterian
+                </td>
+                <td className="my-jobs-home-page__job-title-data-column">
+                  Allied - CMA
+                </td>
+                <td className="my-jobs-home-page__industry-data-column">
+                  Healthcare
+                </td>
+                <td className="my-jobs-home-page__location-data-column">
+                  Dallas, TX
+                </td>
+                <td className="my-jobs-home-page__posted-data-column">
+                  07/01/24
+                </td>
+                <td className="my-jobs-home-page__appl-data-column">
+                  <p className="my-jobs-home-page__appl-data-value">4</p>
+                </td>
+                <td className="my-jobs-home-page__action-data-column">
+                  <button className="my-jobs-home-page__tablet-find-candidate-button">
+                    Find Candidate
+                  </button>
+                  <button className="my-jobs-home-page__tablet-archive-button">
+                    Archive
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </div>
     </div>

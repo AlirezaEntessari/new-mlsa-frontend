@@ -543,11 +543,12 @@
             display: flex;
             border-top: 1px solid $medium-gray;
             margin-top: 48px;
-            margin-left: 16px;
+            margin-left: 4px;
             border-left: 1px solid $medium-gray;
             border-right: 1px solid $medium-gray;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
+            padding-right: 8px;
         }
 
         &__tablet-pending-header {
@@ -562,6 +563,176 @@
         &__tablet-reviews-text {
             font-weight: 500;
             padding-left: 10px;
+        }
+
+        &__tablet-submissions-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-submissions-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-interviews-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-interviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-offers-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-offers-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-placements-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-placements-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__header-row {
+            background-color: $background-blue;
+        }
+
+        &__scroll-down-arrow-icon {
+            width: 14px;
+            padding-left: 3px;
+        }
+
+        &__job-id-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__client-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__job-title-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__industry-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 10px;
+        }
+
+        &__location-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 4px;
+        }
+
+        &__posted-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__appl-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__action-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 48px;
+            padding-right: 40px;
+        }
+
+        &__job-id-data-column {
+            text-decoration: underline;
+            padding-left: 16px;
+        }
+
+        &__client-data-column {
+            width: 100px;
+            padding-left: 16px;
+        }
+
+        &__job-title-data-column {
+            padding-left: 16px;
+        }
+
+        &__industry-data-column {
+            padding-left: 16px;
+        }
+
+        &__location-data-column {
+            padding-left: 16px;
+        }
+
+        &__posted-data-column {
+            padding-left: 16px;
+        }
+
+        &__appl-data-column {
+            padding-left: 16px;
+        }
+
+        &__appl-data-value {
+            background-color: $light-orange;
+            padding-left: 21px;
+            border-radius: 100%;
+            height: 48px;
+            padding-top: 11px;
+        }
+
+        &__action-data-column {
+            padding-left: 32px;
+        }
+
+        &__tablet-find-candidate-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 104px;
+            border-radius: 28px;
+            display: block;
+            font-size: 12px;
+        }
+
+        &__tablet-archive-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 100px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 8px;
+        }
+
+        &__on-hold-blue-icon {
+            width: 28px;
+            display: block;
+            padding-left: 4px;
+        }
+
+        &__margin-top {
+            height: 32px;
         }
 
     }
