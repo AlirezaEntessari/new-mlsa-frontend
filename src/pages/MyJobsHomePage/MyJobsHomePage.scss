@@ -475,6 +475,10 @@
         height: 50px;
     }
 
+    &__tablet-middle-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -494,6 +498,71 @@
             margin-left: 32px;
         }
 
+        &__search-my-jobs-container {
+            margin-top: 32px;
+            margin-left: 242px;
+            position: relative;
+        }
+    
+        &__search-icon {
+            position: absolute;
+            top: 11px;
+            left: 478px;
+        }
+    
+        &__search-my-jobs-input {
+            width: 405px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            margin-left: 20px;
+            border-radius: 28px;
+        }
+
+        &__all-jobs-container {
+            display: none;
+        }
+
+        &__tablet-all-jobs-header {
+            margin-top: 20px;
+            margin-left: 20px;
+            border-bottom: 2px solid $dark-navy;
+            width: 90px;
+            padding-bottom: 5px;
+        }
+
+        &__tablet-pending-header {
+            padding-left: 10px;
+        }
+
+        &__tablet-jobs-pending-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-middle-container {
+            display: flex;
+            border-top: 1px solid $medium-gray;
+            margin-top: 48px;
+            margin-left: 16px;
+            border-left: 1px solid $medium-gray;
+            border-right: 1px solid $medium-gray;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        &__tablet-pending-header {
+            margin-top: 20px;
+        }
+
+        &__tablet-reviews-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-reviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
 
     }
 

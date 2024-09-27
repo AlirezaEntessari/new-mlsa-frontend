@@ -63,9 +63,52 @@ export default function MyJobsTopDashboard() {
               src={PlusWhiteIcon}
               alt="Plus White Icon"
             />
-            <span className="my-jobs-top-dashboard__post-job-button-text">Post Job</span>
+            <span className="my-jobs-top-dashboard__post-job-button-text">
+              Post Job
+            </span>
           </button>
-          <button className="my-jobs-top-dashboard__tablet-batch-upload-button">Batch Upload</button>
+          <button className="my-jobs-top-dashboard__tablet-batch-upload-button">
+            Batch Upload
+          </button>
+        </div>
+        <div className="my-jobs-top-dashboard__tablet-dashboard-container">
+          <div className="my-jobs-top-dashboard__tablet-top-dashboard-container">
+            <p className="my-jobs-top-dashboard__tablet-active-dashboard">
+              <span className="my-jobs-top-dashboard__tablet-active-text">
+                Active
+              </span>
+              <span className="my-jobs-top-dashboard__tablet-active-number">
+                22
+              </span>
+            </p>
+            <p className="my-jobs-top-dashboard__tablet-placements-dashboard">
+              <span className="my-jobs-top-dashboard__tablet-placements-text">
+                Placements
+              </span>
+              <span className="my-jobs-top-dashboard__tablet-placements-number">
+                12
+              </span>
+            </p>
+            <p className="my-jobs-top-dashboard__tablet-expiring-soon-dashboard">
+              <span className="my-jobs-top-dashboard__tablet-expiring-soon-text">
+                Expiring Soon
+              </span>
+              <span className="my-jobs-top-dashboard__tablet-expiring-soon-number">
+                6
+              </span>
+            </p>
+          </div>
+          <div className="my-jobs-top-dashboard__tablet-bottom-dashboard-container">
+            <button className="my-jobs-top-dashboard__tablet-view-drafts-button">
+              View Drafts
+            </button>
+            <button className="my-jobs-top-dashboard__tablet-archived-button">
+              Archived
+            </button>
+            <button className="my-jobs-top-dashboard__tablet-generate-report-button">
+              Generate Report
+            </button>
+          </div>
         </div>
       </div>
     </div>

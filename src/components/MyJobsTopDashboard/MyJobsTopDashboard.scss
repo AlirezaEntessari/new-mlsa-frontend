@@ -75,7 +75,6 @@
         margin-left: 14px;
         font-weight: 500;
         font-size: 32px;
-        color: $dark-gray;
         color: $logo-orange;
     }
 
@@ -151,14 +150,23 @@
         margin-bottom: 2px;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
 
     .my-jobs-top-dashboard {
+        display: flex;
 
         &__mobile-container {
             display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
         }
 
         &__tablet-post-job-button {
@@ -166,11 +174,12 @@
             color: $white-text;
             border: 1px solid $dark-navy;
             color: $white-text;
-            margin-left: 58px;
-            width: 190px;
+            margin-left: 32px;
+            width: 170px;
             height: 46px;
             border-radius: 28px;
             font-weight: 500;
+            margin-top: 32px;
         }
 
         &__tablet-batch-upload-button {
@@ -178,13 +187,126 @@
             color: $white-text;
             border: 1px solid $dark-navy;
             color: $white-text;
-            margin-left: 58px;
-            width: 190px;
+            margin-left: 32px;
+            width: 170px;
             height: 46px;
             border-radius: 28px;
             font-weight: 500;
             display: block;
             margin-top: 32px;
+        }
+
+        &__tablet-top-dashboard-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 32px;
+        }
+
+        &__tablet-active-dashboard {
+            width: 160px;
+            height: 60px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+            margin-left: 14px;
+        }
+
+        &__tablet-active-text {
+            margin-left: 12px;
+            font-weight: 500;
+        }
+
+        &__tablet-active-number {
+            margin-left: 50px;
+            font-weight: 500;
+            font-size: 32px;
+            color: $dark-gray;
+        }
+
+        &__tablet-placements-dashboard {
+            width: 160px;
+            height: 60px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-left: 10px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+        }
+
+        &__tablet-placements-text {
+            margin-left: 12px;
+            font-weight: 500;
+        }
+
+        &__tablet-placements-number {
+            margin-left: 22px;
+            font-weight: 500;
+            font-size: 32px;
+            color: $dark-gray;
+        }
+
+        &__tablet-expiring-soon-dashboard {
+            width: 160px;
+            height: 60px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-left: 10px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+        }
+
+        &__tablet-expiring-soon-text {
+            margin-left: 12px;
+            font-weight: 500;
+        }
+
+        &__tablet-expiring-soon-number {
+            margin-left: 14px;
+            font-weight: 500;
+            font-size: 32px;
+            color: $logo-orange;
+        }
+
+        &__tablet-bottom-dashboard-container {
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-view-drafts-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 8px;
+            width: 160px;
+            height: 44px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+
+        &__tablet-archived-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 16px;
+            width: 160px;
+            height: 44px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+
+        &__tablet-generate-report-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 16px;
+            width: 190px;
+            height: 44px;
+            border-radius: 28px;
+            font-weight: 500;
+            color: $dark-navy;
         }
 
     }

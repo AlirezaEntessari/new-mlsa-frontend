@@ -456,7 +456,7 @@ export default function MyJobsHomePage() {
                       Applicants:
                     </span>
                     <p className="my-jobs-home-page__mobile-card-one-job-title-applicants-number">
-                     1
+                      1
                     </p>
                   </div>
                   <div className="my-jobs-home-page__mobile-card-one-client-container">
@@ -492,6 +492,36 @@ export default function MyJobsHomePage() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="my-jobs-home-page__tablet-middle-container">
+            <p className="my-jobs-home-page__tablet-all-jobs-header">
+              <img
+                className="my-jobs-home-page__all-jobs-bullet-icon"
+                src={AllJobsBulletIcon}
+                alt="All Jobs"
+              />{" "}
+              <span className="my-jobs-home-page__tablet-all-jobs-text">
+                All Jobs
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-pending-header">
+              <img
+                className="my-jobs-home-page__jobs-pending-bullet-icon"
+                src={JobsPendingBulletIcon}
+                alt="Jobs Pending"
+              />
+              <span className="my-jobs-home-page__tablet-jobs-pending-text">
+                Pending
+              </span>
+            </p>
+            <p className="my-jobs-home-page__tablet-reviews-header">
+              <img
+                className="my-jobs-home-page__jobs-reviews-bullet-icon"
+                src={JobsReviewsBulletIcon}
+                alt="Jobs Reviews Bullet"
+              />
+              <span className="my-jobs-home-page__tablet-reviews-text">Reviews</span>
+            </p>
           </div>
         </div>
       </div>
