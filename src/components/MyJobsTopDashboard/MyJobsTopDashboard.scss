@@ -154,6 +154,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -307,6 +311,176 @@
             border-radius: 28px;
             font-weight: 500;
             color: $dark-navy;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-jobs-top-dashboard {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-dashboard-container {
+            display: flex;
+            margin-left: 720px;
+            margin-top: 0px;
+        }
+
+        &__desktop-active-dashboard {
+            width: 200px;
+            height: 68px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+            margin-left: 14px;
+        }
+
+        &__desktop-active-text {
+            margin-left: 18px;
+            font-weight: 500;
+        }
+
+        &__desktop-active-number {
+            margin-left: 72px;
+            font-weight: 500;
+            font-size: 36px;
+            color: $dark-gray;
+        }
+
+        &__desktop-placements-dashboard {
+            width: 200px;
+            height: 68px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+            margin-left: 14px;
+        }
+
+        &__desktop-placements-text {
+            margin-left: 18px;
+            font-weight: 500;
+        }
+
+        &__desktop-placements-number {
+            margin-left: 42px;
+            font-weight: 500;
+            font-size: 36px;
+            color: $dark-gray;
+        }
+
+        &__desktop-expiring-soon-dashboard {
+            width: 200px;
+            height: 68px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.4);
+            margin-left: 14px;
+        }
+
+        &__desktop-expiring-soon-text {
+            margin-left: 18px;
+            font-weight: 500;
+        }
+
+        &__desktop-expiring-soon-number {
+            margin-left: 38px;
+            font-weight: 500;
+            font-size: 36px;
+            color: $logo-orange;
+        }
+
+        &__desktop-button-container {
+            display: flex;
+            margin-left: 0px;
+            margin-top: 100px;
+            position: absolute;
+            left: 450px;
+        }
+
+        &__plus-white-icon {
+            margin-right: 16px;
+        }
+
+        &__desktop-post-job-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 32px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-top: 32px;
+        }
+
+        &__desktop-batch-upload-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            margin-left: 32px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            font-weight: 500;
+            display: block;
+            margin-top: 32px;
+        }
+
+        &__desktop-view-drafts-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 32px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 32px;
+        }
+
+        &__desktop-archived-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 32px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 32px;
+        }
+
+        &__desktop-generate-report-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 32px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 32px;
         }
 
     }

@@ -112,7 +112,54 @@ export default function MyJobsTopDashboard() {
         </div>
       </div>
       <div className="my-jobs-top-dashboard__desktop-container">
-        
+        <div className="my-jobs-top-dashboard__desktop-dashboard-container">
+          <p className="my-jobs-top-dashboard__desktop-active-dashboard">
+            <span className="my-jobs-top-dashboard__desktop-active-text">
+              Active
+            </span>
+            <span className="my-jobs-top-dashboard__desktop-active-number">
+              22
+            </span>
+          </p>
+          <p className="my-jobs-top-dashboard__desktop-placements-dashboard">
+            <span className="my-jobs-top-dashboard__desktop-placements-text">
+              Placements
+            </span>
+            <span className="my-jobs-top-dashboard__desktop-placements-number">
+              12
+            </span>
+          </p>
+          <p className="my-jobs-top-dashboard__desktop-expiring-soon-dashboard">
+            <span className="my-jobs-top-dashboard__desktop-expiring-soon-text">
+              Expiring Soon
+            </span>
+            <span className="my-jobs-top-dashboard__desktop-expiring-soon-number">
+              6
+            </span>
+          </p>
+        </div>
+        <div className="my-jobs-top-dashboard__desktop-button-container">
+          <button className="my-jobs-top-dashboard__desktop-post-job-button">
+            <img
+              className="my-jobs-top-dashboard__plus-white-icon"
+              src={PlusWhiteIcon}
+              alt="Plus White Icon"
+            />
+            Post Job
+          </button>
+          <button className="my-jobs-top-dashboard__desktop-batch-upload-button">
+            Batch Upload
+          </button>
+          <button className="my-jobs-top-dashboard__desktop-view-drafts-button">
+            View Drafts
+          </button>
+          <button className="my-jobs-top-dashboard__desktop-archived-button">
+            Archived
+          </button>
+          <button className="my-jobs-top-dashboard__desktop-generate-report-button">
+            Generate Report
+          </button>
+        </div>
       </div>
     </div>
   );

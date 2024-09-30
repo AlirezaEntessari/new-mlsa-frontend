@@ -642,7 +642,7 @@ export default function MyJobsHomePage() {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373652
                 </td>
@@ -674,7 +674,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373653{" "}
                   <img
@@ -711,7 +711,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373654
                 </td>
@@ -743,7 +743,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373655
                 </td>
@@ -775,7 +775,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373656
                 </td>
@@ -807,7 +807,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373657
                 </td>
@@ -839,7 +839,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373658
                 </td>
@@ -871,7 +871,7 @@ export default function MyJobsHomePage() {
                 </td>
               </tr>
               <div className="my-jobs-home-page__margin-top"></div>
-              <tr>
+              <tr className="my-jobs-home-page__row">
                 <td className="my-jobs-home-page__job-id-data-column">
                   6373659
                 </td>
