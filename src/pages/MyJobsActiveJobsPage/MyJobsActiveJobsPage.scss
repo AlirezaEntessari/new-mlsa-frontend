@@ -1,0 +1,1093 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-jobs-home-page {
+    padding-bottom: 20rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 202px;
+    }
+
+    &__search-my-jobs-container {
+        margin-top: 60px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    &__search-icon {
+        position: absolute;
+        top: 11px;
+        left: 418px;
+    }
+
+    &__search-my-jobs-input {
+        width: 335px;
+        height: 46px;
+        border: 1px solid $medium-dark-gray;
+        margin-left: 20px;
+        border-radius: 28px;
+    }
+
+    &__all-jobs-container {
+        border: 2px solid $dark-navy;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 50px;
+        height: 3000px;
+        border-radius: 18px;
+        background-color: $background-light-blue;
+    }
+
+    &__all-jobs-header {
+        margin-top: 20px;
+        margin-left: 20px;
+        border-bottom: 2px solid $dark-navy;
+        width: 90px;
+        padding-bottom: 5px;
+    }
+
+    &__all-jobs-bullet-icon {
+        width: 16px;
+    }
+
+    &__all-jobs-text {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-active-jobs {
+        margin-left: 28px;
+        color: $logo-blue;
+        font-weight: 500;
+        margin-top: 32px;
+        font-size: 20px;
+    }
+
+    &__all-jobs-status-top-container {
+        margin-left: 20px;
+        margin-top: 28px;
+        display: flex;
+    }
+
+    &__all-jobs-pending {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+    }
+
+    &__jobs-pending-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-pending-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-reviews {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-reviews-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-reviews-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-submissions {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-submissions-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-submissions-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__all-jobs-status-bottom-container {
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__all-jobs-interviews {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+    }
+
+    &__jobs-interviews-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-interviews-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__jobs-offers {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-offers-bullet-icon {
+        width: 16px;
+    }
+
+    &__jobs-offers-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__jobs-placements {
+        border: 1px solid $medium-dark-gray;
+        background-color: $white-background;
+        width: 150px;
+        height: 72px;
+        padding-left: 15px;
+        padding-top: 22px;
+        border-radius: 18px;
+        margin-left: 4px;
+    }
+
+    &__jobs-placements-icon {
+        width: 16px;
+    }
+
+    &__jobs-placements-text {
+        margin-left: 14px;
+        font-weight: 500;
+    }
+
+    &__sort-by-container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__sort-by-text {
+        font-weight: 500;
+    }
+
+    &__job-id {
+        margin-left: 40px;
+    }
+
+    &__menu-circle-arrow-gray-icon {
+        margin-left: 16px;
+        margin-bottom: 2px;
+    }
+
+    &__mobile-card-container {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    &__mobile-card-one {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $white-background;
+    }
+
+    &__mobile-card-one-inner-container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-one-job-id-number {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-left: 16px;
+    }
+
+    &__mobile-card-one-posted {
+        margin-left: 130px;
+    }
+
+    &__mobile-card-one-posted-date {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-one-job-title-container {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    &__mobile-card-one-job-title-job {
+        margin-left: 16px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-one-job-title-applicants {
+        margin-left: 95px;
+    }
+
+    &__mobile-card-one-job-title-applicants-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: #F9CEA9;
+        width: 32px;
+        padding-left: 12px;
+        border-radius: 60px;
+        height: 32px;
+        padding-top: 2px;
+    }
+
+    &__mobile-card-one-client-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-one-client-company-name {
+        font-weight: 500;
+        margin-left: 16px;
+        width: 100px;
+    }
+
+    &__mobile-card-one-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 90px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-one-industry {
+        margin-top: 32px;
+    }
+
+    &__mobile-card-one-industry-name {
+        font-weight: 500;
+        margin-left: 16px;
+    }
+
+    &__mobile-card-one-archive-button {
+        margin-left: 254px;
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        width: 140px;
+        height: 54px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-one-location {
+        margin-top: 20px;
+    }
+
+    &__mobile-card-one-location-place {
+        font-weight: 500;
+        margin-left: 16px;
+    }
+
+    &__mobile-card-two {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $card-gray-background-color;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-two-client-company-name {
+        font-weight: 500;
+        margin-left: 16px;
+        width: 120px;
+    }
+
+    &__mobile-card-two-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 70px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-two-job-title-applicants {
+        margin-left: 165px;
+    }
+
+    &__mobile-card-three {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $white-background;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-three-job-title-applicants {
+        margin-left: 130px;
+    }
+
+    &__mobile-card-three-job-title-applicants-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: #F9CEA9;
+        width: 48px;
+        padding-left: 15px;
+        border-radius: 100px;
+        height: 36px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-three-client-company-name {
+        font-weight: 500;
+        margin-left: 16px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    &__mobile-card-three-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 72px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    &__mobile-card-four {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $card-gray-background-color;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-four-job-title-applicants {
+        margin-left: 120px;
+    }
+
+    &__mobile-card-four-client-company-name {
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+        margin-left: 16px;
+    }
+
+    &__mobile-card-four-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 74px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+        height: 46px;
+    }
+
+    &__mobile-card-five {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $white-background;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-five-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 72px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    &__mobile-card-six {
+        border: 2px solid $dark-navy;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        width: 450px;
+        background-color: $card-gray-background-color;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-six-job-title-applicants {
+        margin-left: 164px;
+    }
+
+    &__mobile-card-six-find-candidate-button {
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        margin-left: 74px;
+        color: $white-text;
+        width: 150px;
+        border-radius: 28px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    &__tablet-middle-container {
+        display: none;
+    }
+
+    &__tablet-table {
+        display: none;
+    }
+
+    &__page-number-container {
+        display: none;
+    }
+
+    &__tablet-active-jobs-header {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-jobs-home-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+        }
+
+        &__search-my-jobs-container {
+            margin-top: 32px;
+            margin-left: 242px;
+            position: relative;
+        }
+    
+        &__search-icon {
+            position: absolute;
+            top: 11px;
+            left: 478px;
+        }
+    
+        &__search-my-jobs-input {
+            width: 405px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            margin-left: 20px;
+            border-radius: 28px;
+        }
+
+        &__all-jobs-container {
+            display: none;
+        }
+
+        &__tablet-all-jobs-header {
+            margin-top: 20px;
+            margin-left: 20px;
+            border-bottom: 2px solid $dark-navy;
+            width: 90px;
+            padding-bottom: 5px;
+        }
+
+        &__tablet-pending-header {
+            padding-left: 10px;
+        }
+
+        &__tablet-jobs-pending-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-middle-container {
+            display: flex;
+            border-top: 1px solid $medium-gray;
+            margin-top: 24px;
+            margin-left: 4px;
+            border-left: 1px solid $medium-gray;
+            border-right: 1px solid $medium-gray;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding-right: 8px;
+        }
+
+        &__tablet-pending-header {
+            margin-top: 20px;
+        }
+
+        &__tablet-reviews-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-reviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-submissions-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-submissions-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-interviews-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-interviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-offers-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-offers-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-placements-header {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        &__tablet-placements-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__header-row {
+            background-color: $background-blue;
+        }
+
+        &__scroll-down-arrow-icon {
+            width: 14px;
+            padding-left: 3px;
+        }
+
+        &__job-id-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__client-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__job-title-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__industry-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 10px;
+        }
+
+        &__location-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 4px;
+        }
+
+        &__posted-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__appl-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        &__action-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 48px;
+            padding-right: 40px;
+        }
+
+        &__job-id-data-column {
+            text-decoration: underline;
+            padding-left: 16px;
+        }
+
+        &__client-data-column {
+            width: 100px;
+            padding-left: 16px;
+        }
+
+        &__job-title-data-column {
+            padding-left: 16px;
+        }
+
+        &__industry-data-column {
+            padding-left: 16px;
+        }
+
+        &__location-data-column {
+            padding-left: 16px;
+        }
+
+        &__posted-data-column {
+            padding-left: 16px;
+        }
+
+        &__appl-data-column {
+            padding-left: 16px;
+        }
+
+        &__appl-data-value {
+            background-color: $light-orange;
+            padding-left: 21px;
+            border-radius: 100%;
+            height: 48px;
+            padding-top: 11px;
+        }
+
+        &__action-data-column {
+            padding-left: 32px;
+        }
+
+        &__tablet-find-candidate-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 104px;
+            border-radius: 28px;
+            display: block;
+            font-size: 12px;
+        }
+
+        &__tablet-archive-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 100px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 8px;
+        }
+
+        &__on-hold-blue-icon {
+            width: 28px;
+            display: block;
+            padding-left: 4px;
+        }
+
+        &__margin-top {
+            height: 32px;
+        }
+
+        &__tablet-table {
+            display: inherit;
+        }
+        
+        &__page-number-container {
+            display: inherit;
+            margin-top: 64px;
+            margin-left: 286px;
+        }
+
+        &__page-number-one-blue-icon {
+            margin-left: 5px;
+        }
+
+        &__page-number-two-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-number-three-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-arrow-right-icon {
+            margin-left: 5px;
+        }
+
+        &__tablet-active-jobs-header {
+            display: inherit;
+            margin-top: 32px;
+            margin-left: 32px;
+            color: $logo-blue;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-jobs-home-page {
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 36px;
+            margin-left: 80px;
+        }
+
+        &__search-my-jobs-container {
+            margin-top: 150px;
+            margin-left: 290px;
+            position: relative;
+        }
+    
+        &__search-icon {
+            position: absolute;
+            top: 11px;
+            left: 1040px;
+        }
+    
+        &__search-my-jobs-input {
+            width: 950px;
+            height: 46px;
+            border: 1px solid $medium-dark-gray;
+            margin-left: 40px;
+            border-radius: 28px;
+        }
+
+        &__all-jobs-container {
+            display: none;
+        }
+
+        &__tablet-middle-container {
+            display: flex;
+            border-top: 1px solid $medium-gray;
+            margin-top: 32px;
+            margin-left: 80px;
+            border-left: 1px solid $medium-gray;
+            border-right: 1px solid $medium-gray;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding-right: 8px;
+            width: 1530px;
+        }
+
+        &__tablet-all-jobs-header {
+            margin-top: 20px;
+            margin-left: 90px;
+            border-bottom: 2px solid $dark-navy;
+            width: 90px;
+            padding-bottom: 5px;
+        }
+
+        &__tablet-all-jobs-text {
+            padding-left: 6px;
+        }
+
+        &__tablet-pending-header {
+            padding-left: 114px;
+            margin-top: 20px;
+        }
+
+        &__tablet-jobs-pending-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-reviews-header {
+            margin-top: 20px;
+            margin-left: 114px;
+        }
+
+        &__tablet-reviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-submissions-header {
+            margin-top: 20px;
+            margin-left: 114px;
+        }
+
+        &__tablet-submissions-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-interviews-header {
+            margin-top: 20px;
+            margin-left: 114px;
+        }
+
+        &__tablet-interviews-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-offers-header {
+            margin-top: 20px;
+            margin-left: 114px;
+        }
+
+        &__tablet-offers-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__tablet-placements-header {
+            margin-top: 20px;
+            margin-left: 114px;
+        }
+
+        &__tablet-placements-text {
+            font-weight: 500;
+            padding-left: 10px;
+        }
+
+        &__header-row {
+            background-color: $background-blue;
+        }
+
+        &__scroll-down-arrow-icon {
+            width: 14px;
+            padding-left: 3px;
+        }
+
+        &__job-id-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__client-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__job-title-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__industry-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__location-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__posted-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__appl-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+        }
+
+        &__action-column {
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 124px;
+            padding-right: 140px;
+        }
+
+        &__job-id-data-column {
+            text-decoration: underline;
+            padding-left: 116px;
+            padding-bottom: 16px;
+        }
+
+        &__client-data-column {
+            width: inherit;
+            padding-left: 110px;
+            padding-bottom: 16px;
+        }
+
+        &__job-title-data-column {
+            padding-left: 114px;
+            padding-bottom: 16px;
+        }
+
+        &__industry-data-column {
+            padding-left: 114px;
+            padding-bottom: 16px;
+        }
+
+        &__location-data-column {
+            padding-left: 116px;
+            padding-bottom: 16px;
+        }
+
+        &__posted-data-column {
+            padding-left: 116px;
+            padding-bottom: 16px;
+        }
+
+        &__appl-data-column {
+            padding-left: 58px;
+            padding-bottom: 16px;
+        }
+
+        &__appl-data-value {
+            background-color: inherit;
+            padding-left: 72px;
+            border-radius: 100%;
+            height: 48px;
+            padding-top: 11px;
+            text-decoration: underline;
+        }
+
+        &__action-data-column {
+            padding-left: 90px;
+        }
+
+        &__tablet-find-candidate-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 104px;
+            border-radius: 28px;
+            display: block;
+            font-size: 12px;
+        }
+
+        &__tablet-archive-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 100px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 8px;
+        }
+
+        &__on-hold-blue-icon {
+            width: 28px;
+            display: block;
+            padding-left: 4px;
+        }
+
+        &__margin-top {
+            height: 32px;
+        }
+
+        &__row {
+            border-bottom: 1px solid $medium-gray;
+        }
+
+        &__page-number-container {
+            display: inherit;
+            margin-top: 64px;
+            margin-left: 730px;
+        }
+
+        &__page-number-one-blue-icon {
+            margin-left: 5px;
+        }
+
+        &__page-number-two-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-number-three-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-arrow-right-icon {
+            margin-left: 5px;
+        }
+
+        &__tablet-active-jobs-header {
+            display: inherit;
+            margin-top: 48px;
+            margin-left: 140px;
+            color: $logo-blue;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+    }
+
+}
