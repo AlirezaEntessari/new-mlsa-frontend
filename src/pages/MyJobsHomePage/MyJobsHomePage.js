@@ -16,6 +16,9 @@ import ScrollDownArrowIcon from "../../assets/icons/ScrollDownArrow.svg";
 import OnHoldBlueIcon from "../../assets/icons/OnHoldBlue.svg";
 import PageArrowLeftIcon from "../../assets/icons/PageArrowLeft.svg";
 import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
+import PageNumberOneBlueIcon from "../../assets/icons/PageNumberBlue1.svg";
+import PageNumberTwoGrayIcon from "../../assets/icons/PageNumberGray2.svg";
+import PageNumberThreeGrayIcon from "../../assets/icons/PageNumberGray3.svg";
 
 export default function MyJobsHomePage() {
   return (
@@ -901,7 +904,33 @@ export default function MyJobsHomePage() {
               </tr>
             </tbody>
           </table>
-
+          <div className="my-jobs-home-page__page-number-container">
+            <img
+              className="my-jobs-home-page__page-arrow-left-icon"
+              src={PageArrowLeftIcon}
+              alt="Page Arrow Left Icon"
+            />
+            <img
+              className="my-jobs-home-page__page-number-one-blue-icon"
+              src={PageNumberOneBlueIcon}
+              alt="Page Number One Blue Icon"
+            />
+            <img
+              className="my-jobs-home-page__page-number-two-gray-icon"
+              src={PageNumberTwoGrayIcon}
+              alt="Page Number Two Gray Icon"
+            />
+            <img
+              className="my-jobs-home-page__page-number-three-gray-icon"
+              src={PageNumberThreeGrayIcon}
+              alt="Page Number Three Gray Icon"
+            />
+            <img
+              className="my-jobs-home-page__page-arrow-right-icon"
+              src={PageArrowRightIcon}
+              alt="Page Arrow Right Icon"
+            />
+          </div>
         </div>
       </div>
     </div>

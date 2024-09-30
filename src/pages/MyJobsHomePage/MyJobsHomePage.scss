@@ -479,6 +479,14 @@
         display: none;
     }
 
+    &__tablet-table {
+        display: none;
+    }
+
+    &__page-number-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -733,6 +741,48 @@
 
         &__margin-top {
             height: 32px;
+        }
+
+        &__tablet-table {
+            display: inherit;
+        }
+        
+        &__page-number-container {
+            display: inherit;
+            margin-top: 64px;
+            margin-left: 286px;
+        }
+
+        &__page-number-one-blue-icon {
+            margin-left: 5px;
+        }
+
+        &__page-number-two-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-number-three-gray-icon {
+            margin-left: 12px;
+        }
+
+        &__page-arrow-right-icon {
+            margin-left: 5px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-jobs-home-page {
+
+        &__header {
+            font-family: 'Roboto Serif';
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 36px;
+            margin-left: 80px;
         }
 
     }

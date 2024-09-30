@@ -111,6 +111,9 @@ export default function MyJobsTopDashboard() {
           </div>
         </div>
       </div>
+      <div className="my-jobs-top-dashboard__desktop-container">
+        
+      </div>
     </div>
   );
 }
