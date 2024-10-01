@@ -74,6 +74,7 @@
         height: 50px;
         border-radius: 28px;
         margin-left: 20px;
+        font-weight: 500;
     }
 
     &__mobile-open-archived-job-button {
@@ -84,6 +85,310 @@
         height: 50px;
         border-radius: 28px;
         margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-button-second-container {
+        margin-top: 60px;
+    }
+
+    &__mobile-open-saved-draft-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-batch-upload-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-button-third-container {
+        margin-top: 60px;
+    }
+
+    &__mobile-open-job-through-api-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-return-to-my-jobs-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-hot-job-opening-put-on-hold-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-on-hold-hot-button-off-icon {
+        width: 24px;
+    }
+
+    &__mobile-hot-off-icon {
+        width: 36px;
+        margin-left: 10px;
+    }
+
+    &__mobile-hot-job-opening-text {
+        color: $medium-dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-put-on-hold-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-on-hold-off-icon {
+        width: 36px;
+        margin-left: 10px;
+    }
+
+    &__mobile-put-on-hold-text {
+        color: $medium-dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-client-name-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-client-name-input {
+        display: block;
+        margin-top: 2px;
+        color: $medium-gray;
+        border: 1px solid $medium-gray;
+        width: 450px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-agency-job-id-number-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-agency-job-id-number-input {
+        display: block;
+        margin-top: 2px;
+        color: $medium-gray;
+        border: 1px solid $medium-gray;
+        width: 450px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-country-state-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-country-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 205px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-state-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-state-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 205px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-city-zip-code-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-city-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 205px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-zip-code-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-zip-code-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 205px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-job-title-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-job-title-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 205px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-job-title-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-job-title-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 440px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-industry-job-type-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-industry-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 210px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-industry-job-type-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-job-type-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-job-type-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 210px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-openings-citizenship-type-of-visa-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-openings-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 74px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-citizenship-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-citizenship-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 163px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-type-of-visa-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-type-of-visa-label {
+        color: $medium-dark-gray;
+    }
+
+    &__mobile-type-of-visa-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 163px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
     }
 
 }
