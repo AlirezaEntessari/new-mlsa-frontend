@@ -1,0 +1,89 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-jobs-post-job-page {
+    padding-bottom: 20rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 180px;
+    }
+
+    &__owner-information-container {
+        position: absolute;
+        right: 10px;
+        top: 170px;
+    }
+
+    &__owner-title {
+        margin-bottom: 5px;
+    }
+
+    &__owner-name {
+        margin-bottom: 5px;
+    }
+
+    &__owner-agency {
+        margin-bottom: 5px;
+    }
+
+    &__top-central-container {
+        display: flex;
+    }
+
+    &__value-assurance-icon {
+        width: 150px;
+        margin-top: 54px;
+        margin-right: 0px;
+    }
+
+    &__information-is-protected {
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 10px;
+        font-family: 'Roboto Serif';
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    &__client-name-will-not-be-shared {
+        margin-top: 32px;
+        margin-left: 50px;
+        width: 400px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    &__mobile-button-container {
+        margin-top: 60px;
+    }
+
+    &__mobile-upload-job-description-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+    }
+
+    &__mobile-open-archived-job-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        width: 220px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 20px;
+    }
+
+}

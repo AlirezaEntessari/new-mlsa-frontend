@@ -30,6 +30,13 @@ import MyDocumentsUserActivityReportPage from './pages/MyDocumentsUserActivityRe
 import MyJobsHomePage from './pages/MyJobsHomePage/MyJobsHomePage';
 import MyJobsBatchUploadPage from './pages/MyJobsBatchUploadPage/MyJobsBatchUploadPage';
 import MyJobsActiveJobsPage from './pages/MyJobsActiveJobsPage/MyJobsActiveJobsPage';
+import MyJobsPendingJobsPage from './pages/MyJobsPendingJobsPage/MyJobsPendingJobsPage';
+import MyJobsReviewsJobsPage from './pages/MyJobsReviewsJobsPage/MyJobsReviewsJobsPage';
+import MyJobsSubmissionsPage from './pages/MyJobsSubmissionsPage/MyJobsSubmissionsPage';
+import MyJobsInterviewsPage from './pages/MyJobsInterviewsPage/MyJobsInterviewsPage';
+import MyJobsOffersPage from './pages/MyJobsOffersPage/MyJobsOffersPage';
+import MyJobsPlacementsPage from './pages/MyJobsPlacementsPage/MyJobsPlacementsPage';
+import MyJobsPostJobPage from './pages/MyJobsPostJobPage/MyJobsPostJobPage';
 
 function App() {
   return (
@@ -66,6 +73,13 @@ function App() {
         <Route path="/my-jobs-home-page" element={<MyJobsHomePage />} />
         <Route path="/my-jobs-batch-upload-page" element={<MyJobsBatchUploadPage />} />
         <Route path="/my-jobs-active-jobs-page" element={<MyJobsActiveJobsPage />} />
+        <Route path="/my-jobs-pending-jobs-page" element={<MyJobsPendingJobsPage />} />
+        <Route path="/my-jobs-reviews-jobs-page" element={<MyJobsReviewsJobsPage />} />
+        <Route path="/my-jobs-submissions-page" element={<MyJobsSubmissionsPage />} />
+        <Route path="/my-jobs-interviews-page" element={<MyJobsInterviewsPage />} />
+        <Route path="/my-jobs-offers-page" element={<MyJobsOffersPage />} />
+        <Route path="/my-jobs-placements-page" element={<MyJobsPlacementsPage />} />
+        <Route path="/my-jobs-post-job-page" element={<MyJobsPostJobPage />} />
       </Routes>
       </BrowserRouter>
     </div>
