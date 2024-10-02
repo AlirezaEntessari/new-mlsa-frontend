@@ -391,4 +391,200 @@
         padding-left: 10px;
     }
 
+    &__mobile-experience-level-salary-type-container {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-experience-level-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 207px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-salary-type-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-salary-type-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 207px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px; 
+    }
+
+    &__mobile-environment-start-date-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-environment-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 207px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-start-date-container {
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__mobile-calendar-icon {
+        position: absolute;
+        width: 24px;
+        left: 164px;
+        top: 43px;
+    }
+
+    &__mobile-start-date-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 207px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-salary-range-container {
+        border: 1px solid $medium-gray;
+        margin-top: 32px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 32px;
+        border-radius: 14px;
+    }
+
+    &__mobile-slider-values-container {
+        display: flex;
+    }
+
+    &__mobile-salary-range-header {
+        padding-top: 10px;
+        padding-left: 32px;
+    }
+
+    &__mobile-slider-container {
+        margin-top: 10px;
+        margin-left: 32px;
+    }
+
+    &__mobile-slider {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    &__mobile-slider-max-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-slider-values-container {
+        margin-top: 20px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__mobile-first-value-container {
+        border: 1px solid $medium-gray;
+        width: 125px;
+        height: 50px;
+        border-radius: 12px;
+    }
+
+    &__mobile-first-value {
+        padding-top: 10px;
+        padding-left: 33px;
+    }
+
+    &__mobile-second-value-container {
+        border: 1px solid $medium-gray;
+        width: 125px;
+        height: 50px;
+        border-radius: 12px;
+        margin-left: 20px;
+    }
+
+    &__mobile-dollar-sign-salary-icon {
+        width: 12px;
+        position: absolute;
+        top: 2152px;
+        left: 444px;
+    }
+
+    &__mobile-minus-sign-salary-icon {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-second-value {
+        padding-top: 10px;
+        padding-left: 33px;
+    }
+
+    &__mobile-travel-paid-relocation-container {
+        margin-top: 40px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-travel-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 210px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-paid-relocation-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-paid-relocation-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 210px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-bonus-container {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    &__mobile-bonus-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 210px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
 }

@@ -6,6 +6,9 @@ import ValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
 import OnHoldHotButtonOffIcon from "../../assets/icons/Onholdhotbuttonoff.svg";
 import HotOffIcon from "../../assets/icons/HotOff.svg";
 import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
+import CalendarIcon from "../../assets/icons/CalendarIcon.svg";
+import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
+import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
 
 export default function MyJobsPostJobPage() {
   return (
@@ -383,6 +386,190 @@ export default function MyJobsPostJobPage() {
                 <option value="OPT">OPT</option>
               </select>
             </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-experience-level-salary-type-container">
+            <div className="my-jobs-post-job-page__mobile-experience-level-container">
+              <label
+                className="my-jobs-post-job-page__mobile-experience-level-label"
+                htmlFor="mobile-experience-level"
+              >
+                Experience Level
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-experience-level-select"
+                name="mobile-experience-level"
+                id="mobile-experience-level"
+              >
+                <option value="0 - 1 years" disabled selected>
+                  0 - 1 years
+                </option>
+                <option value="1 - 2 years">1 - 2 years</option>
+                <option value="2 - 3 years">2 - 3 years</option>
+                <option value="3 - 4 years">3 - 4 years</option>
+                <option value="4 - 5 years">4 - 5 years</option>
+                <option value="5 - 6 years">5 - 6 years</option>
+                <option value="6 - 7 years">6 - 7 years</option>
+                <option value="7 - 8 years">7 - 8 years</option>
+                <option value="8 - 9 years">8 - 9 years</option>
+                <option value="9 - 10 years">9 - 10 years</option>
+              </select>
+            </div>
+            <div className="my-jobs-post-job-page__mobile-salary-type-container">
+              <label
+                className="my-jobs-post-job-page__mobile-salary-type-label"
+                htmlFor="mobile-salary-type"
+              >
+                Salary Type
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-salary-type-select"
+                name="mobile-salary-type"
+                id="mobile-salary-type"
+              >
+                <option value="annual" disabled selected>
+                  Annual
+                </option>
+                <option value="weekly" disabled selected>
+                  Weekly
+                </option>
+                <option value="biweekly">Biweekly</option>
+                <option value="monthly">Monthly</option>
+              </select>
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-environment-start-date-container">
+            <div className="my-jobs-post-job-page__mobile-environment-container">
+              <label
+                className="my-jobs-post-job-page__mobile-environment-label"
+                htmlFor="mobile-environment"
+              >
+                Environment
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-environment-select"
+                name="mobile-environment"
+                id="mobile-environment"
+              >
+                <option value="on-site" disabled selected>
+                  On-site
+                </option>
+                <option value="remote">Remote</option>
+                <option value="traveling">Traveling</option>
+              </select>
+            </div>
+            <div className="my-jobs-post-job-page__mobile-start-date-container">
+              <label
+                className="my-jobs-post-job-page__mobile-start-date-label"
+                htmlFor="mobile-start-date"
+              >
+                Start Date
+              </label>
+              <img
+                className="my-jobs-post-job-page__mobile-calendar-icon"
+                src={CalendarIcon}
+                alt="Calendar Icon"
+              />
+              <input
+                className="my-jobs-post-job-page__mobile-start-date-input"
+                type="text"
+                id="mobile-start-date"
+                placeholder="mm/dd/yy"
+              />
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-salary-range-container">
+            <p className="my-jobs-post-job-page__mobile-salary-range-header">
+              Salary Range
+            </p>
+            <div className="my-jobs-post-job-page__mobile-slider-container">
+              <span className="my-jobs-post-job-page__mobile-slider-min-text">
+                MIN
+              </span>
+              <input
+                className="my-jobs-post-job-page__mobile-slider"
+                type="range"
+              />
+              <span className="my-jobs-post-job-page__mobile-slider-max-text">
+                MAX
+              </span>
+            </div>
+            <img
+              className="my-jobs-post-job-page__mobile-dollar-sign-salary-icon"
+              src={DollarSignSalaryIcon}
+              alt="Dollar Sign Salary Icon"
+            />
+            <div className="my-jobs-post-job-page__mobile-slider-values-container">
+              <div className="my-jobs-post-job-page__mobile-first-value-container">
+                <p className="my-jobs-post-job-page__mobile-first-value">
+                  230,000
+                </p>
+              </div>
+              <img
+                className="my-jobs-post-job-page__mobile-minus-sign-salary-icon"
+                src={MinusSignSalaryIcon}
+                alt="Minus Sign Salary Icon"
+              />
+              <div className="my-jobs-post-job-page__mobile-second-value-container">
+                <p className="my-jobs-post-job-page__mobile-second-value">
+                  337,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-travel-paid-relocation-container">
+            <div className="my-jobs-post-job-page__mobile-travel-container">
+              <label
+                className="my-jobs-post-job-page__mobile-travel-label"
+                htmlFor="mobile-travel"
+              >
+                Travel
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-travel-select"
+                name="mobile-travel"
+                id="mobile-travel"
+              >
+                <option value="none required" disabled selected>
+                  None Required
+                </option>
+                <option value="weekly">weekly</option>
+                <option value="biweekly">Biweekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+              </select>
+            </div>
+            <div className="my-jobs-post-job-page__mobile-paid-relocation-container">
+              <label
+                className="my-jobs-post-job-page__mobile-paid-relocation-label"
+                htmlFor="mobile-paid-relocation"
+              >
+                Paid Relocation
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-paid-relocation-select"
+                name="paid-relocation"
+                id="paid-relocation"
+              >
+                <option value="unknown">Unknown</option>
+                <option value="known">Known</option>
+              </select>
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-bonus-container">
+            <label
+              className="my-jobs-post-job-page__mobile-bonus-label"
+              htmlFor="mobile-bonus"
+            >
+              Bonus
+            </label>
+            <select
+              className="my-jobs-post-job-page__mobile-bonus-select"
+              name="mobile-bonus"
+              id="mobile-bonus"
+            >
+              <option value="unknown">Unknown</option>
+              <option value="known">Known</option>
+            </select>
           </div>
         </div>
       </div>
