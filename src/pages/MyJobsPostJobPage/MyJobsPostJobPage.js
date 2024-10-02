@@ -9,6 +9,8 @@ import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
 import CalendarIcon from "../../assets/icons/CalendarIcon.svg";
 import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
 import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
+import CircleButtonOnIcon from "../../assets/icons/CircleButtonOnBlue.svg";
+import CircleButtonOffIcon from "../../assets/icons/CircleButtonOff.svg";
 
 export default function MyJobsPostJobPage() {
   return (
@@ -570,6 +572,121 @@ export default function MyJobsPostJobPage() {
               <option value="unknown">Unknown</option>
               <option value="known">Known</option>
             </select>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-required-education-container">
+            <label
+              className="my-jobs-post-job-page__mobile-required-education-label"
+              htmlFor="required-education"
+            >
+              Required Education
+            </label>
+            <input
+              className="my-jobs-post-job-page__mobile-required-education-input"
+              type="text"
+              placeholder="Enter Required Education"
+            />
+          </div>
+          <div className="my-jobs-post-job-page__mobile-job-description-container">
+            <label
+              className="my-jobs-post-job-page__mobile-job-description-label"
+              htmlFor="mobile-job-description"
+            >
+              Job Description
+            </label>
+            <textarea
+              className="my-jobs-post-job-page__mobile-job-description-text-area"
+              name="mobile-job-description"
+              id="mobile-job-description"
+              placeholder="Enter Job Description"
+            ></textarea>
+          </div>
+          <p className="my-jobs-post-job-page__candidate-requirements-text">
+            Candidate Requirements
+          </p>
+          <div className="my-jobs-post-job-page__mobile-requirement-container">
+            <p className="my-jobs-post-job-page__requirement-one-text">
+              Requirement 1
+            </p>
+            <input
+              className="my-jobs-post-job-page__mobile-requirement-one-input"
+              type="text"
+              placeholder="Enter Requirement"
+            />
+          </div>
+          <p className="my-jobs-post-job-page__mobile-add-requirement">
+            <span className="my-jobs-post-job-page__mobile-plus-sign">+</span>{" "}
+            <span className="my-jobs-post-job-page__mobile-add-requirement-text">
+              Add Requirement
+            </span>
+          </p>
+          <div className="my-jobs-post-job-page__mobile-comments-container">
+            <p className="my-jobs-post-job-page__mobile-comments-text">
+              Comments
+            </p>
+            <input
+              className="my-jobs-post-job-page__mobile-comments-input"
+              type="text"
+              placeholder="Enter Comment"
+            />
+          </div>
+          <div className="my-jobs-post-job-page__mobile-required-skills-container">
+            <label
+              className="my-jobs-post-job-page__mobile-required-skills-label"
+              htmlFor="mobile-required-skills"
+            >
+              Required Skills
+            </label>
+            <input
+              className="my-jobs-post-job-page__mobile-required-skills-input"
+              type="text"
+              placeholder="Enter Required Skills separated by commas"
+            />
+          </div>
+          <div className="my-jobs-post-job-page__mobile-fee-type-container">
+            <p className="my-jobs-post-job-page__mobile-fee-type-header">
+              Fee Type
+            </p>
+            <div className="my-jobs-post-job-page__mobile-inner-fee-type-container">
+              <p className="my-jobs-post-job-page__mobile-percentage-of-salary">
+                <img
+                  className="my-jobs-post-job-page__mobile-circle-button-on-icon"
+                  src={CircleButtonOnIcon}
+                  alt="Circle Button On Icon"
+                />
+                <span className="my-jobs-post-job-page__mobile-percentage-of-salary-text">
+                  Percentage of Salary
+                </span>
+              </p>
+              <p className="my-jobs-post-job-page__mobile-percentage-of-total-compensation">
+                <img
+                  className="my-jobs-post-job-page__mobile-circle-button-off-icon"
+                  src={CircleButtonOffIcon}
+                  alt="Circle Button Off Icon"
+                />
+                <span className="my-jobs-post-job-page__mobile-percentage-of-total-compensation-text">
+                  Percentage of Total Compensation
+                </span>
+              </p>
+              <p className="my-jobs-post-job-page__mobile-flat-fee">
+                <img
+                  className="my-jobs-post-job-page__mobile-circle-button-off-icon"
+                  src={CircleButtonOffIcon}
+                  alt="Circle Button Off Icon"
+                />{" "}
+                <span className="my-jobs-post-job-page__mobile-flat-fee-text">
+                  Flat Fee
+                </span>{" "}
+              </p>
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-container">
+            <p className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-header">Split Fee Percentage of Salary</p>
+            <input className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-input" type="range" />
+            <div className="my-jobs-post-job-page__mobile-percentage-container">
+              <div className="my-jobs-post-job-page__mobile-my-percentage-container">
+                <p className="my-jobs-post-job-page"></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

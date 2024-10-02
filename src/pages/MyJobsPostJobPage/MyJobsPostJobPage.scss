@@ -587,4 +587,162 @@
         padding-left: 10px;
     }
 
+    &__mobile-required-education-container {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    &__mobile-required-education-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 454px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-job-description-container {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    &__mobile-job-description-text-area {
+        width: 454px;
+        border: 1px solid $medium-gray;
+        border-radius: 10px;
+        height: 500px;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    &__candidate-requirements-text {
+        margin-left: 20px;
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    &__mobile-requirement-container {
+        margin-left: 20px;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    &__requirement-one-text {
+        margin-top: 20px;
+    }
+
+    &__mobile-requirement-one-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 314px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+        margin-left: 32px;
+    }
+
+    &__mobile-add-requirement {
+        margin-left: 20px;
+        margin-top: 32px;
+    }
+
+    &__mobile-add-requirement-text {
+        margin-left: 16px;
+    }
+
+    &__mobile-comments-container {
+        margin-left: 20px;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    &__mobile-comments-text {
+        margin-top: 16px;
+    }
+
+    &__mobile-comments-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 314px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+        margin-left: 54px;
+    }
+
+    &__mobile-required-skills-container {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    &__mobile-required-skills-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 454px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-circle-button-on-icon {
+        width: 24px;
+    }
+
+    &__mobile-circle-button-off-icon {
+        width: 24px;
+    }
+
+    &__mobile-fee-type-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-fee-type-header {
+        font-size: 17px;
+    }
+
+    &__mobile-inner-fee-type-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-percentage-of-salary-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-percentage-of-total-compensation-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-flat-fee-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-split-fee-percentage-of-salary-container {
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 1px solid $medium-gray;
+        margin-right: 20px;
+        border-radius: 12px;
+    }
+
+    &__mobile-split-fee-percentage-of-salary-header {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    &__mobile-split-fee-percentage-of-salary-input {
+        margin-left: 20px;
+        width: 420px;
+    }
+
 }
