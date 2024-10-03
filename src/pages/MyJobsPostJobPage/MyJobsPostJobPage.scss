@@ -929,4 +929,146 @@
         margin-top: 32px;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-jobs-post-job-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-post-job-container {
+            display: flex;
+        }
+
+        &__tablet-post-job-header {
+            font-family: 'Roboto Serif';
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+        }
+
+        &__tablet-post-job-owner-text {
+            margin-top: 26px;
+            margin-left: 300px;
+        }
+
+        &__tablet-value-assurance-information-protected {
+            display: flex;
+            margin-top: 0px;
+        }
+
+        &__tablet-value-assurance-icon {
+            width: 150px;
+            margin-top: 54px;
+            margin-right: 0px;
+        }
+
+        &__tablet-information-is-protected-client-name-container {
+            margin-top: 72px;
+            margin-left: 24px;
+        }
+
+        &__tablet-information-is-protected-text {
+            margin-right: 100px;
+            font-weight: 500;
+            font-family: 'Roboto Serif';
+        }
+
+        &__tablet-client-name-will-not-be-shared {
+            margin-right: 50px;
+        }
+
+        &__tablet-button-container {
+            margin-top: 50px;
+            margin-left: 32px;
+        }
+
+        &__tablet-upload-job-description-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 200px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__tablet-open-archived-job-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 200px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 32px;
+        }
+
+        &__tablet-open-saved-draft-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 200px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 32px;
+        }
+
+        &__tablet-button-bottom-container {
+            display: flex;
+        }
+
+        &__tablet-button-bottom-container {
+            margin-top: 20px;
+        }
+
+        &__tablet-batch-upload-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 150px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        &__tablet-open-job-through-api-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 150px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        &__tablet-on-hold-button-off-icon {
+            width: 24px;
+        }
+
+        &__tablet-hot-off-icon {
+            width: 36px;
+        }
+
+        &__tablet-on-hold-off-icon {
+            width: 36px;
+        }
+
+    }
+
 }
