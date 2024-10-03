@@ -745,4 +745,188 @@
         width: 420px;
     }
 
+    &__mobile-percentage-container {
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    &__mobile-my-percentage-container {
+        border: 2px solid $soft-black;
+        display: flex;
+        margin-left: 18px;
+        margin-top: 48px;
+        width: 200px;
+        height: 72px;
+        border-radius: 12px;
+    }
+
+    &__mobile-my-percentage-number {
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+
+    &__mobile-my-percentage-text {
+        margin-top: 18px;
+        margin-left: 16px;
+    }
+
+    &__mobile-shared-percentage-container {
+        border: 2px solid $soft-black;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 48px;
+        width: 200px;
+        border-radius: 12px;
+    }
+
+    &__mobile-shared-percentage-number {
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+
+    &__mobile-shared-percentage-text {
+        margin-top: 18px;
+        margin-left: 16px;
+        font-size: 14px;
+    }
+
+    &__mobile-willing-to-negotiate-fee-container {
+        margin-top: 32px;
+        display: flex;
+        margin-left: 50px;
+    }
+
+    &__willing-to-negotiate-mobile-circle-button-on-icon {
+        width: 24px;
+        margin-left: 36px;
+        margin-bottom: 16px;
+    }
+
+    &__mobile-yes-text {
+        margin-left: 10px;
+    }
+
+    &__willing-to-negotiate-mobile-circle-button-off-icon {
+        width: 24px;
+        margin-bottom: 16px;
+        margin-left: 20px;
+    }
+
+    &__mobile-no-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-placement-fee-guarantee-period-container {
+        margin-left: 20px;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    &__mobile-placement-fee-input {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 212px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-guarantee-period-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-guarantee-period-select {
+        display: block;
+        margin-top: 2px;
+        color: $dark-gray;
+        border: 1px solid $medium-gray;
+        width: 212px;
+        border-radius: 12px;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    &__mobile-fee-agreement-text {
+        margin-left: 20px;
+        margin-top: 32px;
+    }
+
+    &__mobile-agreement-container {
+        margin-left: 20px;
+        margin-top: 32px;
+        display: flex;
+    }
+
+    &__mobile-view-agreement-button {
+        border: 1px solid $medium-gray;
+        background-color: $white-background;
+        width: 180px;
+        height: 60px;
+        border-radius: 12px;
+        margin-left: 28px;
+    }
+
+    &__mobile-about-this-agreement-text {
+        text-decoration: underline;
+        margin-left: 20px;
+        margin-top: 32px;
+    }
+
+    &__mobile-bottom-button-container {
+        margin-top: 50px;
+        margin-left: 140px;
+    }
+
+    &__mobile-post-button {
+        background-color: $dark-navy;
+        color: $white-text;
+        border: 1px solid $dark-navy;
+        height: 50px;
+        width: 200px;
+        border-radius: 24px;
+        font-weight: 500;
+    }
+
+    &__mobile-preview-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        height: 50px;
+        width: 200px;
+        border-radius: 24px;
+        font-weight: 500;
+        display: block;
+        margin-top: 32px;
+    }
+
+    &__mobile-save-draft-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        height: 50px;
+        width: 200px;
+        border-radius: 24px;
+        font-weight: 500;
+        display: block;
+        margin-top: 32px;
+    }
+
+    &__mobile-clear-form-button {
+        background-color: $white-background;
+        color: $dark-navy;
+        border: 2px solid $dark-navy;
+        height: 50px;
+        width: 200px;
+        border-radius: 24px;
+        font-weight: 500;
+        display: block;
+        margin-top: 32px;
+    }
+
 }

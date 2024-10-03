@@ -680,13 +680,112 @@ export default function MyJobsPostJobPage() {
             </div>
           </div>
           <div className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-container">
-            <p className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-header">Split Fee Percentage of Salary</p>
-            <input className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-input" type="range" />
+            <p className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-header">
+              Split Fee Percentage of Salary
+            </p>
+            <input
+              className="my-jobs-post-job-page__mobile-split-fee-percentage-of-salary-input"
+              type="range"
+            />
             <div className="my-jobs-post-job-page__mobile-percentage-container">
               <div className="my-jobs-post-job-page__mobile-my-percentage-container">
-                <p className="my-jobs-post-job-page"></p>
+                <p className="my-jobs-post-job-page__mobile-my-percentage-number">
+                  50%
+                </p>
+                <p className="my-jobs-post-job-page__mobile-my-percentage-text">
+                  My Percentage
+                </p>
+              </div>
+              <div className="my-jobs-post-job-page__mobile-shared-percentage-container">
+                <p className="my-jobs-post-job-page__mobile-shared-percentage-number">
+                  50%
+                </p>
+                <p className="my-jobs-post-job-page__mobile-shared-percentage-text">
+                  Shared Percentage
+                </p>
               </div>
             </div>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-willing-to-negotiate-fee-container">
+            <p className="my-jobs-post-job-page__mobile-willing-to-negotiate-fee-text">
+              Willing to Negotiate Fee?
+            </p>
+            <img
+              className="my-jobs-post-job-page__willing-to-negotiate-mobile-circle-button-on-icon"
+              src={CircleButtonOnIcon}
+              alt="Circle Button On Icon"
+            />
+            <span className="my-jobs-post-job-page__mobile-yes-text">Yes</span>
+            <img
+              className="my-jobs-post-job-page__willing-to-negotiate-mobile-circle-button-off-icon"
+              src={CircleButtonOffIcon}
+              alt="Circle Button Off Icon"
+            />
+            <span className="my-jobs-post-job-page__mobile-no-text">No</span>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-placement-fee-guarantee-period-container">
+            <div className="my-jobs-post-job-page__mobile-placement-fee-container">
+              <label
+                className="my-jobs-post-job-page__mobile-placement-fee-label"
+                htmlFor="mobile-placement-fee"
+              >
+                Placement Fee
+              </label>
+              <input
+                className="my-jobs-post-job-page__mobile-placement-fee-input"
+                type="text"
+                placeholder="20%"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__mobile-guarantee-period-container">
+              <label
+                className="my-jobs-post-job-page__mobile-guarantee-period-label"
+                htmlFor="mobile-guarantee-period"
+              >
+                Guarantee Period
+              </label>
+              <select
+                className="my-jobs-post-job-page__mobile-guarantee-period-select"
+                name="mobile-guarantee-period"
+                id="mobile-guarantee-period"
+              >
+                <option value="30 days" disabled selected>
+                  30 Days
+                </option>
+                <option value="1 week">1 week</option>
+                <option value="2 weeks">2 weeks</option>
+                <option value="3 weeks">3 weeks</option>
+                <option value="1 month">1 month</option>
+              </select>
+            </div>
+          </div>
+          <p className="my-jobs-post-job-page__mobile-fee-agreement-text">
+            Fee Agreement
+          </p>
+          <div className="my-jobs-post-job-page__mobile-agreement-container">
+            <p className="my-jobs-post-job-page__mobile-mlsa-auto-generated-container">
+              MLSA Auto-Generated Agreement
+            </p>
+            <button className="my-jobs-post-job-page__mobile-view-agreement-button">
+              View Agreement
+            </button>
+          </div>
+          <div className="my-jobs-post-job-page__mobile-about-this-agreement-text">
+            About this agreement
+          </div>
+          <div className="my-jobs-post-job-page__mobile-bottom-button-container">
+            <button className="my-jobs-post-job-page__mobile-post-button">
+              Post
+            </button>
+            <button className="my-jobs-post-job-page__mobile-preview-button">
+              Preview
+            </button>
+            <button className="my-jobs-post-job-page__mobile-save-draft-button">
+              Save Draft
+            </button>
+            <button className="my-jobs-post-job-page__mobile-clear-form-button">
+              Clear Form
+            </button>
           </div>
         </div>
       </div>
