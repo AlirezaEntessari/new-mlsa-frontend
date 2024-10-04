@@ -1314,15 +1314,211 @@ export default function MyJobsPostJobPage() {
                   alt="Minus Sign Salary Icon"
                 />
                 <div className="my-jobs-post-job-page__tablet-salary-range-second-value-container">
+                  <p className="my-jobs-post-job-page__tablet-salary-range-second-value">
+                    <img
+                      className="my-jobs-post-job-page__tablet-dollar-sign-salary-icon"
+                      src={DollarSignSalaryIcon}
+                      alt="Dollar Sign Salary Icon"
+                    />
+                    <span className="my-jobs-post-job-page__tablet-salary-range-second-value-number">
+                      337,000
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-travel-paid-relocation-bonus-container">
+              <div className="my-jobs-post-job-page__tablet-travel-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-travel-label"
+                  htmlFor="tablet-travel"
+                >
+                  Travel
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-travel-select"
+                  name="tablet-travel"
+                  id="tablet-travel"
+                >
+                  <option value="none-required" disabled selected>
+                    None Required
+                  </option>
+                  <option value="travel-required">Travel Required</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-paid-relocation-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-paid-relocation-label"
+                  htmlFor="tablet-paid-relocation"
+                >
+                  Paid Relocation
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-paid-relocation-select"
+                  name="tablet-paid-relocation"
+                  id="tablet-paid-relocation"
+                >
+                  <option value="unknown" disabled selected>
+                    Unknown
+                  </option>
+                  <option value="known">Known</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-bonus-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-bonus-label"
+                  htmlFor="tablet-bonus"
+                >
+                  Bonus
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-bonus-select"
+                  name="tablet-bonus"
+                  id="tablet-bonus"
+                >
+                  <option value="unknown">Unknown</option>
+                  <option value="known">Known</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-required-education-container">
+              <label
+                className="my-jobs-post-job-page__tablet-required-education-label"
+                htmlFor="tablet-required-education"
+              >
+                Required Education
+              </label>
+              <input
+                className="my-jobs-post-job-page__tablet-required-education-input"
+                type="text"
+                placeholder="Enter Required Education"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__tablet-job-description-container">
+              <label
+                className="my-jobs-post-job-page__tablet-job-description-label"
+                htmlFor="tablet-job-description"
+              >
+                Job Description
+              </label>
+              <textarea
+                className="my-jobs-post-job-page__tablet-job-description-text-area"
+                name="tablet-job-description"
+                id="tablet-job-description"
+                placeholder="Enter Job Description"
+              ></textarea>
+            </div>
+            <p className="my-jobs-post-job-page__tablet-candidate-requirements-header">
+              Candidate Requirements
+            </p>
+            <div className="my-jobs-post-job-page__tablet-requirement-one-container">
+              <p className="my-jobs-post-job-page__tablet-requirement-one-header">
+                Requirement 1
+              </p>
+              <input
+                className="my-jobs-post-job-page__tablet-requirement-one-input"
+                type="text"
+                placeholder="Enter Requirement"
+              />
+            </div>
+            <p className="my-jobs-post-job-page__tablet-add-requirement">
+              +{" "}
+              <span className="my-jobs-post-job-page__tablet-add-requirement-text">
+                Add Requirement
+              </span>
+            </p>
+            <div className="my-jobs-post-job-page__tablet-comments-container">
+              <p className="my-jobs-post-job-page__tablet-comments-text">
+                Comments
+              </p>
+              <input
+                className="my-jobs-post-job-page__tablet-comments-input"
+                type="text"
+                placeholder="Enter Comment"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__tablet-required-skills-container">
+              <label
+                className="my-jobs-post-job-page__tablet-required-skills-label"
+                htmlFor="tablet-required-skills"
+              >
+                Required Skills
+              </label>
+              <input
+                className="my-jobs-post-job-page__tablet-required-skills-input"
+                type="text"
+                placeholder="Enter Required Skills separated by commas"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__tablet-fee-type-container">
+              <p className="my-jobs-post-job-page__tablet-fee-type-header">
+                Fee Type
+              </p>
+              <div className="my-jobs-post-job-page__tablet-fee-type-options-container">
+                <div className="my-jobs-post-job-page__tablet-percentage-of-salary-container">
                   <img
-                    className="my-jobs-post-job-page__tablet-dollar-sign-salary-icon"
-                    src={DollarSignSalaryIcon}
-                    alt="Dollar Sign Salary Icon"
+                    className="my-jobs-post-job-page__tablet-circle-button-on-icon"
+                    src={CircleButtonOnIcon}
+                    alt="Circle Button On Icon"
                   />
-                  <span className="my-jobs-post-job-page__tablet-salary-range-second-value-number">
-                    337,000
+                  <span className="my-jobs-post-job-page__tablet-percentage-of-salary-text">
+                    Percentage of Salary
                   </span>
                 </div>
+                <div className="my-jobs-post-job-page__tablet-percentage-of-total-compensation-container">
+                  <img
+                    className="my-jobs-post-job-page__tablet-circle-button-off-icon"
+                    src={CircleButtonOffIcon}
+                    alt="Circle Button Off Icon"
+                  />
+                  <span className="my-jobs-post-job-page__tablet-percentage-of-total-compensation-text">
+                    Percentage of Total Compensation
+                  </span>
+                </div>
+                <div className="my-jobs-post-job-page__tablet-flat-fee-container">
+                  <img
+                    className="my-jobs-post-job-page__tablet-circle-button-off-icon"
+                    src={CircleButtonOffIcon}
+                    alt="Circle Button Off Icon"
+                  />
+                  <span className="my-jobs-post-job-page__tablet-flat-fee-text">
+                    Flat Fee
+                  </span>
+                </div>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-willing-to-negotiate-fee-container">
+                <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-container">
+                  <p className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-header">
+                    Split Fee Percentage of Salary
+                  </p>
+                  <input
+                    className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-slider"
+                    type="range"
+                  />
+                  <div className="my-jobs-post-job-page__tablet-split-fee-percentage-value-container">
+                    <div className="my-jobs-post-job-page__tablet-split-fee-my-percentage-container">
+                      <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-number">
+                        50%
+                      </p>
+                      <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-text">
+                        My Percentage
+                      </p>
+                    </div>
+                    <div className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-container">
+                      <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-number">
+                        50%
+                      </p>
+                      <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-text">
+                        Shared Percentage
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee">
+                  <span className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-text">
+                    Willing to Negotiate Fee?
+                  </span>
+                </p>
               </div>
             </div>
           </div>

@@ -1349,17 +1349,30 @@
 
         &__tablet-salary-range-container {
             border: 1px solid $medium-gray;
-            width: 300px;
-            height: 300px;
+            width: 350px;
+            height: 190px;
+            border-radius: 12px;
+            position: absolute;
+            left: 620px;
+            top: 1214px;
         }
 
         &__tablet-salary-range-header {
             padding-left: 20px;
-            padding-top: 10px;
+            padding-top: 12px;
         }
 
         &__tablet-salary-range-slider-container {
             margin-left: 20px;
+        }
+
+        &__tablet-salary-range-input {
+            margin-left: 10px;
+            width: 220px;
+        }
+
+        &__tablet-salary-range-max-text {
+            margin-left: 10px;
         }
 
         &__tablet-dollar-sign-salary-icon {
@@ -1368,12 +1381,286 @@
 
         &__tablet-salary-range-values-container {
             display: flex;
-            margin-top: 20px;
+            margin-top: 28px;
+            margin-left: 44px;
+        }
+
+        &__tablet-salary-range-first-value-container {
+            border: 1px solid $medium-gray;
+            padding-left: 20px;
+            padding-right: 24px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 8px;
         }
 
         &__tablet-minus-sign-salary-icon {
             width: 20px;
+            margin-left: 16px;
+        }
+
+        &__tablet-salary-range-second-value-container {
+            margin-left: 16px;
+            border: 1px solid $medium-gray;
+            width: 120px;
+            height: 50px;
+            border-radius: 12px;
+        }
+
+        &__tablet-salary-range-second-value {
+            margin-top: 10px;
+            margin-left: 14px;
+        }
+
+        &__tablet-salary-range-second-value-number {
+            margin-left: 10px;
+        }
+
+        &__tablet-travel-paid-relocation-bonus-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-travel-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 223px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-paid-relocation-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-paid-relocation-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 223px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-bonus-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-bonus-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 223px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-required-education-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-required-education-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 733px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-job-description-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-job-description-text-area {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 733px;
+            border-radius: 12px;
+            height: 250px;
+            padding-left: 10px;
+        }
+
+        &__tablet-candidate-requirements-header {
+            margin-left: 32px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 48px;
+        }
+
+        &__tablet-requirement-one-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 120px;
+        }
+
+        &__tablet-requirement-one-header {
+            margin-top: 18px;
+        }
+
+        &__tablet-requirement-one-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 504px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+            margin-left: 32px;
+        }
+
+        &__tablet-add-requirement {
+            margin-left: 120px;
+            margin-top: 32px;
+        }
+
+        &__tablet-add-requirement-text {
             margin-left: 20px;
+        }
+
+        &__tablet-comments-container {
+            display: flex;
+            margin-left: 120px;
+            margin-top: 32px;
+        }
+
+        &__tablet-comments-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 504px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+            margin-left: 58px;
+        }
+
+        &__tablet-required-skills-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-required-skills-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 725px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-circle-button-on-icon {
+            width: 24px;
+        }
+
+        &__tablet-circle-button-off-icon {
+            width: 24px;
+        }
+
+        &__tablet-fee-type-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-fee-type-options-container {
+            margin-left: 24px;
+        }
+
+        &__tablet-percentage-of-salary-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-percentage-of-total-compensation-container {
+            margin-top: 15px;
+        }
+
+        &__tablet-percentage-of-total-compensation-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-flat-fee-container {
+            margin-top: 15px;
+        }
+
+        &__tablet-flat-fee-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-split-fee-percentage-of-salary-container {
+            margin-left: 32px;
+            margin-top: 48px;
+            border: 1px solid $medium-gray;
+            border-radius: 12px;
+            margin-right: 32px;
+            padding-bottom: 32px;
+        }
+
+        &__tablet-split-fee-percentage-of-salary-header {
+            padding-top: 14px;
+            padding-left: 24px;
+        }
+
+        &__tablet-split-fee-percentage-of-salary-slider {
+            margin-left: 24px;
+            margin-top: 10px;
+            width: 300px;
+        }
+
+        &__tablet-split-fee-percentage-value-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 10px;
+        }
+
+        &__tablet-split-fee-my-percentage-container {
+            border: 2px solid $soft-black;
+            display: flex;
+            border-radius: 8px;
+        }
+
+        &__tablet-split-fee-my-percentage-number {
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
+        &__tablet-split-fee-my-percentage-text {
+            margin-left: 16px;
+        }
+
+        &__tablet-split-fee-shared-percentage-container {
+            margin-left: 32px;
+            border: 2px solid $soft-black;
+            display: flex;
+            border-radius: 8px;
+        }
+
+        &__tablet-split-fee-shared-percentage-number {
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+
+        &__tablet-split-fee-shared-percentage-text {
+            margin-left: 16px;
         }
 
     }
