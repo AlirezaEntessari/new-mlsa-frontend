@@ -910,6 +910,60 @@ export default function MyJobsPostJobPage() {
                 </div>
               </div>
             </div>
+            <div className="my-jobs-post-job-page__tablet-client-name-agency-job-id-number-container">
+              <div className="my-jobs-post-job-page__tablet-client-name-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-client-name-label"
+                  htmlFor="tablet-client-name"
+                >
+                  Client Name*
+                </label>
+                <input
+                  className="my-jobs-post-job-page__tablet-client-name-input"
+                  type="text"
+                  placeholder="Enter Client Name"
+                />
+              </div>
+              <div className="my-jobs-post-job-page__tablet-agency-job-id-number-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-agency-job-id-label"
+                  htmlFor="tablet-agency-job-id"
+                >
+                  Agency Job ID #
+                </label>
+                <input
+                  className="my-jobs-post-job-page__tablet-agency-job-id-input"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-country-state-city-zip-code-container">
+              <div className="my-jobs-post-job-page__tablet-country-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-country-label"
+                  htmlFor="tablet-country"
+                >
+                  Country
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-country-select"
+                  name="tablet-country"
+                  id="tablet-country"
+                >
+                  <option value="USA" disabled selected>
+                    USA
+                  </option>
+                  <option value="Canada">Canada</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Germany">Germany</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-state-container">
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>

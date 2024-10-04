@@ -1031,16 +1031,13 @@
 
         &__tablet-button-bottom-container {
             display: flex;
-        }
-
-        &__tablet-button-bottom-container {
-            margin-top: 20px;
+            margin-top: 32px;
         }
 
         &__tablet-batch-upload-button {
             background-color: $white-background;
             border: 2px solid $dark-navy;
-            width: 150px;
+            width: 175px;
             height: 48px;
             border-radius: 28px;
             font-weight: 500;
@@ -1050,23 +1047,77 @@
         &__tablet-open-job-through-api-button {
             background-color: $white-background;
             border: 2px solid $dark-navy;
-            width: 150px;
+            width: 175px;
             height: 48px;
             border-radius: 28px;
             font-weight: 500;
             font-size: 14px;
+            margin-left: 16px;
         }
 
         &__tablet-on-hold-button-off-icon {
             width: 24px;
         }
 
+        &__tablet-hot-job-opening-container {
+            margin-left: 18px;
+            margin-top: 5px;
+        }
+
         &__tablet-hot-off-icon {
             width: 36px;
+            margin-left: 5px;
+        }
+
+        &__tablet-hot-job-opening-text {
+            color: $medium-dark-gray;
         }
 
         &__tablet-on-hold-off-icon {
             width: 36px;
+            margin-left: 5px;
+        }
+
+        &__tablet-put-on-hold-container {
+            margin-top: 5px;
+            margin-left: 18px;
+        }
+
+        &__tablet-put-on-hold-text {
+            margin-left: 5px;
+            color: $medium-dark-gray;
+        }
+
+        &__tablet-client-name-agency-job-id-number-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 72px;
+        }
+
+        &__tablet-client-name-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 360px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-agency-job-id-number-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-agency-job-id-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 360px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
         }
 
     }
