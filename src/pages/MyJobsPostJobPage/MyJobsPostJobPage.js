@@ -961,7 +961,368 @@ export default function MyJobsPostJobPage() {
                 </select>
               </div>
               <div className="my-jobs-post-job-page__tablet-state-container">
-                
+                <label
+                  className="my-jobs-post-job-page__tablet-state-label"
+                  htmlFor="tablet-state"
+                >
+                  State
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-state-select"
+                  name="tablet-state"
+                  id="tablet-state"
+                >
+                  <option value="Alabama" disabled selected>
+                    AL
+                  </option>
+                  <option value="Alaska">AK</option>
+                  <option value="Arizona">AZ</option>
+                  <option value="Arkansas">AR</option>
+                  <option value="California">CA</option>
+                  <option value="Colorado">CO</option>
+                  <option value="Connecticut">CT</option>
+                  <option value="Delaware">DE</option>
+                  <option value="Florida">FL</option>
+                  <option value="Georgia">GA</option>
+                  <option value="Hawaii">HI</option>
+                  <option value="Idaho">ID</option>
+                  <option value="Illinois">IL</option>
+                  <option value="Indiana">IN</option>
+                  <option value="Iowa">IA</option>
+                  <option value="Kansas">KS</option>
+                  <option value="Kentucky">KY</option>
+                  <option value="Louisiana">LA</option>
+                  <option value="Maine">ME</option>
+                  <option value="Maryland">MD</option>
+                  <option value="Massachusetts">MA</option>
+                  <option value="Michigan">MI</option>
+                  <option value="Minnesota">MN</option>
+                  <option value="Missouri">MO</option>
+                  <option value="Montana">MT</option>
+                  <option value="Nebraska">NE</option>
+                  <option value="Nevada">NV</option>
+                  <option value="New Hampshire">NH</option>
+                  <option value="New Jersey">NJ</option>
+                  <option value="New Mexico">NM</option>
+                  <option value="New York">NY</option>
+                  <option value="North Carolina">NC</option>
+                  <option value="North Dakota">ND</option>
+                  <option value="Ohio">OH</option>
+                  <option value="Oklahoma">OK</option>
+                  <option value="Oregon">OR</option>
+                  <option value="Pennsylvania">PA</option>
+                  <option value="Rhode Island">RI</option>
+                  <option value="South Carolina">SC</option>
+                  <option value="South Dakota">SD</option>
+                  <option value="Tennessee">TN</option>
+                  <option value="Texas">TX</option>
+                  <option value="Utah">UT</option>
+                  <option value="Vermont">VT</option>
+                  <option value="Virginia">VA</option>
+                  <option value="Washington">WA</option>
+                  <option value="West Virginia">WV</option>
+                  <option value="Wisconsin">WI</option>
+                  <option value="Wyoming">WY</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-city-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-city-label"
+                  htmlFor="tablet-city"
+                >
+                  City
+                </label>
+                <input
+                  className="my-jobs-post-job-page__tablet-city-input"
+                  type="text"
+                  placeholder="Enter City"
+                  id="tablet-city"
+                />
+              </div>
+              <div className="my-jobs-post-job-page__tablet-zip-code-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-zip-code-label"
+                  htmlFor="tablet-zip-code"
+                >
+                  Zip Code
+                </label>
+                <input
+                  className="my-jobs-post-job-page__tablet-zip-code-input"
+                  type="text"
+                  id="tablet-zip-code"
+                  placeholder="5-digit Zip Code"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-job-title-container">
+              <label
+                className="my-jobs-post-job-page__tablet-job-title-label"
+                htmlFor="tablet-job-title"
+              >
+                Job Title
+              </label>
+              <input
+                className="my-jobs-post-job-page__tablet-job-title-input"
+                type="text"
+                id="tablet-job-title"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__tablet-industry-openings-job-type-citizenship-type-of-visa-container">
+              <div className="my-jobs-post-job-page__tablet-industry-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-industry-label"
+                  htmlFor="tablet-industry"
+                >
+                  Industry
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-industry-select"
+                  name="tablet-industry"
+                  id="tablet-industry"
+                >
+                  <option value="aerospace-defense" disabled selected>
+                    Aerospace and Defense
+                  </option>
+                  <option value="professional-services-consulting">
+                    Professional Services/Consulting
+                  </option>
+                  <option value="agricultural">Agricultural</option>
+                  <option value="computers-and-technology">
+                    Computers and Technology
+                  </option>
+                  <option value="conglomerate">Conglomerate</option>
+                  <option value="consumer-goods">Consumer Goods</option>
+                  <option value="financial">Financial</option>
+                  <option value="government">Government</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="insurance">Insurance</option>
+                  <option value="manufacturing">Manufacturing</option>
+                  <option value="oil-and-gas">Oil and Gas</option>
+                  <option value="pharmaceuticals">Pharmaceuticals</option>
+                  <option value="power-and-utilities">
+                    Power and Utilities
+                  </option>
+                  <option value="telecommunications">Telecommunications</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-openings-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-openings-label"
+                  htmlFor="tablet-openings"
+                >
+                  Openings
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-openings-select"
+                  name="tablet-openings"
+                  id="tablet-openings"
+                >
+                  <option value="1" disabled selected>
+                    1
+                  </option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="25">25</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-job-type-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-job-type-label"
+                  htmlFor="tablet-job-type"
+                >
+                  Job Type
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-job-type-select"
+                  name="tablet-job-type"
+                  id="tablet-job-type"
+                >
+                  <option value="" disabled selected>
+                    Full Time
+                  </option>
+
+                  <option value="part-time">Part Time</option>
+                  <option value="contract">Contract</option>
+                  <option value="internship">Internship</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-citizenship-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-citizenship-label"
+                  htmlFor="tablet-citizenship"
+                >
+                  Citizenship
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-citizenship-select"
+                  name="tablet-citizenship"
+                  id="tablet-citizenship"
+                >
+                  <option value="US Citizen" disabled selected>
+                    US Citizen
+                  </option>
+                  <option value="VISA">VISA</option>
+                  <option value="Permanent Resident">Permanent Resident</option>
+                  <option value="OPT">OPT</option>
+                  <option value="H1B">H1B</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-type-of-visa-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-type-of-visa-label"
+                  htmlFor="tablet-type-of-visa"
+                >
+                  Type of Visa
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-type-of-visa-select"
+                  name="tablet-type-of-visa"
+                  id="tablet-type-of-visa"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="H1B">H1B</option>
+                  <option value="F1">F1</option>
+                  <option value="J1">J1</option>
+                  <option value="OPT">OPT</option>
+                  <option value="EB-5">EB-5</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-experience-level-salary-type-container">
+              <div className="my-jobs-post-job-page__tablet-experience-level-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-experience-level-label"
+                  htmlFor="tablet-experience-level"
+                >
+                  Experience Level
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-experience-level-select"
+                  name="tablet-experience-level"
+                  id="tablet-experience-level"
+                >
+                  <option value="0 - 1 years" disabled selected>
+                    0 - 1 years
+                  </option>
+                  <option value="1 - 2 years">1 - 2 years</option>
+                  <option value="2 - 3 years">2 - 3 years</option>
+                  <option value="3 - 4 years">3 - 4 years</option>
+                  <option value="4 - 5 years">4 - 5 years</option>
+                  <option value="5 - 6 years">5 - 6 years</option>
+                  <option value="6 - 7 years">6 - 7 years</option>
+                  <option value="7 - 8 years">7 - 8 years</option>
+                  <option value="8 - 9 years">8 - 9 years</option>
+                  <option value="9 - 10 years">9 - 10 years</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-salary-type-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-salary-type-label"
+                  htmlFor="tablet-salary-type"
+                >
+                  Salary Type
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-salary-type-select"
+                  name="tablet-salary-type"
+                  id="tablet-salary-type"
+                >
+                  <option value="annual" disabled selected>
+                    Annual
+                  </option>
+                  <option value="weekly">Weekly</option>
+                  <option value="biweekly">Biweekly</option>
+                  <option value="monthly">Monthly</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-environment-start-date-container">
+              <div className="my-jobs-post-job-page__tablet-environment-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-environment-label"
+                  htmlFor="tablet-environment"
+                >
+                  Environment
+                </label>
+                <select
+                  className="my-jobs-post-job-page__tablet-environment-select"
+                  name="tablet-environment"
+                  id="tablet-environment"
+                >
+                  <option value="on-site" disabled selected>
+                    On-site
+                  </option>
+                  <option value="remote">Remote</option>
+                  <option value="traveling">Traveling</option>
+                </select>
+              </div>
+              <img
+                className="my-jobs-post-job-page__tablet-calendar-icon"
+                src={CalendarIcon}
+                alt="Calendar Icon"
+              />
+              <div className="my-jobs-post-job-page__tablet-start-date-container">
+                <label
+                  className="my-jobs-post-job-page__tablet-start-date-label"
+                  htmlFor="tablet-start-date"
+                >
+                  Start Date
+                </label>
+                <input
+                  className="my-jobs-post-job-page__tablet-start-date-input"
+                  type="text"
+                  placeholder="mm/dd/yy"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-salary-range-container">
+              <p className="my-jobs-post-job-page__tablet-salary-range-header">
+                Salary Range
+              </p>
+              <div className="my-jobs-post-job-page__tablet-salary-range-slider-container">
+                <span className="my-jobs-post-job-page__tablet-salary-range-min-text">
+                  MIN
+                </span>
+                <input
+                  className="my-jobs-post-job-page__tablet-salary-range-input"
+                  type="range"
+                />
+                <span className="my-jobs-post-job-page__tablet-salary-range-max-text">
+                  MAX
+                </span>
+              </div>
+              <div className="my-jobs-post-job-page__tablet-salary-range-values-container">
+                <div className="my-jobs-post-job-page__tablet-salary-range-first-value-container">
+                  <span className="my-jobs-post-job-page__tablet-salary-range-first-value-number">
+                    230,000
+                  </span>
+                </div>
+                <img
+                  className="my-jobs-post-job-page__tablet-minus-sign-salary-icon"
+                  src={MinusSignSalaryIcon}
+                  alt="Minus Sign Salary Icon"
+                />
+                <div className="my-jobs-post-job-page__tablet-salary-range-second-value-container">
+                  <img
+                    className="my-jobs-post-job-page__tablet-dollar-sign-salary-icon"
+                    src={DollarSignSalaryIcon}
+                    alt="Dollar Sign Salary Icon"
+                  />
+                  <span className="my-jobs-post-job-page__tablet-salary-range-second-value-number">
+                    337,000
+                  </span>
+                </div>
               </div>
             </div>
           </div>
