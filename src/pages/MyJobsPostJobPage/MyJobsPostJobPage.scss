@@ -1581,7 +1581,7 @@
         }
 
         &__tablet-fee-type-options-container {
-            margin-left: 24px;
+            margin-left: 0px;
         }
 
         &__tablet-percentage-of-salary-text {
@@ -1594,6 +1594,7 @@
 
         &__tablet-percentage-of-total-compensation-text {
             margin-left: 10px;
+            font-size: 14px;
         }
 
         &__tablet-flat-fee-container {
@@ -1604,18 +1605,23 @@
             margin-left: 10px;
         }
 
+        &__tablet-split-fee-percentage-of-salary-willing-to-negotiate-fee-container {
+            position: absolute;
+            right: 30px;
+            top: 2460px;
+        }
+
         &__tablet-split-fee-percentage-of-salary-container {
-            margin-left: 32px;
-            margin-top: 48px;
             border: 1px solid $medium-gray;
             border-radius: 12px;
-            margin-right: 32px;
             padding-bottom: 32px;
+            width: 520px;
         }
 
         &__tablet-split-fee-percentage-of-salary-header {
             padding-top: 14px;
             padding-left: 24px;
+            font-size: 17px;
         }
 
         &__tablet-split-fee-percentage-of-salary-slider {
@@ -1634,6 +1640,7 @@
             border: 2px solid $soft-black;
             display: flex;
             border-radius: 8px;
+            padding-right: 24px;
         }
 
         &__tablet-split-fee-my-percentage-number {
@@ -1651,6 +1658,7 @@
             border: 2px solid $soft-black;
             display: flex;
             border-radius: 8px;
+            padding-right: 24px;
         }
 
         &__tablet-split-fee-shared-percentage-number {
@@ -1660,6 +1668,147 @@
         }
 
         &__tablet-split-fee-shared-percentage-text {
+            margin-left: 16px;
+        }
+
+        &__tablet-willing-to-negotiate-fee {
+            display: flex;
+            margin-left: 76px;
+            margin-top: 12px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-yes-container {
+            margin-left: 48px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-circle-button-on-icon {
+            width: 24px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-circle-button-off-icon {
+            width: 24px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-yes-text {
+            margin-left: 8px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-no-container {
+            margin-left: 14px;
+        }
+
+        &__tablet-willing-to-negotiate-fee-no-text {
+            margin-left: 8px;
+        }
+
+        &__tablet-placement-fee-container {
+            margin-top: 130px;
+            margin-left: 60px;
+        }
+
+        &__tablet-placement-fee-label {
+            color: $dark-navy;
+        }
+
+        &__tablet-placement-fee-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 250px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-guarantee-period-container {
+            margin-top: 32px;
+            margin-left: 60px;
+        }
+
+        &__tablet-guarantee-period-label {
+            color: $dark-navy;
+        }
+
+        &__tablet-guarantee-period-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 250px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__tablet-fee-agreement {
+            color: $dark-navy;
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-auto-generated-agreement-view-agreement-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 24px;
+        }
+
+        &__tablet-view-agreement-button {
+            border: 1px solid $medium-gray;
+            background-color: $white-background;
+            margin-left: 50px;
+            width: 150px;
+            height: 46px;
+            border-radius: 8px;
+        }
+
+        &__tablet-about-this-agreement-text {
+            margin-left: 32px;
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-post-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            width: 170px;
+            height: 44px;
+            border-radius: 28px;
+            color: $white-text;
+            font-weight: 500;
+        }
+
+        &__tablet-preview-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 170px;
+            height: 44px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
+        &__tablet-save-draft-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 170px;
+            height: 44px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
+        &__tablet-clear-form-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 170px;
+            height: 44px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
             margin-left: 16px;
         }
 

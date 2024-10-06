@@ -1472,7 +1472,7 @@ export default function MyJobsPostJobPage() {
                     alt="Circle Button Off Icon"
                   />
                   <span className="my-jobs-post-job-page__tablet-percentage-of-total-compensation-text">
-                    Percentage of Total Compensation
+                    % of Total Compensation
                   </span>
                 </div>
                 <div className="my-jobs-post-job-page__tablet-flat-fee-container">
@@ -1486,40 +1486,131 @@ export default function MyJobsPostJobPage() {
                   </span>
                 </div>
               </div>
-              <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-willing-to-negotiate-fee-container">
-                <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-container">
-                  <p className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-header">
-                    Split Fee Percentage of Salary
-                  </p>
-                  <input
-                    className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-slider"
-                    type="range"
-                  />
-                  <div className="my-jobs-post-job-page__tablet-split-fee-percentage-value-container">
-                    <div className="my-jobs-post-job-page__tablet-split-fee-my-percentage-container">
-                      <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-number">
-                        50%
-                      </p>
-                      <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-text">
-                        My Percentage
-                      </p>
-                    </div>
-                    <div className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-container">
-                      <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-number">
-                        50%
-                      </p>
-                      <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-text">
-                        Shared Percentage
-                      </p>
-                    </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-willing-to-negotiate-fee-container">
+              <div className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-container">
+                <p className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-header">
+                  Split Fee Percentage of Salary
+                </p>
+                <input
+                  className="my-jobs-post-job-page__tablet-split-fee-percentage-of-salary-slider"
+                  type="range"
+                />
+                <div className="my-jobs-post-job-page__tablet-split-fee-percentage-value-container">
+                  <div className="my-jobs-post-job-page__tablet-split-fee-my-percentage-container">
+                    <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-number">
+                      50%
+                    </p>
+                    <p className="my-jobs-post-job-page__tablet-split-fee-my-percentage-text">
+                      My Percentage
+                    </p>
+                  </div>
+                  <div className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-container">
+                    <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-number">
+                      50%
+                    </p>
+                    <p className="my-jobs-post-job-page__tablet-split-fee-shared-percentage-text">
+                      Shared Percentage
+                    </p>
                   </div>
                 </div>
-                <p className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee">
-                  <span className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-text">
-                    Willing to Negotiate Fee?
-                  </span>
-                </p>
               </div>
+              <div className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee">
+                <span className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-text">
+                  Willing to Negotiate Fee?
+                </span>
+                <div className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-yes-container">
+                  <img
+                    className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-circle-button-on-icon"
+                    src={CircleButtonOnIcon}
+                    alt="Circle Button On Icon"
+                  />
+                  <span className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-yes-text">
+                    Yes
+                  </span>
+                </div>
+                <div className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-no-container">
+                  <img
+                    className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-circle-button-off-icon"
+                    src={CircleButtonOffIcon}
+                    alt="Circle Button Off Icon"
+                  />
+                  <span className="my-jobs-post-job-page__tablet-willing-to-negotiate-fee-no-text">
+                    No
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__tablet-placement-fee-container">
+              <label
+                className="my-jobs-post-job-page__tablet-placement-fee-label"
+                htmlFor="tablet-placement-fee"
+              >
+                Placement Fee
+              </label>
+              <input
+                className="my-jobs-post-job-page__tablet-placement-fee-input"
+                type="text"
+                placeholder="20%"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__tablet-guarantee-period-container">
+              <label
+                className="my-jobs-post-job-page__tablet-guarantee-period-label"
+                htmlFor="tablet-guarantee-period"
+              >
+                Guarantee Period
+              </label>
+              <select
+                className="my-jobs-post-job-page__tablet-guarantee-period-select"
+                name="tablet-guarantee-period"
+                id="tablet-guarantee-period"
+              >
+                <option value="30 days">30 days</option>
+                <option value="1 week">1 week</option>
+                <option value="2 weeks">2 weeks</option>
+                <option value="3 weeks">3 weeks</option>
+                <option value="2 months">2 months</option>
+                <option value="6 months">6 months</option>
+                <option value="1 year">1 year</option>
+              </select>
+            </div>
+            <p className="my-jobs-post-job-page__tablet-fee-agreement">
+              Fee Agreement
+            </p>
+            <div className="my-jobs-post-job-page__tablet-auto-generated-agreement-view-agreement-container">
+              <p className="my-jobs-post-job-page__tablet-mlsa-auto-generated-agreement">
+                MLSA Auto-Generated Agreement
+              </p>
+              <button className="my-jobs-post-job-page__tablet-view-agreement-button">
+                View Agreement
+              </button>
+            </div>
+            <p className="my-jobs-post-job-page__tablet-about-this-agreement-text">
+              About this agreement
+            </p>
+            <div className="my-jobs-post-job-page__tablet-button-container">
+              <button
+                className="my-jobs-post-job-page__tablet-post-button"
+                onClick={handlePostJob}
+              >
+                Post
+              </button>
+              <button className="my-jobs-post-job-page__tablet-preview-button">
+                Preview
+              </button>
+              <button
+                className="my-jobs-post-job-page__tablet-save-draft-button"
+                onClick={handleSaveDraft}
+              >
+                Save Draft
+              </button>
+              <button
+                className="my-jobs-post-job-page__tablet-clear-form-button"
+                onClick={handleClearForm}
+              >
+                Clear Form
+              </button>
             </div>
           </div>
         </div>
