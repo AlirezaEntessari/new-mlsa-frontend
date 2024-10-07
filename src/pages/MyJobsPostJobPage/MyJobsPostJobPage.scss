@@ -933,6 +933,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -1810,6 +1814,297 @@
             color: $dark-navy;
             font-weight: 500;
             margin-left: 16px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-jobs-post-job-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-owner-container {
+            margin-top: 24px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-header {
+            font-size: 30px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+        }
+
+        &__desktop-owner-text {
+            margin-left: 900px;
+            margin-top: 12px;
+        }
+
+        &__desktop-value-assurance-information-is-protected-container {
+            display: flex;
+            margin-left: 120px;
+            margin-top: 16px;
+        }
+
+        &__desktop-value-assurance-icon {
+            width: 150px;
+        }
+
+        &__desktop-information-is-protected-container {
+            margin-top: 16px;
+            margin-left: 32px;
+        }
+
+        &__desktop-information-is-protected-text {
+            font-family: 'Roboto Serif';
+            width: 800px;
+            font-weight: 500;
+        }
+
+        &__desktop-client-name-will-not-be-shared {
+            margin-top: 20px;
+        }
+
+        &__desktop-button-container {
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        &__desktop-upload-job-description-button {
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            background-color: $white-background;
+            width: 230px;
+            height: 46px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-open-archived-job-button {
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            background-color: $white-background;
+            width: 230px;
+            height: 46px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__desktop-open-saved-draft-button {
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            background-color: $white-background;
+            width: 230px;
+            height: 46px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__desktop-batch-upload-button {
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            background-color: $white-background;
+            width: 230px;
+            height: 46px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__desktop-open-job-through-api {
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            background-color: $white-background;
+            width: 230px;
+            height: 46px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__desktop-hot-job-opening-put-on-hold-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 940px;
+        }
+
+        &__desktop-on-hold-button-off-icon {
+            width: 24px;
+        }
+
+        &__desktop-hot-off-icon {
+            width: 36px;
+            margin-left: 10px;
+        }
+
+        &__desktop-on-hold-off-icon {
+            width: 36px;
+            margin-left: 10px;
+        }
+
+        &__desktop-hot-job-opening-text {
+            color: $medium-dark-gray;
+            margin-left: 12px;
+        }
+
+        &__desktop-put-on-hold-container {
+            margin-left: 36px;
+        }
+
+        &__desktop-put-on-hold-text {
+            color: $medium-dark-gray;
+            margin-left: 12px;
+        }
+
+        &__desktop-client-name-agency-job-id-number-container {
+            display: flex;
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+
+        &__desktop-client-name-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 700px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-agency-job-id-number-container {
+            margin-left: 48px;
+        }
+
+        &__desktop-agency-job-id-number-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 700px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-country-state-city-zip-code-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-country-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 336px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-state-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-state-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 336px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-city-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-city-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 336px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-zip-code-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-zip-code-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 336px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-job-title-container {
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-job-title-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1440px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-industry-openings-job-type-citizenship-type-of-visa-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-industry-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 250px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
         }
 
     }

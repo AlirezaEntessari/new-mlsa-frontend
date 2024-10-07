@@ -412,7 +412,7 @@ export default function MyJobsPostJobPage() {
                   name="mobile-type-of-visa"
                   id="mobile-type-of-visa"
                 >
-                  <option value="Select" disabled selected>
+                  <option value="" disabled selected>
                     Select ...
                   </option>
                   <option value="permanent resident">Permanent Resident</option>
@@ -1611,6 +1611,366 @@ export default function MyJobsPostJobPage() {
               >
                 Clear Form
               </button>
+            </div>
+          </div>
+          <div className="my-jobs-post-job-page__desktop-container">
+            <div className="my-jobs-post-job-page__desktop-header-owner-container">
+              <p className="my-jobs-post-job-page__desktop-header">Post Job</p>
+              <p className="my-jobs-post-job-page__desktop-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-value-assurance-information-is-protected-container">
+              <img
+                className="my-jobs-post-job-page__desktop-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-jobs-post-job-page__desktop-information-is-protected-container">
+                <p className="my-jobs-post-job-page__desktop-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-jobs-post-job-page__desktop-client-name-will-not-be-shared">
+                  *Client Name will not be shared without NDA or Partnership
+                  Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-button-container">
+              <button className="my-jobs-post-job-page__desktop-upload-job-description-button">
+                Upload Job Description
+              </button>
+              <button className="my-jobs-post-job-page__desktop-open-archived-job-button">
+                Open Archived Job
+              </button>
+              <button className="my-jobs-post-job-page__desktop-open-saved-draft-button">
+                Open Saved Draft
+              </button>
+              <button className="my-jobs-post-job-page__desktop-batch-upload-button">
+                Batch Upload
+              </button>
+              <button className="my-jobs-post-job-page__desktop-open-job-through-api">
+                Open Job Through API
+              </button>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-hot-job-opening-put-on-hold-container">
+              <div className="my-jobs-post-job-page__desktop-hot-job-opening-container">
+                <img
+                  className="my-jobs-post-job-page__desktop-on-hold-button-off-icon"
+                  src={OnHoldHotButtonOffIcon}
+                  alt="On Hold Button Off Icon"
+                />
+                <img
+                  className="my-jobs-post-job-page__desktop-hot-off-icon"
+                  src={HotOffIcon}
+                  alt="Hot Off Icon"
+                />
+                <span className="my-jobs-post-job-page__desktop-hot-job-opening-text">
+                  Hot Job Opening
+                </span>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-put-on-hold-container">
+                <img
+                  className="my-jobs-post-job-page__desktop-on-hold-button-off-icon"
+                  src={OnHoldHotButtonOffIcon}
+                  alt="On Hold Button Off Icon"
+                />
+                <img
+                  className="my-jobs-post-job-page__desktop-on-hold-off-icon"
+                  src={OnHoldOffIcon}
+                  alt="On Hold Off Icon"
+                />
+                <span className="my-jobs-post-job-page__desktop-put-on-hold-text">
+                  Put On Hold
+                </span>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-client-name-agency-job-id-number-container">
+              <div className="my-jobs-post-job-page__desktop-client-name-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-client-name-label"
+                  htmlFor="desktop-client-name"
+                >
+                  Client Name*
+                </label>
+                <input
+                  className="my-jobs-post-job-page__desktop-client-name-input"
+                  type="text"
+                  id="desktop-client-name"
+                />
+              </div>
+              <div className="my-jobs-post-job-page__desktop-agency-job-id-number-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-agency-job-id-number-label"
+                  htmlFor="desktop-agency-job-id-number"
+                >
+                  Agency Job ID #
+                </label>
+                <input
+                  className="my-jobs-post-job-page__desktop-agency-job-id-number-input"
+                  type="text"
+                  id="desktop-agency-job-id-number"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-country-state-city-zip-code-container">
+              <div className="my-jobs-post-job-page__desktop-country-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-country-label"
+                  htmlFor="desktop-country"
+                >
+                  Country
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-country-select"
+                  name="desktop-country"
+                  id="desktop-country"
+                >
+                  <option value="USA" disabled selected>
+                    USA
+                  </option>
+                  <option value="EU">EU</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-state-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-state-label"
+                  htmlFor="desktop-state"
+                >
+                  State
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-state-select"
+                  name="desktop-state"
+                  id="desktop-state"
+                >
+                  <option value="Alabama" disabled selected>
+                    AL
+                  </option>
+                  <option value="Alaska">AK</option>
+                  <option value="Arizona">AZ</option>
+                  <option value="Arkansas">AR</option>
+                  <option value="California">CA</option>
+                  <option value="Colorado">CO</option>
+                  <option value="Connecticut">CT</option>
+                  <option value="Delaware">DE</option>
+                  <option value="Florida">FL</option>
+                  <option value="Georgia">GA</option>
+                  <option value="Hawaii">HI</option>
+                  <option value="Idaho">ID</option>
+                  <option value="Illinois">IL</option>
+                  <option value="Indiana">IN</option>
+                  <option value="Iowa">IA</option>
+                  <option value="Kansas">KS</option>
+                  <option value="Kentucky">KY</option>
+                  <option value="Louisiana">LA</option>
+                  <option value="Maine">ME</option>
+                  <option value="Maryland">MD</option>
+                  <option value="Massachusetts">MA</option>
+                  <option value="Michigan">MI</option>
+                  <option value="Minnesota">MN</option>
+                  <option value="Missouri">MO</option>
+                  <option value="Montana">MT</option>
+                  <option value="Nebraska">NE</option>
+                  <option value="Nevada">NV</option>
+                  <option value="New Hampshire">NH</option>
+                  <option value="New Jersey">NJ</option>
+                  <option value="New Mexico">NM</option>
+                  <option value="New York">NY</option>
+                  <option value="North Carolina">NC</option>
+                  <option value="North Dakota">ND</option>
+                  <option value="Ohio">OH</option>
+                  <option value="Oklahoma">OK</option>
+                  <option value="Oregon">OR</option>
+                  <option value="Pennsylvania">PA</option>
+                  <option value="Rhode Island">RI</option>
+                  <option value="South Carolina">SC</option>
+                  <option value="South Dakota">SD</option>
+                  <option value="Tennessee">TN</option>
+                  <option value="Texas">TX</option>
+                  <option value="Utah">UT</option>
+                  <option value="Vermont">VT</option>
+                  <option value="Virginia">VA</option>
+                  <option value="Washington">WA</option>
+                  <option value="West Virginia">WV</option>
+                  <option value="Wisconsin">WI</option>
+                  <option value="Wyoming">WY</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-city-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-city-label"
+                  htmlFor="desktop-city"
+                >
+                  City
+                </label>
+                <input
+                  className="my-jobs-post-job-page__desktop-city-input"
+                  type="text"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div className="my-jobs-post-job-page__desktop-zip-code-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-zip-code-label"
+                  htmlFor="desktop-zip-code"
+                >
+                  Zip Code
+                </label>
+                <input
+                  className="my-jobs-post-job-page__desktop-zip-code-input"
+                  type="text"
+                  placeholder="5-digit Zip Code"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-job-title-container">
+              <label
+                className="my-jobs-post-job-page__desktop-job-title-label"
+                htmlFor="desktop-job-title"
+              >
+                Job Title
+              </label>
+              <input
+                className="my-jobs-post-job-page__desktop-job-title-input"
+                type="text"
+                placeholder="Enter Job Title"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__desktop-industry-openings-job-type-citizenship-type-of-visa-container">
+              <div className="my-jobs-post-job-page__desktop-industry-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-industry-label"
+                  htmlFor="desktop-industry-label"
+                >
+                  Industry
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-industry-select"
+                  name="desktop-industry"
+                  id="desktop-industry"
+                >
+                  <option value="aerospace-defense" disabled selected>
+                    Aerospace and Defense
+                  </option>
+                  <option value="professional-services-consulting">
+                    Professional Services/Consulting
+                  </option>
+                  <option value="agricultural">Agricultural</option>
+                  <option value="computers-and-technology">
+                    Computers and Technology
+                  </option>
+                  <option value="conglomerate">Conglomerate</option>
+                  <option value="consumer-goods">Consumer Goods</option>
+                  <option value="financial">Financial</option>
+                  <option value="government">Government</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="insurance">Insurance</option>
+                  <option value="manufacturing">Manufacturing</option>
+                  <option value="oil-and-gas">Oil and Gas</option>
+                  <option value="pharmaceuticals">Pharmaceuticals</option>
+                  <option value="power-and-utilities">
+                    Power and Utilities
+                  </option>
+                  <option value="telecommunications">Telecommunications</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-openings-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-openings-label"
+                  htmlFor="desktop-openings"
+                >
+                  Openings
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-openings-select"
+                  name="desktop-openings"
+                  id="desktop-openings"
+                >
+                  <option value="1" disabled selected>
+                    1
+                  </option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="25">25</option>
+                  <option value="50"></option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-job-type-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-job-type-label"
+                  htmlFor="desktop-job-type"
+                >
+                  Job Type
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-job-type-select"
+                  name="desktop-job-type"
+                  id="desktop-job-type"
+                >
+                  <option value="" disabled selected>
+                    Full Time
+                  </option>
+
+                  <option value="part-time">Part Time</option>
+                  <option value="contract">Contract</option>
+                  <option value="internship">Internship</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-citizenship-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-citizenship-label"
+                  htmlFor="desktop-citizenship"
+                >
+                  Citizenship
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-citizenship-select"
+                  name="desktop-citizenship"
+                  id="desktop-citizenship"
+                >
+                  <option value="US Citizen" disabled selected>
+                    US Citizen
+                  </option>
+                  <option value="VISA">VISA</option>
+                  <option value="Permanent Resident">Permanent Resident</option>
+                  <option value="OPT">OPT</option>
+                  <option value="H1B">H1B</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-type-of-visa-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-type-of-visa-label"
+                  htmlFor="desktop-type-of-visa"
+                >
+                  Type of VISA
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-type-of-visa-select"
+                  name="desktop-type-of-visa"
+                  id="desktop-type-of-visa"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="permanent resident">Permanent Resident</option>
+                  <option value="F1">F1</option>
+                  <option value="H1B">H1B</option>
+                  <option value="J1">J1</option>
+                  <option value="OPT">OPT</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
