@@ -1972,6 +1972,262 @@ export default function MyJobsPostJobPage() {
                 </select>
               </div>
             </div>
+            <div className="my-jobs-post-job-page__desktop-experience-level-salary-type-container">
+              <div className="my-jobs-post-job-page__desktop-experience-level-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-experience-level-label"
+                  htmlFor="desktop-experience-level"
+                >
+                  Experience Level
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-experience-level-select"
+                  name="desktop-experience-level"
+                  id="desktop-experience-level"
+                >
+                  <option value="0 - 1 years" disabled selected>
+                    0 - 1 years
+                  </option>
+                  <option value="1 - 2 years">1 - 2 years</option>
+                  <option value="2 - 3 years">2 - 3 years</option>
+                  <option value="3 - 4 years">3 - 4 years</option>
+                  <option value="4 - 5 years">4 - 5 years</option>
+                  <option value="5 - 6 years">5 - 6 years</option>
+                  <option value="6 - 7 years">6 - 7 years</option>
+                  <option value="7 - 8 years">7 - 8 years</option>
+                  <option value="8 - 9 years">8 - 9 years</option>
+                  <option value="9 - 10 years">9 - 10 years</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-salary-type-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-salary-type-label"
+                  htmlFor="desktop-salary-type"
+                >
+                  Salary Type
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-salary-type-select"
+                  name="desktop-salary-type"
+                  id="desktop-salary-type"
+                >
+                  <option value="annual" disabled selected>
+                    Annual
+                  </option>
+                  <option value="weekly" disabled selected>
+                    Weekly
+                  </option>
+                  <option value="biweekly">Biweekly</option>
+                  <option value="monthly">Monthly</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-environment-start-date-container">
+              <div className="my-jobs-post-job-page__desktop-environment-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-environment-label"
+                  htmlFor="desktop-environment"
+                >
+                  Environment
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-environment-select"
+                  name="desktop-environment"
+                  id="desktop-environment"
+                >
+                  <option value="on-site" disabled selected>
+                    On-site
+                  </option>
+                  <option value="remote">Remote</option>
+                  <option value="traveling">Traveling</option>
+                </select>
+              </div>
+              <img
+                className="my-jobs-post-job-page__desktop-calendar-icon"
+                src={CalendarIcon}
+                alt="Calendar Icon"
+              />
+              <div className="my-jobs-post-job-page__desktop-start-date-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-start-date-label"
+                  htmlFor="desktop-start-date"
+                >
+                  Start Date
+                </label>
+                <input
+                  className="my-jobs-post-job-page__desktop-start-date-input"
+                  type="text"
+                  placeholder="mm/dd/yy"
+                />
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-salary-range-container">
+              <p className="my-jobs-post-job-page__desktop-salary-range-header">
+                Salary Range
+              </p>
+              <div className="my-jobs-post-job-page__desktop-salary-range-slider-container">
+                <span className="my-jobs-post-job-page__desktop-salary-range-min-text">
+                  MIN
+                </span>
+                <input
+                  className="my-jobs-post-job-page__desktop-salary-range-slider"
+                  type="range"
+                />
+                <span className="my-jobs-post-job-page__desktop-salary-range-max-text">
+                  MAX
+                </span>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-salary-range-values-container">
+                <div className="my-jobs-post-job-page__desktop-salary-range-first-value-container">
+                  <p className="my-jobs-post-job-page__desktop-salary-range-first-value-number">
+                    230,000
+                  </p>
+                </div>
+                <img
+                  className="my-jobs-post-job-page__desktop-minus-sign-salary-icon"
+                  src={MinusSignSalaryIcon}
+                  alt="Minus Sign Salary Icon"
+                />
+                <div className="my-jobs-post-job-page__desktop-salary-range-second-value-container">
+                  <img
+                    className="my-jobs-post-job-page__desktop-dollar-sign-salary-icon"
+                    src={DollarSignSalaryIcon}
+                    alt="Dollar Sign Salary Icon"
+                  />
+                  <p className="my-jobs-post-job-page__desktop-salary-range-second-value-number">
+                    337,000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-travel-paid-relocation-bonus-container">
+              <div className="my-jobs-post-job-page__desktop-travel-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-travel-label"
+                  htmlFor="desktop-travel"
+                >
+                  Travel
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-travel-select"
+                  name="desktop-travel"
+                  id="desktop-travel"
+                >
+                  <option value="none required" disabled selected>
+                    None Required
+                  </option>
+                  <option value="weekly">weekly</option>
+                  <option value="biweekly">Biweekly</option>
+                  <option value="monthly">Monthly</option>
+                  <option value="yearly">Yearly</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-paid-relocation-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-paid-relocation-label"
+                  htmlFor="desktop-paid-relocation"
+                >
+                  Paid Relocation
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-paid-relocation-select"
+                  name="desktop-paid-relocation"
+                  id="desktop-paid-relocation"
+                >
+                  <option value="unknown" disabled selected>
+                    Unknown
+                  </option>
+                  <option value="known">Known</option>
+                </select>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-bonus-container">
+                <label
+                  className="my-jobs-post-job-page__desktop-bonus-label"
+                  htmlFor="desktop-bonus"
+                >
+                  Bonus
+                </label>
+                <select
+                  className="my-jobs-post-job-page__desktop-bonus-select"
+                  name="desktop-bonus"
+                  id="desktop-bonus"
+                >
+                  <option value="unknown">Unknown</option>
+                  <option value="known">Known</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-required-education-container">
+              <label
+                className="my-jobs-post-job-page__desktop-required-education-label"
+                htmlFor="desktop-required-education"
+              >
+                Required Education
+              </label>
+              <input
+                className="my-jobs-post-job-page__desktop-required-education-input"
+                type="text"
+                placeholder="Enter Required Education"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__desktop-job-description-container">
+              <label
+                className="my-jobs-post-job-page__desktop-job-description-label"
+                htmlFor="desktop-job-description"
+              >
+                Job Description
+              </label>
+              <textarea
+                className="my-jobs-post-job-page__desktop-job-description-text-area"
+                name="desktop-job-description"
+                id="desktop-job-description"
+                placeholder="Enter Job Description"
+              ></textarea>
+            </div>
+            <p className="my-jobs-post-job-page__desktop-candidate-requirements-text">
+              Candidate Requirements
+            </p>
+            <div className="my-jobs-post-job-page__desktop-requirement-one-container">
+              <p className="my-jobs-post-job-page__desktop-requirement-one-text">
+                Requirement 1
+              </p>
+              <input
+                className="my-jobs-post-job-page__desktop-requirement-one-input"
+                type="text"
+                placeholder="Enter Requirement"
+              />
+            </div>
+            <p className="my-jobs-post-job-page__desktop-add-requirement-container">
+              <span className="my-jobs-post-job-page__desktop-plus-sign">
+                +
+              </span>
+              <span className="my-jobs-post-job-page__desktop-add-requirement-text">
+                Add Requirement
+              </span>
+            </p>
+            <div className="my-jobs-post-job-page__desktop-comments-container">
+              <span className="my-jobs-post-job-page__desktop-comments-text">
+                Comments
+              </span>
+              <input
+                className="my-jobs-post-job-page__desktop-comments-input"
+                type="text"
+                placeholder="Enter Comment"
+              />
+            </div>
+            <div className="my-jobs-post-job-page__desktop-required-skills-container">
+              <label
+                className="my-jobs-post-job-page__desktop-required-skills-label"
+                htmlFor="desktop-required-skills"
+              >
+                Required Skills
+              </label>
+              <input
+                className="my-jobs-post-job-page__desktop-required-skills-input"
+                type="text"
+                id="desktop-required-skills"
+              />
+            </div>
           </div>
         </div>
       </div>

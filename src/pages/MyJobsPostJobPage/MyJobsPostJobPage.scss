@@ -2101,7 +2101,367 @@
             margin-top: 2px;
             color: $dark-gray;
             border: 1px solid $medium-gray;
-            width: 250px;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-openings-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-openings-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-job-type-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-job-type-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-citizenship-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-citizenship-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-type-of-visa-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-type-of-visa-label {
+            color: $medium-dark-gray;
+        }
+
+        &__desktop-type-of-visa-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-experience-level-salary-type-container {
+            margin-left: 80px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__desktop-experience-level-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-salary-type-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-salary-type-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-environment-start-date-container {
+            margin-left: 80px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__desktop-environment-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-calendar-icon {
+            width: 24px;
+            position: absolute;
+            top: 1400px;
+            left: 790px;
+        }
+
+        &__desktop-start-date-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-start-date-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 260px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-salary-range-container {
+            border: 1px solid $medium-gray;
+            position: absolute;
+            top: 1244px;
+            right: 240px;
+            width: 700px;
+            height: 200px;
+            border-radius: 12px;
+        }
+
+        &__desktop-salary-range-header {
+            padding-top: 20px;
+            padding-left: 32px;
+            font-size: 18px;
+        }
+
+        &__desktop-salary-range-slider-container {
+            margin-left: 32px;
+            margin-top: 24px;
+        }
+
+        &__desktop-salary-range-slider {
+            margin-left: 20px;
+            width: 500px;
+        }
+
+        &__desktop-salary-range-max-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-salary-range-values-container {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 32px;
+        }
+
+        &__desktop-salary-range-first-value-container {
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 50px;
+            border-radius: 10px;
+            margin-left: 96px;
+        }
+
+        &__desktop-salary-range-first-value-number {
+            padding-top: 12px;
+            padding-left: 52px;
+        }
+
+        &__desktop-minus-sign-salary-icon {
+            width: 32px;
+            margin-left: 20px;
+        }
+
+        &__desktop-dollar-sign-salary-icon {
+            width: 12px;
+            margin-left: 42px;
+        }
+
+        &__desktop-salary-range-second-value-container {
+            border: 1px solid $medium-gray;
+            width: 170px;
+            margin-left: 20px;
+            height: 50px;
+            padding-top: 12px;
+            border-radius: 10px;
+        }
+
+        &__desktop-salary-range-second-value-number {
+            display: inline;
+            margin-left: 10px;
+        }
+
+        &__desktop-travel-paid-relocation-bonus-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-travel-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 300px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-paid-relocation-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-paid-relocation-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 300px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-bonus-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-bonus-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 300px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-required-education-container {
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-required-education-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1440px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-job-description-container {
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-job-description-text-area {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1440px;
+            border-radius: 12px;
+            height: 300px;
+            padding-left: 10px;
+        }
+
+        &__desktop-candidate-requirements-text {
+            margin-left: 80px;
+            margin-top: 48px;
+            font-size: 20px;
+        }
+
+        &__desktop-requirement-one-container {
+            display: flex;
+            margin-left: 250px;
+        }
+
+        &__desktop-requirement-one-text {
+            margin-top: 18px;
+        }
+
+        &__desktop-requirement-one-input {
+            margin-left: 40px;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1126px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-add-requirement-container {
+            margin-left: 240px;
+            margin-top: 40px;
+        }
+
+        &__desktop-add-requirement-text {
+            margin-left: 24px;
+            font-size: 17px;
+        }
+
+        &__desktop-comments-container {
+            display: flex;
+            margin-left: 250px;
+            margin-top: 40px;
+        }
+
+        &__desktop-comments-text {
+            margin-top: 16px;
+        }
+
+        &__desktop-comments-input {
+            margin-left: 70px;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1126px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-required-skills-container {
+            margin-top: 48px;
+            margin-left: 80px;
+        }
+
+        &__desktop-required-skills-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 1440px;
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
