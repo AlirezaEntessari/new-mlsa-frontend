@@ -2228,6 +2228,166 @@ export default function MyJobsPostJobPage() {
                 id="desktop-required-skills"
               />
             </div>
+            <div className="my-jobs-post-job-page__desktop-fee-type-split-fee-percentage-of-salary-placement-fee-container">
+              <div className="my-jobs-post-job-page__desktop-fee-type-container">
+                <p className="my-jobs-post-job-page__desktop-fee-type-header">
+                  Fee Type
+                </p>
+                <div className="my-jobs-post-job-page__desktop-fee-type-options-container">
+                  <div className="my-jobs-post-job-page__desktop-percentage-of-salary-container">
+                    <img
+                      className="my-jobs-post-job-page__desktop-circle-button-on-icon"
+                      src={CircleButtonOnIcon}
+                      alt="Circle Button On Icon"
+                    />
+                    <span className="my-jobs-post-job-page__desktop-percentage-of-salary-text">
+                      Percentage of Salary
+                    </span>
+                  </div>
+                  <div className="my-jobs-post-job-page__desktop-percentage-of-total-compensation-container">
+                    <img
+                      className="my-jobs-post-job-page__desktop-circle-button-off-icon"
+                      src={CircleButtonOffIcon}
+                      alt="Circle Button Off Icon"
+                    />
+                    <span className="my-jobs-post-job-page__desktop-percentage-of-total-compensation-text">
+                      Percentage of Total Compensation
+                    </span>
+                  </div>
+                  <div className="my-jobs-post-job-page__desktop-flat-fee-container">
+                    <img
+                      className="my-jobs-post-job-page__desktop-circle-button-off-icon"
+                      src={CircleButtonOffIcon}
+                      alt="Circle Button Off Icon"
+                    />
+                    <span className="my-jobs-post-job-page__desktop-flat-fee-text">
+                      Flat Fee
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-split-fee-percentage-of-salary-willing-to-negotiate-fee-container">
+                <div className="my-jobs-post-job-page__desktop-split-fee-percentage-of-salary-container">
+                  <p className="my-jobs-post-job-page__desktop-split-fee-percentage-of-salary-header">
+                    Split Fee Percentage of Salary
+                  </p>
+                  <input
+                    className="my-jobs-post-job-page__desktop-split-fee-slider"
+                    type="range"
+                  />
+                  <div className="my-jobs-post-job-page__desktop-split-fee-percentage-container">
+                    <div className="my-jobs-post-job-page__desktop-my-percentage-container">
+                      <p className="my-jobs-post-job-page__desktop-my-percentage-number">
+                        50%
+                      </p>
+                      <p className="my-jobs-post-job-page__desktop-my-percentage-text">
+                        My Percentage
+                      </p>
+                    </div>
+                    <div className="my-jobs-post-job-page__desktop-shared-percentage-container">
+                      <p className="my-jobs-post-job-page__desktop-shared-percentage-number">
+                        50%
+                      </p>
+                      <p className="my-jobs-post-job-page__desktop-shared-percentage-text">
+                        Shared Percentage
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="my-jobs-post-job-page__desktop-willing-to-negotiate-container">
+                  <p className="my-jobs-post-job-page__desktop-willing-to-negotiate-fee-text">
+                    Willing to Negotiate Fee?
+                  </p>
+                  <div className="my-jobs-post-job-page__desktop-willing-to-negotiate-yes-container">
+                    <img
+                      className="my-jobs-post-job-page__desktop-willing-to-negotiate-fee-circle-button-on-icon"
+                      src={CircleButtonOnIcon}
+                      alt="Circle Button On Icon"
+                    />
+                    <span className="my-jobs-post-job-page__desktop-willing-to-negotiate-fee-yes-text">
+                      Yes
+                    </span>
+                  </div>
+                  <div className="my-jobs-post-job-page__desktop-willing-to-negotiate-no-container">
+                    <img
+                      className="my-jobs-post-job-page__desktop-willing-to-negotiate-fee-circle-button-off-icon"
+                      src={CircleButtonOffIcon}
+                      alt="Circle Button Off Icon"
+                    />
+                    <span className="my-jobs-post-job-page__desktop-willing-to-negotiate-no-text">
+                      No
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="my-jobs-post-job-page__desktop-placement-fee-guarantee-period-container">
+                <div className="my-jobs-post-job-page__desktop-placement-fee-container">
+                  <label
+                    className="my-jobs-post-job-page__desktop-placement-fee-label"
+                    htmlFor="desktop-placement-fee"
+                  >
+                    Placement Fee
+                  </label>
+                  <input
+                    className="my-jobs-post-job-page__desktop-placement-fee-input"
+                    type="text"
+                    placeholder="20%"
+                    id="desktop-placement-fee"
+                  />
+                </div>
+                <div className="my-jobs-post-job-page__desktop-guarantee-period-container">
+                  <label
+                    className="my-jobs-post-job-page__desktop-guarantee-period-label"
+                    htmlFor="desktop-guarantee-period"
+                  >
+                    Guarantee Period
+                  </label>
+                  <select
+                    className="my-jobs-post-job-page__desktop-guarantee-period-select"
+                    name="desktop-guarantee-period"
+                    id="desktop-guarantee-period"
+                  >
+                    <option value="30 days" disabled selected>
+                      30 Days
+                    </option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="3 weeks">3 weeks</option>
+                    <option value="1 month">1 month</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-fee-agreement-container">
+              <p className="my-jobs-post-job-page__desktop-fee-agreement-header">
+                Fee Agreement
+              </p>
+              <div className="my-jobs-post-job-page__desktop-mlsa-auto-generated-agreement-view-agreement-container">
+                <p className="my-jobs-post-job-page__desktop-mlsa-auto-generated-agreement-text">
+                  MLSA Auto-Generated Agreement
+                </p>
+                <button className="my-jobs-post-job-page__desktop-view-agreement-button">
+                  View Agreement
+                </button>
+              </div>
+              <p className="my-jobs-post-job-page__desktop-about-this-agreement-text">
+                About this agreement
+              </p>
+            </div>
+            <div className="my-jobs-post-job-page__desktop-footer-button-container">
+              <button className="my-jobs-post-job-page__desktop-post-button">
+                Post
+              </button>
+              <button className="my-jobs-post-job-page__desktop-preview-button">
+                Preview
+              </button>
+              <button className="my-jobs-post-job-page__desktop-save-draft-button">
+                Save Draft
+              </button>
+              <button className="my-jobs-post-job-page__desktop-clear-form-button">
+                Clear Form
+              </button>
+            </div>
           </div>
         </div>
       </div>

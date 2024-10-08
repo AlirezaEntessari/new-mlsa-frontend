@@ -37,6 +37,7 @@ import MyJobsInterviewsPage from './pages/MyJobsInterviewsPage/MyJobsInterviewsP
 import MyJobsOffersPage from './pages/MyJobsOffersPage/MyJobsOffersPage';
 import MyJobsPlacementsPage from './pages/MyJobsPlacementsPage/MyJobsPlacementsPage';
 import MyJobsPostJobPage from './pages/MyJobsPostJobPage/MyJobsPostJobPage';
+import MyJobsJobDescriptionUploadPage from './pages/MyJobsJobDescriptionUploadPage/MyJobsJobDescriptionUploadPage';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
         <Route path="/my-jobs-offers-page" element={<MyJobsOffersPage />} />
         <Route path="/my-jobs-placements-page" element={<MyJobsPlacementsPage />} />
         <Route path="/my-jobs-post-job-page" element={<MyJobsPostJobPage />} />
+        <Route path="/my-jobs-job-description-upload-page" element={<MyJobsJobDescriptionUploadPage />} />
       </Routes>
       </BrowserRouter>
     </div>

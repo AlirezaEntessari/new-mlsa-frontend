@@ -1,0 +1,39 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-jobs-job-description-upload-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 202px;
+    }
+
+    &__job-description-upload-container {
+        border: 2px solid $medium-dark-gray;
+        margin-top: 48px;
+        margin-left: 20px;
+        width: 450px;
+        height: 1000px;
+    }
+
+    &__job-description-upload-header {
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: $medium-gray;
+        width: 240px;
+        padding-bottom: 16px;
+        border: 2px solid $medium-dark-gray;
+        color: $dark-navy;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+}

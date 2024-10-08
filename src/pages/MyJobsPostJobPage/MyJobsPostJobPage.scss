@@ -2467,6 +2467,241 @@
             padding-left: 10px;
         }
 
+        &__desktop-circle-button-on-icon {
+            width: 24px;
+        }
+
+        &__desktop-circle-button-off-icon {
+            width: 24px;
+        }
+
+        &__desktop-fee-type-split-fee-percentage-of-salary-placement-fee-container {
+            margin-left: 80px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__desktop-split-fee-percentage-of-salary-container {
+            border: 1px solid $medium-gray;
+            width: 584px;
+            margin-left: 120px;
+            padding-bottom: 32px;
+            border-radius: 12px;
+        }
+
+        &__desktop-split-fee-percentage-of-salary-header {
+            padding-top: 16px;
+            padding-left: 32px;
+            font-size: 17px;
+        }
+
+        &__desktop-split-fee-slider {
+            width: 500px;
+            margin-left: 32px;
+            margin-top: 10px;
+        }
+
+        &__desktop-fee-type-header {
+            font-size: 18px;
+        }
+
+        &__desktop-fee-type-options-container {
+            margin-left: 30px;
+        }
+
+        &__desktop-percentage-of-salary-text {
+            margin-left: 10px;
+        }
+
+        &__desktop-percentage-of-total-compensation-container {
+            margin-top: 10px;
+        }
+
+        &__desktop-percentage-of-total-compensation-text {
+            margin-left: 10px;
+        }
+
+        &__desktop-flat-fee-container {
+            margin-top: 10px;
+        }
+
+        &__desktop-flat-fee-text {
+            margin-left: 10px;
+        }
+
+        &__desktop-split-fee-percentage-container {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 32px;
+        }
+
+        &__desktop-my-percentage-container {
+            border: 2px solid $soft-black;
+            display: flex;
+            width: 220px;
+            border-radius: 10px;
+        }
+
+        &__desktop-my-percentage-number {
+            padding-left: 18px;
+            padding-top: 10px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__desktop-my-percentage-text {
+            padding-top: 13px;
+            padding-left: 18px;
+        }
+
+        &__desktop-willing-to-negotiate-fee-circle-button-on-icon {
+            width: 24px;
+        }
+
+        &__desktop-willing-to-negotiate-fee-circle-button-off-icon {
+            width: 24px;
+        }
+
+        &__desktop-shared-percentage-container {
+            border: 2px solid $soft-black;
+            display: flex;
+            margin-left: 50px;
+            width: 234px;
+            border-radius: 10px;
+        }
+
+        &__desktop-shared-percentage-number {
+            padding-left: 18px;
+            padding-top: 10px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__desktop-shared-percentage-text {
+            padding-top: 13px;
+            padding-left: 18px;
+        }
+
+        &__desktop-willing-to-negotiate-container {
+            margin-left: 148px;
+            display: flex;
+            margin-top: 12px;
+        }
+
+        &__desktop-willing-to-negotiate-yes-container {
+            margin-left: 20px;
+        }
+
+        &__desktop-willing-to-negotiate-fee-yes-text {
+            margin-left: 10px;
+        }
+
+        &__desktop-willing-to-negotiate-no-container {
+            margin-left: 20px;
+        }
+
+        &__desktop-willing-to-negotiate-no-text {
+            margin-left: 10px;
+        }
+
+        &__desktop-placement-fee-guarantee-period-container {
+            margin-left: 120px;
+        }
+
+        &__desktop-placement-fee-input {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 300px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-guarantee-period-container {
+            margin-top: 32px;
+        }
+
+        &__desktop-guarantee-period-select {
+            display: block;
+            margin-top: 2px;
+            color: $dark-gray;
+            border: 1px solid $medium-gray;
+            width: 300px;
+            border-radius: 12px;
+            height: 55px;
+            padding-left: 10px;
+        }
+
+        &__desktop-fee-agreement-container {
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__desktop-mlsa-auto-generated-agreement-view-agreement-container {
+            display: flex;
+        }
+
+        &__desktop-view-agreement-button {
+            margin-left: 50px;
+            background-color: $white-background;
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 54px;
+            border-radius: 10px;
+        }
+
+        &__desktop-about-this-agreement-text {
+            text-decoration: underline;
+            color: $dark-navy;
+        }
+
+        &__desktop-footer-button-container {
+            margin-top: 120px;
+            margin-left: 240px;
+        }
+
+        &__desktop-post-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 220px;
+            color: $white-text;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__desktop-preview-button {
+            width: 220px;
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 60px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__desktop-save-draft-button {
+            width: 220px;
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 60px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__desktop-clear-form-button {
+            width: 220px;
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 60px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
     }
 
 }
