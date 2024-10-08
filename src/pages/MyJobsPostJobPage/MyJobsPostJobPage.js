@@ -2375,16 +2375,25 @@ export default function MyJobsPostJobPage() {
               </p>
             </div>
             <div className="my-jobs-post-job-page__desktop-footer-button-container">
-              <button className="my-jobs-post-job-page__desktop-post-button">
+              <button
+                className="my-jobs-post-job-page__desktop-post-button"
+                onClick={handlePostJob}
+              >
                 Post
               </button>
               <button className="my-jobs-post-job-page__desktop-preview-button">
                 Preview
               </button>
-              <button className="my-jobs-post-job-page__desktop-save-draft-button">
+              <button
+                className="my-jobs-post-job-page__desktop-save-draft-button"
+                onClick={handleSaveDraft}
+              >
                 Save Draft
               </button>
-              <button className="my-jobs-post-job-page__desktop-clear-form-button">
+              <button
+                className="my-jobs-post-job-page__desktop-clear-form-button"
+                onClick={handleClearForm}
+              >
                 Clear Form
               </button>
             </div>
