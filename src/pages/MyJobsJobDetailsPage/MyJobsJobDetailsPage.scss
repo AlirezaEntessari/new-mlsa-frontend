@@ -241,6 +241,7 @@
     &__mobile-hot-job-opening-field {
         background-color: $background-light-blue;
         margin-top: 36px;
+        padding-bottom: 5rem;
     }
 
     &__mobile-hot-job-header-container {
@@ -256,6 +257,124 @@
         font-weight: 500;
         margin-left: 60px;
         margin-top: 24px;
+    }
+
+    &__mobile-hot-job-opening-job-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 60px;
+    }
+
+    &__mobile-hot-job-opening-info-container {
+        margin-left: 60px;
+        margin-top: 32px;
+    }
+
+    &__mobile-hot-job-opening-location {
+        margin-bottom: 2px;
+    }
+
+    &__mobile-hot-job-opening-posted-on {
+        margin-bottom: 2px;
+    }
+
+    &__mobile-hot-job-opening-job-type {
+        margin-bottom: 2px;
+    }
+
+    &__mobile-hot-job-opening-start-date {
+        margin-left: 60px;
+        font-weight: 500;
+    }
+
+    &__mobile-hot-job-opening-salary {
+        margin-left: 60px;
+        font-weight: 700;
+    }
+
+    &__mobile-staffing-agency-container {
+        margin-left: 36px;
+        margin-top: 36px;
+    }
+
+    &__mobile-staffing-agency-header-container {
+        display: flex;
+    }
+
+    &__mobile-partner-icon-white-circle {
+        width: 36px;
+    }
+
+    &__mobile-staffing-agency-header-text {
+        margin-left: 16px;
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-staffing-agency-agency-name {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-left: 54px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-staffing-agency-location {
+        margin-left: 54px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-staffing-agency-phone-number {
+        margin-left: 54px;
+        text-decoration: underline;
+    }
+
+    &__mobile-agency-logo-b-icon {
+        margin-top: 32px;
+        margin-left: 48px;
+    }
+
+    &__mobile-staffing-agency-description-container {
+        margin-left: 54px;
+        margin-top: 24px;
+    }
+
+    &__mobile-staffing-agency-description-name-text {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-staffing-agency-description-name-location {
+        margin-bottom: 16px;
+    }
+
+    &__mobile-staffing-agency-description-website {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    &__mobile-job-description-field {
+        padding-bottom: 5rem;
+    }
+
+    &__mobile-job-description-header {
+        margin-left: 36px;
+        margin-top: 48px;
+        font-weight: 500;
+    }
+
+    &__mobile-job-description-field-description {
+        margin-right: 36px;
+        margin-left: 36px;
+        text-align: justify;
+    }
+
+    &__mobile-job-description-list {
+        margin-left: 40px;
+        margin-top: 32px;
+    }
+
+    &__mobile-job-description-list-sixth-bullet {
+        margin-top: 20px;
     }
 
 }
