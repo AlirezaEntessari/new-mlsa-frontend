@@ -38,6 +38,8 @@ import MyJobsOffersPage from './pages/MyJobsOffersPage/MyJobsOffersPage';
 import MyJobsPlacementsPage from './pages/MyJobsPlacementsPage/MyJobsPlacementsPage';
 import MyJobsPostJobPage from './pages/MyJobsPostJobPage/MyJobsPostJobPage';
 import MyJobsJobDescriptionUploadPage from './pages/MyJobsJobDescriptionUploadPage/MyJobsJobDescriptionUploadPage';
+import MyJobsPostJobBatchUploadPage from './pages/MyJobsPostJobBatchUploadPage/MyJobsPostJobBatchUploadPage';
+import MyJobsJobDetailsPage from './pages/MyJobsJobDetailsPage/MyJobsJobDetailsPage';
 
 function App() {
   return (
@@ -82,6 +84,8 @@ function App() {
         <Route path="/my-jobs-placements-page" element={<MyJobsPlacementsPage />} />
         <Route path="/my-jobs-post-job-page" element={<MyJobsPostJobPage />} />
         <Route path="/my-jobs-job-description-upload-page" element={<MyJobsJobDescriptionUploadPage />} />
+        <Route path="/my-jobs-post-job-batch-upload-page" element={<MyJobsPostJobBatchUploadPage />} />
+        <Route path="/my-jobs-job-details-page" element={<MyJobsJobDetailsPage />} />
       </Routes>
       </BrowserRouter>
     </div>
