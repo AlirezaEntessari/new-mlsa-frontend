@@ -353,7 +353,8 @@
     }
 
     &__mobile-job-description-field {
-        padding-bottom: 5rem;
+        padding-bottom: 10rem;
+        background-color: $white-background;
     }
 
     &__mobile-job-description-header {
@@ -375,6 +376,296 @@
 
     &__mobile-job-description-list-sixth-bullet {
         margin-top: 20px;
+    }
+
+    &__mobile-required-education-header {
+        font-weight: 500;
+    }
+
+    &__mobile-required-education-container {
+        margin-left: 36px;
+        margin-top: 48px;
+    }
+
+    &__mobile-required-skills-container {
+        margin-left: 36px;
+        margin-top: 48px;
+    }
+
+    &__mobile-required-skills-header {
+        font-weight: 500;
+    }
+
+    &__mobile-candidate-requirements-container {
+        margin-left: 36px;
+        margin-top: 48px;
+    }
+
+    &__mobile-candidate-requirements-header {
+        font-weight: 500;
+    }
+
+    &__mobile-details-container {
+        margin-left: 36px;
+        margin-top: 48px;
+    }
+
+    &__mobile-details-header {
+        font-weight: 500;
+    }
+
+    &__mobile-bolded-text {
+        font-weight: 500;
+    }
+
+    &__mobile-experience-level-text {
+        margin-left: 64px;
+    }
+
+    &__mobile-details-list-second-bullet {
+        margin-top: 5px;
+    }
+
+    &__mobile-industries-text {
+        margin-left: 72px;
+    }
+
+    &__mobile-details-list-third-bullet {
+        margin-top: 5px;
+    }
+
+    &__mobile-citizenship-text {
+        margin-left: 64px;
+    }
+
+    &__mobile-details-list-fourth-bullet {
+        margin-top: 5px;
+    }
+
+    &__mobile-travel-text {
+        margin-left: 102px;
+    }
+
+    &__mobile-details-list-fifth-bullet {
+        margin-top: 5px;
+    }
+
+    &__mobile-other-text {
+        margin-left: 104px;
+    }
+
+    &__mobile-bottom-container {
+        border: 2px solid $soft-black;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+        height: 280px;
+        border-radius: 12px;
+    }
+
+    &__mobile-fee-type {
+        padding-top: 36px;
+        padding-left: 36px;
+    }
+
+    &__mobile-percentage-of-salary-text {
+        padding-left: 8px;
+    }
+
+    &__mobile-split-fee-percentage {
+        padding-top: 10px;
+        padding-left: 36px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-percentage-text {
+        padding-left: 8px;
+    }
+
+    &__mobile-willing-to-negotiate {
+        margin-left: 36px;
+    }
+
+    &__mobile-placement-fee {
+        margin-left: 36px;
+        padding-top: 10px;
+    }
+
+    &__mobile-placement-fee-text {
+        margin-left: 8px;
+    }
+
+    &__mobile-guarantee-period {
+        margin-left: 36px;
+        margin-top: 24px;
+    }
+
+    &__mobile-30-days-text {
+        margin-left: 8px;
+    }
+
+    &__mobile-bottom-button-container {
+        margin-left: 43px;
+        margin-top: 48px;
+    }
+
+    &__mobile-post-job-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 190px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-edit-job-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        width: 190px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+}
+
+@include tablet {
+
+    .my-jobs-job-details-page {
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 32px;
+        }
+
+        &__tablet-header-text {
+            font-weight: 500;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+        }
+
+        &__tablet-owner-text {
+            margin-left: 280px;
+            margin-top: 8px;
+        }
+
+        &__tablet-value-assurance-container {
+            margin-left: 10px;
+            display: flex;
+            margin-top: 20px;
+        }
+
+        &__tablet-value-assurance-icon {
+            width: 140px;
+        }
+
+        &__tablet-information-is-protected-text {
+            margin-left: 20px;
+            font-weight: 500;
+            font-family: 'Roboto Serif';
+            margin-top: 20px;
+            width: 560px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-client-name-will-not-be-shared {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        &__tablet-middle-information-container {
+            display: flex;
+            margin-left: 48px;
+            margin-top: 24px;
+        }
+
+        &__tablet-mlsa-member-view-container {
+            display: flex;
+        }
+
+        &__tablet-circle-button-on-blue-icon {
+            width: 24px;
+        }
+
+        &__tablet-mlsa-member-view-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-mlsa-partner-view-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-mlsa-partner-view-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        &__tablet-circle-button-off-gray-icon {
+            width: 24px;
+        }
+
+        &__tablet-views-information-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 140px;
+            margin-left: 32px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 10px;
+            height: 56px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-views-text {
+            padding-left: 10px;
+            padding-top: 14px;
+        }
+
+        &__tablet-views-number {
+            font-weight: 500;
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 62px;
+            margin-top: 4px;
+        }
+
+        &__tablet-submissions-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 140px;
+            margin-left: 16px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 10px;
+            height: 56px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-submissions-text {
+            padding-left: 10px;
+            padding-top: 14px;
+        }
+
+        &__tablet-submissions-number {
+            font-weight: 500;
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 16px;
+            margin-top: 4px;
+        }
+
     }
 
 }

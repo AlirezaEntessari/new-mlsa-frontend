@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MyJobsJobDetailsPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import JobsSidePanel from "../../components/JobsSidePanel/JobsSidePanel";
@@ -11,8 +11,20 @@ import OnHoldHotButtonOffIcon from "../../assets/icons/Onholdhotbuttonoff.svg";
 import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
 import PartnerIconWhiteCircle from "../../assets/icons/PartnerIconWhiteCircle.svg";
 import AgencyLogoBIcon from "../../assets/icons/AgencyLogoB.svg";
+import { Link } from "react-router-dom";
+import ModalPostJob from "../../components/ModalPostJob/ModalPostJob";
 
 export default function MyJobsJobDetailsPage() {
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const handlePostJob = () => {
+    setIsModalVisible(true);
+  };
+
+  const closeModal = () => {
+    setIsModalVisible(false);
+  };
+
   return (
     <div className="my-jobs-job-details-page">
       <HeaderWithProfilePic />
@@ -252,12 +264,208 @@ export default function MyJobsJobDetailsPage() {
                 <li className="my-jobs-job-details-page__mobile-job-description-list-seventh-bullet">
                   Familiarity with bulk material.
                 </li>
-                <li></li>
+                <li className="my-jobs-job-details-page__mobile-job-description-list-eighth-bullet">
+                  Proficient with AutoCAD
+                </li>
+                <li className="my-jobs-job-details-page__mobile-job-description-list-ninth-bullet">
+                  Deadline and detail-oriented
+                </li>
               </ul>
+              <div className="my-jobs-job-details-page__mobile-required-education-container">
+                <p className="my-jobs-job-details-page__mobile-required-education-header">
+                  Required Education
+                </p>
+                <p className="my-jobs-job-details-page__mobile-required-education-description">
+                  Bachelor's Degree or Associates Degree in Engineering
+                  Practices and CAD
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__mobile-required-skills-container">
+                <p className="my-jobs-job-details-page__mobile-required-skills-header">
+                  Required Skills
+                </p>
+                <p className="my-jobs-job-details-page__mobile-required-skills-description">
+                  Mechanical Drafting, Manufacturing, Bulk Materials, AutoCAD
+                  Proficiency, Detail Oriented, Deadline Oriented
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__mobile-candidate-requirements-container">
+                <p className="my-jobs-job-details-page__mobile-candidate-requirements-header">
+                  Candidate Requirements
+                </p>
+                <p className="my-jobs-job-details-page__mobile-candidate-requirements-description">
+                  Resident of San Antonio, Texas required
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__mobile-details-container">
+                <p className="my-jobs-job-details-page__mobile-details-header">
+                  Details
+                </p>
+                <ul className="my-jobs-job-details-page__mobile-details-list">
+                  <li className="my-jobs-job-details-page__mobile-details-list-first-bullet">
+                    <span className="my-jobs-job-details-page__mobile-bolded-text">
+                      Experience:
+                    </span>
+                    <span className="my-jobs-job-details-page__mobile-experience-level-text">
+                      Entry level Industrial Machinery
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__mobile-details-list-second-bullet">
+                    <span className="my-jobs-job-details-page__mobile-bolded-text">
+                      Industries:
+                    </span>
+                    <span className="my-jobs-job-details-page__mobile-industries-text">
+                      Manufacturing
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__mobile-details-list-third-bullet">
+                    <span className="my-jobs-job-details-page__mobile-bolded-text">
+                      Citizenship:
+                    </span>
+                    <span className="my-jobs-job-details-page__mobile-citizenship-text">
+                      US Citizen, VISA
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__mobile-details-list-fourth-bullet">
+                    <span className="my-jobs-job-details-page__mobile-bolded-text">
+                      Travel:
+                    </span>
+                    <span className="my-jobs-job-details-page__mobile-travel-text">
+                      None required
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__mobile-details-list-fifth-bullet">
+                    <span className="my-jobs-job-details-page__mobile-bolded-text">
+                      Other:
+                    </span>
+                    <span className="my-jobs-job-details-page__mobile-other-text">
+                      Paid Relocation Bonus
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="my-jobs-job-details-page__mobile-bottom-container">
+                <p className="my-jobs-job-details-page__mobile-fee-type">
+                  <span className="my-jobs-job-details-page__mobile-bolded-text">
+                    Fee Type:
+                  </span>
+                  <span className="my-jobs-job-details-page__mobile-percentage-of-salary-text">
+                    Percentage of Salary
+                  </span>
+                </p>
+                <p className="my-jobs-job-details-page__mobile-split-fee-percentage">
+                  <span className="my-jobs-job-details-page__mobile-bolded-text">
+                    Split Fee Percentage:
+                  </span>
+                  <span className="my-jobs-job-details-page__mobile-percentage-text">
+                    50% 50%
+                  </span>
+                </p>
+                <p className="my-jobs-job-details-page__mobile-willing-to-negotiate">
+                  *Willing to negotiate
+                </p>
+                <p className="my-jobs-job-details-page__mobile-placement-fee">
+                  <span className="my-jobs-job-details-page__mobile-bolded-text">
+                    Placement Fee:
+                  </span>
+                  <span className="my-jobs-job-details-page__mobile-placement-fee-text">
+                    20%
+                  </span>
+                </p>
+                <p className="my-jobs-job-details-page__mobile-guarantee-period">
+                  <span className="my-jobs-job-details-page__mobile-bolded-text">
+                    Guarantee Period:
+                  </span>
+                  <span className="my-jobs-job-details-page__mobile-30-days-text">
+                    30 days
+                  </span>
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__mobile-bottom-button-container">
+                <button
+                  onClick={handlePostJob}
+                  className="my-jobs-job-details-page__mobile-post-job-button"
+                >
+                  Post Job
+                </button>
+                <Link to="/my-jobs-post-job-page">
+                  <button className="my-jobs-job-details-page__mobile-edit-job-button">
+                    Edit Job
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="my-jobs-job-details-page__tablet-container">
+            <div className="my-jobs-job-details-page__tablet-header-container">
+              <p className="my-jobs-job-details-page__tablet-header-text">
+                Job Details
+              </p>
+              <p className="my-jobs-job-details-page__tablet-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-jobs-job-details-page__tablet-value-assurance-container">
+              <img
+                className="my-jobs-job-details-page__tablet-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-jobs-job-details-page__tablet-information-is-protected-client-name-will-not-be-shared-container">
+                <p className="my-jobs-job-details-page__tablet-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-jobs-job-details-page__tablet-client-name-will-not-be-shared">
+                  *Client Name will not be shared without NDA or Partnership
+                  Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__tablet-middle-information-container">
+              <div className="my-jobs-job-details-page__tablet-views-container">
+                <div className="my-jobs-job-details-page__tablet-mlsa-member-view-container">
+                  <img
+                    className="my-jobs-job-details-page__tablet-circle-button-on-blue-icon"
+                    src={CircleButtonOnBlueIcon}
+                    alt="Circle Button On Blue Icon"
+                  />
+                  <span className="my-jobs-job-details-page__tablet-mlsa-member-view-text">
+                    MLSA Member View
+                  </span>
+                </div>
+                <div className="my-jobs-job-details-page__tablet-mlsa-partner-view-container">
+                  <img
+                    className="my-jobs-job-details-page__tablet-circle-button-off-gray-icon"
+                    src={CircleButtonOffGrayIcon}
+                    alt="Circle Button Off Gray Icon"
+                  />
+                  <span className="my-jobs-job-details-page__tablet-mlsa-partner-view-text">
+                    MLSA Partner View
+                  </span>
+                </div>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-views-information-container">
+                <p className="my-jobs-job-details-page__tablet-views-text">
+                  Views
+                </p>
+                <p className="my-jobs-job-details-page__tablet-views-number">
+                  0
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-submissions-container">
+                <p className="my-jobs-job-details-page__tablet-submissions-text">
+                  Submissions
+                </p>
+                <p className="my-jobs-job-details-page__tablet-submissions-number">
+                  0
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {isModalVisible && <ModalPostJob closeModal={closeModal} />}
     </div>
   );
 }
