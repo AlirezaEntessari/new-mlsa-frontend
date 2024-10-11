@@ -461,6 +461,232 @@ export default function MyJobsJobDetailsPage() {
                   0
                 </p>
               </div>
+              <div className="my-jobs-job-details-page__tablet-interviewing-container">
+                <p className="my-jobs-job-details-page__tablet-interviewing-text">
+                  Interviewing
+                </p>
+                <p className="my-jobs-job-details-page__tablet-interviewing-number">
+                  0
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-pending-offers-container">
+                <p className="my-jobs-job-details-page__tablet-pending-offers-text">
+                  Pending Offers
+                </p>
+                <p className="my-jobs-job-details-page__tablet-pending-offers-number">
+                  0
+                </p>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__tablet-hot-job-opening-put-on-hold-container">
+              <div className="my-jobs-job-details-page__tablet-hot-job-opening-container">
+                <img
+                  className="my-jobs-job-details-page__tablet-hot-job-opening-circle-button-on-blue-icon"
+                  src={CircleButtonOnBlueIcon}
+                  alt="Circle Button On Blue Icon"
+                />
+                <img
+                  className="my-jobs-job-details-page__tablet-hot-jobs-on-icon"
+                  src={HotJobsOnIcon}
+                  alt="Hot Jobs On Icon"
+                />
+                <span className="my-jobs-job-details-page__tablet-hot-job-opening-text">
+                  Hot Job Opening
+                </span>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-put-on-hold-container">
+                <img
+                  className="my-jobs-job-details-page__tablet-hot-job-opening-on-hold-hot-button-off-icon"
+                  src={OnHoldHotButtonOffIcon}
+                  alt="On Hold Hot Button Off Icon"
+                />
+                <img
+                  className="my-jobs-job-details-page__tablet-on-hold-off-icon"
+                  src={OnHoldOffIcon}
+                  alt="On Hold Off Icon"
+                />
+                <span className="my-jobs-job-details-page__tablet-put-on-hold-text">
+                  Put On Hold
+                </span>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__tablet-hot-job-opening-field">
+              <div className="my-jobs-job-details-page__tablet-hot-job-opening-header-container">
+                <img
+                  className="my-jobs-job-details-page__tablet-hot-job-opening-hot-jobs-on-icon"
+                  src={HotJobsOnIcon}
+                  alt="Hot Jobs On Icon"
+                />
+                <span className="my-jobs-job-details-page__tablet-hot-job-opening-field-text">
+                  Hot Job Opening
+                </span>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-hot-job-opening-main-container">
+                <div className="my-jobs-job-details-page__tablet-hot-job-opening-field-left-container">
+                  <p className="my-jobs-job-details-page__tablet-job-id">
+                    Job ID# 73849020
+                  </p>
+                  <p className="my-jobs-job-details-page__tablet-hot-job-opening-position-name">
+                    Mechanical Engineer Designer
+                  </p>
+                  <div className="my-jobs-job-details-page__tablet-hot-job-opening-general-information-container">
+                    <p className="my-jobs-job-details-page__tablet-hot-job-opening-location">
+                      Location: San Antonio, TX
+                    </p>
+                    <p className="my-jobs-job-details-page__tablet-hot-job-opening-posted-on-information">
+                      Posted on: 08/07/2024
+                    </p>
+                    <p className="my-jobs-job-details-page__tablet-hot-job-opening-job-type">
+                      Job Type: Full Time
+                    </p>
+                    <p className="my-jobs-job-details-page__tablet-hot-job-opening-environment">
+                      Environment: On-Site
+                    </p>
+                  </div>
+                  <p className="my-jobs-job-details-page__tablet-start-date-information">
+                    Start Date: 09/15/2024
+                  </p>
+                  <p className="my-jobs-job-details-page__tablet-salary-information">
+                    Salary $110,000 - 145,000 Yearly
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__tablet-hot-job-opening-field-right-container">
+                  <div className="my-jobs-job-details-page__tablet-hot-job-opening-field-right-header-container">
+                    <img
+                      className="my-jobs-job-details-page__tablet-hot-job-opening-partner-icon-white-circle"
+                      src={PartnerIconWhiteCircle}
+                      alt="Partner Icon White Circle"
+                    />
+                    <p className="my-jobs-job-details-page__tablet-hot-job-opening-field-right-header-text">
+                      Staffing Agency
+                    </p>
+                  </div>
+                  <p className="my-jobs-job-details-page__tablet-hot-job-opening-agency-name">
+                    HumanRe Agency
+                  </p>
+                  <p className="my-jobs-job-details-page__tablet-hot-job-opening-right-container-location-name">
+                    Austin, TX
+                  </p>
+                  <p className="my-jobs-job-details-page__tablet-hot-job-opening-right-container-phone-number">
+                    561-123-4567
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__tablet-job-description-field">
+              <p className="my-jobs-job-details-page__tablet-job-description-header">
+                Job Description
+              </p>
+              <p className="my-jobs-job-details-page__tablet-job-description-text">
+                We are seeking a Mechanical Engineer Designer to become a part
+                of our team! You will prepare detailed working diagrams of
+                industrial facilities as well as identify areas of improvement
+                to increase efficiency.
+              </p>
+              <ul className="my-jobs-job-details-page__tablet-job-description-list">
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-one">
+                  Prepare diagrams and drafts for Bulk Material Systems
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-two">
+                  Calculate dimensions and tolerance
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-three">
+                  Review and modify designs so that the systems can be installed
+                  in the field
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-four">
+                  Provide timely updates for drawing completion and workload
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-five">
+                  Coordinate with other colleagues regarding complex designs
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-six">
+                  Previous experience in mechanical drafting, manufacturing or
+                  other related fields
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-seven">
+                  Familiarity with bulk material
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-eight">
+                  Proficient with AutoCAD
+                </li>
+                <li className="my-jobs-job-details-page__tablet-job-description-list-bullet-nine">
+                  Deadline and detail-oriented
+                </li>
+              </ul>
+              <div className="my-jobs-job-details-page__tablet-required-education-container">
+                <p className="my-jobs-job-details-page__tablet-required-education-header">
+                  Required Education
+                </p>
+                <p className="my-jobs-job-details-page__tablet-required-education-description">
+                  Bachelor's Degree or Associates Degree in Engineering
+                  Practices and CAD
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-required-skills-container">
+                <p className="my-jobs-job-details-page__tablet-required-skills-header">
+                  Required Skills
+                </p>
+                <p className="my-jobs-job-details-page__tablet-required-skills-description">
+                  Mechanical Drafting, Manufacturing, Bulk Materials, AutoCAD
+                  Proficiency, Detail Oriented, Deadline Oriented
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-candidate-requirements-container">
+                <p className="my-jobs-job-details-page__tablet-candidate-requirements-header">
+                  Candidate Requirements
+                </p>
+                <p className="my-jobs-job-details-page__tablet-candidate-requirements-description">
+                  Resident of San Antonio Texas, required
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-details-container">
+                <p className="my-jobs-job-details-page__tablet-details-header">
+                  Details
+                </p>
+                <ul className="my-jobs-job-details-page__tablet-details-list">
+                  <li className="my-jobs-job-details-page__tablet-details-experience-level-bullet">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Experience level:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-experience-level-text">
+                      Entry level
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__tablet-details-industries-bullet">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Industries:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-industries-text">
+                      Industrial Machinery Manufacturing
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__tablet-citizenship-bullet">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Citizenship:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-citizenship-text">
+                      US Citizen, VISA
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__tablet-travel-bullet">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Travel:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-travel-text">
+                      None required
+                    </span>
+                  </li>
+                  <li className="my-jobs-job-details-page__tablet-other-bullet">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Other:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-other-text">
+                      Paid Relocation Bonus
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

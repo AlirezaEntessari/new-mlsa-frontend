@@ -529,11 +529,16 @@
         margin-left: 24px;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
 
     .my-jobs-job-details-page {
+        padding-bottom: 10rem;
 
         &__main-container {
             display: flex;
@@ -541,6 +546,10 @@
 
         &__mobile-container {
             display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
         }
 
         &__tablet-header-container {
@@ -587,8 +596,8 @@
 
         &__tablet-middle-information-container {
             display: flex;
-            margin-left: 48px;
-            margin-top: 24px;
+            margin-left: 24px;
+            margin-top: 48px;
         }
 
         &__tablet-mlsa-member-view-container {
@@ -619,8 +628,8 @@
         &__tablet-views-information-container {
             border: 1px solid $medium-gray;
             display: flex;
-            width: 140px;
-            margin-left: 32px;
+            width: 120px;
+            margin-left: 24px;
             border-bottom-left-radius: 12px;
             border-top-right-radius: 12px;
             border-bottom-right-radius: 10px;
@@ -631,20 +640,21 @@
         &__tablet-views-text {
             padding-left: 10px;
             padding-top: 14px;
+            font-size: 14px;
         }
 
         &__tablet-views-number {
             font-weight: 500;
             font-size: 28px;
             color: $dark-gray;
-            margin-left: 62px;
+            margin-left: 48px;
             margin-top: 4px;
         }
 
         &__tablet-submissions-container {
             border: 1px solid $medium-gray;
             display: flex;
-            width: 140px;
+            width: 120px;
             margin-left: 16px;
             border-bottom-left-radius: 12px;
             border-top-right-radius: 12px;
@@ -656,14 +666,288 @@
         &__tablet-submissions-text {
             padding-left: 10px;
             padding-top: 14px;
+            font-size: 14px;
         }
 
         &__tablet-submissions-number {
             font-weight: 500;
             font-size: 28px;
             color: $dark-gray;
-            margin-left: 16px;
+            margin-left: 10px;
             margin-top: 4px;
+        }
+
+        &__tablet-interviewing-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 120px;
+            margin-left: 16px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 10px;
+            height: 56px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-interviewing-text {
+            padding-left: 10px;
+            padding-top: 14px;
+            font-size: 14px;
+        }
+
+        &__tablet-interviewing-number {
+            font-weight: 500;
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 10px;
+            margin-top: 4px;
+        }
+
+        &__tablet-pending-offers-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 130px;
+            margin-left: 16px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 10px;
+            height: 56px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-pending-offers-text {
+            padding-left: 10px;
+            padding-top: 17px;
+            font-size: 12px;
+        }
+
+        &__tablet-pending-offers-number {
+            font-weight: 500;
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 14px;
+            margin-top: 4px;
+        }
+
+        &__tablet-hot-job-opening-put-on-hold-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 354px;
+        }
+
+        &__tablet-hot-job-opening-circle-button-on-blue-icon {
+            width: 24px;
+        }
+
+        &__tablet-hot-jobs-on-icon {
+            width: 36px;
+            margin-left: 6px;
+        }
+
+        &__tablet-hot-job-opening-text {
+            color: $rust;
+            margin-left: 4px;
+        }
+
+        &__tablet-hot-job-opening-on-hold-hot-button-off-icon {
+            width: 24px;
+            margin-left: 50px;
+        }
+
+        &__tablet-on-hold-off-icon {
+            width: 36px;
+            margin-left: 6px;
+        }
+
+        &__tablet-put-on-hold-text {
+            color: $medium-dark-gray;
+            margin-left: 5px;
+        }
+
+        &__tablet-hot-job-opening-field {
+            background-color: $background-light-blue;
+            margin-top: 36px;
+            padding-bottom: 36px;
+        }
+
+        &__tablet-hot-job-opening-header-container {
+            padding-top: 36px;
+            padding-left: 48px;
+        }
+
+        &__tablet-hot-job-opening-hot-jobs-on-icon {
+            width: 36px;
+        }
+
+        &__tablet-hot-job-opening-field-text {
+            color: $logo-orange;
+            margin-left: 6px;
+        }
+
+        &__tablet-hot-job-opening-main-container {
+            display: flex;
+        }
+
+        &__tablet-hot-job-opening-field-left-container {
+            margin-left: 48px;
+            margin-top: 32px;
+        }
+
+        &__tablet-job-id {
+            font-weight: 500;
+        }
+
+        &__tablet-hot-job-opening-position-name {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-hot-job-opening-location {
+            margin-bottom: 4px;
+        }
+
+        &__tablet-hot-job-opening-posted-on-information {
+            margin-bottom: 4px;
+        }
+
+        &__tablet-hot-job-opening-job-type {
+            margin-bottom: 4px;
+        }
+
+        &__tablet-start-date-information {
+            font-weight: 500;
+        }
+
+        &__tablet-salary-information {
+            font-weight: 500;
+        }
+
+        &__tablet-hot-job-opening-partner-icon-white-circle {
+            width: 36px;
+        }
+
+        &__tablet-hot-job-opening-field-right-container {
+            margin-left: 110px;
+            margin-top: 18px;
+        }
+
+        &__tablet-hot-job-opening-field-right-header-container {
+            display: flex;
+        }
+
+        &__tablet-hot-job-opening-field-right-header-text {
+            margin-left: 6px;
+            margin-top: 12px;
+        }
+
+        &__tablet-hot-job-opening-agency-name {
+            font-weight: 500;
+            text-decoration: underline;
+            margin-left: 44px;
+        }
+
+        &__tablet-hot-job-opening-right-container-location-name {
+            margin-left: 44px;
+        }
+
+        &__tablet-hot-job-opening-right-container-phone-number {
+            margin-left: 44px;
+        }
+
+        &__tablet-job-description-header {
+            margin-top: 32px;
+            margin-left: 44px;
+            font-weight: 500;
+        }
+
+        &__tablet-job-description-text {
+            margin-left: 44px;
+            margin-right: 40px;
+            text-align: justify;
+        }
+
+        &__tablet-job-description-list {
+            margin-left: 60px;
+        }
+
+        &__tablet-job-description-list-bullet-six {
+            margin-top: 32px;
+        }
+
+        &__tablet-required-education-container {
+            margin-left: 44px;
+            margin-top: 48px;
+        }
+
+        &__tablet-required-education-header {
+            font-weight: 500;
+        }
+
+        &__tablet-required-skills-container {
+            margin-left: 44px;
+            margin-top: 48px;
+        }
+
+        &__tablet-required-skills-header {
+            font-weight: 500;
+        }
+
+        &__tablet-candidate-requirements-container {
+            margin-left: 44px;
+            margin-top: 48px;
+        }
+
+        &__tablet-candidate-requirements-header {
+            font-weight: 500;
+        }
+
+        &__tablet-details-container {
+            margin-left: 44px;
+            margin-top: 48px;
+        }
+
+        &__tablet-details-header {
+            font-weight: 500;
+        }
+
+        &__tablet-bolded-text {
+            font-weight: 500;
+        }
+
+        &__tablet-experience-level-text {
+            margin-left: 100px;
+        }
+
+        &__tablet-industries-text {
+            margin-left: 146px;
+        }
+
+        &__tablet-citizenship-text {
+            margin-left: 138px;
+        }
+
+        &__tablet-travel-text {
+            margin-left: 175px;
+        }
+
+        &__tablet-other-text {
+            margin-left: 175px;
+        }
+
+        &__tablet-details-industries-bullet {
+            margin-top: 5px;
+        }
+
+        &__tablet-citizenship-bullet {
+            margin-top: 5px;
+        }
+
+        &__tablet-travel-bullet {
+            margin-top: 5px;
+        }
+
+        &__tablet-other-bullet {
+            margin-top: 5px;
         }
 
     }
