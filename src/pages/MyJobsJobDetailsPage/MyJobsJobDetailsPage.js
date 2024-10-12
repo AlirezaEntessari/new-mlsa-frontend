@@ -687,6 +687,129 @@ export default function MyJobsJobDetailsPage() {
                   </li>
                 </ul>
               </div>
+              <div className="my-jobs-job-details-page__tablet-bottom-container">
+                <div className="my-jobs-job-details-page__tablet-fee-type-placement-fee-container">
+                  <p className="my-jobs-job-details-page__tablet-fee-type">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Fee Type:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-percentage-of-salary-text">
+                      Percentage of Salary
+                    </span>
+                  </p>
+                  <p className="my-jobs-job-details-page__tablet-placement-fee">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Placement Fee:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-placement-fee-text">
+                      20%
+                    </span>
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__tablet-split-fee-percentage-guarantee-period-container">
+                  <div className="my-jobs-job-details-page__tablet-split-fee-percentage">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Split Fee Percentage:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-split-fee-percentage-text">
+                      50% 50%
+                    </span>
+                    <p className="my-jobs-job-details-page__tablet-bottom-container-willing-to-negotiate">
+                      *Willing to negotiate
+                    </p>
+                  </div>
+                  <p className="my-jobs-job-details-page__tablet-guarantee-period">
+                    <span className="my-jobs-job-details-page__tablet-bolded-text">
+                      Guarantee Period:
+                    </span>
+                    <span className="my-jobs-job-details-page__tablet-guarantee-period-text">
+                      30 days
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-job-details-page__tablet-bottom-button-container">
+                <button
+                  onClick={handlePostJob}
+                  className="my-jobs-job-details-page__tablet-post-job-button"
+                >
+                  Post Job
+                </button>
+                <Link to="/my-jobs-post-job-page">
+                  <button className="my-jobs-job-details-page__tablet-edit-job-button">
+                    Edit Job
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="my-jobs-job-details-page__desktop-container">
+            <div className="my-jobs-job-details-page__desktop-header-container">
+              <p className="my-jobs-job-details-page__desktop-header-text">
+                Job Details
+              </p>
+              <p className="my-jobs-job-details-page__desktop-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-value-assurance-container">
+              <img
+                className="my-jobs-job-details-page__desktop-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-jobs-job-details-page__desktop-information-is-protected-container">
+                <p className="my-jobs-job-details-page__desktop-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-jobs-job-details-page__desktop-client-name-will-not-be-shared">
+                  *Client Name will not be shared without NDA or Partnership
+                  Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-views-status-container">
+              <div className="my-jobs-job-details-page__desktop-views-container">
+                <div className="my-jobs-job-details-page__desktop-mlsa-member-view-container">
+                  <img
+                    className="my-jobs-job-details-page__desktop-circle-button-on-blue-icon"
+                    src={CircleButtonOnBlueIcon}
+                    alt="Circle Button On Blue Icon"
+                  />
+                  <p className="my-jobs-job-details-page__desktop-mlsa-member-view-text">
+                    MLSA Member View
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-mlsa-partner-view-container">
+                  <img
+                    className="my-jobs-job-details-page__desktop-circle-button-off-gray-icon"
+                    src={CircleButtonOffGrayIcon}
+                    alt="Circle Button Off Gray Icon"
+                  />
+                  <p className="my-jobs-job-details-page__desktop-mlsa-partner-view-text">
+                    MLSA Partner View
+                  </p>
+                </div>
+              </div>
+              <div className="my-jobs-job-details-page__desktop-status-container">
+                <div className="my-jobs-job-details-page__desktop-status-views-container">
+                  <p className="my-jobs-job-details-page__desktop-views-text">
+                    Views
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-views-number">
+                    0
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-submissions-container">
+                  <p className="my-jobs-job-details-page__desktop-submissions-text">
+                    Submissions
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-submissions-number">
+                    0
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

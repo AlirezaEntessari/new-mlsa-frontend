@@ -533,6 +533,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -948,6 +952,244 @@
 
         &__tablet-other-bullet {
             margin-top: 5px;
+        }
+
+        &__tablet-bottom-container {
+            border: 1px solid $soft-black;
+            margin-top: 48px;
+            margin-left: 60px;
+            margin-right: 60px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            padding-bottom: 2rem;
+        }
+
+        &__tablet-fee-type-placement-fee-container {
+            display: flex;
+            padding-left: 48px;
+            padding-top: 48px;
+        }
+
+        &__tablet-percentage-of-salary-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-placement-fee {
+            margin-left: 120px;
+        }
+
+        &__tablet-placement-fee-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-split-fee-percentage-guarantee-period-container {
+            display: flex;
+            margin-left: 48px;
+            margin-top: 24px;
+        }
+
+        &__tablet-split-fee-percentage-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-bottom-container-willing-to-negotiate {
+            margin-top: 5px;
+        }
+
+        &__tablet-guarantee-period {
+            margin-left: 115px;
+        }
+
+        &__tablet-guarantee-period-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-bottom-button-container {
+            margin-top: 48px;
+            margin-left: 182px;
+        }
+
+        &__tablet-post-job-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            height: 48px;
+            width: 200px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__tablet-edit-job-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 200px;
+            height: 48px;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 32px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-jobs-job-details-page {
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            margin-top: 16px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-header-text {
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+            font-size: 36px;
+        }
+
+        &__desktop-owner-text {
+            margin-top: 14px;
+            margin-left: 900px;
+            font-size: 18px;
+        }
+
+        &__desktop-value-assurance-container {
+            display: flex;
+            margin-left: 120px;
+            margin-top: 48px;
+        }
+
+        &__desktop-value-assurance-icon {
+            width: 250px;
+        }
+
+        &__desktop-information-is-protected-container {
+            margin-top: 32px;
+            margin-left: 48px;
+        }
+
+        &__desktop-information-is-protected-text {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 22px;
+            width: 900px;
+        }
+
+        &__desktop-client-name-will-not-be-shared {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        &__desktop-views-status-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 120px;
+        }
+
+        &__desktop-mlsa-member-view-container {
+            display: flex;
+        }
+
+        &__desktop-circle-button-on-blue-icon {
+            width: 24px;
+        }
+
+        &__desktop-mlsa-member-view-text {
+            margin-top: 14px;
+            margin-left: 10px;
+        }
+
+        &__desktop-mlsa-partner-view-container {
+            display: flex;
+        }
+
+        &__desktop-circle-button-off-gray-icon {
+            width: 24px;
+        }
+
+        &__desktop-mlsa-partner-view-text {
+            margin-top: 14px;
+            margin-left: 10px;
+        }
+
+        &__desktop-status-container {
+            margin-left: 200px;
+            display: flex;
+        }
+
+        &__desktop-status-views-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 180px;
+            height: 72px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__desktop-views-text {
+            padding-top: 20px;
+            font-weight: 500;
+            padding-left: 16px;
+        }
+
+        &__desktop-views-number {
+            padding-left: 84px;
+            font-weight: 700;
+            font-size: 36px;
+            color: $dark-gray;
+            padding-top: 4px;
+        }
+
+        &__desktop-submissions-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 180px;
+            height: 72px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 32px;
+        }
+
+        &__desktop-submissions-text {
+            padding-top: 20px;
+            font-weight: 500;
+            padding-left: 16px;
+        }
+
+        &__desktop-submissions-number {
+            padding-left: 40px;
+            font-weight: 700;
+            font-size: 36px;
+            color: $dark-gray;
+            padding-top: 4px;
         }
 
     }
