@@ -1041,7 +1041,7 @@
 @include desktop {
 
     .my-jobs-job-details-page {
-        padding-bottom: 10rem;
+        padding-bottom: 20rem;
 
         &__main-container {
             display: flex;
@@ -1290,6 +1290,7 @@
             background-color: $background-light-blue;
             margin-top: 40px;
             width: 1690px;
+            display: flex;
         }
 
         &__desktop-hot-job-opening-field-header-container {
@@ -1320,6 +1321,243 @@
             margin-left: 120px;
             font-weight: 500;
             font-size: 24px;
+        }
+
+        &__desktop-hot-job-opening-field-general-information-container {
+            margin-left: 120px;
+        }
+
+        &__desktop-hot-job-opening-field-location {
+            margin-bottom: 4px;
+        }
+
+        &__desktop-hot-job-opening-field-posted-on-date {
+            margin-bottom: 4px;
+        }
+
+        &__desktop-hot-job-opening-field-job-type {
+            margin-bottom: 4px;
+        }
+
+        &__desktop-start-date {
+            font-weight: 500;
+            margin-left: 120px;
+        }
+
+        &__desktop-salary-range {
+            font-weight: 500;
+            margin-left: 120px;
+        }
+
+        &__desktop-hot-job-opening-field-right-container {
+            margin-left: 200px;
+            margin-top: 38px;
+        }
+
+        &__desktop-hot-job-opening-field-staffing-agency-header-container {
+            display: flex;
+        }
+
+        &__desktop-partner-icon-white-circle {
+            width: 36px;
+        }
+
+        &__desktop-staffing-agency-header-text {
+            margin-left: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__desktop-staffing-agency-name {
+            font-weight: 500;
+            text-decoration: underline;
+            font-size: 18px;
+            margin-left: 54px;
+            margin-bottom: 4px;
+        }
+
+        &__desktop-staffing-agency-location {
+            margin-left: 54px;
+        }
+
+        &__desktop-staffing-agency-phone-number {
+            text-decoration: underline;
+            margin-left: 54px;
+        }
+
+        &__desktop-job-description-field {
+            display: flex;
+        }
+
+        &__desktop-job-description-field-header {
+            margin-left: 120px;
+            margin-top: 48px;
+            font-weight: 500;
+        }
+
+        &__desktop-job-description-field-job-description {
+            margin-left: 120px;
+            width: 600px;
+        }
+
+        &__desktop-job-description-field-list {
+            margin-left: 120px;
+        }
+
+        &__desktop-job-description-field-list-bullet-five {
+            margin-top: 24px;
+        }
+
+        &__desktop-job-description-field-details-container {
+            margin-left: 120px;
+            margin-top: 48px;
+        }
+
+        &__desktop-job-description-field-details-header {
+            font-weight: 500;
+        }
+
+        &__desktop-bolded-text {
+            font-weight: 500;
+        }
+
+        &__desktop-experience-level {
+            margin-left: 100px;
+        }
+
+        &__desktop-job-description-field-industries {
+            margin-top: 4px;
+        }
+
+        &__desktop-industries-name {
+            margin-left: 146px;
+        }
+
+        &__desktop-job-description-field-citizenship {
+            margin-top: 4px;
+        }
+
+        &__desktop-citizenship-status {
+            margin-left: 137px;
+        }
+
+        &__desktop-job-description-field-travel {
+            margin-top: 4px;
+        }
+
+        &__desktop-travel-status {
+            margin-left: 175px;
+        }
+
+        &__desktop-job-description-field-other {
+            margin-top: 4px;
+        }
+
+        &__desktop-other-status {
+            margin-left: 175px;
+        }
+
+        &__desktop-job-description-field-right-container {
+            margin-left: 100px;
+        }
+
+        &__desktop-job-description-field-required-education-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-job-description-field-required-education-header {
+            font-weight: 500;
+        }
+
+        &__desktop-job-description-field-required-skills-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-job-description-field-required-skills-header {
+            font-weight: 500;
+        }
+
+        &__desktop-job-description-field-candidate-requirements-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-job-description-field-candidate-requirements-header {
+            font-weight: 500;
+        }
+
+        &__desktop-job-description-field-right-bottom-container {
+            margin-top: 48px;
+            border: 1px solid $soft-black;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            width: 550px;
+            height: 350px;
+        }
+
+        &__desktop-job-description-field-right-bottom-container-inner-field {
+            padding: 48px;
+        }
+
+        &__desktop-percentage-of-salary-text {
+            margin-left: 5px;
+        }
+
+        &__desktop-split-fee-percentage {
+            margin-bottom: 4px;
+            margin-top: 32px;
+        }
+
+        &__desktop-split-fee-percentage-text {
+            margin-left: 5px;
+        }
+
+        &__desktop-placement-fee {
+            margin-top: 32px;
+        }
+
+        &__desktop-placement-fee-text {
+            margin-left: 5px;
+        }
+
+        &__desktop-guarantee-period {
+            margin-top: 32px;
+        }
+
+        &__desktop-guarantee-period-text {
+            margin-left: 5px;
+        }
+
+        &__desktop-blue-space {
+            height: 48px;
+            background-color: $background-light-blue;
+            margin-top: 64px;
+        }
+
+        &__desktop-bottom-button-container {
+            margin-top: 72px;
+        }
+
+        &__desktop-post-job-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            margin-left: 600px;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+        }
+
+        &__desktop-edit-job-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 190px;
+            height: 46px;
+            border-radius: 28px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-left: 32px;
         }
 
     }

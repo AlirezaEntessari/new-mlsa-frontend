@@ -878,10 +878,219 @@ export default function MyJobsJobDetailsPage() {
                   Mechanical Engineer Designer
                 </p>
                 <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-general-information-container">
-                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-location">Location: San Antonio, TX</p>
-                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-posted-on-date">Posted on: 08/07/2024</p>
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-location">
+                    Location: San Antonio, TX
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-posted-on-date">
+                    Posted on: 08/07/2024
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-job-type">
+                    Job Type: Full Time
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-environment">
+                    Environment: On-Site
+                  </p>
+                </div>
+                <p className="my-jobs-job-details-page__desktop-start-date">
+                  Start Date: 09/15/2024
+                </p>
+                <p className="my-jobs-job-details-page__desktop-salary-range">
+                  Salary $110,000 - $145,000 Yearly
+                </p>
+              </div>
+              <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-right-container">
+                <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-staffing-agency-header-container">
+                  <img
+                    className="my-jobs-job-details-page__desktop-partner-icon-white-circle"
+                    src={PartnerIconWhiteCircle}
+                    alt="Partner Icon White Circle"
+                  />
+                  <p className="my-jobs-job-details-page__desktop-staffing-agency-header-text">
+                    Staffing Agency
+                  </p>
+                </div>
+                <p className="my-jobs-job-details-page__desktop-staffing-agency-name">
+                  HumanRe Agency
+                </p>
+                <p className="my-jobs-job-details-page__desktop-staffing-agency-location">
+                  Austin, Texas
+                </p>
+                <p className="my-jobs-job-details-page__desktop-staffing-agency-phone-number">
+                  561-123-4567
+                </p>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-job-description-field">
+              <div className="my-jobs-job-details-page__desktop-job-description-field-left-container">
+                <p className="my-jobs-job-details-page__desktop-job-description-field-header">
+                  Job Description
+                </p>
+                <p className="my-jobs-job-details-page__desktop-job-description-field-job-description">
+                  We are seeking a Mechanical Engineer Designer to become a part
+                  of our team! You will prepare detailed working diagrams of
+                  individual facilities as well as identify areas of improvement
+                  to increase efficiency.
+                </p>
+                <ul className="my-jobs-job-details-page__desktop-job-description-field-list">
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-one">
+                    Prepare diagrams and drafts for Bulk Material Systems
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-two">
+                    Calculate dimensions and tolerance.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-three">
+                    Review and modify designs so that the systems can be
+                    installed in the field.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-four">
+                    Provide timely updates for drawing completion and workload.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-five">
+                    Coordinate with other colleagues regarding complex designs.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-six">
+                    Previous experience in mechanical drafting, manufacturing or
+                    other related fields.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-seven">
+                    Familiarity with bulk material.
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-eight">
+                    Proficient with AutoCAD
+                  </li>
+                  <li className="my-jobs-job-details-page__desktop-job-description-field-list-bullet-nine">
+                    Deadline and detail-oriented
+                  </li>
+                </ul>
+                <div className="my-jobs-job-details-page__desktop-job-description-field-details-container">
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-details-header">
+                    Details
+                  </p>
+                  <ul className="my-jobs-job-details-page__desktop-job-description-field-details-list">
+                    <li className="my-jobs-job-details-page__desktop-job-description-field-experience-level">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Experience level:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-experience-level">
+                        Entry level
+                      </span>
+                    </li>
+                    <li className="my-jobs-job-details-page__desktop-job-description-field-industries">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Industries:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-industries-name">
+                        Industrial Machinery Manufacturing
+                      </span>
+                    </li>
+                    <li className="my-jobs-job-details-page__desktop-job-description-field-citizenship">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Citizenship:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-citizenship-status">
+                        US Citizen, VISA
+                      </span>
+                    </li>
+                    <li className="my-jobs-job-details-page__desktop-job-description-field-travel">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Travel:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-travel-status">
+                        None required
+                      </span>
+                    </li>
+                    <li className="my-jobs-job-details-page__desktop-job-description-field-other">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Other:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-other-status">
+                        Paid Relocation Bonus
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
+              <div className="my-jobs-job-details-page__desktop-job-description-field-right-container">
+                <div className="my-jobs-job-details-page__desktop-job-description-field-required-education-container">
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-required-education-header">
+                    Required Education
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-required-education-description">
+                    Bachelor's Degree or Associates Degree in Engineering
+                    Practices and CAD
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-job-description-field-required-skills-container">
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-required-skills-header">
+                    Required Skills
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-required-skills-description">
+                    Mechanical Drafting, Manufacturing, Bulk Materials, AutoCAD
+                    Proficiency, Detail Oriented, Deadline Oriented
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-job-description-field-candidate-requirements-container">
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-candidate-requirements-header">
+                    Candidate Requirements
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-job-description-field-candidate-requirements-description">
+                    Resident of San Antonio, Texas required
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-job-description-field-right-bottom-container">
+                  <div className="my-jobs-job-details-page__desktop-job-description-field-right-bottom-container-inner-field">
+                    <p className="my-jobs-job-details-page__desktop-fee-type">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Fee Type:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-percentage-of-salary-text">
+                        Percentage of Salary
+                      </span>
+                    </p>
+                    <p className="my-jobs-job-details-page__desktop-split-fee-percentage">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Split Fee Percentage:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-split-fee-percentage-text">
+                        50% 50%
+                      </span>
+                    </p>
+                    <p className="my-jobs-job-details-page__desktop-willing-to-negotiate">
+                      *Willing to negotiate
+                    </p>
+                    <p className="my-jobs-job-details-page__desktop-placement-fee">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Placement Fee:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-placement-fee-text">
+                        20%
+                      </span>
+                    </p>
+                    <p className="my-jobs-job-details-page__desktop-guarantee-period">
+                      <span className="my-jobs-job-details-page__desktop-bolded-text">
+                        Guarantee Period:
+                      </span>
+                      <span className="my-jobs-job-details-page__desktop-guarantee-period-text">
+                        30 days
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-blue-space"></div>
+            <div className="my-jobs-job-details-page__desktop-bottom-button-container">
+              <button
+                onClick={handlePostJob}
+                className="my-jobs-job-details-page__desktop-post-job-button"
+              >
+                Post Job
+              </button>
+              <Link to="/my-jobs-post-job-page">
+                <button className="my-jobs-job-details-page__desktop-edit-job-button">
+                  Edit Job
+                </button>
+              </Link>
             </div>
           </div>
         </div>

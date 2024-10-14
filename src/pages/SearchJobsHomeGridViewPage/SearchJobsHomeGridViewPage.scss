@@ -1,0 +1,35 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.search-jobs-home-grid-view-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 180px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 270px;
+        right: 48px;
+    }
+
+    &__mobile-key-word-search-input {
+        border: 2px solid $dark-navy;
+        margin-left: 20px;
+        width: 460px;
+        margin-top: 36px;
+        height: 54px;
+        border-radius: 28px;
+        padding-left: 16px;
+    }
+
+}

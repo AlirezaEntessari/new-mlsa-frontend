@@ -40,6 +40,7 @@ import MyJobsPostJobPage from './pages/MyJobsPostJobPage/MyJobsPostJobPage';
 import MyJobsJobDescriptionUploadPage from './pages/MyJobsJobDescriptionUploadPage/MyJobsJobDescriptionUploadPage';
 import MyJobsPostJobBatchUploadPage from './pages/MyJobsPostJobBatchUploadPage/MyJobsPostJobBatchUploadPage';
 import MyJobsJobDetailsPage from './pages/MyJobsJobDetailsPage/MyJobsJobDetailsPage';
+import SearchJobsHomeGridViewPage from './pages/SearchJobsHomeGridViewPage/SearchJobsHomeGridViewPage';
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route path="/my-jobs-job-description-upload-page" element={<MyJobsJobDescriptionUploadPage />} />
         <Route path="/my-jobs-post-job-batch-upload-page" element={<MyJobsPostJobBatchUploadPage />} />
         <Route path="/my-jobs-job-details-page" element={<MyJobsJobDetailsPage />} />
+        <Route path="/search-jobs-home-grid-view-page" element={<SearchJobsHomeGridViewPage />} />
       </Routes>
       </BrowserRouter>
     </div>
