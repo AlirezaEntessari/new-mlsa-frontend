@@ -1137,7 +1137,7 @@
         }
 
         &__desktop-status-container {
-            margin-left: 200px;
+            margin-left: 350px;
             display: flex;
         }
 
@@ -1190,6 +1190,136 @@
             font-size: 36px;
             color: $dark-gray;
             padding-top: 4px;
+        }
+        
+        &__desktop-interviewing-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 180px;
+            height: 72px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 32px;
+        }
+
+        &__desktop-interviewing-text {
+            padding-top: 20px;
+            font-weight: 500;
+            padding-left: 16px;
+        }
+
+        &__desktop-interviewing-number {
+            padding-left: 40px;
+            font-weight: 700;
+            font-size: 36px;
+            color: $dark-gray;
+            padding-top: 4px;
+        }
+
+        &__desktop-pending-offers-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 180px;
+            height: 72px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 32px;
+        }
+
+        &__desktop-pending-offers-text {
+            padding-top: 20px;
+            font-weight: 500;
+            padding-left: 16px;
+        }
+
+        &__desktop-pending-offers-number {
+            padding-left: 24px;
+            font-weight: 700;
+            font-size: 36px;
+            color: $dark-gray;
+            padding-top: 4px;
+        }
+
+        &__desktop-hot-job-opening-put-on-hold-container {
+            margin-left: 860px;
+            margin-top: 10px;
+            display: flex;
+        }
+
+        &__desktop-hot-job-opening-circle-button-on-blue-icon {
+            width: 24px;
+        }
+
+        &__desktop-hot-job-opening-hot-jobs-on-icon {
+            width: 36px;
+            margin-left: 8px;
+        }
+
+        &__desktop-hot-job-opening-text {
+            color: $rust;
+            font-size: 18px;
+            margin-left: 8px;
+            font-weight: 500;
+        }
+
+        &__desktop-put-on-hold-container {
+            margin-left: 80px;
+        }
+
+        &__desktop-on-hold-hot-button-off-icon {
+            width: 24px;
+        }
+
+        &__desktop-on-hold-off-icon {
+            width: 36px;
+            margin-left: 8px;
+        }
+
+        &__desktop-put-on-hold-text {
+            color: $medium-dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 8px;
+        }
+
+        &__desktop-hot-job-opening-field {
+            background-color: $background-light-blue;
+            margin-top: 40px;
+            width: 1690px;
+        }
+
+        &__desktop-hot-job-opening-field-header-container {
+            display: flex;
+            padding-top: 32px;
+            padding-left: 120px;
+        }
+
+        &__desktop-hot-job-opening-field-hot-jobs-on-icon {
+            width: 36px;
+        }
+
+        &__desktop-hot-job-opening-field-header-text {
+            color: $rust;
+            font-size: 20px;
+            margin-top: 14px;
+            margin-left: 10px;
+        }
+
+        &__desktop-job-id {
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 120px;
+            margin-top: 20px;
+        }
+
+        &__desktop-hot-job-opening-field-title {
+            margin-left: 120px;
+            font-weight: 500;
+            font-size: 24px;
         }
 
     }

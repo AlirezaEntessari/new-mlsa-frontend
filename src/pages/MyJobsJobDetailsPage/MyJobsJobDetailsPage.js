@@ -809,6 +809,78 @@ export default function MyJobsJobDetailsPage() {
                     0
                   </p>
                 </div>
+                <div className="my-jobs-job-details-page__desktop-interviewing-container">
+                  <p className="my-jobs-job-details-page__desktop-interviewing-text">
+                    Interviewing
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-interviewing-number">
+                    0
+                  </p>
+                </div>
+                <div className="my-jobs-job-details-page__desktop-pending-offers-container">
+                  <p className="my-jobs-job-details-page__desktop-pending-offers-text">
+                    Pending Offers
+                  </p>
+                  <p className="my-jobs-job-details-page__desktop-pending-offers-number">
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-hot-job-opening-put-on-hold-container">
+              <div className="my-jobs-job-details-page__desktop-hot-job-opening-container">
+                <img
+                  className="my-jobs-job-details-page__desktop-hot-job-opening-circle-button-on-blue-icon"
+                  src={CircleButtonOnBlueIcon}
+                  alt="Circle Button on Blue Icon"
+                />
+                <img
+                  className="my-jobs-job-details-page__desktop-hot-job-opening-hot-jobs-on-icon"
+                  src={HotJobsOnIcon}
+                  alt="Hot Jobs On Icon"
+                />
+                <span className="my-jobs-job-details-page__desktop-hot-job-opening-text">
+                  Hot Job Opening
+                </span>
+              </div>
+              <div className="my-jobs-job-details-page__desktop-put-on-hold-container">
+                <img
+                  className="my-jobs-job-details-page__desktop-on-hold-hot-button-off-icon"
+                  src={OnHoldHotButtonOffIcon}
+                  alt="On Hold Hot Button Off Icon"
+                />
+                <img
+                  className="my-jobs-job-details-page__desktop-on-hold-off-icon"
+                  src={OnHoldOffIcon}
+                  alt="On Hold Off Icon"
+                />
+                <span className="my-jobs-job-details-page__desktop-put-on-hold-text">
+                  Put On Hold
+                </span>
+              </div>
+            </div>
+            <div className="my-jobs-job-details-page__desktop-hot-job-opening-field">
+              <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-left-container">
+                <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-header-container">
+                  <img
+                    className="my-jobs-job-details-page__desktop-hot-job-opening-field-hot-jobs-on-icon"
+                    src={HotJobsOnIcon}
+                    alt="Hot Jobs On Icon"
+                  />
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-header-text">
+                    Hot Job Opening
+                  </p>
+                </div>
+                <p className="my-jobs-job-details-page__desktop-job-id">
+                  Job ID# 73849020
+                </p>
+                <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-title">
+                  Mechanical Engineer Designer
+                </p>
+                <div className="my-jobs-job-details-page__desktop-hot-job-opening-field-general-information-container">
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-location">Location: San Antonio, TX</p>
+                  <p className="my-jobs-job-details-page__desktop-hot-job-opening-field-posted-on-date">Posted on: 08/07/2024</p>
+                </div>
               </div>
             </div>
           </div>
