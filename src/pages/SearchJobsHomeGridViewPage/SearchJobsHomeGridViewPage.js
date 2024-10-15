@@ -9,6 +9,8 @@ import RatingStarIcon from "../../assets/icons/RatingStar.svg";
 import ActionIcon from "../../assets/icons/3verticaldots.svg";
 import JobsPlacementsBulletIcon from "../../assets/icons/JobsPlacementsBullet.svg";
 import JobPinIcon from "../../assets/icons/JobPin.svg";
+import JobSearchNotification4Icon from "../../assets/icons/JobSearchNotificationOrange4.svg";
+import HotFlameIcon from "../../assets/icons/hotflame.svg";
 
 export default function SearchJobsHomeGridViewPage() {
   return (
@@ -178,7 +180,7 @@ export default function SearchJobsHomeGridViewPage() {
             <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-first-card">
               <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-first-card-new-opening-header-container">
                 <img
-                  className="search-jobs-home-grid-view-page__mobile-fireworks-white-icon"
+                  className="search-jobs-home-grid-view-page__mobile-hot-flame-icon"
                   src={FireworksWhiteIcon}
                   alt="Fireworks White Icon"
                 />
@@ -248,6 +250,185 @@ export default function SearchJobsHomeGridViewPage() {
                 <span className="search-jobs-home-grid-view-page__mobile-location-jobs-placements-split-fee-text">
                   Split Fee: $$$
                 </span>
+              </div>
+              <img
+                className="search-jobs-home-grid-view-page__mobile-job-search-notification-four-icon"
+                src={JobSearchNotification4Icon}
+                alt="Job Search Notification 4 Icon"
+              />
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-first-card-bottom-button-container">
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-first-card-view-my-matches-button">
+                  View My Matches
+                </button>
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-first-card-post-candidate-button">
+                  Post Candidate
+                </button>
+              </div>
+            </div>
+            <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card">
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-new-opening-header-container">
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-hot-flame-icon"
+                  src={HotFlameIcon}
+                  alt="Fireworks White Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-hot-opening-text">
+                  HOT OPENING
+                </span>
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-header-rating-container">
+                <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-header-text">
+                  Hollingsworth Agency
+                </p>
+                <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-rating-container">
+                  <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-rating-text">
+                    4.2
+                  </span>
+                  <img
+                    className="search-jobs-home-grid-view-page__mobile-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                </div>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-action-icon"
+                  src={ActionIcon}
+                  alt="Action Icon"
+                />
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-job-description-container">
+                <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-job-description">
+                  RN
+                </span>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-jobs-placements-bullet-icon"
+                  src={JobsPlacementsBulletIcon}
+                  alt="Jobs Placements Bullet Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-job-type-text">
+                  Contract
+                </span>
+              </div>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-job-id">
+                Job ID# 76534526
+              </p>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-job-description-text-field">
+                The Patient Care Technician is responsible for assisting
+                registered professional nurses, in the care of the patient.
+                He/she performs all of the essential generic job functions as
+                listed below.
+              </p>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-salary">
+                Salary: $40,000 - $60,000
+              </p>
+              <div className="search-jobs-home-grid-view-page__mobile-second-card-location-split-fee-container">
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-second-card-featured-jobs-job-pin-icon"
+                  src={JobPinIcon}
+                  alt="Job Pin Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-second-card-featured-jobs-location-text">
+                  CA
+                </span>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-second-card-location-jobs-placements-bullet-icon"
+                  src={JobsPlacementsBulletIcon}
+                  alt="Jobs Placements Bullet Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-second-card-location-jobs-placements-split-fee-text">
+                  Split Fee: $$$
+                </span>
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-bottom-button-container">
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-view-my-matches-button">
+                  View My Matches
+                </button>
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-second-card-post-candidate-button">
+                  Post Candidate
+                </button>
+              </div>
+            </div>
+            <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card">
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-new-opening-header-container">
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-hot-flame-icon"
+                  src={HotFlameIcon}
+                  alt="Fireworks White Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-hot-opening-text">
+                  HOT OPENING
+                </span>
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-header-rating-container">
+                <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-header-text">
+                  Staffing Agency 2
+                </p>
+                <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-rating-container">
+                  <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-rating-text">
+                    4.2
+                  </span>
+                  <img
+                    className="search-jobs-home-grid-view-page__mobile-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                </div>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-action-icon"
+                  src={ActionIcon}
+                  alt="Action Icon"
+                />
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-job-description-container">
+                <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-job-description">
+                  RN
+                </span>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-jobs-placements-bullet-icon"
+                  src={JobsPlacementsBulletIcon}
+                  alt="Jobs Placements Bullet Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-job-type-text">
+                  Part Time
+                </span>
+              </div>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-job-id">
+                Job ID# 76534526
+              </p>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-job-description-text-field">
+                The Patient Care Technician is responsible for assisting
+                registered professional nurses, in the care of the patient.
+                He/she performs all of the essential generic job functions as
+                listed below.
+              </p>
+              <p className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-salary">
+                Salary: $40,000 - $60,000
+              </p>
+              <div className="search-jobs-home-grid-view-page__mobile-third-card-location-split-fee-container">
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-third-card-featured-jobs-job-pin-icon"
+                  src={JobPinIcon}
+                  alt="Job Pin Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-third-card-featured-jobs-location-text">
+                  New York, NY
+                </span>
+                <img
+                  className="search-jobs-home-grid-view-page__mobile-third-card-location-jobs-placements-bullet-icon"
+                  src={JobsPlacementsBulletIcon}
+                  alt="Jobs Placements Bullet Icon"
+                />
+                <span className="search-jobs-home-grid-view-page__mobile-third-card-location-jobs-placements-split-fee-text">
+                  Split Fee: $$$
+                </span>
+              </div>
+              <div className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-bottom-button-container">
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-view-my-matches-button">
+                  View My Matches
+                </button>
+                <button className="search-jobs-home-grid-view-page__mobile-featured-jobs-third-card-post-candidate-button">
+                  Post Candidate
+                </button>
               </div>
             </div>
           </div>
