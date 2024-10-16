@@ -951,10 +951,9 @@ export default function MyDocumentsCandidateReportPage() {
                     name="desktop-job-type"
                     id="desktop-job-type"
                   >
-                    <option value="" disabled selected>
+                    <option value="full-time" disabled selected>
                       Full Time
                     </option>
-
                     <option value="part-time">Part Time</option>
                     <option value="contract">Contract</option>
                     <option value="internship">Internship</option>

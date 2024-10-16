@@ -923,6 +923,10 @@
         margin-left: 16px;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -932,6 +936,10 @@
         &__mobile-container {
             display: none;
         }
+
+        &__tablet-container {
+            display: inherit;
+        } 
 
         &__tablet-header-container {
             display: flex;
@@ -985,7 +993,949 @@
             margin-left: 48px;
         }
 
-    }
+        &__tablet-location-industry-job-type-agency-container {
+            margin-top: 60px;
+            margin-left: 32px;
+        }
 
+        &__tablet-location-select {
+            border: 2px solid $dark-navy;
+            width: 150px;
+            height: 54px;
+            border-radius: 28px;
+            padding-left: 16px;
+            font-size: 15px;
+        }
+
+        &__tablet-industry-select {
+            border: 2px solid $dark-navy;
+            width: 205px;
+            height: 54px;
+            border-radius: 28px;
+            padding-left: 16px;
+            margin-left: 18px;
+            font-size: 14px;
+        }
+
+        &__tablet-job-type-select {
+            border: 2px solid $dark-navy;
+            width: 150px;
+            height: 54px;
+            border-radius: 28px;
+            padding-left: 16px;
+            margin-left: 18px;
+            font-size: 15px;
+        }
+
+        &__tablet-agency-select {
+            border: 2px solid $dark-navy;
+            width: 160px;
+            height: 54px;
+            border-radius: 28px;
+            padding-left: 16px;
+            margin-left: 18px;
+            font-size: 15px;
+        }
+
+        &__tablet-jobs-search-map-placeholder-icon {
+            margin-top: 48px;
+            margin-left: 10px;
+        }
+
+        &__tablet-view-searches-list-view-show-hidden-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 36px;
+        }
+
+        &__tablet-view-searches-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            width: 180px;
+            height: 50px;
+        }
+
+        &__tablet-list-view-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            width: 180px;
+            height: 50px;
+            margin-left: 90px;
+        }
+
+        &__tablet-show-hidden-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            width: 180px;
+            height: 50px;
+            margin-left: 90px;
+        }
+
+        &__tablet-featured-jobs-container {
+            margin-top: 72px;
+            margin-left: 32px;
+        }
+
+        &__tablet-featured-jobs-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__tablet-featured-jobs-card-container-1 {
+            display: flex;
+        }
+
+        &__tablet-featured-jobs-first-card {
+            border: 4px solid $dark-navy;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+    
+        &__tablet-featured-jobs-first-card-new-opening-header-container {
+            background-color: $dark-navy;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+    
+        &__tablet-fireworks-white-icon {
+            width: 36px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-new-opening-text {
+            color: $white-text;
+            margin-left: 10px;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-first-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-first-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-first-card-rating-container {
+            margin-left: 30px;
+        }
+    
+        &__tablet-featured-jobs-rating-text {
+            font-weight: 500;
+        }
+    
+        &__tablet-rating-star-icon {
+            width: 16px;
+            margin-left: 5px;
+        }
+    
+        &__tablet-featured-jobs-first-card-action-icon {
+            margin-left: 70px;
+        }
+    
+        &__tablet-jobs-placements-bullet-icon {
+            width: 10px;
+            margin-left: 40px;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+    
+        &__tablet-featured-jobs-first-card-salary {
+            margin-left: 20px;
+        }
+    
+        &__tablet-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-first-card-job-pin-icon {
+            width: 24px;
+        }
+    
+        &__tablet-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-first-card-location-text {
+            margin-left: 10px;
+        }
+    
+        &__tablet-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-first-card-bottom-button-container {
+            margin-top: 40px;
+            display: flex;
+        }
+    
+        &__tablet-job-search-notification-four-icon {
+            width: 32px;
+            position: absolute;
+            top: 1737px;
+            left: 244px;
+        }
+    
+        &__tablet-featured-jobs-first-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    
+        &__tablet-featured-jobs-first-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-featured-jobs-second-card {
+            border: 4px solid $dark-navy;
+            margin-left: 38px;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+    
+        &__tablet-featured-jobs-second-card-new-opening-header-container {
+            background-color: $access-blue;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+    
+        &__tablet-hot-flame-icon {
+            width: 36px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-hot-opening-text {
+            color: $white-text;
+            font-weight: 500;
+            margin-left: 14px;
+        }
+    
+        &__tablet-featured-jobs-second-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-second-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 15px;
+        }
+    
+        &__tablet-featured-jobs-second-card-rating-container {
+            margin-left: 30px;
+        }
+    
+        &__tablet-featured-jobs-second-card-rating-text {
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-second-action-icon {
+            margin-left: 54px;
+        }
+    
+        &__tablet-featured-jobs-second-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+    
+        &__tablet-featured-jobs-second-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-second-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-second-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-second-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+    
+        &__tablet-featured-jobs-second-card-salary {
+            margin-left: 20px;
+        }
+    
+        &__tablet-second-card-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-second-card-featured-jobs-job-pin-icon {
+            width: 24px;
+        }
+    
+        &__tablet-second-card-featured-jobs-location-text {
+            margin-left: 10px;
+        }
+    
+        &__tablet-second-card-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-second-card-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-second-card-bottom-button-container {
+            margin-top: 40px;
+        }
+    
+        &__tablet-featured-jobs-second-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    
+        &__tablet-featured-jobs-second-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-featured-jobs-card-container-2 {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-featured-jobs-third-card {
+            border: 4px solid $dark-navy;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+
+        &__tablet-featured-jobs-third-card-new-opening-header-container {
+            background-color: $access-blue;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+
+        &__tablet-featured-jobs-third-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+
+        &__tablet-featured-jobs-third-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-third-card-rating-container {
+            margin-left: 30px;
+        }
+
+        &__tablet-featured-jobs-third-card-rating-text {
+            font-weight: 500;
+        }
+
+        &__tablet-featured-jobs-third-action-icon {
+            margin-left: 70px;
+        }
+
+        &__tablet-featured-jobs-third-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+
+        &__tablet-featured-jobs-third-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-third-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-third-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+
+        &__tablet-featured-jobs-third-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+
+        &__tablet-featured-jobs-third-card-salary {
+            margin-left: 20px;
+        }
+
+        &__tablet-third-card-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+
+        &__tablet-third-card-featured-jobs-job-pin-icon {
+            width: 24px;
+        }
+
+        &__tablet-third-card-featured-jobs-location-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-third-card-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+
+        &__tablet-third-card-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-featured-jobs-third-card-bottom-button-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-featured-jobs-third-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        &__tablet-featured-jobs-third-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-featured-jobs-fourth-card {
+            border: 4px solid $dark-navy;
+            margin-left: 38px;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-new-opening-header-container {
+            background-color: $access-blue;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 15px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-rating-container {
+            margin-left: 30px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-rating-text {
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-fourth-action-icon {
+            margin-left: 54px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-salary {
+            margin-left: 20px;
+        }
+    
+        &__tablet-fourth-card-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-fourth-card-featured-jobs-job-pin-icon {
+            width: 24px;
+        }
+    
+        &__tablet-fourth-card-featured-jobs-location-text {
+            margin-left: 10px;
+        }
+    
+        &__tablet-fourth-card-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-fourth-card-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-bottom-button-container {
+            margin-top: 40px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    
+        &__tablet-featured-jobs-fourth-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-card-container-3 {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-featured-jobs-fifth-card {
+            border: 4px solid $dark-navy;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-new-opening-header-container {
+            background-color: $access-blue;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-rating-container {
+            margin-left: 30px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-rating-text {
+            font-weight: 500;
+        }
+
+        &__tablet-featured-jobs-fifth-action-icon {
+            margin-left: 70px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+
+        &__tablet-featured-jobs-fifth-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-salary {
+            margin-left: 20px;
+        }
+
+        &__tablet-fifth-card-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+
+        &__tablet-fifth-card-featured-jobs-job-pin-icon {
+            width: 24px;
+        }
+
+        &__tablet-fifth-card-featured-jobs-location-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-fifth-card-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+
+        &__tablet-fifth-card-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-bottom-button-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        &__tablet-featured-jobs-fifth-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-featured-jobs-sixth-card {
+            border: 4px solid $dark-navy;
+            width: 350px;
+            height: 560px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+            margin-left: 38px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-new-opening-header-container {
+            background-color: $dark-navy;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            width: 230px;
+            height: 44px;
+        }
+    
+        &__tablet-fireworks-white-icon {
+            width: 36px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-new-opening-text {
+            color: $white-text;
+            margin-left: 10px;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-header-rating-container {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-header-text {
+            color: $dark-navy;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-rating-container {
+            margin-left: 30px;
+        }
+    
+        &__tablet-featured-jobs-rating-text {
+            font-weight: 500;
+        }
+    
+        &__tablet-rating-star-icon {
+            width: 16px;
+            margin-left: 5px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-action-icon {
+            margin-left: 70px;
+        }
+    
+        &__tablet-jobs-placements-bullet-icon {
+            width: 10px;
+            margin-left: 40px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-description-container {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-description {
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-type-text {
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-id {
+            margin-left: 20px;
+            margin-top: 6px;
+            color: $dark-navy;
+            font-weight: 500;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-description-text-field {
+            margin-left: 20px;
+            text-align: justify;
+            margin-right: 20px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-salary {
+            margin-left: 20px;
+        }
+    
+        &__tablet-location-split-fee-container {
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-job-pin-icon {
+            width: 24px;
+        }
+    
+        &__tablet-location-jobs-placements-bullet-icon {
+            width: 8px;
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-location-text {
+            margin-left: 10px;
+        }
+    
+        &__tablet-location-jobs-placements-split-fee-text {
+            margin-left: 20px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-bottom-button-container {
+            margin-top: 40px;
+            display: flex;
+        }
+    
+        &__tablet-job-search-notification-one-icon {
+            width: 32px;
+            position: absolute;
+            top: 2924px;
+            left: 632px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    
+        &__tablet-featured-jobs-sixth-card-post-candidate-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            font-weight: 500;
+            width: 140px;
+            height: 45px;
+            border-radius: 28px;
+            font-size: 14px;
+            margin-left: 16px;
+        }
+
+        &__tablet-page-navigation-container {
+            margin-top: 60px;
+            margin-left: 296px;
+        }
+
+        &__tablet-page-number-blue-1-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-arrow-right-icon {
+            margin-left: 10px;
+        }
+
+    }
 
 }
