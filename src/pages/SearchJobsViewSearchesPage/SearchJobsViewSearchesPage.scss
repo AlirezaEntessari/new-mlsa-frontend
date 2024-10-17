@@ -1,0 +1,141 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.search-jobs-view-searches-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        background-image: url("../../assets/logos/MLSALogoColorSmallTransparent30Opacity\ \(1\).svg");
+    }
+
+    &__mobile-search-jobs-header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 180px;
+    }
+
+    &__mobile-saved-searches-dashboard-header {
+        color: $dark-navy;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 54px;
+        font-size: 18px;
+        border-bottom: 2px solid $dark-navy;
+        width: 450px;
+    }
+
+    &__mobile-saved-searches-first-row-container {
+        margin-left: 20px;
+        margin-top: 32px;
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 32px;
+    }
+
+    &__mobile-saved-searches-first-row-date {
+        color: $dark-navy;
+    }
+
+    &__mobile-saved-searches-first-row-search-filters-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-saved-searches-first-row-search-filters-description-text {
+        color: $dark-navy;
+        text-decoration: underline;
+    }
+
+    &__mobile-saved-searches-first-row-bottom-button-container {
+        margin-top: 20px;
+    }
+
+    &__mobile-saved-searches-first-row-view-search-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 150px;
+        height: 42px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-saved-searches-first-row-delete-search-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        width: 150px;
+        height: 42px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 28px;
+    }
+
+    &__mobile-saved-searches-second-row-container {
+        margin-left: 20px;
+        margin-top: 32px;
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 32px;
+    }
+
+    &__mobile-saved-searches-second-row-date {
+        color: $dark-navy;
+    }
+
+    &__mobile-saved-searches-second-row-search-filters-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-saved-searches-second-row-search-filters-description-text {
+        color: $dark-navy;
+        text-decoration: underline;
+    }
+
+    &__mobile-saved-searches-second-row-bottom-button-container {
+        margin-top: 20px;
+    }
+
+    &__mobile-saved-searches-second-row-view-search-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 150px;
+        height: 42px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-saved-searches-second-row-delete-search-button {
+        border: 1px solid $dark-navy;
+        background-color: $white-background;
+        width: 150px;
+        height: 42px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 28px;
+    }
+
+}
+
+@include tablet {
+
+    .search-jobs-view-searches-page {
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+            background-image: inherit;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+    }
+
+}
