@@ -182,35 +182,436 @@ export default function SearchJobsListViewPage() {
                     src={ScrollDownArrowWhiteIcon}
                     alt="Scroll Down Arrow White Icon"
                   />
-                  <img
-                    className="search-jobs-list-view-page__tablet-white-vertical-spacer-icon"
-                    src={WhiteVerticalSpacerIcon}
-                    alt="White Vertical Spacer Icon"
-                  />
                 </th>
                 <th className="search-jobs-list-view-page__tablet-search-jobs-job-id-header-row">
-                  Job ID
+                  Job ID{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
                 </th>
-                <th>Industry</th>
-                <th>Job Title</th>
-                <th>Job Type</th>
-                <th>Location</th>
-                <th>Posted Date</th>
-                <th>Action</th>
+                <th className="search-jobs-list-view-page__tablet-search-jobs-industry-header-row">
+                  Industry{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
+                <th className="search-jobs-list-view-page__tablet-search-job-title-header-row">
+                  Job Title{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
+                <th className="search-jobs-list-view-page__tablet-search-job-type-header-row">
+                  Job Type{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
+                <th className="search-jobs-list-view-page__tablet-search-location-header-row">
+                  Location{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
+                <th className="search-jobs-list-view-page__tablet-search-posted-date-header-row">
+                  Posted Date{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
+                <th className="search-jobs-list-view-page__tablet-search-action-header-row">
+                  Action{" "}
+                  <img
+                    className="search-jobs-list-view-page__tablet-scroll-down-arrow-white-icon"
+                    src={ScrollDownArrowWhiteIcon}
+                    alt="Scroll Down Arrow White Icon"
+                  />
+                </th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>HumanRe Agency</td>
-                <td>87634529</td>
-                <td>Manufacturing</td>
-                <td>Operator</td>
-                <td>Full Time</td>
-                <td>Austin, TX</td>
-                <td>7/17/24</td>
-                <td>
-                  <button>View My Matches</button>{" "}
-                  <button>Post Candidate</button>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-1">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-staffing-agency">
+                  HumanRe Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-job-id">
+                  87634529
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-manufacturing">
+                  Manufacturing
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-operator">
+                  Operator
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-full-time">
+                  Full Time
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-location">
+                  Austin, TX
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-posted-date">
+                  7/17/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-1-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-jobs-list-view-page__tablet-search-job-table-row-2">
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-staffing-agency">
+                  Acme Agency
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-job-id">
+                  8392765
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-manufacturing">
+                  Healthcare
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-operator">
+                  CT Tech
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-full-time">
+                  Contract
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-location">
+                  NY, NY
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-posted-date">
+                  7/10/24
+                </td>
+                <td className="search-jobs-list-view-page__tablet-search-job-table-row-2-action">
+                  <button className="search-jobs-list-view-page__tablet-view-my-matches-button">
+                    View My Matches
+                  </button>{" "}
+                  <button className="search-jobs-list-view-page__tablet-post-candidate-button">
+                    Post Candidate
+                  </button>
                 </td>
               </tr>
             </tbody>

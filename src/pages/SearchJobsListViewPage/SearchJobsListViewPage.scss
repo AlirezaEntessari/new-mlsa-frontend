@@ -155,7 +155,7 @@
         &__tablet-search-jobs-staffing-agency-header-row {
             color: $white-text;
             font-weight: 400;
-            display: flex;
+            width: 120px;
         }
 
         &__tablet-scroll-down-arrow-white-icon {
@@ -169,7 +169,97 @@
         &__tablet-search-jobs-job-id-header-row {
             color: $white-text;
             font-weight: 400;
-            display: flex;
+            width: 120px;
+        }
+
+        &__tablet-search-jobs-industry-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-search-job-title-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-search-job-type-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-search-location-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-search-posted-date-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-search-action-header-row {
+            color: $white-text;
+            font-weight: 400;
+            width: 120px;
+        }
+
+        &__tablet-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            width: 120px;
+            border-radius: 28px;
+            font-size: 12px;
+            height: 32px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        &__tablet-post-candidate-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            color: $dark-navy;
+            width: 120px;
+            border-radius: 28px;
+            font-size: 12px;
+            height: 32px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        &__tablet-search-job-table-row-1 {
+            border-bottom: 2px solid $medium-gray;
+        }
+
+        &__tablet-search-job-table-row-1-staffing-agency {
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__tablet-search-job-table-row-1-job-id {
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__tablet-search-job-table-row-2 {
+            border-bottom: 2px solid $medium-gray;
+            background-color: $background-light-blue;
+        }
+
+        &__tablet-search-job-table-row-2-staffing-agency {
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__tablet-search-job-table-row-2-job-id {
+            color: $dark-navy;
+            text-decoration: underline;
         }
 
     }
