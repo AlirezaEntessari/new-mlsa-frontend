@@ -54,9 +54,9 @@ export default function MyDocumentsJobReportPage() {
                   id="job-type"
                 >
                   <option value="" disabled selected>
-                    Full Time
+                    Job Type
                   </option>
-
+                  <option value="full-time">Full Time</option>
                   <option value="part-time">Part Time</option>
                   <option value="contract">Contract</option>
                   <option value="internship">Internship</option>
@@ -1519,7 +1519,10 @@ export default function MyDocumentsJobReportPage() {
                   </select>
                 </div>
               </div>
-              <button onClick={handleGenerateReport} className="my-documents-job-report-page__desktop-generate-report-button">
+              <button
+                onClick={handleGenerateReport}
+                className="my-documents-job-report-page__desktop-generate-report-button"
+              >
                 Generate Report
               </button>
             </div>

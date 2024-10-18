@@ -120,6 +120,10 @@
         margin-left: 28px;
     }
 
+    &__tablet-desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -135,6 +139,289 @@
         &__mobile-container {
             display: none;
         }
+
+        &__tablet-desktop-container {
+            display: inherit;
+        }
+
+        &__tablet-desktop-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-size: 26px;
+            font-weight: 800;
+            margin-left: 48px;
+            margin-top: 48px;
+        }
+
+        &__tablet-desktop-search-jobs-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 210px;
+            height: 44px;
+            color: $dark-navy;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 28px;
+            margin-left: 560px;
+        }
+
+        &__tablet-desktop-saved-searches-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 24px;
+            border-bottom: 2px solid $dark-navy;
+            margin-left: 72px;
+            padding-bottom: 4px;
+            width: 720px;
+        }
+
+        &__tablet-desktop-rows-container {
+            margin-left: 72px;
+        }
+
+        &__tablet-desktop-first-row-container {
+            display: flex;
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 24px;
+        }
+
+        &__tablet-desktop-first-row-search-result-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-desktop-first-row-search-date {
+            margin-left: 72px;
+        }
+
+        &__tablet-desktop-first-row-search-button-container {
+            margin-left: 60px;
+        }
+
+        &__tablet-desktop-first-row-view-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 28px;
+            height: 40px;
+            width: 150px;
+            font-size: 14px;
+            font-weight: 500;
+            display: block;
+        }
+
+        &__tablet-desktop-first-row-deletes-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            height: 40px;
+            width: 150px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        &__tablet-desktop-second-row-container {
+            display: flex;
+            margin-top: 32px;
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 24px;
+        }
+
+        &__tablet-desktop-second-row-search-result-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 14px;
+            width: 360px;
+        }
+
+        &__tablet-desktop-second-row-search-date {
+            margin-left: 36px;
+        }
+
+        &__tablet-desktop-second-row-search-button-container {
+            margin-left: 64px;
+        }
+
+        &__tablet-desktop-second-row-view-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 28px;
+            height: 40px;
+            width: 150px;
+            font-size: 14px;
+            font-weight: 500;
+            display: block;
+        }
+
+        &__tablet-desktop-second-row-deletes-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            height: 40px;
+            width: 150px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 10px;
+            display: block;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .search-jobs-view-searches-page {
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+            background-image: inherit;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-desktop-container {
+            display: inherit;
+        }
+
+        &__tablet-desktop-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-size: 26px;
+            font-weight: 800;
+            margin-left: 80px;
+            margin-top: 48px;
+        }
+
+        &__tablet-desktop-search-jobs-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 220px;
+            height: 48px;
+            color: $dark-navy;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 28px;
+            margin-left: 1300px;
+        }
+
+        &__tablet-desktop-saved-searches-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 24px;
+            border-bottom: 2px solid $dark-navy;
+            margin-left: 120px;
+            padding-bottom: 4px;
+            width: 1450px;
+        }
+
+        &__tablet-desktop-rows-container {
+            margin-left: 120px;
+        }
+
+        &__tablet-desktop-first-row-container {
+            display: flex;
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 24px;
+        }
+
+        &__tablet-desktop-first-row-search-result-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        &__tablet-desktop-first-row-search-date {
+            margin-left: 300px;
+        }
+
+        &__tablet-desktop-first-row-search-button-container {
+            margin-left: 468px;
+        }
+
+        &__tablet-desktop-first-row-view-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 28px;
+            height: 40px;
+            width: 170px;
+            font-size: 14px;
+            font-weight: 500;
+            display: block;
+        }
+
+        &__tablet-desktop-first-row-deletes-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            height: 40px;
+            width: 170px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        &__tablet-desktop-second-row-container {
+            display: flex;
+            margin-top: 32px;
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 24px;
+        }
+
+        &__tablet-desktop-second-row-search-result-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 16px;
+            width: inherit;
+        }
+
+        &__tablet-desktop-second-row-search-date {
+            margin-left: 202px;
+        }
+
+        &__tablet-desktop-second-row-search-button-container {
+            margin-left: 468px;
+        }
+
+        &__tablet-desktop-second-row-view-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            border-radius: 28px;
+            height: 40px;
+            width: 170px;
+            font-size: 14px;
+            font-weight: 500;
+            display: block;
+        }
+
+        &__tablet-desktop-second-row-deletes-search-button {
+            border: 1px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            height: 40px;
+            width: 170px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 10px;
+            display: block;
+        }
+
 
     }
 

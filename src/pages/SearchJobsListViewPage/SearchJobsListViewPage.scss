@@ -1,0 +1,177 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.search-jobs-list-view-page {
+    display: none;
+
+}
+
+@include tablet {
+
+    .search-jobs-list-view-page {
+        display: inherit;
+        padding-bottom: 10rem;
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-header-text {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-clear-filters-button {
+            background-color: $dark-navy;
+            color: $white-text;
+            border: 1px solid $dark-navy;
+            border-radius: 28px;
+            width: 200px;
+            margin-left: 370px;
+            height: 50px;
+        }
+
+        &__tablet-key-word-search-other-container {
+            margin-left: 32px;
+            margin-top: 60px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            top: 324px;
+            left: 580px;
+        }
+
+        &__tablet-key-word-search-input {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 400px;
+            height: 50px;
+            padding-left: 16px;
+        }
+
+        &__tablet-other-filter-select {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 200px;
+            height: 50px;
+            padding-left: 16px;
+            margin-left: 120px;
+        }
+
+        &__tablet-location-select {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 175px;
+            height: 50px;
+            padding-left: 16px;
+        }
+
+        &__tablet-industry-select {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 175px;
+            height: 50px;
+            padding-left: 16px;
+            margin-left: 16px;
+        }
+
+        &__tablet-location-industry-job-type-agency-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-job-type-select {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 175px;
+            height: 50px;
+            padding-left: 16px;
+            margin-left: 16px;
+        }
+
+        &__tablet-agency-select {
+            border: 2px solid $medium-dark-gray;
+            border-radius: 28px;
+            width: 175px;
+            height: 50px;
+            padding-left: 16px;
+            margin-left: 16px;
+        }
+
+        &__tablet-job-search-map-placeholder-icon {
+            margin-top: 48px;
+            margin-left: 12px;
+        }
+
+        &__tablet-view-searches-grid-view-show-hidden-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-view-searches-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            height: 50px;
+            width: 200px;
+        }
+
+        &__tablet-grid-view-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 72px;
+            border-radius: 28px;
+            height: 50px;
+            width: 190px;
+        }
+
+        &__tablet-show-hidden-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            margin-left: 72px;
+            border-radius: 28px;
+            height: 50px;
+            width: 200px;
+        }
+
+        &__tablet-search-jobs-table {
+            margin-top: 60px;
+        }
+
+        &__tablet-search-jobs-header-section {
+            background-color: $dark-navy;
+        }
+
+        &__tablet-search-jobs-staffing-agency-header-row {
+            color: $white-text;
+            font-weight: 400;
+            display: flex;
+        }
+
+        &__tablet-scroll-down-arrow-white-icon {
+            width: 14px;
+        }
+
+        &__tablet-white-vertical-spacer-icon {
+            height: 48px;
+        }
+
+        &__tablet-search-jobs-job-id-header-row {
+            color: $white-text;
+            font-weight: 400;
+            display: flex;
+        }
+
+    }
+
+}

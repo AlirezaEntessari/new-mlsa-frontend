@@ -59,8 +59,50 @@ export default function SearchJobsViewSearchesPage() {
             </div>
           </div>
           <div className="search-jobs-view-searches-page__tablet-desktop-container">
-            <p className="search-jobs-view-searches-page__tablet-desktop-header">Search Jobs</p>
-            <button className="search-jobs-view-searches-page__tablet"></button>
+            <p className="search-jobs-view-searches-page__tablet-desktop-header">
+              Search Jobs
+            </p>
+            <button className="search-jobs-view-searches-page__tablet-desktop-search-jobs-button">
+              Search Jobs
+            </button>
+            <p className="search-jobs-view-searches-page__tablet-desktop-saved-searches-header">
+              Saved Searches
+            </p>
+            <div className="search-jobs-view-searches-page__tablet-desktop-rows-container">
+              <div className="search-jobs-view-searches-page__tablet-desktop-first-row-container">
+                <p className="search-jobs-view-searches-page__tablet-desktop-first-row-search-result-text">
+                  Search Filters: Aerospace & Defense, Full Time, Texas
+                </p>
+                <p className="search-jobs-view-searches-page__tablet-desktop-first-row-search-date">
+                  09/01/24
+                </p>
+                <div className="search-jobs-view-searches-page__tablet-desktop-first-row-search-button-container">
+                  <button className="search-jobs-view-searches-page__tablet-desktop-first-row-view-search-button">
+                    View Search
+                  </button>
+                  <button className="search-jobs-view-searches-page__tablet-desktop-first-row-deletes-search-button">
+                    Delete Search
+                  </button>
+                </div>
+              </div>
+              <div className="search-jobs-view-searches-page__tablet-desktop-second-row-container">
+                <p className="search-jobs-view-searches-page__tablet-desktop-second-row-search-result-text">
+                  Search Filters: Healthcare, Contract, New York, XYZ Staffing
+                  Agency
+                </p>
+                <p className="search-jobs-view-searches-page__tablet-desktop-second-row-search-date">
+                  09/01/24
+                </p>
+                <div className="search-jobs-view-searches-page__tablet-desktop-second-row-search-button-container">
+                  <button className="search-jobs-view-searches-page__tablet-desktop-second-row-view-search-button">
+                    View Search
+                  </button>
+                  <button className="search-jobs-view-searches-page__tablet-desktop-second-row-deletes-search-button">
+                    Delete Search
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
