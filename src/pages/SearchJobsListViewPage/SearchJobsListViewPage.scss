@@ -262,6 +262,186 @@
             text-decoration: underline;
         }
 
+        &__tablet-navigation-container {
+            margin-top: 72px;
+            margin-left: 296px;
+        }
+
+        &__tablet-page-number-blue-1-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-arrow-right-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+
+@include desktop {
+
+    .search-jobs-list-view-page {
+
+        padding-bottom: 24rem;
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-header-text {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 418px;
+            left: 730px;
+        }
+
+        &__desktop-key-word-search-input {
+            border: 2px solid $dark-navy;
+            width: 500px;
+            margin-top: 36px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+        }
+
+        &__desktop-location-select {
+            border: 2px solid $dark-navy;
+            width: 250px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+            display: block;
+            margin-top: 32px;
+            margin-left: 244px;
+        }
+
+        &__desktop-industry-select {
+            border: 2px solid $dark-navy;
+            width: 250px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+            display: block;
+            margin-top: 20px;
+            margin-left: 244px;
+        }
+
+        &__desktop-job-type-select {
+            border: 2px solid $dark-navy;
+            width: 250px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+            display: block;
+            margin-top: 20px;
+            margin-left: 244px;
+        }
+
+        &__desktop-agency-select {
+            border: 2px solid $dark-navy;
+            width: 250px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+            display: block;
+            margin-top: 20px;
+            margin-left: 244px;
+        }
+
+        &__desktop-other-filter-select {
+            border: 2px solid $dark-navy;
+            width: 250px;
+            height: 58px;
+            border-radius: 28px;
+            padding-left: 16px;
+            display: block;
+            margin-top: 20px;
+            margin-left: 244px;
+        }
+
+        &__desktop-clear-filters-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            width: 215px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 20px;
+            margin-left: 275px;
+        }
+
+        &__desktop-header-right-container {
+            margin-left: 140px;
+        }
+
+        &__desktop-jobs-search-map-placeholder-icon {
+            margin-top: 100px;
+        }
+
+        &__desktop-view-searches-list-view-show-hidden-container {
+            margin-top: 48px;
+            margin-left: 88px;
+        }
+
+        &__desktop-view-searches-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            height: 56px;
+            width: 200px;
+            font-size: 17px;
+        }
+
+        &__desktop-list-view-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            height: 56px;
+            width: 200px;
+            font-size: 17px;
+            margin-left: 40px;
+        }
+
+        &__desktop-show-hidden-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            border-radius: 28px;
+            height: 56px;
+            width: 200px;
+            font-size: 17px;
+            margin-left: 40px;
+        }
+
     }
 
 }
