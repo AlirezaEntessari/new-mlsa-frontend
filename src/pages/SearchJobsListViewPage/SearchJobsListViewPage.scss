@@ -303,7 +303,7 @@
         }
 
         &__desktop-container {
-            display: inherit;
+            display: block;
         }
 
         &__desktop-header-container {
@@ -440,6 +440,211 @@
             width: 200px;
             font-size: 17px;
             margin-left: 40px;
+        }
+
+        &__desktop-search-jobs-table {
+            display: block;
+        }
+
+        &__desktop-search-jobs-table {
+            margin-top: 96px;
+            margin-left: 32px;
+        }
+
+        &__desktop-search-jobs-table-header-row {
+            background-color: $dark-navy;
+            height: 70px;
+        }
+
+        &__desktop-staffing-agency-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-scroll-down-arrow-white-icon {
+            width: 14px;
+        }
+
+        &__desktop-job-id-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-industry-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-job-title-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-job-type-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-location-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-posted-date-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+        }
+
+        &__desktop-action-header-column {
+            color: $white-text;
+            font-weight: 400;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        &__desktop-row-1-staffing-agency-column {
+            color: $dark-navy;
+            text-decoration: underline;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-job-id-column {
+            color: $dark-navy;
+            text-decoration: underline;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-industry-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-job-title-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-job-type-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-location-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-posted-date-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-1-action-column {
+            padding-left: 66px;
+        }
+
+        &__desktop-row-1-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            width: 120px;
+            border-radius: 28px;
+            font-size: 12px;
+            height: 24px;
+            font-weight: 500;
+            margin-top: 10px;
+            display: block;
+        }
+
+        &__desktop-row-1-post-candidate-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            color: $dark-navy;
+            width: 120px;
+            border-radius: 28px;
+            font-size: 12px;
+            height: 24px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        &__desktop-row-2-data-row {
+            background-color: $background-light-blue;
+        }
+
+        &__desktop-row-2-staffing-agency-column {
+            color: $dark-navy;
+            text-decoration: underline;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-job-id-column {
+            color: $dark-navy;
+            text-decoration: underline;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-industry-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-job-title-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-job-type-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-location-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-posted-date-column {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__desktop-row-2-action-column {
+            padding-left: 66px;
+        }
+
+        &__desktop-navigation-container {
+            margin-top: 80px;
+            margin-left: 720px;
+        }
+
+        &__desktop-page-number-blue-1-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-arrow-right-icon {
+            margin-left: 10px;
         }
 
     }
