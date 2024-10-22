@@ -44,6 +44,8 @@ import SearchJobsHomeGridViewPage from './pages/SearchJobsHomeGridViewPage/Searc
 import SearchJobsViewSearchesPage from './pages/SearchJobsViewSearchesPage/SearchJobsViewSearchesPage';
 import SearchJobsListViewPage from './pages/SearchJobsListViewPage/SearchJobsListViewPage';
 import SearchCandidatesHomeGridViewPage from './pages/SearchCandidatesHomeGridViewPage/SearchCandidatesHomeGridViewPage';
+import SearchCandidatesViewSearchesPage from './pages/SearchCandidatesViewSearchesPage/SearchCandidatesViewSearchesPage';
+import SearchCandidatesListViewPage from './pages/SearchCandidatesListViewPage/SearchCandidatesListViewPage';
 
 function App() {
   return (
@@ -94,6 +96,8 @@ function App() {
         <Route path="/search-jobs-view-searches-page" element={<SearchJobsViewSearchesPage />} />
         <Route path="/search-jobs-list-view-page" element={<SearchJobsListViewPage />} />
         <Route path="/search-candidates-home-grid-view-page" element={<SearchCandidatesHomeGridViewPage />} />
+        <Route path="/search-candidates-view-searches-page" element={<SearchCandidatesViewSearchesPage />} />
+        <Route path="/search-candidates-list-view-page" element={<SearchCandidatesListViewPage />} />
       </Routes>
       </BrowserRouter>
     </div>

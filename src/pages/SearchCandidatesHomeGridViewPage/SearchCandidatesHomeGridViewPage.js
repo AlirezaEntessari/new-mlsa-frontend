@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SearchCandidatesHomeGridViewPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
-import JobsSidePanel from "../../components/JobsSidePanel/JobsSidePanel";
+import CandidatesSidePanel from "../../components/CandidatesSidePanel/CandidatesSidePanel";
 import SearchIcon from "../../assets/icons/Search (2).svg";
 import JobsSearchMapPlaceholderIcon from "../../assets/icons/JobSearchMapPlaceholder.svg";
 import FireworksWhiteIcon from "../../assets/icons/fireworkswhite.svg";
@@ -19,6 +19,8 @@ import PageNumberGray2Icon from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3Icon from "../../assets/icons/PageNumberGray3.svg";
 import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
 import CandidateOrangePinIcon from "../../assets/icons/CandidateOrangePin.svg";
+import PageNumberPeach1Icon from "../../assets/icons/PageNumberPeach1.svg";
+import { Link } from "react-router-dom";
 
 export default function SearchCandidatesHomeGridViewPage() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -35,7 +37,7 @@ export default function SearchCandidatesHomeGridViewPage() {
     <div className="search-candidates-home-grid-view-page">
       <HeaderWithProfilePic />
       <div className="search-candidates-home-grid-view-page__main-container">
-        <JobsSidePanel />
+        <CandidatesSidePanel />
         <div className="search-candidates-home-grid-view-page__right-container">
           <div className="search-candidates-home-grid-view-page__mobile-container">
             <p className="search-candidates-home-grid-view-page__mobile-header">
@@ -189,9 +191,11 @@ export default function SearchCandidatesHomeGridViewPage() {
               alt="Job Search Map Placeholder Icon"
             />
             <div className="search-candidates-home-grid-view-page__mobile-view-searches-show-hidden-container">
-              <button className="search-candidates-home-grid-view-page__mobile-view-searches-button">
-                View Searches
-              </button>
+              <Link to="/search-candidates-view-searches-page">
+                <button className="search-candidates-home-grid-view-page__mobile-view-searches-button">
+                  View Searches
+                </button>
+              </Link>
               <button className="search-candidates-home-grid-view-page__mobile-show-hidden-button">
                 Show Hidden
               </button>
@@ -849,9 +853,11 @@ export default function SearchCandidatesHomeGridViewPage() {
               alt="Jobs Search Map Placeholder Icon"
             />
             <div className="search-candidates-home-grid-view-page__tablet-view-searches-list-view-show-hidden-container">
-              <button className="search-candidates-home-grid-view-page__tablet-view-searches-button">
-                View Searches
-              </button>
+              <Link to="/search-candidates-view-searches-page">
+                <button className="search-candidates-home-grid-view-page__tablet-view-searches-button">
+                  View Searches
+                </button>
+              </Link>
               <button className="search-candidates-home-grid-view-page__tablet-list-view-button">
                 List View
               </button>
@@ -955,8 +961,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={HotFlameIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__tablet-hot-opening-text">
-                      HOT OPENING
+                    <span className="search-candidates-home-grid-view-page__tablet-hot-candidate-text">
+                      HOT CANDIDATE
                     </span>
                   </div>
                   <div className="search-candidates-home-grid-view-page__tablet-featured-jobs-second-card-header-rating-container">
@@ -1040,7 +1046,7 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={HotFlameIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__tablet-hot-opening-text">
+                    <span className="search-candidates-home-grid-view-page__tablet-hot-candidate-text">
                       HOT OPENING
                     </span>
                   </div>
@@ -1123,8 +1129,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={HotFlameIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__tablet-hot-opening-text">
-                      HOT OPENING
+                    <span className="search-candidates-home-grid-view-page__tablet-hot-candidate-text">
+                      HOT CANDIDATE
                     </span>
                   </div>
                   <div className="search-candidates-home-grid-view-page__tablet-featured-jobs-fourth-card-header-rating-container">
@@ -1208,8 +1214,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={HotFlameIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__tablet-hot-opening-text">
-                      HOT OPENING
+                    <span className="search-candidates-home-grid-view-page__tablet-hot-candidate-text">
+                      HOT CANDIDATE
                     </span>
                   </div>
                   <div className="search-candidates-home-grid-view-page__tablet-featured-jobs-fifth-card-header-rating-container">
@@ -1552,9 +1558,11 @@ export default function SearchCandidatesHomeGridViewPage() {
                   alt="Jobs Search Map Placeholder Icon"
                 />
                 <div className="search-candidates-home-grid-view-page__desktop-view-searches-list-view-show-hidden-container">
-                  <button className="search-candidates-home-grid-view-page__desktop-view-searches-button">
-                    View Searches
-                  </button>
+                  <Link to="/search-candidates-view-searches-page">
+                    <button className="search-candidates-home-grid-view-page__desktop-view-searches-button">
+                      View Searches
+                    </button>
+                  </Link>
                   <button className="search-candidates-home-grid-view-page__desktop-list-view-button">
                     List View
                   </button>
@@ -1565,8 +1573,8 @@ export default function SearchCandidatesHomeGridViewPage() {
               </div>
             </div>
             <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-section">
-              <p className="search-candidates-home-grid-view-page__desktop-featured-jobs-header">
-                Today's Featured Jobs
+              <p className="search-candidates-home-grid-view-page__desktop-featured-candidates-header">
+                Today's Featured Candidates
               </p>
               <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-card-top-section">
                 <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card">
@@ -1576,8 +1584,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={FireworksWhiteIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__desktop-new-opening-text">
-                      NEW OPENING
+                    <span className="search-candidates-home-grid-view-page__desktop-new-candidate-text">
+                      NEW CANDIDATE
                     </span>
                   </div>
                   <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-header-rating-container">
@@ -1628,9 +1636,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-location-text">
                       Boston, MA
@@ -1644,17 +1652,12 @@ export default function SearchCandidatesHomeGridViewPage() {
                       Split Fee: $$$
                     </span>
                   </div>
-                  <img
-                    className="search-candidates-home-grid-view-page__desktop-job-search-notification-four-icon"
-                    src={JobSearchNotification4Icon}
-                    alt="Job Search Notification 4 Icon"
-                  />
                   <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-bottom-button-container">
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-first-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -1716,9 +1719,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-second-card-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-second-card-featured-jobs-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-second-card-featured-jobs-location-text">
                       CA
@@ -1736,8 +1739,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-second-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-second-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-second-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -1799,9 +1802,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-third-card-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-third-card-featured-jobs-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-third-card-featured-jobs-location-text">
                       New York, NY
@@ -1819,8 +1822,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-third-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-third-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-third-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -1884,9 +1887,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-fourth-card-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-fourth-card-featured-jobs-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-fourth-card-featured-jobs-location-text">
                       CA
@@ -1904,8 +1907,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fourth-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fourth-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fourth-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -1967,9 +1970,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-fifth-card-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-fifth-card-featured-jobs-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-fifth-card-featured-jobs-location-text">
                       New York, NY
@@ -1987,8 +1990,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fifth-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fifth-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-fifth-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -1999,8 +2002,8 @@ export default function SearchCandidatesHomeGridViewPage() {
                       src={FireworksWhiteIcon}
                       alt="Fireworks White Icon"
                     />
-                    <span className="search-candidates-home-grid-view-page__desktop-new-opening-text">
-                      NEW OPENING
+                    <span className="search-candidates-home-grid-view-page__desktop-new-candidate-text">
+                      NEW CANDIDATE
                     </span>
                   </div>
                   <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-header-rating-container">
@@ -2051,9 +2054,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                   </p>
                   <div className="search-candidates-home-grid-view-page__desktop-location-split-fee-container">
                     <img
-                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-job-pin-icon"
-                      src={JobPinIcon}
-                      alt="Job Pin Icon"
+                      className="search-candidates-home-grid-view-page__desktop-featured-jobs-candidate-orange-pin-icon"
+                      src={CandidateOrangePinIcon}
+                      alt="Candidate Pin Icon"
                     />
                     <span className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-location-text">
                       Boston, MA
@@ -2067,17 +2070,12 @@ export default function SearchCandidatesHomeGridViewPage() {
                       Split Fee: $$$
                     </span>
                   </div>
-                  <img
-                    className="search-candidates-home-grid-view-page__desktop-job-search-notification-one-icon"
-                    src={JobSearchNotification1Icon}
-                    alt="Job Search Notification 1 Icon"
-                  />
                   <div className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-bottom-button-container">
                     <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-view-my-matches-button">
                       View My Matches
                     </button>
-                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-post-candidate-button">
-                      Post Candidate
+                    <button className="search-candidates-home-grid-view-page__desktop-featured-jobs-sixth-card-post-job-button">
+                      Post Job
                     </button>
                   </div>
                 </div>
@@ -2090,9 +2088,9 @@ export default function SearchCandidatesHomeGridViewPage() {
                 alt="Page Arrow Left Icon"
               />
               <img
-                className="search-candidates-home-grid-view-page__desktop-page-number-blue-1-icon"
-                src={PageNumberBlue1Icon}
-                alt="Page Number Blue 1 Icon"
+                className="search-candidates-home-grid-view-page__desktop-page-number-peach-1-icon"
+                src={PageNumberPeach1Icon}
+                alt="Page Number Peach 1 Icon"
               />
               <img
                 className="search-candidates-home-grid-view-page__desktop-page-number-gray-2-icon"

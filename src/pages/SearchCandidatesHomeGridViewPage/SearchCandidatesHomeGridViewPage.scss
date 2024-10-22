@@ -1121,7 +1121,7 @@
         }
     
         &__tablet-featured-jobs-first-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 17px;
@@ -1234,7 +1234,7 @@
         }
 
         &__tablet-featured-jobs-second-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             margin-left: 38px;
             width: 350px;
             height: 560px;
@@ -1244,7 +1244,7 @@
         }
     
         &__tablet-featured-jobs-second-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
             width: 230px;
@@ -1256,7 +1256,7 @@
             margin-left: 12px;
         }
     
-        &__tablet-hot-opening-text {
+        &__tablet-hot-candidate-text {
             color: $white-text;
             font-weight: 500;
             margin-left: 14px;
@@ -1269,7 +1269,7 @@
         }
     
         &__tablet-featured-jobs-second-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 15px;
@@ -1347,8 +1347,8 @@
         }
     
         &__tablet-featured-jobs-second-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 140px;
@@ -1360,13 +1360,14 @@
     
         &__tablet-featured-jobs-second-card-post-candidate-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 140px;
             height: 45px;
             border-radius: 28px;
             font-size: 14px;
             margin-left: 16px;
+            color: $rust;
         }
 
         &__tablet-featured-jobs-card-container-2 {
@@ -1375,7 +1376,7 @@
         }
 
         &__tablet-featured-jobs-third-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 350px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -1384,7 +1385,7 @@
         }
 
         &__tablet-featured-jobs-third-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
             width: 230px;
@@ -1398,7 +1399,7 @@
         }
 
         &__tablet-featured-jobs-third-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 17px;
@@ -1476,8 +1477,8 @@
         }
 
         &__tablet-featured-jobs-third-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 140px;
@@ -1489,17 +1490,18 @@
 
         &__tablet-featured-jobs-third-card-post-candidate-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 140px;
             height: 45px;
             border-radius: 28px;
             font-size: 14px;
             margin-left: 16px;
+            color: $rust;
         }
 
         &__tablet-featured-jobs-fourth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             margin-left: 38px;
             width: 350px;
             height: 560px;
@@ -1509,7 +1511,7 @@
         }
     
         &__tablet-featured-jobs-fourth-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
             width: 230px;
@@ -1523,7 +1525,7 @@
         }
     
         &__tablet-featured-jobs-fourth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 15px;
@@ -1601,8 +1603,8 @@
         }
     
         &__tablet-featured-jobs-fourth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 140px;
@@ -1614,13 +1616,14 @@
     
         &__tablet-featured-jobs-fourth-card-post-candidate-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 140px;
             height: 45px;
             border-radius: 28px;
             font-size: 14px;
             margin-left: 16px;
+            color: $rust;
         }
 
         &__tablet-card-container-3 {
@@ -1629,7 +1632,7 @@
         }
 
         &__tablet-featured-jobs-fifth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 350px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -1638,7 +1641,7 @@
         }
 
         &__tablet-featured-jobs-fifth-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
             width: 230px;
@@ -1652,7 +1655,7 @@
         }
 
         &__tablet-featured-jobs-fifth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 17px;
@@ -1730,8 +1733,8 @@
         }
 
         &__tablet-featured-jobs-fifth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 140px;
@@ -1743,17 +1746,18 @@
 
         &__tablet-featured-jobs-fifth-card-post-candidate-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 140px;
             height: 45px;
             border-radius: 28px;
             font-size: 14px;
             margin-left: 16px;
+            color: $rust;
         }
 
         &__tablet-featured-jobs-sixth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 350px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -1763,7 +1767,7 @@
         }
     
         &__tablet-featured-jobs-sixth-card-new-opening-header-container {
-            background-color: $dark-navy;
+            background-color: $rust;
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
             width: 230px;
@@ -1788,7 +1792,7 @@
         }
     
         &__tablet-featured-jobs-sixth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 17px;
@@ -1884,8 +1888,8 @@
         }
     
         &__tablet-featured-jobs-sixth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 140px;
@@ -1897,13 +1901,14 @@
     
         &__tablet-featured-jobs-sixth-card-post-candidate-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 140px;
             height: 45px;
             border-radius: 28px;
             font-size: 14px;
             margin-left: 16px;
+            color: $rust;
         }
 
         &__tablet-page-navigation-container {
@@ -1955,7 +1960,7 @@
 
         &__desktop-header-text {
             font-family: 'Roboto Serif';
-            color: $dark-navy;
+            color: $rust;
             font-size: 32px;
             font-weight: 700;
             margin-top: 100px;
@@ -2056,32 +2061,35 @@
         }
 
         &__desktop-view-searches-button {
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             background-color: $white-background;
             border-radius: 28px;
             height: 56px;
             width: 200px;
             font-size: 17px;
+            color: $rust;
         }
 
         &__desktop-list-view-button {
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             background-color: $white-background;
             border-radius: 28px;
             height: 56px;
             width: 200px;
             font-size: 17px;
             margin-left: 40px;
+            color: $rust;
         }
 
         &__desktop-show-hidden-button {
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             background-color: $white-background;
             border-radius: 28px;
             height: 56px;
             width: 200px;
             font-size: 17px;
             margin-left: 40px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-section {
@@ -2089,7 +2097,7 @@
             margin-top: 100px;
         }
 
-        &__desktop-featured-jobs-header {
+        &__desktop-featured-candidates-header {
             color: $dark-navy;
             font-weight: 600;
             font-size: 22px;
@@ -2101,7 +2109,7 @@
         }
 
         &__desktop-featured-jobs-first-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2110,7 +2118,7 @@
         }
     
         &__desktop-featured-jobs-first-card-new-opening-header-container {
-            background-color: $dark-navy;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2136,7 +2144,7 @@
         }
     
         &__desktop-featured-jobs-first-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2206,7 +2214,7 @@
             margin-left: 24px;
         }
     
-        &__desktop-featured-jobs-first-card-job-pin-icon {
+        &__desktop-featured-jobs-candidate-orange-pin-icon {
             width: 26px;
         }
     
@@ -2228,16 +2236,9 @@
             display: flex;
         }
     
-        &__desktop-job-search-notification-four-icon {
-            width: 32px;
-            position: absolute;
-            top: 1560px;
-            left: 288px;
-        }
-    
         &__desktop-featured-jobs-first-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2247,19 +2248,20 @@
             font-size: 15px;
         }
     
-        &__desktop-featured-jobs-first-card-post-candidate-button {
+        &__desktop-featured-jobs-first-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-second-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2269,7 +2271,7 @@
         }
 
         &__desktop-featured-jobs-second-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2295,7 +2297,7 @@
         }
 
         &__desktop-featured-jobs-second-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2377,8 +2379,8 @@
         }
 
         &__desktop-featured-jobs-second-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2388,19 +2390,20 @@
             font-size: 15px;
         }
 
-        &__desktop-featured-jobs-second-card-post-candidate-button {
+        &__desktop-featured-jobs-second-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-third-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2410,7 +2413,7 @@
         }
 
         &__desktop-featured-jobs-third-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2424,7 +2427,7 @@
         }
 
         &__desktop-featured-jobs-third-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2506,8 +2509,8 @@
         }
 
         &__desktop-featured-jobs-third-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2517,15 +2520,16 @@
             font-size: 15px;
         }
 
-        &__desktop-featured-jobs-third-card-post-candidate-button {
+        &__desktop-featured-jobs-third-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-card-bottom-section {
@@ -2534,7 +2538,7 @@
         }
 
         &__desktop-featured-jobs-fourth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2543,7 +2547,7 @@
         }
 
         &__desktop-featured-jobs-fourth-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2569,7 +2573,7 @@
         }
 
         &__desktop-featured-jobs-fourth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2651,8 +2655,8 @@
         }
 
         &__desktop-featured-jobs-fourth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2662,19 +2666,20 @@
             font-size: 15px;
         }
 
-        &__desktop-featured-jobs-fourth-card-post-candidate-button {
+        &__desktop-featured-jobs-fourth-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-fifth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2684,7 +2689,7 @@
         }
 
         &__desktop-featured-jobs-fifth-card-new-opening-header-container {
-            background-color: $access-blue;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2698,7 +2703,7 @@
         }
 
         &__desktop-featured-jobs-fifth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2780,8 +2785,8 @@
         }
 
         &__desktop-featured-jobs-fifth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2791,19 +2796,20 @@
             font-size: 15px;
         }
 
-        &__desktop-featured-jobs-fifth-card-post-candidate-button {
+        &__desktop-featured-jobs-fifth-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-featured-jobs-sixth-card {
-            border: 4px solid $dark-navy;
+            border: 4px solid $rust;
             width: 400px;
             height: 560px;
             border-bottom-left-radius: 36px;
@@ -2813,7 +2819,7 @@
         }
     
         &__desktop-featured-jobs-sixth-card-new-opening-header-container {
-            background-color: $dark-navy;
+            background-color: $rust;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             width: 270px;
@@ -2826,7 +2832,7 @@
             margin-top: 4px;
         }
     
-        &__desktop-new-opening-text {
+        &__desktop-new-candidate-text {
             color: $white-text;
             margin-left: 16px;
             font-weight: 500;
@@ -2839,7 +2845,7 @@
         }
     
         &__desktop-featured-jobs-sixth-card-header-text {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 600;
             text-decoration: underline;
             font-size: 18px;
@@ -2939,8 +2945,8 @@
         }
     
         &__desktop-featured-jobs-sixth-card-view-my-matches-button {
-            background-color: $dark-navy;
-            border: 1px solid $dark-navy;
+            background-color: $rust;
+            border: 1px solid $rust;
             color: $white-text;
             font-weight: 500;
             width: 175px;
@@ -2950,15 +2956,16 @@
             font-size: 15px;
         }
     
-        &__desktop-featured-jobs-sixth-card-post-candidate-button {
+        &__desktop-featured-jobs-sixth-card-post-job-button {
             background-color: $white-background;
-            border: 2px solid $dark-navy;
+            border: 2px solid $rust;
             font-weight: 500;
             width: 175px;
             height: 50px;
             border-radius: 28px;
             margin-left: 18px;
             font-size: 15px;
+            color: $rust;
         }
 
         &__desktop-navigation-container {
@@ -2966,7 +2973,7 @@
             margin-left: 715px;
         }
 
-        &__desktop-page-number-blue-1-icon {
+        &__desktop-page-number-peach-1-icon {
             margin-left: 15px;
         }
 
