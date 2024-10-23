@@ -1,0 +1,163 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-placements-home-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-text {
+        margin-top: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 190px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-top-dashboard-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-invoiced-payment-sent-container {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    &__mobile-invoiced-container {
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    &__mobile-invoiced-text {
+        font-weight: 500;
+        margin-left: 10px;
+        color: $dark-gray;
+        margin-top: 14px;
+    }
+
+    &__mobile-invoiced-number {
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+        margin-left: 60px;
+        margin-top: 1px;
+    }
+
+    &__mobile-payment-sent-container {
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 36px;
+    }
+
+    &__mobile-payment-sent-text {
+        font-weight: 500;
+        margin-left: 12px;
+        color: $dark-gray;
+        margin-top: 4px;
+        width: 80px;
+    }
+
+    &__mobile-payment-sent-number {
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+        margin-left: 44px;
+        margin-top: 2px;
+    }
+
+    &__mobile-payment-received-completed-container {
+        margin-top: 32px;
+        display: flex;
+        margin-left: 50px;
+    }
+
+    &__mobile-payment-received-container {
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    &__mobile-payment-received-text {
+        font-weight: 500;
+        margin-left: 12px;
+        color: $dark-gray;
+        margin-top: 4px;
+        width: 80px;
+    }
+
+    &__mobile-payment-received-number {
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+        margin-left: 34px;
+        margin-top: 2px;
+    }
+
+    &__mobile-completed-container {
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 36px;
+    }
+
+    &__mobile-completed-text {
+        font-weight: 500;
+        margin-left: 10px;
+        color: $dark-gray;
+        margin-top: 14px;
+    }
+
+    &__mobile-completed-number {
+        font-weight: 500;
+        font-size: 32px;
+        color: $dark-gray;
+        margin-left: 42px;
+        margin-top: 1px;
+    }
+
+    &__mobile-search-placements-container {
+        margin-left: 20px;
+        margin-top: 60px;
+        display: flex;
+    }
+
+    &__mobile-search-placements-label {
+        width: 40px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 460px;
+        right: 38px;
+    }
+
+    &__mobile-search-placements-input {
+        border: 2px solid $medium-gray;
+        width: 370px;
+        height: 54px;
+        margin-left: 56px;
+        border-radius: 28px;
+    }
+
+}

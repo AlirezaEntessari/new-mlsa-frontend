@@ -509,6 +509,184 @@
             color: $rust;
         }
 
+        &__desktop-search-candidates-table {
+            margin-top: 100px;
+        }
+
+        &__desktop-header-row {
+            background-color: $light-orange;
+            height: 80px;
+        }
+
+        &__desktop-header-staffing-agency-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-scroll-down-arrow-icon {
+            width: 16px;
+        }
+
+        &__desktop-header-id-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-industry-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-candidate-title-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-job-type-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-availability-date-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-posted-date-column {
+            font-weight: 500;
+            padding-left: 100px;
+        }
+
+        &__desktop-header-action-column {
+            font-weight: 500;
+            padding-left: 100px;
+            width: 230px;
+        }
+
+        &__desktop-staffing-agency-column-1 {
+            padding-left: 100px;
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__desktop-id-column-1 {
+            padding-left: 84px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-industry-column-1 {
+            padding-left: 90px;
+        }
+
+        &__desktop-candidate-title-column-1 {
+            padding-left: 126px;
+        }
+
+        &__desktop-job-type-column-1 {
+            padding-left: 106px;
+        }
+
+        &__desktop-availability-date-column-1 {
+            padding-left: 130px;
+        }
+
+        &__desktop-posted-date-column-1 {
+            padding-left: 116px;
+        }
+
+        &__desktop-action-column-1 {
+            padding-left: 52px;
+        }
+
+        &__desktop-view-my-matches-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            color: $white-text;
+            display: block;
+            height: 32px;
+            font-size: 14px;
+            width: 150px;
+            margin-top: 16px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-post-job-button {
+            background-color: $white-background;
+            border: 1px solid $dark-navy;
+            color: $dark-navy;
+            display: block;
+            height: 32px;
+            font-size: 14px;
+            width: 150px;
+            margin-top: 10px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-bottom: 20px;
+        }
+
+        &__desktop-data-row-2 {
+            background-color: $light-orange;
+        }
+
+        &__desktop-staffing-agency-column-2 {
+            padding-left: 100px;
+            color: $dark-navy;
+            text-decoration: underline;
+        }
+
+        &__desktop-id-column-2 {
+            padding-left: 84px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-industry-column-2 {
+            padding-left: 100px;
+        }
+
+        &__desktop-candidate-title-column-2 {
+            padding-left: 132px;
+        }
+
+        &__desktop-job-type-column-2 {
+            padding-left: 106px;
+        }
+
+        &__desktop-availability-date-column-2 {
+            padding-left: 130px;
+        }
+
+        &__desktop-posted-date-column-2 {
+            padding-left: 116px;
+        }
+
+        &__desktop-action-column-2 {
+            padding-left: 52px;
+        }
+
+        &__desktop-navigation-container {
+            margin-top: 100px;
+            margin-left: 706px;
+        }
+
+        &__desktop-page-number-peach-1-icon {
+            margin-left: 15px;
+        }
+
+        &__desktop-page-number-gray-2-icon {
+            margin-left: 15px;
+        }
+
+        &__desktop-page-number-gray-3-icon {
+            margin-left: 15px;
+        }
+
+        &__desktop-page-arrow-right-icon {
+            margin-left: 15px;
+        }
+
     }
 
 }

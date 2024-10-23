@@ -10,6 +10,7 @@ import PageNumberPeach1Icon from "../../assets/icons/PageNumberPeach1.svg";
 import PageNumberGray2Icon from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3Icon from "../../assets/icons/PageNumberGray3.svg";
 import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
+import ScrollDownArrowIcon from "../../assets/icons/ScrollDownArrow.svg";
 
 export default function SearchCandidatesListViewPage() {
   return (
@@ -770,32 +771,468 @@ export default function SearchCandidatesListViewPage() {
             <thead className="search-candidates-list-view-page__desktop-header-row">
               <tr className="search-candidates-list-view-page__desktop-header-row-1">
                 <th className="search-candidates-list-view-page__desktop-header-staffing-agency-column">
-                  Staffing Agency
+                  Staffing Agency{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-id-column">
-                  ID
+                  ID{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-industry-column">
-                  Industry
+                  Industry{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-candidate-title-column">
-                  Candidate Title
+                  Candidate Title{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-job-type-column">
-                  Job Type
+                  Job Type{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-availability-date-column">
-                  Availability Date
+                  Availability Date{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-posted-date-column">
-                  Posted Date
+                  Posted Date{" "}
+                  <img
+                    className="search-candidates-list-view-page__desktop-scroll-down-arrow-icon"
+                    src={ScrollDownArrowIcon}
+                    alt="Scroll Down Arrow Icon"
+                  />
                 </th>
                 <th className="search-candidates-list-view-page__desktop-header-action-column">
                   Action
                 </th>
               </tr>
             </thead>
+            <tbody className="search-candidates-list-view-page__desktop-body-section">
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-1">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-1">
+                  HumanRe Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-1">
+                  87634529
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-1">
+                  Manufacturing
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-1">
+                  Operator
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-1">
+                  Full Time
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-1">
+                  7/17/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-1">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+              <tr className="search-candidates-list-view-page__desktop-data-row-2">
+                <td className="search-candidates-list-view-page__desktop-staffing-agency-column-2">
+                  Acme Agency
+                </td>
+                <td className="search-candidates-list-view-page__desktop-id-column-2">
+                  83927565
+                </td>
+                <td className="search-candidates-list-view-page__desktop-industry-column-2">
+                  Healthcare
+                </td>
+                <td className="search-candidates-list-view-page__desktop-candidate-title-column-2">
+                  CT-Tech
+                </td>
+                <td className="search-candidates-list-view-page__desktop-job-type-column-2">
+                  Contract
+                </td>
+                <td className="search-candidates-list-view-page__desktop-availability-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-posted-date-column-2">
+                  7/10/24
+                </td>
+                <td className="search-candidates-list-view-page__desktop-action-column-2">
+                  <button className="search-candidates-list-view-page__desktop-view-my-matches-button">
+                    View My Matches
+                  </button>
+                  <button className="search-candidates-list-view-page__desktop-post-job-button">
+                    Post Job
+                  </button>
+                </td>
+              </tr>
+            </tbody>
           </table>
+          <div className="search-candidates-list-view-page__desktop-navigation-container">
+            <img
+              className="search-candidates-list-view-page__desktop-page-arrow-left-icon"
+              src={PageArrowLeftIcon}
+              alt="Page Arrow Left Icon"
+            />
+            <img
+              className="search-candidates-list-view-page__desktop-page-number-peach-1-icon"
+              src={PageNumberPeach1Icon}
+              alt="Page Number Peach 1 Icon"
+            />
+            <img
+              className="search-candidates-list-view-page__desktop-page-number-gray-2-icon"
+              src={PageNumberGray2Icon}
+              alt="Page Number Gray 2 Icon"
+            />
+            <img
+              className="search-candidates-list-view-page__desktop-page-number-gray-3-icon"
+              src={PageNumberGray3Icon}
+              alt="Page Number Gray 3 Icon"
+            />
+            <img
+              className="search-candidates-list-view-page__desktop-page-arrow-right-icon"
+              src={PageArrowRightIcon}
+              alt="Page Arrow Right Icon"
+            />
+          </div>
         </div>
       </div>
     </div>
