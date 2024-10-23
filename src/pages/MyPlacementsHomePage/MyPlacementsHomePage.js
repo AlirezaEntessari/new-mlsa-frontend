@@ -3,6 +3,13 @@ import "./MyPlacementsHomePage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import PlacementsSidePanel from "../../components/PlacementsSidePanel/PlacementsSidePanel";
 import SearchIcon from "../../assets/icons/Search (2).svg";
+import LightestBlueIcon from "../../assets/icons/JobsPendingBullet.svg";
+import LightBlueIcon from "../../assets/icons/JobsReviewsBullet.svg";
+import DarkerLightBlueIcon from "../../assets/icons/JobsSubmissionsBullet.svg";
+import RegularBlueIcon from "../../assets/icons/JobsInterviewsBullet.svg";
+import DarkBlueIcon from "../../assets/icons/JobsOffersBullet.svg";
+import DarkestBlueIcon from "../../assets/icons/JobsPlacementsBullet.svg";
+import MenuArrowCircleDownIcon from "../../assets/icons/MenuCircleArrowGray.svg";
 
 export default function MyPlacementsHomePage() {
   return (
@@ -72,7 +79,90 @@ export default function MyPlacementsHomePage() {
               />
             </div>
             <div className="my-placements-home-page__mobile-central-container">
-                
+              <div className="my-placements-home-page__mobile-middle-dashboard-container">
+                <div className="my-placements-home-page__mobile-middle-dashboard-top-container">
+                  <div className="my-placements-home-page__mobile-dashboard-all-placements-container">
+                    <img
+                      className="my-placements-home-page__mobile-lightest-blue-icon"
+                      src={LightestBlueIcon}
+                      alt="Lightest Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-all-placements-text">
+                      All Placements
+                    </p>
+                  </div>
+                  <div className="my-placements-home-page__mobile-dashboard-invoiced-container">
+                    <img
+                      className="my-placements-home-page__mobile-light-blue-icon"
+                      src={LightBlueIcon}
+                      alt="Light Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-dashboard-invoiced-text">
+                      Invoiced
+                    </p>
+                  </div>
+                  <div className="my-placements-home-page__mobile-dashboard-payment-sent-container">
+                    <img
+                      className="my-placements-home-page__mobile-darker-light-blue-icon"
+                      src={DarkerLightBlueIcon}
+                      alt="Darker Light Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-dashboard-payment-sent-text">
+                      Payment Sent
+                    </p>
+                  </div>
+                </div>
+                <div className="my-placements-home-page__mobile-middle-dashboard-bottom-container">
+                  <div className="my-placements-home-page__mobile-dashboard-payment-received-container">
+                    <img
+                      className="my-placements-home-page__mobile-regular-blue-icon"
+                      src={RegularBlueIcon}
+                      alt="Regular Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-dashboard-payment-received-text">
+                      Payment Received
+                    </p>
+                  </div>
+                  <div className="my-placements-home-page__mobile-dashboard-completed-container">
+                    <img
+                      className="my-placements-home-page__mobile-dark-blue-icon"
+                      src={DarkBlueIcon}
+                      alt="Dark Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-dashboard-completed-text">
+                      Completed
+                    </p>
+                  </div>
+                  <div className="my-placements-home-page__mobile-dashboard-rating-container">
+                    <img
+                      className="my-placements-home-page__mobile-darkest-blue-icon"
+                      src={DarkestBlueIcon}
+                      alt="Darkest Blue Icon"
+                    />
+                    <p className="my-placements-home-page__mobile-rating-text">
+                      Rating
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="my-placements-home-page__mobile-sort-by-container">
+                <span className="my-placements-home-page__mobile-sort-by-text">
+                  Sort by:
+                </span>
+                <span className="my-placements-home-page__mobile-id-number-text">
+                  ID#
+                </span>
+                <img
+                  className="my-placements-home-page__mobile-menu-arrow-circle-down-icon"
+                  src={MenuArrowCircleDownIcon}
+                  alt="Menu Arrow Circle Down Icon"
+                />
+              </div>
+              <div className="my-placements-home-page__mobile-card-container">
+                <div className="my-placements-home-page__mobile-card-1">
+                 
+                </div>
+              </div>
             </div>
           </div>
         </div>

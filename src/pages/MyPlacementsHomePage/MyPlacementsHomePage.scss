@@ -158,6 +158,178 @@
         height: 54px;
         margin-left: 56px;
         border-radius: 28px;
+        padding-left: 16px;
+    }
+
+    &__mobile-central-container {
+        margin-top: 48px;
+        border: 2px solid $soft-black;
+        margin-left: 4px;
+        height: 1000px;
+        width: 490px;
+        border-radius: 24px;
+    }
+
+    &__mobile-middle-dashboard-container {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-middle-dashboard-top-container {
+        display: flex;
+    }
+
+    &__mobile-dashboard-all-placements-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+    }
+
+    &__mobile-lightest-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-all-placements-text {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-dashboard-invoiced-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+        margin-left: 6px;
+    }
+
+    &__mobile-light-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-dashboard-invoiced-text {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-dashboard-payment-sent-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+        margin-left: 6px;
+    }
+
+    &__mobile-darker-light-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-dashboard-payment-sent-text {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-middle-dashboard-bottom-container {
+        display: flex;
+        margin-top: 4px;
+    }
+
+    &__mobile-dashboard-payment-received-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+    }
+
+    &__mobile-regular-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-dashboard-payment-received-text {
+        margin-top: 14px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-dashboard-completed-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+        margin-left: 6px;
+    }
+
+    &__mobile-dark-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-dashboard-completed-text {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-dashboard-rating-container {
+        border: 1px solid $medium-gray;
+        height: 72px;
+        width: 140px;
+        display: flex;
+        border-radius: 24px;
+        margin-left: 6px;
+    }
+
+    &__mobile-darkest-blue-icon {
+        width: 14px;
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-rating-text {
+        margin-top: 24px;
+        margin-left: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    &__mobile-sort-by-container {
+        margin-top: 48px;
+        margin-left: 24px;
+    }
+
+    &__mobile-sort-by-text {
+        font-weight: 500;
+    }
+
+    &__mobile-id-number-text {
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    &__mobile-menu-arrow-circle-down-icon {
+        margin-left: 10px;
     }
 
 }
