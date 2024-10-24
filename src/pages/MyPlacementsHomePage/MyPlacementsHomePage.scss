@@ -165,9 +165,10 @@
         margin-top: 48px;
         border: 2px solid $soft-black;
         margin-left: 4px;
-        height: 1000px;
+        height: 4400px;
         width: 490px;
         border-radius: 24px;
+        background-color: $background-light-blue;
     }
 
     &__mobile-middle-dashboard-container {
@@ -185,6 +186,7 @@
         width: 140px;
         display: flex;
         border-radius: 24px;
+        background-color: $white-background;
     }
 
     &__mobile-lightest-blue-icon {
@@ -207,6 +209,7 @@
         display: flex;
         border-radius: 24px;
         margin-left: 6px;
+        background-color: $white-background;
     }
 
     &__mobile-light-blue-icon {
@@ -229,6 +232,7 @@
         display: flex;
         border-radius: 24px;
         margin-left: 6px;
+        background-color: $white-background;
     }
 
     &__mobile-darker-light-blue-icon {
@@ -255,6 +259,7 @@
         width: 140px;
         display: flex;
         border-radius: 24px;
+        background-color: $white-background;
     }
 
     &__mobile-regular-blue-icon {
@@ -277,6 +282,7 @@
         display: flex;
         border-radius: 24px;
         margin-left: 6px;
+        background-color: $white-background;
     }
 
     &__mobile-dark-blue-icon {
@@ -299,6 +305,7 @@
         display: flex;
         border-radius: 24px;
         margin-left: 6px;
+        background-color: $white-background;
     }
 
     &__mobile-darkest-blue-icon {
@@ -330,6 +337,450 @@
 
     &__mobile-menu-arrow-circle-down-icon {
         margin-left: 10px;
+    }
+
+    &__mobile-card-container {
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+
+    &__mobile-card-1 {
+        border: 2px solid $background-blue;
+        width: 450px;
+        height: 375px;
+        background-color: $white-background;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__mobile-card-1-id-placement-date-container {
+        display: flex;
+    }
+
+    &__mobile-card-1-id-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-1-id-number {
+        margin-left: 32px;
+        color: $rust;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-card-1-placement-date-container {
+        margin-left: 110px;
+        margin-top: 14px;
+    }
+
+    &__mobile-card-1-placement-date-text {
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-job-title {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-1-job-title-name {
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-agency-full-name-container {
+        margin-left: 32px;
+        margin-top: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-1-agency-text {
+        margin-left: 3px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-full-name-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-1-full-name {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-full-name-text {
+        border: 1px solid $rust;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        border-radius: 28px;
+        color: $rust;
+        text-decoration: underline;
+    }
+
+    &__mobile-card-1-industry-status-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-1-industry {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-1-industry-name {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-status-container {
+        margin-left: 70px;
+    }
+
+    &__mobile-card-1-menu-arrow-circle-down {
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-status-name {
+        margin-top: 10px;
+    }
+
+    &__mobile-card-1-location {
+        margin-top: 14px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-1-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 375px;
+        background-color: $white-background;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        margin-top: 32px;
+    }
+
+    &__mobile-card-2-id-placement-date-container {
+        display: flex;
+    }
+
+    &__mobile-card-2-id-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-2-id-number {
+        margin-left: 32px;
+        color: $rust;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-card-2-placement-date-container {
+        margin-left: 110px;
+        margin-top: 14px;
+    }
+
+    &__mobile-card-2-placement-date-text {
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-job-title {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-2-job-title-name {
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-agency-full-name-container {
+        margin-left: 32px;
+        margin-top: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-2-agency-text {
+        font-weight: 500;
+        margin-left: 3px;
+    }
+
+    &__mobile-card-2-full-name-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-2-full-name {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-full-name-text {
+        border: 1px solid $rust;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        border-radius: 28px;
+        color: $rust;
+        text-decoration: underline;
+    }
+
+    &__mobile-card-2-industry-status-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-2-industry {
+        margin-left: 32px;
+    }
+
+    &__mobile-card-2-industry-name {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-status-container {
+        margin-left: 70px;
+    }
+
+    &__mobile-card-2-menu-arrow-circle-down {
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-status-name {
+        margin-top: 10px;
+    }
+
+    &__mobile-card-2-location {
+        margin-top: 14px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-2-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-3 {
+        border: 2px solid $background-blue;
+        width: 450px;
+        height: 375px;
+        background-color: $white-background;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        margin-top: 32px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-placements-home-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-text {
+            margin-top: 36px;
+            margin-left: 42px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-invoiced-payment-sent-payment-received-completed-container {
+            margin-top: 50px;
+            display: flex;
+            margin-left: 28px;
+        }
+
+        &__tablet-invoiced-container {
+            border: 1px solid $medium-gray;
+            width: 166px;
+            height: 58px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        &__tablet-invoiced-text {
+            margin-top: 14px;
+            margin-left: 10px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-invoiced-number {
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 54px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        &__tablet-payment-sent-container {
+            border: 1px solid $medium-gray;
+            width: 166px;
+            height: 58px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 24px;
+        }
+
+        &__tablet-payment-sent-text {
+            margin-top: 14px;
+            margin-left: 10px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-payment-sent-number {
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 20px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        &__tablet-payment-received-container {
+            border: 1px solid $medium-gray;
+            width: 166px;
+            height: 58px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 24px;
+        }
+
+        &__tablet-payment-received-text {
+            margin-top: 6px;
+            margin-left: 10px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 14px;
+            width: 50px;
+        }
+
+        &__tablet-payment-received-number {
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 58px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        &__tablet-completed-container {
+            border: 1px solid $medium-gray;
+            width: 166px;
+            height: 58px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 24px;
+        }
+
+        &__tablet-completed-text {
+            margin-top: 14px;
+            margin-left: 10px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-completed-number {
+            font-size: 28px;
+            color: $dark-gray;
+            margin-left: 32px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        &__tablet-search-placements-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 28px;
+        }
+
+        &__tablet-search-placements-label {
+            margin-top: 12px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            top: 392px;
+            right: 68px;
+        }
+
+        &__tablet-search-placements-input {
+            border: 2px solid $medium-gray;
+            width: 574px;
+            height: 50px;
+            margin-left: 28px;
+            border-radius: 28px;
+        }
+
+        &__tablet-placements-table {
+            margin-top: 48px;
+            margin-left: 20px;
+            border: 1px solid $medium-gray;
+        }
+
+        &__tablet-all-placements-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-invoiced-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-payment-sent-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-payment-received-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-completed-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-rating-header-column {
+            padding-left: 20px;
+            font-weight: 500;
+        }
+
     }
 
 }

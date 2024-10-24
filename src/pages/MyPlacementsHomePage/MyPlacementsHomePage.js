@@ -160,10 +160,884 @@ export default function MyPlacementsHomePage() {
               </div>
               <div className="my-placements-home-page__mobile-card-container">
                 <div className="my-placements-home-page__mobile-card-1">
-                 
+                  <div className="my-placements-home-page__mobile-card-1-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-1-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-1-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-1-agency-container">
+                      <p className="my-placements-home-page__mobile-card-1-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-1-agency-text">
+                          First Staffing Inc.
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-1-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-1-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-1-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-1-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-1-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-1-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-1-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-1-status-name">
+                        Invoiced
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-2">
+                  <div className="my-placements-home-page__mobile-card-2-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-2-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-2-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-2-agency-container">
+                      <p className="my-placements-home-page__mobile-card-2-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-2-agency-text">
+                          Staffing Agency 2
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-2-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-2-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-2-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-2-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-2-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-2-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-2-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-2-status-name">
+                        Payment Sent
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-3">
+                  <div className="my-placements-home-page__mobile-card-1-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-1-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-1-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-1-agency-container">
+                      <p className="my-placements-home-page__mobile-card-1-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-1-agency-text">
+                          First Staffing Inc.
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-1-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-1-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-1-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-1-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-1-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-1-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-1-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-1-status-name">
+                        Invoiced
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-2">
+                  <div className="my-placements-home-page__mobile-card-2-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-2-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-2-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-2-agency-container">
+                      <p className="my-placements-home-page__mobile-card-2-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-2-agency-text">
+                          Staffing Agency 2
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-2-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-2-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-2-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-2-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-2-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-2-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-2-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-2-status-name">
+                        Payment Sent
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-3">
+                  <div className="my-placements-home-page__mobile-card-1-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-1-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-1-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-1-agency-container">
+                      <p className="my-placements-home-page__mobile-card-1-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-1-agency-text">
+                          First Staffing Inc.
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-1-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-1-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-1-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-1-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-1-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-1-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-1-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-1-status-name">
+                        Invoiced
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-2">
+                  <div className="my-placements-home-page__mobile-card-2-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-2-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-2-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-2-agency-container">
+                      <p className="my-placements-home-page__mobile-card-2-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-2-agency-text">
+                          Staffing Agency 2
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-2-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-2-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-2-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-2-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-2-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-2-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-2-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-2-status-name">
+                        Payment Sent
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-3">
+                  <div className="my-placements-home-page__mobile-card-1-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-1-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-1-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-1-agency-container">
+                      <p className="my-placements-home-page__mobile-card-1-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-1-agency-text">
+                          First Staffing Inc.
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-1-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-1-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-1-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-1-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-1-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-1-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-1-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-1-status-name">
+                        Invoiced
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-2">
+                  <div className="my-placements-home-page__mobile-card-2-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-2-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-2-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-2-agency-container">
+                      <p className="my-placements-home-page__mobile-card-2-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-2-agency-text">
+                          Staffing Agency 2
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-2-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-2-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-2-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-2-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-2-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-2-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-2-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-2-status-name">
+                        Payment Sent
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-3">
+                  <div className="my-placements-home-page__mobile-card-1-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-1-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-1-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-1-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-1-agency-container">
+                      <p className="my-placements-home-page__mobile-card-1-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-1-agency-text">
+                          First Staffing Inc.
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-1-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-1-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-1-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-1-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-1-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-1-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-1-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-1-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-1-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-1-status-name">
+                        Invoiced
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-1-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-1-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-placements-home-page__mobile-card-2">
+                  <div className="my-placements-home-page__mobile-card-2-id-placement-date-container">
+                    <div className="my-placements-home-page__mobile-card-2-id-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-label"
+                        htmlFor="mobile-id"
+                      >
+                        ID:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-id-number">
+                        67838473
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-placement-date-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-placement-date-label"
+                        htmlFor="mobile-placement-date"
+                      >
+                        Placement Date:
+                      </label>
+                      <p className="my-placements-home-page__mobile-card-2-placement-date-text">
+                        07/01/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-job-title">
+                    Job Title:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-job-title-name">
+                      Allied CMA
+                    </span>
+                  </p>
+                  <div className="my-placements-home-page__mobile-card-2-agency-full-name-container">
+                    <div className="my-placements-home-page__mobile-card-2-agency-container">
+                      <p className="my-placements-home-page__mobile-card-2-agency">
+                        Agency:{" "}
+                        <span className="my-placements-home-page__mobile-card-2-agency-text">
+                          Staffing Agency 2
+                        </span>
+                      </p>
+                    </div>
+                    <div className="my-placements-home-page__mobile-card-2-full-name-container">
+                      <p className="my-placements-home-page__mobile-card-2-full-name">
+                        Full Name:
+                      </p>
+                      <p className="my-placements-home-page__mobile-card-2-full-name-text">
+                        Tom Peterson
+                      </p>
+                    </div>
+                  </div>
+                  <div className="my-placements-home-page__mobile-card-2-industry-status-container">
+                    <p className="my-placements-home-page__mobile-card-2-industry">
+                      Industry:{" "}
+                      <span className="my-placements-home-page__mobile-card-2-industry-name">
+                        Healthcare
+                      </span>
+                    </p>
+                    <div className="my-placements-home-page__mobile-card-2-status-container">
+                      <label
+                        className="my-placements-home-page__mobile-card-2-status-label"
+                        htmlFor="mobile-status"
+                      >
+                        Status
+                      </label>
+                      <img
+                        className="my-placements-home-page__mobile-card-2-menu-arrow-circle-down"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                      <p className="my-placements-home-page__mobile-card-2-status-name">
+                        Payment Sent
+                      </p>
+                    </div>
+                  </div>
+                  <p className="my-placements-home-page__mobile-card-2-location">
+                    Location:{" "}
+                    <span className="my-placements-home-page__mobile-card-2-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="my-placements-home-page__tablet-container">
+            <p className="my-placements-home-page__tablet-header-text">
+              Placements
+            </p>
+            <div className="my-placements-home-page__tablet-invoiced-payment-sent-payment-received-completed-container">
+              <div className="my-placements-home-page__tablet-invoiced-container">
+                <p className="my-placements-home-page__tablet-invoiced-text">
+                  Invoiced
+                </p>
+                <p className="my-placements-home-page__tablet-invoiced-number">
+                  5
+                </p>
+              </div>
+              <div className="my-placements-home-page__tablet-payment-sent-container">
+                <p className="my-placements-home-page__tablet-payment-sent-text">
+                  Payment Sent
+                </p>
+                <p className="my-placements-home-page__tablet-payment-sent-number">
+                  6
+                </p>
+              </div>
+              <div className="my-placements-home-page__tablet-payment-received-container">
+                <p className="my-placements-home-page__tablet-payment-received-text">
+                  Payment Received
+                </p>
+                <p className="my-placements-home-page__tablet-payment-received-number">
+                  16
+                </p>
+              </div>
+              <div className="my-placements-home-page__tablet-completed-container">
+                <p className="my-placements-home-page__tablet-completed-text">
+                  Completed
+                </p>
+                <p className="my-placements-home-page__tablet-completed-number">
+                  11
+                </p>
+              </div>
+            </div>
+            <div className="my-placements-home-page__tablet-search-placements-container">
+              <label className="my-placements-home-page__tablet-search-placements-label">
+                Search Placements
+              </label>
+              <img
+                className="my-placements-home-page__tablet-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+              <input
+                className="my-placements-home-page__tablet-search-placements-input"
+                type="text"
+              />
+            </div>
+            <table className="my-placements-home-page__tablet-placements-table">
+              <thead className="my-placements-home-page__tablet-placements-header-row">
+                <tr className="my-placements-home-page__tablet-placements-header-row-1">
+                  <th className="my-placements-home-page__tablet-all-placements-header-column">
+                    All Placements
+                  </th>
+                  <th className="my-placements-home-page__tablet-invoiced-header-column">
+                    Invoiced
+                  </th>
+                  <th className="my-placements-home-page__tablet-payment-sent-header-column">
+                    Payment Sent
+                  </th>
+                  <th className="my-placements-home-page__tablet-payment-received-header-column">
+                    Payment Received
+                  </th>
+                  <th className="my-placements-home-page__tablet-completed-header-column">
+                    Completed
+                  </th>
+                  <th className="my-placements-home-page__tablet-rating-header-column">
+                    Rating
+                  </th>
+                </tr>
+              </thead>
+            </table>
           </div>
         </div>
       </div>
