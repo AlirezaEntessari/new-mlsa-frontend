@@ -1014,29 +1014,147 @@ export default function MyPlacementsHomePage() {
                 type="text"
               />
             </div>
+            <div className="my-placements-home-page__tablet-middle-dashboard-container">
+              <p className="my-placements-home-page__tablet-all-placements">
+                <img
+                  className="my-placements-home-page__tablet-lightest-blue-icon"
+                  src={LightestBlueIcon}
+                  alt="Lightest Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-all-placements-text">
+                  All Placements
+                </span>
+              </p>
+              <p className="my-placements-home-page__tablet-invoiced">
+                <img
+                  className="my-placements-home-page__tablet-light-blue-icon"
+                  src={LightBlueIcon}
+                  alt="Light Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-invoiced-text">
+                  Invoiced
+                </span>
+              </p>
+              <p className="my-placements-home-page__tablet-payment-sent">
+                <img
+                  className="my-placements-home-page__tablet-darker-light-blue-icon"
+                  src={DarkerLightBlueIcon}
+                  alt="Darker Light Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-payment-sent-text">
+                  Payment Sent
+                </span>
+              </p>
+              <p className="my-placements-home-page__tablet-payment-received">
+                <img
+                  className="my-placements-home-page__tablet-regular-blue-icon"
+                  src={RegularBlueIcon}
+                  alt="Regular Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-payment-received-text">
+                  Payment Received
+                </span>
+              </p>
+              <p className="my-placements-home-page__tablet-completed">
+                <img
+                  className="my-placements-home-page__tablet-dark-blue-icon"
+                  src={DarkBlueIcon}
+                  alt="Dark Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-completed-text">
+                  Completed
+                </span>
+              </p>
+              <p className="my-placements-home-page__tablet-rating">
+                <img
+                  className="my-placements-home-page__tablet-darkest-blue-icon"
+                  src={DarkestBlueIcon}
+                  alt="Darkest Blue Icon"
+                />
+                <span className="my-placements-home-page__tablet-dashboard-rating-text">
+                  Rating
+                </span>
+              </p>
+            </div>
             <table className="my-placements-home-page__tablet-placements-table">
               <thead className="my-placements-home-page__tablet-placements-header-row">
-                <tr className="my-placements-home-page__tablet-placements-header-row-1">
-                  <th className="my-placements-home-page__tablet-all-placements-header-column">
-                    All Placements
+                <tr className="my-placements-home-page__tablet-header-row-1">
+                  <th className="my-placements-home-page__tablet-header-row-1-placement-date">
+                    Placement Date{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
-                  <th className="my-placements-home-page__tablet-invoiced-header-column">
-                    Invoiced
+                  <th className="my-placements-home-page__tablet-header-row-1-id">
+                    ID{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
-                  <th className="my-placements-home-page__tablet-payment-sent-header-column">
-                    Payment Sent
+                  <th className="my-placements-home-page__tablet-header-row-1-agency">
+                    Agency{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
-                  <th className="my-placements-home-page__tablet-payment-received-header-column">
-                    Payment Received
+                  <th className="my-placements-home-page__tablet-header-row-1-full-name">
+                    Full Name{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
-                  <th className="my-placements-home-page__tablet-completed-header-column">
-                    Completed
+                  <th className="my-placements-home-page__tablet-header-row-1-job-title">
+                    Job Title{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
-                  <th className="my-placements-home-page__tablet-rating-header-column">
-                    Rating
+                  <th className="my-placements-home-page__tablet-header-row-1-industry">
+                    Industry{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__tablet-header-row-1-location">
+                    Location{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__tablet-header-row-1-status">
+                    Status{" "}
+                    <img
+                      className="my-placements-home-page__tablet-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
                   </th>
                 </tr>
               </thead>
+              <tbody className="my-placements-home-page__tablet-body-section">
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">6373652</td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">Excellence Staffing Agency</td>
+                  <td className="my-placements-home-page"></td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

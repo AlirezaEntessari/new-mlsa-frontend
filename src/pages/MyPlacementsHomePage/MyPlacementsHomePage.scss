@@ -745,40 +745,145 @@
             border-radius: 28px;
         }
 
-        &__tablet-placements-table {
+        &__tablet-middle-dashboard-container {
+            display: flex;
             margin-top: 48px;
-            margin-left: 20px;
+            margin-left: 10px;
             border: 1px solid $medium-gray;
+            border-bottom: 1px solid transparent;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
         }
 
-        &__tablet-all-placements-header-column {
-            padding-left: 20px;
-            font-weight: 500;
+        &__tablet-lightest-blue-icon {
+            width: 14px;
         }
 
-        &__tablet-invoiced-header-column {
-            padding-left: 20px;
-            font-weight: 500;
+        &__tablet-dashboard-all-placements-text {
+            margin-left: 10px;
         }
 
-        &__tablet-payment-sent-header-column {
-            padding-left: 20px;
-            font-weight: 500;
+        &__tablet-invoiced {
+            margin-left: 20px;
         }
 
-        &__tablet-payment-received-header-column {
-            padding-left: 20px;
-            font-weight: 500;
+        &__tablet-light-blue-icon {
+            width: 14px;
         }
 
-        &__tablet-completed-header-column {
-            padding-left: 20px;
-            font-weight: 500;
+        &__tablet-dashboard-invoiced-text {
+            margin-left: 10px;
         }
 
-        &__tablet-rating-header-column {
+        &__tablet-payment-sent {
+            margin-left: 20px;
+        }
+
+        &__tablet-darker-light-blue-icon {
+            width: 14px;
+        }
+
+        &__tablet-dashboard-payment-sent-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-payment-received {
+            margin-left: 20px;
+        }
+
+        &__tablet-regular-blue-icon {
+            width: 14px;
+        }
+
+        &__tablet-dashboard-payment-received-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-completed {
+            margin-left: 20px;
+        }
+
+        &__tablet-dark-blue-icon {
+            width: 14px;
+        }
+
+        &__tablet-dashboard-completed-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-rating {
+            margin-left: 20px;
+        }
+
+        &__tablet-darkest-blue-icon {
+            width: 14px;
+        }
+
+        &__tablet-dashboard-rating-text {
+            margin-left: 10px;
+        }
+
+        &__tablet-placements-table {
+            margin-left: 10px;
+            border: 1px solid $medium-gray;
+            width: 780px;
+        }
+
+        &__tablet-placements-header-row {
+            background-color: rgb(230, 230, 230);
+        }
+
+        &__tablet-placements-header-row {
+            height: 60px;
+        }
+
+        &__tablet-header-row-1-placement-date {
+            font-weight: 400;
+            width: 80px;
             padding-left: 20px;
-            font-weight: 500;
+        }
+
+        &__tablet-header-row-1-id {
+            font-weight: 400;
+            width: 80px;
+            padding-left: 20px;
+        }
+
+        &__tablet-header-row-1-agency {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-header-row-1-full-name {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-header-row-1-job-title {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-header-row-1-industry {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-header-row-1-location {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-header-row-1-status {
+            font-weight: 400;
+            width: 80px;
+        }
+
+        &__tablet-data-row-1-id {
+            color: $dark-navy;
         }
 
     }
