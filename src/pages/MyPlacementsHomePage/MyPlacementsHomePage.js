@@ -10,6 +10,7 @@ import RegularBlueIcon from "../../assets/icons/JobsInterviewsBullet.svg";
 import DarkBlueIcon from "../../assets/icons/JobsOffersBullet.svg";
 import DarkestBlueIcon from "../../assets/icons/JobsPlacementsBullet.svg";
 import MenuArrowCircleDownIcon from "../../assets/icons/MenuCircleArrowGray.svg";
+import ActionIcon from "../../assets/icons/3verticaldots.svg";
 
 export default function MyPlacementsHomePage() {
   return (
@@ -1150,9 +1151,790 @@ export default function MyPlacementsHomePage() {
                   <td className="my-placements-home-page__tablet-data-row-1-placement-date">
                     8/15/24
                   </td>
-                  <td className="my-placements-home-page__tablet-data-row-1-id">6373652</td>
-                  <td className="my-placements-home-page__tablet-data-row-1-agency">Excellence Staffing Agency</td>
-                  <td className="my-placements-home-page"></td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    Excellence Staffing Agency
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__tablet-data-row-1">
+                  <td className="my-placements-home-page__tablet-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__tablet-data-row-1-action">
+                    <img
+                      className="my-placements-home-page__tablet-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="my-placements-home-page__desktop-container">
+            <div className="my-placements-home-page__desktop-header-container">
+              <p className="my-placements-home-page__desktop-header-text">
+                My Placements
+              </p>
+              <div className="my-placements-home-page__desktop-invoiced-payment-sent-payment-received-completed-container">
+                <div className="my-placements-home-page__desktop-invoiced-container">
+                  <p className="my-placements-home-page__desktop-invoiced-text">
+                    Invoiced
+                  </p>
+                  <p className="my-placements-home-page__desktop-invoiced-number">
+                    5
+                  </p>
+                </div>
+                <div className="my-placements-home-page__desktop-payment-sent-container">
+                  <p className="my-placements-home-page__desktop-payment-sent-text">
+                    Payment Sent
+                  </p>
+                  <p className="my-placements-home-page__desktop-payment-sent-number">
+                    6
+                  </p>
+                </div>
+                <div className="my-placements-home-page__desktop-payment-received-container">
+                  <p className="my-placements-home-page__desktop-payment-received-text">
+                    Payment Received
+                  </p>
+                  <p className="my-placements-home-page__desktop-payment-received-number">
+                    16
+                  </p>
+                </div>
+                <div className="my-placements-home-page__desktop-completed-container">
+                  <p className="my-placements-home-page__desktop-completed-text">
+                    Completed
+                  </p>
+                  <p className="my-placements-home-page__desktop-completed-number">
+                    11
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-placements-home-page__desktop-search-placements-container">
+              <p className="my-placements-home-page__desktop-search-placements-text">
+                Search Placements
+              </p>
+              <img
+                className="my-placements-home-page__desktop-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+              <input
+                className="my-placements-home-page__desktop-search-placements-input"
+                type="text"
+              />
+            </div>
+            <div className="my-placements-home-page__desktop-middle-dashboard-container">
+              <p className="my-placements-home-page__desktop-all-placements">
+                <img
+                  className="my-placements-home-page__desktop-lightest-blue-icon"
+                  src={LightestBlueIcon}
+                  alt="Lightest Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-all-placements-text">
+                  All Placements
+                </span>
+              </p>
+              <p className="my-placements-home-page__desktop-invoiced">
+                <img
+                  className="my-placements-home-page__desktop-light-blue-icon"
+                  src={LightBlueIcon}
+                  alt="Light Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-invoiced-text">
+                  Invoiced
+                </span>
+              </p>
+              <p className="my-placements-home-page__desktop-payment-sent">
+                <img
+                  className="my-placements-home-page__desktop-darker-light-blue-icon"
+                  src={DarkerLightBlueIcon}
+                  alt="Darker Light Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-payment-sent-text">
+                  Payment Sent
+                </span>
+              </p>
+              <p className="my-placements-home-page__desktop-payment-received">
+                <img
+                  className="my-placements-home-page__desktop-regular-blue-icon"
+                  src={RegularBlueIcon}
+                  alt="Regular Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-payment-received-text">
+                  Payment Received
+                </span>
+              </p>
+              <p className="my-placements-home-page__desktop-completed">
+                <img
+                  className="my-placements-home-page__desktop-dark-blue-icon"
+                  src={DarkBlueIcon}
+                  alt="Dark Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-completed-text">
+                  Completed
+                </span>
+              </p>
+              <p className="my-placements-home-page__desktop-rating">
+                <img
+                  className="my-placements-home-page__desktop-darkest-blue-icon"
+                  src={DarkestBlueIcon}
+                  alt="Darkest Blue Icon"
+                />
+                <span className="my-placements-home-page__desktop-dashboard-rating-text">
+                  Rating
+                </span>
+              </p>
+            </div>
+            <table className="my-placements-home-page__desktop-placements-table">
+              <thead className="my-placements-home-page__desktop-placements-header-row">
+                <tr className="my-placements-home-page__desktop-header-row-1">
+                  <th className="my-placements-home-page__desktop-header-row-1-placement-date">
+                    Placement Date{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-id">
+                    ID{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-agency">
+                    Agency{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-full-name">
+                    Full Name{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-job-title">
+                    Job Title{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-industry">
+                    Industry{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-location">
+                    Location{" "}
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                  <th className="my-placements-home-page__desktop-header-row-1-status">
+                    Status
+                    <img
+                      className="my-placements-home-page__desktop-menu-arrow-circle-down"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down"
+                    />
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="my-placements-home-page__desktop-body-section">
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Excellence Staffing Agency
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Tom Peterson
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Acme Staffing
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Kurt Kramer
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Premiere Agency
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Julianna Johnson
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Coronna Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Harrison Coronna
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Excellence Staffing Agency
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Joe Williams
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    First Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Tom Peterson
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Acme Staffing
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Kurt Kramer
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Premiere Agency
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Julianna Johnson
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
+                </tr>
+                <tr className="my-placements-home-page__desktop-data-row-1">
+                  <td className="my-placements-home-page__desktop-data-row-1-placement-date">
+                    8/15/24
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-agency">
+                    Coronna Staffing Inc.
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-full-name">
+                    Harrison Coronna
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-location">
+                    Dallas, TX
+                  </td>
+                  <td className="my-placements-home-page__desktop-data-row-1-status">
+                    <img
+                      className="my-placements-home-page__desktop-action-icon"
+                      src={ActionIcon}
+                      alt="Action Icon"
+                    />
+                  </td>
                 </tr>
               </tbody>
             </table>
