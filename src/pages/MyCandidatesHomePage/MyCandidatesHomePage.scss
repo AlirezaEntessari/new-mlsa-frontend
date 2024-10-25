@@ -1,0 +1,266 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-home-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-text {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        margin-left: 170px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    &__mobile-active-placements-expiring-soon-container {
+        display: flex;
+        margin-top: 48px;
+        margin-left: 10px;
+    }
+
+    &__mobile-active-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        height: 66px;
+    }
+
+    &__mobile-active-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-active-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 40px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-placements-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 16px;
+        height: 66px;
+    }
+
+    &__mobile-placements-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-placements-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 14px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-expiring-soon-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 16px;
+        height: 66px;
+    }
+
+    &__mobile-expiring-soon-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-expiring-soon-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 14px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-view-drafts-archived-generate-report-container {
+        margin-top: 54px;
+        margin-left: 8px;
+    }
+
+    &__mobile-view-drafts-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 150px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-archived-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 150px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 10px;
+    }
+
+    &__mobile-generate-report-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 160px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 10px;
+    }
+
+    &__mobile-post-candidate-batch-upload-container {
+        display: flex;
+        margin-top: 54px;
+        margin-left: 50px;
+    }
+
+    &__mobile-post-candidate-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        height: 54px;
+        width: 180px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-plus-white-icon {
+        width: 14px;
+        margin-right: 10px;
+    }
+
+    &__mobile-batch-upload-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        height: 54px;
+        width: 180px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 28px;
+    }
+
+    &__mobile-search-my-candidates-container {
+        display: flex;
+        margin-left: 28px;
+        margin-top: 54px;
+    }
+
+    &__mobile-search-my-candidates-text {
+        width: 100px;
+    }
+
+    &__mobile-search-my-candidates-input {
+        width: 330px;
+        height: 54px;
+        border: 2px solid $medium-gray;
+        margin-left: 10px;
+        border-radius: 28px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 600px;
+        right: 60px;
+    }
+
+    &__mobile-central-container {
+        border: 2px solid $rust;
+        margin-top: 32px;
+        width: 490px;
+        height: 3000px;
+        margin-left: 6px;
+    }
+
+    &__mobile-all-candidates-header {
+        margin-top: 16px;
+        margin-left: 20px;
+        color: $rust;
+        font-weight: 500;
+        border-bottom: 2px solid $rust;
+        width: 124px;
+    }
+
+    &__mobile-all-candidates-dot-icon {
+        width: 14px;
+    }
+
+    &__mobile-dashboard-top-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+
+    &__mobile-pending-container {
+        width: 130px;
+        height: 70px;
+        border: 1px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+    }
+
+    &__mobile-pending-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-pending-text {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    &__mobile-reviews-container {
+        width: 130px;
+        height: 70px;
+        border: 1px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+        margin-left: 12px;
+    }
+
+    &__mobile-reviews-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-reviews-text {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+}
