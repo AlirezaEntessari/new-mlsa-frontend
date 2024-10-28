@@ -5,8 +5,14 @@ import CandidatesSidePanel from "../../components/CandidatesSidePanel/Candidates
 import PlusWhiteIcon from "../../assets/icons/PlusWhite.svg";
 import SearchIcon from "../../assets/icons/Search (2).svg";
 import PendingDotIcon from "../../assets/icons/CPendingDot.svg";
-import ReviewsDotIcon from "../../assets/icons/CReviewsDot.png";
+import ReviewsDotIcon from "../../assets/icons/CReviewsDot.svg";
+import SubmissionsDotIcon from "../../assets/icons/CSubmissionsDot.svg";
 import AllCandidatesDotIcon from "../../assets/icons/AllCandidatesDot.svg";
+import InterviewsDotIcon from "../../assets/icons/CInterviewsDot.svg";
+import OffersDotIcon from "../../assets/icons/COffersDot.svg";
+import PlacementsDotIcon from "../../assets/icons/CPlacementsDot.svg";
+import MenuArrowCircleDownIcon from "../../assets/icons/MenuCircleArrowGray.svg";
+import OnHoldOrangeIcon from "../../assets/icons/OnHoldOrange.svg";
 
 export default function MyCandidatesHomePage() {
   return (
@@ -90,7 +96,9 @@ export default function MyCandidatesHomePage() {
                   src={AllCandidatesDotIcon}
                   alt="All Candidates Dot Icon"
                 />
-                All Candidates
+                <span className="my-candidates-home-page__mobile-all-candidates-text">
+                  All Candidates
+                </span>
               </p>
               <div className="my-candidates-home-page__mobile-dashboard-container">
                 <div className="my-candidates-home-page__mobile-dashboard-top-container">
@@ -107,11 +115,551 @@ export default function MyCandidatesHomePage() {
                   <div className="my-candidates-home-page__mobile-reviews-container">
                     <img
                       className="my-candidates-home-page__mobile-reviews-dot-icon"
-                      src={PendingDotIcon}
+                      src={ReviewsDotIcon}
                       alt="Reviews Dot Icon"
                     />
                     <p className="my-candidates-home-page__mobile-reviews-text">
                       Reviews
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-submissions-container">
+                    <img
+                      className="my-candidates-home-page__mobile-submissions-dot-icon"
+                      src={SubmissionsDotIcon}
+                      alt="Submissions Dot Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-submissions-text">
+                      Submissions
+                    </p>
+                  </div>
+                </div>
+                <div className="my-candidates-home-page__mobile-dashboard-bottom-container">
+                  <div className="my-candidates-home-page__mobile-interviews-container">
+                    <img
+                      className="my-candidates-home-page__mobile-interviews-dot-icon"
+                      src={InterviewsDotIcon}
+                      alt="Interviews Dot Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-interviews-text">
+                      Interviews
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-offers-container">
+                    <img
+                      className="my-candidates-home-page__mobile-offers-dot-icon"
+                      src={OffersDotIcon}
+                      alt="Offers Dot Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-offers-text">
+                      Offers
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-placements-container">
+                    <img
+                      className="my-candidates-home-page__mobile-placements-dot-icon"
+                      src={PlacementsDotIcon}
+                      alt="Placements Dot Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-placements-text">
+                      Placements
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="my-candidates-home-page__mobile-sort-by-container">
+                <span className="my-candidates-home-page__mobile-sort-by-text">
+                  Sort by:
+                </span>
+                <span className="my-candidates-home-page__mobile-id-number-text">
+                  ID #
+                </span>
+                <img
+                  className="my-candidates-home-page__mobile-menu-arrow-circle-down-icon"
+                  src={MenuArrowCircleDownIcon}
+                  alt="Menu Arrow Circle Down Icon"
+                />
+              </div>
+              <div className="my-candidates-home-page__mobile-card-container">
+                <div className="my-candidates-home-page__mobile-card-1">
+                  <div className="my-candidates-home-page__mobile-card-1-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-1-id">
+                      <span className="my-candidates-home-page__mobile-card-1-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-id-number">
+                        67838473
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-posted">
+                      <span className="my-candidates-home-page__mobile-card-1-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-1-job-title">
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-name">
+                        Allied - CMA
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-requests">
+                      <span className="my-candidates-home-page__mobile-card-1-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-requests-number">
+                        3
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-1-candidate">
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-name">
+                        Jennifer Matthews
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-1-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-card-1-industry">
+                    <span className="my-candidates-home-page__mobile-card-1-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-1-industry-name">
+                      Manufacturing
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-1-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-1-location">
+                    <span className="my-candidates-home-page__mobile-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__mobile-card-2">
+                  <div className="my-candidates-home-page__mobile-card-2-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-2-id">
+                      <span className="my-candidates-home-page__mobile-card-2-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-id-number">
+                        67838474
+                      </span>
+                    </p>
+                    <img
+                      className="my-candidates-home-page__mobile-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-card-2-posted">
+                      <span className="my-candidates-home-page__mobile-card-2-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-2-job-title">
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-name">
+                        NP
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-2-requests">
+                      <span className="my-candidates-home-page__mobile-card-2-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-requests-number">
+                        6
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-2-candidate">
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-name">
+                        Chris Frost
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-2-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-industry">
+                    <span className="my-candidates-home-page__mobile-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-2-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-2-location">
+                    <span className="my-candidates-home-page__mobile-card-2-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-2-location-name">
+                      St. Louis, MO
+                    </span>
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__mobile-card-3">
+                  <div className="my-candidates-home-page__mobile-card-1-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-1-id">
+                      <span className="my-candidates-home-page__mobile-card-1-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-id-number">
+                        67838473
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-posted">
+                      <span className="my-candidates-home-page__mobile-card-1-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-1-job-title">
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-name">
+                        Allied - CMA
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-requests">
+                      <span className="my-candidates-home-page__mobile-card-1-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-requests-number">
+                        3
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-1-candidate">
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-name">
+                        Jennifer Matthews
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-1-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-card-1-industry">
+                    <span className="my-candidates-home-page__mobile-card-1-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-1-industry-name">
+                      Manufacturing
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-1-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-1-location">
+                    <span className="my-candidates-home-page__mobile-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__mobile-card-2">
+                  <div className="my-candidates-home-page__mobile-card-2-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-2-id">
+                      <span className="my-candidates-home-page__mobile-card-2-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-id-number">
+                        67838474
+                      </span>
+                    </p>
+                    <img
+                      className="my-candidates-home-page__mobile-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-card-2-posted">
+                      <span className="my-candidates-home-page__mobile-card-2-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-2-job-title">
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-name">
+                        NP
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-2-requests">
+                      <span className="my-candidates-home-page__mobile-card-2-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-requests-number">
+                        6
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-2-candidate">
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-name">
+                        Chris Frost
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-2-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-industry">
+                    <span className="my-candidates-home-page__mobile-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-2-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-2-location">
+                    <span className="my-candidates-home-page__mobile-card-2-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-2-location-name">
+                      St. Louis, MO
+                    </span>
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__mobile-card-3">
+                  <div className="my-candidates-home-page__mobile-card-1-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-1-id">
+                      <span className="my-candidates-home-page__mobile-card-1-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-id-number">
+                        67838473
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-posted">
+                      <span className="my-candidates-home-page__mobile-card-1-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-1-job-title">
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-job-title-name">
+                        Allied - CMA
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-1-requests">
+                      <span className="my-candidates-home-page__mobile-card-1-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-requests-number">
+                        3
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-1-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-1-candidate">
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-1-candidate-name">
+                        Jennifer Matthews
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-1-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-card-1-industry">
+                    <span className="my-candidates-home-page__mobile-card-1-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-1-industry-name">
+                      Manufacturing
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-1-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-1-location">
+                    <span className="my-candidates-home-page__mobile-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-location-name">
+                      Dallas, TX
+                    </span>
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__mobile-card-2">
+                  <div className="my-candidates-home-page__mobile-card-2-id-posted-container">
+                    <p className="my-candidates-home-page__mobile-card-2-id">
+                      <span className="my-candidates-home-page__mobile-card-2-id-text">
+                        ID:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-id-number">
+                        67838474
+                      </span>
+                    </p>
+                    <img
+                      className="my-candidates-home-page__mobile-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                    <p className="my-candidates-home-page__mobile-card-2-posted">
+                      <span className="my-candidates-home-page__mobile-card-2-posted-text">
+                        Posted:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-posted-date">
+                        07/01/24
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-job-title-requests-container">
+                    <p className="my-candidates-home-page__mobile-card-2-job-title">
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-text">
+                        Job Title:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-job-title-name">
+                        NP
+                      </span>
+                    </p>
+                    <p className="my-candidates-home-page__mobile-card-2-requests">
+                      <span className="my-candidates-home-page__mobile-card-2-requests-text">
+                        Requests:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-requests-number">
+                        6
+                      </span>
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__mobile-card-2-candidate-find-job-container">
+                    <p className="my-candidates-home-page__mobile-card-2-candidate">
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-text">
+                        Candidate:
+                      </span>
+                      <span className="my-candidates-home-page__mobile-card-2-candidate-name">
+                        Chris Frost
+                      </span>
+                    </p>
+                    <button className="my-candidates-home-page__mobile-card-2-find-job-button">
+                      Find Job
+                    </button>
+                  </div>
+                  <p className="my-candidates-home-page__mobile-industry">
+                    <span className="my-candidates-home-page__mobile-industry-text">
+                      Industry:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-industry-name">
+                      Healthcare
+                    </span>
+                  </p>
+                  <button className="my-candidates-home-page__mobile-card-2-archive-button">
+                    Archive
+                  </button>
+                  <p className="my-candidates-home-page__mobile-card-2-location">
+                    <span className="my-candidates-home-page__mobile-card-2-location-text">
+                      Location:
+                    </span>
+                    <span className="my-candidates-home-page__mobile-card-2-location-name">
+                      St. Louis, MO
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="my-candidates-home-page__tablet-container">
+            <p className="my-candidates-home-page__tablet-header-text">
+              My Candidates
+            </p>
+            <div className="my-candidates-home-page__tablet-top-dashboard-container">
+              <div className="my-candidates-home-page__tablet-top-dashboard-left-container">
+                <button className="my-candidates-home-page__tablet-post-candidate-button">
+                  <img
+                    className="my-candidates-home-page__tablet-plus-white-icon"
+                    src={PlusWhiteIcon}
+                    alt="Plus White Icon"
+                  />{" "}
+                  Post Candidate
+                </button>
+                <button className="my-candidates-home-page__tablet-batch-upload-button">
+                  Batch Upload
+                </button>
+              </div>
+              <div className="my-candidates-home-page__tablet-top-dashboard-right-container">
+                <div className="my-candidates-home-page__tablet-top-dashboard-active-placements-expiring-soon-container">
+                  <div className="my-candidates-home-page__tablet-top-dashboard-active-container">
+                    <p className="my-candidates-home-page__tablet-top-dashboard-active-text">
+                      Active
+                    </p>
+                    <p className="my-candidates-home-page__tablet-top-dashboard-active-number">
+                      22
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__tablet-top-dashboard-placements-container">
+                    <p className="my-candidates-home-page__tablet-top-dashboard-placements-text">
+                      Placements
+                    </p>
+                    <p className="my-candidates-home-page__tablet-top-dashboard-placements-number">
+                      12
+                    </p>
+                  </div>
+                  <div className="my-candidates-home-page__tablet-top-dashboard-expiring-soon-container">
+                    <p className="my-candidates-home-page__tablet-top-dashboard-expiring-soon-text">
+                      Expiring Soon
+                    </p>
+                    <p className="my-candidates-home-page__tablet-top-dashboard-expiring-soon-number">
+                      6
                     </p>
                   </div>
                 </div>

@@ -4,6 +4,8 @@
 
 .my-candidates-home-page {
 
+    padding-bottom: 15rem;
+
     &__main-container {
         display: flex;
     }
@@ -156,6 +158,10 @@
         font-weight: 500;
     }
 
+    &__mobile-post-candidate-button:hover {
+        background-color: $logo-orange;
+    }
+
     &__mobile-plus-white-icon {
         width: 14px;
         margin-right: 10px;
@@ -170,6 +176,10 @@
         border-radius: 28px;
         font-weight: 500;
         margin-left: 28px;
+    }
+
+    &__mobile-batch-upload-button:hover {
+        background-color: $logo-orange;
     }
 
     &__mobile-search-my-candidates-container {
@@ -202,19 +212,25 @@
         width: 490px;
         height: 3000px;
         margin-left: 6px;
+        border-radius: 20px;
+        background-color: $my-candidates-light-orange;
     }
 
     &__mobile-all-candidates-header {
-        margin-top: 16px;
+        margin-top: 20px;
         margin-left: 20px;
         color: $rust;
         font-weight: 500;
         border-bottom: 2px solid $rust;
-        width: 124px;
+        width: 136px;
     }
 
     &__mobile-all-candidates-dot-icon {
         width: 14px;
+    }
+
+    &__mobile-all-candidates-text {
+        margin-left: 10px;
     }
 
     &__mobile-dashboard-top-container {
@@ -226,9 +242,10 @@
     &__mobile-pending-container {
         width: 130px;
         height: 70px;
-        border: 1px solid $medium-gray;
+        border: 2px solid $medium-gray;
         border-radius: 14px;
         display: flex;
+        background-color: $white-background;
     }
 
     &__mobile-pending-dot-icon {
@@ -245,10 +262,11 @@
     &__mobile-reviews-container {
         width: 130px;
         height: 70px;
-        border: 1px solid $medium-gray;
+        border: 2px solid $medium-gray;
         border-radius: 14px;
         display: flex;
-        margin-left: 12px;
+        margin-left: 16px;
+        background-color: $white-background;
     }
 
     &__mobile-reviews-dot-icon {
@@ -262,5 +280,503 @@
         margin-left: 10px;
     }
 
+    &__mobile-submissions-container {
+        width: 144px;
+        height: 70px;
+        border: 2px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+        margin-left: 16px;
+        background-color: $white-background;
+    }
+
+    &__mobile-submissions-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-submissions-text {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    &__mobile-dashboard-bottom-container {
+        display: flex;
+        margin-top: 6px;
+        margin-left: 20px;
+    }
+
+    &__mobile-interviews-container {
+        width: 130px;
+        height: 70px;
+        border: 2px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+        background-color: $white-background;
+    }
+
+    &__mobile-interviews-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-interviews-text {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    &__mobile-offers-container {
+        width: 130px;
+        height: 70px;
+        border: 2px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+        margin-left: 16px;
+        background-color: $white-background;
+    }
+
+    &__mobile-offers-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-offers-text {
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    &__mobile-placements-container {
+        width: 144px;
+        height: 70px;
+        border: 2px solid $medium-gray;
+        border-radius: 14px;
+        display: flex;
+        margin-left: 16px;
+        background-color: $white-background;
+    }
+
+    &__mobile-placements-dot-icon {
+        width: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-sort-by-container {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    &__mobile-sort-by-text {
+        font-weight: 500;
+    }
+
+    &__mobile-id-number-text {
+        font-weight: 500;
+        margin-left: 48px;
+    }
+
+    &__mobile-menu-arrow-circle-down-icon {
+        margin-left: 14px;
+    }
+
+    &__mobile-card-container {
+        margin-top: 48px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $white-background;
+    }
+
+    &__mobile-card-1-id-posted-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-id-number {
+        margin-left: 32px;
+        color: $rust;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-posted {
+        margin-left: 130px;
+    }
+
+    &__mobile-card-1-posted-date {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-job-title-requests-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-1-job-title-name {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-requests {
+        margin-left: 78px;
+    }
+
+    &__mobile-card-1-requests-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: $background-light-blue;
+        padding: 20px;
+        border-radius: 32px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-candidate-find-job-container {
+        margin-top: 32px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-card-1-candidate-name {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-find-job-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        margin-left: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-industry{
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-industry-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-archive-button {
+        border: 1px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        width: 154px;
+        height: 54px;
+        margin-left: 268px;
+        // margin-top: 12px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-1-location {
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    &__mobile-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $card-gray-background-color;
+        margin-top: 28px;
+    }
+
+    &__mobile-card-2-id-posted-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-id-number {
+        margin-left: 32px;
+        color: $rust;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-posted {
+        margin-left: 81px;
+    }
+
+    &__mobile-card-2-posted-date {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-job-title-requests-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-2-job-title-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-requests {
+        margin-left: 148px;
+    }
+
+    &__mobile-card-2-requests-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: $background-light-blue;
+        padding: 20px;
+        border-radius: 32px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-candidate-find-job-container {
+        margin-top: 32px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-card-2-candidate-name {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-find-job-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        margin-left: 90px;
+        width: 150px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-on-hold-orange-icon {
+        width: 28px;
+        margin-left: 20px;
+    }
+
+    &__mobile-industry {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    &__mobile-industry-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-archive-button {
+        border: 1px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        width: 154px;
+        height: 54px;
+        margin-left: 268px;
+        // margin-top: 12px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-2-location {
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-3 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $white-background;
+        margin-top: 28px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-candidates-home-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-text {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-top-dashboard-container {
+            margin-left: 20px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__tablet-post-candidate-button {
+            background-color: $rust;
+            border: 1px solid $rust;
+            color: $white-text;
+            width: 200px;
+            height: 48px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+        }
+
+        &__tablet-batch-upload-button {
+            background-color: $rust;
+            border: 1px solid $rust;
+            color: $white-text;
+            width: 200px;
+            height: 48px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+            margin-top: 24px;
+        }
+
+        &__tablet-plus-white-icon {
+            width: 12px;
+            margin-right: 10px;
+        }
+
+        &__tablet-top-dashboard-right-container {
+            margin-left: 40px;
+        }
+
+        &__tablet-top-dashboard-active-placements-expiring-soon-container {
+            display: flex;
+        }
+
+        &__tablet-top-dashboard-active-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+        }
+
+        &__tablet-top-dashboard-active-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-active-number {
+            color: $dark-gray;
+            margin-left: 32px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__tablet-top-dashboard-placements-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-placements-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-placements-number {
+            color: $dark-gray;
+            margin-left: 16px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-number {
+            color: $dark-gray;
+            margin-left: 16px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+    }
 
 }
