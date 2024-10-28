@@ -777,6 +777,109 @@
             padding-top: 4px;
         }
 
+        &__tablet-view-drafts-archived-generate-report-container {
+            margin-top: 32px;
+        }
+
+        &__tablet-view-drafts-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__tablet-archived-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-generate-report-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-search-my-candidates-container {
+            margin-top: 48px;
+            margin-left: 184px;
+        }
+
+        &__tablet-search-my-candidates-label {
+            color: $dark-gray;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            top: 494px;
+            right: 60px;
+        }
+
+        &__tablet-search-my-candidates-input {
+            border: 2px solid $medium-gray;
+            border-radius: 28px;
+            height: 50px;
+            width: 400px;
+            margin-left: 32px;
+        }
+
+        &__tablet-middle-dashboard-container {
+            border: 1px solid $medium-gray;
+            margin-top: 48px;
+            border-bottom: transparent;
+            margin-left: 32px;
+            height: 50px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            display: flex;
+        }
+
+        &__tablet-middle-dashboard-all-candidates {
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        &__tablet-all-candidates-dot-icon {
+            width: 20px;
+        }
+
+        &__tablet-all-candidates-text {
+            margin-left: 6px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-middle-dashboard-pending {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        &__tablet-pending-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-pending-text {
+            margin-left: 10px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
     }
 
 }

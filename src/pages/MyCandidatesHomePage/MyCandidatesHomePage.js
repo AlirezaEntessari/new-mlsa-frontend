@@ -663,7 +663,58 @@ export default function MyCandidatesHomePage() {
                     </p>
                   </div>
                 </div>
+                <div className="my-candidates-home-page__tablet-view-drafts-archived-generate-report-container">
+                  <button className="my-candidates-home-page__tablet-view-drafts-button">
+                    View Drafts
+                  </button>
+                  <button className="my-candidates-home-page__tablet-archived-button">
+                    Archived
+                  </button>
+                  <button className="my-candidates-home-page__tablet-generate-report-button">
+                    Generate Report
+                  </button>
+                </div>
               </div>
+            </div>
+            <div className="my-candidates-home-page__tablet-search-my-candidates-container">
+              <label
+                className="my-candidates-home-page__tablet-search-my-candidates-label"
+                htmlFor="tablet-search-my-candidates"
+              >
+                Search My Candidates
+              </label>
+              <img
+                className="my-candidates-home-page__tablet-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+              <input
+                className="my-candidates-home-page__tablet-search-my-candidates-input"
+                type="text"
+              />
+            </div>
+            <div className="my-candidates-home-page__tablet-middle-dashboard-container">
+              <p className="my-candidates-home-page__tablet-middle-dashboard-all-candidates">
+                <img
+                  className="my-candidates-home-page__tablet-all-candidates-dot-icon"
+                  src={AllCandidatesDotIcon}
+                  alt="All Candidates Dot Icon"
+                />
+                <span className="my-candidates-home-page__tablet-all-candidates-text">
+                  All Candidates
+                </span>
+              </p>
+              <p className="my-candidates-home-page__tablet-middle-dashboard-pending">
+                <img
+                  className="my-candidates-home-page__tablet-pending-dot-icon"
+                  src={PendingDotIcon}
+                  alt="Pending Dot Icon"
+                />
+                <span className="my-candidates-home-page__tablet-pending-text">
+                  Pending
+                </span>
+              </p>
+              <p className="my-candidates-home-page__"></p>
             </div>
           </div>
         </div>
