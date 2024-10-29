@@ -714,7 +714,26 @@ export default function MyCandidatesHomePage() {
                   Pending
                 </span>
               </p>
-              <p className="my-candidates-home-page__"></p>
+              <p className="my-candidates-home-page__tablet-middle-dashboard-reviews">
+                <img
+                  className="my-candidates-home-page__tablet-reviews-dot-icon"
+                  src={ReviewsDotIcon}
+                  alt="Reviews Dot Icon"
+                />
+                <span className="my-candidates-home-page__tablet-reviews-text">
+                  Reviews
+                </span>
+              </p>
+              <p className="my-candidates-home-page__tablet-middle-dashboard-submissions">
+                <img
+                  className="my-candidates-home-page__tablet-submissions-dot-icon"
+                  src={SubmissionsDotIcon}
+                  alt="Submissions"
+                />
+                <span className="my-candidates-home-page__tablet-submissions-text">
+                  Submissions
+                </span>
+              </p>
             </div>
           </div>
         </div>

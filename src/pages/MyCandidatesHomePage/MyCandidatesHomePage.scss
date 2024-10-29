@@ -880,6 +880,36 @@
             color: $dark-gray;
         }
 
+        &__tablet-middle-dashboard-reviews {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        &__tablet-reviews-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-reviews-text {
+            margin-left: 10px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-middle-dashboard-submissions {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        &__tablet-submissions-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-submissions-text {
+            margin-left: 10px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
     }
 
 }
