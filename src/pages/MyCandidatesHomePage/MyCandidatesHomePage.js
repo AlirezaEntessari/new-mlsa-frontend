@@ -1229,6 +1229,7 @@ export default function MyCandidatesHomePage() {
               <input
                 className="my-candidates-home-page__desktop-search-my-candidates-input"
                 type="text"
+                id="desktop-search-my-candidates"
               />
             </div>
             <div className="my-candidates-home-page__desktop-middle-dashboard-container">
@@ -1400,10 +1401,297 @@ export default function MyCandidatesHomePage() {
                   </td>
                 </tr>
                 <tr className="my-candidates-home-page__desktop-my-candidates-data-row-2">
-                  <td className="my-candidates-home-page"></td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-id">
+                    6373653{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-full-name">
+                    Ann Norton
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-3">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-id">
+                    6373654
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-full-name">
+                    Sarah Connor
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-1">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-full-name">
+                    John Smith
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-requests">
+                    4
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-2">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-id">
+                    6373653{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-full-name">
+                    Ann Norton
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-3">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-id">
+                    6373654
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-full-name">
+                    Sarah Connor
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-1">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-full-name">
+                    John Smith
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-requests">
+                    4
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-2">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-id">
+                    6373653{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-on-hold-orange-icon"
+                      src={OnHoldOrangeIcon}
+                      alt="On Hold Orange Icon"
+                    />
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-full-name">
+                    Ann Norton
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-2-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-3">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-id">
+                    6373654
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-full-name">
+                    Sarah Connor
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-requests">
+                    2
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-3-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
                 </tr>
               </tbody>
             </table>
+            <div className="my-candidates-home-page__desktop-navigation-container">
+              <img
+                className="my-candidates-home-page__desktop-page-arrow-left-icon"
+                src={PageArrowLeftIcon}
+                alt="Page Arrow Left Icon"
+              />
+              <img
+                className="my-candidates-home-page__desktop-page-number-peach-1-icon"
+                src={PageNumberPeach1Icon}
+                alt="Page Number Peach 1 Icon"
+              />
+              <img
+                className="my-candidates-home-page__desktop-page-number-gray-2-icon"
+                src={PageNumberGray2Icon}
+                alt="Page Number Gray 2 Icon"
+              />
+              <img
+                className="my-candidates-home-page__desktop-page-number-gray-3-icon"
+                src={PageNumberGray3Icon}
+                alt="Page Number Gray 3 Icon"
+              />
+              <img
+                className="my-candidates-home-page__desktop-page-arrow-right-icon"
+                src={PageArrowRightIcon}
+                alt="Page Arrow Right Icon"
+              />
+            </div>
           </div>
         </div>
       </div>

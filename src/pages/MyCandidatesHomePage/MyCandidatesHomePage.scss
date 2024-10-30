@@ -1358,6 +1358,10 @@
             position: relative;
         }
 
+        &__desktop-search-my-candidates-label {
+            margin-top: 14px;
+        }
+
         &__desktop-search-my-candidates-input {
             border: 1px solid $medium-dark-gray;
             width: 1050px;
@@ -1570,7 +1574,7 @@
         }
 
         &__desktop-my-candidates-data-row-1-posted-date {
-            padding-left: 78px;
+            padding-left: 74px;
         }
 
         &__desktop-my-candidates-data-row-1-requests {
@@ -1607,6 +1611,103 @@
             margin-top: 12px;
         }
 
+        &__desktop-my-candidates-data-row-2-id {
+            color: $rust;
+            text-decoration: underline;
+            padding-left: 50px;
+        }
+
+        &__desktop-on-hold-orange-icon {
+            width: 24px;
+            display: block;
+        }
+
+        &__desktop-my-candidates-data-row-2-full-name {
+            padding-left: 58px;
+        }
+
+        &__desktop-my-candidates-data-row-2-job-title {
+            padding-left: 50px;
+        }
+
+        &__desktop-my-candidates-data-row-2-industry {
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-data-row-2-availability-date {
+            padding-left: 90px;
+        }
+
+        &__desktop-my-candidates-data-row-2-posted-date {
+            padding-left: 74px;
+        }
+
+        &__desktop-my-candidates-data-row-2-requests {
+            padding-left: 90px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-my-candidates-data-row-2-action {
+            padding-left: 18px;
+        }
+
+        &__desktop-my-candidates-data-row-3-id {
+            padding-left: 50px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-my-candidates-data-row-3-full-name {
+            padding-left: 54px;
+        }
+
+        &__desktop-my-candidates-data-row-3-job-title {
+            padding-left: 50px;
+        }
+
+        &__desktop-my-candidates-data-row-3-industry {
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-data-row-3-availability-date {
+            padding-left: 90px;
+        }
+
+        &__desktop-my-candidates-data-row-3-posted-date {
+            padding-left: 76px;
+        }
+
+        &__desktop-my-candidates-data-row-3-requests {
+            padding-left: 90px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-my-candidates-data-row-3-action {
+            padding-left: 20px;
+        }
+
+        &__desktop-navigation-container {
+            margin-top: 72px;
+            margin-left: 700px;
+        }
+
+        &__desktop-page-number-peach-1-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-number-gray-2-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-number-gray-3-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-page-arrow-right-icon {
+            margin-left: 10px;
+        }
 
     }
 
