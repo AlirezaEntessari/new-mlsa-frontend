@@ -1,0 +1,43 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-post-candidate-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-container {
+        margin-left: 150px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    &__mobile-header-text {
+        font-family: 'Roboto Serif';
+        color: $rust;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-header-right-container {
+        margin-left: 50px;
+        text-align: right;
+    }
+
+    &__mobile-header-owner-text {
+        color: $rust;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-header-owner-name {
+        color: $rust;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-header-owner-agency {
+        color: $rust;
+    }
+
+}
