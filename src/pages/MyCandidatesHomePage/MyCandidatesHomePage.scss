@@ -629,6 +629,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -1159,6 +1163,450 @@
         &__tablet-page-arrow-right-icon {
             margin-left: 10px;
         }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-candidates-home-page {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+
+        &__desktop-header-text {
+            color: $rust;
+            font-weight: 700;
+            font-size: 32px;
+            font-family: 'Roboto Serif';
+        }
+
+        &__desktop-active-placements-expiring-soon-container {
+            display: flex;
+            margin-left: 432px;
+            margin-top: 36px;
+        }
+
+        &__desktop-active-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        &__desktop-active-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-active-number {
+            color: $dark-gray;
+            margin-left: 72px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-placements-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 32px;
+        }
+
+        &__desktop-placements-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-placements-number {
+            color: $dark-gray;
+            margin-left: 42px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-expiring-soon-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 32px;
+        }
+
+        &__desktop-expiring-soon-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-expiring-soon-number {
+            color: $logo-orange;
+            margin-left: 38px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-top-dashboard-button-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 200px;
+        }
+
+        &__desktop-post-candidate-button {
+            background-color: $rust;
+            color: $white-text;
+            border: 1px solid $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-plus-white-icon {
+            width: 14px;
+            margin-right: 20px;
+        }
+
+        &__desktop-batch-upload-button {
+            background-color: $rust;
+            color: $white-text;
+            border: 1px solid $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-view-drafts-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-archived-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-generate-report-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-search-my-candidates-container {
+            margin-top: 64px;
+            margin-left: 200px;
+            display: flex;
+            position: relative;
+        }
+
+        &__desktop-search-my-candidates-input {
+            border: 1px solid $medium-dark-gray;
+            width: 1050px;
+            height: 54px;
+            margin-left: 32px;
+            border-radius: 28px;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 14px;
+            right: 300px;
+        }
+
+        &__desktop-middle-dashboard-container {
+            display: flex;
+            margin-top: 60px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            border-bottom: transparent;
+            width: 1500px;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+        }
+
+        &__desktop-all-candidates {
+            border-bottom: 2px solid $rust;
+            width: 160px;
+            padding-bottom: 4px;
+            margin-top: 20px;
+            margin-left: 72px;
+        }
+
+        &__desktop-all-candidates-text {
+            color: $rust;
+            font-weight: 500;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        &__desktop-pending {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-pending-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-pending-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-reviews {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-reviews-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-reviews-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-submissions {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-submissions-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-submissions-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-interviews {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-interviews-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-interviews-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-offers {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-offers-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-offers-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-dashboard-placements {
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        &__desktop-placements-dot-icon {
+            width: 20px;
+        }
+
+        &__desktop-dashboard-placements-text {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-my-candidates-table {
+            width: 1700px;
+        }
+
+        &__desktop-my-candidates-header-row-1 {
+            background-color: $my-candidates-light-orange;
+            height: 70px;
+        }
+
+        &__desktop-my-candidates-header-row-1-id {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-full-name {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-job-title {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-industry {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-availability-date {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-posted-date {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-requests {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-header-row-1-action {
+            font-weight: 500;
+            padding-left: 60px;
+        }
+
+        &__desktop-scroll-down-arrow-icon {
+            width: 14px;
+        }
+
+        &__desktop-my-candidates-data-row-1-id {
+            color: $rust;
+            text-decoration: underline;
+            padding-left: 48px;
+        }
+
+        &__desktop-my-candidates-data-row-1-full-name {
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-data-row-1-job-title {
+            padding-left: 50px;
+        }
+
+        &__desktop-my-candidates-data-row-1-industry {
+            padding-left: 60px;
+        }
+
+        &__desktop-my-candidates-data-row-1-availability-date {
+            padding-left: 88px;
+        }
+
+        &__desktop-my-candidates-data-row-1-posted-date {
+            padding-left: 78px;
+        }
+
+        &__desktop-my-candidates-data-row-1-requests {
+            padding-left: 90px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__desktop-my-candidates-data-row-1-action {
+            padding-left: 16px;
+        }
+
+        &__desktop-find-job-button {
+            border: 1px solid $rust;
+            background-color: $rust;
+            color: $white-text;
+            width: 140px;
+            height: 36px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+            margin-top: 16px;
+        }
+
+        &__desktop-active-button {
+            border: 1px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 140px;
+            height: 36px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+            margin-top: 12px;
+        }
+
 
     }
 

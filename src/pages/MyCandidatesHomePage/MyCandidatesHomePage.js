@@ -1160,6 +1160,251 @@ export default function MyCandidatesHomePage() {
               />
             </div>
           </div>
+          <div className="my-candidates-home-page__desktop-container">
+            <div className="my-candidates-home-page__desktop-header-container">
+              <p className="my-candidates-home-page__desktop-header-text">
+                My Candidates
+              </p>
+              <div className="my-candidates-home-page__desktop-active-placements-expiring-soon-container">
+                <div className="my-candidates-home-page__desktop-active-container">
+                  <p className="my-candidates-home-page__desktop-active-text">
+                    Active
+                  </p>
+                  <p className="my-candidates-home-page__desktop-active-number">
+                    22
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__desktop-placements-container">
+                  <p className="my-candidates-home-page__desktop-placements-text">
+                    Placements
+                  </p>
+                  <p className="my-candidates-home-page__desktop-placements-number">
+                    12
+                  </p>
+                </div>
+                <div className="my-candidates-home-page__desktop-expiring-soon-container">
+                  <p className="my-candidates-home-page__desktop-expiring-soon-text">
+                    Expiring Soon
+                  </p>
+                  <p className="my-candidates-home-page__desktop-expiring-soon-number">
+                    7
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-home-page__desktop-top-dashboard-button-container">
+              <button className="my-candidates-home-page__desktop-post-candidate-button">
+                <img
+                  className="my-candidates-home-page__desktop-plus-white-icon"
+                  src={PlusWhiteIcon}
+                  alt="Plus White Icon"
+                />
+                Post Candidate
+              </button>
+              <button className="my-candidates-home-page__desktop-batch-upload-button">
+                Batch Upload
+              </button>
+              <button className="my-candidates-home-page__desktop-view-drafts-button">
+                View Drafts
+              </button>
+              <button className="my-candidates-home-page__desktop-archived-button">
+                Archived
+              </button>
+              <button className="my-candidates-home-page__desktop-generate-report-button">
+                Generate Report
+              </button>
+            </div>
+            <div className="my-candidates-home-page__desktop-search-my-candidates-container">
+              <label
+                className="my-candidates-home-page__desktop-search-my-candidates-label"
+                htmlFor="desktop-search-my-candidates"
+              >
+                Search My Candidates
+              </label>
+              <img
+                className="my-candidates-home-page__desktop-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+              <input
+                className="my-candidates-home-page__desktop-search-my-candidates-input"
+                type="text"
+              />
+            </div>
+            <div className="my-candidates-home-page__desktop-middle-dashboard-container">
+              <p className="my-candidates-home-page__desktop-all-candidates">
+                <img
+                  className="my-candidates-home-page__desktop-all-candidates-dot-icon"
+                  src={AllCandidatesDotIcon}
+                  alt="All Candidates Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-all-candidates-text">
+                  All Candidates
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-pending">
+                <img
+                  className="my-candidates-home-page__desktop-pending-dot-icon"
+                  src={PendingDotIcon}
+                  alt="Pending Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-pending-text">
+                  Pending
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-reviews">
+                <img
+                  className="my-candidates-home-page__desktop-reviews-dot-icon"
+                  src={ReviewsDotIcon}
+                  alt="Reviews Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-reviews-text">
+                  Reviews
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-submissions">
+                <img
+                  className="my-candidates-home-page__desktop-submissions-dot-icon"
+                  src={SubmissionsDotIcon}
+                  alt="Submissions Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-submissions-text">
+                  Submissions
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-interviews">
+                <img
+                  className="my-candidates-home-page__desktop-interviews-dot-icon"
+                  src={InterviewsDotIcon}
+                  alt="Interviews Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-interviews-text">
+                  Interviews
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-offers">
+                <img
+                  className="my-candidates-home-page__desktop-offers-dot-icon"
+                  src={OffersDotIcon}
+                  alt="Offers Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-offers-text">
+                  Offers
+                </span>
+              </p>
+              <p className="my-candidates-home-page__desktop-dashboard-placements">
+                <img
+                  className="my-candidates-home-page__desktop-placements-dot-icon"
+                  src={PlacementsDotIcon}
+                  alt="Placements Dot Icon"
+                />
+                <span className="my-candidates-home-page__desktop-dashboard-placements-text">
+                  Placements
+                </span>
+              </p>
+            </div>
+            <table className="my-candidates-home-page__desktop-my-candidates-table">
+              <thead className="my-candidates-home-page__desktop-my-candidates-header-row">
+                <tr className="my-candidates-home-page__desktop-my-candidates-header-row-1">
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-id">
+                    ID{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-full-name">
+                    Full Name{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-job-title">
+                    Job Title{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-industry">
+                    Industry{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-availability-date">
+                    Availability Date{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-posted-date">
+                    Posted Date{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-requests">
+                    Requests{" "}
+                    <img
+                      className="my-candidates-home-page__desktop-scroll-down-arrow-icon"
+                      src={ScrollDownArrowIcon}
+                      alt="Scroll Down Arrow Icon"
+                    />
+                  </th>
+                  <th className="my-candidates-home-page__desktop-my-candidates-header-row-1-action">
+                    Action{" "}
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="my-candidates-home-page__desktop-my-candidates-body-section">
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-1">
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-id">
+                    6373652
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-full-name">
+                    John Smith
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-job-title">
+                    Allied - CMA
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-industry">
+                    Healthcare
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-availability-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-posted-date">
+                    07/01/24
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-requests">
+                    4
+                  </td>
+                  <td className="my-candidates-home-page__desktop-my-candidates-data-row-1-action">
+                    <button className="my-candidates-home-page__desktop-find-job-button">
+                      Find Job
+                    </button>
+                    <button className="my-candidates-home-page__desktop-active-button">
+                      Active
+                    </button>
+                  </td>
+                </tr>
+                <tr className="my-candidates-home-page__desktop-my-candidates-data-row-2">
+                  <td className="my-candidates-home-page"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
