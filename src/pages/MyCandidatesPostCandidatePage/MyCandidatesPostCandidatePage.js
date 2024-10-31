@@ -6,6 +6,8 @@ import ValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
 import OnHoldButtonOffIcon from "../../assets/icons/Onholdhotbuttonoff.svg";
 import HotOffIcon from "../../assets/icons/HotOff.svg";
 import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
+import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
+import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
 
 export default function MyCandidatesPostCandidatePage() {
   return (
@@ -485,6 +487,134 @@ export default function MyCandidatesPostCandidatePage() {
                   <option value="biweekly">Biweekly</option>
                 </select>
               </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-environment-start-date-container">
+              <div className="my-candidates-post-candidate-page__mobile-environment-container">
+                <label
+                  className="my-candidates-post-candidate-page__mobile-environment-label"
+                  htmlFor="mobile-environment"
+                >
+                  Environment
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__mobile-environment-select"
+                  name="mobile-environment"
+                  id="mobile-environment"
+                >
+                  <option value="on-site" selected>
+                    On-site
+                  </option>
+                  <option value="traveling">Traveling</option>
+                  <option value="remote">Remote</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__mobile-start-date-container">
+                <label
+                  className="my-candidates-post-candidate-page__mobile-start-date-label"
+                  htmlFor="mobile-start-date"
+                >
+                  Start Date
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__mobile-start-date-input"
+                  type="text"
+                  id="mobile-start-date"
+                  placeholder="mm/dd/yy"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-desired-salary-range-container">
+              <p className="my-candidates-post-candidate-page__mobile-desired-salary-range-text">
+                Desired Salary Range
+              </p>
+              <div className="my-candidates-post-candidate-page__mobile-desired-salary-range-slider-container">
+                <span className="my-candidates-post-candidate-page__mobile-desired-salary-range-min-text">
+                  MIN
+                </span>
+                <input
+                  className="my-candidates-post-candidate-page__mobile-desired-salary-range-slider"
+                  type="range"
+                />
+                <span className="my-candidates-post-candidate-page__mobile-desired-salary-range-max-text">
+                  MAX
+                </span>
+              </div>
+              <div className="my-candidates-post-candidate-page__mobile-desired-salary-range-values-container">
+                <div className="my-candidates-post-candidate-page__mobile-desired-salary-range-left-value-container">
+                  <p className="my-candidates-post-candidate-page__mobile-desired-salary-range-left-value-number">
+                    230,000
+                  </p>
+                </div>
+                <img
+                  className="my-candidates-post-candidate-page__mobile-minus-sign-salary-icon"
+                  src={MinusSignSalaryIcon}
+                  alt="Minus Sign Salary Icon"
+                />
+                <div className="my-candidates-post-candidate-page__mobile-desired-salary-range-right-value-container">
+                  <p className="my-candidates-post-candidate-page__mobile-desired-salary-range-right-value-number">
+                    <img
+                      className="my-candidates-post-candidate-page__mobile-dollar-sign-salary-icon"
+                      src={DollarSignSalaryIcon}
+                      alt="Dollar Sign Salary Icon"
+                    />{" "}
+                    337,000
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-willing-to-travel-willing-to-relocate-container">
+              <div className="my-candidates-post-candidate-page__mobile-willing-to-travel-container">
+                <label
+                  className="my-candidates-post-candidate-page__mobile-willing-to-travel-label"
+                  htmlFor="mobile-willing-to-travel"
+                >
+                  Willing to Travel
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__mobile-willing-to-travel-select"
+                  name="mobile-willing-to-travel"
+                  id="mobile-willing-to-travel"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__mobile-willing-to-relocate-container">
+                <label
+                  className="my-candidates-post-candidate-page__mobile-willing-to-relocate-label"
+                  htmlFor="mobile-willing-to-relocate"
+                >
+                  Willing to Relocate
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__mobile-willing-to-relocate-select"
+                  name="mobile-willing-to-relocate"
+                  id="mobile-willing-to-relocate"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-education-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-education-label"
+                htmlFor="mobile-education"
+              >
+                Education
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-education-input"
+                type="text"
+                id="mobile-education"
+                placeholder="Enter Education"
+              />
             </div>
           </div>
         </div>

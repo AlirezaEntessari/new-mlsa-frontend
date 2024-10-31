@@ -468,4 +468,146 @@
         margin-top: 2px;
     }
 
+    &__mobile-environment-start-date-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-environment-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-start-date-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-start-date-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-desired-salary-range-container {
+        margin-top: 48px;
+        margin-left: 16px;
+        border: 1px solid $medium-gray;
+        width: 460px;
+        border-radius: 14px;
+        height: 220px;
+    }
+
+    &__mobile-desired-salary-range-text {
+        padding-top: 12px;
+        padding-left: 32px;
+    }
+
+    &__mobile-desired-salary-range-slider-container {
+        display: flex;
+        margin-left: 32px;
+        margin-top: 20px;
+    }
+
+    &__mobile-desired-salary-range-slider {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 300px;
+    }
+
+    &__mobile-desired-salary-range-values-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-desired-salary-range-left-value-container {
+        border: 1px solid $medium-gray;
+        margin-left: 20px;
+        width: 150px;
+        height: 65px;
+        border-radius: 12px;
+    }
+
+    &__mobile-desired-salary-range-left-value-number {
+        padding-top: 20px;
+        padding-left: 42px;
+    }
+
+    &__mobile-minus-sign-salary-icon {
+        width: 32px;
+        margin-left: 24px;
+    }
+
+    &__mobile-desired-salary-range-right-value-container {
+        border: 1px solid $medium-gray;
+        margin-left: 20px;
+        width: 150px;
+        height: 65px;
+        border-radius: 12px;
+    }
+
+    &__mobile-desired-salary-range-right-value-number {
+        padding-top: 20px;
+        padding-left: 36px;
+    }
+
+    &__mobile-dollar-sign-salary-icon {
+        width: 12px;
+    }
+
+    &__mobile-willing-to-travel-willing-to-relocate-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-willing-to-travel-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-willing-to-relocate-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-willing-to-relocate-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-education-container {
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    &__mobile-education-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
 }
