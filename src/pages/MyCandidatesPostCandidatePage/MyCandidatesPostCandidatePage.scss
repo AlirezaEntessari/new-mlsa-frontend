@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .my-candidates-post-candidate-page {
+    padding-bottom: 10rem;
 
     &__main-container {
         display: flex;
@@ -38,6 +39,433 @@
 
     &__mobile-header-owner-agency {
         color: $rust;
+    }
+
+    &__mobile-value-assurance-icon {
+        width: 170px;
+    }
+
+    &__mobile-top-central-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-top-central-text-field {
+        margin-top: 28px;
+        margin-right: 8px;
+        text-align: justify;
+    }
+
+    &__mobile-client-name-will-not-be-shared {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    &__mobile-top-button-first-level-container {
+        margin-top: 48px;
+        margin-left: 28px;
+        display: flex;
+    }
+
+    &__mobile-parse-resume-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-open-archived-candidate-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 28px;
+    }
+
+    &__mobile-top-button-second-level-container {
+        margin-top: 36px;
+        margin-left: 28px;
+        display: flex;
+    }
+
+    &__mobile-open-saved-draft-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-batch-upload-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 28px;
+    }
+
+    &__mobile-top-button-third-level-container {
+        margin-top: 36px;
+        margin-left: 28px;
+        display: flex;
+    }
+
+    &__mobile-open-through-api-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-return-to-my-candidates-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        height: 54px;
+        width: 200px;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 28px;
+    }
+
+    &__mobile-hot-candidate-put-on-hold-container {
+        display: flex;
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-on-hold-button-off-icon {
+        width: 24px;
+    }
+
+    &__mobile-hot-off-icon {
+        width: 48px;
+        margin-left: 4px;
+    }
+
+    &__mobile-hot-candidate-text {
+        color: $medium-dark-gray;
+        margin-left: 4px;
+    }
+
+    &__mobile-on-hold-off-icon {
+        width: 48px;
+    }
+
+    &__mobile-put-on-hold-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-on-hold-off-icon {
+        margin-left: 4px;
+    }
+
+    &__mobile-put-on-hold-text {
+        color: $medium-dark-gray;
+        margin-left: 4px;
+    }
+
+    &__mobile-candidate-first-name-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-candidate-first-name-label {
+        color: $rust;
+    }
+
+    &__mobile-candidate-first-name-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 440px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-middle-name-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-middle-name-label {
+        color: $rust;
+    }
+
+    &__mobile-middle-name-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 440px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-last-name-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-last-name-label {
+        color: $rust;
+    }
+
+    &__mobile-last-name-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 440px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-check-for-duplicate {
+        color: $rust;
+        text-decoration: underline;
+        margin-top: 24px;
+        margin-left: 32px;
+    }
+
+    &__mobile-country-state-container {
+        display: flex;
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-country-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-state-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-state-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-city-zip-code-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-city-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-zip-code-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-zip-code-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-primary-email-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-primary-email-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-home-phone-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-home-phone-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-cell-phone-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-cell-phone-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-best-time-to-call-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-best-time-to-call-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-title-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-title-input {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 432px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-industry-job-type-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-industry-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-job-type-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-job-type-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-citizenship-type-of-visa-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-citizenship-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-type-of-visa-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-type-of-visa-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-experience-level-salary-type-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-experience-level-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
+    }
+
+    &__mobile-salary-type-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-salary-type-select {
+        border: 1px solid $medium-gray;
+        display: block;
+        height: 54px;
+        padding-left: 10px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 2px;
     }
 
 }
