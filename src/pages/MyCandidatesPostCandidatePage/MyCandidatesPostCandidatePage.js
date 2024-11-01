@@ -616,6 +616,282 @@ export default function MyCandidatesPostCandidatePage() {
                 placeholder="Enter Education"
               />
             </div>
+            <div className="my-candidates-post-candidate-page__mobile-attach-cv-resume-container">
+              <div className="my-candidates-post-candidate-page__mobile-attach-cv-resume-top-container">
+                <p className="my-candidates-post-candidate-page__mobile-attach-cv-resume-text">
+                  Attach CV/Resume*
+                </p>
+                <p className="my-candidates-post-candidate-page__mobile-last-uploaded-text">
+                  Last Uploaded 8/14/24
+                </p>
+              </div>
+              <div className="my-candidates-post-candidate-page__mobile-choose-file-resume-link-1-container">
+                <button className="my-candidates-post-candidate-page__mobile-choose-file-1-button">
+                  Choose File
+                </button>
+                <p className="my-candidates-post-candidate-page__mobile-resume-link-1">
+                  SmithResume82024.doc
+                </p>
+              </div>
+              <p className="my-candidates-post-candidate-page__mobile-doc-or-pdf-accepted">
+                .DOC or PDF accepted. Max Size: 2 MB
+              </p>
+              <p className="my-candidates-post-candidate-page__mobile-preview-current-resume-link">
+                Preview Current Resume
+              </p>
+              <p className="my-candidates-post-candidate-page__mobile-manage-resumes-link">
+                Manage Resumes
+              </p>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-attach-blind-resume-container">
+              <div className="my-candidates-post-candidate-page__mobile-attach-blind-resume-top-container">
+                <p className="my-candidates-post-candidate-page__mobile-attach-blind-resume-text">
+                  Attach Blind Resume
+                </p>
+                <p className="my-candidates-post-candidate-page__mobile-no-file-available-text">
+                  No file available
+                </p>
+              </div>
+              <div className="my-candidates-post-candidate-page__mobile-choose-file-resume-link-2-container">
+                <button className="my-candidates-post-candidate-page__choose-file-2-button">
+                  Choose File
+                </button>
+                <p className="my-candidates-post-candidate-page__mobile-no-file-chosen-text">
+                  No file chosen
+                </p>
+              </div>
+              <p className="my-candidates-post-candidate-page__mobile-doc-or-pdf-accepted">
+                .DOC or PDF accepted. Max Size: 2 MB
+              </p>
+              <p className="my-candidates-post-candidate-page__mobile-preview-current-resume-link">
+                Preview Current Resume
+              </p>
+              <p className="my-candidates-post-candidate-page__mobile-manage-resumes-link">
+                Manage Resumes
+              </p>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-linked-in-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-linkedin-label"
+                htmlFor="mobile-linkedin"
+              >
+                LinkedIn*
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-linkedin-input"
+                type="text"
+                id="mobile-linkedin"
+                placeholder="Enter Link"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-facebook-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-facebook-label"
+                htmlFor="mobile-facebook"
+              >
+                Facebook*
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-facebook-input"
+                type="text"
+                id="mobile-facebook"
+                placeholder="Enter Link"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-twitter-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-twitter-label"
+                htmlFor="mobile-twitter"
+              >
+                Twitter (x)*
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-twitter-input"
+                type="text"
+                id="mobile-twitter"
+                placeholder="Enter Link"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-portfolio-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-portfolio-label"
+                htmlFor="mobile-portfolio"
+              >
+                Portfolio
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-portfolio-input"
+                type="text"
+                placeholder="Enter Link"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-candidate-description-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-candidate-description-label"
+                htmlFor="mobile-candidate-description"
+              >
+                Candidate Description/Notes
+              </label>
+              <textarea
+                className="my-candidates-post-candidate-page__mobile-candidate-description-text-area"
+                name="mobile-candidate-description"
+                id="mobile-candidate-description"
+                placeholder="Enter Candidate Description/Notes"
+              ></textarea>
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-skills-container">
+              <label
+                className="my-candidates-post-candidate-page__mobile-skills-label"
+                htmlFor="mobile-skills"
+              >
+                Skills
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__mobile-skills-input"
+                type="text"
+                id="mobile-skills"
+                placeholder="Enter Skills separated by commas"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__mobile-bottom-button-container">
+              <button className="my-candidates-post-candidate-page__mobile-post-button">
+                Post
+              </button>
+              <button className="my-candidates-post-candidate-page__mobile-preview-button">
+                Preview
+              </button>
+              <button className="my-candidates-post-candidate-page__mobile-save-draft-button">
+                Save Draft
+              </button>
+              <button className="my-candidates-post-candidate-page__mobile-clear-form-button">
+                Clear Form
+              </button>
+            </div>
+          </div>
+          <div className="my-candidates-post-candidate-page__tablet-container">
+            <div className="my-candidates-post-candidate-page__tablet-header-container">
+              <p className="my-candidates-post-candidate-page__tablet-header-text">
+                Post Candidate
+              </p>
+              <p className="my-candidates-post-candidate-page__tablet-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-top-central-container">
+              <img
+                className="my-candidates-post-candidate-page__tablet-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-candidates-post-candidate-page__tablet-top-central-right-container">
+                <p className="my-candidates-post-candidate-page__tablet-top-central-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-candidates-post-candidate-page__tablet-client-name-will-not-be-shared-text">
+                  *Client Name and info starred will not be shared without NDA
+                  or Partnership Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-top-dashboard-container">
+              <div className="my-candidates-post-candidate-page__tablet-top-dashboard-container-top-container">
+                <button className="my-candidates-post-candidate-page__tablet-parse-resume-button">
+                  Parse Resume
+                </button>
+                <button className="my-candidates-post-candidate-page__tablet-open-archived-candidate-button">
+                  Open Archived Candidate
+                </button>
+                <button className="my-candidates-post-candidate-page__tablet-open-saved-draft-button">
+                  Open Saved Draft
+                </button>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-top-dashboard-container-bottom-container">
+                <button className="my-candidates-post-candidate-page__tablet-batch-upload-button">
+                  Batch Upload
+                </button>
+                <button className="my-candidates-post-candidate-page__tablet-open-through-api-button">
+                  Open Through API
+                </button>
+                <div className="my-candidates-post-candidate-page__tablet-hot-candidate-put-on-hold-container">
+                  <div className="my-candidates-post-candidate-page__tablet-hot-candidate-container">
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-hot-candidate-on-hold-button-off-icon"
+                      src={OnHoldButtonOffIcon}
+                      alt="On Hold Button Off Icon"
+                    />
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-hot-off-icon"
+                      src={HotOffIcon}
+                      alt="Hot Off Icon"
+                    />
+                    <span className="my-candidates-post-candidate-page__tablet-hot-candidate-text">
+                      Hot Candidate
+                    </span>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__tablet-put-on-hold-container">
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-put-on-hold-on-hold-button-off-icon"
+                      src={OnHoldButtonOffIcon}
+                      alt="On Hold Button Off Icon"
+                    />
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-on-hold-off-icon"
+                      src={OnHoldOffIcon}
+                      alt="On Hold Off Icon"
+                    />
+                    <span className="my-candidates-post-candidate-page__tablet-put-on-hold-text">
+                      Put On Hold
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-candidate-first-name-middle-name-last-name-container">
+              <div className="my-candidates-post-candidate-page__tablet-candidate-first-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-candidate-first-name-label"
+                  htmlFor="candidate-first-name"
+                >
+                  Candidate First Name*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-candidate-first-name-input"
+                  type="text"
+                  placeholder="Enter First Name"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-middle-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-middle-name-label"
+                  htmlFor="tablet-middle-name"
+                >
+                  Middle Name*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-middle-name-input"
+                  type="text"
+                  id="tablet-middle-name"
+                  placeholder="Enter Middle Name"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-last-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-last-name-label"
+                  htmlFor="tablet-last-name"
+                >
+                  Last Name*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-last-name-input"
+                  type="text"
+                  placeholder="Enter Last Name"
+                />
+              </div>
+            </div>
+            <p className="my-candidates-post-candidate-page__tablet-check-for-duplicate">
+              Check for duplicate?
+            </p>
           </div>
         </div>
       </div>
