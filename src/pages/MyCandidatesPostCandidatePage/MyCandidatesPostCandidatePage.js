@@ -8,6 +8,7 @@ import HotOffIcon from "../../assets/icons/HotOff.svg";
 import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
 import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
 import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
+import CalendarIcon from "../../assets/icons/CalendarIcon.svg";
 
 export default function MyCandidatesPostCandidatePage() {
   return (
@@ -515,6 +516,11 @@ export default function MyCandidatesPostCandidatePage() {
                 >
                   Start Date
                 </label>
+                <img
+                  className="my-candidates-post-candidate-page__mobile-calendar-icon"
+                  src={CalendarIcon}
+                  alt="Calendar Icon"
+                />
                 <input
                   className="my-candidates-post-candidate-page__mobile-start-date-input"
                   type="text"
@@ -892,6 +898,408 @@ export default function MyCandidatesPostCandidatePage() {
             <p className="my-candidates-post-candidate-page__tablet-check-for-duplicate">
               Check for duplicate?
             </p>
+            <div className="my-candidates-post-candidate-page__tablet-country-state-city-zip-code-container">
+              <div className="my-candidates-post-candidate-page__tablet-country-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-country-label"
+                  htmlFor="tablet-country"
+                >
+                  Country
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-country-select"
+                  name="tablet-country"
+                  id="tablet-country"
+                >
+                  <option value="USA" selected>
+                    USA
+                  </option>
+                  <option value="Canada">Canada</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="France">France</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Italy">Italy</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-state-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-state-label"
+                  htmlFor="tablet-state"
+                >
+                  State
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-state-select"
+                  name="tablet-state"
+                  id="tablet-state"
+                >
+                  <option value="Alabama" selected>
+                    Alabama
+                  </option>
+                  <option value="Alaska">Alaska</option>
+                  <option value="Arizona">Arizona</option>
+                  <option value="Arkansas">Arkansas</option>
+                  <option value="California">California</option>
+                  <option value="Colorado">Colorado</option>
+                  <option value="Connecticut">Connecticut</option>
+                  <option value="Delaware">Delaware</option>
+                  <option value="Florida">Florida</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Hawaii">Hawaii</option>
+                  <option value="Idaho">Idaho</option>
+                  <option value="Illinois">Illinois</option>
+                  <option value="Indiana">Indiana</option>
+                  <option value="Iowa">Iowa</option>
+                  <option value="Kansas">Kansas</option>
+                  <option value="Kentucky">Kentucky</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Maine">Maine</option>
+                  <option value="Maryland">Maryland</option>
+                  <option value="Massachusetts">Massachusetts</option>
+                  <option value="Michigan">Michigan</option>
+                  <option value="Minnesota">Minnesota</option>
+                  <option value="Mississippi">Mississippi</option>
+                  <option value="Missouri">Missouri</option>
+                  <option value="Montana">Montana</option>
+                  <option value="Nebraska">Nebraska</option>
+                  <option value="Nevada">Nevada</option>
+                  <option value="New Hampshire">New Hampshire</option>
+                  <option value="New Jersey">New Jersey</option>
+                  <option value="New Mexico">New Mexico</option>
+                  <option value="New York">New York</option>
+                  <option value="North Carolina">North Carolina</option>
+                  <option value="North Dakota">North Dakota</option>
+                  <option value="Ohio">Ohio</option>
+                  <option value="Oklahoma">Oklahoma</option>
+                  <option value="Oregon">Oregon</option>
+                  <option value="Pennsylvania">Pennsylvania</option>
+                  <option value="Rhode Island">Rhode Island</option>
+                  <option value="South Carolina">South Carolina</option>
+                  <option value="South Dakota">South Dakota</option>
+                  <option value="Tennessee">Tennessee</option>
+                  <option value="Texas">Texas</option>
+                  <option value="Utah">Utah</option>
+                  <option value="Vermont">Vermont</option>
+                  <option value="Virginia">Virginia</option>
+                  <option value="Washington">Washington</option>
+                  <option value="West Virginia">West Virginia</option>
+                  <option value="Wisconsin">Wisconsin</option>
+                  <option value="Wyoming">Wyoming</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-city-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-city-label"
+                  htmlFor="tablet-city"
+                >
+                  City
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-city-input"
+                  type="text"
+                  id="tablet-city"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-zip-code-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-zip-code-label"
+                  htmlFor="tablet-zip-code"
+                >
+                  Zip Code
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-zip-code-input"
+                  type="text"
+                  id="tablet-zip-code"
+                  placeholder="5-digit Zip Code"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-primary-email-home-phone-container">
+              <div className="my-candidates-post-candidate-page__tablet-primary-email-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-primary-email-label"
+                  htmlFor="tablet-primary-email"
+                >
+                  Primary Email*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-primary-email-input"
+                  type="text"
+                  id="tablet-primary-email"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-home-phone-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-home-phone-label"
+                  htmlFor="tablet-home-phone"
+                >
+                  Home Phone*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-home-phone-input"
+                  type="text"
+                  id="tablet-home-phone"
+                  placeholder="Enter Home Phone Number"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-best-time-to-call-cell-phone-container">
+              <div className="my-candidates-post-candidate-page__tablet-best-time-to-call-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-best-time-to-call-label"
+                  htmlFor="tablet-best-time-to-call"
+                >
+                  Best Time to Call
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-best-time-to-call-input"
+                  type="text"
+                  id="tablet-best-time-to-call"
+                  placeholder="Enter Time(s)"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-cell-phone-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-cell-phone-label"
+                  htmlFor="tablet-cell-phone"
+                >
+                  Cell Phone*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__tablet-cell-phone-input"
+                  type="text"
+                  placeholder="Enter Cell Phone Number"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-title-container">
+              <label
+                className="my-candidates-post-candidate-page__tablet-title-label"
+                htmlFor="tablet-title"
+              >
+                Title
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__tablet-title-input"
+                type="text"
+                id="tablet-title"
+                placeholder="Enter Job Title"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-industry-job-type-citizenship-type-of-visa-container">
+              <div className="my-candidates-post-candidate-page__tablet-industry-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-industry-label"
+                  htmlFor="tablet-industry"
+                >
+                  Industry
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-industry-select"
+                  name="tablet-industry"
+                  id="tablet-industry"
+                >
+                  <option value="aerospace-defense" selected>
+                    Aerospace and Defense
+                  </option>
+                  <option value="professional-services-consulting">
+                    Professional Services/Consulting
+                  </option>
+                  <option value="agricultural">Agricultural</option>
+                  <option value="computers-and-technology">
+                    Computers and Technology
+                  </option>
+                  <option value="conglomerate">Conglomerate</option>
+                  <option value="consumer-goods">Consumer Goods</option>
+                  <option value="financial">Financial</option>
+                  <option value="government">Government</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="insurance">Insurance</option>
+                  <option value="manufacturing">Manufacturing</option>
+                  <option value="oil-and-gas">Oil and Gas</option>
+                  <option value="pharmaceuticals">Pharmaceuticals</option>
+                  <option value="power-and-utilities">
+                    Power and Utilities
+                  </option>
+                  <option value="telecommunications">Telecommunications</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-job-type-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-job-type-label"
+                  htmlFor="tablet-job-type"
+                >
+                  Job Type
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-job-type-select"
+                  name="tablet-job-type"
+                  id="tablet-job-type"
+                >
+                  <option value="full-time" selected>
+                    Full Time
+                  </option>
+
+                  <option value="part-time">Part Time</option>
+                  <option value="contract">Contract</option>
+                  <option value="internship">Internship</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-citizenship-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-citizenship-label"
+                  htmlFor="tablet-citizenship"
+                >
+                  Citizenship
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-citizenship-select"
+                  name="tablet-citizenship"
+                  id="tablet-citizenship"
+                >
+                  <option value="US Citizen" selected>
+                    US Citizen
+                  </option>
+                  <option value="green-card">Green Card</option>
+                  <option value="permanent-resident">Permanent Resident</option>
+                  <option value="non-resident">Non-resident</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-type-of-visa-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-type-of-visa-label"
+                  htmlFor="tablet-type-of-visa"
+                >
+                  Type of VISA
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-type-of-visa-select"
+                  name="tablet-type-of-visa"
+                  id="tablet-type-of-visa"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="H1B">H1B</option>
+                  <option value="EB5">EB5</option>
+                  <option value="OPT">OPT</option>
+                  <option value="F1">F1</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-middle-input-container">
+              <div className="my-candidates-post-candidate-page__tablet-middle-input-left-container">
+                <div className="my-candidates-post-candidate-page__tablet-middle-input-left-top-container">
+                  <div className="my-candidates-post-candidate-page__tablet-experience-level-container">
+                    <label
+                      className="my-candidates-post-candidate-page__tablet-experience-level-label"
+                      htmlFor="tablet-experience-level"
+                    >
+                      Experience Level
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__tablet-experience-level-select"
+                      name="tablet-experience-level"
+                      id="tablet-experience-level"
+                    >
+                      <option value="0-1 years">0-1 years</option>
+                      <option value="1-2 years">1-2 years</option>
+                      <option value="2-3 years">2-3 years</option>
+                      <option value="3-4 years">3-4 years</option>
+                      <option value="4-5 years">4-5 years</option>
+                      <option value="5-10 years">5-10 years</option>
+                      <option value="10+ years">10+ years</option>
+                    </select>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__tablet-salary-type-container">
+                    <label
+                      className="my-candidates-post-candidate-page__tablet-salary-type-label"
+                      htmlFor="tablet-salary-type"
+                    >
+                      Salary Type
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__tablet-salary-type-select"
+                      name="tablet-salary-type"
+                      id="tablet-salary-type"
+                    >
+                      <option value="annual" selected>
+                        Annual
+                      </option>
+                      <option value="monthly">Monthly</option>
+                      <option value="weekly">Weekly</option>
+                      <option value="biweekly">Biweekly</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="my-candidates-post-candidate-page__tablet-middle-input-left-bottom-container">
+                  <div className="my-candidates-post-candidate-page__tablet-environment-container">
+                    <label
+                      className="my-candidates-post-candidate-page__tablet-environment-label"
+                      htmlFor="tablet-environment"
+                    >
+                      Environment
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__tablet-environment-select"
+                      name="tablet-environment"
+                      id="tablet-environment"
+                    >
+                      <option value="on-site" selected>
+                        On-site
+                      </option>
+                      <option value="traveling">Traveling</option>
+                      <option value="remote">Remote</option>
+                    </select>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__tablet-start-date-container">
+                    <label
+                      className="my-candidates-post-candidate-page__tablet-start-date-label"
+                      htmlFor="tablet-start-date"
+                    >
+                      Start Date
+                    </label>
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-calendar-icon"
+                      src={CalendarIcon}
+                      alt="Calendar Icon"
+                    />
+                    <input
+                      className="my-candidates-post-candidate-page__tablet-start-date-input"
+                      type="text"
+                      id="tablet-start-date"
+                      placeholder="mm/dd/yy"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-middle-input-right-container">
+                <div className="my-candidates-post-candidate-page__tablet-desired-salary-range-container">
+                  <p className="my-candidates-post-candidate-page__tablet-desired-salary-range-header">
+                    Desired Salary Range
+                  </p>
+                  <div className="my-candidates-post-candidate-page__tablet-desired-salary-range-slider-container">
+                    <span className="my-candidates-post-candidate-page__tablet-desired-salary-range-min-text">
+                      MIN
+                    </span>
+                    <input
+                      className="my-candidates-post-candidate-page__tablet-desired-salary-range-input"
+                      type="range"
+                    />
+                    <span className="my-candidates-post-candidate-page__tablet-desired-salary-range-max-text">
+                      MAX
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

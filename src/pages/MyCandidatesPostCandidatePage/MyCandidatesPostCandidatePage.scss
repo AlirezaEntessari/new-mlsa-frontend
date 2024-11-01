@@ -486,6 +486,14 @@
 
     &__mobile-start-date-container {
         margin-left: 32px;
+        position: relative;
+    }
+
+    &__mobile-calendar-icon {
+        position: absolute;
+        width: 24px;
+        top: 40px;
+        right: 18px;
     }
 
     &__mobile-start-date-input {
@@ -1056,6 +1064,338 @@
             color: $rust;
             text-decoration: underline;
             margin-top: 10px;
+            margin-left: 32px;
+        }
+
+        &__tablet-country-state-city-zip-code-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-country-label {
+            color: $rust;
+        }
+
+        &__tablet-country-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 137px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-state-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-state-label {
+            color: $rust;
+        }
+
+        &__tablet-state-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 137px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-city-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-city-label {
+            color: $rust;
+        }
+
+        &__tablet-city-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 200px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-zip-code-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-zip-code-label {
+            color: $rust;
+        }
+
+        &__tablet-zip-code-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 200px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-primary-email-home-phone-container {
+            margin-top: 36px;
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-primary-email-label {
+            color: $rust;
+        }
+
+        &__tablet-primary-email-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-home-phone-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-home-phone-label {
+            color: $rust;
+        }
+
+        &__tablet-home-phone-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-best-time-to-call-cell-phone-container {
+            display: flex;
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-best-time-to-call-label {
+            color: $rust;
+        }
+
+        &__tablet-best-time-to-call-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-cell-phone-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-cell-phone-label {
+            color: $rust;
+        }
+
+        &__tablet-cell-phone-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-title-container {
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-title-label {
+            color: $rust;
+        }
+
+        &__tablet-title-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 732px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-industry-job-type-citizenship-type-of-visa-container {
+            margin-top: 36px;
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-industry-label {
+            color: $rust;
+        }
+
+        &__tablet-industry-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 220px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-job-type-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-job-type-label {
+            color: $rust;
+        }
+
+        &__tablet-job-type-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-citizenship-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-citizenship-label {
+            color: $rust;
+        }
+
+        &__tablet-citizenship-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-type-of-visa-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-type-of-visa-label {
+            color: $rust;
+        }
+
+        &__tablet-type-of-visa-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-middle-input-container {
+            margin-top: 48px;
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-middle-input-left-top-container {
+            display: flex;
+        }
+
+        &__tablet-experience-level-label {
+            color: $rust;
+        }
+
+        &__tablet-experience-level-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-salary-type-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-salary-type-label {
+            color: $rust;
+        }
+
+        &__tablet-salary-type-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-middle-input-left-bottom-container {
+            display: flex;
+            margin-top: 24px;
+        }
+
+        &__tablet-environment-label {
+            color: $rust;
+        }
+
+        &__tablet-environment-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-start-date-container {
+            margin-left: 20px;
+            position: relative;
+        }
+
+        &__tablet-start-date-label {
+            color: $rust;
+        }
+
+        &__tablet-calendar-icon {
+            width: 24px;
+            position: absolute;
+            top: 40px;
+            right: 12px;
+        }
+
+        &__tablet-start-date-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-desired-salary-range-container {
+            border: 1px solid $medium-gray;
+            width: 300px;
+            height: 200px;
+            border-radius: 14px;
+        }
+
+        &__tablet-desired-salary-range-slider-container {
+            display: flex;
+        }
+
+        &__tablet-desired-salary-range-header {
+            padding-top: 10px;
+        }
+
+        &__tablet-middle-input-right-container {
             margin-left: 32px;
         }
 
