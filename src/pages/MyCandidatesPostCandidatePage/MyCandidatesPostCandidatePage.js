@@ -1297,6 +1297,94 @@ export default function MyCandidatesPostCandidatePage() {
                       MAX
                     </span>
                   </div>
+                  <div className="my-candidates-post-candidate-page__tablet-desired-salary-range-values-container">
+                    <div className="my-candidates-post-candidate-page__tablet-desired-salary-range-left-value-container">
+                      <p className="my-candidates-post-candidate-page__tablet-desired-salary-range-left-value-number">
+                        230,000
+                      </p>
+                    </div>
+                    <img
+                      className="my-candidates-post-candidate-page__tablet-minus-sign-salary-icon"
+                      src={MinusSignSalaryIcon}
+                      alt="Minus Sign Salary Icon"
+                    />
+                    <div className="my-candidates-post-candidate-page__tablet-desired-salary-range-right-value-container">
+                      <p className="my-candidates-post-candidate-page__tablet-desired-salary-range-right-value-number">
+                        <img
+                          className="my-candidates-post-candidate-page__tablet-dollar-sign-salary-icon"
+                          src={DollarSignSalaryIcon}
+                          alt="Dollar Sign Salary Icon"
+                        />
+                        337,000
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-willing-to-travel-willing-to-relocate-container">
+              <div className="my-candidates-post-candidate-page__tablet-willing-to-travel-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-willing-to-travel-label"
+                  htmlFor="tablet-willing-to-travel"
+                >
+                  Willing to Travel
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-willing-to-travel-select"
+                  name="tablet-willing-to-travel"
+                  id="tablet-willing-to-travel"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__tablet-willing-to-relocate-container">
+                <label
+                  className="my-candidates-post-candidate-page__tablet-willing-to-relocate-label"
+                  htmlFor="tablet-willing-to-relocate"
+                >
+                  Willing to Relocate
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__tablet-willing-to-relocate-select"
+                  name="tablet-willing-to-relocate"
+                  id="tablet-willing-to-relocate"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-education-container">
+              <label
+                className="my-candidates-post-candidate-page__tablet-education-label"
+                htmlFor="tablet-education"
+              >
+                Education
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__tablet-education-input"
+                type="text"
+                id="tablet-education"
+                placeholder="Enter Education"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__tablet-attach-cv-resume-attach-blind-resume-container">
+              <div className="my-candidates-post-candidate-page__tablet-attach-cv-resume-container">
+                <div className="my-candidates-post-candidate-page__tablet-attach-cv-resume-last-uploaded-container">
+                  <p className="my-candidates-post-candidate-page__tablet-attach-cv-resume-text">
+                    Attach CV/Resume*
+                  </p>
+                  <p className="my-candidates-post-candidate-page__tablet-last-uploaded-text">
+                    Last Uploaded: 8/14/24
+                  </p>
                 </div>
               </div>
             </div>

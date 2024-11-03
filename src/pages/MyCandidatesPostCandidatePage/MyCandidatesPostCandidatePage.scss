@@ -1380,23 +1380,145 @@
             padding-left: 10px;
         }
 
+        &__tablet-middle-input-right-container {
+            margin-left: 54px;
+        }
+
         &__tablet-desired-salary-range-container {
             border: 1px solid $medium-gray;
-            width: 300px;
-            height: 200px;
+            width: 356px;
+            height: 190px;
             border-radius: 14px;
+        }
+
+        &__tablet-desired-salary-range-header {
+            padding-top: 16px;
+            padding-left: 20px;
         }
 
         &__tablet-desired-salary-range-slider-container {
             display: flex;
+            margin-left: 20px;
+            margin-top: 20px;
         }
 
-        &__tablet-desired-salary-range-header {
+        &__tablet-desired-salary-range-input {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 210px;
+        }
+
+        &__tablet-desired-salary-range-values-container {
+            display: flex;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        &__tablet-desired-salary-range-left-value-container {
+            border: 1px solid $medium-gray;
+            width: 120px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        &__tablet-desired-salary-range-left-value-number {
             padding-top: 10px;
+            padding-left: 28px;
         }
 
-        &__tablet-middle-input-right-container {
+        &__tablet-minus-sign-salary-icon {
+            width: 36px;
+            margin-left: 10px;
+        }
+
+        &__tablet-desired-salary-range-right-value-container {
+            border: 1px solid $medium-gray;
+            width: 120px;
+            height: 50px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        &__tablet-desired-salary-range-right-value-number {
+            padding-top: 10px;
+            padding-left: 22px;
+        }
+
+        &__tablet-dollar-sign-salary-icon {
+            width: 12px;
+            margin-right: 2px;
+        }
+
+        &__tablet-willing-to-travel-willing-to-relocate-container {
+            display: flex;
+            margin-top: 36px;
             margin-left: 32px;
+        }
+
+        &__tablet-willing-to-travel-label {
+            color: $rust;
+        }
+
+        &__tablet-willing-to-travel-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-willing-to-relocate-container {
+            margin-left: 20px;
+        }
+
+        &__tablet-willing-to-relocate-label {
+            color: $rust;
+        }
+
+        &__tablet-willing-to-relocate-select {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 150px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-education-container {
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-education-label {
+            color: $rust;
+        }
+
+        &__tablet-education-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 732px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-attach-cv-resume-attach-blind-resume-container {
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-attach-cv-resume-last-uploaded-container {
+            display: flex;
+        }
+
+        &__tablet-attach-cv-resume-text {
+            color: $rust;
+        }
+
+        &__tablet-last-uploaded-text {
+            margin-left: 24px;
+            font-size: 14px;
         }
 
     }
