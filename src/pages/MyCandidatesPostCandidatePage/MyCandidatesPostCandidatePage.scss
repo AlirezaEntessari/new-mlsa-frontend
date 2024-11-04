@@ -842,6 +842,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -1504,8 +1508,9 @@
         }
 
         &__tablet-attach-cv-resume-attach-blind-resume-container {
-            margin-top: 36px;
+            margin-top: 48px;
             margin-left: 32px;
+            display: flex;
         }
 
         &__tablet-attach-cv-resume-last-uploaded-container {
@@ -1517,8 +1522,270 @@
         }
 
         &__tablet-last-uploaded-text {
-            margin-left: 24px;
+            margin-left: 36px;
             font-size: 14px;
+        }
+
+        &__tablet-choose-file-uploaded-resume-container {
+            display: flex;
+        }
+
+        &__tablet-choose-file-button {
+            background-color: $white-background;
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 54px;
+            border-radius: 10px;
+        }
+
+        &__tablet-uploaded-resume-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            margin-top: 10px;
+            margin-left: 24px;
+        }
+
+        &__tablet-doc-or-pdf-accepted {
+            margin-top: 8px;
+            margin-bottom: 6px;
+        }
+
+        &__tablet-preview-current-resume {
+            margin-bottom: 6px;
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__tablet-manage-resumes {
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__tablet-attach-blind-resume-no-file-available-container {
+            display: flex;
+            margin-left: 72px;
+        }
+
+        &__tablet-no-file-available-text {
+            margin-left: 36px;
+            font-size: 14px;
+        }
+
+        &__tablet-choose-file-button-2 {
+            background-color: $white-background;
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 54px;
+            border-radius: 10px;
+            margin-left: 70px;
+        }
+
+        &__tablet-choose-file-no-file-chosen-container {
+            display: flex;
+        }
+
+        &__tablet-no-file-chosen-text {
+            margin-left: 34px;
+            margin-top: 14px;
+        }
+
+        &__tablet-doc-or-pdf-accepted-2 {
+            margin-top: 8px;
+            margin-bottom: 6px;
+            margin-left: 70px;
+        }
+
+        &__tablet-preview-current-resume-text-2 {
+            margin-bottom: 6px;
+            color: $rust;
+            text-decoration: underline;
+            margin-left: 72px;
+        }
+
+        &__tablet-manage-resumes-2 {
+            color: $rust;
+            text-decoration: underline;
+            margin-left: 72px;
+        }
+
+        &__tablet-linkedin-facebook-container {
+            display: flex;
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-linkedin-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-facebook-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-facebook-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-twitter-portfolio-container {
+            display: flex;
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-twitter-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-portfolio-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-portfolio-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 54px;
+            display: block;
+            padding-left: 10px;
+        }
+
+        &__tablet-candidate-description-container {
+            margin-left: 32px;
+            margin-top: 36px;
+        }
+
+        &__tablet-candidate-description-text-area {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 732px;
+            height: 300px;
+            padding-left: 16px;
+            padding-top: 16px;
+        }
+
+        &__tablet-skills-container {
+            margin-top: 36px;
+            margin-left: 32px;
+        }
+
+        &__tablet-skills-input {
+            border: 1px solid $medium-gray;
+            border-radius: 10px;
+            width: 732px;
+            display: block;
+            padding-left: 10px;
+            height: 54px;
+        }
+
+        &__tablet-post-preview-save-draft-button-container {
+            margin-top: 100px;
+            margin-left: 106px;
+            display: flex;
+        }
+
+        &__tablet-post-button {
+            background-color: $dark-navy;
+            border: 1px solid $dark-navy;
+            width: 180px;
+            height: 44px;
+            color: $white-text;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__tablet-preview-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 180px;
+            height: 44px;
+            color: $dark-navy;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 20px;
+        }
+
+        &__tablet-save-draft-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            width: 180px;
+            height: 44px;
+            color: $dark-navy;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 20px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-candidates-post-candidate-page {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 32px;
+        }
+
+        &__desktop-header-text {
+            color: $dark-navy;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+        }
+
+        &__desktop-header-owner-text {
+            margin-left: 700px;
+            margin-top: 14px;
+            font-size: 18px;
+            color: $rust;
+        }
+
+        &__desktop-top-central-container {
+            display: flex;
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+        &__desktop-value-assurance-icon {
+            width: 230px;
+        }
+
+        &__desktop-top-central-right-container {
+            margin-top: 60px;
+        }
+
+        &__desktop-information-is-protected-text {
+            font-family: 'Roboto Serif';
         }
 
     }
