@@ -1558,6 +1558,252 @@ export default function MyCandidatesPostCandidatePage() {
                 </p>
               </div>
             </div>
+            <div className="my-candidates-post-candidate-page__desktop-top-button-container">
+              <button className="my-candidates-post-candidate-page__desktop-parse-resume-button">
+                Parse Resume
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-open-archived-candidate-button">
+                Open Archived Candidate
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-open-saved-draft-button">
+                Open Saved Draft
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-batch-upload-button">
+                Batch Upload
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-open-through-api-button">
+                Open Through API
+              </button>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-candidate-first-name-middle-name-last-name-container">
+              <div className="my-candidates-post-candidate-page__desktop-candidate-first-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-candidate-first-name-label"
+                  htmlFor="desktop-candidate-first-name"
+                >
+                  Candidate First Name
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-candidate-first-name-input"
+                  type="text"
+                  id="desktop-candidate-first-name"
+                  placeholder="Enter First Name"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-middle-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-middle-name-label"
+                  htmlFor="desktop-middle-name"
+                >
+                  Middle Name*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-middle-name-input"
+                  type="text"
+                  id="desktop-middle-name"
+                  placeholder="Enter Middle Name"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-last-name-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-last-name-label"
+                  htmlFor="desktop-last-name"
+                >
+                  Last Name*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-last-name-input"
+                  type="text"
+                  id="desktop-last-name"
+                  placeholder="Enter Last Name"
+                />
+              </div>
+            </div>
+            <p className="my-candidates-post-candidate-page__desktop-check-for-duplicate">
+              Check for duplicate?
+            </p>
+            <div className="my-candidates-post-candidate-page__desktop-country-state-city-zip-code-container">
+              <div className="my-candidates-post-candidate-page__desktop-country-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-country-label"
+                  htmlFor="desktop-country"
+                >
+                  Country
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-country-select"
+                  name="desktop-country"
+                  id="desktop-country"
+                >
+                  <option value="USA" selected>
+                    USA
+                  </option>
+                  <option value="Canada">Canada</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="France">France</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Italy">Italy</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-state-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-state-label"
+                  htmlFor="desktop-state"
+                >
+                  State
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-state-select"
+                  name="desktop-state"
+                  id="desktop-state"
+                >
+                  <option value="Alabama" selected>
+                    Alabama
+                  </option>
+                  <option value="Alaska">Alaska</option>
+                  <option value="Arizona">Arizona</option>
+                  <option value="Arkansas">Arkansas</option>
+                  <option value="California">California</option>
+                  <option value="Colorado">Colorado</option>
+                  <option value="Connecticut">Connecticut</option>
+                  <option value="Delaware">Delaware</option>
+                  <option value="Florida">Florida</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Hawaii">Hawaii</option>
+                  <option value="Idaho">Idaho</option>
+                  <option value="Illinois">Illinois</option>
+                  <option value="Indiana">Indiana</option>
+                  <option value="Iowa">Iowa</option>
+                  <option value="Kansas">Kansas</option>
+                  <option value="Kentucky">Kentucky</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Maine">Maine</option>
+                  <option value="Maryland">Maryland</option>
+                  <option value="Massachusetts">Massachusetts</option>
+                  <option value="Michigan">Michigan</option>
+                  <option value="Minnesota">Minnesota</option>
+                  <option value="Mississippi">Mississippi</option>
+                  <option value="Missouri">Missouri</option>
+                  <option value="Montana">Montana</option>
+                  <option value="Nebraska">Nebraska</option>
+                  <option value="Nevada">Nevada</option>
+                  <option value="New Hampshire">New Hampshire</option>
+                  <option value="New Jersey">New Jersey</option>
+                  <option value="New Mexico">New Mexico</option>
+                  <option value="New York">New York</option>
+                  <option value="North Carolina">North Carolina</option>
+                  <option value="North Dakota">North Dakota</option>
+                  <option value="Ohio">Ohio</option>
+                  <option value="Oklahoma">Oklahoma</option>
+                  <option value="Oregon">Oregon</option>
+                  <option value="Pennsylvania">Pennsylvania</option>
+                  <option value="Rhode Island">Rhode Island</option>
+                  <option value="South Carolina">South Carolina</option>
+                  <option value="South Dakota">South Dakota</option>
+                  <option value="Tennessee">Tennessee</option>
+                  <option value="Texas">Texas</option>
+                  <option value="Utah">Utah</option>
+                  <option value="Vermont">Vermont</option>
+                  <option value="Virginia">Virginia</option>
+                  <option value="Washington">Washington</option>
+                  <option value="West Virginia">West Virginia</option>
+                  <option value="Wisconsin">Wisconsin</option>
+                  <option value="Wyoming">Wyoming</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-city-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-city-label"
+                  htmlFor="desktop-city"
+                >
+                  City
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-city-input"
+                  type="text"
+                  id="desktop-city"
+                  placeholder="Enter City"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-zip-code-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-zip-code-label"
+                  htmlFor="desktop-zip-code"
+                >
+                  Zip Code
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-zip-code-input"
+                  type="text"
+                  id="desktop-zip-code"
+                  placeholder="5-digit Zip Code"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-primary-email-home-phone-container">
+              <div className="my-candidates-post-candidate-page__desktop-primary-email-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-primary-email-label"
+                  htmlFor="desktop-primary-email"
+                >
+                  Primary Email
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-primary-email-input"
+                  type="text"
+                  id="desktop-primary-email"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-home-phone-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-home-phone-label"
+                  htmlFor="desktop-home-phone"
+                >
+                  Home Phone
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-home-phone-input"
+                  type="text"
+                  id="desktop-home-phone"
+                  placeholder="Enter phone #"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-best-time-to-call-cell-phone-container">
+              <div className="my-candidates-post-candidate-page__desktop-best-time-to-call-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-best-time-to-call-label"
+                  htmlFor="desktop-best-time-to-call"
+                >
+                  Best Time to Call
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-best-time-to-call-input"
+                  type="text"
+                  id="desktop-best-time-to-call"
+                  placeholder="Enter time(s)"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-cell-phone-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-cell-phone-label"
+                  htmlFor="desktop-cell-phone"
+                >
+                  Cell Phone
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-cell-phone-input"
+                  type="text"
+                  id="desktop-cell-phone"
+                  placeholder="Enter phone #"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

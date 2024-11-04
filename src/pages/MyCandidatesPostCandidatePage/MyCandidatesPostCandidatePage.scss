@@ -1741,6 +1741,7 @@
 @include desktop {
 
     .my-candidates-post-candidate-page {
+        padding-bottom: 20rem;
 
         &__tablet-container {
             display: none;
@@ -1773,7 +1774,7 @@
         &__desktop-top-central-container {
             display: flex;
             margin-top: 10px;
-            margin-left: 100px;
+            margin-left: 120px;
         }
 
         &__desktop-value-assurance-icon {
@@ -1786,6 +1787,279 @@
 
         &__desktop-information-is-protected-text {
             font-family: 'Roboto Serif';
+            width: 600px;
+        }
+
+        &__desktop-top-button-container {
+            margin-top: 40px;
+            margin-left: 170px;
+        }
+
+        &__desktop-parse-resume-button {
+            width: 220px;
+            height: 54px;
+            background-color: $white-background;
+            border: 2px solid $rust;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-open-archived-candidate-button {
+            width: 220px;
+            height: 54px;
+            background-color: $white-background;
+            border: 2px solid $rust;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 24px;
+        }
+
+        &__desktop-open-saved-draft-button {
+            width: 220px;
+            height: 54px;
+            background-color: $white-background;
+            border: 2px solid $rust;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 24px;
+        }
+
+        &__desktop-batch-upload-button {
+            width: 220px;
+            height: 54px;
+            background-color: $white-background;
+            border: 2px solid $rust;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 24px;
+        }
+
+        &__desktop-open-through-api-button {
+            width: 220px;
+            height: 54px;
+            background-color: $white-background;
+            border: 2px solid $rust;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 24px;
+        }
+
+        &__desktop-candidate-first-name-middle-name-last-name-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 170px;
+        }
+
+        &__desktop-candidate-first-name-label {
+            color: $rust;
+        }
+
+        &__desktop-candidate-first-name-input {
+            border: 1px solid $medium-gray;
+            width: 500px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-middle-name-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-middle-name-label {
+            color: $rust;
+        }
+
+        &__desktop-middle-name-input {
+            border: 1px solid $medium-gray;
+            width: 300px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-last-name-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-last-name-label {
+            color: $rust;
+        }
+
+        &__desktop-last-name-input {
+            border: 1px solid $medium-gray;
+            width: 500px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-check-for-duplicate {
+            color: $rust;
+            text-decoration: underline;
+            margin-left: 170px;
+            margin-top: 32px;
+        }
+
+        &__desktop-country-state-city-zip-code-container {
+            margin-top: 48px;
+            margin-left: 170px;
+            display: flex;
+        }
+
+        &__desktop-country-label {
+            color: $rust;
+        }
+
+        &__desktop-country-select {
+            border: 1px solid $medium-gray;
+            width: 250px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-state-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-state-label {
+            color: $rust;
+        }
+
+        &__desktop-state-select {
+            border: 1px solid $medium-gray;
+            width: 250px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-city-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-city-label {
+            color: $rust;
+        }
+
+        &__desktop-city-input {
+            border: 1px solid $medium-gray;
+            width: 510px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-zip-code-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-zip-code-label {
+            color: $rust;
+        }
+
+        &__desktop-zip-code-input {
+            border: 1px solid $medium-gray;
+            width: 250px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-primary-email-home-phone-container {
+            display: flex;
+            margin-left: 170px;
+            margin-top: 48px;
+        }
+
+        &__desktop-primary-email-label {
+            color: $rust;
+        }
+
+        &__desktop-primary-email-input {
+            border: 1px solid $medium-gray;
+            width: 662px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-home-phone-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-home-phone-label {
+            color: $rust;
+        }
+
+        &__desktop-home-phone-input {
+            border: 1px solid $medium-gray;
+            width: 662px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-best-time-to-call-cell-phone-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 170px;
+        }
+
+        &__desktop-best-time-to-call-label {
+            color: $rust;
+        }
+
+        &__desktop-best-time-to-call-input {
+            border: 1px solid $medium-gray;
+            width: 662px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        &__desktop-cell-phone-container {
+            margin-left: 32px;
+        }
+
+        &__desktop-cell-phone-label {
+            color: $rust;
+        }
+
+        &__desktop-cell-phone-input {
+            border: 1px solid $medium-gray;
+            width: 662px;
+            height: 54px;
+            display: block;
+            margin-top: 2px;
+            border-radius: 10px;
+            padding-left: 10px;
         }
 
     }
