@@ -1919,6 +1919,344 @@ export default function MyCandidatesPostCandidatePage() {
                 </select>
               </div>
             </div>
+            <div className="my-candidates-post-candidate-page__desktop-middle-dashboard-container">
+              <div className="my-candidates-post-candidate-page__desktop-middle-dashboard-left-container">
+                <div className="my-candidates-post-candidate-page__desktop-experience-level-salary-type-container">
+                  <div className="my-candidates-post-candidate-page__desktop-experience-level-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-experience-level-label"
+                      htmlFor="desktop-experience-level"
+                    >
+                      Experience Level
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__desktop-experience-level-select"
+                      name="desktop-experience-level"
+                      id="desktop-experience-level"
+                    >
+                      <option value="0-1 years">0-1 years</option>
+                      <option value="1-2 years">1-2 years</option>
+                      <option value="2-3 years">2-3 years</option>
+                      <option value="3-4 years">3-4 years</option>
+                      <option value="4-5 years">4-5 years</option>
+                      <option value="5-10 years">5-10 years</option>
+                      <option value="10+ years">10+ years</option>
+                    </select>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__desktop-salary-type-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-salary-type-label"
+                      htmlFor="desktop-salary-type"
+                    >
+                      Salary Type
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__desktop-salary-type-select"
+                      name="desktop-salary-type"
+                      id="desktop-salary-type"
+                    >
+                      {" "}
+                      <option value="annual" selected>
+                        Annual
+                      </option>
+                      <option value="monthly">Monthly</option>
+                      <option value="weekly">Weekly</option>
+                      <option value="biweekly">Biweekly</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="my-candidates-post-candidate-page__desktop-environment-start-date-container">
+                  <div className="my-candidates-post-candidate-page__desktop-environment-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-environment-label"
+                      htmlFor="desktop-environment"
+                    >
+                      Environment
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__desktop-environment-select"
+                      name="desktop-environment"
+                      id="desktop-environment"
+                    >
+                      <option value="on-site" selected>
+                        On-site
+                      </option>
+                      <option value="traveling">Traveling</option>
+                      <option value="remote">Remote</option>
+                    </select>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__desktop-start-date-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-start-date-label"
+                      htmlFor="desktop-start-date"
+                    >
+                      Start Date
+                    </label>
+                    <img
+                      className="my-candidates-post-candidate-page__desktop-calendar-icon"
+                      src={CalendarIcon}
+                      alt="Calendar Icon"
+                    />
+                    <input
+                      className="my-candidates-post-candidate-page__desktop-start-date-input"
+                      type="text"
+                      id="desktop-start-date"
+                      placeholder="mm/dd/yy"
+                    />
+                  </div>
+                </div>
+                <div className="my-candidates-post-candidate-page__desktop-willing-to-travel-willing-to-relocate-container">
+                  <div className="my-candidates-post-candidate-page__desktop-willing-to-travel-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-willing-to-travel-label"
+                      htmlFor="desktop-willing-to-travel"
+                    >
+                      Willing to Travel
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__desktop-willing-to-travel-select"
+                      name="desktop-willing-to-travel"
+                      id="desktop-willing-to-travel"
+                    >
+                      <option value="" disabled selected>
+                        Select...
+                      </option>
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__desktop-willing-to-relocate-container">
+                    <label
+                      className="my-candidates-post-candidate-page__desktop-willing-to-relocate-label"
+                      htmlFor="desktop-willing-to-relocate"
+                    >
+                      Willing to Relocate
+                    </label>
+                    <select
+                      className="my-candidates-post-candidate-page__desktop-willing-to-relocate-select"
+                      name="desktop-willing-to-relocate"
+                      id="desktop-willing-to-relocate"
+                    >
+                      <option value="" disabled selected>
+                        Select...
+                      </option>
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-middle-dashboard-right-container">
+                <div className="my-candidates-post-candidate-page__desktop-desired-salary-range-container">
+                  <p className="my-candidates-post-candidate-page__desktop-desired-salary-range-header">
+                    Desired Salary Range
+                  </p>
+                  <div className="my-candidates-post-candidate-page__desktop-desired-salary-range-slider-container">
+                    <span className="my-candidates-post-candidate-page__desktop-desired-salary-range-min-text">
+                      MIN
+                    </span>
+                    <input
+                      className="my-candidates-post-candidate-page__desktop-desired-salary-range-slider"
+                      type="range"
+                    />
+                    <span className="my-candidates-post-candidate-page__desktop-desired-salary-range-max-text">
+                      MAX
+                    </span>
+                  </div>
+                  <div className="my-candidates-post-candidate-page__desktop-desired-salary-range-values-container">
+                    <div className="my-candidates-post-candidate-page__desktop-desired-salary-range-left-value-container">
+                      <p className="my-candidates-post-candidate-page__desktop-desired-salary-range-left-value-number">
+                        230,000
+                      </p>
+                    </div>
+                    <img
+                      className="my-candidates-post-candidate-page__desktop-minus-sign-salary-icon"
+                      src={MinusSignSalaryIcon}
+                      alt="Minus Sign Salary Icon"
+                    />
+                    <div className="my-candidates-post-candidate-page__desktop-desired-salary-range-right-value-container">
+                      <p className="my-candidates-post-candidate-page__desktop-desired-salary-range-right-value-number">
+                        <img
+                          className="my-candidates-post-candidate-page__desktop-dollar-sign-salary-icon"
+                          src={DollarSignSalaryIcon}
+                          alt="Dollar Sign Salary Icon"
+                        />
+                        337,000
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-education-container">
+              <label
+                className="my-candidates-post-candidate-page__desktop-education-label"
+                htmlFor="desktop-education"
+              >
+                Education
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__desktop-education-input"
+                type="text"
+                id="desktop-education"
+                placeholder="Enter Education"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-attach-cv-resume-attach-blind-resume-container">
+              <div className="my-candidates-post-candidate-page__desktop-attach-cv-resume-container">
+                <div className="my-candidates-post-candidate-page__desktop-attach-cv-resume-header-container">
+                  <p className="my-candidates-post-candidate-page__desktop-attach-cv-resume-header-text">
+                    Attach CV/Resume*
+                  </p>
+                  <p className="my-candidates-post-candidate-page__desktop-last-uploaded-text">
+                    Last Uploaded: 8/14/24
+                  </p>
+                </div>
+                <div className="my-candidates-post-candidate-page__desktop-choose-file-resume-uploaded-container">
+                  <button className="my-candidates-post-candidate-page__desktop-choose-file-button">
+                    Choose File
+                  </button>
+                  <p className="my-candidates-post-candidate-page__desktop-resume-uploaded-text">
+                    SmithResume82024.doc
+                  </p>
+                </div>
+                <p className="my-candidates-post-candidate-page__desktop-doc-or-pdf-accepted">
+                  .DOC or PDF accepted. Max Size: 2 MB
+                </p>
+                <p className="my-candidates-post-candidate-page__desktop-preview-current-resume">
+                  Preview Current Resume
+                </p>
+                <p className="my-candidates-post-candidate-page__desktop-manage-resumes">
+                  Manage Resumes
+                </p>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-attach-blind-resume-container">
+                <div className="my-candidates-post-candidate-page__desktop-attach-blind-resume-header-container">
+                  <p className="my-candidates-post-candidate-page__desktop-attach-blind-resume-header-text">
+                    Attach Blind Resume
+                  </p>
+                  <p className="my-candidates-post-candidate-page__desktop-attach-blind-resume-no-file-available">
+                    No file available
+                  </p>
+                </div>
+                <div className="my-candidates-post-candidate-page__desktop-choose-file-no-file-chosen-container">
+                  <button className="my-candidates-post-candidate-page__desktop-choose-file-button">
+                    Choose File
+                  </button>
+                  <p className="my-candidates-post-candidate-page__desktop-no-file-chosen-text">
+                    No file chosen
+                  </p>
+                </div>
+                <p className="my-candidates-post-candidate-page__desktop-doc-or-pdf-accepted">
+                  .DOC or PDF accepted. Max Size: 2 MB
+                </p>
+                <p className="my-candidates-post-candidate-page__desktop-preview-current-resume">
+                  Preview Current Resume
+                </p>
+                <p className="my-candidates-post-candidate-page__desktop-manage-resumes">
+                  Manage Resumes
+                </p>
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-linkedin-facebook-container">
+              <div className="my-candidates-post-candidate-page__desktop-linkedin-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-linkedin-label"
+                  htmlFor="desktop-linkedin"
+                >
+                  LinkedIn
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-linkedin-input"
+                  type="text"
+                  id="desktop-linkedin"
+                  placeholder="Enter Link"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-facebook-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-facebook-label"
+                  htmlFor="desktop-facebook"
+                >
+                  Facebook*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-facebook-input"
+                  type="text"
+                  id="desktop-facebook"
+                  placeholder="Enter Link"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-twitter-portfolio-container">
+              <div className="my-candidates-post-candidate-page__desktop-twitter-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-twitter-label"
+                  htmlFor="desktop-twitter"
+                >
+                  Twitter (x)*
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-twitter-input"
+                  type="text"
+                  id="desktop-twitter"
+                  placeholder="Enter Link"
+                />
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-portfolio-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-portfolio-label"
+                  htmlFor="desktop-portfolio"
+                >
+                  Portfolio
+                </label>
+                <input
+                  className="my-candidates-post-candidate-page__desktop-portfolio-input"
+                  type="text"
+                  id="desktop-portfolio"
+                  placeholder="Enter Link"
+                />
+              </div>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-candidate-description-container">
+              <label
+                className="my-candidates-post-candidate-page__desktop-candidate-description-label"
+                htmlFor="desktop-candidate-description"
+              >
+                Candidate Description/Notes
+              </label>
+              <textarea
+                className="my-candidates-post-candidate-page__desktop-candidate-description-text-area"
+                name="desktop-candidate-description"
+                id="desktop-candidate-description"
+                placeholder="Enter Candidate Description/Notes"
+              ></textarea>
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-skills-container">
+              <label
+                className="my-candidates-post-candidate-page__desktop-skills-label"
+                htmlFor="desktop-skills"
+              >
+                Skills
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__desktop-skills-input"
+                type="text"
+                id="desktop-skills"
+                placeholder="Enter Skills separated by commas"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-bottom-button-container">
+              <button className="my-candidates-post-candidate-page__desktop-post-button">
+                Post
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-preview-button">
+                Preview
+              </button>
+              <button className="my-candidates-post-candidate-page__desktop-save-draft-button">
+                Save Draft
+              </button>
+            </div>
           </div>
         </div>
       </div>
