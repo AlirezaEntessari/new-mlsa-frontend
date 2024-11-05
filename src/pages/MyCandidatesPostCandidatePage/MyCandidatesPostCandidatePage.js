@@ -1804,6 +1804,121 @@ export default function MyCandidatesPostCandidatePage() {
                 />
               </div>
             </div>
+            <div className="my-candidates-post-candidate-page__desktop-title-container">
+              <label
+                className="my-candidates-post-candidate-page__desktop-title-label"
+                htmlFor="desktop-title"
+              >
+                Title
+              </label>
+              <input
+                className="my-candidates-post-candidate-page__desktop-title-input"
+                type="text"
+                id="desktop-title"
+                placeholder="Enter Job Title"
+              />
+            </div>
+            <div className="my-candidates-post-candidate-page__desktop-industry-job-type-citizenship-type-of-visa-container">
+              <div className="my-candidates-post-candidate-page__desktop-industry-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-industry-label"
+                  htmlFor="desktop-industry"
+                >
+                  Industry
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-industry-select"
+                  name="desktop-industry"
+                  id="desktop-industry"
+                >
+                  <option value="aerospace-defense" selected>
+                    Aerospace and Defense
+                  </option>
+                  <option value="professional-services-consulting">
+                    Professional Services/Consulting
+                  </option>
+                  <option value="agricultural">Agricultural</option>
+                  <option value="computers-and-technology">
+                    Computers and Technology
+                  </option>
+                  <option value="conglomerate">Conglomerate</option>
+                  <option value="consumer-goods">Consumer Goods</option>
+                  <option value="financial">Financial</option>
+                  <option value="government">Government</option>
+                  <option value="healthcare">Healthcare</option>
+                  <option value="insurance">Insurance</option>
+                  <option value="manufacturing">Manufacturing</option>
+                  <option value="oil-and-gas">Oil and Gas</option>
+                  <option value="pharmaceuticals">Pharmaceuticals</option>
+                  <option value="power-and-utilities">
+                    Power and Utilities
+                  </option>
+                  <option value="telecommunications">Telecommunications</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-job-type-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-job-type-label"
+                  htmlFor="desktop-job-type"
+                >
+                  Job Type
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-job-type-select"
+                  name="desktop-job-type"
+                  id="desktop-job-type"
+                >
+                  <option value="full-time" selected>
+                    Full Time
+                  </option>
+
+                  <option value="part-time">Part Time</option>
+                  <option value="contract">Contract</option>
+                  <option value="internship">Internship</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-citizenship-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-citizenship-label"
+                  htmlFor="desktop-citizenship"
+                >
+                  Citizenship
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-citizenship-select"
+                  name="desktop-citizenship"
+                  id="desktop-citizenship"
+                >
+                  <option value="US Citizen" selected>
+                    US Citizen
+                  </option>
+                  <option value="green-card">Green Card</option>
+                  <option value="permanent-resident">Permanent Resident</option>
+                  <option value="non-resident">Non-resident</option>
+                </select>
+              </div>
+              <div className="my-candidates-post-candidate-page__desktop-type-of-visa-container">
+                <label
+                  className="my-candidates-post-candidate-page__desktop-type-of-visa-label"
+                  htmlFor="desktop-type-of-visa"
+                >
+                  Type of VISA
+                </label>
+                <select
+                  className="my-candidates-post-candidate-page__desktop-type-of-visa-select"
+                  name="desktop-type-of-visa"
+                  id="desktop-type-of-visa"
+                >
+                  <option value="" disabled selected>
+                    Select...
+                  </option>
+                  <option value="H1B">H1B</option>
+                  <option value="EB5">EB5</option>
+                  <option value="OPT">OPT</option>
+                  <option value="F1">F1</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
       </div>
