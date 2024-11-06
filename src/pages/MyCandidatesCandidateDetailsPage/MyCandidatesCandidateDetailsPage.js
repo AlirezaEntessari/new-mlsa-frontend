@@ -294,7 +294,144 @@ export default function MyCandidatesCandidateDetailsPage() {
               </ul>
             </div>
             <div className="my-candidates-candidate-details-page__mobile-education-container">
-                
+              <p className="my-candidates-candidate-details-page__mobile-education-header">
+                Education
+              </p>
+              <p className="my-candidates-candidate-details-page__mobile-education-text">
+                Associate Degree in Mechanical Drafting and Design Technology,
+                Milwaukee Area Technical College, 2014
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__mobile-required-skills-container">
+              <p className="my-candidates-candidate-details-page__mobile-required-skills-header">
+                Required Skills
+              </p>
+              <p className="my-candidates-candidate-details-page__mobile-required-skills-text">
+                AutoCAD proficiency, 3D modeling & simulation, bulk material
+                handling systems, mechanical drafting & design, tolerance
+                analysis, project management, technical documentation,
+                cross-functional team collaboration.
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__mobile-other-requirements-container">
+              <p className="my-candidates-candidate-details-page__mobile-other-requirements-header">
+                Other Requirements
+              </p>
+              <p className="my-candidates-candidate-details-page__mobile-other-requirements-description">
+                Resident of San Antonio, Texas
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__mobile-bottom-description-container">
+              <div className="my-candidates-candidate-details-page__mobile-bottom-description-inner-container">
+                <p className="my-candidates-candidate-details-page__mobile-fee-type">
+                  <span className="my-candidates-candidate-details-page__mobile-fee-type-text">
+                    Fee Type:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__mobile-percentage-of-salary-text">
+                    Percentage of Salary
+                  </span>
+                </p>
+                <p className="my-candidates-candidate-details-page__mobile-split-fee-percentage">
+                  <span className="my-candidates-candidate-details-page__mobile-split-fee-percentage-text">
+                    Split Fee Percentage:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__mobile-split-fee-percentage-percentage">
+                    50% 50%
+                  </span>
+                </p>
+                <p className="my-candidates-candidate-details-page__mobile-willing-to-negotiate">
+                  *Willing to negotiate
+                </p>
+                <p className="my-candidates-candidate-details-page__mobile-placement-fee">
+                  <span className="my-candidates-candidate-details-page__mobile-placement-fee-text">
+                    Placement Fee:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__mobile-placement-fee-number">
+                    20%
+                  </span>
+                </p>
+                <p className="my-candidates-candidate-details-page__mobile-guarantee-period">
+                  <span className="my-candidates-candidate-details-page__mobile-guarantee-period-text">
+                    Guarantee Period:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__mobile-guarantee-period-duration">
+                    30 days
+                  </span>
+                </p>
+                <p className="my-candidates-candidate-details-page__mobile-fee-agreement">
+                  Fee Agreement
+                </p>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__mobile-bottom-orange-container"></div>
+            <div className="my-candidates-candidate-details-page__mobile-bottom-button-container">
+              <button className="my-candidates-candidate-details-page__mobile-post-candidate-button">
+                Post Candidate
+              </button>
+              <button className="my-candidates-candidate-details-page__mobile-edit-candidate-button">
+                Edit Candidate
+              </button>
+            </div>
+          </div>
+          <div className="my-candidates-candidate-details-page__tablet-container">
+            <div className="my-candidates-candidate-details-page__tablet-header-container">
+              <p className="my-candidates-candidate-details-page__tablet-candidate-details-header">
+                Candidate Details
+              </p>
+              <p className="my-candidates-candidate-details-page__tablet-candidate-details-header-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__tablet-top-central-container">
+              <img
+                className="my-candidates-candidate-details-page__tablet-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-candidates-candidate-details-page__tablet-top-central-right-container">
+                <p className="my-candidates-candidate-details-page__tablet-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-candidates-candidate-details-page__tablet-client-name-will-not-be-shared">
+                  *Client Name and info starred will not be shared without NDA
+                  or Partnership Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__tablet-views-submissions-interviewing-pending-offers-container">
+              <div className="my-candidates-candidate-details-page__tablet-views-container">
+                <p className="my-candidates-candidate-details-page__tablet-views-text">
+                  Views
+                </p>
+                <p className="my-candidates-candidate-details-page__tablet-views-number">
+                  0
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__tablet-submissions-container">
+                <p className="my-candidates-candidate-details-page__tablet-submission-text">
+                  Submissions
+                </p>
+                <p className="my-candidates-candidate-details-page__tablet-submissions-number">
+                  0
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__tablet-interviewing-container">
+                <p className="my-candidates-candidate-details-page__tablet-interviewing-text">
+                  Interviewing
+                </p>
+                <p className="my-candidates-candidate-details-page__tablet-interviewing-number">
+                  0
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__tablet-pending-offers-container">
+                <p className="my-candidates-candidate-details-page__tablet-pending-offers-text">
+                  Pending Offers
+                </p>
+                <p className="my-candidates-candidate-details-page__tablet-pending-offers-number">
+                  0
+                </p>
+              </div>
             </div>
           </div>
         </div>

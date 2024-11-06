@@ -459,4 +459,290 @@
         margin-left: 208px;
     }
 
+    &__mobile-education-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-education-header {
+        font-weight: 500;
+    }
+
+    &__mobile-education-text {
+        margin-right: 10px;
+    }
+
+    &__mobile-required-skills-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-required-skills-header {
+        font-weight: 500;
+    }
+
+    &__mobile-other-requirements-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-other-requirements-header {
+        font-weight: 500;
+    }
+
+    &__mobile-bottom-description-container {
+        border: 1px solid $medium-dark-gray;
+        margin-top: 48px;
+        width: 400px;
+        height: 360px;
+        margin-left: 32px;
+        border-radius: 14px;
+    }
+
+    &__mobile-bottom-description-inner-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-fee-type-text {
+        font-weight: 500;
+    }
+
+    &__mobile-percentage-of-salary-text {
+        margin-left: 20px;
+    }
+
+    &__mobile-split-fee-percentage {
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-split-fee-percentage-text {
+        font-weight: 500;
+    }
+
+    &__mobile-split-fee-percentage-percentage {
+        margin-left: 20px;
+    }
+
+    &__mobile-placement-fee {
+        margin-top: 32px;
+    }
+
+    &__mobile-placement-fee-text {
+        font-weight: 500;
+    }
+
+    &__mobile-placement-fee-number {
+        margin-left: 20px;
+    }
+
+    &__mobile-guarantee-period {
+        margin-top: 32px;
+    }
+
+    &__mobile-guarantee-period-text {
+        font-weight: 500;
+    }
+
+    &__mobile-guarantee-period-duration {
+        margin-left: 20px;
+    }
+
+    &__mobile-fee-agreement {
+        margin-top: 32px;
+    }
+
+    &__mobile-bottom-orange-container {
+        background-color: $my-candidates-light-orange;
+        height: 72px;
+        margin-top: 64px;
+    }
+
+    &__mobile-bottom-button-container {
+        margin-top: 72px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-post-candidate-button {
+        background-color: $rust;
+        border: 1px solid $rust;
+        width: 200px;
+        height: 50px;
+        color: $white-text;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-edit-candidate-button {
+        background-color: $white-background;
+        border: 2px solid $rust;
+        color: $rust;
+        margin-left: 32px;
+        width: 200px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-candidates-candidate-details-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-candidate-details-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__tablet-candidate-details-header-owner-text {
+            margin-left: 200px;
+            margin-top: 10px;
+        }
+
+        &__tablet-top-central-container {
+            display: flex;
+        }
+
+        &__tablet-value-assurance-icon {
+            width: 200px;
+        }
+
+        &__tablet-information-is-protected-text {
+            font-family: 'Roboto Serif';
+            width: 550px;
+            margin-top: 32px;
+            font-weight: 500;
+            color: $dark-navy;
+        }
+
+        &__tablet-views-submissions-interviewing-pending-offers-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 48px;
+        }
+
+        &__tablet-views-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 70px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        &__tablet-views-text {
+            padding-top: 22px;
+            font-weight: 500;
+            padding-left: 12px;
+        }
+
+        &__tablet-views-number {
+            color: $dark-gray;
+            font-size: 36px;
+            padding-top: 4px;
+            padding-left: 80px;
+            font-weight: 700;
+        }
+
+        &__tablet-submissions-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 70px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 24px;
+        }
+
+        &__tablet-submission-text {
+            padding-top: 22px;
+            font-weight: 500;
+            padding-left: 12px;
+        }
+
+        &__tablet-submissions-number {
+            color: $dark-gray;
+            font-size: 36px;
+            padding-top: 4px;
+            padding-left: 36px;
+            font-weight: 700;
+        }
+
+        &__tablet-interviewing-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 70px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 24px;
+        }
+
+        &__tablet-interviewing-text {
+            padding-top: 22px;
+            font-weight: 500;
+            padding-left: 12px;
+        }
+
+        &__tablet-interviewing-number {
+            color: $dark-gray;
+            font-size: 36px;
+            padding-top: 4px;
+            padding-left: 32px;
+            font-weight: 700;
+        }
+
+        &__tablet-pending-offers-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 170px;
+            height: 70px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 24px;
+        }
+
+        &__tablet-pending-offers-text {
+            padding-top: 22px;
+            font-weight: 500;
+            padding-left: 12px;
+        }
+
+        &__tablet-pending-offers-number {
+            color: $dark-gray;
+            font-size: 36px;
+            padding-top: 4px;
+            padding-left: 16px;
+            font-weight: 700;
+        }
+
+    }
+
 }
