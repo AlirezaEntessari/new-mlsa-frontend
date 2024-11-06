@@ -1,0 +1,462 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-candidate-details-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-container {
+        display: flex;
+    }
+
+    &__mobile-header-text {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        margin-left: 140px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-header-right-container {
+        margin-left: 28px;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    &__mobile-header-right-owner-text {
+        color: $rust;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-header-right-owner-name {
+        color: $rust;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-header-right-agency-name {
+        color: $rust;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-value-assurance-icon {
+        width: 150px;
+    }
+
+    &__mobile-top-central-container {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    &__mobile-information-is-protected {
+        margin-top: 32px;
+        font-family: 'Roboto Serif';
+        font-weight: 500;
+        color: $dark-navy;
+    }
+
+    &__mobile-client-name-will-not-be-shared {
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    &__mobile-mlsa-member-view {
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    &__mobile-mlsa-member-view-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-views-submissions-interviewing-pending-offers-container {
+        margin-left: 54px;
+        margin-top: 60px;
+    }
+
+    &__mobile-views-submissions-container {
+        display: flex;
+    }
+
+    &__mobile-views-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 68px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    &__mobile-views-text {
+        padding-top: 20px;
+        padding-left: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-views-number {
+        padding-top: 2px;
+        padding-left: 84px;
+        color: $dark-gray;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__mobile-submissions-container {
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-submissions-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 68px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    &__mobile-submission-text {
+        padding-top: 20px;
+        padding-left: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-submissions-number {
+        padding-top: 2px;
+        padding-left: 38px;
+        color: $dark-gray;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__mobile-interviewing-pending-offers-container {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    &__mobile-interviewing-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 68px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    &__mobile-interviewing-text {
+        padding-top: 20px;
+        padding-left: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-interviewing-number {
+        padding-top: 2px;
+        padding-left: 36px;
+        color: $dark-gray;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__mobile-pending-offers-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 180px;
+        height: 68px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        margin-left: 32px;
+    }
+
+    &__mobile-pending-offers-text {
+        padding-top: 20px;
+        padding-left: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-pending-offers-number {
+        padding-top: 2px;
+        padding-left: 20px;
+        color: $dark-gray;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__mobile-hot-candidate-put-on-hold-container {
+        display: flex;
+        margin-top: 48px;
+        margin-left: 36px;
+    }
+
+    &__mobile-hot-candidate-container {
+        display: flex;
+    }
+
+    &__mobile-circle-button-on-blue-icon {
+        width: 24px;
+    }
+
+    &__mobile-hot-jobs-on-icon {
+        width: 48px;
+        margin-left: 2px;
+    }
+
+    &__mobile-hot-candidate-text {
+        margin-left: 4px;
+        color: $rust;
+        margin-top: 14px;
+    }
+
+    &__mobile-put-on-hold-container {
+        margin-left: 68px;
+        display: flex;
+    }
+
+    &__mobile-on-hold-button-off-icon {
+        width: 24px;
+    }
+
+    &__mobile-on-hold-off-icon {
+        width: 44px;
+        margin-left: 4px;
+    }
+
+    &__mobile-put-on-hold-text {
+        color: $medium-dark-gray;
+        margin-top: 14px;
+        margin-left: 4px;
+    }
+
+    &__mobile-hot-candidate-section {
+        background-color: $my-candidates-light-orange;
+        margin-top: 24px;
+        height: 670px;
+    }
+
+    &__mobile-hot-candidate-header {
+        padding-top: 16px;
+        padding-left: 160px;
+    }
+
+    &__mobile-hot-candidate-hot-jobs-on-icon {
+        width: 48px;
+    }
+
+    &__mobile-hot-candidate-middle-text {
+        color: $rust;
+        margin-left: 6px;
+    }
+
+    &__mobile-candidate-id-text {
+        padding-left: 32px;
+        padding-top: 16px;
+        font-weight: 500;
+    }
+
+    &__mobile-hot-candidate-job-title {
+        padding-left: 32px;
+        color: $brown-text;
+        font-weight: 500;
+    }
+
+    &__mobile-posted-on-text {
+        padding-left: 32px;
+        margin-bottom: 4px; 
+    }
+
+    &__mobile-duration-text {
+        padding-left: 32px;
+    }
+
+    &__mobile-availability-date {
+        padding-left: 32px;
+        font-weight: 500;
+    }
+
+    &__mobile-hot-candidate-salary {
+        padding-left: 32px;
+        margin-top: 16px;
+        font-weight: 500;
+    }
+
+    &__mobile-hot-candidate-staffing-agency-container {
+        margin-left: 32px;
+        margin-top: 60px;
+    }
+
+    &__mobile-hot-candidate-staffing-agency-text {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-hot-candidate-staffing-agency-name {
+        font-size: 18px;
+        text-decoration: underline;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-hot-candidate-staffing-agency-location {
+        margin-bottom: 10px;
+    }
+
+    &__mobile-hot-candidate-staffing-agency-phone-number {
+        text-decoration: underline;
+    }
+
+    &__mobile-view-resume-button {
+        background-color: $white-background;
+        border: 2px solid $rust;
+        margin-top: 50px;
+        margin-left: 150px;
+        width: 200px;
+        height: 50px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-candidate-description-header {
+        margin-top: 32px;
+        margin-left: 32px;
+        font-weight: 500;
+    }
+
+    &__mobile-candidate-description-text {
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__mobile-professional-experience-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-professional-experience-header {
+        font-weight: 500;
+    }
+
+    &__mobile-details-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-details-header {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-seniority-level {
+        font-weight: 500;
+    }
+
+    &__mobile-details-seniority-level-status {
+        margin-left: 100px;
+    }
+
+    &__mobile-details-list-second-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-employment-type {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-employment-type-status {
+        margin-left: 72px;
+    }
+
+    &__mobile-details-list-third-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-job-function {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-job-function-status {
+        margin-left: 112px;
+        width: 70px;
+        font-size: 13px;
+    }
+
+    &__mobile-details-list-fourth-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-industries {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-industries-status {
+        margin-left: 136px;
+        font-size: 13px;
+    }
+
+    &__mobile-details-list-fifth-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-citizenship {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-citizenship-status {
+        margin-left: 124px;
+    }
+
+    &__mobile-details-list-sixth-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-environment {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-environment-status {
+        margin-left: 110px;
+    }
+
+    &__mobile-details-list-seventh-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-travel {
+        font-weight: 500;
+    }
+
+    &__mobile-details-list-travel-status {
+        margin-left: 164px;
+    }
+
+    &__mobile-details-list-eigth-bullet {
+        margin-top: 8px;
+    }
+
+    &__mobile-details-list-other-status {
+        margin-left: 166px;
+    }
+
+    &__mobile-details-list-other {
+        font-weight: 500;
+    }
+    
+    &__mobile-details-list-bonus-text {
+        margin-top: 8px;
+        margin-left: 208px;
+    }
+
+}
