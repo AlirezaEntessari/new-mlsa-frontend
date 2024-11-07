@@ -590,6 +590,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -652,6 +656,7 @@
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
         }
 
         &__tablet-views-text {
@@ -677,6 +682,7 @@
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             margin-left: 24px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
         }
 
         &__tablet-submission-text {
@@ -702,6 +708,7 @@
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             margin-left: 24px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
         }
 
         &__tablet-interviewing-text {
@@ -727,6 +734,7 @@
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
             margin-left: 24px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
         }
 
         &__tablet-pending-offers-text {
@@ -1117,6 +1125,276 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 32px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-candidates-candidate-details-page {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 80px;
+        }
+
+        &__desktop-header-text {
+            font-family: 'Roboto Serif';
+            color: $rust;
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        &__desktop-header-owner-text {
+            margin-left: 700px;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        &__desktop-top-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 100px;
+        }
+
+        &__desktop-value-assurance-icon {
+            width: 250px;
+        }
+
+        &__desktop-top-right-container {
+            margin-left: 50px;
+            margin-top: 32px;
+        }
+
+        &__desktop-information-is-protected-text {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 24px;
+            width: 800px;
+        }
+
+        &__desktop-top-dashboard-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 140px;
+        }
+
+        &__desktop-mlsa-member-view-container {
+            display: flex;
+        }
+
+        &__desktop-menu-arrow-circle-down-icon {
+            width: 32px;
+        }
+
+        &__mlsa-member-view-text {
+            font-size: 18px;
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+
+        &__desktop-views-requests-interviewing-pending-offers-container {
+            margin-left: 200px;
+            display: flex;
+        }
+        
+        &__desktop-views-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 216px;
+            height: 80px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        &__desktop-views-text {
+            padding-top: 26px;
+            padding-left: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-views-number {
+            margin-left: 90px;
+            font-size: 36px;
+            color: $dark-gray;
+            font-weight: 700;
+            padding-top: 6px;
+        }
+
+        &__desktop-requests-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 216px;
+            height: 80px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+            margin-left: 32px;
+        }
+
+        &__desktop-requests-text {
+            padding-top: 26px;
+            padding-left: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-requests-number {
+            margin-left: 90px;
+            font-size: 36px;
+            color: $dark-gray;
+            font-weight: 700;
+            padding-top: 6px;
+        }
+
+        &__desktop-interviewing-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 216px;
+            height: 80px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+            margin-left: 32px;
+        }
+
+        &__desktop-interviewing-text {
+            padding-top: 26px;
+            padding-left: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-interviewing-number {
+            margin-left: 70px;
+            font-size: 36px;
+            color: $dark-gray;
+            font-weight: 700;
+            padding-top: 6px;
+        }
+
+        &__desktop-pending-offers-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 216px;
+            height: 80px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+            margin-left: 32px;
+        }
+
+        &__desktop-pending-offers-text {
+            padding-top: 26px;
+            padding-left: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-pending-offers-number {
+            margin-left: 50px;
+            font-size: 36px;
+            color: $dark-gray;
+            font-weight: 700;
+            padding-top: 6px;
+        }
+
+        &__desktop-hot-candidate-put-on-hold-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 984px;
+        }
+
+        &__desktop-circle-button-on-blue-icon {
+            width: 28px;
+        }
+
+        &__desktop-hot-jobs-on-icon {
+            width: 60px;
+            margin-left: 6px;
+        }
+
+        &__desktop-hot-candidate-text {
+            color: $rust;
+            font-size: 18px;
+            margin-left: 10px;
+            margin-top: 18px;
+        }
+
+        &__desktop-put-on-hold-container {
+            display: flex;
+            margin-left: 100px;
+        }
+
+        &__desktop-on-hold-button-off-icon {
+            width: 28px;
+        }
+
+        &__desktop-on-hold-off-icon {
+            width: 60px;
+            margin-left: 6px;
+        }
+
+        &__desktop-put-on-hold-text {
+            color: $medium-dark-gray;
+            margin-top: 18px;
+            font-size: 18px;
+            margin-left: 6px;
+        }
+
+        &__desktop-candidate-description-section {
+            display: flex;
+            background-color: $my-candidates-light-orange;
+            height: 500px;
+            margin-top: 80px;
+            width: 113%;
+        }
+
+        &__desktop-candidate-description-left-container {
+            padding-top: 48px;
+            padding-left: 100px;
+        }
+
+        &__desktop-candidate-description-right-container {
+            padding-left: 100px;
+            padding-top: 48px;
+        }
+
+        &__desktop-candidate-description-phone-number {
+            text-decoration: underline;
+        }
+
+        &__desktop-view-resume-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            width: 200px;
+            height: 50px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 32px;
         }
 
     }

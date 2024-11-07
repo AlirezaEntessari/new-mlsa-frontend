@@ -733,6 +733,152 @@ export default function MyCandidatesCandidateDetailsPage() {
               </button>
             </div>
           </div>
+          <div className="my-candidates-candidate-details-page__desktop-container">
+            <div className="my-candidates-candidate-details-page__desktop-header-container">
+              <p className="my-candidates-candidate-details-page__desktop-header-text">
+                Candidate Details
+              </p>
+              <p className="my-candidates-candidate-details-page__desktop-header-owner-text">
+                Owner: John Smith, HumanRe Agency
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-top-container">
+              <img
+                className="my-candidates-candidate-details-page__desktop-value-assurance-icon"
+                src={ValueAssuranceIcon}
+                alt="Value Assurance Icon"
+              />
+              <div className="my-candidates-candidate-details-page__desktop-top-right-container">
+                <p className="my-candidates-candidate-details-page__desktop-information-is-protected-text">
+                  Your information is protected by our top-rated value assurance
+                  system, ensuring its safety and security at all times.
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-client-name-will-not-be-shared">
+                  *Client Name will not be shared without NDA or Partnership
+                  Agreement being signed by both parties.
+                </p>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-top-dashboard-container">
+              <div className="my-candidates-candidate-details-page__desktop-mlsa-member-view-container">
+                <img
+                  className="my-candidates-candidate-details-page__desktop-menu-arrow-circle-down-icon"
+                  src={MenuArrowCircleDownIcon}
+                  alt="Menu Arrow Circle Down Icon"
+                />
+                <p className="my-candidates-candidate-details-page__mlsa-member-view-text">
+                  MLSA Member View
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__desktop-views-requests-interviewing-pending-offers-container">
+                <div className="my-candidates-candidate-details-page__desktop-views-container">
+                  <p className="my-candidates-candidate-details-page__desktop-views-text">
+                    Views
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-views-number">
+                    23
+                  </p>
+                </div>
+                <div className="my-candidates-candidate-details-page__desktop-requests-container">
+                  <p className="my-candidates-candidate-details-page__desktop-requests-text">
+                    Requests
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-requests-number">
+                    5
+                  </p>
+                </div>
+                <div className="my-candidates-candidate-details-page__desktop-interviewing-container">
+                  <p className="my-candidates-candidate-details-page__desktop-interviewing-text">
+                    Interviewing
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-interviewing-number">
+                    1
+                  </p>
+                </div>
+                <div className="my-candidates-candidate-details-page__desktop-pending-offers-container">
+                  <p className="my-candidates-candidate-details-page__desktop-pending-offers-text">
+                    Pending Offers
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-pending-offers-number">
+                    0
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-hot-candidate-put-on-hold-container">
+              <div className="my-candidates-candidate-details-page__desktop-hot-candidate-container">
+                <img
+                  className="my-candidates-candidate-details-page__desktop-circle-button-on-blue-icon"
+                  src={CircleButtonOnBlueIcon}
+                  alt="Circle Button On Blue Icon"
+                />
+                <img
+                  className="my-candidates-candidate-details-page__desktop-hot-jobs-on-icon"
+                  src={HotJobsOnIcon}
+                  alt="Hot Jobs On Icon"
+                />
+                <span className="my-candidates-candidate-details-page__desktop-hot-candidate-text">
+                  Hot Candidate
+                </span>
+              </div>
+              <div className="my-candidates-candidate-details-page__desktop-put-on-hold-container">
+                <img
+                  className="my-candidates-candidate-details-page__desktop-on-hold-button-off-icon"
+                  src={OnHoldButtonOffIcon}
+                  alt="On Hold Button Off Icon"
+                />
+                <img
+                  className="my-candidates-candidate-details-page__desktop-on-hold-off-icon"
+                  src={OnHoldOffIcon}
+                  alt="On Hold Off Icon"
+                />
+                <span className="my-candidates-candidate-details-page__desktop-put-on-hold-text">
+                  Put On Hold
+                </span>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-candidate-description-section">
+              <div className="my-candidates-candidate-details-page__desktop-candidate-description-left-container">
+                <p className="my-candidates-candidate-details-page__desktop-candidate-id">
+                  Candidate ID# 93782756
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-job-title">
+                  Mechanical Engineer Designer
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-posted-on">
+                  Posted on: 08/07/2024
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-duration">
+                  Duration: 13 Weeks
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-availability-date">
+                  Availability Date: 09/15/2024
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-salary">
+                  Salary $110,000 - 145,000 Yearly
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__desktop-candidate-description-right-container">
+                <div className="my-candidates-candidate-details-page__desktop-candidate-description-staffing-agency-container">
+                  <p className="my-candidates-candidate-details-page__desktop-candidate-description-staffing-agency-header">
+                    Staffing Agency
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-candidate-description-staffing-agency-agency-name">
+                    XYZ Staffing Inc.
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-candidate-description-staffing-agency-location">
+                    San Antonio, Texas
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-candidate-description-phone-number">
+                    561-123-4567
+                  </p>
+                </div>
+                <button className="my-candidates-candidate-details-page__desktop-view-resume-button">
+                  View Resume
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
