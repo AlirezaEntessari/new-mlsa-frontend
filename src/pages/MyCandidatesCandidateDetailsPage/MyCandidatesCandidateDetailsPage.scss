@@ -743,6 +743,382 @@
             font-weight: 700;
         }
 
+        &__tablet-mlsa-member-view-hot-candidate-put-on-hold-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-mlsa-member-view-container {
+            display: flex;
+        }
+
+        &__tablet-menu-arrow-circle-down-icon {
+            width: 28px;
+        }
+
+        &__tablet-mlsa-member-view-text {
+            margin-top: 12px;
+            margin-left: 10px;
+        }
+
+        &__tablet-hot-candidate-container {
+            display: flex;
+            margin-left: 140px;
+        }
+
+        &__tablet-circle-button-on-blue-icon {
+            width: 24px;
+        }
+
+        &__tablet-hot-jobs-on-icon {
+            width: 48px;
+            margin-left: 4px;
+        }
+
+        &__tablet-hot-candidate-text {
+            margin-top: 14px;
+            margin-left: 6px;
+            color: $rust;
+        }
+
+        &__tablet-put-on-hold-container {
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-on-hold-button-off-icon {
+            width: 24px;
+        }
+
+        &__tablet-on-hold-off-icon {
+            width: 48px;
+            margin-left: 6px;
+        }
+
+        &__tablet-put-on-hold-text {
+            color: $medium-dark-gray;
+            margin-top: 14px;
+            margin-left: 6px;
+        }
+
+        &__tablet-hot-candidate-section {
+            background-color: $my-candidates-light-orange;
+            margin-top: 32px;
+            height: 420px;
+        }
+
+        &__tablet-hot-candidate-header {
+            padding-top: 24px;
+            padding-left: 32px;
+        }
+
+        &__tablet-hot-candidate-section-hot-jobs-on-icon {
+            width: 48px;
+        }
+
+        &__tablet-hot-candidate-section-header-text {
+            color: $logo-orange;
+        }
+
+        &__tablet-hot-candidate-section-information-container {
+            display: flex;
+            margin-left: 84px;
+            margin-top: 32px;
+        }
+
+        &__tablet-hot-candidate-section-candidate-id {
+            font-weight: 500;
+        }
+
+        &__tablet-hot-candidate-section-job-title {
+            color: $brown-text;
+            font-weight: 500;
+        }
+
+        &__tablet-hot-candidate-section-posted-on {
+            margin-bottom: 4px;
+        }
+
+        &__tablet-hot-candidate-section-availability-date {
+            font-weight: 500;
+        }
+
+        &__tablet-hot-candidate-section-salary {
+            font-weight: 500;
+        }
+
+        &__tablet-hot-candidate-section-right-container {
+            margin-left: 180px;
+        }
+
+        &__tablet-hot-candidate-section-staffing-agency-header {
+            margin-bottom: 4px;
+        }
+
+        &__tablet-hot-candidate-section-staffing-agency-name {
+            text-decoration: underline;
+            margin-bottom: 4px;
+        }
+
+        &__tablet-hot-candidate-section-staffing-agency-phone-number {
+            text-decoration: underline;
+        }
+
+        &__tablet-view-resume-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            width: 200px;
+            height: 50px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 32px;
+        }
+
+        &__tablet-candidate-description-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-candidate-description-header {
+            font-weight: 500;
+        }
+
+        &__tablet-candidate-description-description {
+            margin-right: 32px;
+            text-align: justify;
+        }
+
+        &__tablet-professional-experience-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-professional-experience-header {
+            font-weight: 500;
+        }
+
+        &__tablet-details-general-information-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-details-header {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-seniority-level {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-seniority-level-status {
+            margin-left: 32px;
+        }
+
+        &__tablet-details-list {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-details-list-second-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-employment-type {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-employment-type-status {
+            margin-left: 10px;
+        }
+
+        &__tablet-details-list-third-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-job-function {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-job-function-status {
+            margin-left: 50px;
+            font-size: 13px;
+        }
+
+        &__tablet-details-list-fourth-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-industries {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-industries-status {
+            margin-left: 70px;
+            font-size: 13px;
+        }
+
+        &__tablet-details-list-fifth-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-citizenship {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-citizenship-status {
+            margin-left: 60px;
+        }
+
+        &__tablet-details-list-sixth-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-environment {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-environment-status {
+            margin-left: 48px;
+        }
+
+        &__tablet-details-list-seventh-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-travel {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-travel-status {
+            margin-left: 98px;
+        }
+
+        &__tablet-details-list-eighth-bullet {
+            margin-top: 8px;
+        }
+
+        &__tablet-details-list-other {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-other-status {
+            margin-left: 100px;
+        }
+
+        &__tablet-details-list-bonus-text {
+            margin-left: 178px;
+        }
+
+        &__tablet-details-list-general-information-container {
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            width: 320px;
+            border-radius: 10px;
+            height: 320px;
+        }
+
+        &__tablet-details-list-general-information-inner-container {
+            margin-top: 28px;
+            margin-left: 32px;
+        }
+
+        &__tablet-details-list-fee-type-text {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-percentage-of-salary {
+            margin-left: 12px;
+        }
+
+        &__tablet-details-list-split-fee-percentage {
+            margin-bottom: 6px;
+        }
+
+        &__tablet-detailst-list-split-fee-percentage-text {
+            font-weight: 500;
+        }
+
+        &__tablet-details-list-split-fee-percentage-percentage {
+            margin-left: 12px;
+        }
+
+        &__tablet-placement-fee-text {
+            font-weight: 500;
+        }
+
+        &__tablet-placement-fee-percentage {
+            margin-left: 12px;
+        }
+
+        &__tablet-guarantee-period-text {
+            font-weight: 500;
+        }
+
+        &__tablet-guarantee-period-duration {
+            margin-left: 12px;
+        }
+
+        &__tablet-education-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-education-header {
+            font-weight: 500;
+        }
+
+        &__tablet-required-skills-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-required-skills-header {
+            font-weight: 500;
+        }
+
+        &__tablet-other-requirements-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-other-requirements-header {
+            font-weight: 500;
+        }
+
+        &__tablet-orange-background-section {
+            background-color: $my-candidates-light-orange;
+            height: 64px;
+            margin-top: 54px;
+        }
+
+        &__tablet-bottom-button-container {
+            margin-top: 72px;
+            margin-left: 190px;
+        }
+
+        &__tablet-post-candidate-button {
+            background-color: $rust;
+            color: $white-text;
+            border: 1px solid $rust;
+            width: 200px;
+            height: 54px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__tablet-edit-button {
+            background-color: $white-background;
+            border: 2px solid $rust;
+            width: 200px;
+            height: 54px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 32px;
+        }
+
     }
 
 }
