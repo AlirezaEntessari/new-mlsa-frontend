@@ -9,6 +9,7 @@ import OnHoldOffIcon from "../../assets/icons/OnHoldOff.svg";
 import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
 import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
 import CalendarIcon from "../../assets/icons/CalendarIcon.svg";
+import { Link } from "react-router-dom";
 
 export default function MyCandidatesPostCandidatePage() {
   return (
@@ -763,9 +764,11 @@ export default function MyCandidatesPostCandidatePage() {
               <button className="my-candidates-post-candidate-page__mobile-post-button">
                 Post
               </button>
-              <button className="my-candidates-post-candidate-page__mobile-preview-button">
-                Preview
-              </button>
+              <Link to="/my-candidates-candidate-details-page">
+                <button className="my-candidates-post-candidate-page__mobile-preview-button">
+                  Preview
+                </button>
+              </Link>
               <button className="my-candidates-post-candidate-page__mobile-save-draft-button">
                 Save Draft
               </button>
@@ -1523,9 +1526,11 @@ export default function MyCandidatesPostCandidatePage() {
               <button className="my-candidates-post-candidate-page__tablet-post-button">
                 Post
               </button>
-              <button className="my-candidates-post-candidate-page__tablet-preview-button">
-                Preview
-              </button>
+              <Link to="/my-candidates-candidate-details-page">
+                <button className="my-candidates-post-candidate-page__tablet-preview-button">
+                  Preview
+                </button>
+              </Link>
               <button className="my-candidates-post-candidate-page__tablet-save-draft-button">
                 Save Draft
               </button>
@@ -2250,9 +2255,11 @@ export default function MyCandidatesPostCandidatePage() {
               <button className="my-candidates-post-candidate-page__desktop-post-button">
                 Post
               </button>
-              <button className="my-candidates-post-candidate-page__desktop-preview-button">
-                Preview
-              </button>
+              <Link to="/my-candidates-candidate-details-page">
+                <button className="my-candidates-post-candidate-page__desktop-preview-button">
+                  Preview
+                </button>
+              </Link>
               <button className="my-candidates-post-candidate-page__desktop-save-draft-button">
                 Save Draft
               </button>

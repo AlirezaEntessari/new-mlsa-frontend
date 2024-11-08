@@ -50,6 +50,7 @@ import MyPlacementsHomePage from './pages/MyPlacementsHomePage/MyPlacementsHomeP
 import MyCandidatesHomePage from './pages/MyCandidatesHomePage/MyCandidatesHomePage';
 import MyCandidatesPostCandidatePage from './pages/MyCandidatesPostCandidatePage/MyCandidatesPostCandidatePage';
 import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage';
+import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
 
 function App() {
   return (
@@ -106,6 +107,7 @@ function App() {
         <Route path="/my-candidates-home-page" element={<MyCandidatesHomePage />} />
         <Route path="/my-candidates-post-candidate-page" element={<MyCandidatesPostCandidatePage />} />
         <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
+        <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
       </Routes>
       </BrowserRouter>
     </div>

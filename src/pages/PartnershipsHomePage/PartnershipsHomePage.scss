@@ -1,0 +1,11 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-home-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+}

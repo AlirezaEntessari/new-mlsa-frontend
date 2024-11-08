@@ -878,6 +878,217 @@ export default function MyCandidatesCandidateDetailsPage() {
                 </button>
               </div>
             </div>
+            <div className="my-candidates-candidate-details-page__desktop-candidate-description-lower-education-required-skills-container">
+              <div className="my-candidates-candidate-details-page__desktop-candidate-description-lower-container">
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-lower-header">
+                  Candidate Description
+                </p>
+                <p className="my-candidates-candidate-details-page__desktop-candidate-description-lower-description">
+                  As a seasoned Mechanical Engineer Designer, this candidate
+                  brings a wealth of experience in mechanical drafting and
+                  industrial design, particularly within bulk material systems.
+                  With a strong command of AutoCAD and a keen eye for detail,
+                  they excel in creating precise, efficient diagrams and drafts.
+                  Their ability to identify improvements and collaborate
+                  effectively ensures that even the most complex designs are
+                  expertly crafted and ready for seamless field installation.
+                  Driven by deadlines and committed to quality, this candidate
+                  is perfectly suited to enhance our team and contribute to our
+                  success.
+                </p>
+              </div>
+              <div className="my-candidates-candidate-details-page__desktop-education-required-skills-container">
+                <div className="my-candidates-candidate-details-page__desktop-education-container">
+                  <p className="my-candidates-candidate-details-page__desktop-education-header">
+                    Education
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-education-description">
+                    Associate Degree in Mechanical Drafting and Design
+                    Technology Milwaukee Area Technical College, 2014
+                  </p>
+                </div>
+                <div className="my-candidates-candidate-details-page__desktop-required-skills-container">
+                  <p className="my-candidates-candidate-details-page__desktop-required-skills-header">
+                    Required Skills
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-required-skills-description">
+                    AutoCAD proficiency, 3D modeling & simulation, bulk material
+                    handling systems, mechanical drafting & design, tolerance
+                    analysis, project management, technical documentation,
+                    cross-functional team collaboration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-professional-experience-other-requirements-general-information-container">
+              <div className="my-candidates-candidate-details-page__desktop-professional-experience-container">
+                <p className="my-candidates-candidate-details-page__desktop-professional-experience-header">
+                  Professional Experience
+                </p>
+                <ul className="my-candidates-candidate-details-page__desktop-professional-experience-unordered-list">
+                  <li className="my-candidates-candidate-details-page__desktop-professional-experience-first-bullet">
+                    Designed and drafted over 50 complex bulk material handling
+                    systems, ensuring accuracy and adherence to industry
+                    standards.
+                  </li>
+                  <li className="my-candidates-candidate-details-page__desktop-professional-experience-second-bullet">
+                    Successfully improved system efficiency by 15% through
+                    strategic modifications in design and layout.
+                  </li>
+                  <li className="my-candidates-candidate-details-page__desktop-professional-experience-third-bullet">
+                    {" "}
+                    Led cross functional teams in the review and optimization of
+                    mechanical designs, resulting in smoother installation
+                    processes.
+                  </li>
+                  <li className="my-candidates-candidate-details-page__desktop-professional-experience-fourth-bullet">
+                    Managed multiple high-priority projects simultaneously,
+                    consistently delivering detailed AutoCAD drawings ahead of
+                    deadlines.
+                  </li>
+                  <li className="my-candidates-candidate-details-page__desktop-professional-experience-fifth-bullet">
+                    Provided ongoing technical support and updates during the
+                    installation phase, minimizing disruptions and ensuring
+                    project sucess.
+                  </li>
+                </ul>
+              </div>
+              <div className="my-candidates-candidate-details-page__desktop-other-requirements-general-information-container">
+                <div className="my-candidates-candidate-details-page__desktop-other-requirements-container">
+                  <p className="my-candidates-candidate-details-page__desktop-other-requirements-header">
+                    Other Requirements
+                  </p>
+                  <p className="my-candidates-candidate-details-page__desktop-other-requirements-description">
+                    Resident of San Antonio, Texas
+                  </p>
+                </div>
+                <div className="my-candidates-candidate-details-page__desktop-general-information-container">
+                  <div className="my-candidates-candidate-details-page__desktop-general-information-inner-container">
+                    <p className="my-candidates-candidate-details-page__desktop-fee-type">
+                      <span className="my-candidates-candidate-details-page__desktop-fee-type-text">
+                        Fee Type:
+                      </span>
+                      <span className="my-candidates-candidate-details-page__desktop-fee-type-percentage">
+                        Percentage of Salary
+                      </span>
+                    </p>
+                    <p className="my-candidates-candidate-details-page__desktop-split-fee-percentage">
+                      <span className="my-candidates-candidate-details-page__desktop-split-fee-percentage-text">
+                        Split Fee Percentage:
+                      </span>
+                      <span className="my-candidates-candidate-details-page__desktop-split-fee-percentage-percentage">
+                        50% 50%
+                      </span>
+                    </p>
+                    <p className="my-candidates-candidate-details-page__desktop-willing-to-negotiate">
+                      *Willing to negotiate
+                    </p>
+                    <p className="my-candidates-candidate-details-page__desktop-placement-fee">
+                      <span className="my-candidates-candidate-details-page__desktop-placement-fee-text">
+                        Placement Fee:
+                      </span>
+                      <span className="my-candidates-candidate-details-page__desktop-placement-fee-percentage">
+                        20%
+                      </span>
+                    </p>
+                    <p className="my-candidates-candidate-details-page__desktop-guarantee-period">
+                      <span className="my-candidates-candidate-details-page__desktop-guarantee-period-text">
+                        Guarantee Period:
+                      </span>
+                      <span className="my-candidates-candidate-details-page__desktop-guarantee-period-duration">
+                        30 days
+                      </span>
+                    </p>
+                    <p className="my-candidates-candidate-details-page__desktop-fee-agreement">
+                      Fee Agreement:
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-details-container">
+              <p className="my-candidates-candidate-details-page__desktop-details-header">
+                Details
+              </p>
+              <ul className="my-candidates-candidate-details-page__desktop-details-unordered-list">
+                <li className="my-candidates-candidate-details-page__desktop-details-first-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-seniority-level">
+                    Seniority level:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-seniority-level-status">
+                    Entry level
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-second-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-employment-type">
+                    Employment type:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-employment-type-status">
+                    Full-time
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-third-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-job-function">
+                    Job function:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-job-function-status">
+                    Engineering, Information Technology
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-fourth-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-industries">
+                    Industries:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-industries-description">
+                    Industrial Machinery Manufacturing
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-fifth-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-citizenship">
+                    Citizenship:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-citizenship-status">
+                    US Citizen
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-sixth-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-environment">
+                    Environment:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-environment-status">
+                    Remote
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-seventh-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-travel">
+                    Travel:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-travel-status">
+                    Open to travel
+                  </span>
+                </li>
+                <li className="my-candidates-candidate-details-page__desktop-details-eighth-bullet">
+                  <span className="my-candidates-candidate-details-page__desktop-details-other">
+                    Other:
+                  </span>
+                  <span className="my-candidates-candidate-details-page__desktop-details-other-description">
+                    Paid Relocation requested
+                  </span>
+                </li>
+              </ul>
+              <p className="my-candidates-candidate-details-page__desktop-details-bonus">
+                Bonus
+              </p>
+            </div>
+            <div className="my-candidates-candidate-details-page__desktop-orange-background-container"></div>
+            <div className="my-candidates-candidate-details-page__desktop-bottom-button-container">
+              <button className="my-candidates-candidate-details-page__desktop-post-candidate-button">
+                Post Candidate
+              </button>
+              <button className="my-candidates-candidate-details-page__desktop-edit-button">
+                Edit
+              </button>
+            </div>
           </div>
         </div>
       </div>
