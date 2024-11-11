@@ -1,0 +1,43 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-navbar {
+
+    &__navbar {
+        border-bottom: 2px solid $dark-navy;
+        margin-top: 48px;
+        margin-left: 20px;
+        width: 450px;
+    }
+
+    &__my-partners-section {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__my-partners-section:hover {
+        color: $logo-orange;
+    }
+
+    &__requests-section {
+        margin-left: 80px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__requests-section:hover {
+        color: $logo-orange;
+    }
+
+    &__manage-section {
+        margin-left: 80px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__manage-section:hover {
+        color: $logo-orange
+    }
+
+}

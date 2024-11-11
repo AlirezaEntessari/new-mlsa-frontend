@@ -8,4 +8,13 @@
         display: flex;
     }
 
+    &__mobile-header {
+        margin-top: 20px;
+        margin-left: 180px;
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
 }
