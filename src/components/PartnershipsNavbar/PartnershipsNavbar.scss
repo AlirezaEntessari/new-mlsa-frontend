@@ -40,4 +40,60 @@
         color: $logo-orange
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .partnerships-navbar {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-navbar {
+            border-bottom: 2px solid $dark-navy;
+            margin-top: 48px;
+            margin-left: 32px;
+            width: 750px;
+        }
+
+        &__tablet-my-active-partnerships-section {
+            color: $dark-navy;
+            font-weight: 500;
+        }
+
+        &__tablet-my-active-partnerships-section:hover {
+            color: $logo-orange;
+        }
+
+        &__tablet-partnership-requests-section {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-left: 75px;
+        }
+
+        &__tablet-partnership-requests-section:hover {
+            color: $logo-orange;
+        }
+
+        &__tablet-manage-partnerships-section {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-left: 75px;
+        }
+
+        &__tablet-manage-partnerships-section:hover {
+            color: $logo-orange;
+        }
+
+    } 
+
 }
