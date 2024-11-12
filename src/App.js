@@ -51,6 +51,7 @@ import MyCandidatesHomePage from './pages/MyCandidatesHomePage/MyCandidatesHomeP
 import MyCandidatesPostCandidatePage from './pages/MyCandidatesPostCandidatePage/MyCandidatesPostCandidatePage';
 import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage';
 import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
+import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
 
 function App() {
   return (
@@ -108,6 +109,7 @@ function App() {
         <Route path="/my-candidates-post-candidate-page" element={<MyCandidatesPostCandidatePage />} />
         <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
         <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
+        <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
       </Routes>
       </BrowserRouter>
     </div>

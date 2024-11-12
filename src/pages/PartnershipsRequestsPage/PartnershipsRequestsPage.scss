@@ -1,0 +1,44 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-requests-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        font-family: 'Roboto Serif';
+        margin-top: 20px;
+        margin-left: 174px;
+        font-weight: 600;
+        font-size: 20px;
+        color: $dark-navy;
+    }
+
+    &__mobile-incoming-requests {
+        border-bottom: 2px solid $dark-navy;
+        margin-top: 48px;
+        margin-left: 20px;
+        padding-bottom: 4px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-card-container {
+        margin-top: 24px;
+    }
+
+    &__mobile-card-1 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 420px;
+        margin-left: 20px;
+    }
+
+    &__mobile-lmn-staffing-logo {
+        width: 100px;
+    }
+
+}

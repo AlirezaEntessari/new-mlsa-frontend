@@ -294,7 +294,7 @@ export default function PartnershipsHomePage() {
             <PartnershipsNavbar />
             <div className="partnerships-home-page__tablet-first-row">
               <img
-                className="partnerships-home-page__tablet-abc-staffing-logo"
+                className="partnerships-home-page__tablet-first-row-abc-staffing-logo"
                 src={ABCStaffingLogo}
                 alt="ABC Staffing Logo"
               />
@@ -350,7 +350,7 @@ export default function PartnershipsHomePage() {
                     <span className="partnerships-home-page__tablet-first-row-active-jobs-first-number">
                       0
                     </span>
-                    <span className="partnerships-home-page__tablet-first-row-active-candidates-second-number">
+                    <span className="partnerships-home-page__tablet-first-row-active-jobs-second-number">
                       /28
                     </span>
                   </p>
@@ -360,10 +360,10 @@ export default function PartnershipsHomePage() {
                     Active Candidates
                   </p>
                   <p className="partnerships-home-page__tablet-first-row-active-candidates-number">
-                    <span className="partnerships-home-page__tablet-active-candidates-first-number">
+                    <span className="partnerships-home-page__tablet-first-row-active-candidates-first-number">
                       8
                     </span>
-                    <span className="partnerships-home-page__tablet-active-candidates-second-number">
+                    <span className="partnerships-home-page__tablet-first-row-active-candidates-second-number">
                       /11
                     </span>
                   </p>
@@ -426,6 +426,128 @@ export default function PartnershipsHomePage() {
                 <p className="partnerships-home-page__tablet-second-row-manage-partnership">
                   Manage Partnership
                 </p>
+              </div>
+              <div className="partnerships-home-page__tablet-second-row-active-jobs-active-candidates-container">
+                <div className="partnerships-home-page__tablet-second-row-active-jobs-container">
+                  <p className="partnerships-home-page__tablet-second-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-home-page__tablet-second-row-active-jobs-number">
+                    <span className="partnerships-home-page__tablet-second-row-active-jobs-first-number">
+                      5
+                    </span>
+                    <span className="partnerships-home-page__tablet-second-row-active-jobs-second-number">
+                      /21
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-home-page__tablet-second-row-active-candidates-container">
+                  <p className="partnerships-home-page__tablet-second-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-home-page__tablet-second-row-active-candidates-number">
+                    <span className="partnerships-home-page__tablet-second-row-active-candidates-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-home-page__tablet-second-row-active-candidates-second-number">
+                      /18
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-home-page__tablet-second-row-button-container">
+                <button className="partnerships-home-page__tablet-second-row-view-agency-ratings-button">
+                  View Agency Ratings
+                </button>
+                <button className="partnerships-home-page__tablet-second-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
+            <div className="partnerships-home-page__tablet-third-row">
+              <img
+                className="partnerships-home-page__tablet-third-row-columbus-staffing-logo"
+                src={ColumbusStaffingLogo}
+                alt="Columbus Staffing Logo"
+              />
+              <div className="partnerships-home-page__tablet-third-row-agency-description-container">
+                <p className="partnerships-home-page__tablet-third-row-agency-name">
+                  Columbus Staffing
+                </p>
+                <div className="partnerships-home-page__tablet-third-row-reviews-container">
+                  <div className="partnerships-home-page__tablet-third-row-star-container">
+                    <img
+                      className="partnerships-home-page__tablet-third-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-home-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-home-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-home-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-home-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-home-page__tablet-third-row-ratings-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-home-page__tablet-third-row-partners-since">
+                  Partners since 4/22/24
+                </p>
+                <p className="partnerships-home-page__tablet-third-row-manage-partnership">
+                  Manage Partnership
+                </p>
+              </div>
+              <div className="partnerships-home-page__tablet-third-row-active-jobs-active-candidates-container">
+                <div className="partnerships-home-page__tablet-third-row-active-jobs-container">
+                  <p className="partnerships-home-page__tablet-third-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-home-page__tablet-third-row-active-jobs-number">
+                    <span className="partnerships-home-page__tablet-third-row-active-jobs-first-number">
+                      2
+                    </span>
+                    <span className="partnerships-home-page__tablet-third-row-active-jobs-second-number">
+                      /17
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-home-page__tablet-third-row-active-candidates-container">
+                  <p className="partnerships-home-page__tablet-third-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-home-page__tablet-third-row-active-candidates-number">
+                    <span className="partnerships-home-page__tablet-third-row-active-candidates-first-number">
+                      1
+                    </span>
+                    <span className="partnerships-home-page__tablet-third-row-active-candidates-second-number">
+                      /4
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-home-page__tablet-third-row-button-container">
+                <button className="partnerships-home-page__tablet-third-row-rate-agency-button">
+                  Rate Agency
+                </button>
+                <button className="partnerships-home-page__tablet-third-row-message-agency-button">
+                  Message Agency
+                </button>
               </div>
             </div>
           </div>
