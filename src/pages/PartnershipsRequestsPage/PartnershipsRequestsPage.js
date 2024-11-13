@@ -524,9 +524,158 @@ export default function PartnershipsRequestsPage() {
             </div>
           </div>
           <div className="partnerships-requests-page__tablet-container">
-            <p className="partnerships-requests-page__tablet-header">Partnerships</p>
+            <p className="partnerships-requests-page__tablet-header">
+              Partnerships
+            </p>
             <PartnershipsNavbar />
-            <p className="partnerships-requests-page__tablet"></p>
+            <p className="partnerships-requests-page__tablet-incoming-requests">
+              Incoming Requests
+            </p>
+            <div className="partnerships-requests-page__tablet-first-row">
+              <img
+                className="partnerships-requests-page__tablet-lmn-staffing-inc-logo"
+                src={LMNStaffingIncLogo}
+                alt="LMN Staffing Inc. Logo"
+              />
+              <div className="partnerships-requests-page__tablet-first-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-first-row-agency-name">
+                  LMN Staffing Inc.
+                </p>
+                <div className="partnerships-requests-page__tablet-first-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-first-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-first-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-first-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-first-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-first-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-first-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-first-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-first-row-requested-your-partnership">
+                  Requested your partnership 2/22/24
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-first-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-first-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-first-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-first-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-first-row-active-jobs-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-requests-page__tablet-first-row-active-jobs-second-number">
+                      /28
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-requests-page__tablet-first-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-first-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-first-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-first-row-active-candidates-first-number">
+                      8
+                    </span>
+                    <span className="partnerships-requests-page__tablet-first-row-active-candidates-second-number">
+                      /11
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-first-row-button-container">
+                <button className="partnerships-requests-page__tablet-first-row-review-request-button">
+                  Review Request
+                </button>
+                <button className="partnerships-requests-page__tablet-first-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
+            <div className="partnerships-requests-page__tablet-second-row">
+              <img
+                className="partnerships-requests-page__tablet-second-row-oak-street-agency-icon"
+                src={OakStreetAgencyIcon}
+                alt="Oak Street Agency Icon"
+              />
+              <div className="partnerships-requests-page__tablet-second-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-second-row-agency-name">
+                  Oak Street Agency
+                </p>
+                <div className="partnerships-requests-page__tablet-second-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-second-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-second-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-second-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-second-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-second-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-second-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-second-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-second-row-requested-your-partnership">
+                  Requested your partnership 2/22/24
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-second-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-second-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-second-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-second-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-second-row-active-jobs-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-requests-page__tablet-second-row-active-jobs-second-number">
+                      /28
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
