@@ -526,6 +526,7 @@ export default function PartnershipsRequestsPage() {
           <div className="partnerships-requests-page__tablet-container">
             <p className="partnerships-requests-page__tablet-header">Partnerships</p>
             <PartnershipsNavbar />
+            <p className="partnerships-requests-page__tablet"></p>
           </div>
         </div>
       </div>
