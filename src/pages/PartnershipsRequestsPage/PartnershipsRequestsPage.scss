@@ -27,7 +27,7 @@
         font-weight: 500;
     }
 
-    &__mobile-card-container {
+    &__mobile-top-card-container {
         margin-top: 36px;
     }
 
@@ -231,12 +231,6 @@
         margin-top: 48px;
     }
 
-    &__mobile-card-2-active-jobs-active-candidates-container {
-        display: flex;
-        margin-left: 38px;
-        margin-top: 48px;
-    }
-
     &__mobile-card-2-active-jobs-container {
         border: 1px solid $medium-gray;
         display: flex;
@@ -317,5 +311,623 @@
         border-radius: 28px;
         margin-top: 16px;
     }
+
+    &__mobile-card-3 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 500px;
+        margin-left: 20px;
+        border-radius: 28px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-3-top-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-3-universal-staffing-icon {
+        width: 100px;
+        margin-top: 36px;
+    }
+
+    &__mobile-card-3-top-right-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-card-3-staffing-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__mobile-card-3-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-card-3-reviews-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-3-rating-star-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-card-3-partners-since {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-3-manage-partnership {
+        text-decoration: underline;
+    }
+
+    &__mobile-card-3-active-jobs-active-candidates-container {
+        display: flex;
+        margin-left: 38px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-3-active-jobs-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-3-active-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 40px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-3-active-jobs-number {
+        padding-left: 76px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-3-active-candidates-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 32px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-3-active-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 70px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-3-active-candidates-number {
+        padding-left: 48px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-3-button-container {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    &__mobile-card-3-review-request-button {
+        display: block;
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-3-message-agency-button {
+        display: block;
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+        margin-top: 16px;
+    }
+
+    &__mobile-request-a-partnership {
+        color: $rust;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 4px;
+        margin-left: 32px;
+        margin-top: 100px;
+        font-weight: 500;
+    }
+
+    &__mobile-search-agencies-container {
+        margin-left: 32px;
+        margin-top: 48px;
+        position: relative;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 14px;
+        right: 24px;
+    }
+
+    &__mobile-search-agencies-input {
+        border: 2px solid $medium-dark-gray;
+        width: 310px;
+        height: 50px;
+        border-radius: 28px;
+        margin-left: 24px;
+    }
+
+    &__mobile-new-members-text {
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-4 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 500px;
+        margin-left: 20px;
+        border-radius: 28px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-4-top-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-4-xyz-staffing-icon {
+        width: 100px;
+        margin-top: 36px;
+    }
+
+    &__mobile-card-4-top-right-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-card-4-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__mobile-card-4-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-card-4-rating-star-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-card-4-reviews-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-4-partners-since {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-4-manage-partnership {
+        text-decoration: underline;
+    }
+
+    &__mobile-card-4-active-jobs-active-candidates-container {
+        display: flex;
+        margin-left: 38px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-4-active-jobs-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-4-active-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 40px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-4-active-jobs-number {
+        padding-left: 76px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-4-active-candidates-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 32px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-4-active-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 70px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-4-active-candidates-number {
+        padding-left: 48px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-4-button-container {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    &__mobile-card-4-request-partnership-button {
+        display: block;
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-4-message-agency-button {
+        display: block;
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+        margin-top: 16px;
+    }
+
+    &__mobile-card-5 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 500px;
+        margin-left: 20px;
+        border-radius: 28px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-5-top-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-5-zoltan-staffing-icon {
+        width: 100px;
+        margin-top: 36px;
+    }
+
+    &__mobile-card-5-top-right-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-card-5-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__mobile-card-5-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-card-5-rating-star-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-card-5-reviews-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-5-partners-since {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-5-manage-partnership {
+        text-decoration: underline;
+    }
+
+    &__mobile-card-5-active-jobs-active-candidates-container {
+        display: flex;
+        margin-left: 38px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-5-active-jobs-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-5-active-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 40px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-5-active-jobs-number {
+        padding-left: 76px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-5-active-candidates-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 32px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-5-active-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 70px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-5-active-candidates-number {
+        padding-left: 48px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-5-button-container {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    &__mobile-card-5-request-partnership-button {
+        display: block;
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-5-message-agency-button {
+        display: block;
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+        margin-top: 16px;
+    }
+
+    &__mobile-card-6 {
+        border: 2px solid $dark-navy;
+        width: 450px;
+        height: 500px;
+        margin-left: 20px;
+        border-radius: 28px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-6-top-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        display: flex;
+    }
+
+    &__mobile-card-6-lmn-staffing-inc-logo {
+        width: 100px;
+        margin-top: 36px;
+    }
+
+    &__mobile-card-6-top-right-container {
+        margin-left: 48px;
+    }
+
+    &__mobile-card-6-staffing-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__mobile-card-6-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-card-6-rating-star-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-card-6-reviews-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-card-6-partners-since {
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-6-manage-partnership {
+        text-decoration: underline;
+    }
+
+    &__mobile-card-6-active-jobs-active-candidates-container {
+        display: flex;
+        margin-left: 38px;
+        margin-top: 48px;
+    }
+
+    &__mobile-card-6-active-jobs-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-6-active-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 40px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-6-active-jobs-number {
+        padding-left: 76px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-6-active-candidates-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 168px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 32px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-card-6-active-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        width: 70px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    &__mobile-card-6-active-candidates-number {
+        padding-left: 48px;
+        padding-top: 6px;
+        color: $dark-gray;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__mobile-card-6-button-container {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    &__mobile-card-6-request-partnership-button {
+        display: block;
+        background-color: $dark-navy;
+        border: 1px solid $dark-navy;
+        color: $white-text;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-6-message-agency-button {
+        display: block;
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 200px;
+        height: 42px;
+        border-radius: 28px;
+        margin-top: 16px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .partnerships-requests-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+    } 
 
 }
