@@ -970,6 +970,89 @@ export default function PartnershipsRequestsPage() {
                 </button>
               </div>
             </div>
+            <div className="partnerships-requests-page__tablet-sixth-row">
+              <img
+                className="partnerships-requests-page__tablet-sixth-row-lmn-staffing-inc-logo"
+                src={LMNStaffingIncLogo}
+                alt="LMN Staffing Inc Logo"
+              />
+              <div className="partnerships-requests-page__tablet-sixth-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-sixth-row-agency-name">
+                  LMN Staffing Agency
+                </p>
+                <div className="partnerships-requests-page__tablet-sixth-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-sixth-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-sixth-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-sixth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-sixth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-sixth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-sixth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-sixth-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-sixth-row-location">
+                  New York, NY
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-sixth-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-sixth-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-sixth-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-sixth-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-sixth-row-active-jobs-first-number">
+                      2
+                    </span>
+                    <span className="partnerships-requests-page__tablet-sixth-row-active-jobs-second-number">
+                      /17
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-requests-page__tablet-sixth-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-sixth-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-sixth-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-sixth-row-active-candidates-first-number">
+                      1
+                    </span>
+                    <span className="partnerships-requests-page__tablet-sixth-row-active-candidates-second-number">
+                      /4
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-sixth-row-button-container">
+                <button className="partnerships-requests-page__tablet-sixth-row-request-partnership-button">
+                  Request Partnership
+                </button>
+                <button className="partnerships-requests-page__tablet-sixth-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
