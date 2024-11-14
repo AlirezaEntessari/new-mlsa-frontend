@@ -667,13 +667,307 @@ export default function PartnershipsRequestsPage() {
                   </p>
                   <p className="partnerships-requests-page__tablet-second-row-active-jobs-number">
                     <span className="partnerships-requests-page__tablet-second-row-active-jobs-first-number">
-                      0
+                      5
                     </span>
                     <span className="partnerships-requests-page__tablet-second-row-active-jobs-second-number">
+                      /21
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-requests-page__tablet-second-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-second-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-second-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-second-row-active-candidates-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-requests-page__tablet-second-row-active-candidates-second-number">
+                      /18
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-second-row-button-container">
+                <button className="partnerships-requests-page__tablet-second-row-review-request-button">
+                  Review Request
+                </button>
+                <button className="partnerships-requests-page__tablet-second-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
+            <div className="partnerships-requests-page__tablet-third-row">
+              <img
+                className="partnerships-requests-page__tablet-third-row-universal-staffing-icon"
+                src={UniversalStaffingIcon}
+                alt="Universal Staffing Icon"
+              />
+              <div className="partnerships-requests-page__tablet-third-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-third-row-agency-name">
+                  Universal Staffing
+                </p>
+                <div className="partnerships-requests-page__tablet-third-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-third-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-third-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-third-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-third-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-third-row-requested-your-partnership">
+                  Requested your partnership 2/22/24
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-third-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-third-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-third-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-third-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-third-row-active-jobs-first-number">
+                      2
+                    </span>
+                    <span className="partnerships-requests-page__tablet-third-row-active-jobs-second-number">
+                      /17
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-requests-page__tablet-third-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-third-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-third-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-third-row-active-candidates-first-number">
+                      1
+                    </span>
+                    <span className="partnerships-requests-page__tablet-third-row-active-candidates-second-number">
+                      /4
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-third-row-button-container">
+                <button className="partnerships-requests-page__tablet-third-row-review-request-button">
+                  Review Request
+                </button>
+                <button className="partnerships-requests-page__tablet-third-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
+            <p className="partnerships-requests-page__tablet-request-a-partnership">
+              Request a Partnership
+            </p>
+            <div className="partnerships-requests-page__tablet-search-agencies-container">
+              <label
+                className="partnerships-requests-page__tablet-search-agencies-label"
+                htmlFor="tablet-search-agencies"
+              >
+                Search Agencies
+              </label>
+              <img
+                className="partnerships-requests-page__tablet-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+              <input
+                className="partnerships-requests-page__tablet-search-agencies-input"
+                type="text"
+                id="tablet-search-agencies"
+              />
+            </div>
+            <p className="partnerships-requests-page__tablet-new-members">
+              New Members
+            </p>
+            <div className="partnerships-requests-page__tablet-fourth-row">
+              <img
+                className="partnerships-requests-page__tablet-xyz-staffing-icon"
+                src={XYZStaffingIcon}
+                alt="XYZ Staffing Icon"
+              />
+              <div className="partnerships-requests-page__tablet-fourth-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-fourth-row-agency-name">
+                  XYZ Staffing Agency
+                </p>
+                <div className="partnerships-requests-page__tablet-fourth-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-fourth-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-fourth-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fourth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fourth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fourth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fourth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-fourth-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-fourth-row-location">
+                  Houston, TX
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-fourth-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-fourth-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-fourth-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-fourth-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-fourth-row-active-jobs-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-requests-page__tablet-fourth-row-active-jobs-second-number">
                       /28
                     </span>
                   </p>
                 </div>
+                <div className="partnerships-requests-page__tablet-fourth-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-fourth-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-fourth-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-fourth-row-active-candidates-first-number">
+                      8
+                    </span>
+                    <span className="partnerships-requests-page__tablet-fourth-row-active-candidates-second-number">
+                      /11
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-fourth-row-button-container">
+                <button className="partnerships-requests-page__tablet-fourth-row-request-partnership-button">
+                  Request Partnership
+                </button>
+                <button className="partnerships-requests-page__tablet-fourth-row-message-agency-button">
+                  Message Agency
+                </button>
+              </div>
+            </div>
+            <div className="partnerships-requests-page__tablet-fifth-row">
+              <img
+                className="partnerships-requests-page__tablet-fifth-row-zoltan-staffing-icon"
+                src={ZoltanStaffingIcon}
+                alt="Zoltan Staffing Icon"
+              />
+              <div className="partnerships-requests-page__tablet-fifth-row-agency-information-container">
+                <p className="partnerships-requests-page__tablet-fifth-row-agency-name">
+                  Zoltan Staffing Inc.
+                </p>
+                <div className="partnerships-requests-page__tablet-fifth-row-reviews-container">
+                  <div className="partnerships-requests-page__tablet-fifth-row-star-container">
+                    <img
+                      className="partnerships-requests-page__tablet-fifth-row-rating-star-icon-1"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fifth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fifth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fifth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                    <img
+                      className="partnerships-requests-page__tablet-fifth-row-rating-star-icon"
+                      src={RatingStarIcon}
+                      alt="Rating Star Icon"
+                    />
+                  </div>
+                  <p className="partnerships-requests-page__tablet-fifth-row-reviews-text">
+                    5
+                  </p>
+                </div>
+                <p className="partnerships-requests-page__tablet-fifth-row-location">
+                  Chicago, IL
+                </p>
+              </div>
+              <div className="partnerships-requests-page__tablet-fifth-row-active-jobs-active-candidates-container">
+                <div className="partnerships-requests-page__tablet-fifth-row-active-jobs-container">
+                  <p className="partnerships-requests-page__tablet-fifth-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-requests-page__tablet-fifth-row-active-jobs-number">
+                    <span className="partnerships-requests-page__tablet-fifth-row-active-jobs-first-number">
+                      5
+                    </span>
+                    <span className="partnerships-requests-page__tablet-fifth-row-active-jobs-second-number">
+                      /21
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-requests-page__tablet-fifth-row-active-candidates-container">
+                  <p className="partnerships-requests-page__tablet-fifth-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-requests-page__tablet-fifth-row-active-candidates-number">
+                    <span className="partnerships-requests-page__tablet-fifth-row-active-candidates-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-requests-page__tablet-fifth-row-active-candidates-second-number">
+                      /18
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-requests-page__tablet-fifth-row-button-container">
+                <button className="partnerships-requests-page__tablet-fifth-row-request-partnership-button">
+                  Request Partnership
+                </button>
+                <button className="partnerships-requests-page__tablet-fifth-row-message-agency-button">
+                  Message Agency
+                </button>
               </div>
             </div>
           </div>
