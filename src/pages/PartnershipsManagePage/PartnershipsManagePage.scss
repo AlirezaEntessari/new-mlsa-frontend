@@ -1,0 +1,174 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-manage-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        margin-top: 20px;
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 160px;
+    }
+
+    &__mobile-content-container {
+        margin-left: 48px;
+        margin-top: 48px;
+    }
+
+    &__mobile-partnership-options-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-partnership-options-abc-staffing-inc-container {
+        display: flex;
+    }
+
+    &__mobile-circle-button-on-orange-icon {
+        width: 24px;
+    }
+
+    &__mobile-abc-staffing-inc-text {
+        margin-top: 12px;
+        margin-left: 20px;
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-partnership-options-acme-agency-container {
+        display: flex;
+    }
+
+    &__mobile-circle-button-off-gray-icon {
+        width: 24px;
+    }
+
+    &__mobile-acme-agency-text {
+        margin-top: 12px;
+        margin-left: 20px;
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-partnership-options-columbus-staffing-container {
+        display: flex;
+    }
+
+    &__mobile-circle-button-off-gray-icon {
+        width: 24px;
+    }
+
+    &__mobile-columbus-staffing-text {
+        margin-top: 12px;
+        margin-left: 20px;
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-partnership-options-lmn-staffing-container {
+        display: flex;
+    }
+
+    &__mobile-lmn-staffing-text {
+        margin-top: 12px;
+        margin-left: 20px;
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-button-container {
+        margin-left: 72px;
+        margin-top: 100px;
+    }
+
+    &__mobile-view-agreement-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        height: 50px;
+        width: 220px;
+        color: $dark-navy;
+        border-radius: 28px;
+        display: block;
+    }
+
+    &__mobile-view-activity-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        height: 50px;
+        width: 220px;
+        color: $dark-navy;
+        border-radius: 28px;
+        display: block;
+        margin-top: 28px;
+    }
+
+    &__mobile-terminate-agreement-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        height: 50px;
+        width: 220px;
+        color: $dark-navy;
+        border-radius: 28px;
+        display: block;
+        margin-top: 28px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .partnerships-manage-page {
+
+        &__main-container {
+            display: flex;
+        }
+    
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header {
+            margin-top: 32px;
+            margin-left: 32px;
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        &__tablet-content-container {
+            margin-top: 64px;
+            margin-left: 120px;
+        }
+
+        &__tablet-circle-button-on-orange-icon {
+            width: 24px;
+        }
+
+        &__tablet-partnership-options-abc-staffing-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+    }
+
+}
