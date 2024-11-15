@@ -53,6 +53,7 @@ import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetai
 import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
 import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
 import PartnershipsManagePage from './pages/PartnershipsManagePage/PartnershipsManagePage';
+import PartnershipsViewAgreementPage from './pages/PartnershipsViewAgreementPage/PartnershipsViewAgreementPage';
 
 function App() {
   return (
@@ -112,6 +113,7 @@ function App() {
         <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
         <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
         <Route path="/partnerships-manage-page" element={<PartnershipsManagePage />} />
+        <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />
       </Routes>
       </BrowserRouter>
     </div>

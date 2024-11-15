@@ -160,13 +160,255 @@
             margin-left: 120px;
         }
 
-        &__tablet-circle-button-on-orange-icon {
-            width: 24px;
+        &__tablet-partnership-options-button-container {
+            display: flex;
+        }
+
+        &__tablet-partnership-options-container {
+            margin-left: 30px;
         }
 
         &__tablet-partnership-options-abc-staffing-container {
             display: flex;
             margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-circle-button-on-orange-icon {
+            width: 24px;
+        }
+
+        &__tablet-abc-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-acme-agency-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-circle-button-off-gray-icon {
+            width: 24px;
+        }
+
+        &__tablet-acme-agency-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-columbus-staffing-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-columbus-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-lmn-staffing-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-lmn-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-button-container {
+            margin-top: 32px;
+            margin-left: 100px;
+        }
+
+        &__tablet-view-agreement-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+        }
+
+        &__tablet-view-activity-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 28px;
+        }
+
+        &__tablet-terminate-agreement-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 28px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .partnerships-manage-page {
+
+        &__main-container {
+            display: flex;
+        }
+    
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header {
+            margin-top: 32px;
+            margin-left: 80px;
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &__tablet-content-container {
+            margin-top: 64px;
+            margin-left: 140px;
+        }
+
+        &__tablet-choose-partnership-to-manage-header {
+            font-size: 18px;
+        }
+
+        &__tablet-partnership-options-button-container {
+            display: flex;
+            margin-left: 50px;
+        }
+
+        &__tablet-partnership-options-container {
+            margin-left: 0px;
+        }
+
+        &__tablet-partnership-options-abc-staffing-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-circle-button-on-orange-icon {
+            width: 24px;
+        }
+
+        &__tablet-abc-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-acme-agency-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-circle-button-off-gray-icon {
+            width: 24px;
+        }
+
+        &__tablet-acme-agency-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-columbus-staffing-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-columbus-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-partnership-options-lmn-staffing-container {
+            display: flex;
+            margin-left: 32px;
+        }
+
+        &__tablet-lmn-staffing-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 24px;
+            margin-top: 14px;
+        }
+
+        &__tablet-button-container {
+            margin-top: 38px;
+            margin-left: 300px;
+        }
+
+        &__tablet-view-agreement-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+        }
+
+        &__tablet-view-activity-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 28px;
+        }
+
+        &__tablet-terminate-agreement-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 230px;
+            height: 50px;
+            border-radius: 28px;
+            display: block;
+            margin-top: 28px;
         }
 
     }

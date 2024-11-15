@@ -87,17 +87,57 @@ export default function PartnershipsManagePage() {
                 Choose Partnership to Manage:
               </p>
               <div className="partnerships-manage-page__tablet-partnership-options-button-container">
-                <div className="partnerships-manage-page__tablet-partnership-options-abc-staffing-container">
-                  <img
-                    className="partnerships-manage-page__tablet-circle-button-on-orange-icon"
-                    src={CircleButtonOnOrangeIcon}
-                    alt="Circle Button On Orange Icon"
-                  />
-                  <p className="partnerships-manage-page__tablet-abc-staffing-text">
-                    ABC Staffing Inc.
-                  </p>
+                <div className="partnerships-manage-page__tablet-partnership-options-container">
+                  <div className="partnerships-manage-page__tablet-partnership-options-abc-staffing-container">
+                    <img
+                      className="partnerships-manage-page__tablet-circle-button-on-orange-icon"
+                      src={CircleButtonOnOrangeIcon}
+                      alt="Circle Button On Orange Icon"
+                    />
+                    <p className="partnerships-manage-page__tablet-abc-staffing-text">
+                      ABC Staffing Inc.
+                    </p>
+                  </div>
+                  <div className="partnerships-manage-page__tablet-partnership-options-acme-agency-container">
+                    <img
+                      className="partnerships-manage-page__tablet-circle-button-off-gray-icon"
+                      src={CircleButtonOffGrayIcon}
+                      alt="Circle Button Off Gray Icon"
+                    />
+                    <p className="partnerships-manage-page__tablet-acme-agency-text">
+                      Acme Agency
+                    </p>
+                  </div>
+                  <div className="partnerships-manage-page__tablet-partnership-options-columbus-staffing-container">
+                    <img
+                      className="partnerships-manage-page__tablet-circle-button-off-gray-icon"
+                      src={CircleButtonOffGrayIcon}
+                      alt="Circle Button Off Gray Icon"
+                    />
+                    <p className="partnerships-manage-page__tablet-columbus-staffing-text">
+                      Columbus Staffing
+                    </p>
+                  </div>
+                  <div className="partnerships-manage-page__tablet-partnership-options-lmn-staffing-container">
+                    <img
+                      className="partnerships-manage-page__tablet-circle-button-off-gray-icon"
+                      src={CircleButtonOffGrayIcon}
+                      alt="Circle Button Off Gray Icon"
+                    />
+                    <p className="partnerships-manage-page__tablet-lmn-staffing-text">
+                      LMN Staffing
+                    </p>
+                  </div>
+                </div>
+                <div className="partnerships-manage-page__tablet-button-container">
                   <button className="partnerships-manage-page__tablet-view-agreement-button">
                     View Agreement
+                  </button>
+                  <button className="partnerships-manage-page__tablet-view-activity-button">
+                    View Activity
+                  </button>
+                  <button className="partnerships-manage-page__tablet-terminate-agreement-button">
+                    Terminate Agreement
                   </button>
                 </div>
               </div>

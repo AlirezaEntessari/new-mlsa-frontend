@@ -1,0 +1,42 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-view-agreement-page {
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        margin-top: 20px;
+        margin-left: 150px;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        font-size: 20px;
+        color: $dark-navy;
+    }
+
+    &__mobile-view-agreement {
+        margin-left: 20px;
+        margin-top: 60px;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 4px;
+        color: $rust;
+        font-weight: 500;
+    }
+
+    &__mobile-first-row {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__mobile-xyz-staffing-icon {
+        width: 100px;
+    }
+
+    &__mobile-first-row-agency-information-container {
+        margin-left: 32px;
+    }
+
+}
