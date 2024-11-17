@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .partnerships-view-agreement-page {
+    padding-bottom: 10rem;
 
     &__main-container {
         display: flex;
@@ -29,6 +30,9 @@
     &__mobile-first-row {
         display: flex;
         margin-left: 20px;
+        margin-top: 20px;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 24px;
     }
 
     &__mobile-xyz-staffing-icon {
@@ -37,6 +41,328 @@
 
     &__mobile-first-row-agency-information-container {
         margin-left: 32px;
+    }
+
+    &__mobile-first-row-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-first-row-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__mobile-first-row-rating-star-icon-1 {
+        width: 20px;
+    }
+
+    &__mobile-first-row-rating-star-icon {
+        width: 20px;
+        margin-left: 4px;
+    }
+
+    &__mobile-first-row-reviews-text {
+        font-size: 18px;
+        color: $dark-navy;
+        margin-left: 16px;
+        text-decoration: underline;
+    }
+
+    &__mobile-first-row-active-jobs-active-candidates-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-first-row-active-jobs-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 160px;
+        height: 60px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    &__mobile-first-row-active-jobs-text {
+        font-weight: 500;
+        padding-top: 4px;
+        padding-left: 8px;
+        width: 50px;
+        color: $dark-gray;
+    }
+
+    &__mobile-first-row-active-jobs-number {
+        padding-left: 38px;
+        padding-top: 8px;
+    }
+
+    &__mobile-first-row-active-jobs-first-number {
+        font-size: 26px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-first-row-active-jobs-second-number {
+        font-size: 26px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-first-row-active-candidates-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 160px;
+        height: 60px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 10px;
+    }
+
+    &__mobile-first-row-active-candidates-text {
+        font-weight: 500;
+        padding-top: 4px;
+        padding-left: 8px;
+        width: 80px;
+        color: $dark-gray;
+    }
+
+    &__mobile-first-row-active-candidates-number {
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    &__mobile-first-row-active-candidates-first-number {
+        font-size: 26px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-first-row-active-candidates-second-number {
+        font-size: 26px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-content-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-instructions-for-signing-the-partnership-agreement-header {
+        font-weight: 500;
+    }
+
+    &__mobile-before-you-proceed {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__mobile-bolded-text {
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    &__mobile-read-carefully {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__mobile-seek-clarification {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__mobile-verify-details {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__mobile-signature {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__mobile-date {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-by-following-these-instructions {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 50px;
+    }
+
+    &__desktop-extra-space {
+        margin-left: 4px;
+    }
+
+    &__desktop-partnership-agreement-header {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 64px;
+    }
+
+    &__desktop-partnership-agreement-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-purpose-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-purpose-header {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+
+    &__desktop-purpose-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-responsibilities-of-the-parties-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-responsibilities-of-the-parties-header {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__desktop-responsibilities-of-the-parties-description-agency-1 {
+        font-size: 14px;
+    }
+
+    &__desktop-responsibilities-of-the-parties-description-agency-2 {
+        font-size: 14px;
+    }
+
+    &__desktop-term-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-term-header {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__desktop-term-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-confidentiality-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-confidentiality-header {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__desktop-confidentiality-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-profit-sharing-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-profit-sharing-header {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    &__desktop-profit-sharing-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-termination-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-termination-header {
+        font-size: 14px;
+    }
+
+    &__desktop-termination-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-governing-law-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-governing-law-header {
+        font-size: 14px;
+    }
+
+    &__desktop-governing-law-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-entire-agreement-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-entire-agreement-header {
+        font-size: 14px;
+    }
+
+    &__desktop-entire-agreement-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-amendments-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-amendments-header {
+        font-size: 14px;
+    }
+
+    &__desktop-amendments-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-miscellaneous-container {
+        margin-top: 32px;
+    }
+
+    &__desktop-miscellaneous-header {
+        font-size: 14px;
+    }
+
+    &__desktop-miscellaneous-description-line-1 {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-miscellaneous-description-line-2 {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    &__desktop-terms-and-conditions-for-accepting-to-partner-with-header {
+        margin-top: 64px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__desktop-terms-and-conditions-for-accepting-to-partner-with-description {
+        font-size: 14px;
+        text-align: justify;
     }
 
 }
