@@ -570,6 +570,33 @@ export default function PartnershipsViewAgreementPage() {
                 Address] (collectively referred to as the "Parties" and
                 individually as a "Party").
               </p>
+              <div className="partnerships-view-agreement-page__tablet-purpose-container">
+                <p className="partnerships-view-agreement-page__tablet-purpose-header">
+                  1. Purpose
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-purpose-of-this-agreement-is-to-establish">
+                  The purpose of this Agreement is to establish a partnership
+                  between the Parties for the mutual benefit of both agencies.
+                  The Parties agree to collaborate and share resources,
+                  expertise, and information to enhance their service offerings
+                  and achieve common business objectives.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-responsibilities-of-the-parties-container">
+                <p className="partnerships-view-agreement-page__tablet-responsibilities-of-the-parties-header">
+                  2. Responsibilities of the Parties
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-responsibilities-of-the-parties-agency-1">
+                  -**[Agency 1 Name].** [Agency 1 Name] agrees to provide
+                  [specific services, resources, or contributions] as part of
+                  this partnership.
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-responsibilities-of-the-parties-agency-2">
+                  -**[Agency 2 Name].** [Agency 2 Name] agrees to provide
+                  [specific services, resources, or contributions] as part of
+                  this partnership.
+                </p>
+              </div>
             </div>
           </div>
         </div>
