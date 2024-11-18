@@ -597,6 +597,201 @@ export default function PartnershipsViewAgreementPage() {
                   this partnership.
                 </p>
               </div>
+              <div className="partnerships-view-agreement-page__tablet-term-container">
+                <p className="partnerships-view-agreement-page__tablet-term-header">
+                  3. Term
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-term-description">
+                  This Agreement shall commence on the date of execution and
+                  shall continue in effect until terminated by either Party in
+                  accordance with the terms of this Agreement.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-confidentiality-container">
+                <p className="partnerships-view-agreement-page__tablet-confidentiality-header">
+                  4. Confidentiality
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-confidentiality-description">
+                  The Parties agree to maintain the confidentiality of any
+                  proprietary or confidential information disclosed during the
+                  course of this partnership. Neither party shall use or
+                  disclose such information for any purpose other than as
+                  necessary to fulfill the obligations under this Agreement.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-profit-sharing-container">
+                <p className="partnerships-view-agreement-page__tablet-profit-sharing-header">
+                  5. Profit Sharing
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-profit-sharing-description">
+                  The Parties agree to share any profits or revenue generated as
+                  a result of this partnership in the following manner: [Specify
+                  profit-sharing ratio or terms]. Payments shall be made on a
+                  [monthly/quarterly] basis, with detailed accounting provided
+                  to each Party.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-termination-container">
+                <p className="partnerships-view-agreement-page__tablet-termination-header">
+                  6. Termination
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-termination-description">
+                  Either Party may terminate this Agreement at any time by
+                  providing [number] days' written notice to the other Party.
+                  Upon termination, the Parties shall cease all joint activities
+                  and settle any outstanding financial obligations.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-governing-law-container">
+                <p className="partnerships-view-agreement-page__tablet-governing-law-header">
+                  7. Governing Law
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-governing-law-description">
+                  This Agreement shall be governed by and construed in
+                  accordance with the laws of the State of [State], without
+                  regard to its conflict of laws principles.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-entire-agreement-container">
+                <p className="partnerships-view-agreement-page__tablet-entire-agreement-header">
+                  8. Entire Agreement
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-entire-agreement-description">
+                  This Agreement constitutes the entire understanding between
+                  the Parties with respect to the subject matter hereof and
+                  supersedes all prior discussions, agreements, or
+                  understandings of any kind.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-amendments-container">
+                <p className="partnerships-view-agreement-page__tablet-amendments-header">
+                  9. Amendments
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-amendments-description">
+                  This Agreement may be amended or modified only in writing,
+                  signed by both Parties.
+                </p>
+              </div>
+              <div className="partnerships-view-agreement-page__tablet-miscellaneous-container">
+                <p className="partnerships-view-agreement-page__tablet-miscellaneous-header">
+                  10. Miscellaneous
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-miscellaneous-description-line-1">
+                  -**Dispute Resolution.** Any disputes arising out of or in
+                  connection with this Agreement shall be resolved through
+                  [mediation/arbitration] in [Location].
+                </p>
+                <p className="partnerships-view-agreement-page__tablet-miscellaneous-description-line-2">
+                  -**Severability.** If any provision of this Agreement is found
+                  to be invalid or unenforceable, the remainder of the Agreement
+                  shall continue in full force and effect.
+                </p>
+              </div>
+              <p className="partnerships-view-agreement-page__tablet-terms-and-conditions-for-accepting-to-partner-with-staffing-agency">
+                Terms and Conditions for Accepting to Partner with Staffing
+                Agency
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-carefully-read-and-understand">
+                Please carefully read and understand these terms and conditions
+                before requesting client details. By Clicking on the
+                "Acknowledge & Agree" button, you acknowledge and agree to the
+                following terms and conditions:
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-non-disclosure-agreement">
+                Non-disclosure agreement:
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-agree-not-to-contact-the-client">
+                I agree to not contact the client directly or indirectly, unless
+                explicitly authorized with written consent by the MLSA platform.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-shall-maintain-confidentiality-of-client-information">
+                I shall maintain the confidentiality of client information
+                retrieved through this platform and use it solely for the
+                purpose of submitting candidates for the posted job.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-agree-not-to-share-details-with-third-party">
+                I agree not to share the client details with any third party
+                within or outside the platform.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-understand-any-disclosure-of-client-information">
+                I understand that any disclosure of client information to a
+                third party will lead to legal action and a penalty of up to
+                $1,000,000 USD impacting personal assets.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-agree-to-avoid-disclosing-name-of-client">
+                I agree to avoid disclosing the name of the client to candidates
+                to avoid the possibility of the candidate reaching out to the
+                client directly.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-agree-not-to-post-positions">
+                I agree not to post positions listed on MLSA on any third-party
+                job posting sites or other company websites.
+              </p>
+              <p className="partnerships-view-agreement-page__tablet-you-are-bound-by-the-terms-and-conditions">
+                You are bound by the Terms and Conditions, Privacy Policy, Terms
+                of Service, EULA & Rules and Regulations and Partnership
+                agreements. Failure to comply may result in severe consequences,
+                including legal action up to $1,000,000 and the termination of
+                your account on the MLSA platform.
+              </p>
+              <div className="partnerships-view-agreement-page__tablet-card-container">
+                <div className="partnerships-view-agreement-page__tablet-card-1">
+                  <div className="partnerships-view-agreement-page__tablet-card-1-inner-container">
+                    <p className="partnerships-view-agreement-page__tablet-card-1-header">
+                      Agency 1
+                    </p>
+                    <div className="partnerships-view-agreement-page__tablet-card-1-central-container">
+                      <div className="partnerships-view-agreement-page__tablet-card-1-central-container-row-1">
+                        <p className="partnerships-view-agreement-page__tablet-card-1-agency-name">
+                          Agency Name: HumanRe
+                        </p>
+                        <p className="partnerships-view-agreement-page__tablet-card-1-title">
+                          Title: Administrator
+                        </p>
+                      </div>
+                      <div className="partnerships-view-agreement-page__tablet-card-1-central-container-row-2">
+                        <p className="partnerships-view-agreement-page__tablet-card-1-signee">
+                          Signee: John Smith
+                        </p>
+                        <p className="partnerships-view-agreement-page__tablet-card-1-date">
+                          Date: 8/23/24
+                        </p>
+                      </div>
+                    </div>
+                    <p className="partnerships-view-agreement-page__tablet-card-1-document-was-officially-signed">
+                      This document was officially signed on 8/23/24
+                    </p>
+                  </div>
+                </div>
+                <div className="partnerships-view-agreement-page__tablet-card-2">
+                  <div className="partnerships-view-agreement-page__tablet-card-2-inner-container">
+                    <p className="partnerships-view-agreement-page__tablet-card-2-header">
+                      Agency 2
+                    </p>
+                    <div className="partnerships-view-agreement-page__tablet-card-2-central-container">
+                      <div className="partnerships-view-agreement-page__tablet-card-2-central-container-row-1">
+                        <p className="partnerships-view-agreement-page__tablet-card-2-agency-name">
+                          Agency Name: ABC Staffing Inc.
+                        </p>
+                        <p className="partnerships-view-agreement-page__tablet-card-2-title">
+                          Title: Administrator
+                        </p>
+                      </div>
+                      <div className="partnerships-view-agreement-page__tablet-card-2-central-container-row-2">
+                        <p className="partnerships-view-agreement-page__tablet-card-2-signee">
+                          Signee: Jennifer Matthews
+                        </p>
+                        <p className="partnerships-view-agreement-page__tablet-card-2-date">
+                          Date: 8/23/24
+                        </p>
+                      </div>
+                    </div>
+                    <p className="partnerships-view-agreement-page__desktop-card-2-document-was-officially-signed">
+                      This document was officially signed on 8/23/24
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

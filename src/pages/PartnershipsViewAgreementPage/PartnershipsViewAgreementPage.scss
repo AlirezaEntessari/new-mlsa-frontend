@@ -722,6 +722,252 @@
             text-align: justify;
         }
 
+        &__tablet-term-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-term-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-term-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-confidentiality-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-confidentiality-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-confidentiality-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-profit-sharing-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-profit-sharing-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-profit-sharing-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-termination-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-termination-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-termination-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-governing-law-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-governing-law-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-governing-law-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-entire-agreement-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-entire-agreement-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-entire-agreement-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-amendments-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-amendments-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-amendments-description {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-miscellaneous-container {
+            margin-top: 24px;
+        }
+
+        &__tablet-miscellaneous-header {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        &__tablet-miscellaneous-description-line-1 {
+            font-size: 14px;
+            text-align: justify;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-miscellaneous-description-line-2 {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-terms-and-conditions-for-accepting-to-partner-with-staffing-agency {
+            margin-top: 64px;
+            font-weight: 500;
+        }
+
+        &__tablet-carefully-read-and-understand {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-non-disclosure-agreement {
+            font-weight: 500;
+            margin-top: 32px;
+        }
+
+        &__tablet-agree-not-to-contact-the-client {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-shall-maintain-confidentiality-of-client-information {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-agree-not-to-share-details-with-third-party {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-understand-any-disclosure-of-client-information {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-agree-to-avoid-disclosing-name-of-client {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-agree-not-to-post-positions {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-you-are-bound-by-the-terms-and-conditions {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        &__tablet-card-container {
+            margin-top: 64px;
+            margin-left: 64px;
+        }
+
+        &__tablet-card-1 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 250px;
+            border-radius: 28px;
+        }
+
+        &__tablet-card-1-inner-container {
+            margin-top: 20px;
+            margin-left: 64px;
+        }
+
+        &__tablet-card-1-header {
+            font-weight: 500;
+        }
+
+        &__tablet-card-1-central-container-row-1 {
+            display: flex;
+        }
+
+        &__tablet-card-1-title {
+            margin-left: 100px;
+        }
+
+        &__tablet-card-1-central-container-row-2 {
+            display: flex;
+        }
+
+        &__tablet-card-1-date {
+            margin-left: 144px;
+        }
+
+        &__tablet-card-1-document-was-officially-signed {
+            margin-top: 32px;
+        }
+
+        &__tablet-card-2 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 250px;
+            border-radius: 28px;
+            margin-top: 64px;
+        }
+
+        &__tablet-card-2-inner-container {
+            margin-top: 20px;
+            margin-left: 64px;
+        }
+
+        &__tablet-card-2-header {
+            font-weight: 500;
+        }
+
+        &__tablet-card-2-central-container-row-1 {
+            display: flex;
+        }
+
+        &__tablet-card-2-title {
+            margin-left: 64px;
+        }
+
+        &__tablet-card-2-central-container-row-2 {
+            display: flex;
+        }
+
+        &__tablet-card-2-date {
+            margin-left: 104px;
+        }
+
+        &__desktop-card-2-document-was-officially-signed {
+            margin-top: 32px;
+        }
+
     }
 
 }
