@@ -5,6 +5,7 @@ import PartnershipsSidePanel from "../../components/PartnershipsSidePanel/Partne
 import PartnershipsNavbar from "../../components/PartnershipsNavbar/PartnershipsNavbar";
 import CircleButtonOnOrangeIcon from "../../assets/icons/CircleButtonOnOrange.svg";
 import CircleButtonOffGrayIcon from "../../assets/icons/CircleButtonOffGray (1).svg";
+import { Link } from "react-router-dom";
 
 export default function PartnershipsManagePage() {
   return (
@@ -65,9 +66,11 @@ export default function PartnershipsManagePage() {
                 </div>
               </div>
               <div className="partnerships-manage-page__mobile-button-container">
-                <button className="partnerships-manage-page__mobile-view-agreement-button">
-                  View Agreement
-                </button>
+                <Link className="partnerships-manage-page__mobile-view-agreement-link" to="/partnerships-view-agreement-page">
+                  <button className="partnerships-manage-page__mobile-view-agreement-button">
+                    View Agreement
+                  </button>
+                </Link>
                 <button className="partnerships-manage-page__mobile-view-activity-button">
                   View Activity
                 </button>
@@ -130,9 +133,11 @@ export default function PartnershipsManagePage() {
                   </div>
                 </div>
                 <div className="partnerships-manage-page__tablet-button-container">
-                  <button className="partnerships-manage-page__tablet-view-agreement-button">
-                    View Agreement
-                  </button>
+                  <Link className="partnerships-manage-page__tablet-view-agreement-link" to="/partnerships-view-agreement-page">
+                    <button className="partnerships-manage-page__tablet-view-agreement-button">
+                      View Agreement
+                    </button>
+                  </Link>
                   <button className="partnerships-manage-page__tablet-view-activity-button">
                     View Activity
                   </button>

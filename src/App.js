@@ -54,6 +54,7 @@ import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomeP
 import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
 import PartnershipsManagePage from './pages/PartnershipsManagePage/PartnershipsManagePage';
 import PartnershipsViewAgreementPage from './pages/PartnershipsViewAgreementPage/PartnershipsViewAgreementPage';
+import PartnershipsViewActivityPage from './pages/PartnershipsViewActivityPage/PartnershipsViewActivityPage';
 
 function App() {
   return (
@@ -114,6 +115,7 @@ function App() {
         <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
         <Route path="/partnerships-manage-page" element={<PartnershipsManagePage />} />
         <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />
+        <Route path="/partnerships-view-activity-page" element={<PartnershipsViewActivityPage />} />
       </Routes>
       </BrowserRouter>
     </div>

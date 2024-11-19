@@ -1,0 +1,249 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-view-activity-page {
+    padding-bottom: 15rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 154px;
+    }
+
+    &__mobile-view-activity {
+        margin-left: 20px;
+        border-bottom: 2px solid $dark-navy;
+        margin-top: 48px;
+        color: $rust;
+        font-weight: 500;
+        margin-right: 16px;
+    }
+
+    &__mobile-first-row {
+        margin-left: 20px;
+        display: flex;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 32px;
+    }
+
+    &__mobile-abc-staffing-logo {
+        width: 100px;
+    }
+
+    &__mobile-first-row-agency-information-container {
+        margin-left: 32px;
+        margin-top: 10px;
+    }
+
+    &__mobile-first-row-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-rating-star-icon-1 {
+        width: 20px;
+    }
+
+    &__mobile-rating-star-icon {
+        width: 20px;
+        margin-left: 4px;
+    }
+
+    &__mobile-reviews-text {
+        text-decoration: underline;
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 16px;
+    }
+
+    &__mobile-active-jobs-active-candidates-container {
+        margin-left: 32px;
+    }
+
+    &__mobile-active-jobs-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 160px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 60px;
+    }
+
+    &__mobile-active-jobs-text {
+        color: $dark-gray;
+        width: 70px;
+        padding-top: 5px;
+        padding-left: 6px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    &__mobile-active-jobs-number {
+        padding-top: 6px;
+        padding-left: 26px;
+    }
+
+    &__mobile-active-jobs-first-number {
+        color: $dark-gray;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    &__mobile-active-jobs-second-number {
+        color: $dark-gray;
+        font-size: 26px;
+    }
+
+    &__mobile-active-candidates-container {
+        display: flex;
+        border: 1px solid $medium-gray;
+        width: 160px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    &__mobile-active-candidates-text {
+        color: $dark-gray;
+        width: 80px;
+        padding-top: 5px;
+        padding-left: 6px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    &__mobile-active-candidates-number {
+        padding-top: 6px;
+        padding-left: 18px;
+    }
+
+    &__mobile-active-candidates-first-number {
+        color: $dark-gray;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    &__mobile-active-candidates-second-number {
+        color: $dark-gray;
+        font-size: 26px;
+    }
+
+    &__mobile-my-activity-rows-container {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-activity-row-1 {
+        margin-top: 36px;
+        border-bottom: 2px solid $background-blue;
+    }
+
+    &__mobile-my-activity-row-1-top-container {
+        display: flex;
+    }
+
+    &__mobile-my-activity-row-1-job-id {
+        margin-left: 60px;
+        text-decoration: underline;
+        color: $dark-navy;
+    }
+
+    &__mobile-my-activity-row-1-status {
+        margin-left: 60px;
+    }
+
+    &__mobile-my-activity-row-1-description {
+        margin-top: 8px;
+    }
+
+    &__mobile-my-activity-row-2 {
+        margin-top: 36px;
+        border-bottom: 2px solid $background-blue;
+    }
+
+    &__mobile-my-activity-row-2-top-container {
+        display: flex;
+    }
+
+    &__mobile-my-activity-row-2-job-id {
+        margin-left: 60px;
+        text-decoration: underline;
+        color: $dark-navy;
+    }
+
+    &__mobile-my-activity-row-2-status {
+        margin-left: 60px;
+    }
+
+    &__mobile-my-activity-row-3 {
+        margin-top: 36px;
+        border-bottom: 2px solid $background-blue;
+    }
+
+    &__mobile-my-activity-row-3-top-container {
+        display: flex;
+    }
+
+    &__mobile-my-activity-row-3-top-container {
+        display: flex;
+    }
+
+    &__mobile-my-activity-row-3-job-id {
+        margin-left: 60px;
+        text-decoration: underline;
+        color: $dark-navy;
+    }
+
+    &__mobile-my-activity-row-3-status {
+        margin-left: 60px;
+    }
+
+    &__mobile-my-activity-row-3-description {
+        margin-top: 8px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .partnerships-view-activity-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header {
+            margin-top: 20px;
+            margin-left: 32px;
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+        }
+
+    }
+
+}

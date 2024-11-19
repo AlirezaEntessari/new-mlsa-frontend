@@ -45,6 +45,21 @@
         display: none;
     }
 
+    &__my-partners-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__requests-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__manage-section-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
 }
 
 @include tablet {
@@ -96,6 +111,21 @@
         &__tablet-manage-partnerships-section:hover {
             color: $logo-orange;
             cursor: pointer;
+        }
+
+        &__tablet-partnerships-home-page-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__tablet-partnerships-requests-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &__tablet-manage-partnerships-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     } 

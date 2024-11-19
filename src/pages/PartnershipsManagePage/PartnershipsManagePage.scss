@@ -128,6 +128,11 @@
         display: none;
     }
 
+    &__mobile-view-agreement-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -264,6 +269,11 @@
             border-radius: 28px;
             display: block;
             margin-top: 28px;
+        }
+
+        &__tablet-view-agreement-link {
+            color: inherit;
+            text-decoration: none;
         }
 
     }
