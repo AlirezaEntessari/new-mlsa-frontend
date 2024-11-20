@@ -539,7 +539,7 @@
             color: $dark-navy;
             font-weight: 500;
             text-decoration: underline;
-            margin-left: 100px;
+            margin-left: 150px;
             margin-top: 50px;
             font-size: 18px;
         }
@@ -547,7 +547,7 @@
         &__tablet-first-row-reviews-container {
             display: flex;
             margin-top: 50px;
-            margin-left: 100px;
+            margin-left: 150px;
         }
 
         &__tablet-first-row-rating-star-icon-1 {
@@ -565,7 +565,8 @@
         }
 
         &__tablet-active-jobs-active-candidates-container {
-            margin-left: 200px;
+            margin-left: 500px;
+            margin-top: 6px;
         }
 
         &__tablet-active-jobs-container {
@@ -602,6 +603,156 @@
             font-size: 28px;
         }
 
+        &__tablet-active-candidates-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 216px;
+            height: 64px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-top: 10px;
+        }
+
+        &__tablet-active-candidates-text {
+            font-weight: 500;
+            color: $dark-gray;
+            padding-top: 6px;
+            width: 110px;
+            padding-left: 12px;
+        }
+
+        &__tablet-active-candidates-number {
+            padding-top: 6px;
+            padding-left: 30px;
+        }
+
+        &__tablet-active-candidates-first-number {
+            color: $dark-gray;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        &__tablet-active-candidates-second-number {
+            color: $dark-gray;
+            font-size: 28px;
+        }
+
+        &__tablet-activity-table {
+            margin-left: 80px;
+            margin-top: 64px;
+            width: 1500px;
+        }
+
+        &__tablet-activity-header-row {
+            background-color: $background-blue;
+            height: 50px;
+        }
+
+        &__tablet-activity-header-date {
+            font-weight: 500;
+            padding-left: 32px;
+        }
+
+        &__tablet-activity-header-activity {
+            font-weight: 500;
+            padding-left: 200px;
+        }
+
+        &__tablet-activity-header-id {
+            font-weight: 500;
+            padding-left: 0px;
+        }
+
+        &__tablet-activity-header-status {
+            font-weight: 500;
+            padding-left: 20px;
+        }
+
+        &__tablet-activity-row-1 {
+            height: 80px;
+            border-bottom: 2px solid $background-blue;
+        }
+
+        &__tablet-activity-row-1-date {
+            padding-left: 32px;
+        }
+
+        &__tablet-activity-row-1-activity {
+            padding-left: 200px;
+        }
+
+        &__tablet-activity-row-1-id {
+            padding-left: 0px;
+        }
+
+        &__tablet-activity-row-1-status {
+            padding-left: 20px;
+        }
+
+        &__tablet-activity-row-2 {
+            height: 80px;
+            border-bottom: 2px solid $background-blue;
+        }
+
+        &__tablet-activity-row-2-date {
+            padding-left: 32px;
+        }
+
+        &__tablet-activity-row-2-activity {
+            padding-left: 200px;
+        }
+
+        &__tablet-activity-row-2-id {
+            padding-left: 0px;
+        }
+
+        &__tablet-activity-row-2-status {
+            padding-left: 20px;
+        }
+
+        &__tablet-activity-row-3 {
+            height: 80px;
+            border-bottom: 2px solid $background-blue;
+        }
+
+        &__tablet-activity-row-3-date {
+            padding-left: 32px;
+        }
+
+        &__tablet-activity-row-3-activity {
+            padding-left: 200px;
+        }
+
+        &__tablet-activity-row-3-id {
+            padding-left: 0px;
+        }
+
+        &__tablet-activity-row-3-status {
+            padding-left: 20px;
+        }
+
+        &__tablet-activity-row-4 {
+            height: 80px;
+            border-bottom: 2px solid $background-blue;
+        }
+
+        &__tablet-activity-row-4-date {
+            padding-left: 32px;
+        }
+
+        &__tablet-activity-row-4-activity {
+            padding-left: 200px;
+        }
+
+        &__tablet-activity-row-4-id {
+            padding-left: 0px;
+        }
+
+        &__tablet-activity-row-4-status {
+            padding-left: 20px;
+        }
+        
     }
 
 }

@@ -66,14 +66,22 @@ export default function PartnershipsManagePage() {
                 </div>
               </div>
               <div className="partnerships-manage-page__mobile-button-container">
-                <Link className="partnerships-manage-page__mobile-view-agreement-link" to="/partnerships-view-agreement-page">
+                <Link
+                  className="partnerships-manage-page__mobile-view-agreement-link"
+                  to="/partnerships-view-agreement-page"
+                >
                   <button className="partnerships-manage-page__mobile-view-agreement-button">
                     View Agreement
                   </button>
                 </Link>
-                <button className="partnerships-manage-page__mobile-view-activity-button">
-                  View Activity
-                </button>
+                <Link
+                  className="partnerships-manage-page__mobile-view-activity-link"
+                  to="/partnerships-view-activity-page"
+                >
+                  <button className="partnerships-manage-page__mobile-view-activity-button">
+                    View Activity
+                  </button>
+                </Link>
                 <button className="partnerships-manage-page__mobile-terminate-agreement-button">
                   Terminate Agreement
                 </button>
@@ -133,14 +141,22 @@ export default function PartnershipsManagePage() {
                   </div>
                 </div>
                 <div className="partnerships-manage-page__tablet-button-container">
-                  <Link className="partnerships-manage-page__tablet-view-agreement-link" to="/partnerships-view-agreement-page">
+                  <Link
+                    className="partnerships-manage-page__tablet-view-agreement-link"
+                    to="/partnerships-view-agreement-page"
+                  >
                     <button className="partnerships-manage-page__tablet-view-agreement-button">
                       View Agreement
                     </button>
                   </Link>
-                  <button className="partnerships-manage-page__tablet-view-activity-button">
-                    View Activity
-                  </button>
+                  <Link
+                    className="partnerships-manage-page__tablet-view-activity-link"
+                    to="/partnerships-view-activity-page"
+                  >
+                    <button className="partnerships-manage-page__tablet-view-activity-button">
+                      View Activity
+                    </button>
+                  </Link>
                   <button className="partnerships-manage-page__tablet-terminate-agreement-button">
                     Terminate Agreement
                   </button>

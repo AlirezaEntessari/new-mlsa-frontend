@@ -1,0 +1,232 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-terminate-agreement-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header {
+        margin-top: 20px;
+        color: $dark-navy;
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        font-size: 20px;
+        margin-left: 180px;
+    }
+
+    &__mobile-terminate-agreement {
+        color: $rust;
+        border-bottom: 2px solid $dark-navy;
+        margin-left: 20px;
+        margin-top: 48px;
+        padding-bottom: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-first-row {
+        display: flex;
+        margin-left: 20px;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 32px;
+    }
+
+    &__mobile-abc-staffing-logo {
+        width: 100px;
+    }
+
+    &__mobile-first-row-agency-information-container {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+
+    &__mobile-first-row-agency-name {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-first-row-reviews-container {
+        display: flex;
+    }
+
+    &__mobile-first-row-rating-star-icon-1 {
+        width: 18px;
+    }
+
+    &__mobile-first-row-rating-star-icon {
+        width: 18px;
+        margin-left: 6px;
+    }
+
+    &__mobile-first-row-reviews-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        margin-left: 16px;
+    }
+
+    &__mobile-first-row-active-jobs-active-candidates-container {
+        margin-left: 24px;
+        margin-top: 14px;
+    }
+
+    &__mobile-first-row-active-jobs-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 180px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    &__mobile-first-row-active-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        padding-top: 5px;
+        padding-left: 8px;
+        width: 80px;
+    }
+
+    &__mobile-first-row-active-jobs-number {
+        padding-left: 35px;
+        padding-top: 10px;
+    }
+
+    &__mobile-first-row-active-jobs-first-number {
+        color: $dark-gray;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    &__mobile-first-row-active-jobs-second-number {
+        color: $dark-gray;
+        font-size: 26px;
+    }
+
+    &__mobile-first-row-active-candidates-container {
+        border: 1px solid $medium-gray;
+        display: flex;
+        width: 180px;
+        height: 64px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 10px;
+    }
+
+    &__mobile-first-row-active-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        padding-top: 5px;
+        padding-left: 8px;
+        width: 90px;
+    }
+
+    &__mobile-first-row-active-candidates-number {
+        padding-left: 29px;
+        padding-top: 10px;
+    }
+
+    &__mobile-first-row-active-candidates-first-number {
+        color: $dark-gray;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    &__mobile-first-row-active-candidates-second-number {
+        color: $dark-gray;
+        font-size: 26px;
+    }
+
+    &__mobile-card-container {
+        margin-left: 20px;
+        margin-top: 64px;
+    }
+
+    &__mobile-card-1 {
+        border: 1px solid $medium-gray;
+        width: 460px;
+        height: 380px;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-1-inner-container {
+        margin-top: 36px;
+        margin-left: 48px;
+    }
+
+    &__mobile-card-1-header {
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-agency-name {
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    &__mobile-card-1-title {
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-1-date-signed {
+        margin-top: 48px;
+    }
+
+    &__mobile-card-2 {
+        border: 1px solid $medium-gray;
+        width: 460px;
+        height: 380px;
+        border-radius: 28px;
+        margin-top: 32px;
+    }
+
+    &__mobile-card-2-inner-container {
+        margin-top: 36px;
+        margin-left: 48px;
+    }
+
+    &__mobile-card-2-header {
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-agency-name {
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    &__mobile-card-2-title {
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-card-2-date-signed {
+        margin-top: 48px;
+    }
+
+    &__mobile-in-order-for-us-to-provide {
+        margin-left: 36px;
+        margin-right: 24px;
+        margin-top: 32px;
+        font-size: 15px;
+    }
+
+    &__mobile-confirm-name-of-your-agency-container {
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+
+    &__mobile-confirm-name-of-your-agency-input {
+        border: 1px solid $medium-gray;
+        width: 440px;
+        height: 54px;
+        margin-top: 4px;
+        border-radius: 10px;
+        padding-left: 16px;
+    }
+
+}

@@ -133,6 +133,11 @@
         color: inherit;
     }
 
+    &__mobile-view-activity-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -272,6 +277,11 @@
         }
 
         &__tablet-view-agreement-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        &__tablet-view-activity-link {
             color: inherit;
             text-decoration: none;
         }
