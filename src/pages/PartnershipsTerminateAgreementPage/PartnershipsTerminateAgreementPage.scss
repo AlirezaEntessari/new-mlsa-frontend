@@ -25,6 +25,7 @@
         margin-top: 48px;
         padding-bottom: 4px;
         font-weight: 500;
+        // width: 480px;
     }
 
     &__mobile-first-row {
@@ -32,6 +33,7 @@
         margin-left: 20px;
         border-bottom: 2px solid $dark-navy;
         padding-bottom: 32px;
+        // width: 480px;
     }
 
     &__mobile-abc-staffing-logo {
@@ -227,6 +229,203 @@
         margin-top: 4px;
         border-radius: 10px;
         padding-left: 16px;
+    }
+
+    &__mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate-container {
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+
+    &__mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate-input {
+        border: 1px solid $medium-gray;
+        width: 440px;
+        height: 54px;
+        margin-top: 4px;
+        border-radius: 10px;
+        padding-left: 16px;
+    }
+
+    &__mobile-type-a-paragraph-up-to-250-words {
+        margin-top: 10px;
+    }
+
+    &__mobile-reason-for-termination-container {
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    &__mobile-reason-for-termination-text-area {
+        border: 1px solid $medium-gray;
+        width: 440px;
+        height: 400px;
+        border-radius: 16px;
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+
+    &__mobile-terminate-agreement-button {
+        background-color: $dark-navy;
+        color: $white-text;
+        border: 1px solid $dark-navy;
+        margin-top: 60px;
+        margin-left: 134px;
+        width: 220px;
+        height: 48px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .partnerships-terminate-agreement-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header {
+            margin-top: 20px;
+            margin-left: 32px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 20px;
+            color: $dark-navy;
+        }
+
+        &__tablet-terminate-agreement {
+            border-bottom: 2px solid $dark-navy;
+            margin-left: 32px;
+            margin-top: 64px;
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__tablet-first-row {
+            margin-left: 32px;
+            display: flex;
+            border-bottom: 2px solid $dark-navy;
+            padding-bottom: 32px;
+        }
+
+        &__tablet-abc-staffing-logo {
+            width: 100px;
+        }
+
+        &__tablet-first-row-agency-name {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 32px;
+            margin-top: 50px;
+        }
+
+        &__tablet-reviews-container {
+            display: flex;
+            margin-top: 46px;
+            margin-left: 50px;
+        }
+
+        &__tablet-rating-star-icon-1 {
+            width: 20px;
+        }
+
+        &__tablet-rating-star-icon {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        &__tablet-reviews-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        &__tablet-active-jobs-active-candidates-container {
+            margin-left: 70px;
+        }
+
+        &__tablet-active-jobs-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 200px;
+            height: 60px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        &__tablet-active-jobs-text {
+            font-weight: 500;
+            color: $dark-gray;
+            width: 70px;
+            padding-top: 3px;
+            padding-left: 8px;
+        }
+
+        &__tablet-active-jobs-number {
+            padding-left: 54px;
+            padding-top: 6px;
+        }
+
+        &__tablet-active-jobs-first-number {
+            color: $dark-gray;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__tablet-active-jobs-second-number {
+            color: $dark-gray;
+            font-size: 28px;
+        }
+
+        &__tablet-active-candidates-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 200px;
+            height: 60px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            margin-top: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        &__tablet-active-candidates-text {
+            font-weight: 500;
+            color: $dark-gray;
+            width: 90px;
+            padding-top: 3px;
+            padding-left: 6px;
+        }
+
+        &__tablet-active-candidates-number {
+            padding-left: 34px;
+            padding-top: 6px;
+        }
+
+        &__tablet-active-candidates-first-number {
+            color: $dark-gray;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__tablet-active-candidates-second-number {
+            color: $dark-gray;
+            font-size: 28px;
+        }
+
     }
 
 }

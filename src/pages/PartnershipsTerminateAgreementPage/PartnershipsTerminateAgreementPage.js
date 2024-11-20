@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PartnershipsTerminateAgreementPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import PartnershipsSidePanel from "../../components/PartnershipsSidePanel/PartnershipsSidePanel";
 import PartnershipsNavbar from "../../components/PartnershipsNavbar/PartnershipsNavbar";
 import ABCStaffingLogo from "../../assets/icons/abcstaffinglogo.svg";
 import RatingStarIcon from "../../assets/icons/RatingStar.svg";
+import ModalTerminateAgreement from "../../components/ModalTerminateAgreement/ModalTerminateAgreement";
 
 export default function PartnershipsTerminateAgreementPage() {
+  const [
+    isModalTerminateAgreementVisible,
+    setIsModalTerminateAgreementVisible,
+  ] = useState(false);
+
+  const handleTerminateAgreement = () => {
+    setIsModalTerminateAgreementVisible(true);
+  };
+
+  const closeModalTerminateAgreement = () => {
+    setIsModalTerminateAgreementVisible(false);
+  };
+
   return (
     <div className="partnerships-terminate-agreement-page">
       <HeaderWithProfilePic />
@@ -156,9 +170,127 @@ export default function PartnershipsTerminateAgreementPage() {
                 id="mobile-confirm-name-of-your-agency"
               />
             </div>
+            <div className="partnerships-terminate-agreement-page__mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate-container">
+              <label
+                className="partnerships-terminate-agreement-page__mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate-label"
+                htmlFor="mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              >
+                Confirm Name of Agency Partnership you would like to terminate
+              </label>
+              <input
+                className="partnerships-terminate-agreement-page__mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate-input"
+                type="text"
+                id="mobile-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              />
+            </div>
+            <div className="partnerships-terminate-agreement-page__mobile-reason-for-termination-container">
+              <label
+                className="partnerships-terminate-agreement-page__mobile-reason-for-termination-label"
+                htmlFor="mobile-reason-for-termination"
+              >
+                Reason for Termination
+              </label>
+              <p className="partnerships-terminate-agreement-page__mobile-type-a-paragraph-up-to-250-words">
+                Type a paragraph up to 250 words which will be displayed on your
+                Agency profile page
+              </p>
+              <textarea
+                className="partnerships-terminate-agreement-page__mobile-reason-for-termination-text-area"
+                name="mobile-reason-for-termination"
+                id="mobile-reason-for-termination"
+              ></textarea>
+            </div>
+            <button
+              onClick={handleTerminateAgreement}
+              className="partnerships-terminate-agreement-page__mobile-terminate-agreement-button"
+            >
+              Terminate Agreement
+            </button>
+          </div>
+          <div className="partnerships-terminate-agreement-page__tablet-container">
+            <p className="partnerships-terminate-agreement-page__tablet-header">
+              Partnerships
+            </p>
+            <PartnershipsNavbar />
+            <p className="partnerships-terminate-agreement-page__tablet-terminate-agreement">
+              Terminate Agreement
+            </p>
+            <div className="partnerships-terminate-agreement-page__tablet-first-row">
+              <img
+                className="partnerships-terminate-agreement-page__tablet-abc-staffing-logo"
+                src={ABCStaffingLogo}
+                alt="ABC Staffing Logo"
+              />
+              <p className="partnerships-terminate-agreement-page__tablet-first-row-agency-name">
+                ABC Staffing Inc.
+              </p>
+              <div className="partnerships-terminate-agreement-page__tablet-reviews-container">
+                <div className="partnerships-terminate-agreement-page__tablet-star-container">
+                  <img
+                    className="partnerships-terminate-agreement-page__tablet-rating-star-icon-1"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__tablet-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__tablet-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__tablet-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__tablet-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                </div>
+                <p className="partnerships-terminate-agreement-page__tablet-reviews-text">
+                  5
+                </p>
+              </div>
+              <div className="partnerships-terminate-agreement-page__tablet-active-jobs-active-candidates-container">
+                <div className="partnerships-terminate-agreement-page__tablet-active-jobs-container">
+                  <p className="partnerships-terminate-agreement-page__tablet-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-terminate-agreement-page__tablet-active-jobs-number">
+                    <span className="partnerships-terminate-agreement-page__tablet-active-jobs-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-terminate-agreement-page__tablet-active-jobs-second-number">
+                      /28
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-terminate-agreement-page__tablet-active-candidates-container">
+                  <p className="partnerships-terminate-agreement-page__tablet-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-terminate-agreement-page__tablet-active-candidates-number">
+                    <span className="partnerships-terminate-agreement-page__tablet-active-candidates-first-number">
+                      8
+                    </span>
+                    <span className="partnerships-terminate-agreement-page__tablet-active-candidates-second-number">
+                      /11
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      {isModalTerminateAgreementVisible && (
+        <ModalTerminateAgreement closeModal={closeModalTerminateAgreement} />
+      )}
     </div>
   );
 }
