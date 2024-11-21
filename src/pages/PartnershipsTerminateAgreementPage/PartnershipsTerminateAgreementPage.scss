@@ -279,6 +279,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -298,7 +302,7 @@
             margin-left: 32px;
             font-family: 'Roboto Serif';
             font-weight: 700;
-            font-size: 20px;
+            font-size: 28px;
             color: $dark-navy;
         }
 
@@ -424,6 +428,315 @@
         &__tablet-active-candidates-second-number {
             color: $dark-gray;
             font-size: 28px;
+        }
+
+        &__tablet-card-container {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        &__tablet-card-1 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 350px;
+            border-radius: 28px;
+        }
+
+        &__tablet-card-1-inner-container {
+            margin-top: 36px;
+            margin-left: 48px;
+        }
+
+        &__tablet-card-1-header {
+            font-size: 20px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-card-1-information-container {
+            margin-top: 50px;
+        }
+
+        &__tablet-card-1-information-container-first-row {
+            display: flex;
+        }
+
+        &__tablet-card-1-title {
+            margin-left: 80px;
+        }
+
+        &__tablet-card-1-information-container-second-row {
+            display: flex;
+        }
+
+        &__tablet-card-1-date {
+            margin-left: 128px;
+        }
+
+        &__tablet-card-1-date-signed {
+            margin-top: 50px;
+        }
+
+        &__tablet-card-2 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 350px;
+            border-radius: 28px;
+            margin-top: 48px;
+        }
+
+        &__tablet-card-2-inner-container {
+            margin-top: 36px;
+            margin-left: 48px;
+        }
+
+        &__tablet-card-2-header {
+            font-size: 20px;
+            color: $dark-gray;
+            font-weight: 500;
+        }
+
+        &__tablet-card-2-information-container {
+            margin-top: 50px;
+        }
+
+        &__tablet-card-2-information-container-first-row {
+            display: flex;
+        }
+
+        &__tablet-card-2-title {
+            margin-left: 80px;
+        }
+
+        &__tablet-card-2-information-container-second-row {
+            display: flex;
+        }
+
+        &__tablet-card-2-date {
+            margin-left: 174px;
+        }
+
+        &__tablet-card-2-date-signed {
+            margin-top: 50px;
+        }
+
+        &__tablet-in-order-for-us-to-provide {
+            margin-left: 32px;
+            margin-top: 64px;
+            font-size: 14px;
+        }
+
+        &__tablet-confirm-name-of-your-agency-container {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-confirm-name-of-your-agency-input {
+            border: 1px solid $medium-gray;
+            display: block;
+            margin-top: 4px;
+            height: 54px;
+            width: 720px;
+            border-radius: 12px;
+            padding-left: 16px;
+        }
+
+        &__tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate-container {
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate-input {
+            border: 1px solid $medium-gray;
+            display: block;
+            margin-top: 4px;
+            height: 54px;
+            width: 720px;
+            border-radius: 12px;
+            padding-left: 16px;
+        }
+
+        &__tablet-reason-for-termination-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-reason-for-termination-text {
+            margin-bottom: 6px;
+        }
+
+        &__tablet-reason-for-termination-text-area {
+            border: 1px solid $medium-gray;
+            width: 720px;
+            height: 500px;
+            border-radius: 20px;
+        }
+
+        &__tablet-terminate-agreement-button {
+            margin-left: 280px;
+            margin-top: 72px;
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 200px;
+            height: 48px;
+            border-radius: 28px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .partnerships-terminate-agreement-page {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 80px;
+            font-size: 32px;
+        }
+
+        &__desktop-terminate-agreement {
+            margin-left: 32px;
+            border-bottom: 2px solid $dark-navy;
+            margin-top: 48px;
+            margin-left: 80px;
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__desktop-first-row {
+            margin-left: 80px;
+            display: flex;
+            border-bottom: 2px solid $dark-navy;
+            padding-bottom: 32px;
+        }
+
+        &__desktop-abc-staffing-logo {
+            width: 120px;
+        }
+
+        &__desktop-first-row-agency-name {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-left: 120px;
+            margin-top: 72px;
+            font-size: 20px;
+        }
+
+        &__desktop-reviews-container {
+            margin-left: 120px;
+            margin-top: 72px;
+            display: flex;
+        }
+
+        &__desktop-rating-star-icon-1 {
+            width: 21px;
+        }
+
+        &__desktop-rating-star-icon {
+            width: 21px;
+            margin-left: 12px;
+        }
+
+        &__desktop-reviews-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-size: 18px;
+            margin-left: 32px;
+        }
+
+        &__desktop-first-row-active-jobs-active-candidates-container {
+            margin-left: 450px;
+            margin-top: 32px;
+        }
+
+        &__desktop-first-row-active-jobs-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 220px;
+            height: 68px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        &__desktop-first-row-active-jobs-text {
+            font-weight: 500;
+            color: $dark-gray;
+            width: 70px;
+            padding-top: 8px;
+            padding-left: 8px;
+        }
+
+        &__desktop-first-row-active-jobs-number {
+            padding-left: 70px;
+            padding-top: 8px;
+        }
+
+        &__desktop-first-row-active-jobs-first-number {
+            color: $dark-gray;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &__desktop-first-row-active-jobs-second-number {
+            color: $dark-gray;
+            font-size: 32px;
+        }
+
+        &__desktop-first-row-active-candidates-container {
+            display: flex;
+            border: 1px solid $medium-gray;
+            width: 220px;
+            height: 68px;
+            margin-top: 12px;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        &__desktop-first-row-active-candidates-text {
+            font-weight: 500;
+            color: $dark-gray;
+            width: 100px;
+            padding-top: 8px;
+            padding-left: 8px;
+        }
+
+        &__desktop-first-row-active-candidates-number {
+            padding-left: 46px;
+            padding-top: 8px;
+        }
+
+        &__desktop-first-row-active-candidates-first-number {
+            color: $dark-gray;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &__desktop-first-row-active-candidates-second-number {
+            color: $dark-gray;
+            font-size: 32px;
         }
 
     }

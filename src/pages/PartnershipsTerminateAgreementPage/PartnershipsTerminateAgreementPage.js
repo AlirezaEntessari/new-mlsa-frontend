@@ -285,6 +285,207 @@ export default function PartnershipsTerminateAgreementPage() {
                 </div>
               </div>
             </div>
+            <div className="partnerships-terminate-agreement-page__tablet-card-container">
+              <div className="partnerships-terminate-agreement-page__tablet-card-1">
+                <div className="partnerships-terminate-agreement-page__tablet-card-1-inner-container">
+                  <p className="partnerships-terminate-agreement-page__tablet-card-1-header">
+                    Agency 1
+                  </p>
+                  <div className="partnerships-terminate-agreement-page__tablet-card-1-information-container">
+                    <div className="partnerships-terminate-agreement-page__tablet-card-1-information-container-first-row">
+                      <p className="partnerships-terminate-agreement-page__tablet-card-1-agency-name">
+                        Agency Name: Human Re
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__tablet-card-1-title">
+                        Title: Administrator
+                      </p>
+                    </div>
+                    <div className="partnerships-terminate-agreement-page__tablet-card-1-information-container-second-row">
+                      <p className="partnerships-terminate-agreement-page__tablet-card-1-signee">
+                        Signee: John Smith
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__tablet-card-1-date">
+                        Date: 8/23/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="partnerships-terminate-agreement-page__tablet-card-1-date-signed">
+                    Date Signed: 8/23/24
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-terminate-agreement-page__tablet-card-2">
+                <div className="partnerships-terminate-agreement-page__tablet-card-2-inner-container">
+                  <p className="partnerships-terminate-agreement-page__tablet-card-2-header">
+                    Agency 2
+                  </p>
+                  <div className="partnerships-terminate-agreement-page__tablet-card-2-information-container">
+                    <div className="partnerships-terminate-agreement-page__tablet-card-2-information-container-first-row">
+                      <p className="partnerships-terminate-agreement-page__tablet-card-2-agency-name">
+                        Agency Name: ABC Staffing Inc.
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__tablet-card-2-title">
+                        Title: Administrator
+                      </p>
+                    </div>
+                    <div className="partnerships-terminate-agreement-page__tablet-card-2-information-container-second-row">
+                      <p className="partnerships-terminate-agreement-page__tablet-card-2-signee">
+                        Signee: Chris Frost
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__tablet-card-2-date">
+                        Date: 8/23/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="partnerships-terminate-agreement-page__tablet-card-2-date-signed">
+                    Date Signed: 8/26/24
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="partnerships-terminate-agreement-page__tablet-in-order-for-us-to-provide">
+              In order for us to provide the best customer service, please
+              answer the following questions below.
+            </p>
+            <div className="partnerships-terminate-agreement-page__tablet-confirm-name-of-your-agency-container">
+              <label
+                className="partnerships-terminate-agreement-page__tablet-confirm-name-of-your-agency-label"
+                htmlFor="tablet-confirm-name-of-your-agency"
+              >
+                Confirm Name of Your Agency
+              </label>
+              <input
+                className="partnerships-terminate-agreement-page__tablet-confirm-name-of-your-agency-input"
+                type="text"
+                id="tablet-confirm-name-of-your-agency"
+              />
+            </div>
+            <div className="partnerships-terminate-agreement-page__tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate-container">
+              <label
+                className="partnerships-terminate-agreement-page__tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate-label"
+                htmlFor="tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              >
+                Confirm Name of Agency Partnership you would like to terminate
+              </label>
+              <input
+                className="partnerships-terminate-agreement-page__tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate-input"
+                type="text"
+                id="tablet-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              />
+            </div>
+            <div className="partnerships-terminate-agreement-page__tablet-reason-for-termination-container">
+              <p className="partnerships-terminate-agreement-page__tablet-reason-for-termination-text">
+                Reason for Termination
+              </p>
+              <p className="partnerships-terminate-agreement-page__tablet-type-a-paragraph-up-to-250-words">
+                Type a paragraph up to 250 words which will be displayed on your
+                Agency profile page
+              </p>
+              <textarea
+                className="partnerships-terminate-agreement-page__tablet-reason-for-termination-text-area"
+                name="tablet-reason-for-termination"
+                id="tablet-reason-for-termination"
+              ></textarea>
+            </div>
+            <button
+              onClick={handleTerminateAgreement}
+              className="partnerships-terminate-agreement-page__tablet-terminate-agreement-button"
+            >
+              Terminate Agreement
+            </button>
+          </div>
+          <div className="partnerships-terminate-agreement-page__desktop-container">
+            <p className="partnerships-terminate-agreement-page__desktop-header">
+              Partnerships
+            </p>
+            <PartnershipsNavbar />
+            <p className="partnerships-terminate-agreement-page__desktop-terminate-agreement">
+              Terminate Agreement
+            </p>
+            <div className="partnerships-terminate-agreement-page__desktop-first-row">
+              <img
+                className="partnerships-terminate-agreement-page__desktop-abc-staffing-logo"
+                src={ABCStaffingLogo}
+                alt="ABC Staffing Logo"
+              />
+              <p className="partnerships-terminate-agreement-page__desktop-first-row-agency-name">
+                ABC Staffing Inc.
+              </p>
+              <div className="partnerships-terminate-agreement-page__desktop-reviews-container">
+                <div className="partnerships-terminate-agreement-page__desktop-star-container">
+                  <img
+                    className="partnerships-terminate-agreement-page__desktop-rating-star-icon-1"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__desktop-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__desktop-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__desktop-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                  <img
+                    className="partnerships-terminate-agreement-page__desktop-rating-star-icon"
+                    src={RatingStarIcon}
+                    alt="Rating Star Icon"
+                  />
+                </div>
+                <p className="partnerships-terminate-agreement-page__desktop-reviews-text">
+                  5
+                </p>
+              </div>
+              <div className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-active-candidates-container">
+                <div className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-container">
+                  <p className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-text">
+                    Active Jobs
+                  </p>
+                  <p className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-number">
+                    <span className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-terminate-agreement-page__desktop-first-row-active-jobs-second-number">
+                      /17
+                    </span>
+                  </p>
+                </div>
+                <div className="partnerships-terminate-agreement-page__desktop-first-row-active-candidates-container">
+                  <p className="partnerships-terminate-agreement-page__desktop-first-row-active-candidates-text">
+                    Active Candidates
+                  </p>
+                  <p className="partnerships-terminate-agreement-page__desktop-first-row-active-candidates-number">
+                    <span className="partnerships-terminate-agreement-page__desktop-first-row-active-candidates-first-number">
+                      0
+                    </span>
+                    <span className="partnerships-terminate-agreement-page__desktop-first-row-active-candidates-second-number">
+                      /4
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="partnerships-terminate-agreement-page__desktop-card-container">
+              <div className="partnerships-terminate-agreement-page__desktop-card-1">
+                <div className="partnerships-terminate-agreement-page__desktop-card-1-inner-container">
+                  <p className="partnerships-terminate-agreement-page__desktop-card-1-header">
+                    Agency 1
+                  </p>
+                  <div className="partnerships-terminate-agreement-page__desktop-card-1-central-container">
+                    <p className="partnerships-terminate-agreement-page__desktop-card-1-agency-name">
+                      Agency Name
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
