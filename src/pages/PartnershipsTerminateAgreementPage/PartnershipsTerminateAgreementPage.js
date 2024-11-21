@@ -479,9 +479,22 @@ export default function PartnershipsTerminateAgreementPage() {
                     Agency 1
                   </p>
                   <div className="partnerships-terminate-agreement-page__desktop-card-1-central-container">
-                    <p className="partnerships-terminate-agreement-page__desktop-card-1-agency-name">
-                      Agency Name
-                    </p>
+                    <div className="partnerships-terminate-agreement-page__desktop-card-1-central-container-row-1">
+                      <p className="partnerships-terminate-agreement-page__desktop-card-1-agency-name">
+                        Agency Name: Human Re
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__desktop-card-1-title">
+                        Title: Administrator
+                      </p>
+                    </div>
+                    <div className="partnerships-terminate-agreement-page__desktop-card-1-central-container-row-2">
+                      <p className="partnerships-terminate-agreement-page__desktop-card-1-signee">
+                        Signee: John Smith
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__desktop-card-1-date">
+                        Date: 8/23/24
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

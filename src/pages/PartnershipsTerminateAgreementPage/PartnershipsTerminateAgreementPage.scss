@@ -739,6 +739,47 @@
             font-size: 32px;
         }
 
+        &__desktop-card-container {
+            margin-top: 48px;
+            margin-left: 80px;
+        }
+
+        &__desktop-card-1 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 400px;
+        }
+
+        &__desktop-card-1-inner-container {
+            margin-left: 48px;
+            margin-top: 48px;
+        }
+
+        &__desktop-card-1-central-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-card-1-central-container-row-1 {
+            display: flex;
+        }
+
+        &__desktop-card-1-agency-name {
+            margin-bottom: 6px;
+        }
+
+        &__desktop-card-1-title {
+            margin-left: 72px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-card-1-central-container-row-2 {
+            display: flex;
+        }
+
+        &__desktop-card-1-date {
+            margin-left: 118px;
+        }
+
     }
 
 }
