@@ -82,9 +82,14 @@ export default function PartnershipsManagePage() {
                     View Activity
                   </button>
                 </Link>
-                <button className="partnerships-manage-page__mobile-terminate-agreement-button">
-                  Terminate Agreement
-                </button>
+                <Link
+                  className="partnerships-manage-page__mobile-terminate-agreement-link"
+                  to="/partnerships-terminate-agreement-page"
+                >
+                  <button className="partnerships-manage-page__mobile-terminate-agreement-button">
+                    Terminate Agreement
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -157,9 +162,14 @@ export default function PartnershipsManagePage() {
                       View Activity
                     </button>
                   </Link>
-                  <button className="partnerships-manage-page__tablet-terminate-agreement-button">
-                    Terminate Agreement
-                  </button>
+                  <Link
+                    className="partnerships-manage-page__tablet-terminate-agreement-link"
+                    to="/partnerships-terminate-agreement-page"
+                  >
+                    <button className="partnerships-manage-page__tablet-terminate-agreement-button">
+                      Terminate Agreement
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

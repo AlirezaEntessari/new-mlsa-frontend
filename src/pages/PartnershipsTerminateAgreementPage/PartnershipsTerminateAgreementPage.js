@@ -496,9 +496,93 @@ export default function PartnershipsTerminateAgreementPage() {
                       </p>
                     </div>
                   </div>
+                  <p className="partnerships-terminate-agreement-page__desktop-card-1-date-signed">
+                    Date Signed: 8/23/24
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-terminate-agreement-page__desktop-card-2">
+                <div className="partnerships-terminate-agreement-page__desktop-card-2-inner-container">
+                  <p className="partnerships-terminate-agreement-page__desktop-card-2-header">
+                    Agency 2
+                  </p>
+                  <div className="partnerships-terminate-agreement-page__desktop-card-2-central-container">
+                    <div className="partnerships-terminate-agreement-page__desktop-card-2-central-container-row-1">
+                      <p className="partnerships-terminate-agreement-page__desktop-card-2-agency-name">
+                        Agency Name: ABC Staffing Inc.
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__desktop-card-2-title">
+                        Title: Administrator
+                      </p>
+                    </div>
+                    <div className="partnerships-terminate-agreement-page__desktop-card-2-central-container-row-2">
+                      <p className="partnerships-terminate-agreement-page__desktop-card-2-signee">
+                        Signee: Chris Frost
+                      </p>
+                      <p className="partnerships-terminate-agreement-page__desktop-card-2-date">
+                        Date: 8/23/24
+                      </p>
+                    </div>
+                  </div>
+                  <p className="partnerships-terminate-agreement-page__desktop-card-2-date-signed">
+                    Date Signed: 8/26/24
+                  </p>
                 </div>
               </div>
             </div>
+            <p className="partnerships-terminate-agreement-page__desktop-in-order-for-us-to-provide">
+              In order for us to provide the best customer service, please
+              answer to the following questions below.
+            </p>
+            <div className="partnerships-terminate-agreement-page__desktop-confirm-name-of-your-agency-container">
+              <label
+                className="partnerships-terminate-agreement-page__desktop-confirm-name-of-your-agency-label"
+                htmlFor="desktop-confirm-name-of-your-agency"
+              >
+                Confirm Name of Your Agency
+              </label>
+              <input
+                className="partnerships-terminate-agreement-page__desktop-confirm-name-of-your-agency-input"
+                type="text"
+                id="desktop-confirm-name-of-your-agency"
+              />
+            </div>
+            <div className="partnerships-terminate-agreement-page__desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate-container">
+              <label
+                className="partnerships-terminate-agreement-page__desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate-label"
+                htmlFor="desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              >
+                Confirm Name of Agency Partnership you would like to terminate
+              </label>
+              <input
+                className="partnerships-terminate-agreement-page__desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate-input"
+                type="text"
+                id="desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate"
+              />
+            </div>
+            <div className="partnerships-terminate-agreement-page__desktop-reason-for-termination-container">
+              <label
+                className="partnerships-terminate-agreement-page__desktop-reason-for-termination-label"
+                htmlFor="desktop-reason-for-termination"
+              >
+                Reason for Termination
+              </label>
+              <p className="partnerships-terminate-agreement-page__desktop-type-a-paragraph-up-to-250-words">
+                Type a paragraph up to 250 words which will be displayed on your
+                Agency profile page
+              </p>
+              <textarea
+                className="partnerships-terminate-agreement-page__desktop-reason-for-termination-text-area"
+                name="desktop-reason-for-termination"
+                id="desktop-reason-for-termination"
+              ></textarea>
+            </div>
+            <button
+              onClick={handleTerminateAgreement}
+              className="partnerships-terminate-agreement-page__desktop-terminate-agreement-button"
+            >
+              Terminate Agreement
+            </button>
           </div>
         </div>
       </div>

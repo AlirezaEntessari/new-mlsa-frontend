@@ -56,6 +56,7 @@ import PartnershipsManagePage from './pages/PartnershipsManagePage/PartnershipsM
 import PartnershipsViewAgreementPage from './pages/PartnershipsViewAgreementPage/PartnershipsViewAgreementPage';
 import PartnershipsViewActivityPage from './pages/PartnershipsViewActivityPage/PartnershipsViewActivityPage';
 import PartnershipsTerminateAgreementPage from './pages/PartnershipsTerminateAgreementPage/PartnershipsTerminateAgreementPage';
+import HelpHomePage from './pages/HelpHomePage/HelpHomePage';
 
 function App() {
   return (
@@ -118,6 +119,7 @@ function App() {
         <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />
         <Route path="/partnerships-view-activity-page" element={<PartnershipsViewActivityPage />} />
         <Route path="/partnerships-terminate-agreement-page" element={<PartnershipsTerminateAgreementPage />} />
+        <Route path="/help-home-page" element={<HelpHomePage />} />
       </Routes>
       </BrowserRouter>
     </div>

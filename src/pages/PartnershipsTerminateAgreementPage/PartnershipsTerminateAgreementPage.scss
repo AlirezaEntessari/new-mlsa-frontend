@@ -594,6 +594,7 @@
 @include desktop {
 
     .partnerships-terminate-agreement-page {
+        padding-bottom: 20rem;
 
         &__tablet-container {
             display: none;
@@ -740,19 +741,26 @@
         }
 
         &__desktop-card-container {
-            margin-top: 48px;
+            margin-top: 80px;
             margin-left: 80px;
+            display: flex;
         }
 
         &__desktop-card-1 {
             border: 1px solid $medium-gray;
             width: 600px;
-            height: 400px;
+            height: 360px;
+            border-radius: 28px;
         }
 
         &__desktop-card-1-inner-container {
             margin-left: 48px;
             margin-top: 48px;
+        }
+
+        &__desktop-card-1-header {
+            font-size: 18px;
+            font-weight: 500;
         }
 
         &__desktop-card-1-central-container {
@@ -778,6 +786,123 @@
 
         &__desktop-card-1-date {
             margin-left: 118px;
+        }
+
+        &__desktop-card-1-date-signed {
+            margin-top: 60px;
+        }
+
+        &__desktop-card-2 {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 360px;
+            border-radius: 28px;
+            margin-left: 150px;
+        }
+
+        &__desktop-card-2-inner-container {
+            margin-left: 48px;
+            margin-top: 48px;
+        }
+
+        &__desktop-card-2-header {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-card-2-central-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-card-2-central-container-row-1 {
+            display: flex;
+        }
+
+        &__desktop-card-2-agency-name {
+            margin-bottom: 6px;
+        }
+
+        &__desktop-card-2-title {
+            margin-left: 72px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-card-2-central-container-row-2 {
+            display: flex;
+        }
+
+        &__desktop-card-2-date {
+            margin-left: 166px;
+        }
+
+        &__desktop-card-2-date-signed {
+            margin-top: 60px;
+        }
+
+        &__desktop-in-order-for-us-to-provide {
+            margin-left: 80px;
+            margin-top: 60px;
+            font-size: 15px;
+        }
+
+        &__desktop-confirm-name-of-your-agency-container {
+            margin-left: 80px;
+            margin-top: 80px;
+        }
+
+        &__desktop-confirm-name-of-your-agency-input {
+            border: 1px solid $medium-gray;
+            width: 1340px;
+            height: 60px;
+            display: block;
+            margin-top: 6px;
+            border-radius: 12px;
+        }
+
+        &__desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate-container {
+            margin-left: 80px;
+            margin-top: 80px;
+        }
+
+        &__desktop-confirm-name-of-agency-partnership-you-would-like-to-terminate-input {
+            border: 1px solid $medium-gray;
+            width: 1340px;
+            height: 60px;
+            display: block;
+            margin-top: 6px;
+            border-radius: 12px;
+        }
+
+        &__desktop-reason-for-termination-container {
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+
+        &__desktop-type-a-paragraph-up-to-250-words {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        &__desktop-reason-for-termination-text-area {
+            width: 1340px;
+            height: 600px;
+            border: 1px solid $medium-gray;
+            border-radius: 28px;
+            padding-top: 32px;
+            padding-left: 32px;
+            margin-top: 30px;
+        }
+
+        &__desktop-terminate-agreement-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            margin-top: 80px;
+            margin-left: 630px;
+            width: 250px;
+            height: 54px;
+            border-radius: 28px;
+            font-size: 18px;
         }
 
     }
