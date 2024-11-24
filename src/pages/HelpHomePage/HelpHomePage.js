@@ -228,6 +228,186 @@ export default function HelpHomePage() {
               id="tablet-how-can-we-help-today"
               placeholder="I'm looking for..."
             />
+            <div className="help-home-page__tablet-central-card-container">
+              <div className="help-home-page__tablet-my-account-job-posting-container">
+                <div className="help-home-page__tablet-my-account-container">
+                  <img
+                    className="help-home-page__tablet-my-account-icon"
+                    src={MyAccountIcon}
+                    alt="My Account Icon"
+                  />
+                  <p className="help-home-page__tablet-my-account-text">
+                    My Account
+                  </p>
+                  <p className="help-home-page__tablet-my-account-articles">
+                    8 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-job-posting-container">
+                  <img
+                    className="help-home-page__tablet-job-posting-icon"
+                    src={JobPostingIcon}
+                    alt="Job Posting Icon"
+                  />
+                  <p className="help-home-page__tablet-job-posting-text">
+                    Job Posting
+                  </p>
+                  <p className="help-home-page__tablet-job-posting-articles">
+                    9 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-candidate-posting-documents-container">
+                <div className="help-home-page__tablet-candidate-posting-container">
+                  <img
+                    className="help-home-page__tablet-candidate-posting-icon"
+                    src={CandidatePostingIcon}
+                    alt="Candidate Posting Icon"
+                  />
+                  <p className="help-home-page__tablet-candidate-posting-text">
+                    Candidate Posting
+                  </p>
+                  <p className="help-home-page__tablet-candidate-posting-articles">
+                    9 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-documents-container">
+                  <img
+                    className="help-home-page__tablet-documents-icon"
+                    src={DocumentsIcon}
+                    alt="Documents Icon"
+                  />
+                  <p className="help-home-page__tablet-documents-text">
+                    Documents
+                  </p>
+                  <p className="help-home-page__tablet-documents-articles">
+                    4 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-partnerships-dashboard-container">
+                <div className="help-home-page__tablet-partnerships-container">
+                  <img
+                    className="help-home-page__tablet-partnerships-icon"
+                    src={PartnershipsIcon}
+                    alt="Partnerships Icon"
+                  />
+                  <p className="help-home-page__tablet-partnerships-text">
+                    Partnerships
+                  </p>
+                  <p className="help-home-page__tablet-partnerships-articles">
+                    4 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-dashboard-container">
+                  <img
+                    className="help-home-page__tablet-dashboard-icon"
+                    src={DashboardIcon}
+                    alt="Dashboard Icon"
+                  />
+                  <p className="help-home-page__tablet-dashboard-text">
+                    Dashboard
+                  </p>
+                  <p className="help-home-page__tablet-dashboard-articles">
+                    9 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-searching-ratings-and-feedback-container">
+                <div className="help-home-page__tablet-searching-container">
+                  <img
+                    className="help-home-page__tablet-searching-icon"
+                    src={SearchingIcon}
+                    alt="Searching Icon"
+                  />
+                  <p className="help-home-page__tablet-searching-text">
+                    Searching
+                  </p>
+                  <p className="help-home-page__tablet-searching-articles">
+                    8 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-ratings-and-feedback-container">
+                  <img
+                    className="help-home-page__tablet-ratings-and-feedback-icon"
+                    src={RatingsAndFeedbackIcon}
+                    alt="Ratings and Feedback Icon"
+                  />
+                  <p className="help-home-page__tablet-ratings-and-feedback-text">
+                    Ratings & Feedback
+                  </p>
+                  <p className="help-home-page__tablet-ratings-and-feedback-articles">
+                    8 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-reports-membership-container">
+                <div className="help-home-page__tablet-reports-container">
+                  <img
+                    className="help-home-page__tablet-reports-icon"
+                    src={ReportsIcon}
+                    alt="Reports Icon"
+                  />
+                  <p className="help-home-page__tablet-reports-text">Reports</p>
+                  <p className="help-home-page__tablet-reports-articles">
+                    4 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-membership-container">
+                  <img
+                    className="help-home-page__tablet-membership-icon"
+                    src={MembershipIcon}
+                    alt="Membership Icon"
+                  />
+                  <p className="help-home-page__tablet-membership-text">
+                    Membership
+                  </p>
+                  <p className="help-home-page__tablet-membership-articles">
+                    6 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-policies-and-terms-faq-container">
+                <div className="help-home-page__tablet-policies-and-terms-container">
+                  <img
+                    className="help-home-page__tablet-policies-and-terms-icon"
+                    src={PoliciesAndTermsIcon}
+                    alt="Policies and Terms Icon"
+                  />
+                  <p className="help-home-page__tablet-policies-and-terms-text">
+                    Policies and Terms
+                  </p>
+                  <p className="help-home-page__tablet-policies-and-terms-articles">
+                    6 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__tablet-faq-container">
+                  <img
+                    className="help-home-page__tablet-faq-icon"
+                    src={FAQIcon}
+                    alt="FAQ Icon"
+                  />
+                  <p className="help-home-page__tablet-faq-text">FAQ</p>
+                  <p className="help-home-page__tablet-faq-articles">
+                    6 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__tablet-glossary-container">
+                <img
+                  className="help-home-page__tablet-glossary-icon"
+                  src={GlossaryIcon}
+                  alt="Glossary Icon"
+                />
+                <p className="help-home-page__tablet-glossary-text">Glossary</p>
+                <p className="help-home-page__tablet-glossary-articles">
+                  6 Articles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="help-home-page__desktop-container">
+            <p className="help-home-page__desktop-help-center-header">Help Center</p>
           </div>
         </div>
       </div>

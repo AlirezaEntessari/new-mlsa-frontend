@@ -433,6 +433,7 @@
 @include tablet {
 
     .help-home-page {
+        padding-bottom: 15rem;
 
         &__mobile-container {
             display: none;
@@ -447,14 +448,14 @@
             color: $dark-navy;
             font-weight: 700;
             font-size: 24px;
-            margin-top: 20px;
+            margin-top: 32px;
             margin-left: 48px;
         }
 
         &__tablet-how-can-we-help-today-header {
             font-size: 28px;
             font-family: 'Roboto Serif';
-            margin-top: 80px;
+            margin-top: 50px;
             margin-left: 200px;
             font-weight: 700;
             color: $dark-navy;
@@ -462,7 +463,7 @@
 
         &__tablet-search-icon {
             position: absolute;
-            top: 412px;
+            top: 394px;
             right: 90px;
         }
 
@@ -475,6 +476,441 @@
             width: 700px;
             border-radius: 28px;
             padding-left: 24px;
+        }
+
+        &__tablet-central-card-container {
+            margin-top: 60px;
+            margin-left: 48px;
+        }
+
+        &__tablet-my-account-job-posting-container {
+            display: flex;
+        }
+
+        &__tablet-my-account-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-my-account-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-my-account-text {
+            font-family: 'Roboto Serif';
+            margin-left: 88px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-my-account-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-job-posting-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-job-posting-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-job-posting-text {
+            font-family: 'Roboto Serif';
+            margin-left: 92px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-job-posting-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-candidate-posting-documents-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-candidate-posting-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-candidate-posting-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-candidate-posting-text {
+            font-family: 'Roboto Serif';
+            margin-left: 54px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-candidate-posting-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-documents-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-documents-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-documents-text {
+            font-family: 'Roboto Serif';
+            margin-left: 96px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-documents-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-partnerships-dashboard-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-partnerships-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-partnerships-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-partnerships-text {
+            font-family: 'Roboto Serif';
+            margin-left: 88px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-partnerships-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-dashboard-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-dashboard-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-dashboard-text {
+            font-family: 'Roboto Serif';
+            margin-left: 96px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-dashboard-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-searching-ratings-and-feedback-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-searching-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-searching-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-searching-text {
+            font-family: 'Roboto Serif';
+            margin-left: 96px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-searching-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-ratings-and-feedback-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-ratings-and-feedback-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-ratings-and-feedback-text {
+            font-family: 'Roboto Serif';
+            margin-left: 52px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-ratings-and-feedback-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-reports-membership-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-reports-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-reports-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-reports-text {
+            font-family: 'Roboto Serif';
+            margin-left: 114px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-reports-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-membership-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-membership-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-membership-text {
+            font-family: 'Roboto Serif';
+            margin-left: 92px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-membership-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-policies-and-terms-faq-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-policies-and-terms-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-policies-and-terms-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-policies-and-terms-text {
+            font-family: 'Roboto Serif';
+            margin-left: 56px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-policies-and-terms-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-faq-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__tablet-faq-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-faq-text {
+            font-family: 'Roboto Serif';
+            margin-left: 140px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-faq-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__tablet-glossary-container {
+            border: 2px solid $medium-dark-gray;
+            width: 330px;
+            height: 300px;
+            margin-top: 32px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 186px;
+            margin-top: 48px;
+        }
+
+        &__tablet-glossary-icon {
+            margin-left: 114px;
+            margin-top: 32px;
+        }
+
+        &__tablet-glossary-text {
+            font-family: 'Roboto Serif';
+            margin-left: 112px;
+            margin-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__tablet-glossary-articles {
+            font-size: 18px;
+            margin-top: 32px;
+            margin-left: 126px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .help-home-page {
+
+        &__tablet-container {
+            display: none;
         }
 
     }
