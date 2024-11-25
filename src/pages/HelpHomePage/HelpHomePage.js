@@ -407,7 +407,199 @@ export default function HelpHomePage() {
             </div>
           </div>
           <div className="help-home-page__desktop-container">
-            <p className="help-home-page__desktop-help-center-header">Help Center</p>
+            <p className="help-home-page__desktop-help-center-header">
+              Help Center
+            </p>
+            <p className="help-home-page__desktop-how-can-we-help-today-header">
+              How Can We Help Today?
+            </p>
+            <img
+              className="help-home-page__desktop-search-icon"
+              src={SearchIcon}
+              alt="Search Icon"
+            />
+            <input
+              className="help-home-page__desktop-im-looking-for-input"
+              type="text"
+              placeholder="I'm looking for..."
+            />
+            <div className="help-home-page__desktop-central-container">
+              <div className="help-home-page__desktop-my-account-job-posting-candidate-posting-container">
+                <div className="help-home-page__desktop-my-account-container">
+                  <img
+                    className="help-home-page__desktop-my-account-icon"
+                    src={MyAccountIcon}
+                    alt="My Account Icon"
+                  />
+                  <p className="help-home-page__desktop-my-account-text">
+                    My Account
+                  </p>
+                  <p className="help-home-page__desktop-my-account-articles">
+                    8 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-job-posting-container">
+                  <img
+                    className="help-home-page__desktop-job-posting-icon"
+                    src={JobPostingIcon}
+                    alt="Job Posting Icon"
+                  />
+                  <p className="help-home-page__desktop-job-posting-text">
+                    Job Posting
+                  </p>
+                  <p className="help-home-page__desktop-job-posting-articles">
+                    9 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-candidate-posting-container">
+                  <img
+                    className="help-home-page__desktop-candidate-posting-icon"
+                    src={CandidatePostingIcon}
+                    alt="Candidate Posting Icon"
+                  />
+                  <p className="help-home-page__desktop-candidate-posting-text">
+                    Candidate Posting
+                  </p>
+                  <p className="help-home-page__desktop-candidate-posting-articles">
+                    9 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__desktop-documents-partnerships-dashboard-container">
+                <div className="help-home-page__desktop-documents-container">
+                  <img
+                    className="help-home-page__desktop-documents-icon"
+                    src={DocumentsIcon}
+                    alt="Documents Icon"
+                  />
+                  <p className="help-home-page__desktop-documents-text">
+                    Documents
+                  </p>
+                  <p className="help-home-page__desktop-documents-articles">
+                    4 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-partnerships-container">
+                  <img
+                    className="help-home-page__desktop-partnerships-icon"
+                    src={PartnershipsIcon}
+                    alt="Partnerships Icon"
+                  />
+                  <p className="help-home-page__desktop-partnerships-text">
+                    Partnerships
+                  </p>
+                  <p className="help-home-page__desktop-partnerships-articles">
+                    4 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-dashboard-container">
+                  <img
+                    className="help-home-page__desktop-dashboard-icon"
+                    src={DashboardIcon}
+                    alt="Dashboard Icon"
+                  />
+                  <p className="help-home-page__desktop-dashboard-text">
+                    Dashboard
+                  </p>
+                  <p className="help-home-page__desktop-dashboard-articles">
+                    9 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__desktop-searching-ratings-and-feedback-reports-container">
+                <div className="help-home-page__desktop-searching-container">
+                  <img
+                    className="help-home-page__desktop-searching-icon"
+                    src={SearchingIcon}
+                    alt="Searching Icon"
+                  />
+                  <p className="help-home-page__desktop-searching-text">
+                    Searching
+                  </p>
+                  <p className="help-home-page__desktop-searching-articles">
+                    8 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-ratings-and-feedback-container">
+                  <img
+                    className="help-home-page__desktop-ratings-and-feedback-icon"
+                    src={RatingsAndFeedbackIcon}
+                    alt="Ratings and Feedback Icon"
+                  />
+                  <p className="help-home-page__desktop-ratings-and-feedback-text">
+                    Ratings & Feedback
+                  </p>
+                  <p className="help-home-page__desktop-ratings-and-feedback-articles">
+                    8 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-reports-container">
+                  <img
+                    className="help-home-page__desktop-reports-icon"
+                    src={ReportsIcon}
+                    alt="Reports Icon"
+                  />
+                  <p className="help-home-page__desktop-reports-text">
+                    Reports
+                  </p>
+                  <p className="help-home-page__desktop-reports-articles">
+                    4 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__desktop-membership-policies-and-terms-faq-container">
+                <div className="help-home-page__desktop-membership-container">
+                  <img
+                    className="help-home-page__desktop-membership-icon"
+                    src={MembershipIcon}
+                    alt="Membership Icon"
+                  />
+                  <p className="help-home-page__desktop-membership-text">
+                    Membership
+                  </p>
+                  <p className="help-home-page__desktop-membership-articles">
+                    6 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-policies-and-terms-container">
+                  <img
+                    className="help-home-page__desktop-policies-and-terms-icon"
+                    src={PoliciesAndTermsIcon}
+                    alt="Policies and Terms Icon"
+                  />
+                  <p className="help-home-page__desktop-policies-and-terms-text">
+                    Policies and Terms
+                  </p>
+                  <p className="help-home-page__desktop-policies-and-terms-articles">
+                    6 Articles
+                  </p>
+                </div>
+                <div className="help-home-page__desktop-faq-container">
+                  <img
+                    className="help-home-page__desktop-faq-icon"
+                    src={FAQIcon}
+                    alt="FAQ Icon"
+                  />
+                  <p className="help-home-page__desktop-faq-text">FAQ</p>
+                  <p className="help-home-page__desktop-faq-articles">
+                    6 Articles
+                  </p>
+                </div>
+              </div>
+              <div className="help-home-page__desktop-glossary-container">
+                <img
+                  className="help-home-page__desktop-glossary-icon"
+                  src={GlossaryIcon}
+                  alt="Glossary Icon"
+                />
+                <p className="help-home-page__desktop-glossary-text">
+                  Glossary
+                </p>
+                <p className="help-home-page__desktop-glossary-articles">
+                  6 Articles
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
