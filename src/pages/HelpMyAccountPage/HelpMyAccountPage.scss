@@ -298,6 +298,227 @@
             display: none;
         }
 
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-help-center-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 60px;
+            top: 290px;
+        }
+
+        &__tablet-im-looking-for-input {
+            border: 1px solid $medium-dark-gray;
+            width: 600px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 40px;
+            margin-left: 170px;
+            padding-left: 20px;
+        }
+
+        &__tablet-categories-my-account-container {
+            margin-top: 72px;
+            display: flex;
+        }
+
+        &__tablet-categories-container {
+            margin-left: 60px;
+        }
+
+        &__tablet-categories-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-my-account-option {
+            color: $rust;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-job-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-candidate-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-documents-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-partnerships-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-dashboard-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-searching-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-ratings-and-feedback-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-reports-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-membership-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-policies-and-terms-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-faq-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-glossary-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-my-account-container {
+            border: 2px solid $medium-dark-gray;
+            width: 520px;
+            height: 700px;
+            margin-left: 48px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-my-account-container-header-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-my-account-header {
+            color: $dark-navy;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-account-icon {
+            width: 60px;
+            margin-left: 280px;
+        }
+
+        &__tablet-my-account-options-container {
+            margin-left: 32px;
+            margin-right: 50px;
+            margin-top: 28px;
+        }
+
+        &__tablet-my-account-overview-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__tablet-paper-icon {
+            width: 28px;
+        }
+
+        &__tablet-my-account-overview-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-change-password-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-change-password-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-view-and-edit-profile-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-view-and-edit-profile-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-view-and-edit-agency-information-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 2px;
+            margin-top: 32px;
+            display: flex;
+        }
+
+        &__tablet-view-and-edit-agency-information-text {
+            margin-left: 20px;
+            margin-top: 12px;
+        }
+
+        &__tablet-manage-users-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-manage-users-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-set-permissions-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-set-permissions-text {
+            margin-left: 20px;
+        }
+
     }
 
 }

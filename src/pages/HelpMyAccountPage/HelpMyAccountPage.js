@@ -181,8 +181,137 @@ export default function HelpMyAccountPage() {
             </div>
           </div>
           <div className="help-my-account-page__tablet-container">
-            <p className="help-my-account-page__tablet-help-center-header">Help Center</p>
-            <input className="help-my-account-page__tablet-im-looking-for-input" type="text" />
+            <p className="help-my-account-page__tablet-help-center-header">
+              Help Center
+            </p>
+            <img
+              className="help-my-account-page__tablet-search-icon"
+              src={SearchIcon}
+              alt="Search Icon"
+            />
+            <input
+              className="help-my-account-page__tablet-im-looking-for-input"
+              type="text"
+              placeholder="I'm looking for..."
+            />
+            <div className="help-my-account-page__tablet-categories-my-account-container">
+              <div className="help-my-account-page__tablet-categories-container">
+                <p className="help-my-account-page__tablet-categories-header">
+                  Categories
+                </p>
+                <p className="help-my-account-page__tablet-my-account-option">
+                  My Account
+                </p>
+                <p className="help-my-account-page__tablet-job-posting-option">
+                  Job Posting
+                </p>
+                <p className="help-my-account-page__tablet-candidate-posting-option">
+                  Candidate Posting
+                </p>
+                <p className="help-my-account-page__tablet-documents-option">
+                  Documents
+                </p>
+                <p className="help-my-account-page__tablet-partnerships-option">
+                  Partnerships
+                </p>
+                <p className="help-my-account-page__tablet-dashboard-option">
+                  Dashboard
+                </p>
+                <p className="help-my-account-page__tablet-searching-option">
+                  Searching
+                </p>
+                <p className="help-my-account-page__tablet-ratings-and-feedback-option">
+                  Ratings & Feedback
+                </p>
+                <p className="help-my-account-page__tablet-reports-option">
+                  Reports
+                </p>
+                <p className="help-my-account-page__tablet-membership-option">
+                  Membership
+                </p>
+                <p className="help-my-account-page__tablet-policies-and-terms-option">
+                  Policies & Terms
+                </p>
+                <p className="help-my-account-page__tablet-faq-option">FAQ</p>
+                <p className="help-my-account-page__tablet-glossary-option">
+                  Glossary
+                </p>
+              </div>
+              <div className="help-my-account-page__tablet-my-account-container">
+                <div className="help-my-account-page__tablet-my-account-container-header-container">
+                  <p className="help-my-account-page__tablet-my-account-header">
+                    My Account
+                  </p>
+                  <img
+                    className="help-my-account-page__tablet-my-account-icon"
+                    src={MyAccountIcon}
+                    alt="My Account Icon"
+                  />
+                </div>
+                <div className="help-my-account-page__tablet-my-account-options-container">
+                  <p className="help-my-account-page__tablet-my-account-overview-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-my-account-page__tablet-my-account-overview-text">
+                      My Account Overview
+                    </span>
+                  </p>
+                  <p className="help-my-account-page__tablet-change-password-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-my-account-page__tablet-change-password-text">
+                      Change Password
+                    </span>
+                  </p>
+                  <p className="help-my-account-page__tablet-view-and-edit-profile-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-my-account-page__tablet-view-and-edit-profile-text">
+                      View & Edit Profile
+                    </span>
+                  </p>
+                  <p className="help-my-account-page__tablet-view-and-edit-agency-information-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <p className="help-my-account-page__tablet-view-and-edit-agency-information-text">
+                      View & Edit Agency Information
+                    </p>
+                  </p>
+                  <p className="help-my-account-page__tablet-manage-users-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-my-account-page__tablet-manage-users-text">
+                      Manage Users
+                    </span>
+                  </p>
+                  <p className="help-my-account-page__tablet-set-permissions-option">
+                    <img
+                      className="help-my-account-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-my-account-page__tablet-set-permissions-text">
+                      Set Permissions
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
