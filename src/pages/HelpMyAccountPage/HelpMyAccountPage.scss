@@ -1,0 +1,303 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.help-my-account-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-help-center-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 184px;
+        margin-top: 20px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 272px;
+        right: 64px;
+    }
+
+    &__mobile-im-looking-for-input {
+        border: 1px solid $medium-dark-gray;
+        width: 400px;
+        height: 54px;
+        border-radius: 28px;
+        margin-top: 40px;
+        margin-left: 54px;
+        padding-left: 20px;
+    }
+
+    &__mobile-categories-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-categories-header {
+        margin-left: 194px;
+        color: $dark-navy;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-categories-options-container {
+        margin-left: 90px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-account-ratings-and-feedback-container {
+        display: flex;
+    }
+
+    &__mobile-my-account-option {
+        color: $rust;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-ratings-and-feedback-option {
+        margin-left: 80px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-job-posting-reports-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-job-posting-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-reports-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 84px;
+    }
+
+    &__mobile-candidate-posting-membership-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-candidate-posting-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-membership-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 37px;
+    }
+
+    &__mobile-documents-policies-and-terms-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-documents-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-policies-and-terms-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 88px;
+    }
+
+    &__mobile-partnerships-faq-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-partnerships-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-faq-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 81px;
+    }
+
+    &__mobile-dashboard-glossary-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-dashboard-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-glossary-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 92px;
+    }
+
+    &__mobile-searching-container {
+        margin-top: 16px;
+    }
+
+    &__mobile-searching-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-my-account-container {
+        border: 2px solid $medium-dark-gray;
+        margin-left: 36px;
+        height: 740px;
+        margin-top: 72px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        width: 430px;
+    }
+
+    &__mobile-my-account-header-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-my-account-header {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 18px;
+    }
+
+    &__mobile-my-account-icon {
+        width: 54px;
+        margin-left: 200px;
+    }
+
+    &__mobile-my-account-overview-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-paper-icon {
+        width: 28px;
+    }
+
+    &__mobile-my-account-overview-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-change-password-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-change-password-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-view-and-edit-profile-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-view-and-edit-profile-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-view-and-edit-agency-information-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-view-and-edit-agency-information-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-manage-users-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-manage-users-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-set-permissions-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-set-permissions-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-notification-settings-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-notification-settings-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-vacation-mode-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-vacation-mode-text {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+
+}
+
+@include tablet {
+
+    .help-my-account-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+    }
+
+}
