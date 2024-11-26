@@ -68,7 +68,9 @@ export default function HelpCandidatePostingPage() {
                   <p className="help-candidate-posting-page__mobile-partnerships-option">
                     Partnerships
                   </p>
-                  <p className="help-candidate-posting-page__mobile-faq-option">FAQ</p>
+                  <p className="help-candidate-posting-page__mobile-faq-option">
+                    FAQ
+                  </p>
                 </div>
                 <div className="help-candidate-posting-page__mobile-dashboard-glossary-container">
                   <p className="help-candidate-posting-page__mobile-dashboard-option">
@@ -104,229 +106,251 @@ export default function HelpCandidatePostingPage() {
                     alt="Paper Icon"
                   />
                   <span className="help-candidate-posting-page__mobile-my-candidates-overview-text">
-                   My Candidates Overview
+                    My Candidates Overview
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-change-password-option">
+                <p className="help-candidate-posting-page__mobile-post-a-candidate-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-change-password-text">
-                    Change Password
+                  <span className="help-candidate-posting-page__mobile-post-a-candidate-text">
+                    Post a Candidate
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-view-and-edit-profile-option">
+                <p className="help-candidate-posting-page__mobile-save-and-view-drafts-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-view-and-edit-profile-text">
-                    View & Edit Profile
+                  <span className="help-candidate-posting-page__mobile-save-and-view-drafts-text">
+                    Save and View Drafts
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-view-and-edit-agency-information-option">
+                <p className="help-candidate-posting-page__mobile-edit-candidate-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-view-and-edit-agency-information-text">
-                    View & Edit Agency Information
+                  <span className="help-candidate-posting-page__mobile-edit-candidate-text">
+                    Edit Candidate
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-manage-users-option">
+                <p className="help-candidate-posting-page__mobile-archive-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-manage-users-text">
-                    Manage Users
+                  <span className="help-candidate-posting-page__mobile-archive-text">
+                    Archive
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-set-permissions-option">
+                <p className="help-candidate-posting-page__mobile-batch-upload-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-set-permissions-text">
-                    Set Permissions
+                  <span className="help-candidate-posting-page__mobile-batch-upload-text">
+                    Batch Upload
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-notification-settings-option">
+                <p className="help-candidate-posting-page__mobile-candidate-activity-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-notification-settings-text">
-                    Notification Settings
+                  <span className="help-candidate-posting-page__mobile-candidate-activity-text">
+                    Candidate Activity
                   </span>
                 </p>
-                <p className="help-my-account-page__mobile-vacation-mode-option">
+                <p className="help-candidate-posting-page__mobile-hot-candidates-option">
                   <img
-                    className="help-my-account-page__mobile-paper-icon"
+                    className="help-candidate-posting-page__mobile-paper-icon"
                     src={PaperIcon}
                     alt="Paper Icon"
                   />
-                  <span className="help-my-account-page__mobile-vacation-mode-text">
-                    Vacation Mode
+                  <span className="help-candidate-posting-page__mobile-hot-candidates-text">
+                    Hot Candidates
+                  </span>
+                </p>
+                <p className="help-candidate-posting-page__mobile-run-report-option">
+                  <img
+                    className="help-candidate-posting-page__mobile-paper-icon"
+                    src={PaperIcon}
+                    alt="Paper Icon"
+                  />
+                  <span className="help-candidate-posting-page__mobile-run-report-text">
+                    Run Report
                   </span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="help-my-account-page__tablet-container">
-            <p className="help-my-account-page__tablet-help-center-header">
+          <div className="help-candidate-posting-page__tablet-container">
+            <p className="help-candidate-posting-page__tablet-help-center-header">
               Help Center
             </p>
             <img
-              className="help-my-account-page__tablet-search-icon"
+              className="help-candidate-posting-page__tablet-search-icon"
               src={SearchIcon}
               alt="Search Icon"
             />
             <input
-              className="help-my-account-page__tablet-im-looking-for-input"
+              className="help-candidate-posting-page__tablet-im-looking-for-input"
               type="text"
               placeholder="I'm looking for..."
             />
-            <div className="help-my-account-page__tablet-categories-my-account-container">
-              <div className="help-my-account-page__tablet-categories-container">
-                <p className="help-my-account-page__tablet-categories-header">
+            <div className="help-candidate-posting-page__tablet-categories-my-account-container">
+              <div className="help-candidate-posting-page__tablet-categories-container">
+                <p className="help-candidate-posting-page__tablet-categories-header">
                   Categories
                 </p>
-                <p className="help-my-account-page__tablet-my-account-option">
+                <p className="help-candidate-posting-page__tablet-my-account-option">
                   My Account
                 </p>
-                <p className="help-my-account-page__tablet-job-posting-option">
+                <p className="help-candidate-posting-page__tablet-job-posting-option">
                   Job Posting
                 </p>
-                <p className="help-my-account-page__tablet-candidate-posting-option">
+                <p className="help-candidate-posting-page__tablet-candidate-posting-option">
                   Candidate Posting
                 </p>
-                <p className="help-my-account-page__tablet-documents-option">
+                <p className="help-candidate-posting-page__tablet-documents-option">
                   Documents
                 </p>
-                <p className="help-my-account-page__tablet-partnerships-option">
+                <p className="help-candidate-posting-page__tablet-partnerships-option">
                   Partnerships
                 </p>
-                <p className="help-my-account-page__tablet-dashboard-option">
+                <p className="help-candidate-posting-page__tablet-dashboard-option">
                   Dashboard
                 </p>
-                <p className="help-my-account-page__tablet-searching-option">
+                <p className="help-candidate-posting-page__tablet-searching-option">
                   Searching
                 </p>
-                <p className="help-my-account-page__tablet-ratings-and-feedback-option">
+                <p className="help-candidate-posting-page__tablet-ratings-and-feedback-option">
                   Ratings & Feedback
                 </p>
-                <p className="help-my-account-page__tablet-reports-option">
+                <p className="help-candidate-posting-page__tablet-reports-option">
                   Reports
                 </p>
-                <p className="help-my-account-page__tablet-membership-option">
+                <p className="help-candidate-posting-page__tablet-membership-option">
                   Membership
                 </p>
-                <p className="help-my-account-page__tablet-policies-and-terms-option">
+                <p className="help-candidate-posting-page__tablet-policies-and-terms-option">
                   Policies & Terms
                 </p>
-                <p className="help-my-account-page__tablet-faq-option">FAQ</p>
-                <p className="help-my-account-page__tablet-glossary-option">
+                <p className="help-candidate-posting-page__tablet-faq-option">
+                  FAQ
+                </p>
+                <p className="help-candidate-posting-page__tablet-glossary-option">
                   Glossary
                 </p>
               </div>
-              <div className="help-my-account-page__tablet-my-account-container">
-                <div className="help-my-account-page__tablet-my-account-container-header-container">
-                  <p className="help-my-account-page__tablet-my-account-header">
-                    My Account
+              <div className="help-candidate-posting-page__tablet-candidate-posting-container">
+                <div className="help-candidate-posting-page__tablet-candidate-posting-container-header-container">
+                  <p className="help-candidate-posting-page__tablet-candidate-posting-header">
+                    Candidate Posting
                   </p>
-                  {/* <img
-                    className="help-my-account-page__tablet-my-account-icon"
-                    src={MyAccountIcon}
-                    alt="My Account Icon"
-                  /> */}
+                  <img
+                    className="help-candidate-posting-page__tablet-candidate-posting-icon"
+                    src={CandidatePostingIcon}
+                    alt="Candidate Posting"
+                  />
                 </div>
-                <div className="help-my-account-page__tablet-my-account-options-container">
-                  <p className="help-my-account-page__tablet-my-account-overview-option">
+                <div className="help-candidate-posting-page__tablet-candidate-posting-options-container">
+                  <p className="help-candidate-posting-page__tablet-my-candidates-overview-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-my-account-overview-text">
-                      My Account Overview
+                    <span className="help-candidate-posting-page__tablet-my-candidates-overview-text">
+                      My Candidates Overview
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-change-password-option">
+                  <p className="help-candidate-posting-page__tablet-post-a-candidate-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-change-password-text">
-                      Change Password
+                    <span className="help-candidate-posting-page__tablet-post-a-candidate-text">
+                      Post a Candidate
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-view-and-edit-profile-option">
+                  <p className="help-candidate-posting-page__tablet-save-and-view-drafts-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-view-and-edit-profile-text">
-                      View & Edit Profile
+                    <span className="help-candidate-posting-page__tablet-save-and-view-drafts-text">
+                      Save and View Drafts
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-view-and-edit-agency-information-option">
+                  <p className="help-candidate-posting-page__tablet-edit-candidate-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <p className="help-my-account-page__tablet-view-and-edit-agency-information-text">
-                      View & Edit Agency Information
+                    <p className="help-candidate-posting-page__tablet-edit-candidate-text">
+                      Edit Candidate
                     </p>
                   </p>
-                  <p className="help-my-account-page__tablet-manage-users-option">
+                  <p className="help-candidate-posting-page__tablet-archive-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-manage-users-text">
-                      Manage Users
+                    <span className="help-candidate-posting-page__tablet-archive-text">
+                      Archive
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-set-permissions-option">
+                  <p className="help-candidate-posting-page__tablet-batch-upload-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-set-permissions-text">
-                      Set Permissions
+                    <span className="help-candidate-posting-page__tablet-batch-upload-text">
+                      Batch Upload
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-notification-settings-option">
+                  <p className="help-candidate-posting-page__tablet-candidate-activity-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-notification-settings-text">
-                      Notification Settings
+                    <span className="help-candidate-posting-page__tablet-candidate-activity-text">
+                      Candidate Activity
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-vacation-mode-option">
+                  <p className="help-candidate-posting-page__tablet-hot-candidates-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-candidate-posting-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-vacation-mode-text">
-                      Vacation Mode
+                    <span className="help-candidate-posting-page__tablet-hot-candidates-text">
+                      Hot Candidates
+                    </span>
+                  </p>
+                  <p className="help-candidate-posting-page__tablet-run-report-option">
+                    <img
+                      className="help-candidate-posting-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-candidate-posting-page__tablet-run-report-text">
+                      Run Report
                     </span>
                   </p>
                 </div>

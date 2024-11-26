@@ -158,7 +158,7 @@
     &__mobile-candidate-posting-container {
         border: 2px solid $medium-dark-gray;
         margin-left: 36px;
-        height: 740px;
+        height: 810px;
         margin-top: 72px;
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
@@ -199,7 +199,7 @@
         margin-left: 10px;
     }
 
-    &__mobile-change-password-option {
+    &__mobile-post-a-candidate-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -207,11 +207,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-change-password-text {
+    &__mobile-post-a-candidate-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-profile-option {
+    &__mobile-save-and-view-drafts-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -219,11 +219,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-profile-text {
+    &__mobile-save-and-view-drafts-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-agency-information-option {
+    &__mobile-edit-candidate-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -231,11 +231,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-agency-information-text {
+    &__mobile-edit-candidate-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-users-option {
+    &__mobile-archive-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -243,11 +243,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-users-text {
+    &__mobile-archive-text {
         margin-left: 10px;
     }
 
-    &__mobile-set-permissions-option {
+    &__mobile-batch-upload-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -255,11 +255,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-set-permissions-text {
+    &__mobile-batch-upload-text {
         margin-left: 10px;
     }
 
-    &__mobile-notification-settings-option {
+    &__mobile-candidate-activity-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -267,11 +267,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-notification-settings-text {
+    &__mobile-candidate-activity-text {
         margin-left: 10px;
     }
 
-    &__mobile-vacation-mode-option {
+    &__mobile-hot-candidates-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -279,7 +279,19 @@
         margin-right: 32px;
     }
 
-    &__mobile-vacation-mode-text {
+    &__mobile-hot-candidates-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-run-report-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-run-report-text {
         margin-left: 10px;
     }
 
@@ -295,7 +307,7 @@
 
 @include tablet {
 
-    .help-my-account-page {
+    .help-candidate-posting-page {
 
         &__mobile-container {
             display: none;
@@ -346,8 +358,7 @@
         }
 
         &__tablet-my-account-option {
-            color: $rust;
-            text-decoration: underline;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 24px;
         }
@@ -359,9 +370,10 @@
         }
 
         &__tablet-candidate-posting-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
+            text-decoration: underline;
         }
 
         &__tablet-documents-option {
@@ -424,121 +436,131 @@
             margin-top: 24px;
         }
 
-        &__tablet-my-account-container {
+        &__tablet-candidate-posting-container {
             border: 2px solid $medium-dark-gray;
             width: 520px;
-            height: 770px;
+            height: 840px;
             margin-left: 48px;
             border-bottom-left-radius: 28px;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
         }
 
-        &__tablet-my-account-container-header-container {
+        &__tablet-candidate-posting-container-header-container {
             display: flex;
             margin-left: 32px;
             margin-top: 32px;
         }
 
-        &__tablet-my-account-header {
+        &__tablet-candidate-posting-header {
             color: $dark-navy;
             font-size: 18px;
             font-weight: 500;
         }
 
-        &__tablet-my-account-icon {
+        &__tablet-candidate-posting-icon {
             width: 60px;
-            margin-left: 280px;
+            margin-left: 220px;
         }
 
-        &__tablet-my-account-options-container {
+        &__tablet-candidate-posting-options-container {
             margin-left: 32px;
             margin-right: 50px;
             margin-top: 28px;
         }
 
-        &__tablet-my-account-overview-option {
+        &__tablet-my-candidates-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
+        }
+
+        &__tablet-my-candidates-overview-text {
+            margin-left: 20px;
         }
 
         &__tablet-paper-icon {
             width: 28px;
         }
 
-        &__tablet-my-account-overview-text {
-            margin-left: 20px;
-        }
-
-        &__tablet-change-password-option {
+        &__tablet-post-a-candidate-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-change-password-text {
+        &__tablet-post-a-candidate-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-profile-option {
+        &__tablet-save-and-view-drafts-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-view-and-edit-profile-text {
+        &__tablet-save-and-view-drafts-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-agency-information-option {
+        &__tablet-edit-candidate-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 2px;
             margin-top: 32px;
             display: flex;
         }
 
-        &__tablet-view-and-edit-agency-information-text {
+        &__tablet-edit-candidate-text {
             margin-left: 20px;
             margin-top: 12px;
         }
 
-        &__tablet-manage-users-option {
+        &__tablet-archive-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-users-text {
+        &__tablet-archive-text {
             margin-left: 20px;
         }
 
-        &__tablet-set-permissions-option {
+        &__tablet-batch-upload-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-set-permissions-text {
+        &__tablet-batch-upload-text {
             margin-left: 20px;
         }
 
-        &__tablet-notification-settings-option {
+        &__tablet-candidate-activity-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-notification-settings-text {
+        &__tablet-candidate-activity-text {
             margin-left: 20px;
         }
 
-        &__tablet-vacation-mode-option {
+        &__tablet-hot-candidates-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-vacation-mode-text {
+        &__tablet-hot-candidates-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-run-report-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-run-report-text {
             margin-left: 20px;
         }
 
