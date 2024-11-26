@@ -1,0 +1,814 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.help-candidate-posting-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-help-center-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 184px;
+        margin-top: 20px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 272px;
+        right: 64px;
+    }
+
+    &__mobile-im-looking-for-input {
+        border: 1px solid $medium-dark-gray;
+        width: 400px;
+        height: 54px;
+        border-radius: 28px;
+        margin-top: 40px;
+        margin-left: 54px;
+        padding-left: 20px;
+    }
+
+    &__mobile-categories-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-categories-header {
+        margin-left: 194px;
+        color: $dark-navy;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-categories-options-container {
+        margin-left: 90px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-account-ratings-and-feedback-container {
+        display: flex;
+    }
+
+    &__mobile-my-account-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-ratings-and-feedback-option {
+        margin-left: 80px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-job-posting-reports-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-job-posting-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-reports-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 84px;
+    }
+
+    &__mobile-candidate-posting-membership-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-candidate-posting-option {
+        color: $rust;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-membership-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 37px;
+    }
+
+    &__mobile-documents-policies-and-terms-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-documents-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-policies-and-terms-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 88px;
+    }
+
+    &__mobile-partnerships-faq-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-partnerships-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-faq-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 81px;
+    }
+
+    &__mobile-dashboard-glossary-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-dashboard-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-glossary-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 92px;
+    }
+
+    &__mobile-searching-container {
+        margin-top: 16px;
+    }
+
+    &__mobile-searching-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-candidate-posting-container {
+        border: 2px solid $medium-dark-gray;
+        margin-left: 36px;
+        height: 740px;
+        margin-top: 72px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        width: 430px;
+    }
+
+    &__mobile-candidate-posting-header-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-candidate-posting-header {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 18px;
+    }
+
+    &__mobile-candidate-posting-icon {
+        width: 54px;
+        margin-left: 160px;
+    }
+
+    &__mobile-candidates-overview-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-paper-icon {
+        width: 28px;
+    }
+
+    &__mobile-my-candidates-overview-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-change-password-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-change-password-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-view-and-edit-profile-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-view-and-edit-profile-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-view-and-edit-agency-information-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-view-and-edit-agency-information-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-manage-users-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-manage-users-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-set-permissions-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-set-permissions-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-notification-settings-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-notification-settings-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-vacation-mode-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-vacation-mode-text {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .help-my-account-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-help-center-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 60px;
+            top: 290px;
+        }
+
+        &__tablet-im-looking-for-input {
+            border: 1px solid $medium-dark-gray;
+            width: 600px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 40px;
+            margin-left: 170px;
+            padding-left: 20px;
+        }
+
+        &__tablet-categories-my-account-container {
+            margin-top: 72px;
+            display: flex;
+        }
+
+        &__tablet-categories-container {
+            margin-left: 60px;
+        }
+
+        &__tablet-categories-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-my-account-option {
+            color: $rust;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-job-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-candidate-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-documents-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-partnerships-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-dashboard-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-searching-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-ratings-and-feedback-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-reports-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-membership-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-policies-and-terms-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-faq-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-glossary-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-my-account-container {
+            border: 2px solid $medium-dark-gray;
+            width: 520px;
+            height: 770px;
+            margin-left: 48px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-my-account-container-header-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-my-account-header {
+            color: $dark-navy;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-account-icon {
+            width: 60px;
+            margin-left: 280px;
+        }
+
+        &__tablet-my-account-options-container {
+            margin-left: 32px;
+            margin-right: 50px;
+            margin-top: 28px;
+        }
+
+        &__tablet-my-account-overview-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__tablet-paper-icon {
+            width: 28px;
+        }
+
+        &__tablet-my-account-overview-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-change-password-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-change-password-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-view-and-edit-profile-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-view-and-edit-profile-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-view-and-edit-agency-information-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 2px;
+            margin-top: 32px;
+            display: flex;
+        }
+
+        &__tablet-view-and-edit-agency-information-text {
+            margin-left: 20px;
+            margin-top: 12px;
+        }
+
+        &__tablet-manage-users-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-manage-users-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-set-permissions-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-set-permissions-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-notification-settings-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-notification-settings-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-vacation-mode-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-vacation-mode-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .help-my-account-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-help-center-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            margin-left: 80px;
+            margin-top: 32px;
+            font-size: 36px;
+        }
+
+        &__desktop-central-container {
+            margin-top: 100px;
+            display: flex;
+        }
+
+        &__desktop-left-container {
+            margin-left: 80px;
+            position: relative;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 56px;
+            right: 88px;
+        }
+
+        &__desktop-im-looking-for-input {
+            border: 1px solid $medium-dark-gray;
+            width: 500px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 40px;
+            padding-left: 20px;
+        }
+
+        &__desktop-categories-container {
+            margin-left: 400px;
+            margin-top: 32px;
+        }
+
+        &__desktop-categories-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        &__desktop-my-account-option {
+            color: $rust;
+            font-weight: 500;
+            margin-top: 32px;
+            font-size: 18px;
+        }
+
+        &__desktop-job-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-candidate-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-documents-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-partnerships-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-dashboard-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-searching-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-ratings-and-feedback-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-reports-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-membership-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-policies-and-terms-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-faq-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-my-account-container {
+            border: 2px solid $medium-dark-gray;
+            width: 800px;
+            height: 750px;
+            margin-left: 140px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-top: 50px;
+        }
+
+        &__desktop-my-account-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__desktop-my-account-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__desktop-my-account-icon {
+            width: 80px;
+            margin-left: 520px;
+        }
+
+        &__desktop-my-account-options-container {
+            margin-left: 32px;
+            margin-right: 48px;
+            margin-top: 48px;
+        }
+
+        &__desktop-my-account-overview-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-my-account-overview-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-paper-icon {
+            width: 32px;
+        }
+
+        &__desktop-change-password-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-change-password-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-change-password-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-view-and-edit-profile-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-view-and-edit-profile-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-view-and-edit-agency-information-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-view-and-edit-agency-information-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-manage-users-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-manage-users-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-set-permissions-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-set-permissions-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-notification-settings-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-notification-settings-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-vacation-mode-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-vacation-mode-text {
+            margin-left: 20px;
+        }
+
+    }
+
+}

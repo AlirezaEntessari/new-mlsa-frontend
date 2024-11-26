@@ -58,6 +58,8 @@ import PartnershipsViewActivityPage from './pages/PartnershipsViewActivityPage/P
 import PartnershipsTerminateAgreementPage from './pages/PartnershipsTerminateAgreementPage/PartnershipsTerminateAgreementPage';
 import HelpHomePage from './pages/HelpHomePage/HelpHomePage';
 import HelpMyAccountPage from './pages/HelpMyAccountPage/HelpMyAccountPage';
+import HelpJobPostingPage from './pages/HelpJobPostingPage/HelpJobPostingPage';
+import HelpCandidatePostingPage from './pages/HelpCandidatePostingPage/HelpCandidatePostingPage';
 
 function App() {
   return (
@@ -122,6 +124,8 @@ function App() {
         <Route path="/partnerships-terminate-agreement-page" element={<PartnershipsTerminateAgreementPage />} />
         <Route path="/help-home-page" element={<HelpHomePage />} />
         <Route path="/help-my-account-page" element={<HelpMyAccountPage />} />
+        <Route path="/help-job-posting-page" element={<HelpJobPostingPage />} />
+        <Route path="/help-candidate-posting-page" element={<HelpCandidatePostingPage />} />
       </Routes>
       </BrowserRouter>
     </div>
