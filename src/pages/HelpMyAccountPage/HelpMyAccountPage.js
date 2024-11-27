@@ -388,6 +388,7 @@ export default function HelpMyAccountPage() {
                   <p className="help-my-account-page__desktop-faq-option">
                     FAQ
                   </p>
+                  <p className="help-my-account-page__desktop-glossary-option">Glossary</p>
                 </div>
               </div>
               <div className="help-my-account-page__desktop-right-container">

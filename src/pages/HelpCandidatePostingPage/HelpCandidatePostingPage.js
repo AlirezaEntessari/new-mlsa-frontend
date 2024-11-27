@@ -357,154 +357,164 @@ export default function HelpCandidatePostingPage() {
               </div>
             </div>
           </div>
-          <div className="help-my-account-page__desktop-container">
-            <p className="help-my-account-page__desktop-help-center-header">
+          <div className="help-candidate-posting-page__desktop-container">
+            <p className="help-candidate-posting-page__desktop-help-center-header">
               Help Center
             </p>
-            <div className="help-my-account-page__desktop-central-container">
-              <div className="help-my-account-page__desktop-left-container">
+            <div className="help-candidate-posting-page__desktop-central-container">
+              <div className="help-candidate-posting-page__desktop-left-container">
                 <img
-                  className="help-my-account-page__desktop-search-icon"
+                  className="help-candidate-posting-page__desktop-search-icon"
                   src={SearchIcon}
                   alt="Search Icon"
                 />
                 <input
-                  className="help-my-account-page__desktop-im-looking-for-input"
+                  className="help-candidate-posting-page__desktop-im-looking-for-input"
                   type="text"
                 />
-                <div className="help-my-account-page__desktop-categories-container">
-                  <p className="help-my-account-page__desktop-categories-header">
+                <div className="help-candidate-posting-page__desktop-categories-container">
+                  <p className="help-candidate-posting-page__desktop-categories-header">
                     Categories
                   </p>
-                  <p className="help-my-account-page__desktop-my-account-option">
+                  <p className="help-candidate-posting-page__desktop-my-account-option">
                     My Account
                   </p>
-                  <p className="help-my-account-page__desktop-job-posting-option">
+                  <p className="help-candidate-posting-page__desktop-job-posting-option">
                     Job Posting
                   </p>
-                  <p className="help-my-account-page__desktop-candidate-posting-option">
+                  <p className="help-candidate-posting-page__desktop-candidate-posting-option">
                     Candidate Posting
                   </p>
-                  <p className="help-my-account-page__desktop-documents-option">
+                  <p className="help-candidate-posting-page__desktop-documents-option">
                     Documents
                   </p>
-                  <p className="help-my-account-page__desktop-partnerships-option">
+                  <p className="help-candidate-posting-page__desktop-partnerships-option">
                     Partnerships
                   </p>
-                  <p className="help-my-account-page__desktop-dashboard-option">
+                  <p className="help-candidate-posting-page__desktop-dashboard-option">
                     Dashboard
                   </p>
-                  <p className="help-my-account-page__desktop-searching-option">
+                  <p className="help-candidate-posting-page__desktop-searching-option">
                     Searching
                   </p>
-                  <p className="help-my-account-page__desktop-ratings-and-feedback-option">
+                  <p className="help-candidate-posting-page__desktop-ratings-and-feedback-option">
                     Ratings & Feedback
                   </p>
-                  <p className="help-my-account-page__desktop-reports-option">
+                  <p className="help-candidate-posting-page__desktop-reports-option">
                     Reports
                   </p>
-                  <p className="help-my-account-page__desktop-membership-option">
+                  <p className="help-candidate-posting-page__desktop-membership-option">
                     Membership
                   </p>
-                  <p className="help-my-account-page__desktop-policies-and-terms-option">
+                  <p className="help-candidate-posting-page__desktop-policies-and-terms-option">
                     Policies & Terms
                   </p>
-                  <p className="help-my-account-page__desktop-faq-option">
+                  <p className="help-candidate-posting-page__desktop-faq-option">
                     FAQ
                   </p>
                 </div>
               </div>
-              <div className="help-my-account-page__desktop-right-container">
-                <div className="help-my-account-page__desktop-my-account-container">
-                  <div className="help-my-account-page__desktop-my-account-header-container">
-                    <p className="help-my-account-page__desktop-my-account-header">
-                      My Account
+              <div className="help-candidate-posting-page__desktop-right-container">
+                <div className="help-candidate-posting-page__desktop-candidate-posting-container">
+                  <div className="help-candidate-posting-page__desktop-candidate-posting-header-container">
+                    <p className="help-candidate-posting-page__desktop-candidate-posting-header">
+                      Candidate Posting
                     </p>
-                    {/* <img
-                      className="help-my-account-page__desktop-my-account-icon"
-                      src={MyAccountIcon}
+                    <img
+                      className="help-candidate-posting-page__desktop-candidate-posting-icon"
+                      src={CandidatePostingIcon}
                       alt="My Account Icon"
-                    /> */}
+                    />
                   </div>
-                  <div className="help-my-account-page__desktop-my-account-options-container">
-                    <p className="help-my-account-page__desktop-my-account-overview-option">
+                  <div className="help-candidate-posting-page__desktop-candidate-posting-options-container">
+                    <p className="help-candidate-posting-page__desktop-my-candidates-overview-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-my-account-overview-text">
-                        My Account Overview
+                      <span className="help-candidate-posting-page__desktop-my-candidates-overview-text">
+                        My Candidates Overview
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-change-password-option">
+                    <p className="help-candidate-posting-page__desktop-post-a-candidate-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-change-password-text">
-                        Change Password
+                      <span className="help-candidate-posting-page__desktop-post-a-candidate-text">
+                        Post a Candidate
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-profile-option">
+                    <p className="help-candidate-posting-page__desktop-save-and-view-drafts-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-profile-text">
-                        View and Edit Profile
+                      <span className="help-candidate-posting-page__desktop-save-and-view-drafts-text">
+                        Save and View Drafts
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-agency-information-option">
+                    <p className="help-candidate-posting-page__desktop-edit-candidate-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-agency-information-text">
-                        View and Edit Agency Information
+                      <span className="help-candidate-posting-page__desktop-edit-candidate-text">
+                        Edit Candidate
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-manage-users-option">
+                    <p className="help-candidate-posting-page__desktop-archive-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-manage-users-text">
-                        Manage Users
+                      <span className="help-candidate-posting-page__desktop-archive-text">
+                        Archive
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-set-permissions-option">
+                    <p className="help-candidate-posting-page__desktop-batch-upload-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-set-permissions-text">
-                        Set Permissions
+                      <span className="help-candidate-posting-page__desktop-batch-upload-text">
+                        Batch Upload
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-notification-settings-option">
+                    <p className="help-candidate-posting-page__desktop-candidate-activity-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-notification-settings-text">
-                        Notification Settings
+                      <span className="help-candidate-posting-page__desktop-candidate-activity-text">
+                        Candidate Activity
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-vacation-mode-option">
+                    <p className="help-candidate-posting-page__desktop-hot-candidates-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-candidate-posting-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-vacation-mode-text">
-                        Vacation Mode
+                      <span className="help-candidate-posting-page__desktop-hot-candidates-text">
+                        Hot Candidates
+                      </span>
+                    </p>
+                    <p className="help-candidate-posting-page__desktop-run-report-option">
+                      <img
+                        className="help-candidate-posting-page__desktop-paper-icon"
+                        src={PaperIcon}
+                        alt="Paper Icon"
+                      />
+                      <span className="help-candidate-posting-page__desktop-run-report-text">
+                        Run Report
                       </span>
                     </p>
                   </div>
