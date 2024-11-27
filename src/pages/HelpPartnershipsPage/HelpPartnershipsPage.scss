@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.help-my-account-page {
+.help-partnerships-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -55,9 +55,8 @@
     }
 
     &__mobile-my-account-option {
-        color: $rust;
+        color: $dark-navy;
         font-weight: 500;
-        text-decoration: underline;
     }
 
     &__mobile-ratings-and-feedback-option {
@@ -120,8 +119,9 @@
     }
 
     &__mobile-partnerships-option {
-        color: $dark-navy;
+        color: $rust;
         font-weight: 500;
+        text-decoration: underline;
     }
 
     &__mobile-faq-option {
@@ -155,10 +155,10 @@
         font-weight: 500;
     }
 
-    &__mobile-my-account-container {
+    &__mobile-partnerships-container{
         border: 2px solid $medium-dark-gray;
         margin-left: 36px;
-        height: 740px;
+        height: 460px;
         margin-top: 72px;
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
@@ -166,24 +166,24 @@
         width: 430px;
     }
 
-    &__mobile-my-account-header-container {
+    &__mobile-partnerships-header-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
     }
 
-    &__mobile-my-account-header {
+    &__mobile-partnerships-header {
         font-weight: 500;
         color: $dark-gray;
         font-size: 18px;
     }
 
-    &__mobile-my-account-icon {
+    &__mobile-partnerships-icon {
         width: 54px;
         margin-left: 200px;
     }
 
-    &__mobile-my-account-overview-option {
+    &__mobile-partnership-overview-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -195,11 +195,11 @@
         width: 28px;
     }
 
-    &__mobile-my-account-overview-text {
+    &__mobile-partnership-overview-text {
         margin-left: 10px;
     }
 
-    &__mobile-change-password-option {
+    &__mobile-partnering-with-agencies-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -207,11 +207,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-change-password-text {
+    &__mobile-partnering-with-agencies-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-profile-option {
+    &__mobile-search-agencies-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -219,11 +219,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-profile-text {
+    &__mobile-search-agencies-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-agency-information-option {
+    &__mobile-refer-an-agency-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -231,55 +231,7 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-agency-information-text {
-        margin-left: 10px;
-    }
-
-    &__mobile-manage-users-option {
-        border-bottom: 1px solid $medium-gray;
-        padding-bottom: 10px;
-        margin-left: 32px;
-        margin-top: 32px;
-        margin-right: 32px;
-    }
-
-    &__mobile-manage-users-text {
-        margin-left: 10px;
-    }
-
-    &__mobile-set-permissions-option {
-        border-bottom: 1px solid $medium-gray;
-        padding-bottom: 10px;
-        margin-left: 32px;
-        margin-top: 32px;
-        margin-right: 32px;
-    }
-
-    &__mobile-set-permissions-text {
-        margin-left: 10px;
-    }
-
-    &__mobile-notification-settings-option {
-        border-bottom: 1px solid $medium-gray;
-        padding-bottom: 10px;
-        margin-left: 32px;
-        margin-top: 32px;
-        margin-right: 32px;
-    }
-
-    &__mobile-notification-settings-text {
-        margin-left: 10px;
-    }
-
-    &__mobile-vacation-mode-option {
-        border-bottom: 1px solid $medium-gray;
-        padding-bottom: 10px;
-        margin-left: 32px;
-        margin-top: 32px;
-        margin-right: 32px;
-    }
-
-    &__mobile-vacation-mode-text {
+    &__mobile-refer-an-agency-text {
         margin-left: 10px;
     }
 
@@ -295,7 +247,7 @@
 
 @include tablet {
 
-    .help-my-account-page {
+    .help-partnerships-page {
 
         &__mobile-container {
             display: none;
@@ -346,8 +298,7 @@
         }
 
         &__tablet-my-account-option {
-            color: $rust;
-            text-decoration: underline;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 24px;
         }
@@ -371,9 +322,10 @@
         }
 
         &__tablet-partnerships-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
+            text-decoration: underline;
         }
 
         &__tablet-dashboard-option {
@@ -424,7 +376,7 @@
             margin-top: 24px;
         }
 
-        &__tablet-my-account-container {
+        &__tablet-partnerships-container {
             border: 2px solid $medium-dark-gray;
             width: 520px;
             height: 770px;
@@ -434,30 +386,30 @@
             border-bottom-right-radius: 28px;
         }
 
-        &__tablet-my-account-container-header-container {
+        &__tablet-partnerships-container-header-container {
             display: flex;
             margin-left: 32px;
             margin-top: 32px;
         }
 
-        &__tablet-my-account-header {
+        &__tablet-partnerships-header {
             color: $dark-navy;
             font-size: 18px;
             font-weight: 500;
         }
 
-        &__tablet-my-account-icon {
+        &__tablet-partnerships-icon {
             width: 60px;
             margin-left: 280px;
         }
 
-        &__tablet-my-account-options-container {
+        &__tablet-partnerships-options-container {
             margin-left: 32px;
             margin-right: 50px;
             margin-top: 28px;
         }
 
-        &__tablet-my-account-overview-option {
+        &__tablet-partnership-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
@@ -466,37 +418,37 @@
             width: 28px;
         }
 
-        &__tablet-my-account-overview-text {
+        &__tablet-partnership-overview-text {
             margin-left: 20px;
         }
 
-        &__tablet-change-password-option {
+        &__tablet-partnering-with-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-change-password-text {
+        &__tablet-partnering-with-agencies-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-profile-option {
+        &__tablet-search-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-view-and-edit-profile-text {
+        &__tablet-search-agencies-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-agency-information-option {
+        &__tablet-refer-an-agency-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-view-and-edit-agency-information-text {
+        &__tablet-refer-an-agency-text {
             margin-left: 20px;
         }
 
@@ -550,7 +502,7 @@
 
 @include desktop {
 
-    .help-my-account-page {
+    .help-partnerships-page {
 
         &__mobile-container {
             display: none;
@@ -610,7 +562,7 @@
         }
 
         &__desktop-my-account-option {
-            color: $rust;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 32px;
             font-size: 18px;
@@ -638,7 +590,7 @@
         }
 
         &__desktop-partnerships-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
             font-size: 18px;
@@ -700,7 +652,7 @@
             font-size: 18px;
         }
 
-        &__desktop-my-account-container {
+        &__desktop-partnerships-container {
             border: 2px solid $medium-dark-gray;
             width: 800px;
             height: 780px;
@@ -711,35 +663,35 @@
             margin-top: 50px;
         }
 
-        &__desktop-my-account-header-container {
+        &__desktop-partnerships-header-container {
             display: flex;
             margin-top: 32px;
             margin-left: 32px;
         }
 
-        &__desktop-my-account-header {
+        &__desktop-partnerships-header {
             color: $dark-navy;
             font-weight: 500;
             font-size: 20px;
         }
 
-        &__desktop-my-account-icon {
+        &__desktop-partnerships-icon {
             width: 80px;
             margin-left: 520px;
         }
 
-        &__desktop-my-account-options-container {
+        &__desktop-partnerships-options-container {
             margin-left: 32px;
             margin-right: 48px;
             margin-top: 48px;
         }
 
-        &__desktop-my-account-overview-option {
+        &__desktop-partnership-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
 
-        &__desktop-my-account-overview-text {
+        &__desktop-partnership-overview-text {
             margin-left: 20px;
         }
 
@@ -747,14 +699,14 @@
             width: 32px;
         }
 
-        &__desktop-change-password-text {
-            margin-left: 20px;
-        }
-
-        &__desktop-change-password-option {
+        &__desktop-partnering-with-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
+        }
+
+        &__desktop-partnering-with-agencies-text {
+            margin-left: 20px;
         }
 
         &__desktop-change-password-text {

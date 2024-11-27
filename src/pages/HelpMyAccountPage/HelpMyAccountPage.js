@@ -285,9 +285,9 @@ export default function HelpMyAccountPage() {
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <p className="help-my-account-page__tablet-view-and-edit-agency-information-text">
+                    <span className="help-my-account-page__tablet-view-and-edit-agency-information-text">
                       View & Edit Agency Information
-                    </p>
+                    </span>
                   </p>
                   <p className="help-my-account-page__tablet-manage-users-option">
                     <img

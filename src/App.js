@@ -61,6 +61,7 @@ import HelpMyAccountPage from './pages/HelpMyAccountPage/HelpMyAccountPage';
 import HelpJobPostingPage from './pages/HelpJobPostingPage/HelpJobPostingPage';
 import HelpCandidatePostingPage from './pages/HelpCandidatePostingPage/HelpCandidatePostingPage';
 import HelpDocumentsPage from './pages/HelpDocumentsPage/HelpDocumentsPage';
+import HelpPartnershipsPage from './pages/HelpPartnershipsPage/HelpPartnershipsPage';
 
 function App() {
   return (
@@ -128,6 +129,7 @@ function App() {
         <Route path="/help-job-posting-page" element={<HelpJobPostingPage />} />
         <Route path="/help-candidate-posting-page" element={<HelpCandidatePostingPage />} />
         <Route path="/help-documents-page" element={<HelpDocumentsPage />} />
+        <Route path="/help-partnerships-page" element={<HelpPartnershipsPage />} />
       </Routes>
       </BrowserRouter>
     </div>
