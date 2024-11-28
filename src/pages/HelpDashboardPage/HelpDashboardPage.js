@@ -266,7 +266,7 @@ export default function HelpDashboardPage() {
                       alt="Paper Icon"
                     />
                     <span className="help-dashboard-page__tablet-dashboard-overview-text">
-                     Dashboard Overview
+                      Dashboard Overview
                     </span>
                   </p>
                   <p className="help-dashboard-page__tablet-manage-messages-option">
@@ -286,7 +286,7 @@ export default function HelpDashboardPage() {
                       alt="Paper Icon"
                     />
                     <span className="help-dashboard-page__tablet-manage-notifications-text">
-                     Manage Notifications
+                      Manage Notifications
                     </span>
                   </p>
                   <p className="help-dashboard-page__tablet-manage-calendar-option">
@@ -316,7 +316,7 @@ export default function HelpDashboardPage() {
                       alt="Paper Icon"
                     />
                     <span className="help-dashboard-page__tablet-navigate-activity-summary-text">
-                     Navigate Activity Summary
+                      Navigate Activity Summary
                     </span>
                   </p>
                   <p className="help-dashboard-page__tablet-manage-jobs-option">
@@ -329,171 +329,189 @@ export default function HelpDashboardPage() {
                       Manage Jobs
                     </span>
                   </p>
-                  <p className="help-my-account-page__tablet-vacation-mode-option">
+                  <p className="help-dashboard-page__tablet-manage-candidates-option">
                     <img
-                      className="help-my-account-page__tablet-paper-icon"
+                      className="help-dashboard-page__tablet-paper-icon"
                       src={PaperIcon}
                       alt="Paper Icon"
                     />
-                    <span className="help-my-account-page__tablet-vacation-mode-text">
-                      Vacation Mode
+                    <span className="help-dashboard-page__tablet-manage-candidates-text">
+                      Manage Candidates
+                    </span>
+                  </p>
+                  <p className="help-dashboard-page__tablet-edit-profile-option">
+                    <img
+                      className="help-dashboard-page__tablet-paper-icon"
+                      src={PaperIcon}
+                      alt="Paper Icon"
+                    />
+                    <span className="help-dashboard-page__tablet-edit-profile-text">
+                      Edit Profile
                     </span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="help-my-account-page__desktop-container">
-            <p className="help-my-account-page__desktop-help-center-header">
+          <div className="help-dashboard-page__desktop-container">
+            <p className="help-dashboard-page__desktop-help-center-header">
               Help Center
             </p>
-            <div className="help-my-account-page__desktop-central-container">
-              <div className="help-my-account-page__desktop-left-container">
+            <div className="help-dashboard-page__desktop-central-container">
+              <div className="help-dashboard-page__desktop-left-container">
                 <img
-                  className="help-my-account-page__desktop-search-icon"
+                  className="help-dashboard-page__desktop-search-icon"
                   src={SearchIcon}
                   alt="Search Icon"
                 />
                 <input
-                  className="help-my-account-page__desktop-im-looking-for-input"
+                  className="help-dashboard-page__desktop-im-looking-for-input"
                   type="text"
                 />
-                <div className="help-my-account-page__desktop-categories-container">
-                  <p className="help-my-account-page__desktop-categories-header">
+                <div className="help-dashboard-page__desktop-categories-container">
+                  <p className="help-dashboard-page__desktop-categories-header">
                     Categories
                   </p>
-                  <p className="help-my-account-page__desktop-my-account-option">
+                  <p className="help-dashboard-page__desktop-my-account-option">
                     My Account
                   </p>
-                  <p className="help-my-account-page__desktop-job-posting-option">
+                  <p className="help-dashboard-page__desktop-job-posting-option">
                     Job Posting
                   </p>
-                  <p className="help-my-account-page__desktop-candidate-posting-option">
+                  <p className="help-dashboard-page__desktop-candidate-posting-option">
                     Candidate Posting
                   </p>
-                  <p className="help-my-account-page__desktop-documents-option">
+                  <p className="help-dashboard-page__desktop-documents-option">
                     Documents
                   </p>
-                  <p className="help-my-account-page__desktop-partnerships-option">
+                  <p className="help-dashboard-page__desktop-partnerships-option">
                     Partnerships
                   </p>
-                  <p className="help-my-account-page__desktop-dashboard-option">
+                  <p className="help-dashboard-page__desktop-dashboard-option">
                     Dashboard
                   </p>
-                  <p className="help-my-account-page__desktop-searching-option">
+                  <p className="help-dashboard-page__desktop-searching-option">
                     Searching
                   </p>
-                  <p className="help-my-account-page__desktop-ratings-and-feedback-option">
+                  <p className="help-dashboard-page__desktop-ratings-and-feedback-option">
                     Ratings & Feedback
                   </p>
-                  <p className="help-my-account-page__desktop-reports-option">
+                  <p className="help-dashboard-page__desktop-reports-option">
                     Reports
                   </p>
-                  <p className="help-my-account-page__desktop-membership-option">
+                  <p className="help-dashboard-page__desktop-membership-option">
                     Membership
                   </p>
-                  <p className="help-my-account-page__desktop-policies-and-terms-option">
+                  <p className="help-dashboard-page__desktop-policies-and-terms-option">
                     Policies & Terms
                   </p>
-                  <p className="help-my-account-page__desktop-faq-option">
-                    FAQ
-                  </p>
-                  <p className="help-my-account-page__desktop-glossary-option">
+                  <p className="help-dashboard-page__desktop-faq-option">FAQ</p>
+                  <p className="help-dashboard-page__desktop-glossary-option">
                     Glossary
                   </p>
                 </div>
               </div>
-              <div className="help-my-account-page__desktop-right-container">
-                <div className="help-my-account-page__desktop-my-account-container">
-                  <div className="help-my-account-page__desktop-my-account-header-container">
-                    <p className="help-my-account-page__desktop-my-account-header">
-                      My Account
+              <div className="help-dashboard-page__desktop-right-container">
+                <div className="help-dashboard-page__desktop-dashboard-container">
+                  <div className="help-dashboard-page__desktop-dashboard-header-container">
+                    <p className="help-dashboard-page__desktop-dashboard-header">
+                      Dashboard
                     </p>
-                    {/* <img
-                      className="help-my-account-page__desktop-my-account-icon"
-                      src={MyAccountIcon}
-                      alt="My Account Icon"
-                    /> */}
+                    <img
+                      className="help-dashboard-page__desktop-dashboard-icon"
+                      src={DashboardIcon}
+                      alt="Dashboard Icon"
+                    />
                   </div>
-                  <div className="help-my-account-page__desktop-my-account-options-container">
-                    <p className="help-my-account-page__desktop-my-account-overview-option">
+                  <div className="help-dashboard-page__desktop-dashboard-options-container">
+                    <p className="help-dashboard-page__desktop-dashboard-overview-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-my-account-overview-text">
-                        My Account Overview
+                      <span className="help-dashboard-page__desktop-dashboard-overview-text">
+                        Dashboard Overview
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-change-password-option">
+                    <p className="help-dashboard-page__desktop-manage-messages-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-change-password-text">
-                        Change Password
+                      <span className="help-dashboard-page__desktop-manage-messages-text">
+                        Manage Messages
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-profile-option">
+                    <p className="help-dashboard-page__desktop-manage-notifications-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-profile-text">
-                        View and Edit Profile
+                      <span className="help-dashboard-page__desktop-manage-notifications-text">
+                        Manage Notifications
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-agency-information-option">
+                    <p className="help-dashboard-page__desktop-manage-calendar-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-agency-information-text">
-                        View and Edit Agency Information
+                      <span className="help-dashboard-page__desktop-manage-calendar-text">
+                        Manage Calendar
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-manage-users-option">
+                    <p className="help-dashboard-page__desktop-manage-tasks-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-manage-users-text">
-                        Manage Users
+                      <span className="help-dashboard-page__desktop-manage-tasks-text">
+                        Manage Tasks
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-set-permissions-option">
+                    <p className="help-dashboard-page__desktop-navigate-activity-summary-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-set-permissions-text">
-                        Set Permissions
+                      <span className="help-dashboard-page__desktop-navigate-activity-summary-text">
+                        Navigate Activity Summary
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-notification-settings-option">
+                    <p className="help-dashboard-page__desktop-manage-jobs-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-notification-settings-text">
-                        Notification Settings
+                      <span className="help-dashboard-page__desktop-manage-jobs-text">
+                        Manage Jobs
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-vacation-mode-option">
+                    <p className="help-dashboard-page__desktop-manage-candidates-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-dashboard-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-vacation-mode-text">
-                        Vacation Mode
+                      <span className="help-dashboard-page__desktop-manage-candidates-text">
+                        Manage Candidates
+                      </span>
+                    </p>
+                    <p className="help-dashboard-page__desktop-edit-profile-option">
+                      <img
+                        className="help-dashboard-page__desktop-paper-icon"
+                        src={PaperIcon}
+                        alt="Paper Icon"
+                      />
+                      <span className="help-dashboard-page__desktop-edit-profile-text">
+                        Edit Profile
                       </span>
                     </p>
                   </div>

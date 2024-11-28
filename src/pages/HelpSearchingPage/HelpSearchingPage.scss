@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.help-dashboard-page {
+.help-searching-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -135,9 +135,8 @@
     }
 
     &__mobile-dashboard-option {
-        color: $rust;
+        color: $dark-navy;
         font-weight: 500;
-        text-decoration: underline;
     }
 
     &__mobile-glossary-option {
@@ -151,14 +150,15 @@
     }
 
     &__mobile-searching-option {
-        color: $dark-navy;
+        color: $rust;
         font-weight: 500;
+        text-decoration: underline;
     }
 
-    &__mobile-dashboard-container {
+    &__mobile-searching-central-container {
         border: 2px solid $medium-dark-gray;
         margin-left: 36px;
-        height: 800px;
+        height: 740px;
         margin-top: 72px;
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
@@ -166,24 +166,24 @@
         width: 430px;
     }
 
-    &__mobile-dashboard-header-container {
+    &__mobile-searching-header-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
     }
 
-    &__mobile-dashboard-header {
+    &__mobile-searching-header {
         font-weight: 500;
         color: $dark-gray;
         font-size: 18px;
     }
 
-    &__mobile-dashboard-icon {
-        width: 54px;
-        margin-left: 200px;
+    &__mobile-searching-icon {
+        width: 42px;
+        margin-left: 230px;
     }
 
-    &__mobile-dashboard-overview-option {
+    &__mobile-searching-overview-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -195,11 +195,11 @@
         width: 28px;
     }
 
-    &__mobile-dashboard-overview-text {
+    &__mobile-searching-overview-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-messages-option {
+    &__mobile-view-saved-searches-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -207,11 +207,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-messages-text {
+    &__mobile-view-saved-searches-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-notifications-option {
+    &__mobile-search-jobs-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -219,11 +219,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-notifications-text {
+    &__mobile-search-jobs-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-calendar-option {
+    &__mobile-search-candidates-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -231,11 +231,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-calendar-text {
+    &__mobile-search-candidates-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-tasks-option {
+    &__mobile-search-agencies-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -243,11 +243,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-tasks-text {
+    &__mobile-search-agencies-text {
         margin-left: 10px;
     }
 
-    &__mobile-navigate-activity-summary-option {
+    &__mobile-view-all-member-agencies-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -255,11 +255,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-navigate-activity-summary-text {
+    &__mobile-view-all-member-agencies-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-jobs-option {
+    &__mobile-view-all-active-jobs-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -267,11 +267,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-jobs-text {
+    &__mobile-view-all-active-jobs-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-candidates-option {
+    &__mobile-view-all-active-candidates-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -279,19 +279,7 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-candidates-text {
-        margin-left: 10px;
-    }
-
-    &__mobile-edit-profile-option {
-        border-bottom: 1px solid $medium-gray;
-        padding-bottom: 10px;
-        margin-left: 32px;
-        margin-top: 32px;
-        margin-right: 32px;
-    }
-
-    &__mobile-edit-profile-text {
+    &__mobile-view-all-active-candidates-text {
         margin-left: 10px;
     }
 
@@ -307,7 +295,7 @@
 
 @include tablet {
 
-    .help-dashboard-page {
+    .help-searching-page {
 
         &__mobile-container {
             display: none;
@@ -388,16 +376,16 @@
         }
 
         &__tablet-dashboard-option {
-            color: $rust;
-            text-decoration: underline;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 24px;
         }
 
         &__tablet-searching-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
+            text-decoration: underline;
         }
 
         &__tablet-ratings-and-feedback-option {
@@ -436,40 +424,40 @@
             margin-top: 24px;
         }
 
-        &__tablet-dashboard-container {
+        &__tablet-searching-container {
             border: 2px solid $medium-dark-gray;
             width: 520px;
-            height: 800px;
+            height: 770px;
             margin-left: 48px;
             border-bottom-left-radius: 28px;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
         }
 
-        &__tablet-dashboard-container-header-container {
+        &__tablet-searching-container-header-container {
             display: flex;
             margin-left: 32px;
             margin-top: 32px;
         }
 
-        &__tablet-dashboard-header {
+        &__tablet-searching-header {
             color: $dark-navy;
             font-size: 18px;
             font-weight: 500;
         }
 
-        &__tablet-dashboard-icon {
-            width: 60px;
-            margin-left: 280px;
+        &__tablet-searching-icon {
+            width: 44px;
+            margin-left: 320px;
         }
 
-        &__tablet-dashboard-options-container {
+        &__tablet-searching-options-container {
             margin-left: 32px;
             margin-right: 50px;
             margin-top: 28px;
         }
 
-        &__tablet-dashboard-overview-option {
+        &__tablet-searching-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
@@ -478,87 +466,77 @@
             width: 28px;
         }
 
-        &__tablet-dashboard-overview-text {
+        &__tablet-searching-overview-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-messages-option {
+        &__tablet-view-saved-searches-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-messages-text {
+        &__tablet-view-saved-searches-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-notifications-option {
+        &__tablet-search-jobs-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-notifications-text {
+        &__tablet-search-jobs-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-calendar-option {
+        &__tablet-search-candidates-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-calendar-text {
+        &__tablet-search-candidates-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-tasks-option {
+        &__tablet-search-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-tasks-text {
+        &__tablet-search-agencies-text {
             margin-left: 20px;
         }
 
-        &__tablet-navigate-activity-summary-option {
+        &__tablet-view-all-member-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-navigate-activity-summary-text {
+        &__tablet-view-all-member-agencies-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-jobs-option {
+        &__tablet-view-all-active-jobs-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-jobs-text {
+        &__tablet-view-all-active-jobs-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-candidates-option {
+        &__tablet-view-all-active-candidates-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-candidates-text {
-            margin-left: 20px;
-        }
-
-        &__tablet-edit-profile-option {
-            border-bottom: 1px solid $medium-gray;
-            padding-bottom: 10px;
-            margin-top: 32px;
-        }
-
-        &__tablet-edit-profile-text {
+        &__tablet-view-all-active-candidates-text {
             margin-left: 20px;
         }
 
@@ -572,7 +550,8 @@
 
 @include desktop {
 
-    .help-dashboard-page {
+    .help-searching-page {
+        padding-bottom: 15rem;
 
         &__mobile-container {
             display: none;
@@ -667,14 +646,14 @@
         }
 
         &__desktop-dashboard-option {
-            color: $rust;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 24px;
             font-size: 18px;
         }
 
         &__desktop-searching-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
             font-size: 18px;
@@ -722,10 +701,10 @@
             font-size: 18px;
         }
 
-        &__desktop-dashboard-container {
+        &__desktop-searching-container {
             border: 2px solid $medium-dark-gray;
             width: 800px;
-            height: 840px;
+            height: 780px;
             margin-left: 140px;
             border-bottom-left-radius: 28px;
             border-top-right-radius: 28px;
@@ -733,35 +712,35 @@
             margin-top: 50px;
         }
 
-        &__desktop-dashboard-header-container {
+        &__desktop-searching-header-container {
             display: flex;
             margin-top: 32px;
             margin-left: 32px;
         }
 
-        &__desktop-dashboard-header {
+        &__desktop-searching-header {
             color: $dark-navy;
             font-weight: 500;
             font-size: 20px;
         }
 
-        &__desktop-dashboard-icon {
-            width: 80px;
-            margin-left: 520px;
+        &__desktop-searching-icon {
+            width: 60px;
+            margin-left: 532px;
         }
 
-        &__desktop-dashboard-options-container {
+        &__desktop-searching-options-container {
             margin-left: 32px;
             margin-right: 48px;
             margin-top: 48px;
         }
 
-        &__desktop-dashboard-overview-option {
+        &__desktop-searching-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
 
-        &__desktop-dashboard-overview-text {
+        &__desktop-searching-overview-text {
             margin-left: 20px;
         }
 
@@ -769,83 +748,73 @@
             width: 32px;
         }
 
-        &__desktop-manage-messages-option {
+        &__desktop-view-saved-searches-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-messages-text {
+        &__desktop-view-saved-searches-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-notifications-option {
+        &__desktop-search-jobs-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-notifications-text {
+        &__desktop-search-jobs-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-calendar-option {
+        &__desktop-search-candidates-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-calendar-text {
+        &__desktop-search-candidates-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-tasks-option {
+        &__desktop-search-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-tasks-text {
+        &__desktop-search-agencies-text {
             margin-left: 20px;
         }
 
-        &__desktop-navigate-activity-summary-option {
+        &__desktop-view-all-member-agencies-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-navigate-activity-summary-text {
+        &__desktop-view-all-member-agencies-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-jobs-option {
+        &__desktop-view-all-active-jobs-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-jobs-text {
+        &__desktop-view-all-active-jobs-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-candidates-option {
+        &__desktop-view-all-active-candidates-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-candidates-text {
-            margin-left: 20px;
-        }
-
-        &__desktop-edit-profile-option {
-            border-bottom: 1px solid $medium-gray;
-            padding-bottom: 10px;
-            margin-top: 24px;
-        }
-
-        &__desktop-edit-profile-text {
+        &__desktop-view-all-active-candidates-text {
             margin-left: 20px;
         }
 

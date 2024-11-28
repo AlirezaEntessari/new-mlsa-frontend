@@ -63,6 +63,8 @@ import HelpCandidatePostingPage from './pages/HelpCandidatePostingPage/HelpCandi
 import HelpDocumentsPage from './pages/HelpDocumentsPage/HelpDocumentsPage';
 import HelpPartnershipsPage from './pages/HelpPartnershipsPage/HelpPartnershipsPage';
 import HelpDashboardPage from './pages/HelpDashboardPage/HelpDashboardPage';
+import HelpSearchingPage from './pages/HelpSearchingPage/HelpSearchingPage';
+import HelpRatingsAndFeedbackPage from './pages/HelpRatingsAndFeedbackPage/HelpRatingsAndFeedbackPage';
 
 function App() {
   return (
@@ -132,6 +134,8 @@ function App() {
         <Route path="/help-documents-page" element={<HelpDocumentsPage />} />
         <Route path="/help-partnerships-page" element={<HelpPartnershipsPage />} />
         <Route path="/help-dashboard-page" element={<HelpDashboardPage />} />
+        <Route path="/help-searching-page" element={<HelpSearchingPage />} />
+        <Route path="/help-ratings-and-feedback-page" element={<HelpRatingsAndFeedbackPage />} />
       </Routes>
       </BrowserRouter>
     </div>
