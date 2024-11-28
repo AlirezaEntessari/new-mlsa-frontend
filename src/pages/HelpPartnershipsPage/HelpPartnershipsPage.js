@@ -348,64 +348,24 @@ export default function HelpPartnershipsPage() {
                         Partnering with Agencies
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-profile-option">
+                    <p className="help-partnerships-page__desktop-search-agencies-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-partnerships-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-profile-text">
-                        View and Edit Profile
+                      <span className="help-partnerships-page__desktop-search-agencies-text">
+                        Search Agencies
                       </span>
                     </p>
-                    <p className="help-my-account-page__desktop-view-and-edit-agency-information-option">
+                    <p className="help-partnerships-page__desktop-refer-agency-option">
                       <img
-                        className="help-my-account-page__desktop-paper-icon"
+                        className="help-partnerships-page__desktop-paper-icon"
                         src={PaperIcon}
                         alt="Paper Icon"
                       />
-                      <span className="help-my-account-page__desktop-view-and-edit-agency-information-text">
-                        View and Edit Agency Information
-                      </span>
-                    </p>
-                    <p className="help-my-account-page__desktop-manage-users-option">
-                      <img
-                        className="help-my-account-page__desktop-paper-icon"
-                        src={PaperIcon}
-                        alt="Paper Icon"
-                      />
-                      <span className="help-my-account-page__desktop-manage-users-text">
-                        Manage Users
-                      </span>
-                    </p>
-                    <p className="help-my-account-page__desktop-set-permissions-option">
-                      <img
-                        className="help-my-account-page__desktop-paper-icon"
-                        src={PaperIcon}
-                        alt="Paper Icon"
-                      />
-                      <span className="help-my-account-page__desktop-set-permissions-text">
-                        Set Permissions
-                      </span>
-                    </p>
-                    <p className="help-my-account-page__desktop-notification-settings-option">
-                      <img
-                        className="help-my-account-page__desktop-paper-icon"
-                        src={PaperIcon}
-                        alt="Paper Icon"
-                      />
-                      <span className="help-my-account-page__desktop-notification-settings-text">
-                        Notification Settings
-                      </span>
-                    </p>
-                    <p className="help-my-account-page__desktop-vacation-mode-option">
-                      <img
-                        className="help-my-account-page__desktop-paper-icon"
-                        src={PaperIcon}
-                        alt="Paper Icon"
-                      />
-                      <span className="help-my-account-page__desktop-vacation-mode-text">
-                        Vacation Mode
+                      <span className="help-partnerships-page__desktop-refer-agency-text">
+                        Refer an Agency
                       </span>
                     </p>
                   </div>

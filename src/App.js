@@ -62,6 +62,7 @@ import HelpJobPostingPage from './pages/HelpJobPostingPage/HelpJobPostingPage';
 import HelpCandidatePostingPage from './pages/HelpCandidatePostingPage/HelpCandidatePostingPage';
 import HelpDocumentsPage from './pages/HelpDocumentsPage/HelpDocumentsPage';
 import HelpPartnershipsPage from './pages/HelpPartnershipsPage/HelpPartnershipsPage';
+import HelpDashboardPage from './pages/HelpDashboardPage/HelpDashboardPage';
 
 function App() {
   return (
@@ -130,6 +131,7 @@ function App() {
         <Route path="/help-candidate-posting-page" element={<HelpCandidatePostingPage />} />
         <Route path="/help-documents-page" element={<HelpDocumentsPage />} />
         <Route path="/help-partnerships-page" element={<HelpPartnershipsPage />} />
+        <Route path="/help-dashboard-page" element={<HelpDashboardPage />} />
       </Routes>
       </BrowserRouter>
     </div>
