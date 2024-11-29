@@ -55,15 +55,15 @@
     }
 
     &__mobile-my-account-option {
-        color: $rust;
+        color: $dark-navy;
         font-weight: 500;
-        text-decoration: underline;
     }
 
     &__mobile-ratings-and-feedback-option {
         margin-left: 80px;
-        color: $dark-navy;
+        color: $rust;
         font-weight: 500;
+        text-decoration: underline;
     }
 
     &__mobile-job-posting-reports-container {
@@ -155,7 +155,7 @@
         font-weight: 500;
     }
 
-    &__mobile-my-account-container {
+    &__mobile-ratings-and-feedback-container {
         border: 2px solid $medium-dark-gray;
         margin-left: 36px;
         height: 740px;
@@ -166,24 +166,24 @@
         width: 430px;
     }
 
-    &__mobile-my-account-header-container {
+    &__mobile-ratings-and-feedback-header-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
     }
 
-    &__mobile-my-account-header {
+    &__mobile-ratings-and-feedback-header {
         font-weight: 500;
         color: $dark-gray;
         font-size: 18px;
     }
 
-    &__mobile-my-account-icon {
+    &__mobile-ratings-and-feedback-icon {
         width: 54px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
-    &__mobile-my-account-overview-option {
+    &__mobile-ratings-overview-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -195,11 +195,11 @@
         width: 28px;
     }
 
-    &__mobile-my-account-overview-text {
+    &__mobile-ratings-overview-text {
         margin-left: 10px;
     }
 
-    &__mobile-change-password-option {
+    &__mobile-feedback-overview-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -207,11 +207,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-change-password-text {
+    &__mobile-feedback-overview-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-profile-option {
+    &__mobile-my-ratings-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -219,11 +219,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-profile-text {
+    &__mobile-my-ratings-text {
         margin-left: 10px;
     }
 
-    &__mobile-view-and-edit-agency-information-option {
+    &__mobile-writing-feedback-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -231,11 +231,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-view-and-edit-agency-information-text {
+    &__mobile-writing-feedback-text {
         margin-left: 10px;
     }
 
-    &__mobile-manage-users-option {
+    &__mobile-my-feedback-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -243,11 +243,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-manage-users-text {
+    &__mobile-my-feedback-text {
         margin-left: 10px;
     }
 
-    &__mobile-set-permissions-option {
+    &__mobile-responding-to-feedback-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -255,11 +255,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-set-permissions-text {
+    &__mobile-responding-to-feedback-text {
         margin-left: 10px;
     }
 
-    &__mobile-notification-settings-option {
+    &__mobile-negative-ratings-and-feedback-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -267,11 +267,11 @@
         margin-right: 32px;
     }
 
-    &__mobile-notification-settings-text {
+    &__mobile-negative-ratings-and-feedback-text {
         margin-left: 10px;
     }
 
-    &__mobile-vacation-mode-option {
+    &__mobile-disputes-option {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: 10px;
         margin-left: 32px;
@@ -279,7 +279,7 @@
         margin-right: 32px;
     }
 
-    &__mobile-vacation-mode-text {
+    &__mobile-disputes-text {
         margin-left: 10px;
     }
 
@@ -295,7 +295,7 @@
 
 @include tablet {
 
-    .help-my-account-page {
+    .help-ratings-and-feedback-page {
 
         &__mobile-container {
             display: none;
@@ -346,8 +346,7 @@
         }
 
         &__tablet-my-account-option {
-            color: $rust;
-            text-decoration: underline;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 24px;
         }
@@ -389,9 +388,10 @@
         }
 
         &__tablet-ratings-and-feedback-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
+            text-decoration: underline;
         }
 
         &__tablet-reports-option {
@@ -424,7 +424,7 @@
             margin-top: 24px;
         }
 
-        &__tablet-my-account-container {
+        &__tablet-ratings-and-feedback-container {
             border: 2px solid $medium-dark-gray;
             width: 520px;
             height: 770px;
@@ -434,30 +434,30 @@
             border-bottom-right-radius: 28px;
         }
 
-        &__tablet-my-account-container-header-container {
+        &__tablet-ratings-and-feedback-container-header-container {
             display: flex;
             margin-left: 32px;
             margin-top: 32px;
         }
 
-        &__tablet-my-account-header {
+        &__tablet-ratings-and-feedback-header {
             color: $dark-navy;
             font-size: 18px;
             font-weight: 500;
         }
 
-        &__tablet-my-account-icon {
+        &__tablet-ratings-and-feedback-icon {
             width: 60px;
-            margin-left: 280px;
+            margin-left: 230px;
         }
 
-        &__tablet-my-account-options-container {
+        &__tablet-ratings-and-feedback-options-container {
             margin-left: 32px;
             margin-right: 50px;
             margin-top: 28px;
         }
 
-        &__tablet-my-account-overview-option {
+        &__tablet-ratings-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
@@ -466,77 +466,77 @@
             width: 28px;
         }
 
-        &__tablet-my-account-overview-text {
+        &__tablet-ratings-overview-text {
             margin-left: 20px;
         }
 
-        &__tablet-change-password-option {
+        &__tablet-feedback-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-change-password-text {
+        &__tablet-feedback-overview-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-profile-option {
+        &__tablet-my-ratings-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-view-and-edit-profile-text {
+        &__tablet-my-ratings-text {
             margin-left: 20px;
         }
 
-        &__tablet-view-and-edit-agency-information-option {
+        &__tablet-writing-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-view-and-edit-agency-information-text {
+        &__tablet-writing-feedback-text {
             margin-left: 20px;
         }
 
-        &__tablet-manage-users-option {
+        &__tablet-my-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-manage-users-text {
+        &__tablet-my-feedback-text {
             margin-left: 20px;
         }
 
-        &__tablet-set-permissions-option {
+        &__tablet-responding-to-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-set-permissions-text {
+        &__tablet-responding-to-feedback-text {
             margin-left: 20px;
         }
 
-        &__tablet-notification-settings-option {
+        &__tablet-negative-ratings-and-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-notification-settings-text {
+        &__tablet-negative-ratings-and-feedback-text {
             margin-left: 20px;
         }
 
-        &__tablet-vacation-mode-option {
+        &__tablet-disputes-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 32px;
         }
 
-        &__tablet-vacation-mode-text {
+        &__tablet-disputes-text {
             margin-left: 20px;
         }
 
@@ -550,7 +550,7 @@
 
 @include desktop {
 
-    .help-my-account-page {
+    .help-ratings-and-feedback-page {
 
         &__mobile-container {
             display: none;
@@ -610,7 +610,7 @@
         }
 
         &__desktop-my-account-option {
-            color: $rust;
+            color: $dark-navy;
             font-weight: 500;
             margin-top: 32px;
             font-size: 18px;
@@ -659,7 +659,7 @@
         }
 
         &__desktop-ratings-and-feedback-option {
-            color: $dark-navy;
+            color: $rust;
             font-weight: 500;
             margin-top: 24px;
             font-size: 18px;
@@ -700,7 +700,7 @@
             font-size: 18px;
         }
 
-        &__desktop-my-account-container {
+        &__desktop-ratings-and-feedback-container {
             border: 2px solid $medium-dark-gray;
             width: 800px;
             height: 780px;
@@ -711,35 +711,35 @@
             margin-top: 50px;
         }
 
-        &__desktop-my-account-header-container {
+        &__desktop-ratings-and-feedback-header-container {
             display: flex;
             margin-top: 32px;
             margin-left: 32px;
         }
 
-        &__desktop-my-account-header {
+        &__desktop-ratings-and-feedback-header {
             color: $dark-navy;
             font-weight: 500;
             font-size: 20px;
         }
 
-        &__desktop-my-account-icon {
+        &__desktop-ratings-and-feedback-icon {
             width: 80px;
-            margin-left: 520px;
+            margin-left: 470px;
         }
 
-        &__desktop-my-account-options-container {
+        &__desktop-ratings-and-feedback-options-container {
             margin-left: 32px;
             margin-right: 48px;
             margin-top: 48px;
         }
 
-        &__desktop-my-account-overview-option {
+        &__desktop-ratings-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
         }
 
-        &__desktop-my-account-overview-text {
+        &__desktop-ratings-overview-text {
             margin-left: 20px;
         }
 
@@ -747,77 +747,73 @@
             width: 32px;
         }
 
-        &__desktop-change-password-text {
-            margin-left: 20px;
-        }
-
-        &__desktop-change-password-option {
+        &__desktop-feedback-overview-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-change-password-text {
+        &__desktop-feedback-overview-text {
             margin-left: 20px;
         }
 
-        &__desktop-view-and-edit-profile-option {
+        &__desktop-my-ratings-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-view-and-edit-profile-text {
+        &__desktop-my-ratings-text {
             margin-left: 20px;
         }
 
-        &__desktop-view-and-edit-agency-information-option {
+        &__desktop-writing-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-view-and-edit-agency-information-text {
+        &__desktop-writing-feedback-text {
             margin-left: 20px;
         }
 
-        &__desktop-manage-users-option {
+        &__desktop-my-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-manage-users-text {
+        &__desktop-my-feedback-text {
             margin-left: 20px;
         }
 
-        &__desktop-set-permissions-option {
+        &__desktop-responding-to-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-set-permissions-text {
+        &__desktop-responding-to-feedback-text {
             margin-left: 20px;
         }
 
-        &__desktop-notification-settings-option {
+        &__desktop-negative-ratings-and-feedback-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-notification-settings-text {
+        &__desktop-negative-ratings-and-feedback-text {
             margin-left: 20px;
         }
 
-        &__desktop-vacation-mode-option {
+        &__desktop-disputes-option {
             border-bottom: 1px solid $medium-gray;
             padding-bottom: 10px;
             margin-top: 24px;
         }
 
-        &__desktop-vacation-mode-text {
+        &__desktop-disputes-text {
             margin-left: 20px;
         }
 
