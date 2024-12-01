@@ -66,6 +66,7 @@ import HelpDashboardPage from './pages/HelpDashboardPage/HelpDashboardPage';
 import HelpSearchingPage from './pages/HelpSearchingPage/HelpSearchingPage';
 import HelpRatingsAndFeedbackPage from './pages/HelpRatingsAndFeedbackPage/HelpRatingsAndFeedbackPage';
 import HelpReportsPage from './pages/HelpReportsPage/HelpReportsPage';
+import HelpMembershipPage from './pages/HelpMembershipPage/HelpMembershipPage';
 
 function App() {
   return (
@@ -138,6 +139,7 @@ function App() {
         <Route path="/help-searching-page" element={<HelpSearchingPage />} />
         <Route path="/help-ratings-and-feedback-page" element={<HelpRatingsAndFeedbackPage />} />
         <Route path="/help-reports-page" element={<HelpReportsPage />} />
+        <Route path="/help-membership-page" element={<HelpMembershipPage />} />
       </Routes>
       </BrowserRouter>
     </div>
