@@ -1,0 +1,778 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.help-policies-and-terms-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-help-center-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 184px;
+        margin-top: 20px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 272px;
+        right: 64px;
+    }
+
+    &__mobile-im-looking-for-input {
+        border: 1px solid $medium-dark-gray;
+        width: 400px;
+        height: 54px;
+        border-radius: 28px;
+        margin-top: 40px;
+        margin-left: 54px;
+        padding-left: 20px;
+    }
+
+    &__mobile-categories-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-categories-header {
+        margin-left: 194px;
+        color: $dark-navy;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-categories-options-container {
+        margin-left: 90px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-account-ratings-and-feedback-container {
+        display: flex;
+    }
+
+    &__mobile-my-account-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-ratings-and-feedback-option {
+        margin-left: 80px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-job-posting-reports-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-job-posting-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-reports-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 84px;
+    }
+
+    &__mobile-candidate-posting-membership-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-candidate-posting-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-membership-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 37px;
+    }
+
+    &__mobile-documents-policies-and-terms-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-documents-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-policies-and-terms-option {
+        color: $rust;
+        font-weight: 500;
+        margin-left: 88px;
+        text-decoration: underline;
+    }
+
+    &__mobile-partnerships-faq-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-partnerships-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-faq-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 81px;
+    }
+
+    &__mobile-dashboard-glossary-container {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__mobile-dashboard-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-glossary-option {
+        color: $dark-navy;
+        font-weight: 500;
+        margin-left: 92px;
+    }
+
+    &__mobile-searching-container {
+        margin-top: 16px;
+    }
+
+    &__mobile-searching-option {
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-policies-and-terms-container {
+        border: 2px solid $medium-dark-gray;
+        margin-left: 36px;
+        height: 600px;
+        margin-top: 72px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        width: 430px;
+    }
+
+    &__mobile-policies-and-terms-header-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-policies-and-terms-header {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 18px;
+    }
+
+    &__mobile-policies-and-terms-icon {
+        width: 54px;
+        margin-left: 180px;
+    }
+
+    &__mobile-terms-of-service-overview-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-paper-icon {
+        width: 28px;
+    }
+
+    &__mobile-terms-of-service-overview-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-privacy-policy-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-privacy-policy-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-user-agreement-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-user-agreement-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-guarantee-period-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-guarantee-period-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-cancellation-policy-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-cancellation-policy-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-refund-policy-option {
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+    &__mobile-refund-policy-text {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .help-policies-and-terms-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-help-center-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 60px;
+            top: 290px;
+        }
+
+        &__tablet-im-looking-for-input {
+            border: 1px solid $medium-dark-gray;
+            width: 600px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 40px;
+            margin-left: 170px;
+            padding-left: 20px;
+        }
+
+        &__tablet-categories-my-account-container {
+            margin-top: 72px;
+            display: flex;
+        }
+
+        &__tablet-categories-container {
+            margin-left: 60px;
+        }
+
+        &__tablet-categories-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-my-account-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-job-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-candidate-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-documents-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-partnerships-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-dashboard-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-searching-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-ratings-and-feedback-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-reports-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-membership-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-policies-and-terms-option {
+            color: $rust;
+            font-weight: 500;
+            margin-top: 24px;
+            text-decoration: underline;
+        }
+
+        &__tablet-faq-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-glossary-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__tablet-policies-and-terms-container {
+            border: 2px solid $medium-dark-gray;
+            width: 520px;
+            height: 770px;
+            margin-left: 48px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-policies-and-terms-container-header-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-policies-and-terms-header {
+            color: $dark-navy;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-policies-and-terms-icon {
+            width: 60px;
+            margin-left: 250px;
+        }
+
+        &__tablet-policies-and-terms-options-container {
+            margin-left: 32px;
+            margin-right: 50px;
+            margin-top: 28px;
+        }
+
+        &__tablet-terms-of-service-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__tablet-paper-icon {
+            width: 28px;
+        }
+
+        &__tablet-terms-of-service-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-privacy-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-privacy-policy-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-user-agreement-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-user-agreement-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-guarantee-period-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-guarantee-period-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-cancellation-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-cancellation-policy-text {
+            margin-left: 20px;
+        }
+
+        &__tablet-refund-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 32px;
+        }
+
+        &__tablet-refund-policy-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .help-policies-and-terms-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-help-center-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            margin-left: 80px;
+            margin-top: 32px;
+            font-size: 36px;
+        }
+
+        &__desktop-central-container {
+            margin-top: 100px;
+            display: flex;
+        }
+
+        &__desktop-left-container {
+            margin-left: 80px;
+            position: relative;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 56px;
+            right: 88px;
+        }
+
+        &__desktop-im-looking-for-input {
+            border: 1px solid $medium-dark-gray;
+            width: 500px;
+            height: 54px;
+            border-radius: 28px;
+            margin-top: 40px;
+            padding-left: 20px;
+        }
+
+        &__desktop-categories-container {
+            margin-left: 400px;
+            margin-top: 32px;
+        }
+
+        &__desktop-categories-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        &__desktop-my-account-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 32px;
+            font-size: 18px;
+        }
+
+        &__desktop-job-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-candidate-posting-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-documents-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-partnerships-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-dashboard-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-searching-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-ratings-and-feedback-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-reports-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-membership-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-policies-and-terms-option {
+            color: $rust;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-faq-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-glossary-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
+        &__desktop-policies-and-terms-container {
+            border: 2px solid $medium-dark-gray;
+            width: 800px;
+            height: 780px;
+            margin-left: 140px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-top: 50px;
+        }
+
+        &__desktop-policies-and-terms-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__desktop-policies-and-terms-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__desktop-policies-and-terms-icon {
+            width: 80px;
+            margin-left: 500px;
+        }
+
+        &__desktop-policies-and-terms-options-container {
+            margin-left: 32px;
+            margin-right: 48px;
+            margin-top: 48px;
+        }
+
+        &__desktop-terms-of-service-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+        }
+
+        &__desktop-terms-of-service-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-paper-icon {
+            width: 32px;
+        }
+
+        &__desktop-privacy-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-privacy-policy-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-user-agreement-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-user-agreement-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-guarantee-period-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-guarantee-period-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-cancellation-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-cancellation-policy-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-refund-policy-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-refund-policy-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-notification-settings-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-notification-settings-text {
+            margin-left: 20px;
+        }
+
+        &__desktop-vacation-mode-option {
+            border-bottom: 1px solid $medium-gray;
+            padding-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        &__desktop-vacation-mode-text {
+            margin-left: 20px;
+        }
+
+    }
+
+}
