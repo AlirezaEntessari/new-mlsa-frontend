@@ -432,6 +432,11 @@
         display: none;
     }
 
+    &__mobile-card-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -905,6 +910,11 @@
             display: none;
         }
 
+        &__tablet-card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
     }
 
 }
@@ -1352,6 +1362,11 @@
             font-size: 18px;
             margin-top: 32px;
             margin-left: 152px;
+        }
+
+        &__desktop-card-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     }
