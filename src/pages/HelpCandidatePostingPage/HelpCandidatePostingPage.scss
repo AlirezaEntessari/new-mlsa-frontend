@@ -303,6 +303,11 @@
         display: none;
     }
 
+    &__mobile-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -568,6 +573,11 @@
             display: none;
         }
 
+        &__tablet-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
     }
 
 }
@@ -717,6 +727,13 @@
             font-size: 18px;
         }
 
+        &__desktop-glossary-option {
+            color: $dark-navy;
+            font-weight: 500;
+            margin-top: 24px;
+            font-size: 18px;
+        }
+
         &__desktop-candidate-posting-container {
             border: 2px solid $medium-dark-gray;
             width: 800px;
@@ -842,6 +859,11 @@
 
         &__desktop-run-report-text {
             margin-left: 20px;
+        }
+
+        &__desktop-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     }

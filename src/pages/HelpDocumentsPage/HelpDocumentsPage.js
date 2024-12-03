@@ -6,6 +6,7 @@ import SearchIcon from "../../assets/icons/Search (2).svg";
 import DocumentsIcon from "../../assets/icons/Help_Documents.svg";
 import PaperIcon from "../../assets/icons/PaperIcon.svg";
 import { dblClick } from "@testing-library/user-event/dist/click";
+import { Link } from "react-router-dom";
 
 export default function HelpDocumentsPage() {
   return (
@@ -34,55 +35,122 @@ export default function HelpDocumentsPage() {
               </p>
               <div className="help-documents-page__mobile-categories-options-container">
                 <div className="help-documents-page__mobile-my-account-ratings-and-feedback-container">
-                  <p className="help-documents-page__mobile-my-account-option">
-                    My Account
-                  </p>
-                  <p className="help-documents-page__mobile-ratings-and-feedback-option">
-                    Ratings & Feedback
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-my-account-page"
+                  >
+                    <p className="help-documents-page__mobile-my-account-option">
+                      My Account
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-ratings-and-feedback-page"
+                  >
+                    <p className="help-documents-page__mobile-ratings-and-feedback-option">
+                      Ratings & Feedback
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-job-posting-reports-container">
-                  <p className="help-documents-page__mobile-job-posting-option">
-                    Job Posting
-                  </p>
-                  <p className="help-documents-page__mobile-reports-option">
-                    Reports
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-job-posting-page"
+                  >
+                    <p className="help-documents-page__mobile-job-posting-option">
+                      Job Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-reports-page"
+                  >
+                    <p className="help-documents-page__mobile-reports-option">
+                      Reports
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-candidate-posting-membership-container">
-                  <p className="help-documents-page__mobile-candidate-posting-option">
-                    Candidate Posting
-                  </p>
-                  <p className="help-documents-page__mobile-membership-option">
-                    Membership
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-candidate-posting-page"
+                  >
+                    <p className="help-documents-page__mobile-candidate-posting-option">
+                      Candidate Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-membership-page"
+                  >
+                    <p className="help-documents-page__mobile-membership-option">
+                      Membership
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-documents-policies-and-terms-container">
-                  <p className="help-documents-page__mobile-documents-option">
-                    Documents
-                  </p>
-                  <p className="help-documents-page__mobile-policies-and-terms-option">
-                    Policies & Terms
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-documents-page"
+                  >
+                    <p className="help-documents-page__mobile-documents-option">
+                      Documents
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-policies-and-terms-page"
+                  >
+                    <p className="help-documents-page__mobile-policies-and-terms-option">
+                      Policies & Terms
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-partnerships-faq-container">
-                  <p className="help-documents-page__mobile-partnerships-option">
-                    Partnerships
-                  </p>
-                  <p className="help-documents-page__mobile-faq-option">FAQ</p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-partnerships-page"
+                  >
+                    <p className="help-documents-page__mobile-partnerships-option">
+                      Partnerships
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-faq-page"
+                  >
+                    <p className="help-documents-page__mobile-faq-option">
+                      FAQ
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-dashboard-glossary-container">
-                  <p className="help-documents-page__mobile-dashboard-option">
-                    Dashboard
-                  </p>
-                  <p className="help-documents-page__mobile-glossary-option">
-                    Glossary
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-dashboard-page"
+                  >
+                    <p className="help-documents-page__mobile-dashboard-option">
+                      Dashboard
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-glossary-page"
+                  >
+                    <p className="help-documents-page__mobile-glossary-option">
+                      Glossary
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-documents-page__mobile-searching-container">
-                  <p className="help-documents-page__mobile-searching-option">
-                    Searching
-                  </p>
+                  <Link
+                    className="help-documents-page__mobile-link"
+                    to="/help-searching-page"
+                  >
+                    <p className="help-documents-page__mobile-searching-option">
+                      Searching
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -160,43 +228,108 @@ export default function HelpDocumentsPage() {
                 <p className="help-documents-page__tablet-categories-header">
                   Categories
                 </p>
-                <p className="help-documents-page__tablet-my-account-option">
-                  My Account
-                </p>
-                <p className="help-documents-page__tablet-job-posting-option">
-                  Job Posting
-                </p>
-                <p className="help-documents-page__tablet-candidate-posting-option">
-                  Candidate Posting
-                </p>
-                <p className="help-documents-page__tablet-documents-option">
-                  Documents
-                </p>
-                <p className="help-documents-page__tablet-partnerships-option">
-                  Partnerships
-                </p>
-                <p className="help-documents-page__tablet-dashboard-option">
-                  Dashboard
-                </p>
-                <p className="help-documents-page__tablet-searching-option">
-                  Searching
-                </p>
-                <p className="help-documents-page__tablet-ratings-and-feedback-option">
-                  Ratings & Feedback
-                </p>
-                <p className="help-documents-page__tablet-reports-option">
-                  Reports
-                </p>
-                <p className="help-documents-page__tablet-membership-option">
-                  Membership
-                </p>
-                <p className="help-documents-page__tablet-policies-and-terms-option">
-                  Policies & Terms
-                </p>
-                <p className="help-documents-page__tablet-faq-option">FAQ</p>
-                <p className="help-documents-page__tablet-glossary-option">
-                  Glossary
-                </p>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-my-account-page"
+                >
+                  <p className="help-documents-page__tablet-my-account-option">
+                    My Account
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-job-posting-page"
+                >
+                  <p className="help-documents-page__tablet-job-posting-option">
+                    Job Posting
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-candidate-posting-page"
+                >
+                  <p className="help-documents-page__tablet-candidate-posting-option">
+                    Candidate Posting
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-documents-page"
+                >
+                  <p className="help-documents-page__tablet-documents-option">
+                    Documents
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-partnerships-page"
+                >
+                  <p className="help-documents-page__tablet-partnerships-option">
+                    Partnerships
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-dashboard-page"
+                >
+                  <p className="help-documents-page__tablet-dashboard-option">
+                    Dashboard
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-searching-page"
+                >
+                  <p className="help-documents-page__tablet-searching-option">
+                    Searching
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-ratings-and-feedback-page"
+                >
+                  <p className="help-documents-page__tablet-ratings-and-feedback-option">
+                    Ratings & Feedback
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-reports-page"
+                >
+                  <p className="help-documents-page__tablet-reports-option">
+                    Reports
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-membership-page"
+                >
+                  <p className="help-documents-page__tablet-membership-option">
+                    Membership
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-policies-and-terms-page"
+                >
+                  <p className="help-documents-page__tablet-policies-and-terms-option">
+                    Policies & Terms
+                  </p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-faq-page"
+                >
+                  <p className="help-documents-page__tablet-faq-option">FAQ</p>
+                </Link>
+                <Link
+                  className="help-documents-page__tablet-link"
+                  to="/help-glossary-page"
+                >
+                  <p className="help-documents-page__tablet-glossary-option">
+                    Glossary
+                  </p>
+                </Link>
               </div>
               <div className="help-documents-page__tablet-documents-container">
                 <div className="help-documents-page__tablet-documents-container-header-container">
@@ -273,43 +406,110 @@ export default function HelpDocumentsPage() {
                   <p className="help-documents-page__desktop-categories-header">
                     Categories
                   </p>
-                  <p className="help-documents-page__desktop-my-account-option">
-                    My Account
-                  </p>
-                  <p className="help-documents-page__desktop-job-posting-option">
-                    Job Posting
-                  </p>
-                  <p className="help-documents-page__desktop-candidate-posting-option">
-                    Candidate Posting
-                  </p>
-                  <p className="help-documents-page__desktop-documents-option">
-                    Documents
-                  </p>
-                  <p className="help-documents-page__desktop-partnerships-option">
-                    Partnerships
-                  </p>
-                  <p className="help-documents-page__desktop-dashboard-option">
-                    Dashboard
-                  </p>
-                  <p className="help-documents-page__desktop-searching-option">
-                    Searching
-                  </p>
-                  <p className="help-documents-page__desktop-ratings-and-feedback-option">
-                    Ratings & Feedback
-                  </p>
-                  <p className="help-documents-page__desktop-reports-option">
-                    Reports
-                  </p>
-                  <p className="help-documents-page__desktop-membership-option">
-                    Membership
-                  </p>
-                  <p className="help-documents-page__desktop-policies-and-terms-option">
-                    Policies & Terms
-                  </p>
-                  <p className="help-documents-page__desktop-faq-option">
-                    FAQ
-                  </p>
-                  <p className="help-documents-page__desktop-glossary-option">Glossary</p>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-my-account-page"
+                  >
+                    <p className="help-documents-page__desktop-my-account-option">
+                      My Account
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-job-posting-page"
+                  >
+                    <p className="help-documents-page__desktop-job-posting-option">
+                      Job Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-candidate-posting-page"
+                  >
+                    <p className="help-documents-page__desktop-candidate-posting-option">
+                      Candidate Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-documents-page"
+                  >
+                    <p className="help-documents-page__desktop-documents-option">
+                      Documents
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-partnerships-page"
+                  >
+                    <p className="help-documents-page__desktop-partnerships-option">
+                      Partnerships
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-dashboard-page"
+                  >
+                    <p className="help-documents-page__desktop-dashboard-option">
+                      Dashboard
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-searching-page"
+                  >
+                    <p className="help-documents-page__desktop-searching-option">
+                      Searching
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-ratings-and-feedback-page"
+                  >
+                    <p className="help-documents-page__desktop-ratings-and-feedback-option">
+                      Ratings & Feedback
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-reports-page"
+                  >
+                    <p className="help-documents-page__desktop-reports-option">
+                      Reports
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-membership-page"
+                  >
+                    <p className="help-documents-page__desktop-membership-option">
+                      Membership
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-policies-and-terms-page"
+                  >
+                    <p className="help-documents-page__desktop-policies-and-terms-option">
+                      Policies & Terms
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-faq-page"
+                  >
+                    <p className="help-documents-page__desktop-faq-option">
+                      FAQ
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-documents-page__desktop-link"
+                    to="/help-glossary-page"
+                  >
+                    <p className="help-documents-page__desktop-glossary-option">
+                      Glossary
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className="help-documents-page__desktop-right-container">
