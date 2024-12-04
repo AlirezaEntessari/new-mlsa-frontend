@@ -5,6 +5,7 @@ import HelpSidePanel from "../../components/HelpSidePanel/HelpSidePanel";
 import SearchIcon from "../../assets/icons/Search (2).svg";
 import ReportsIcon from "../../assets/icons/Help_Reports.svg";
 import PaperIcon from "../../assets/icons/PaperIcon.svg";
+import { Link } from "react-router-dom";
 
 export default function HelpReportsPage() {
   return (
@@ -33,55 +34,120 @@ export default function HelpReportsPage() {
               </p>
               <div className="help-reports-page__mobile-categories-options-container">
                 <div className="help-reports-page__mobile-my-account-ratings-and-feedback-container">
-                  <p className="help-reports-page__mobile-my-account-option">
-                    My Account
-                  </p>
-                  <p className="help-reports-page__mobile-ratings-and-feedback-option">
-                    Ratings & Feedback
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-my-account-page"
+                  >
+                    <p className="help-reports-page__mobile-my-account-option">
+                      My Account
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-ratings-and-feedback-page"
+                  >
+                    <p className="help-reports-page__mobile-ratings-and-feedback-option">
+                      Ratings & Feedback
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-job-posting-reports-container">
-                  <p className="help-reports-page__mobile-job-posting-option">
-                    Job Posting
-                  </p>
-                  <p className="help-reports-page__mobile-reports-option">
-                    Reports
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-job-posting-page"
+                  >
+                    <p className="help-reports-page__mobile-job-posting-option">
+                      Job Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-reports-page"
+                  >
+                    <p className="help-reports-page__mobile-reports-option">
+                      Reports
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-candidate-posting-membership-container">
-                  <p className="help-reports-page__mobile-candidate-posting-option">
-                    Candidate Posting
-                  </p>
-                  <p className="help-reports-page__mobile-membership-option">
-                    Membership
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-candidate-posting-page"
+                  >
+                    <p className="help-reports-page__mobile-candidate-posting-option">
+                      Candidate Posting
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-membership-page"
+                  >
+                    <p className="help-reports-page__mobile-membership-option">
+                      Membership
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-documents-policies-and-terms-container">
-                  <p className="help-reports-page__mobile-documents-option">
-                    Documents
-                  </p>
-                  <p className="help-reports-page__mobile-policies-and-terms-option">
-                    Policies & Terms
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-documents-page"
+                  >
+                    <p className="help-reports-page__mobile-documents-option">
+                      Documents
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-policies-and-terms-page"
+                  >
+                    <p className="help-reports-page__mobile-policies-and-terms-option">
+                      Policies & Terms
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-partnerships-faq-container">
-                  <p className="help-reports-page__mobile-partnerships-option">
-                    Partnerships
-                  </p>
-                  <p className="help-reports-page__mobile-faq-option">FAQ</p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-partnerships-page"
+                  >
+                    <p className="help-reports-page__mobile-partnerships-option">
+                      Partnerships
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-faq-page"
+                  >
+                    <p className="help-reports-page__mobile-faq-option">FAQ</p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-dashboard-glossary-container">
-                  <p className="help-reports-page__mobile-dashboard-option">
-                    Dashboard
-                  </p>
-                  <p className="help-reports-page__mobile-glossary-option">
-                    Glossary
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-dashboard-page"
+                  >
+                    <p className="help-reports-page__mobile-dashboard-option">
+                      Dashboard
+                    </p>
+                  </Link>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-glossary-page"
+                  >
+                    <p className="help-reports-page__mobile-glossary-option">
+                      Glossary
+                    </p>
+                  </Link>
                 </div>
                 <div className="help-reports-page__mobile-searching-container">
-                  <p className="help-reports-page__mobile-searching-option">
-                    Searching
-                  </p>
+                  <Link
+                    className="help-reports-page__mobile-link"
+                    to="/help-searching-page"
+                  >
+                    <p className="help-reports-page__mobile-searching-option">
+                      Searching
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -305,9 +371,7 @@ export default function HelpReportsPage() {
                   <p className="help-reports-page__desktop-policies-and-terms-option">
                     Policies & Terms
                   </p>
-                  <p className="help-reports-page__desktop-faq-option">
-                    FAQ
-                  </p>
+                  <p className="help-reports-page__desktop-faq-option">FAQ</p>
                   <p className="help-reports-page__desktop-glossary-option">
                     Glossary
                   </p>
@@ -317,7 +381,7 @@ export default function HelpReportsPage() {
                 <div className="help-reports-page__desktop-reports-container">
                   <div className="help-reports-page__desktop-reports-header-container">
                     <p className="help-reports-page__desktop-reports-header">
-                        Reports
+                      Reports
                     </p>
                     <img
                       className="help-reports-page__desktop-reports-icon"

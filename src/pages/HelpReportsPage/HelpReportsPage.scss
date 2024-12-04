@@ -243,6 +243,11 @@
         display: none;
     }
 
+    &__mobile-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
