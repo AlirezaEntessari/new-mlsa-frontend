@@ -267,6 +267,11 @@
         display: none;
     }
 
+    &__mobile-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -498,6 +503,11 @@
 
         &__desktop-container {
             display: none;
+        }
+
+        &__tablet-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     }
@@ -751,6 +761,11 @@
 
         &__desktop-question-6-text {
             margin-left: 20px;
+        }
+
+        &__desktop-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     }

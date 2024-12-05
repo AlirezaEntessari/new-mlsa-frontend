@@ -70,6 +70,7 @@ import HelpMembershipPage from './pages/HelpMembershipPage/HelpMembershipPage';
 import HelpPoliciesAndTermsPage from './pages/HelpPoliciesAndTermsPage/HelpPoliciesAndTermsPage';
 import HelpFAQPage from './pages/HelpFAQPage/HelpFAQPage';
 import HelpGlossaryPage from './pages/HelpGlossaryPage/HelpGlossaryPage';
+import RatingsHomePage from './pages/RatingsHomePage/RatingsHomePage';
 
 function App() {
   return (
@@ -146,6 +147,7 @@ function App() {
         <Route path="/help-policies-and-terms-page" element={<HelpPoliciesAndTermsPage />} />
         <Route path="/help-faq-page" element={<HelpFAQPage />} />
         <Route path="/help-glossary-page" element={<HelpGlossaryPage />} />
+        <Route path="/ratings-home-page" element={<RatingsHomePage />} />
       </Routes>
       </BrowserRouter>
     </div>

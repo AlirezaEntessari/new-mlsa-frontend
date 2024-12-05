@@ -461,6 +461,11 @@
             display: none;
         }
 
+        &__tablet-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
     }
 
 }
@@ -692,6 +697,11 @@
 
         &__desktop-export-reports-text {
             margin-left: 20px;
+        }
+
+        &__desktop-link {
+            text-decoration: none;
+            color: inherit;
         }
 
     }
