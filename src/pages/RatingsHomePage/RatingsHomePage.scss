@@ -92,6 +92,7 @@
     &__mobile-bolded-text {
         font-weight: 500;
         margin-left: 10px;
+        margin-right: 10px;
     }
 
     &__mobile-about-ratings-container {
@@ -158,6 +159,238 @@
         margin-right: 40px;
         text-align: justify;
         line-height: 32px;
+    }
+
+    &__mobile-giving-feedback-container {
+        background-color: $background-blue;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+        height: 700px;
+        border-radius: 28px;
+    }
+
+    &__mobile-giving-feedback-inner-container {
+        padding-top: 32px;
+        padding-left: 32px;
+    }
+
+    &__mobile-giving-feedback-header {
+        color: $dark-navy;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__mobile-giving-feedback-description {
+        margin-right: 40px;
+        text-align: justify;
+        line-height: 32px;
+    }
+
+    &__mobile-ratings-container {
+        margin-left: 32px;
+        margin-top: 40px;
+    }
+
+    &__mobile-ratings-header {
+        color: $dark-navy;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__mobile-ratings-description {
+        margin-right: 40px;
+        text-align: justify;
+        line-height: 32px;
+    }
+
+    &__mobile-girl-with-laptop-stars-icon {
+        width: 450px;
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    &__mobile-bottom-container {
+        border: 3px solid $access-blue;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 40px;
+        height: 600px;
+        border-radius: 28px;
+    }
+
+    &__mobile-bottom-inner-container {
+        padding-top: 32px;
+        padding-left: 32px;
+    }
+
+    &__mobile-bottom-container-description {
+        margin-right: 40px;
+        text-align: justify;
+        line-height: 32px;
+    }
+
+    &__mobile-learn-more {
+        color: $dark-navy;
+        text-decoration: underline;
+        margin-left: 116px;
+        margin-top: 48px;
+        font-weight: 500;
+        font-size: 22px;
+        width: 250px;
+        text-align: center;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-home-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-container {
+            margin-top: 32px;
+            margin-left: 32px;
+        }    
+
+        &__tablet-header {
+            font-size: 24px;
+            color: $dark-navy;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+        }
+
+        &__tablet-mlsa-value-assurance-icon {
+            width: 150px;
+            position: absolute;
+            top: 160px;
+            right: 32px;
+        }
+
+        &__tablet-button-container {
+            margin-top: 140px;
+            margin-left: 32px;
+        }
+
+        &__tablet-rate-an-agency-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 174px;
+            height: 50px;
+            border-radius: 28px;
+        }
+
+        &__tablet-my-ratings-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 174px;
+            height: 50px;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-search-agencies-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 174px;
+            height: 50px;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-conflict-resolution-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 174px;
+            height: 50px;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-description-text {
+            margin-left: 32px;
+            margin-top: 64px;
+            margin-right: 32px;
+            text-align: justify;
+            line-height: 32px;
+        }
+
+        &__tablet-bolded-text {
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        &__tablet-central-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-mlsa-logo {
+            width: 300px;
+        }
+
+        &__tablet-central-right-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-about-ratings-container {
+            width: 500px;
+        }
+
+        &__tablet-about-ratings-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-about-ratings-description {
+            width: 300px;
+        }
+
+        &__tablet-about-ratings-content-container {
+            display: flex;
+        }
+
+        &__tablet-about-ratings-communication {
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__tablet-about-ratings-professionalism {
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__tablet-about-ratings-payment-timeliness {
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__tablet-about-ratings-resource-quality {
+            color: $rust;
+            font-weight: 500;
+        }
+
+        &__tablet-large-orange-star-icon {
+            width: 150px;
+            margin-left: 100px;
+            margin-bottom: 32px;
+        }
+
     }
 
 }
