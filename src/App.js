@@ -71,6 +71,7 @@ import HelpPoliciesAndTermsPage from './pages/HelpPoliciesAndTermsPage/HelpPolic
 import HelpFAQPage from './pages/HelpFAQPage/HelpFAQPage';
 import HelpGlossaryPage from './pages/HelpGlossaryPage/HelpGlossaryPage';
 import RatingsHomePage from './pages/RatingsHomePage/RatingsHomePage';
+import RatingsRateAnAgencyPage from './pages/RatingsRateAnAgencyPage/RatingsRateAnAgencyPage';
 
 function App() {
   return (
@@ -148,6 +149,7 @@ function App() {
         <Route path="/help-faq-page" element={<HelpFAQPage />} />
         <Route path="/help-glossary-page" element={<HelpGlossaryPage />} />
         <Route path="/ratings-home-page" element={<RatingsHomePage />} />
+        <Route path="/ratings-rate-an-agency-page" element={<RatingsRateAnAgencyPage />} />
       </Routes>
       </BrowserRouter>
     </div>
