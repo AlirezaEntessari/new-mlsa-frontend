@@ -391,6 +391,95 @@
             margin-bottom: 32px;
         }
 
+        &__tablet-feedback-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-feedback-description {
+            margin-right: 32px;
+            text-align: justify;
+        }
+
+        &__tablet-giving-feedback-container {
+            margin-top: 50px;
+            margin-left: 32px;
+            background-color: $background-blue;
+            height: 380px;
+            width: 800px;
+            border-radius: 28px;
+        }
+
+        &__tablet-giving-feedback-inner-container {
+            padding-left: 32px;
+            padding-top: 32px;
+        }
+
+        &__tablet-giving-feedback-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-giving-feedback-description {
+            text-align: justify;
+            line-height: 32px;
+            margin-right: 32px;
+        }
+
+        &__tablet-ratings-container {
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-ratings-header {
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-ratings-description {
+            margin-right: 32px;
+            text-align: justify;
+            line-height: 32px;
+        }
+
+        &__tablet-girl-with-laptop-stars-icon {
+            width: 600px;
+            margin-left: 130px;
+            margin-top: 32px;
+        }
+
+        &__tablet-bottom-container {
+            border: 3px solid $access-blue;
+            margin-left: 32px;
+            margin-top: 64px;
+            width: 800px;
+            height: 320px;
+            border-radius: 28px;
+        }
+
+        &__tablet-bottom-inner-container {
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+
+        &__tablet-bottom-inner-container-description {
+            line-height: 32px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+
+        &__tablet-learn-more {
+            color: $dark-navy;
+            text-decoration: underline;
+            margin-top: 64px;
+            font-weight: 500;
+            font-size: 22px;
+            margin-left: 220px;
+        }
+
     }
 
 }
