@@ -129,4 +129,305 @@
         margin-top: 16px;
     }
 
+    &__mobile-bottom-button-container {
+        margin-top: 72px;
+        margin-left: 46px;
+    }
+
+    &__mobile-submit-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 180px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-cancel-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        color: $dark-navy;
+        width: 180px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 24px;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-rate-an-agency-page {
+        padding-bottom: 15rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 32px;
+            font-size: 24px;
+        }
+
+        &__tablet-values-circle-graphic-icon {
+            width: 500px;
+            margin-top: 32px;
+            margin-left: 140px;
+        }
+
+        &__tablet-input-container {
+            position: relative;
+            margin-top: 64px;
+            margin-left: 90px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 128px;
+            top: 17px;
+        }
+
+        &__tablet-enter-agency-name-input {
+            width: 610px;
+            border: 1px solid $medium-gray;
+            height: 58px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            padding-left: 20px;
+        }
+
+        &__tablet-content-container {
+            margin-left: 64px;
+            margin-top: 64px;
+        }
+
+        &__tablet-communication-header {
+            font-size: 18px;
+        }
+
+        &__tablet-ratings-empty-stars-icon {
+            width: 250px;
+        }
+
+        &__tablet-professionalism-container {
+            margin-top: 48px;
+        }
+
+        &__tablet-professionalism-header {
+            font-size: 18px;
+        }
+
+        &__tablet-payment-timeliness-container {
+            margin-top: 48px;
+        }
+
+        &__tablet-payment-timeliness-header {
+            font-size: 18px;
+        }
+
+        &__tablet-resource-quality-container {
+            margin-top: 48px;
+        }
+
+        &__tablet-resource-quality-header {
+            font-size: 18px;
+        }
+
+        &__tablet-feedback-container {
+            margin-top: 48px;
+        }
+
+        &__tablet-feedback-header {
+            font-size: 18px;
+        }
+
+        &__tablet-text-area {
+            margin-left: 64px;
+            margin-top: 32px;
+            border: 1px solid $medium-gray;
+            width: 670px;
+            height: 400px;
+            border-radius: 16px;
+        }
+
+        &__tablet-bottom-button-container {
+            margin-top: 90px;
+            margin-left: 174px;
+        }
+
+        &__tablet-submit-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 210px;
+            height: 54px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__tablet-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 210px;
+            height: 54px;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 28px;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .ratings-rate-an-agency-page {
+        padding-bottom: 20rem;
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 32px;
+            margin-left: 80px;
+            margin-top: 36px;
+        }
+
+        &__desktop-content-container {
+            margin-left: 80px;
+            margin-top: 72px;
+            display: flex;
+        }
+
+        &__desktop-enter-agency-name-container {
+            position: relative;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            right: 60px;
+            top: 18px;
+        }
+
+        &__desktop-enter-agency-name-input {
+            border: 2px solid $medium-gray;
+            width: 700px;
+            height: 58px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__desktop-communication-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-communication-header {
+            font-size: 20px;
+        }
+
+        &__desktop-ratings-empty-stars-icon {
+            width: 400px;
+        }
+
+        &__desktop-professionalism-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-professionalism-header {
+            font-size: 20px;
+        }
+
+        &__desktop-payment-timeliness-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-payment-timeliness-header {
+            font-size: 20px;
+        }
+
+        &__desktop-resource-quality-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-resource-quality-header {
+            font-size: 20px;
+        }
+
+        &__desktop-feedback-container {
+            margin-top: 48px;
+        }
+
+        &__desktop-feedback-header {
+            font-size: 20px;
+        }
+
+        &__desktop-values-circle-graphic-icon {
+            width: 440px;
+            position: absolute;
+            top: 250px;
+            right: 250px;
+        }
+
+        &__desktop-text-area {
+            border: 1px solid $medium-gray;
+            width: 1400px;
+            margin-left: 80px;
+            margin-top: 48px;
+            height: 430px;
+            border-radius: 16px;
+        }
+
+        &__desktop-bottom-button-container {
+            margin-top: 132px;
+            margin-left: 540px;
+        }
+
+        &__desktop-submit-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 220px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 220px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 28px;
+        }
+
+    }
+
 }
