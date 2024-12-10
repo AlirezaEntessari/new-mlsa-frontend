@@ -1,0 +1,163 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-my-ratings-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__mobile-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__mobile-mlsa-value-assurance-icon {
+        width: 150px;
+        position: absolute;
+        top: 150px;
+        right: 10px;
+    }
+
+    &__mobile-button-container {
+        margin-left: 36px;
+        margin-top: 150px;
+    }
+
+    &__mobile-rate-an-agency-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        color: $dark-navy;
+        width: 200px;
+        height: 54px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-my-ratings-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 200px;
+        height: 54px;
+        border-radius: 28px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-bottom-button-container {
+        margin-top: 24px;
+    }
+
+    &__mobile-search-agencies-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        color: $dark-navy;
+        width: 200px;
+        height: 54px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-conflict-resolution-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        color: $dark-navy;
+        width: 200px;
+        height: 54px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-my-rating-container {
+        margin-top: 100px;
+    }
+
+    &__mobile-my-rating-header {
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 200px;
+    }
+
+    &__mobile-my-rating-reviews-container {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    &__mobile-my-rating-reviews-text {
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+    &__mobile-star-container {
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    &__mobile-rating-star-medium-icon {
+        width: 56px;
+        margin-left: 8px;
+    }
+
+    &__mobile-rating-star-medium-partial-icon {
+        width: 56px;
+        margin-left: 8px;
+    }
+
+    &__mobile-human-re-logo {
+        border: 1px solid $medium-gray;
+        border-radius: 28px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 32px;
+        margin-left: 100px;
+    }
+
+    &__mobile-agency-rating-container {
+        margin-left: 190px;
+        margin-top: 32px;
+    }
+
+    &__mobile-agency-rating-text {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-left: 194px;
+        margin-top: 32px;
+    }
+
+    &__mobile-agency-rating-reviews-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__mobile-agency-rating-reviews-container {
+        display: flex;
+        margin-left: 156px;
+        margin-top: 20px;
+    }
+
+    &__mobile-agency-rating-reviews-star-container {
+        margin-left: 10px;
+    }
+
+    &__mobile-rating-star-small-icon {
+        margin-left: 4px;
+    }
+
+    &__mobile-rating-star-small-partial-icon {
+        width: 28px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+
+}
