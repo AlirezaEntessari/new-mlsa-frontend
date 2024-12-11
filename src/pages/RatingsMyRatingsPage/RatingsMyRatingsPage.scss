@@ -160,4 +160,182 @@
         margin-left: 4px;
     }
 
+    &__mobile-my-ratings-and-feedback-summary-container {
+        border: 2px solid $soft-black;
+        margin-top: 40px;
+        margin-left: 16px;
+        width: 464px;
+        height: 1000px;
+        border-bottom-left-radius: 48px;
+        border-top-right-radius: 48px;
+        border-bottom-right-radius: 48px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-inner-container {
+        padding-left: 28px;
+        padding-top: 32px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-header {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-communication-container {
+        margin-top: 48px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-communication-header {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-communication-description {
+        width: 400px;
+    }
+
+    &__mobile-star-boxed-full-icon-1 {
+        width: 40px;
+    }
+
+    &__mobile-star-boxed-full-icon {
+        width: 40px;
+        margin-left: 4px;
+    }
+
+    &__mobile-star-boxed-empty-icon {
+        width: 40px;
+        margin-left: 4px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-professionalism-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-professionalism-header {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-professionalism-description {
+        width: 400px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-payment-timeliness-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-payment-timeliness-header {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-payment-timeliness-description {
+        width: 400px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-resource-quality-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-resource-quality-header {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    &__mobile-my-ratings-and-feedback-summary-resource-quality-description {
+        width: 400px;
+    }
+
+    &__mobile-tips-to-improve-your-rating-button {
+        border: 2px solid $dark-navy;
+        background-color: $white-background;
+        color: $dark-navy;
+        width: 300px;
+        height: 54px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 72px;
+        margin-top: 100px;
+    }
+
+    &__mobile-my-feedback-received {
+        margin-top: 36px;
+        margin-left: 32px;
+    }
+
+    &__mobile-my-feedback-received-text {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__mobile-my-feedback-received-number {
+        margin-left: 32px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    &__mobile-unwavering-integrity-container {
+        border: 2px solid $access-blue;
+        margin-top: 40px;
+        margin-left: 16px;
+        width: 464px;
+        height: 1000px;
+        border-radius: 20px;
+    }
+
+    &__mobile-unwavering-integrity-ratings-container {
+        display: flex;
+        margin-left: 80px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    &__mobile-rating-star-integrity-medium-icon {
+        width: 32px;
+        margin-left: 8px;
+    }
+
+    &__mobile-unwavering-integrity-ratings-text {
+        font-size: 28px;
+        font-weight: 500;
+        position: absolute;
+        right: 120px;
+        top: -6px;
+    }
+
+    &__mobile-unwavering-integrity-honesty {
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        margin-top: 48px;
+        margin-left: 48px;
+    }
+
+    &__mobile-unwavering-integrity-description {
+        margin-top: 32px;
+        width: 350px;
+        text-align: justify;
+        font-style: italic;
+        margin-left: 48px;
+    }
+
+    &__mobile-xyz-staffing-agency-container {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    &__mobile-xyz-staffing-agency-header {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-bottom: 6px;
+    }
+
+    &__mobile-xyz-staffing-agency-location {
+        margin-bottom: 6px;
+    }
+
+    &__mobile-xyz-staffing-agency-date {
+        font-size: 14px;
+    }
+
 }
