@@ -260,7 +260,7 @@
     }
 
     &__mobile-my-feedback-received {
-        margin-top: 36px;
+        margin-top: 48px;
         margin-left: 32px;
     }
 
@@ -277,10 +277,10 @@
 
     &__mobile-unwavering-integrity-container {
         border: 2px solid $access-blue;
-        margin-top: 40px;
+        margin-top: 48px;
         margin-left: 16px;
         width: 464px;
-        height: 1000px;
+        height: 1050px;
         border-radius: 20px;
     }
 
@@ -320,7 +320,7 @@
     }
 
     &__mobile-xyz-staffing-agency-container {
-        margin-left: 100px;
+        margin-left: 144px;
         margin-top: 40px;
     }
 
@@ -337,5 +337,151 @@
     &__mobile-xyz-staffing-agency-date {
         font-size: 14px;
     }
+
+    &__mobile-unwavering-integrity-communication-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-unwavering-integrity-communication-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-unwavering-integrity-communication-header {
+        font-size: 18px;
+    }
+
+    &__mobile-unwavering-integrity-content-container {
+        margin-left: 116px;
+    }
+
+    &__mobile-unwavering-integrity-rating-star-medium-icon-1 {
+        width: 32px;
+    }
+
+    &__mobile-unwavering-integrity-rating-star-medium-icon {
+        width: 32px;
+        margin-left: 4px;
+    }
+
+    &__mobile-unwavering-integrity-communication-rating-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-unwavering-integrity-professionalism-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-unwavering-integrity-professionalism-header {
+        font-size: 18px;
+    }
+
+    &__mobile-unwavering-integrity-professionalism-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-unwavering-integrity-professionalism-rating-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-unwavering-integrity-timeliness-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-unwavering-integrity-timeliness-header {
+        font-size: 18px;
+    }
+
+    &__mobile-unwavering-integrity-timeliness-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-unwavering-integrity-timeliness-rating-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-unwavering-integrity-overall-satisfaction-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-unwavering-integrity-overall-satisfaction-header {
+        font-size: 18px;
+    }
+
+    &__mobile-unwavering-integrity-overall-satisfaction-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-unwavering-integrity-overall-satisfaction-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-genuine-commitment-container {
+        border: 2px solid $access-blue;
+        margin-top: 48px;
+        margin-left: 16px;
+        width: 464px;
+        height: 1050px;
+        border-radius: 20px;
+    }
+
+    &__mobile-genuine-commitment-ratings-container {
+        display: flex;
+        margin-left: 100px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    &__mobile-genuine-commitment-rating-star-medium-icon {
+        width: 32px;
+        margin-left: 8px;
+    }
+
+    &__mobile-genuine-commitment-rating-star-text {
+        font-size: 28px;
+        font-weight: 500;
+        position: absolute;
+        right: 130px;
+        top: -6px;
+    }
+
+    &__mobile-genuine-commitment-header {
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        margin-top: 48px;
+        margin-left: 48px;
+    }
+
+    &__mobile-genuine-commitment-description {
+        margin-top: 32px;
+        width: 350px;
+        text-align: justify;
+        font-style: italic;
+        margin-left: 48px;
+    }
+
+    &__mobile-genuine-commitment-zoltan-staffing-inc-container {
+        margin-left: 144px;
+        margin-top: 40px;
+    }
+
+    &__mobile-genuine-commitment-zoltan-staffing-inc-header {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-bottom: 6px;
+    }
+
+    &__mobile-genuine-commitment-zoltan-staffing-inc-location {
+        margin-bottom: 6px;
+    }
+
+    &__mobile-genuine-commitment-zoltan-staffing-inc-date {
+        font-size: 14px;
+    }
+
+   
 
 }
