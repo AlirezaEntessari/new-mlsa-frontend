@@ -712,6 +712,7 @@
         width: 464px;
         height: 700px;
         border-radius: 20px;
+        position: relative;
     }
 
     &__mobile-bottom-xyz-staffing-agency-header-container {
@@ -726,7 +727,221 @@
     }
 
     &__mobile-bottom-xyz-staffing-agency-location {
-        margin-left: 140px;
+        margin-left: 156px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-date-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-date-rating-container {
+        display: flex;
+        position: absolute;
+        top: 100px;
+        right: 40px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-rating-star-small-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-rating-star-text {
+        margin-left: 24px;
+        font-size: 20px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-edit {
+        margin-top: 32px;
+        margin-left: 392px;
+        color: $dark-navy;
+        text-decoration: underline;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-unwavering-integrity-honesty {
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-description-text {
+        font-style: italic;
+        margin-left: 32px;
+        width: 364px;
+        text-align: justify;
+        margin-top: 10px;
+        line-height: 28px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-container-2 {
+        border: 2px solid $access-blue;
+        margin-top: 60px;
+        margin-left: 16px;
+        width: 464px;
+        height: 700px;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    &__mobile-my-conflict-resolution-progress-container {
+        border: 2px solid $soft-black;
+        margin-top: 100px;
+        margin-left: 16px;
+        width: 464px;
+        height: 600px;
+        border-radius: 28px;
+    }
+
+    &__mobile-my-conflict-resolution-progress-header {
+        margin-top: 32px;
+        margin-left: 32px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-container {
+        margin-top: 84px;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-container-1 {
+        padding-top: 16px;
+        margin-top: 32px;
+        margin-left: 32px;
+        border-top: 1px solid $soft-black;
+        border-bottom: 1px solid $soft-black;
+        margin-right: 50px;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-date {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-agency {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-issue {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-progress {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-container-2 {
+        margin-top: 16px;
+        margin-left: 32px;
+        border-bottom: 1px solid $soft-black;
+        margin-right: 50px;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-date-2 {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-agency-2 {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-information-issue-2 {
+        font-weight: 500;
+    }
+
+    &__mobile-my-conflict-resolution-progress-progress-2 {
+        font-weight: 500;
+    }
+
+    &__mobile-menu-arrow-circle-down-icon {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-my-ratings-page {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-header-text {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        &__tablet-mlsa-value-assurance-icon {
+            width: 170px;
+            position: absolute;
+            top: 148px;
+            right: 50px;
+        }
+
+        &__tablet-button-container {
+            margin-top: 120px;
+            margin-left: 32px;
+        }
+
+        &__tablet-rate-an-agency-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 175px;
+            height: 54px;
+            color: $dark-navy;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-ratings-button {
+            border: 2px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 175px;
+            height: 54px;
+            color: $white-text;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
+        &__tablet-search-agencies-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 175px;
+            height: 54px;
+            color: $dark-navy;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
+        &__tablet-conflict-resolution-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 175px;
+            height: 54px;
+            color: $dark-navy;
+            border-radius: 28px;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+
     }
 
 }

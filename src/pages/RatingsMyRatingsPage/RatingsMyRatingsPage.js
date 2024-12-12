@@ -9,6 +9,7 @@ import RatingStarMediumPartialIcon from "../../assets/icons/StarMediumRatings.7.
 import RatingStarSmallIcon from "../../assets/icons/RatingStar.svg";
 import StarBoxedFullIcon from "../../assets/icons/StarBoxedFull.svg";
 import StarBoxedEmptyIcon from "../../assets/icons/StarBoxedEmpty.svg";
+import MenuArrowCircleDownIcon from "../../assets/icons/MenuCircleArrowGray.svg";
 
 export default function RatingsMyRatingsPage() {
   return (
@@ -896,11 +897,192 @@ export default function RatingsMyRatingsPage() {
                   Houston, TX
                 </p>
               </div>
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-container">
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date">
+                  August 30, 2024
+                </p>
+              </div>
               <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-rating-container">
-                <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-container">
-                  <p className=""></p>
+                <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-rating-star-container">
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon-1"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                </div>
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-text">
+                  5
+                </p>
+              </div>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-edit">
+                Edit
+              </p>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-unwavering-integrity-honesty">
+                Unwavering integrity, honesty...
+              </p>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-description-text">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions. Their ethical approach and dedication to
+                doing what is right made the entire process seamless and
+                stress-free. Thanks to HumanRe, I am now thriving in a role that
+                not only fits my skills but also aligns with my values.
+              </p>
+            </div>
+            <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-container-2">
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-header-container">
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-header">
+                  XYZ Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-location">
+                  Houston, TX
+                </p>
+              </div>
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-container">
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date">
+                  August 30, 2024
+                </p>
+              </div>
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-rating-container">
+                <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-rating-star-container">
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon-1"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                </div>
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-rating-star-text">
+                  5
+                </p>
+              </div>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-edit">
+                Edit
+              </p>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-unwavering-integrity-honesty">
+                Unwavering integrity, honesty...
+              </p>
+              <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-description-text">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions. Their ethical approach and dedication to
+                doing what is right made the entire process seamless and
+                stress-free. Thanks to HumanRe, I am now thriving in a role that
+                not only fits my skills but also aligns with my values.
+              </p>
+            </div>
+            <div className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-container">
+              <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-header">
+                My Conflict Resolution Progress
+              </p>
+              <div className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-container">
+                <div className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-container-1">
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-date">
+                    Date: 9/15/24
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-agency">
+                    Agency: XYZ Staffing Inc.
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-issue">
+                    Issue: Feedback & Rating Received
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-progress">
+                    Progress: Step 3
+                    <img
+                      className="ratings-my-ratings-page__mobile-menu-arrow-circle-down-icon"
+                      src={MenuArrowCircleDownIcon}
+                      alt="Menu Arrow Circle Down Icon"
+                    />
+                  </p>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-container-2">
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-date-2">
+                    Date: 9/15/24
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-agency-2">
+                    Agency: LMN Staffing Inc.
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-information-issue-2">
+                    Issue: Feedback Received
+                  </p>
+                  <p className="ratings-my-ratings-page__mobile-my-conflict-resolution-progress-progress-2">
+                    Progress: Completed
+                  </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="ratings-my-ratings-page__tablet-container">
+            <div className="ratings-my-ratings-page__tablet-header-container">
+              <p className="ratings-my-ratings-page__tablet-header-text">
+                My Ratings & Feedback
+              </p>
+              <img
+                className="ratings-my-ratings-page__tablet-mlsa-value-assurance-icon"
+                src={MLSAValueAssuranceIcon}
+                alt="MLSA Value Assurance Icon"
+              />
+            </div>
+            <div className="ratings-my-ratings-page__tablet-button-container">
+              <button className="ratings-my-ratings-page__tablet-rate-an-agency-button">
+                Rate an Agency
+              </button>
+              <button className="ratings-my-ratings-page__tablet-my-ratings-button">
+                My Ratings
+              </button>
+              <button className="ratings-my-ratings-page__tablet-search-agencies-button">
+                Search Agencies
+              </button>
+              <button className="ratings-my-ratings-page__tablet-conflict-resolution-button">
+                Conflict Resolution
+              </button>
             </div>
           </div>
         </div>
