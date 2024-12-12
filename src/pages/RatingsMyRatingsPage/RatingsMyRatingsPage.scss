@@ -482,6 +482,251 @@
         font-size: 14px;
     }
 
-   
+    &__mobile-genuine-commitment-content-container {
+        margin-left: 116px;
+    }
+
+    &__mobile-genuine-commitment-communication-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-genuine-commitment-communication-header {
+        font-size: 18px;
+    }
+
+    &__mobile-genuine-commitment-communication-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-genuine-commitment-communication-ratings-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-genuine-commitment-professionalism-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-genuine-commitment-professionalism-header {
+        font-size: 18px;
+    }
+
+    &__mobile-genuine-commitment-professionalism-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-genuine-commitment-professionalism-ratings-text {
+        font-size: 20px;
+        margin-left: 68px;
+    }
+
+    &__mobile-genuine-commitment-timeliness-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-genuine-commitment-timeliness-header {
+        font-size: 18px;
+    }
+
+    &__mobile-genuine-commitment-timeliness-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-genuine-commitment-timeliness-ratings-text {
+        font-size: 20px;
+        margin-left: 104px;
+    }
+
+    &__mobile-genuine-commitment-overall-satisfaction-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-genuine-commitment-overall-satisfaction-header {
+        font-size: 18px;
+    }
+
+    &__mobile-genuine-commitment-overall-satisfaction-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-genuine-commitment-overall-satisfaction-ratings-text {
+        font-size: 20px;
+        margin-left: 68px;
+    }
+
+    &__mobile-aligns-with-my-values-container {
+        border: 2px solid $access-blue;
+        margin-top: 48px;
+        margin-left: 16px;
+        width: 464px;
+        height: 1050px;
+        border-radius: 20px;
+    }
+
+    &__mobile-aligns-with-my-values-ratings-container {
+        display: flex;
+        margin-left: 80px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    &__mobile-aligns-with-my-values-rating-star-medium-icon {
+        width: 32px;
+        margin-left: 8px;
+    }
+
+    &__mobile-aligns-with-my-values-ratings-text {
+        font-size: 28px;
+        font-weight: 500;
+        position: absolute;
+        right: 120px;
+        top: -6px;
+    }
+
+    &__mobile-aligns-with-my-values-header {
+        font-weight: 700;
+        font-family: 'Roboto Serif';
+        margin-top: 48px;
+        margin-left: 48px;
+    }
+
+    &__mobile-aligns-with-my-values-description {
+        margin-top: 32px;
+        width: 350px;
+        text-align: justify;
+        font-style: italic;
+        margin-left: 48px;
+    }
+
+    &__mobile-aligns-with-my-values-lmn-staffing-agency-container {
+        margin-left: 144px;
+        margin-top: 40px;
+    }
+
+    &__mobile-aligns-with-my-values-lmn-staffing-agency-header {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-bottom: 6px;
+    }
+
+    &__mobile-aligns-with-my-values-lmn-staffing-agency-location {
+        margin-bottom: 6px;
+    }
+
+    &__mobile-aligns-with-my-values-lmn-staffing-agency-date {
+        font-size: 14px;
+    }
+
+    &__mobile-aligns-with-my-values-content-container {
+        margin-left: 116px;
+    }
+
+    &__mobile-aligns-with-my-values-communication-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-aligns-with-my-values-communication-header {
+        font-size: 18px;
+    }
+
+    &__mobile-aligns-with-my-values-communication-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-aligns-with-my-values-communication-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-aligns-with-my-values-professionalism-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-aligns-with-my-values-professionalism-header {
+        font-size: 18px;
+    }
+
+    &__mobile-aligns-with-my-values-professionalism-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-aligns-with-my-values-professionalism-ratings-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-aligns-with-my-values-timeliness-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-aligns-with-my-values-timeliness-header {
+        font-size: 18px;
+    }
+
+    &__mobile-aligns-with-my-values-timeliness-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-aligns-with-my-values-timeliness-ratings-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-aligns-with-my-values-overall-satisfaction-container {
+        margin-top: 40px;
+    }
+
+    &__mobile-aligns-with-my-values-overall-satisfaction-header {
+        font-size: 18px;
+    }
+
+    &__mobile-aligns-with-my-values-overall-satisfaction-ratings-container {
+        display: flex;
+    }
+
+    &__mobile-aligns-with-my-values-overall-satisfaction-ratings-text {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-my-feedback-left-for-others {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-my-feedback-left-for-others-text {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__mobile-my-feedback-left-for-others-number {
+        margin-left: 32px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-container {
+        border: 2px solid $access-blue;
+        margin-top: 48px;
+        margin-left: 16px;
+        width: 464px;
+        height: 700px;
+        border-radius: 20px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-header-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-header {
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-bottom-xyz-staffing-agency-location {
+        margin-left: 140px;
+    }
 
 }

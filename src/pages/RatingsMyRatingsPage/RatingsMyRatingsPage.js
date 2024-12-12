@@ -574,7 +574,331 @@ export default function RatingsMyRatingsPage() {
                         alt="Rating Star Medium Icon"
                       />
                     </div>
+                    <span className="ratings-my-ratings-page__mobile-genuine-commitment-communication-ratings-text">
+                      5
+                    </span>
                   </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-genuine-commitment-professionalism-container">
+                  <p className="ratings-my-ratings-page__mobile-genuine-commitment-professionalism-header">
+                    Professionalism
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-genuine-commitment-professionalism-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-genuine-commitment-professionalism-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-genuine-commitment-professionalism-ratings-text">
+                      4
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-genuine-commitment-timeliness-container">
+                  <p className="ratings-my-ratings-page__mobile-genuine-commitment-timeliness-header">
+                    Timeliness
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-genuine-commitment-timeliness-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-genuine-commitment-timeliness-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-genuine-commitment-timeliness-ratings-text">
+                      3
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-genuine-commitment-overall-satisfaction-container">
+                  <p className="ratings-my-ratings-page__mobile-genuine-commitment-overall-satisfaction-header">
+                    Overall Satisfaction
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-genuine-commitment-overall-satisfaction-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-genuine-commitment-overall-satisfaction-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-genuine-commitment-overall-satisfaction-ratings-text">
+                      4
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-container">
+              <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-ratings-container">
+                <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-ratings-star-container">
+                  <img
+                    className="ratings-my-ratings-page__mobile-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__mobile-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                </div>
+                <span className="ratings-my-ratings-page__mobile-aligns-with-my-values-ratings-text">
+                  5
+                </span>
+              </div>
+              <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-header">
+                Aligns with my Values...
+              </p>
+              <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-description">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions.
+              </p>
+              <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-lmn-staffing-agency-container">
+                <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-lmn-staffing-agency-header">
+                  LMN Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-lmn-staffing-agency-location">
+                  Lincoln, NE
+                </p>
+                <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-lmn-staffing-agency-date">
+                  August 1, 2024
+                </p>
+              </div>
+              <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-content-container">
+                <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-communication-container">
+                  <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-communication-header">
+                    Communication
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-communication-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-communication-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-aligns-with-my-values-communication-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-professionalism-container">
+                  <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-professionalism-header">
+                    Professionalism
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-professionalism-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-professionalism-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-aligns-with-my-values-professionalism-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-timeliness-container">
+                  <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-timeliness-header">
+                    Timeliness
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-timeliness-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-timeliness-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-aligns-with-my-values-timeliness-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-overall-satisfaction-container">
+                  <p className="ratings-my-ratings-page__mobile-aligns-with-my-values-overall-satisfaction-header">
+                    Overall Satisfaction
+                  </p>
+                  <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-overall-satisfaction-ratings-container">
+                    <div className="ratings-my-ratings-page__mobile-aligns-with-my-values-overall-satisfaction-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon-1"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__mobile-unwavering-integrity-rating-star-medium-icon"
+                        src={RatingStarMediumIcon}
+                        alt="Rating Star Medium Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__mobile-aligns-with-my-values-overall-satisfaction-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="ratings-my-ratings-page__mobile-my-feedback-left-for-others">
+              <span className="ratings-my-ratings-page__mobile-my-feedback-left-for-others-text">
+                My Feedback left for Others:
+              </span>
+              <span className="ratings-my-ratings-page__mobile-my-feedback-left-for-others-number">
+                2
+              </span>
+            </p>
+            <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-container">
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-header-container">
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-header">
+                  XYZ Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-location">
+                  Houston, TX
+                </p>
+              </div>
+              <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-rating-container">
+                <div className="ratings-my-ratings-page__mobile-bottom-xyz-staffing-agency-date-container">
+                  <p className=""></p>
                 </div>
               </div>
             </div>
