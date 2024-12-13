@@ -1084,6 +1084,648 @@ export default function RatingsMyRatingsPage() {
                 Conflict Resolution
               </button>
             </div>
+            <div className="ratings-my-ratings-page__tablet-logo-my-rating-container">
+              <img
+                className="ratings-my-ratings-page__tablet-human-re-logo"
+                src={HumanReLogo}
+                alt="HumanRe Logo"
+              />
+              <div className="ratings-my-ratings-page__tablet-my-rating-container">
+                <p className="ratings-my-ratings-page__tablet-my-rating-text">
+                  My Rating:
+                </p>
+                <div className="ratings-my-ratings-page__tablet-my-rating-value-container">
+                  <span className="ratings-my-ratings-page__tablet-my-rating-value-number">
+                    4.7
+                  </span>
+                  <div className="ratings-my-ratings-page__tablet-my-rating-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-rating-star-medium-partial-icon"
+                      src={RatingStarMediumPartialIcon}
+                      alt="Rating Star Medium Partial Icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ratings-my-ratings-page__tablet-agency-rating-container">
+              <p className="ratings-my-ratings-page__tablet-agency-rating-text">
+                Agency Rating
+              </p>
+              <div className="ratings-my-ratings-page__tablet-agency-rating-ratings-container">
+                <p className="ratings-my-ratings-page__tablet-agency-rating-ratings-text">
+                  4.6
+                </p>
+                <div className="ratings-my-ratings-page__tablet-agency-rating-star-container">
+                  <img
+                    className="ratings-my-ratings-page__tablet-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-agency-rating-star-partial-icon"
+                    src={RatingStarMediumPartialIcon}
+                    alt="Rating Star Partial Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ratings-my-ratings-page__tablet-my-ratings-and-feedback-summary-container">
+              <p className="ratings-my-ratings-page__tablet-my-ratings-and-feedback-summary-header">
+                My Ratings and Feedback Summary
+              </p>
+              <div className="ratings-my-ratings-page__tablet-communication-payment-timeliness-container">
+                <div className="ratings-my-ratings-page__tablet-communication-container">
+                  <p className="ratings-my-ratings-page__tablet-communication-header">
+                    Communication
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-communication-description">
+                    The effectiveness and clarity of communication with your
+                    agency.
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-communication-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon-1"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-empty-icon"
+                      src={StarBoxedEmptyIcon}
+                      alt="Star Boxed Empty Icon"
+                    />
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-payment-timeliness-container">
+                  <p className="ratings-my-ratings-page__tablet-payment-timeliness-header">
+                    Payment Timeliness
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-payment-timeliness-description">
+                    Your agency's speed in making payments.
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-payment-timeliness-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon-1"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="ratings-my-ratings-page__tablet-professionalism-resource-quality-container">
+                <div className="ratings-my-ratings-page__tablet-professionalism-container">
+                  <p className="ratings-my-ratings-page__tablet-professionalism-header">
+                    Professionalism
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-professionalism-description">
+                    Your agency's conduct and adherence to industry standards.
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-professionalism-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon-1"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-resource-quality-container">
+                  <p className="ratings-my-ratings-page__tablet-resource-quality-header">
+                    Resource Quality
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-resource-quality-description">
+                    Evaluate the agency's overall standard, suitability, and
+                    effectiveness of both the candidates and job roles.
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-resource-quality-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon-1"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-star-boxed-full-icon"
+                      src={StarBoxedFullIcon}
+                      alt="Star Boxed Full Icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button className="ratings-my-ratings-page__tablet-tips-to-improve-your-rating-button">
+                Tips to Improve Your Rating
+              </button>
+            </div>
+            <p className="ratings-my-ratings-page__tablet-my-feedback-received">
+              <span className="ratings-my-ratings-page__tablet-my-feedback-received-text">
+                My Feedback Received:
+              </span>
+              <span className="ratings-my-ratings-page__tablet-my-feedback-received-number">
+                3
+              </span>
+            </p>
+            <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-genuine-commitment-container">
+              <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-container">
+                <div className="ratings-my-ratings-page__tablet-unvawering-integrity-honesty-rating-container">
+                  <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-medium-icon-1"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                  </div>
+                  <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-text">
+                    5
+                  </p>
+                </div>
+                <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-text">
+                  Unwavering integrity, honesty...
+                </p>
+                <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-description">
+                  I highly recommend HumanRe for their exceptional recruiting
+                  services, deeply rooted in strong morals and values.
+                  Throughout my job search, HumanRe demonstrated unwavering
+                  integrity, honesty, and a genuine commitment to my career
+                  goals. They took the time to truly understand my aspirations
+                  and matched me with opportunities that aligned with my
+                  personal values and professional ambitions. Their ethical
+                  approach and dedication to doing what is right made the entire
+                  process seamless and stress-free. Thanks to HumanRe, I am now
+                  thriving in a role that not only fits my skills but also
+                  aligns with my values.
+                </p>
+                <div className="ratings-my-ratings-page__tablet-xyz-staffing-agency-container">
+                  <p className="ratings-my-ratings-page__tablet-xyz-staffing-agency-header">
+                    XYZ Staffing Agency
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-xyz-staffing-agency-location">
+                    Houston, TX
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-xyz-staffing-agency-date">
+                    August 30, 2024
+                  </p>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-content-container">
+                  <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-communication-container">
+                    <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-communication-header">
+                      Communication
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-communication-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-communication-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-communication-rating-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-professionalism-container">
+                    <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-professionalism-header">
+                      Professionalism
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-professionalism-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-professionalism-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-professionalism-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-timeliness-container">
+                    <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-timeliness-header">
+                      Timeliness
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-timeliness-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-timeliness-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-timeliness-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-overall-satisfaction-container">
+                    <p className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-overall-satisfaction-header">
+                      Overall Satisfaction
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-overall-satisfaction-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-overall-satisfaction-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-unwavering-integrity-honesty-overall-satisfaction-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ratings-my-ratings-page__tablet-genuine-commitment-container">
+                <div className="ratings-my-ratings-page__tablet-genuine-commitment-ratings-container">
+                  <div className="ratings-my-ratings-page__tablet-genuine-commitment-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-medium-icon-1"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                  </div>
+                  <p className="ratings-my-ratings-page__tablet-genuine-commitment-ratings-text">
+                    4
+                  </p>
+                </div>
+                <p className="ratings-my-ratings-page__tablet-genuine-commitment-text">
+                  Genuine commitment...
+                </p>
+                <p className="ratings-my-ratings-page__tablet-genuine-commitment-description">
+                  I highly recommend HumanRe for their exceptional recruiting
+                  services, deeply rooted in strong morals and values.
+                  Throughout my job search, HumanRe demonstrated unwavering
+                  integrity, honesty, and a genuine commitment to my career
+                  goals. They took the time to truly understand my aspirations
+                  and matched me with opportunities that aligned with my
+                  personal values and professional ambitions. Their ethical
+                  approach and dedication to doing what is right made the entire
+                  process seamless and stress-free. Thanks to HumanRe, I am now
+                  thriving in a role that not only fits my skills but also
+                  aligns with my values.
+                </p>
+                <div className="ratings-my-ratings-page__tablet-genuine-commitment-zoltan-staffing-container">
+                  <p className="ratings-my-ratings-page__tablet-genuine-commitment-zoltan-staffing-header">
+                    Zoltan Staffing, Inc.
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-genuine-commitment-zoltan-staffing-location">
+                    Boca Raton, FL
+                  </p>
+                  <p className="ratings-my-ratings-page__tablet-genuine-commitment-zoltan-staffing-date">
+                    August 12, 2024
+                  </p>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-genuine-commitment-content-container">
+                  <div className="ratings-my-ratings-page__tablet-genuine-commitment-communication-container">
+                    <p className="ratings-my-ratings-page__tablet-genuine-commitment-communication-header">
+                      Communication
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-genuine-commitment-communication-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-genuine-commitment-communication-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-genuine-commitment-communication-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-genuine-commitment-professionalism-container">
+                    <p className="ratings-my-ratings-page__tablet-genuine-commitment-professionalism-header">
+                      Professionalism
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-genuine-commitment-professionalism-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-genuine-commitment-professionalism-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-genuine-commitment-professionalism-ratings-text">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-genuine-commitment-timeliness-container">
+                    <p className="ratings-my-ratings-page__tablet-genuine-commitment-timeliness-header">
+                      Timeliness
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-genuine-commitment-timeliness-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-genuine-commitment-timeliness-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-genuine-commitment-timeliness-ratings-text">
+                        3
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__tablet-genuine-commitment-overall-satisfaction-container">
+                    <p className="ratings-my-ratings-page__tablet-genuine-commitment-overall-satisfaction-header">
+                      Overall Satisfaction
+                    </p>
+                    <div className="ratings-my-ratings-page__tablet-genuine-commitment-overall-satisfaction-ratings-container">
+                      <div className="ratings-my-ratings-page__tablet-genuine-commitment-overall-satisfaction-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__tablet-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__tablet-genuine-commitment-overall-satisfaction-ratings-text">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

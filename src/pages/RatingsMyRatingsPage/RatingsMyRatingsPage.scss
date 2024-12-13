@@ -865,6 +865,7 @@
 @include tablet {
 
     .ratings-my-ratings-page {
+        padding-bottom: 15rem;
 
         &__mobile-container {
             display: none;
@@ -940,6 +941,513 @@
             border-radius: 28px;
             font-weight: 500;
             margin-left: 16px;
+        }
+
+        &__tablet-logo-my-rating-container {
+            display: flex;
+            margin-top: 80px;
+            margin-left: 32px;
+        }
+
+        &__tablet-human-re-logo {
+            width: 200px;
+            border: 1px solid $medium-gray;
+            border-radius: 28px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-my-rating-container {
+            display: flex;
+            margin-top: 68px;
+            margin-left: 60px;
+        }
+
+        &__tablet-my-rating-text {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__tablet-my-rating-value-container {
+            display: flex;
+            margin-left: 32px;
+            position: absolute;
+            top: 540px;
+            right: 20px;
+        }
+
+        &__tablet-my-rating-value-number {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        &__tablet-my-rating-star-container {
+            margin-left: 10px;
+        }
+
+        &__tablet-rating-star-medium-icon {
+            width: 48px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        &__tablet-rating-star-medium-partial-icon {
+            width: 48px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        &__tablet-agency-rating-container {
+            margin-left: 32px;
+            margin-top: 40px;
+        }
+
+        &__tablet-agency-rating-text {
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        &__tablet-agency-rating-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-agency-rating-star-partial-icon {
+            width: 28px;
+            margin-top: 1px;
+        }
+
+        &__tablet-agency-rating-ratings-text {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__tablet-agency-rating-star-container {
+            margin-left: 10px;
+        }
+
+        &__tablet-rating-star-small-icon {
+            margin-left: 6px;
+        }
+
+        &__tablet-agency-rating-star-partial-icon {
+            margin-left: 6px;
+        }
+
+        &__tablet-my-ratings-and-feedback-summary-container {
+            border: 2px solid $soft-black;
+            width: 700px;
+            height: 610px;
+            margin-left: 32px;
+            margin-top: 32px;
+            border-bottom-left-radius: 32px;
+            border-top-right-radius: 32px;
+            border-bottom-right-radius: 32px;
+        }
+
+        &__tablet-my-ratings-and-feedback-summary-header {
+            margin-top: 36px;
+            margin-left: 32px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__tablet-communication-payment-timeliness-container {
+            margin-left: 32px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__tablet-communication-header {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        &__tablet-communication-description {
+            font-size: 14px;
+            margin-bottom: 16px;
+            width: 300px;
+        }
+
+        &__tablet-star-boxed-full-icon-1 {
+            width: 40px;
+        }
+
+        &__tablet-star-boxed-full-icon {
+            width: 40px;
+            margin-left: 3px;
+        }
+
+        &__tablet-star-boxed-empty-icon {
+            width: 40px;
+            margin-left: 3px;
+        }
+
+        &__tablet-payment-timeliness-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-payment-timeliness-header {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        &__tablet-payment-timeliness-description {
+            font-size: 14px;
+        }
+
+        &__tablet-payment-timeliness-ratings-star-container {
+           margin-top: 38px;
+        }
+
+        &__tablet-professionalism-resource-quality-container {
+            margin-left: 32px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__tablet-professionalism-header {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        &__tablet-professionalism-description {
+            font-size: 14px;
+            margin-bottom: 16px;
+            width: 300px;
+        }
+
+        &__tablet-professionalism-ratings-star-container {
+            margin-top: 36px;
+        }
+
+        &__tablet-resource-quality-container {
+            margin-left: 32px;
+        }
+
+        &__tablet-resource-quality-header {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        &__tablet-resource-quality-description {
+            font-size: 14px;
+            margin-bottom: 16px;
+            width: 300px;
+        }
+
+        &__tablet-tips-to-improve-your-rating-button {
+            border: 2px solid $dark-navy;
+            width: 290px;
+            height: 48px;
+            background-color: $white-background;
+            margin-left: 32px;
+            margin-top: 54px;
+            border-radius: 28px;
+            font-weight: 500;
+            color: $dark-navy;
+        }
+
+        &__tablet-my-feedback-received {
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-my-feedback-received-text {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__tablet-my-feedback-received-number {
+            margin-left: 24px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        &__tablet-unwavering-integrity-honesty-rating-star-medium-icon-1 {
+            width: 36px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-rating-star-medium-icon {
+            width: 36px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-genuine-commitment-container {
+            margin-top: 48px;
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-unwavering-integrity-honesty-container {
+            border: 2px solid $access-blue;
+            width: 350px;
+            height: 1200px;
+            border-radius: 28px;
+        }
+
+        &__tablet-unvawering-integrity-honesty-rating-container {
+            display: flex;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-rating-text {
+            font-size: 28px;
+            margin-left: 40px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-rating-star-medium-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-text {
+            margin-left: 30px;
+            margin-top: 32px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+        }
+
+        &__tablet-unwavering-integrity-honesty-description {
+            margin-left: 30px;
+            font-style: italic;
+            width: 280px;
+            text-align: justify;
+        }
+
+        &__tablet-xyz-staffing-agency-container {
+            margin-left: 30px;
+            margin-top: 32px;
+        }
+
+        &__tablet-xyz-staffing-agency-header {
+            font-size: 20px;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        &__tablet-xyz-staffing-agency-location {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-content-container {
+            margin-left: 30px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-communication-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-communication-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-communication-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-unwavering-integrity-honesty-rating-star-small-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-communication-rating-text {
+            font-size: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-professionalism-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-professionalism-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-professionalism-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-unwavering-integrity-honesty-professionalism-ratings-text {
+            font-size: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-timeliness-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-timeliness-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-timeliness-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-unwavering-integrity-honesty-timeliness-ratings-text {
+            font-size: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-overall-satisfaction-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-overall-satisfaction-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-unwavering-integrity-honesty-overall-satisfaction-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-unwavering-integrity-honesty-overall-satisfaction-ratings-text {
+            font-size: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-genuine-commitment-container {
+            border: 2px solid $access-blue;
+            width: 350px;
+            height: 1200px;
+            border-radius: 28px;
+            margin-left: 32px;
+        }
+
+        &__tablet-genuine-commitment-ratings-container {
+            display: flex;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        &__tablet-genuine-commitment-rating-star-medium-icon-1 {
+            width: 36px;
+        }
+
+        &__tablet-genuine-commitment-rating-star-medium-icon {
+            width: 36px;
+            margin-left: 20px;
+        }
+
+        &__tablet-genuine-commitment-ratings-text {
+            font-size: 28px;
+            margin-left: 50px;
+        }
+
+        &__tablet-genuine-commitment-text {
+            margin-left: 30px;
+            margin-top: 32px;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+        }
+
+        &__tablet-genuine-commitment-description {
+            margin-left: 30px;
+            font-style: italic;
+            width: 280px;
+            text-align: justify;
+        }
+
+        &__tablet-genuine-commitment-zoltan-staffing-container {
+            margin-left: 30px;
+            margin-top: 32px;
+        }
+
+        &__tablet-genuine-commitment-zoltan-staffing-header {
+            font-size: 20px;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        &__tablet-genuine-commitment-zoltan-staffing-location {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+
+        &__tablet-genuine-commitment-content-container {
+            margin-left: 30px;
+        }
+
+        &__tablet-genuine-commitment-communication-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-genuine-commitment-communication-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-genuine-commitment-rating-star-small-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-genuine-commitment-communication-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-genuine-commitment-communication-ratings-text {
+            font-size: 20px;
+            margin-left: 32px;
+        }
+
+        &__tablet-genuine-commitment-professionalism-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-genuine-commitment-professionalism-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-genuine-commitment-professionalism-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-genuine-commitment-professionalism-ratings-text {
+            font-size: 20px;
+            margin-left: 68px;
+        }
+
+        &__tablet-genuine-commitment-timeliness-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-genuine-commitment-timeliness-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-genuine-commitment-timeliness-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-genuine-commitment-timeliness-ratings-text {
+            font-size: 20px;
+            margin-left: 104px;
+        }
+
+        &__tablet-genuine-commitment-overall-satisfaction-container {
+            margin-top: 40px;
+        }
+
+        &__tablet-genuine-commitment-overall-satisfaction-header {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        &__tablet-genuine-commitment-overall-satisfaction-ratings-container {
+            display: flex;
+        }
+
+        &__tablet-genuine-commitment-overall-satisfaction-ratings-text {
+            font-size: 20px;
+            margin-left: 68px;
         }
 
     }
