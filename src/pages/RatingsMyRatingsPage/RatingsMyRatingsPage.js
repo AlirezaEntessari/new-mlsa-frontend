@@ -1726,6 +1726,412 @@ export default function RatingsMyRatingsPage() {
                 </div>
               </div>
             </div>
+            <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-container">
+              <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-ratings-container">
+                <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-ratings-star-container">
+                  <img
+                    className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-medium-icon-1"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-medium-icon"
+                    src={RatingStarMediumIcon}
+                    alt="Rating Star Medium Icon"
+                  />
+                </div>
+                <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-ratings-text">
+                  5
+                </p>
+              </div>
+              <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-text">
+                Aligns with my Values...
+              </p>
+              <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-description">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions. Their ethical approach and dedication to
+                doing what is right made the entire process seamless and
+                stress-free. Thanks to HumanRe, I am now thriving in a role that
+                not only fits my skills but also aligns with my values.
+              </p>
+              <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-lmn-staffing-agency-container">
+                <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-lmn-staffing-agency-header">
+                  LMN Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-lmn-staffing-agency-location">
+                  Lincoln, NE
+                </p>
+                <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-lmn-staffing-agency-date">
+                  August 1, 2024
+                </p>
+              </div>
+              <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-content-container">
+                <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-communication-container">
+                  <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-communication-header">
+                    Communication
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-communication-ratings-container">
+                    <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-communication-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon-1"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-communication-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-professionalism-container">
+                  <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-professionalism-header">
+                    Professionalism
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-professionalism-ratings-container">
+                    <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-professionalism-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon-1"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-professionalism-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-timeliness-container">
+                  <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-timeliness-header">
+                    Timeliness
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-timeliness-ratings-container">
+                    <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-timeliness-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon-1"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-timeliness-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-overall-satisfaction-container">
+                  <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-overall-satisfaction-header">
+                    Overall Satisfaction
+                  </p>
+                  <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-overall-satisfaction-ratings-container">
+                    <div className="ratings-my-ratings-page__tablet-aligns-with-my-values-overall-satisfaction-ratings-star-container">
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon-1"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__tablet-aligns-with-my-values-rating-star-small-icon"
+                        src={RatingStarSmallIcon}
+                        alt="Rating Star Small Icon"
+                      />
+                    </div>
+                    <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-overall-satisfaction-ratings-text">
+                      5
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="ratings-my-ratings-page__tablet-aligns-with-my-values-my-feedback-left-for-others">
+              <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-my-feedback-left-for-others-text">
+                My Feedback left for Others:
+              </span>
+              <span className="ratings-my-ratings-page__tablet-aligns-with-my-values-my-feedback-left-for-others-number">
+                2
+              </span>
+            </p>
+            <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-container">
+              <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-header-container">
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-header">
+                  XYZ Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-location">
+                  Houston, TX
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-date">
+                  August 30, 2024
+                </p>
+                <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-container">
+                  <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon-1"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                  </div>
+                  <span className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-text">
+                    5
+                  </span>
+                </div>
+              </div>
+              <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-unwavering-integrity-honesty-edit-container">
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-unwavering-integrity-honesty-text">
+                  Unwavering integrity, honesty...
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-edit-text">
+                  Edit
+                </p>
+              </div>
+              <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-description">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions. Their ethical approach and dedication to
+                doing what is right made the entire process seamless and
+                stress-free. Thanks to HumanRe, I am now thriving in a role that
+                not only fits my skills but also aligns with my values.
+              </p>
+            </div>
+            <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-container-2">
+              <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-header-container">
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-header">
+                  XYZ Staffing Agency
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-location">
+                  Houston, TX
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-date">
+                  August 30, 2024
+                </p>
+                <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-container">
+                  <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon-1"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-rating-star-small-icon"
+                      src={RatingStarSmallIcon}
+                      alt="Rating Star Small Icon"
+                    />
+                  </div>
+                  <span className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-ratings-text">
+                    5
+                  </span>
+                </div>
+              </div>
+              <div className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-unwavering-integrity-honesty-edit-container">
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-unwavering-integrity-honesty-text">
+                  Unwavering integrity, honesty...
+                </p>
+                <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-edit-text">
+                  Edit
+                </p>
+              </div>
+              <p className="ratings-my-ratings-page__tablet-bottom-xyz-staffing-agency-description">
+                I highly recommend HumanRe for their exceptional recruiting
+                services, deeply rooted in strong morals and values. Throughout
+                my job search, HumanRe demonstrated unwavering integrity,
+                honesty, and a genuine commitment to my career goals. They took
+                the time to truly understand my aspirations and matched me with
+                opportunities that aligned with my personal values and
+                professional ambitions. Their ethical approach and dedication to
+                doing what is right made the entire process seamless and
+                stress-free. Thanks to HumanRe, I am now thriving in a role that
+                not only fits my skills but also aligns with my values.
+              </p>
+            </div>
+            <div className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-container">
+              <p className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-header">
+                My Conflict Resolution Progress
+              </p>
+              <table className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-table">
+                <thead className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-header-row">
+                  <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1">
+                    <th className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-date-header">
+                      Date
+                    </th>
+                    <th className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-agency-header">
+                      Agency
+                    </th>
+                    <th className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-issue-header">
+                      Issue
+                    </th>
+                    <th className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-progress-header">
+                      Progress
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-body">
+                  <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1">
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-date">
+                      9/15/24
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-agency">
+                      XYZ Staffing Inc.
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-issue">
+                      Feedback & Rating Received
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-progress">
+                      Step 3
+                      <img
+                        className="ratings-my-ratings-page__tablet-menu-arrow-circle-down-icon"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                    </td>
+                  </tr>
+                  <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2">
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-date">
+                      9/30/24
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-agency">
+                      ABC Staffing Inc.
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-issue">
+                      Feedback & Rating Given
+                    </td>
+                    <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-progress">
+                      Conflict Resolved
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
