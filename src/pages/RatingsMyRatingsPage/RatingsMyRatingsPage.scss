@@ -860,6 +860,10 @@
         display: none;
     }
 
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -1688,9 +1692,9 @@
         &__tablet-my-conflict-resolution-progress-container {
             border: 2px solid $soft-black;
             width: 740px;
-            height: 420px;
+            height: 300px;
             margin-left: 32px;
-            margin-top: 60px;
+            margin-top: 100px;
             border-radius: 28px;
         }
 
@@ -1702,9 +1706,9 @@
         }
 
         &__tablet-my-conflict-resolution-progress-table {
-            margin-top: 32px;
+            margin-top: 48px;
             margin-left: 32px;
-            width: 80%;
+            width: 90%;
         }
 
         &__tablet-my-conflict-resolution-progress-header-row {
@@ -1713,6 +1717,269 @@
 
         &__tablet-my-conflict-resolution-progress-header-row th {
             padding-bottom: 10px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-conflict-resolution-progress-top-space-row {
+            height: 16px;
+        }
+
+        &__tablet-my-conflict-resolution-progress-space-row {
+            height: 24px;
+        }
+
+        &__tablet-my-conflict-resolution-progress-menu-arrow-circle-down-icon-1 {
+            margin-left: 102px;
+        }
+
+        &__tablet-my-conflict-resolution-progress-menu-arrow-circle-down-icon-2 {
+            margin-left: 20px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .ratings-my-ratings-page {
+        padding-bottom: 20rem;
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header {
+            font-family: 'Roboto Serif';
+            font-size: 36px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 80px;
+        }
+
+        &__desktop-top-button-value-assurance-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 60px;
+        }
+
+        &__desktop-rate-an-agency-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 240px;
+            height: 64px;
+            border-radius: 32px;
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-my-ratings-button {
+            border: 2px solid $dark-navy;
+            background-color: $dark-navy;
+            width: 240px;
+            height: 64px;
+            border-radius: 32px;
+            color: $white-text;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 48px;
+        }
+
+        &__desktop-search-agencies-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 240px;
+            height: 64px;
+            border-radius: 32px;
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 48px;
+        }
+
+        &__desktop-conflict-resolution-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 240px;
+            height: 60px;
+            border-radius: 32px;
+            color: $dark-navy;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 48px;
+        }
+
+        &__desktop-mlsa-value-assurance-icon {
+            width: 300px;
+            position: absolute;
+            right: 100px;
+            top: 230px;
+        }
+
+        &__desktop-human-re-my-ratings-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 80px;
+        }
+
+        &__desktop-human-re-logo {
+            border: 1px solid $medium-gray;
+            width: 250px;
+            border-radius: 32px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        &__desktop-my-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-my-ratings-text {
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 80px;
+            margin-top: 92px;
+        }
+
+        &__desktop-my-ratings-number {
+            font-size: 80px;
+            margin-left: 80px;
+            font-weight: 700;
+            margin-top: 36px;
+        }
+
+        &__desktop-my-ratings-star-container {
+            margin-left: 100px;
+            margin-top: 80px;
+        }
+
+        &__desktop-my-ratings-star-medium-icon-1 {
+            width: 60px;
+        }
+
+        &__desktop-my-ratings-star-medium-icon {
+            width: 60px;
+            margin-left: 20px;
+        }
+
+        &__desktop-my-ratings-star-medium-partial-icon {
+            width: 60px;
+            margin-left: 20px;
+        }
+
+        &__desktop-agency-rating-container {
+            margin-left: 80px;
+            margin-top: 32px;
+        }
+
+        &__desktop-agency-rating-header {
+            font-size: 20px;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+
+        &__desktop-agency-rating-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-agency-rating-ratings-number {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        &__desktop-agency-rating-ratings-star-container {
+            margin-left: 24px;
+            margin-top: 4px;
+        }
+
+        &__desktop-agency-rating-rating-star-small-icon {
+            margin-left: 10px;
+        }
+
+        &__desktop-agency-rating-rating-star-small-partial-icon {
+            width: 28px;
+            margin-left: 10px;
+            margin-top: 1px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-container {
+            border: 2px solid $access-blue;
+            margin-left: 80px;
+            width: 1460px;
+            height: 700px;
+            margin-top: 48px;
+            border-bottom-left-radius: 48px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-inner-container {
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-header {
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-communication-payment-timeliness-container {
+            margin-top: 60px;
+            display: flex;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-communication-header {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-communication-description {
+            margin-bottom: 14px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon-1 {
+            width: 54px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon {
+            width: 54px;
+            margin-left: 5px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-star-boxed-empty-icon {
+            width: 54px;
+            margin-left: 5px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-payment-timeliness-container {
+            margin-left: 220px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-payment-timeliness-header {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-payment-timeliness-description {
+            margin-bottom: 14px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-professionalism-resource-quality-container {
+            margin-top: 80px;
+            display: flex;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-professionalism-header {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-professionalism-description {
+            margin-bottom: 14px;
         }
 
     }

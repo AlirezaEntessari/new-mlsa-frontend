@@ -2096,6 +2096,7 @@ export default function RatingsMyRatingsPage() {
                   </tr>
                 </thead>
                 <tbody className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-body">
+                  <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-top-space-row"></tr>
                   <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1">
                     <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-date">
                       9/15/24
@@ -2109,12 +2110,13 @@ export default function RatingsMyRatingsPage() {
                     <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-1-progress">
                       Step 3
                       <img
-                        className="ratings-my-ratings-page__tablet-menu-arrow-circle-down-icon"
+                        className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-menu-arrow-circle-down-icon-1"
                         src={MenuArrowCircleDownIcon}
                         alt="Menu Arrow Circle Down"
                       />
                     </td>
                   </tr>
+                  <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-space-row"></tr>
                   <tr className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2">
                     <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-date">
                       9/30/24
@@ -2126,11 +2128,214 @@ export default function RatingsMyRatingsPage() {
                       Feedback & Rating Given
                     </td>
                     <td className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-data-row-2-progress">
-                      Conflict Resolved
+                      Conflict Resolved{" "}
+                      <img
+                        className="ratings-my-ratings-page__tablet-my-conflict-resolution-progress-menu-arrow-circle-down-icon-2"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
                     </td>
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+          <div className="ratings-my-ratings-page__desktop-container">
+            <p className="ratings-my-ratings-page__desktop-header">
+              My Ratings & Feedback
+            </p>
+            <div className="ratings-my-ratings-page__desktop-top-button-value-assurance-container">
+              <div className="ratings-my-ratings-page__desktop-top-button-container">
+                <button className="ratings-my-ratings-page__desktop-rate-an-agency-button">
+                  Rate an Agency
+                </button>
+                <button className="ratings-my-ratings-page__desktop-my-ratings-button">
+                  My Ratings
+                </button>
+                <button className="ratings-my-ratings-page__desktop-search-agencies-button">
+                  Search Agencies
+                </button>
+                <button className="ratings-my-ratings-page__desktop-conflict-resolution-button">
+                  Conflict Resolution
+                </button>
+              </div>
+              <img
+                className="ratings-my-ratings-page__desktop-mlsa-value-assurance-icon"
+                src={MLSAValueAssuranceIcon}
+                alt="MLSA Value Assurance Icon"
+              />
+            </div>
+            <div className="ratings-my-ratings-page__desktop-human-re-my-ratings-container">
+              <img
+                className="ratings-my-ratings-page__desktop-human-re-logo"
+                src={HumanReLogo}
+                alt="HumanRe Logo"
+              />
+              <div className="ratings-my-ratings-page__desktop-my-ratings-container">
+                <p className="ratings-my-ratings-page__desktop-my-ratings-text">
+                  My Ratings:
+                </p>
+                <p className="ratings-my-ratings-page__desktop-my-ratings-number">
+                  4.7
+                </p>
+                <div className="ratings-my-ratings-page__desktop-my-ratings-star-container">
+                  <img
+                    src={RatingStarMediumIcon}
+                    className="ratings-my-ratings-page__desktop-my-ratings-star-medium-icon-1"
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    src={RatingStarMediumIcon}
+                    className="ratings-my-ratings-page__desktop-my-ratings-star-medium-icon"
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    src={RatingStarMediumIcon}
+                    className="ratings-my-ratings-page__desktop-my-ratings-star-medium-icon"
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    src={RatingStarMediumIcon}
+                    className="ratings-my-ratings-page__desktop-my-ratings-star-medium-icon"
+                    alt="Rating Star Medium Icon"
+                  />
+                  <img
+                    src={RatingStarMediumPartialIcon}
+                    className="ratings-my-ratings-page__desktop-my-ratings-star-medium-partial-icon"
+                    alt="Rating Star Medium Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ratings-my-ratings-page__desktop-agency-rating-container">
+              <p className="ratings-my-ratings-page__desktop-agency-rating-header">
+                Agency Rating:
+              </p>
+              <div className="ratings-my-ratings-page__desktop-agency-rating-ratings-container">
+                <p className="ratings-my-ratings-page__desktop-agency-rating-ratings-number">
+                  4.6
+                </p>
+                <div className="ratings-my-ratings-page__desktop-agency-rating-ratings-star-container">
+                  <img
+                    className="ratings-my-ratings-page__desktop-agency-rating-rating-star-small-icon-1"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__desktop-agency-rating-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__desktop-agency-rating-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__desktop-agency-rating-rating-star-small-icon"
+                    src={RatingStarSmallIcon}
+                    alt="Rating Star Small Icon"
+                  />
+                  <img
+                    className="ratings-my-ratings-page__desktop-agency-rating-rating-star-small-partial-icon"
+                    src={RatingStarMediumPartialIcon}
+                    alt="Rating Small Partial Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-container">
+              <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-inner-container">
+                <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-header">
+                  My Ratings and Feedback Summary
+                </p>
+                <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-communication-payment-timeliness-container">
+                  <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-communication-container">
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-communication-header">
+                      Communication
+                    </p>
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-communication-description">
+                      The effectiveness and clarity of communication with your
+                      agency
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-communication-ratings-container">
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon-1"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-empty-icon"
+                        src={StarBoxedEmptyIcon}
+                        alt="Star Boxed Empty Icon"
+                      />
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-payment-timeliness-container">
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-payment-timeliness-header">
+                      Payment Timeliness
+                    </p>
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-payment-timeliness-description">
+                      Your agency's speed in making payments
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-payment-timeliness-ratings-container">
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon-1"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-empty-icon"
+                        src={StarBoxedEmptyIcon}
+                        alt="Star Boxed Empty Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-resource-quality-container">
+                  <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-container">
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-header">
+                      Professionalism
+                    </p>
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-description">
+                      Your agency's conduct amd adherence to industry standards.
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-ratings-container">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
