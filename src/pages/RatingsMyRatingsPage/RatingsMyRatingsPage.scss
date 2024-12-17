@@ -1910,7 +1910,7 @@
             border: 2px solid $access-blue;
             margin-left: 80px;
             width: 1460px;
-            height: 700px;
+            height: 710px;
             margin-top: 48px;
             border-bottom-left-radius: 48px;
             border-top-right-radius: 48px;
@@ -1980,6 +1980,290 @@
 
         &__desktop-my-ratings-and-feedback-summary-professionalism-description {
             margin-bottom: 14px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-resource-quality-container {
+            margin-left: 248px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-resource-quality-header {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-resource-quality-description {
+            margin-bottom: 14px;
+            width: 400px;
+        }
+
+        &__desktop-my-ratings-and-feedback-summary-tips-to-improve-your-rating-button{
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            width: 300px;
+            height: 64px;
+            color: $dark-navy;
+            margin-top: 60px;
+            font-weight: 500;
+            font-size: 17px;
+            border-radius: 32px;
+        }
+
+        &__desktop-my-feedback-received {
+            margin-left: 80px;
+            margin-top: 80px;
+        }
+
+        &__desktop-my-feedback-received-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-my-feedback-received-number {
+            font-size: 40px;
+            margin-left: 16px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-genuine-commitment-aligns-with-my-values-container {
+            margin-left: 80px;
+            margin-top: 50px;
+            display: flex;
+        }
+
+        &__desktop-unwavering-integrity-honesty-container {
+            border: 2px solid $access-blue;
+            width: 480px;
+            height: 1100px;
+            border-radius: 32px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-ratings-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 42px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-rating-star-medium-icon-1 {
+            width: 50px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-rating-star-medium-icon {
+            width: 50px;
+            margin-left: 16px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-ratings-text {
+            font-size: 36px;
+            margin-left: 36px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-text {
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+            margin-left: 42px;
+            margin-top: 32px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-description {
+            margin-left: 42px;
+            font-style: italic;
+            margin-top: 24px;
+            width: 380px;
+            text-align: justify;
+            line-height: 28px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-xyz-staffing-agency-container {
+            margin-left: 42px;
+            margin-top: 42px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-xyz-staffing-agency-header {
+            font-size: 22px;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-location {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-date {
+            font-size: 17px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-content-container {
+            margin-left: 42px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-communication-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-communication-header {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-communication-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-unwavering-integrity-honesty-rating-star-small-icon {
+            margin-left: 12px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-communication-ratings-text {
+            font-size: 20px;
+            margin-left: 48px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-professionalism-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-professionalism-header {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-professionalism-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-unwavering-integrity-honesty-professionalism-ratings-text {
+            font-size: 20px;
+            margin-left: 48px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-timeliness-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-timeliness-header {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-timeliness-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-unwavering-integrity-honesty-timeliness-ratings-text {
+            font-size: 20px;
+            margin-left: 48px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-overall-satisfaction-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-overall-satisfaction-header {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-unwavering-integrity-honesty-overall-satisfaction-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-unwavering-integrity-honesty-overall-satisfaction-ratings-text {
+            font-size: 20px;
+            margin-left: 48px;
+        }
+
+        &__desktop-genuine-commitment-container {
+            border: 2px solid $access-blue;
+            width: 480px;
+            height: 1100px;
+            border-radius: 32px;
+            margin-left: 32px;
+        }
+
+        &__desktop-genuine-commitment-ratings-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 42px;
+        }
+
+        &__desktop-rating-star-medium-icon-1 {
+            width: 50px;
+        }
+
+        &__desktop-rating-star-medium-icon {
+            width: 50px;
+            margin-left: 24px;
+        }
+
+        &__desktop-genuine-commitment-ratings-text {
+            font-size: 36px;
+            margin-left: 72px;
+        }
+
+        &__desktop-genuine-commitment-text {
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
+            margin-left: 42px;
+            margin-top: 32px;
+        }
+
+        &__desktop-genuine-commitment-description {
+            margin-left: 42px;
+            font-style: italic;
+            margin-top: 24px;
+            width: 380px;
+            text-align: justify;
+            line-height: 28px;
+        }
+
+        &__desktop-genuine-commitment-zoltan-staffing-container {
+            margin-left: 42px;
+            margin-top: 42px;
+        }
+
+        &__desktop-genuine-commitment-zoltan-staffing-header {
+            font-size: 22px;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-bottom: 8px;
+        }
+
+        &__desktop-genuine-commitment-zoltan-staffing-location {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__desktop-genuine-commitment-zoltan-staffing-date {
+            font-size: 17px;
+        }
+
+        &__desktop-genuine-commitment-content-container {
+            margin-left: 42px;
+        }
+
+        &__desktop-genuine-commitment-communication-container {
+            margin-top: 40px;
+        }
+
+        &__desktop-genuine-commitment-communication-header {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        &__desktop-genuine-commitment-communication-ratings-container {
+            display: flex;
+        }
+
+        &__desktop-genuine-commitment-rating-star-small-icon {
+            margin-left: 12px;
+        }
+
+        &__desktop-genuine-commitment-communication-ratings-text {
+            font-size: 20px;
+            margin-left: 48px;
         }
 
     }

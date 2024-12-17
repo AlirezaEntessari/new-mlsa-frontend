@@ -2331,9 +2331,381 @@ export default function RatingsMyRatingsPage() {
                       Your agency's conduct amd adherence to industry standards.
                     </p>
                     <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-professionalism-ratings-container">
-                      
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon-1"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
                     </div>
                   </div>
+                  <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-resource-quality-container">
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-resource-quality-header">
+                      Resource Quality
+                    </p>
+                    <p className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-resource-quality-description">
+                      Evaluate the agency's overall standard, suitability, and
+                      effectiveness of both the candidates and job roles.
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-resource-quality-ratings-container">
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon-1"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-star-boxed-full-icon"
+                        src={StarBoxedFullIcon}
+                        alt="Star Boxed Full Icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <button className="ratings-my-ratings-page__desktop-my-ratings-and-feedback-summary-tips-to-improve-your-rating-button">
+                  Tips to Improve Your Rating
+                </button>
+              </div>
+            </div>
+            <p className="ratings-my-ratings-page__desktop-my-feedback-received">
+              <span className="ratings-my-ratings-page__desktop-my-feedback-received-text">
+                My Feedback Received:
+                <span className="ratings-my-ratings-page__desktop-my-feedback-received-number">
+                  3
+                </span>
+              </span>
+            </p>
+            <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-genuine-commitment-aligns-with-my-values-container">
+              <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-container">
+                <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-ratings-container">
+                  <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-medium-icon-1"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                  </div>
+                  <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-ratings-text">
+                    5
+                  </p>
+                </div>
+                <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-text">
+                  Unwavering integrity, honesty...
+                </p>
+                <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-description">
+                  I highly recommend HumanRe for their exceptional recruiting
+                  services, deeply rooted in strong morals and values.
+                  Throughout my job search, HumanRe demonstrated unwavering
+                  integrity, honesty, and a genuine commitment to my career
+                  goals. They took the time to truly understand my aspirations
+                  and matched me with opportunities that aligned with my
+                  personal values and professional ambitions.
+                </p>
+                <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-xyz-staffing-agency-container">
+                  <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-xyz-staffing-agency-header">
+                    XYZ Staffing Agency
+                  </p>
+                  <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-location">
+                    Houston, TX
+                  </p>
+                  <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-date">
+                    August 30, 2024
+                  </p>
+                </div>
+                <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-content-container">
+                  <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-communication-container">
+                    <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-communication-header">
+                      Communication
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-communication-ratings-container">
+                      <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-communication-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-communication-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-professionalism-container">
+                    <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-professionalism-header">
+                      Professionalism
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-professionalism-ratings-container">
+                      <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-professionalism-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-professionalism-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-timeliness-container">
+                    <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-timeliness-header">
+                      Timeliness
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-timeliness-ratings-container">
+                      <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-timeliness-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-timeliness-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-overall-satisfaction-container">
+                    <p className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-overall-satisfaction-header">
+                      Overall Satisfaction
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-overall-satisfaction-ratings-container">
+                      <div className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-overall-satisfaction-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__desktop-unwavering-integrity-honesty-overall-satisfaction-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ratings-my-ratings-page__desktop-genuine-commitment-container">
+                <div className="ratings-my-ratings-page__desktop-genuine-commitment-ratings-container">
+                  <div className="ratings-my-ratings-page__desktop-genuine-commitment-ratings-star-container">
+                    <img
+                      className="ratings-my-ratings-page__desktop-rating-star-medium-icon-1"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                    <img
+                      className="ratings-my-ratings-page__desktop-rating-star-medium-icon"
+                      src={RatingStarMediumIcon}
+                      alt="Rating Star Medium Icon"
+                    />
+                  </div>
+                  <p className="ratings-my-ratings-page__desktop-genuine-commitment-ratings-text">
+                    4
+                  </p>
+                </div>
+                <p className="ratings-my-ratings-page__desktop-genuine-commitment-text">
+                  Genuine commitment...
+                </p>
+                <p className="ratings-my-ratings-page__desktop-genuine-commitment-description">
+                  I highly recommend HumanRe for their exceptional recruiting
+                  services, deeply rooted in strong morals and values.
+                  Throughout my job search, HumanRe demonstrated unwavering
+                  integrity, honesty, and a genuine commitment to my career
+                  goals. They took the time to truly understand my aspirations
+                  and matched me with opportunities that aligned with my
+                  personal values and professional ambitions.
+                </p>
+                <div className="ratings-my-ratings-page__desktop-genuine-commitment-zoltan-staffing-container">
+                  <p className="ratings-my-ratings-page__desktop-genuine-commitment-zoltan-staffing-header">
+                    Zoltan Staffing, Inc.
+                  </p>
+                  <p className="ratings-my-ratings-page__desktop-genuine-commitment-zoltan-staffing-location">
+                    Boca Raton, FL
+                  </p>
+                  <p className="ratings-my-ratings-page__desktop-genuine-commitment-zoltan-staffing-date">
+                    August 12, 2024
+                  </p>
+                </div>
+                <div className="ratings-my-ratings-page__desktop-genuine-commitment-content-container">
+                  <div className="ratings-my-ratings-page__desktop-genuine-commitment-communication-container">
+                    <p className="ratings-my-ratings-page__desktop-genuine-commitment-communication-header">
+                      Communication
+                    </p>
+                    <div className="ratings-my-ratings-page__desktop-genuine-commitment-communication-ratings-container">
+                      <div className="ratings-my-ratings-page__desktop-genuine-commitment-communication-ratings-star-container">
+                        <img
+                          className="ratings-my-ratings-page__desktop-genuine-commitment-rating-star-small-icon-1"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                        <img
+                          className="ratings-my-ratings-page__desktop-genuine-commitment-rating-star-small-icon"
+                          src={RatingStarSmallIcon}
+                          alt="Rating Star Small Icon"
+                        />
+                      </div>
+                      <span className="ratings-my-ratings-page__desktop-genuine-commitment-communication-ratings-text">
+                        5
+                      </span>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
