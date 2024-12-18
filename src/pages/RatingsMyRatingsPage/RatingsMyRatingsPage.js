@@ -3144,6 +3144,71 @@ export default function RatingsMyRatingsPage() {
                 not only fits my skills but also aligns with my values.
               </p>
             </div>
+            <div className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-container">
+              <p className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-header">
+                My Conflict Resolution Progress
+              </p>
+              <table className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-table">
+                <thead className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-header-row">
+                  <tr className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1">
+                    <th className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-date-header">
+                      Date
+                    </th>
+                    <th className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-agency-header">
+                      Agency
+                    </th>
+                    <th className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-issue-header">
+                      Issue
+                    </th>
+                    <th className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-progress-header">
+                      Progress
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-body">
+                  <tr className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-top-space-row"></tr>
+                  <tr className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1">
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1-date">
+                      9/15/24
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1-agency">
+                      XYZ Staffing Inc.
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1-issue">
+                      Feedback & Rating Received
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-1-progress">
+                      Step 3
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-menu-arrow-circle-down-icon-1"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                    </td>
+                  </tr>
+                  <tr className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-space-row"></tr>
+                  <tr className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-2">
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-2-date">
+                      9/30/24
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-2-agency">
+                      ABC Staffing Inc.
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-2-issue">
+                      Feedback & Rating Given
+                    </td>
+                    <td className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-data-row-2-progress">
+                      Conflict Resolved{" "}
+                      <img
+                        className="ratings-my-ratings-page__desktop-my-conflict-resolution-progress-menu-arrow-circle-down-icon-2"
+                        src={MenuArrowCircleDownIcon}
+                        alt="Menu Arrow Circle Down"
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

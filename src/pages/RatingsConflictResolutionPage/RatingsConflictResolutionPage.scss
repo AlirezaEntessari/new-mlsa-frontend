@@ -1,0 +1,179 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-conflict-resolution-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__mobile-header-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 32px;
+    }
+
+    &__mobile-header {
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-value-assurance-icon {
+        width: 150px;
+        position: absolute;
+        top: 150px;
+        right: 16px;
+    }
+
+    &__mobile-resolution-process-explained-header {
+        margin-top: 120px;
+        margin-left: 32px;
+        font-weight: 600;
+        color: $dark-navy;
+        font-size: 24px;
+    }
+
+    &__mobile-resolution-process-explained-description {
+        margin-left: 32px;
+        margin-top: 32px;
+        text-align: justify;
+        line-height: 32px;
+        width: 420px;
+    }
+
+    &__mobile-bolded-text {
+        font-weight: 500;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    &__mobile-steps-container {
+        margin-left: 32px;
+        margin-top: 64px;
+        background-color: $background-blue;
+        width: 420px;
+        height: 550px;
+        border-radius: 150px;
+    }
+
+    &__mobile-steps-inner-container {
+        padding-top: 110px;
+        padding-left: 36px;
+    }
+
+    &__mobile-step-1-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-step-1-description {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+
+    &__mobile-step-2 {
+        margin-top: 24px;
+    }
+
+    &__mobile-step-2-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-step-2-description {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+
+    &__mobile-step-3 {
+        margin-top: 24px;
+    }
+
+    &__mobile-step-3-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-step-3-description {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+
+    &__mobile-step-4 {
+        margin-top: 24px;
+    }
+
+    &__mobile-step-4-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-step-4-description {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+
+    &__mobile-step-5 {
+        margin-top: 24px;
+    }
+
+    &__mobile-step-5-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-step-5-description {
+        margin-left: 16px;
+        font-size: 17px;
+    }
+
+    &__mobile-key-to-resolving-conflicts-description {
+        margin-left: 32px;
+        margin-top: 48px;
+        text-align: justify;
+        line-height: 32px;
+        width: 420px;
+    }
+
+    &__mobile-reasons-to-give-a-negative-rating-and-feedback-container {
+        margin-left: 32px;
+        margin-top: 64px;
+    }
+
+    &__mobile-reasons-to-give-a-negative-rating-and-feedback-header {
+        font-size: 22px;
+        font-weight: 600;
+        color: $dark-navy;
+    }
+
+    &__mobile-reasons-to-give-a-negative-rating-and-feedback-list {
+        margin-left: 4px;
+    }
+
+    &__mobile-reasons-to-give-a-negative-rating-and-feedback-list li {
+        margin-top: 10px;
+    } 
+
+    &__mobile-guidelines-for-rating-agencies-and-writing-feedback-container {
+        margin-left: 32px;
+        margin-top: 64px;
+    }
+
+    &__mobile-guidelines-for-rating-agencies-and-writing-feedback-header {
+        font-size: 22px;
+        font-weight: 600;
+        color: $dark-navy;
+    }
+
+    &__mobile-guidelines-for-rating-agencies-and-writing-feedback-description {
+        margin-top: 24px;
+        text-align: justify;
+        width: 420px;
+        line-height: 32px;
+    }
+
+}

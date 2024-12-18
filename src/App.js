@@ -73,6 +73,7 @@ import HelpGlossaryPage from './pages/HelpGlossaryPage/HelpGlossaryPage';
 import RatingsHomePage from './pages/RatingsHomePage/RatingsHomePage';
 import RatingsRateAnAgencyPage from './pages/RatingsRateAnAgencyPage/RatingsRateAnAgencyPage';
 import RatingsMyRatingsPage from './pages/RatingsMyRatingsPage/RatingsMyRatingsPage';
+import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage/RatingsConflictResolutionPage';
 
 function App() {
   return (
@@ -152,6 +153,7 @@ function App() {
         <Route path="/ratings-home-page" element={<RatingsHomePage />} />
         <Route path="/ratings-rate-an-agency-page" element={<RatingsRateAnAgencyPage />} />
         <Route path="/ratings-my-ratings-page" element={<RatingsMyRatingsPage />} />
+        <Route path="/ratings-conflict-resolution-page" element={<RatingsConflictResolutionPage />} />
       </Routes>
       </BrowserRouter>
     </div>

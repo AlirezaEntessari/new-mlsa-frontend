@@ -2564,6 +2564,53 @@
             border-radius: 32px;
         }
 
+        &__desktop-my-conflict-resolution-progress-container {
+            border: 2px solid $soft-black;
+            width: 1500px;
+            height: 320px;
+            margin-left: 80px;
+            margin-top: 120px;
+            border-radius: 28px;
+        }
+
+        &__desktop-my-conflict-resolution-progress-header {
+            margin-top: 32px;
+            margin-left: 48px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-my-conflict-resolution-progress-table {
+            margin-top: 48px;
+            margin-left: 48px;
+            width: 93%;
+        }
+
+        &__desktop-my-conflict-resolution-progress-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+
+        &__desktop-my-conflict-resolution-progress-header-row th {
+            padding-bottom: 10px;
+            font-weight: 500;
+        }
+
+        &__desktop-my-conflict-resolution-progress-top-space-row {
+            height: 16px;
+        }
+
+        &__desktop-my-conflict-resolution-progress-space-row {
+            height: 32px;
+        }
+
+        &__desktop-my-conflict-resolution-progress-menu-arrow-circle-down-icon-1 {
+            margin-left: 102px;
+        }
+
+        &__desktop-my-conflict-resolution-progress-menu-arrow-circle-down-icon-2 {
+            margin-left: 20px;
+        }
+
     }
 
 }
