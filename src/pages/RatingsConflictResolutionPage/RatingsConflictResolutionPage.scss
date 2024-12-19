@@ -340,4 +340,358 @@
         margin-top: 60px;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-conflict-resolution-page {
+        padding-bottom: 15rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-header-text {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+            color: $dark-navy;
+        }
+
+        &__tablet-value-assurance-icon {
+            width: 200px;
+            position: absolute;
+            top: 150px;
+            right: 32px;
+        }
+
+        &__tablet-bolded-text {
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        &__tablet-the-resolution-process-explained-container {
+            margin-top: 100px;
+            margin-left: 32px;
+        }
+
+        &__tablet-the-resolution-process-explained-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 22px;
+        }
+
+        &__tablet-the-resolution-process-explained-description {
+            width: 700px;
+            text-align: justify;
+            line-height: 32px;
+        }
+
+        &__tablet-steps-container {
+            margin-left: 44px;
+            margin-top: 64px;
+            width: 700px;
+            height: 500px;
+            background-color: $background-blue;
+            border-radius: 50%;
+        }
+
+        &__tablet-steps-inner-container {
+            padding-left: 120px;
+            padding-top: 120px;
+        }
+
+        &__tablet-step-1-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-step-1-description {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        &__tablet-step-2 {
+            margin-top: 24px;
+        }
+
+        &__tablet-step-2-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-step-2-description {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        &__tablet-step-3 {
+            margin-top: 24px;
+        }
+
+        &__tablet-step-3-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-step-3-description {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        &__tablet-step-4 {
+            margin-top: 24px;
+        }
+
+        &__tablet-step-4-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-step-4-description {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        &__tablet-step-5 {
+            margin-top: 24px;
+        }
+
+        &__tablet-step-5-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__tablet-step-5-description {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        &__tablet-key-to-resolving-conflicts-description {
+            margin-left: 32px;
+            text-align: justify;
+            line-height: 32px;
+            width: 700px;
+            margin-top: 48px;
+        }
+
+        &__tablet-reasons-to-give-negative-rating-feedback-container {
+            margin-left: 32px;
+            margin-top: 64px;
+        }
+
+        &__tablet-reasons-to-give-negative-rating-feedback-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 22px;
+        }
+
+        &__tablet-reasons-to-give-negative-rating-feedback-list {
+            line-height: 32px;
+        }
+
+        &__tablet-guidelines-for-rating-agencies-and-writing-feedback-container {
+            margin-left: 32px;
+            margin-top: 64px;
+        }
+
+        &__tablet-guidelines-for-rating-agencies-and-writing-feedback-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 22px;
+        }
+
+        &__tablet-guidelines-for-rating-agencies-and-writing-feedback-description {
+            text-align: justify;
+            line-height: 32px;
+            width: 700px;
+        }
+
+        &__tablet-guidelines-for-rating-agencies-and-writing-feedback-list {
+            line-height: 32px;
+            margin-right: 32px;
+        }
+
+        &__tablet-guidelines-bolded-text {
+            font-weight: 500;
+        }
+
+        &__tablet-guidelines-for-rating-agencies-and-writing-feedback-bottom-description {
+            width: 700px;
+        }
+
+        &__tablet-guidelines-for-receiving-negative-ratings-or-feedback-container {
+            margin-left: 32px;
+            margin-top: 64px;
+        }
+
+        &__tablet-guidelines-for-receiving-negative-ratings-or-feedback-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 22px;
+        }
+
+        &__tablet-guidelines-for-receiving-negative-ratings-or-feedback-description {
+            text-align: justify;
+            line-height: 32px;
+            width: 700px;
+        }
+
+        &__tablet-guidelines-for-receiving-negative-ratings-or-feedback-list {
+            line-height: 32px;
+            margin-right: 32px;
+        }
+
+        &__tablet-guidelines-bold-text {
+            font-weight: 500;
+            margin-right: 5px;
+        }
+
+        &__tablet-guidelines-for-receiving-negative-ratings-or-feedback-bottom-description {
+            text-align: justify;
+            line-height: 32px;
+            width: 700px;
+        }
+
+        &__tablet-step-1-container {
+            border: 1px solid $medium-gray;
+            width: 700px;
+            height: 120px;
+            margin-left: 32px;
+            margin-top: 64px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-step-1-inner-text {
+            padding-top: 40px;
+            padding-left: 32px;
+        }
+
+        &__tablet-step-1-container-bolded-text {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-step-1-container-description {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        &__tablet-which-path-describes-your-issue {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 22px;
+            margin-left: 32px;
+            margin-top: 64px;
+        }
+
+        &__tablet-like-to-leave-have-received-negative-feedback-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-would-like-to-leave-a-negative-rating-or-feedback-container {
+            width: 334px;
+            height: 1000px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-would-like-to-leave-a-negative-rating-or-feedback-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 18px;
+            padding-top: 32px;
+            padding-left: 32px;
+            width: 300px;
+        }
+
+        &__tablet-would-like-to-leave-a-negative-rating-or-feedback-description {
+            margin-left: 32px;
+            text-align: justify;
+            line-height: 32px;
+            width: 260px;
+            margin-top: 32px;
+        }
+
+        &__tablet-would-like-to-leave-a-negative-rating-or-feedback-button-container {
+            margin-left: 40px;
+            margin-top: 80px;
+        }
+
+        &__tablet-this-describes-my-issue-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 240px;
+            height: 54px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__tablet-learn-more-about-ratings-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 240px;
+            height: 54px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-top: 32px;
+        }
+
+        &__tablet-have-received-a-negative-rating-or-feedback-container {
+            width: 334px;
+            height: 1000px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 32px;
+        }
+
+        &__tablet-have-received-a-negative-rating-or-feedback-header {
+            font-weight: 600;
+            color: $dark-navy;
+            font-size: 18px;
+            padding-top: 32px;
+            padding-left: 32px;
+            width: 300px;
+        }
+
+        &__tablet-have-received-a-negative-rating-or-feedback-description {
+            margin-left: 32px;
+            text-align: justify;
+            line-height: 32px;
+            width: 260px;
+            margin-top: 32px;
+        }
+
+        &__tablet-have-received-a-negative-rating-or-feedback-button-container {
+            margin-left: 40px;
+            margin-top: 178px;
+        }
+
+    }
+
 }
