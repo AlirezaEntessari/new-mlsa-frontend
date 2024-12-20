@@ -74,6 +74,7 @@ import RatingsHomePage from './pages/RatingsHomePage/RatingsHomePage';
 import RatingsRateAnAgencyPage from './pages/RatingsRateAnAgencyPage/RatingsRateAnAgencyPage';
 import RatingsMyRatingsPage from './pages/RatingsMyRatingsPage/RatingsMyRatingsPage';
 import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage/RatingsConflictResolutionPage';
+import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 
 function App() {
   return (
@@ -154,6 +155,7 @@ function App() {
         <Route path="/ratings-rate-an-agency-page" element={<RatingsRateAnAgencyPage />} />
         <Route path="/ratings-my-ratings-page" element={<RatingsMyRatingsPage />} />
         <Route path="/ratings-conflict-resolution-page" element={<RatingsConflictResolutionPage />} />
+        <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
       </Routes>
       </BrowserRouter>
     </div>
