@@ -6,6 +6,7 @@ import MLSAValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
 import LargeOrangeStarIcon from "../../assets/icons/LargeOrangeStar.svg";
 import GirlWithLaptopStarsIcon from "../../assets/icons/girlwithlaptopstars.svg";
 import ValuesCircleGraphic from "../../assets/logos/ValuesCircleGraphic.svg";
+import { Link } from "react-router-dom";
 
 export default function RatingsHomePage() {
   return (
@@ -30,17 +31,21 @@ export default function RatingsHomePage() {
                 <button className="ratings-home-page__mobile-rate-an-agency-button">
                   Rate an Agency
                 </button>
-                <button className="ratings-home-page__mobile-my-ratings-button">
-                  My Ratings
-                </button>
+                <Link to="/ratings-my-ratings-page">
+                  <button className="ratings-home-page__mobile-my-ratings-button">
+                    My Ratings
+                  </button>
+                </Link>
               </div>
               <div className="ratings-home-page__mobile-bottom-button-container">
                 <button className="ratings-home-page__mobile-search-agencies-button">
                   Search Agencies
                 </button>
-                <button className="ratings-home-page__mobile-conflict-resolution-button">
-                  Conflict Resolution
-                </button>
+                <Link to="/ratings-conflict-resolution-page">
+                  <button className="ratings-home-page__mobile-conflict-resolution-button">
+                    Conflict Resolution
+                  </button>
+                </Link>
               </div>
             </div>
             <p className="ratings-home-page__mobile-description-text">
@@ -239,15 +244,19 @@ export default function RatingsHomePage() {
               <button className="ratings-home-page__tablet-rate-an-agency-button">
                 Rate an Agency
               </button>
-              <button className="ratings-home-page__tablet-my-ratings-button">
-                My Ratings
-              </button>
+              <Link to="/ratings-my-ratings-page">
+                <button className="ratings-home-page__tablet-my-ratings-button">
+                  My Ratings
+                </button>
+              </Link>
               <button className="ratings-home-page__tablet-search-agencies-button">
                 Search Agencies
               </button>
-              <button className="ratings-home-page__tablet-conflict-resolution-button">
-                Conflict Resolution
-              </button>
+              <Link to="/ratings-conflict-resolution-page">
+                <button className="ratings-home-page__tablet-conflict-resolution-button">
+                  Conflict Resolution
+                </button>
+              </Link>
             </div>
             <p className="ratings-home-page__tablet-top-description-text">
               MLSA's value centered rating system is a transformative step that
@@ -444,15 +453,19 @@ export default function RatingsHomePage() {
                 <button className="ratings-home-page__desktop-rate-an-agency-button">
                   Rate an Agency
                 </button>
-                <button className="ratings-home-page__desktop-my-ratings-button">
-                  My Ratings
-                </button>
+                <Link to="/ratings-my-ratings-page">
+                  <button className="ratings-home-page__desktop-my-ratings-button">
+                    My Ratings
+                  </button>
+                </Link>
                 <button className="ratings-home-page__desktop-search-agencies-button">
                   Search Agencies
                 </button>
-                <button className="ratings-home-page__desktop-conflict-resolution-button">
-                  Conflict Resolution
-                </button>
+                <Link to="/ratings-conflict-resolution-page">
+                  <button className="ratings-home-page__desktop-conflict-resolution-button">
+                    Conflict Resolution
+                  </button>
+                </Link>
               </div>
               <img
                 className="ratings-home-page__desktop-mlsa-value-assurance-icon"
@@ -645,7 +658,9 @@ export default function RatingsHomePage() {
                 </p>
               </div>
             </div>
-            <p className="ratings-home-page__desktop-learn-more">Learn more about Ratings and Feedback</p>
+            <p className="ratings-home-page__desktop-learn-more">
+              Learn more about Ratings and Feedback
+            </p>
           </div>
         </div>
       </div>
