@@ -6,6 +6,9 @@ import SearchIcon from "../../assets/icons/Search (2).svg";
 import NotificationsIcon from "../../assets/icons/notificationbellmessage.svg";
 import CloseIcon from "../../assets/icons/xtask.svg";
 import OrangeDotIcon from "../../assets/icons/COffersDot.svg";
+import VerticalSliderMessagesIcon from "../../assets/icons/verticalslidermessages.svg";
+import MessagesFourIcon from "../../assets/icons/messagesfour.svg";
+import CreateMessageIcon from "../../assets/icons/createmessage.svg";
 
 export default function DashboardHomePage() {
   return (
@@ -71,9 +74,95 @@ export default function DashboardHomePage() {
                           src={OrangeDotIcon}
                           alt="Orange Dot Icon"
                         />
-                        Welcome New MLSA Member!
+                        <span className="dashboard-home-page__mobile-notifications-table-data-row-1-text">
+                          Welcome New MLSA Member!
+                        </span>
                         <img
                           className="dashboard-home-page__mobile-close-icon"
+                          src={CloseIcon}
+                          alt="Close Icon"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <img
+                  className="dashboard-home-page__mobile-vertical-slider-messages-icon"
+                  src={VerticalSliderMessagesIcon}
+                  alt="Vertical Slider Messages Icon"
+                />
+              </div>
+              <div className="dashboard-home-page__mobile-messages-container">
+                <div className="dashboard-home-page__mobile-messages-top-container">
+                  <p className="dashboard-home-page__mobile-messages-header">
+                    Messages
+                  </p>
+                  <img
+                    className="dashboard-home-page__mobile-messages-four-icon"
+                    src={MessagesFourIcon}
+                    alt="Messages Four Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-create-message-icon"
+                    src={CreateMessageIcon}
+                    alt="Create Message Icon"
+                  />
+                </div>
+                <table className="dashboard-home-page__mobile-messages-table">
+                  <thead className="dashboard-home-page__mobile-messages-table-header-section">
+                    <tr className="dashboard-home-page__mobile-messages-table-header-row">
+                      <th className="dashboard-home-page__mobile-messages-table-header-column-date">
+                        Date
+                      </th>
+                      <th className="dashboard-home-page__mobile-messages-table-header-column-sender">
+                        Sender
+                      </th>
+                      <th className="dashboard-home-page__mobile-messages-table-header-column-subject">
+                        Subject
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="dashboard-home-page__mobile-messages-table-body-section">
+                    <tr className="dashboard-home-page__mobile-messages-table-data-row-1">
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-1-date">
+                        <img
+                          className="dashboard-home-page__mobile-orange-dot-icon"
+                          src={OrangeDotIcon}
+                          alt="Orange Dot"
+                        />
+                        <span className="dashboard-home-page__mobile-messages-table-data-row-1-date-text">
+                          12:58 PM
+                        </span>
+                      </td>
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-1-sender">
+                        Acme Agency
+                      </td>
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-1-subject">
+                        NDA Ques...
+                        <img
+                          className="dashboard-home-page__mobile-messages-close-icon-1"
+                          src={CloseIcon}
+                          alt="Close Icon"
+                        />
+                      </td>
+                    </tr>
+                    <tr className="dashboard-home-page__mobile-messages-table-data-row-2">
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-2-date">
+                        <img
+                          className="dashboard-home-page__mobile-orange-dot-icon"
+                          src={OrangeDotIcon}
+                          alt="Orange Dot"
+                        />
+                        <span className="dashboard-home-page__mobile-messages-table-data-row-2-date-text">
+                          12:36 PM
+                        </span>
+                      </td>
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-2-sender">
+                        ABC Staffing Inc.
+                      </td>
+                      <td className="dashboard-home-page__mobile-messages-table-data-row-2-subject">
+                        Checking in...  <img
+                          className="dashboard-home-page__mobile-messages-close-icon-2"
                           src={CloseIcon}
                           alt="Close Icon"
                         />
