@@ -123,7 +123,7 @@
         margin-left: 32px;
         border: 2px solid $logo-orange;
         width: 440px;
-        height: 350px;
+        height: 400px;
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
@@ -192,6 +192,241 @@
     &__mobile-messages-table-data-row-2-date-text {
         font-size: 8px;
         padding-left: 2px;
+    }
+
+    &__mobile-messages-close-icon-1 {
+        width: 24px;
+        margin-left: 28px;
+    }
+
+    &__mobile-messages-close-icon-2 {
+        width: 24px;
+        margin-left: 16px;
+    }
+
+    &__mobile-messages-table-data-row-3-date-text {
+        font-size: 8px;
+        padding-left: 2px;
+    }
+    
+    &__mobile-messages-table-data-row-3-sender {
+        font-size: 12px;
+    }
+
+    &__mobile-messages-close-icon-3 {
+        width: 24px;
+        margin-left: 23px;
+    }
+
+    &__mobile-messages-table-data-row-4-date-text {
+        font-size: 8px;
+        padding-left: 2px;
+    }
+
+    &__mobile-messages-close-icon-4 {
+        width: 24px;
+        margin-left: 12px;
+    }
+
+    &__mobile-messages-vertical-slider-messages-icon {
+        width: 42px;
+        position: absolute;
+        top: 950px;
+        right: 48px;
+    }
+
+    &__mobile-messages-table-white-space {
+        height: 10px;
+    }
+
+    &__mobile-mobile-calendar-icon {
+        margin-left: 32px;
+        margin-top: 32px;
+        width: 440px;
+    }
+
+    &__mobile-tasks-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $logo-orange;
+        width: 440px;
+        height: 350px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+
+    &__mobile-tasks-header-container {
+        display: flex;
+    }
+
+    &__mobile-tasks-header {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        border: 2px solid $logo-orange;
+        padding-top: 20px;
+        padding-left: 24px;
+        font-size: 24px;
+        width: 200px;
+        padding-bottom: 16px;
+        border-top-right-radius: 48px;
+        border-bottom-right-radius: 48px;
+    }
+
+    &__mobile-tasks-table {
+        margin-left: 16px;
+        margin-top: 32px;
+        width: 90%;
+    }
+
+    &__mobile-task-icon-one-icon {
+        width: 64px;
+        margin-left: 140px;
+    }
+
+    &__mobile-tasks-data-row-1-date-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-gray-checkmark-icon {
+        width: 32px;
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-close-icon {
+        width: 24px;
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-gray-dot-icon {
+        width: 14px;
+    }
+
+    &__mobile-tasks-data-row-2-date-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-orange-checkmark-icon {
+        width: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-tasks-white-space {
+        height: 10px;
+    }
+
+    &__mobile-tasks-vertical-slider-messages-icon {
+        width: 36px;
+        position: absolute;
+        top: 1662px;
+        right: 36px;
+    }
+
+    &__mobile-activity-summary-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $medium-dark-gray;
+        width: 440px;
+        height: 800px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+
+    &__mobile-activity-summary-top-container {
+        display: flex;
+    }
+
+    &__mobile-activity-summary-jobs-candidates-placements-container {
+        margin-top: 16px;
+        margin-left: 36px;
+    }
+
+    &__mobile-activity-summary-header {
+        margin-top: 24px;
+        margin-left: 24px;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        color: $dark-gray;
+        font-size: 20px;
+    }
+
+    &__mobile-activity-summary-jobs-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 72px;
+    }
+
+    &__mobile-activity-summary-candidates-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 16px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-candidates-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 25px;
+    }
+
+    &__mobile-activity-summary-placements-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 16px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-placements-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-placements-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 20px;
     }
 
 }
