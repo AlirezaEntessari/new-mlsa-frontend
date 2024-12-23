@@ -16,6 +16,13 @@ import OrangeCheckmarkIcon from "../../assets/icons/orangecheckmark.svg";
 import GrayDotIcon from "../../assets/icons/graydot.svg";
 import BlueDashDividerIcon from "../../assets/icons/bluedashdivider.svg";
 import OrangeDashDividerIcon from "../../assets/icons/orangedashdivider.svg";
+import AllJobsDotIcon from "../../assets/icons/alljobsdot.svg";
+import JobsPendingBulletIcon from "../../assets/icons/JobsPendingBullet.svg";
+import JobsReviewsBulletIcon from "../../assets/icons/JobsReviewsBullet.svg";
+import JobsSubmissionsBulletIcon from "../../assets/icons/JobsSubmissionsBullet.svg";
+import JobsInterviewsBulletIcon from "../../assets/icons/JobsInterviewsBullet.svg";
+import JobsOffersBulletIcon from "../../assets/icons/JobsOffersBullet.svg";
+import JobsPlacementsBulletIcon from "../../assets/icons/JobsPlacementsBullet.svg";
 
 export default function DashboardHomePage() {
   return (
@@ -358,6 +365,112 @@ export default function DashboardHomePage() {
                     src={BlueDashDividerIcon}
                     alt="Blue Dash Divider Icon"
                   />
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-my-jobs-dashboard-container">
+                  <div className="dashboard-home-page__mobile-activity-summary-my-jobs-top-dashboard-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-all-jobs">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-all-jobs-dot-icon"
+                        src={AllJobsDotIcon}
+                        alt="All Jobs Dot Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-all-jobs-text">
+                        All Jobs
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-pending">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-pending-bullet-icon"
+                        src={JobsPendingBulletIcon}
+                        alt="Jobs Pending Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-pending-text">
+                        Pending
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-reviews">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-reviews-bullet-icon"
+                        src={JobsReviewsBulletIcon}
+                        alt="Jobs Reviews Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-reviews-text">
+                        Reviews
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-submissions">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-submissions-bullet-icon"
+                        src={JobsSubmissionsBulletIcon}
+                        alt="Jobs Submissions Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-submissions-text">
+                        Submissions
+                      </span>
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__mobile-activity-summary-my-jobs-bottom-dashboard-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-interviews">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-interviews-bullet-icon"
+                        src={JobsInterviewsBulletIcon}
+                        alt="Jobs Interviews Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-interviews-text">
+                        Interviews
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-offers">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-offers-bullet-icon"
+                        src={JobsOffersBulletIcon}
+                        alt="Jobs Offers Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-offers-text">
+                        Offers
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-placements">
+                      <img
+                        className="dashboard-home-page__mobile-activity-summary-jobs-placements-bullet-icon"
+                        src={JobsPlacementsBulletIcon}
+                        alt="Jobs Placements Bullet Icon"
+                      />
+                      <span className="dashboard-home-page__mobile-activity-summary-jobs-placements-text">
+                        Placements
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-description-status-applicants-container">
+                  <p className="dashboard-home-page__mobile-activity-summary-description">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-status">
+                    STATUS
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-applicants">
+                    APPLICANTS
+                  </p>
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-job-openings-container">
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech">
+                    CT Tech at Berkshire Medical Center
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-description">
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-status">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-duration">
+                      27 days Remaining
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-number">
+                      5
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>

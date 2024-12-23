@@ -429,4 +429,156 @@
         margin-left: 20px;
     }
 
+    &__mobile-activity-summary-my-jobs-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-my-jobs-text {
+        color: $access-blue;
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__mobile-blue-dash-divider-icon {
+        width: 300px;
+        margin-left: 22px;
+    }
+
+    &__mobile-activity-summary-my-jobs-dashboard-container {
+        margin-top: 24px;
+    }
+
+    &__mobile-activity-summary-my-jobs-top-dashboard-container {
+        display: flex;
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-all-jobs-dot-icon {
+        width: 18px;
+    }
+
+    &__mobile-activity-summary-all-jobs-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-pending {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-pending-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-pending-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-reviews {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-reviews-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-reviews-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-submissions {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-submissions-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-submissions-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-bottom-dashboard-container {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__mobile-activity-summary-jobs-interviews-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-interviews-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-offers {
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-jobs-offers-bullet-icon {
+        width: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-offers-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-placements {
+        margin-left: 43px;
+    }
+
+    &__mobile-activity-summary-jobs-placements-bullet-icon {
+        width: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-placements-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-description-status-applicants-container {
+        display: flex;
+        padding-left: 16px;
+        margin-top: 24px;
+        background-color: $background-blue;
+        height: 60px;
+    }
+
+    &__mobile-activity-summary-description {
+        padding-top: 18px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-status {
+        padding-top: 18px;
+        padding-left: 100px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-applicants {
+        padding-top: 18px;
+        padding-left: 32px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-job-openings-container {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
 }
