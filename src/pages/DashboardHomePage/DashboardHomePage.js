@@ -23,6 +23,18 @@ import JobsSubmissionsBulletIcon from "../../assets/icons/JobsSubmissionsBullet.
 import JobsInterviewsBulletIcon from "../../assets/icons/JobsInterviewsBullet.svg";
 import JobsOffersBulletIcon from "../../assets/icons/JobsOffersBullet.svg";
 import JobsPlacementsBulletIcon from "../../assets/icons/JobsPlacementsBullet.svg";
+import LeftArrowIcon from "../../assets/icons/PageArrowLeft.svg";
+import PageNumberBlueOneIcon from "../../assets/icons/PageNumberBlue1.svg";
+import PageNumberGrayTwoIcon from "../../assets/icons/PageNumberGray2.svg";
+import PageNumberGrayThreeIcon from "../../assets/icons/PageNumberGray3.svg";
+import RightArrowIcon from "../../assets/icons/PageArrowRight.svg";
+import AllCandidatesDashDotIcon from "../../assets/icons/allcandidatesdashdot.svg";
+import MyCandidatesPendingIcon from "../../assets/icons/CPendingDot.svg";
+import MyCandidatesReviewsIcon from "../../assets/icons/CReviewsDot.svg";
+import MyCandidatesSubmissionsIcon from "../../assets/icons/CSubmissionsDot.svg";
+import MyCandidatesInterviewsIcon from "../../assets/icons/CReviewsDot.svg";
+import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
+import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
 
 export default function DashboardHomePage() {
   return (
@@ -458,7 +470,7 @@ export default function DashboardHomePage() {
                     CT Tech at Berkshire Medical Center
                   </p>
                   <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-description">
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-status">
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-nature">
                       Contract
                     </span>
                     <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-duration">
@@ -471,6 +483,183 @@ export default function DashboardHomePage() {
                       5
                     </span>
                   </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech">
+                    Ultrasound Tech at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-description">
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-duration">
+                      28 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-number">
+                      8
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna">
+                    CNA at Atrium Health Union West
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna-description">
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-duration">
+                      29 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-number">
+                      10
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma">
+                    Allied CMA at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-description">
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-duration">
+                      30 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-status">
+                      Expired
+                    </span>
+                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-number">
+                      4
+                    </span>
+                  </p>
+                  <div className="dashboard-home-page__mobile-activity-summary-job-openings-navigation-container">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-job-openings-left-arrow-icon"
+                      src={LeftArrowIcon}
+                      alt="Left Arrow Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-blue-one-icon"
+                      src={PageNumberBlueOneIcon}
+                      alt="Page Number Blue One Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-two-icon"
+                      src={PageNumberGrayTwoIcon}
+                      alt="Page Number Gray Two Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-three-icon"
+                      src={PageNumberGrayThreeIcon}
+                      alt="Page Number Gray Three Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-job-openings-right-arrow-icon"
+                      src={RightArrowIcon}
+                      alt="Right Arrow Icon"
+                    />
+                  </div>
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-my-candidates-container">
+                  <div className="dashboard-home-page__mobile-activity-summary-my-candidates-top-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-my-candidates-text">
+                      MY CANDIDATES
+                    </p>
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-orange-dash-divider-icon"
+                      src={OrangeDashDividerIcon}
+                      alt="Orange Dash Divider Icon"
+                    />
+                  </div>
+                  <div className="dashboard-home-page__mobile-activity-summary-dashboard-container">
+                    <div className="dashboard-home-page__mobile-activity-summary-dashboard-top-container">
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-all-candidates">
+                        <img
+                          className="dashboard-home-page__mobile-all-candidates-dash-dot-icon"
+                          src={AllCandidatesDashDotIcon}
+                          alt="All Candidates Dash Dot Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-all-candidates-text">
+                          All Candidates
+                        </span>
+                      </p>
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-pending">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-pending-icon"
+                          src={MyCandidatesPendingIcon}
+                          alt="My Candidates Pending Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-pending-text">
+                          Pending
+                        </span>
+                      </p>
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-reviews">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-reviews-icon"
+                          src={MyCandidatesReviewsIcon}
+                          alt="My Candidates Reviews Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-reviews-text">
+                          Reviews
+                        </span>
+                      </p>
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-submissions">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-submissions-icon"
+                          src={MyCandidatesSubmissionsIcon}
+                          alt="My Candidates Submissions Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-submissions-text">
+                          Submissions
+                        </span>
+                      </p>
+                    </div>
+                    <div className="dashboard-home-page__mobile-activity-summary-dashboard-bottom-container">
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-interviews">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-interviews-icon"
+                          src={MyCandidatesInterviewsIcon}
+                          alt="My Candidates Interviews Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-dashboard-interviews-text">
+                          Interviews
+                        </span>
+                      </p>
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-offers">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-offers-icon"
+                          src={MyCandidatesOffersIcon}
+                          alt="My Candidates Offers Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-offers-text">
+                          Offers
+                        </span>
+                      </p>
+                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-placements">
+                        <img
+                          className="dashboard-home-page__mobile-my-candidates-placements-icon"
+                          src={MyCandidatesPlacementsIcon}
+                          alt="My Candidates Placements Icon"
+                        />
+                        <span className="dashboard-home-page__mobile-activity-summary-placements-text">
+                          Placements
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="dashboard-home-page__mobile-my-candidates-description-status-requests-container">
+                    <p className="dashboard-home-page__mobile-my-candidates-description-text">
+                      DESCRIPTION
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-status-text">
+                      STATUS
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-requests-text">
+                      REQUESTS
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
