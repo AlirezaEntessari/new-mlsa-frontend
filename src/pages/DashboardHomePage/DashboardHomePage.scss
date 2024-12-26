@@ -328,7 +328,7 @@
         margin-left: 32px;
         border: 2px solid $medium-dark-gray;
         width: 440px;
-        height: 2000px;
+        height: 1980px;
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
@@ -669,6 +669,7 @@
 
     &__mobile-activity-summary-job-openings-allied-cma-job-status {
         margin-left: 48px;
+        color: red;
     }
 
     &__mobile-activity-summary-job-openings-allied-cma-job-number {
@@ -846,6 +847,149 @@
         font-weight: 500;
         padding-top: 22px;
         padding-left: 28px;
+    }
+
+    &__mobile-my-candidates-dashboard-container {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-duration {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-status {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-number-of-jobs {
+        margin-left: 32px;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-duration {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-status {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-number-of-jobs {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-duration {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-status {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-number-of-jobs {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-duration {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-status {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-number-of-jobs {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-navigation-container {
+        margin-top: 64px;
+        margin-left: 104px;
+    }
+
+    &__mobile-my-candidates-page-number-peach-one-icon {
+        margin-left: 10px;   
+    }
+
+    &__mobile-my-candidates-page-number-gray-two-icon {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-page-number-gray-three-icon {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-page-number-right-arrow-icon {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .dashboard-home-page {
+        padding-bottom: 15rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
     }
 
 }

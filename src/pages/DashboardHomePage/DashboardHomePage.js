@@ -35,6 +35,7 @@ import MyCandidatesSubmissionsIcon from "../../assets/icons/CSubmissionsDot.svg"
 import MyCandidatesInterviewsIcon from "../../assets/icons/CReviewsDot.svg";
 import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
 import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
+import PageNumberPeachOneIcon from "../../assets/icons/PageNumberPeach1.svg";
 
 export default function DashboardHomePage() {
   return (
@@ -660,8 +661,110 @@ export default function DashboardHomePage() {
                       REQUESTS
                     </p>
                   </div>
+                  <div className="dashboard-home-page__mobile-my-candidates-dashboard-container">
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton">
+                      Ann Morton
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-description">
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-job-title">
+                        RN - ER
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-duration">
+                        27 Days Remaining
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-status">
+                        Active
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-number-of-jobs">
+                        2 Jobs
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis">
+                      Sarah Davis
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-description">
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-job-title">
+                        Ultrasound Tech
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-duration">
+                        34 Days Remaining
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-status">
+                        Active
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-number-of-jobs">
+                        4 Jobs
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams">
+                      Joe Williams
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-description">
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-job-title">
+                        CNA
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-duration">
+                        35 Days Remaining
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-status">
+                        Active
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-number-of-jobs">
+                        5 Jobs
+                      </span>
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson">
+                      Tim Peterson
+                    </p>
+                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-description">
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-job-title">
+                        RN-ER
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-duration">
+                        0 Days Remaining
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-status">
+                        Expired
+                      </span>
+                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-number-of-jobs">
+                        0 Jobs
+                      </span>
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__mobile-my-candidates-navigation-container">
+                    <img
+                      className="dashboard-home-page__mobile-my-candidates-left-arrow-icon"
+                      src={LeftArrowIcon}
+                      alt="Left Arrow Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-my-candidates-page-number-peach-one-icon"
+                      src={PageNumberPeachOneIcon}
+                      alt="Page Number Peach One Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-my-candidates-page-number-gray-two-icon"
+                      src={PageNumberGrayTwoIcon}
+                      alt="Page Number Gray Two Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-my-candidates-page-number-gray-three-icon"
+                      src={PageNumberGrayThreeIcon}
+                      alt="Page Number Gray Three Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__mobile-my-candidates-page-number-right-arrow-icon"
+                      src={RightArrowIcon}
+                      alt="Right Arrow Icon"
+                    />
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="dashboard-home-page__tablet-container">
+            <div className="dashboard-home-page__tablet-top-container">
+              <p className="dashboard-home-page__tablet-quick-search-header">Quick Search</p>
             </div>
           </div>
         </div>
