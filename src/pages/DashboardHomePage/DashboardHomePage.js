@@ -764,7 +764,75 @@ export default function DashboardHomePage() {
           </div>
           <div className="dashboard-home-page__tablet-container">
             <div className="dashboard-home-page__tablet-top-container">
-              <p className="dashboard-home-page__tablet-quick-search-header">Quick Search</p>
+              <p className="dashboard-home-page__tablet-quick-search-header">
+                Quick Search
+              </p>
+              <select
+                className="dashboard-home-page__tablet-candidates-select"
+                name="tablet-candidates"
+                id="tablet-candidates"
+              >
+                <option value="Candidates" selected>
+                  Candidates
+                </option>
+              </select>
+              <input
+                className="dashboard-home-page__tablet-keyword-input"
+                type="text"
+                placeholder="Keyword"
+              />
+              <img
+                className="dashboard-home-page__tablet-search-icon"
+                src={SearchIcon}
+                alt="Search Icon"
+              />
+            </div>
+            <div className="dashboard-home-page__tablet-notifications-messages-container">
+              <div className="dashboard-home-page__tablet-notifications-container">
+                <div className="dashboard-home-page__tablet-notifications-top-container">
+                  <p className="dashboard-home-page__tablet-notifications-header">
+                    Notifications
+                  </p>
+                  <img
+                    className="dashboard-home-page__tablet-notifications-icon"
+                    src={NotificationsIcon}
+                    alt="Notifications Icon"
+                  />
+                </div>
+                <table className="dashboard-home-page__tablet-notifications-table">
+                  <thead className="dashboard-home-page__tablet-notifications-table-header-section">
+                    <tr className="dashboard-home-page__tablet-notifications-table-header-row">
+                      <th className="dashboard-home-page__tablet-notifications-table-header-column-needs-attention">
+                        Needs Attention
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="dashboard-home-page__tablet-notifications-table-data-section">
+                    <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
+                      <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
+                        <img
+                          className="dashboard-home-page__tablet-orange-dot-icon"
+                          src={OrangeDotIcon}
+                          alt="Orange Dot Icon"
+                        />
+                        <span className="dashboard-home-page__tablet-notifications-table-data-row-1-text">
+                          Welcome New MLSA Member!
+                        </span>
+                        <img
+                          className="dashboard-home-page__tablet-close-icon"
+                          src={CloseIcon}
+                          alt="Close Icon"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <img
+                  className="dashboard-home-page__tablet-vertical-slider-messages-icon"
+                  src={VerticalSliderMessagesIcon}
+                  alt="Vertical Slider Messages Icon"
+                />
+              </div>
             </div>
           </div>
         </div>
