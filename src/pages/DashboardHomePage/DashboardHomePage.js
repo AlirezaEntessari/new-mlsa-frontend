@@ -1042,13 +1042,236 @@ export default function DashboardHomePage() {
                 </p>
                 <div className="dashboard-home-page__tablet-activity-summary-jobs-candidates-placements-container">
                   <div className="dashboard-home-page__tablet-activity-summary-jobs-container">
-                    <p className="dashboard-home-page__tablet-activity-summary-jobs-header">
+                    <p className="dashboard-home-page__tablet-activity-summary-jobs-text">
                       Jobs
                     </p>
                     <p className="dashboard-home-page__tablet-activity-summary-jobs-number">
                       17
                     </p>
                   </div>
+                  <div className="dashboard-home-page__tablet-activity-summary-candidates-container">
+                    <p className="dashboard-home-page__tablet-activity-summary-candidates-text">
+                      Candidates
+                    </p>
+                    <p className="dashboard-home-page__tablet-activity-summary-candidates-number">
+                      12
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__tablet-activity-summary-placements-container">
+                    <p className="dashboard-home-page__tablet-activity-summary-placements-text">
+                      Placements
+                    </p>
+                    <p className="dashboard-home-page__tablet-activity-summary-placements-number">
+                      29
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="dashboard-home-page__tablet-activity-summary-my-jobs-container">
+                <div className="dashboard-home-page__tablet-activity-summary-my-jobs-header-container">
+                  <p className="dashboard-home-page__tablet-activity-summary-my-jobs-header-text">
+                    MY JOBS
+                  </p>
+                  <img
+                    className="dashboard-home-page__tablet-blue-dash-divider-icon"
+                    src={BlueDashDividerIcon}
+                    alt="Blue Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__tablet-activity-summary-my-jobs-top-dashboard-container">
+                  <p className="dashboard-home-page__tablet-activity-summary-my-jobs-all-jobs">
+                    <img
+                      className="dashboard-home-page__tablet-activity-summary-all-jobs-dot-icon"
+                      src={AllJobsDotIcon}
+                      alt="All Jobs Dot Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-all-jobs-text">
+                      All Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-my-jobs-pending">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-pending-bullet-icon"
+                      src={JobsPendingBulletIcon}
+                      alt="Jobs Pending Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-reviews">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-reviews-bullet-icon"
+                      src={JobsReviewsBulletIcon}
+                      alt="Jobs Reviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-submissions">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-submissions-bullet-icon"
+                      src={JobsSubmissionsBulletIcon}
+                      alt="Jobs Submissions Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-interviews">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-interviews-bullet-icon"
+                      src={JobsInterviewsBulletIcon}
+                      alt="Jobs Interviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-offers">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-offers-bullet-icon"
+                      src={JobsOffersBulletIcon}
+                      alt="Jobs Offers Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-activity-summary-placements">
+                    <img
+                      className="dashboard-home-page__tablet-jobs-placements-bullet-icon"
+                      src={JobsPlacementsBulletIcon}
+                      alt="Jobs Placements Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-activity-summary-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-description-status-applicants-container">
+                  <p className="dashboard-home-page__tablet-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-home-page__tablet-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-home-page__tablet-applicants-text">
+                    APPLICANTS
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-my-jobs-job-description-container">
+                  <p className="dashboard-home-page__tablet-ct-tech">
+                    CT Tech at Berkshire Medical Center
+                  </p>
+                  <p className="dashboard-home-page__tablet-ct-tech-description">
+                    <span className="dashboard-home-page__tablet-ct-tech-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__tablet-ct-tech-job-duration">
+                      27 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-ct-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-ct-tech-job-number-of-applicants">
+                      5 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-ultrasound-tech">
+                    Ultrasound Tech at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-home-page__tablet-ultrasound-tech-description">
+                    <span className="dashboard-home-page__tablet-ultrasound-tech-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__tablet-ultrasound-tech-job-duration">
+                      28 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-ultrasound-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-ultrasound-tech-job-number-of-applicants">
+                      8 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-cna">
+                    CNA at Atrium Health Union West
+                  </p>
+                  <p className="dashboard-home-page__tablet-cna-description">
+                    <span className="dashboard-home-page__tablet-cna-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__tablet-cna-job-duration">
+                      29 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-cna-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-cna-job-number-of-applicants">
+                      10 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-allied-cma">
+                    Allied CMA at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-home-page__tablet-allied-cma-description">
+                    <span className="dashboard-home-page__tablet-allied-cma-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-home-page__tablet-allied-cma-duration">
+                      30 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-allied-cma-status">
+                      Expired
+                    </span>
+                    <span className="dashboard-home-page__tablet-allied-cma-applicants">
+                      4 Candidates
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-my-jobs-navigation-container">
+                  <img
+                    className="dashboard-home-page__tablet-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-page-number-blue-one-icon"
+                    src={PageNumberBlueOneIcon}
+                    alt="Page Number Blue One Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-home-page__tablet-activity-summary-my-candidates-container">
+                <div className="dashboard-home-page__tablet-activity-summary-my-candidates-header-container">
+                  <p className="dashboard-home-page__tablet-activity-summary-my-candidates-header-text">
+                    MY CANDIDATES
+                  </p>
+                  <img
+                    className="dashboard-home-page__tablet-orange-dash-divider-icon"
+                    src={OrangeDashDividerIcon}
+                    alt="Orange Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__tablet-top-dashboard-container">
+                  
                 </div>
               </div>
             </div>
