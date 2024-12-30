@@ -1727,6 +1727,164 @@
             margin-left: 16px;
         }
 
+        &__tablet-top-dashboard-container {
+            margin-top: 32px;
+            margin-left: 8px;
+            display: flex;
+        }
+
+        &__tablet-all-candidates-dash-dot-icon {
+            width: 18px;
+        }
+
+        &__tablet-my-candidates-all-candidates-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-pending {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-pending-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-pending-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-reviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-reviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-reviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-submissions {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-submissions-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-submissions-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-interviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-interviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-interviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-offers {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-offers-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-offers-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-placements {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-placements-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-placements-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-description-status-requests-container {
+            background-color: $my-candidates-light-orange;
+            display: flex;
+            margin-top: 32px;
+            height: 60px;
+        }
+
+        &__tablet-my-candidates-description-text {
+            padding-top: 18px;
+            padding-left: 32px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-status-text {
+            padding-top: 18px;
+            padding-left: 320px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-requests-text {
+            padding-top: 18px;
+            padding-left: 72px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-ann-morton {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-ann-morton-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-ann-morton-duration {
+            margin-left: 112px;
+        }
+
+        &__tablet-my-candidates-ann-morton-status {
+            margin-left: 124px;
+        }
+
+        &__tablet-my-candidates-ann-morton-requests {
+            margin-left: 94px;
+            text-decoration: underline;
+        }
+
     }
 
 }

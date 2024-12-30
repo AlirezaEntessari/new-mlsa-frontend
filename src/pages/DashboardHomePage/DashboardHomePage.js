@@ -1271,7 +1271,106 @@ export default function DashboardHomePage() {
                   />
                 </div>
                 <div className="dashboard-home-page__tablet-top-dashboard-container">
-                  
+                  <p className="dashboard-home-page__tablet-my-candidates-all-candidates">
+                    <img
+                      className="dashboard-home-page__tablet-all-candidates-dash-dot-icon"
+                      src={AllCandidatesDashDotIcon}
+                      alt="All Candidates Dash Dat Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-all-candidates-text">
+                      All Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-pending">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-pending-icon"
+                      src={MyCandidatesPendingIcon}
+                      alt="My Candidates Pending Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-reviews">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-reviews-icon"
+                      src={MyCandidatesReviewsIcon}
+                      alt="My Candidates Reviews Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-submissions">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-submissions-icon"
+                      src={MyCandidatesSubmissionsIcon}
+                      alt="My Candidates Submissions Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-interviews">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-interviews-icon"
+                      src={MyCandidatesInterviewsIcon}
+                      alt="My Candidates Interviews Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-offers">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-offers-icon"
+                      src={MyCandidatesOffersIcon}
+                      alt="My Candidates Offers Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-placements">
+                    <img
+                      className="dashboard-home-page__tablet-my-candidates-placements-icon"
+                      src={MyCandidatesPlacementsIcon}
+                      alt="My Candidates Placements Icon"
+                    />
+                    <span className="dashboard-home-page__tablet-my-candidates-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-my-candidates-description-status-requests-container">
+                  <p className="dashboard-home-page__tablet-my-candidates-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-requests-text">
+                    REQUESTS
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-my-candidates-description-container">
+                  <p className="dashboard-home-page__tablet-my-candidates-ann-morton">
+                    Ann Morton
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-ann-morton-description">
+                    <span className="dashboard-home-page__tablet-my-candidates-ann-morton-job-title">
+                      RN - ER
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-ann-morton-duration">
+                      27 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-ann-morton-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-ann-morton-requests">
+                      2 Jobs
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
