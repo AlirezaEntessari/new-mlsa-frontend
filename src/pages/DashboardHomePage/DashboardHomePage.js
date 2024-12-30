@@ -763,275 +763,278 @@ export default function DashboardHomePage() {
             </div>
           </div>
           <div className="dashboard-home-page__tablet-container">
-            <div className="dashboard-home-page__tablet-top-container">
-              <p className="dashboard-home-page__tablet-quick-search-header">
-                Quick Search
-              </p>
-              <select
-                className="dashboard-home-page__tablet-candidates-select"
-                name="tablet-candidates"
-                id="tablet-candidates"
-              >
-                <option value="Candidates" selected>
-                  Candidates
-                </option>
-              </select>
-              <input
-                className="dashboard-home-page__tablet-keyword-input"
-                type="text"
-                placeholder="Keyword"
-              />
-              <img
-                className="dashboard-home-page__tablet-search-icon"
-                src={SearchIcon}
-                alt="Search Icon"
-              />
-            </div>
-            <div className="dashboard-home-page__tablet-notifications-messages-container">
-              <div className="dashboard-home-page__tablet-notifications-container">
-                <div className="dashboard-home-page__tablet-notifications-top-container">
-                  <p className="dashboard-home-page__tablet-notifications-header">
-                    Notifications
-                  </p>
-                  <img
-                    className="dashboard-home-page__tablet-notifications-icon"
-                    src={NotificationsIcon}
-                    alt="Notifications Icon"
-                  />
-                </div>
-                <table className="dashboard-home-page__tablet-notifications-table">
-                  <thead className="dashboard-home-page__tablet-notifications-table-header-section">
-                    <tr className="dashboard-home-page__tablet-notifications-table-header-row">
-                      <th className="dashboard-home-page__tablet-notifications-table-header-column-needs-attention">
-                        Needs Attention
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="dashboard-home-page__tablet-notifications-table-data-section">
-                    <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
-                      <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
-                        <img
-                          className="dashboard-home-page__tablet-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot Icon"
-                        />
-                        <span className="dashboard-home-page__tablet-notifications-table-data-row-1-text">
-                          Welcome New MLSA Member!
-                        </span>
-                        <img
-                          className="dashboard-home-page__tablet-close-icon"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+            <div className="dashboard-home-page__tablet-central-container">
+              <div className="dashboard-home-page__tablet-top-container">
+                <p className="dashboard-home-page__tablet-quick-search-header">
+                  Quick Search
+                </p>
+                <select
+                  className="dashboard-home-page__tablet-candidates-select"
+                  name="tablet-candidates"
+                  id="tablet-candidates"
+                >
+                  <option value="Candidates" selected>
+                    Candidates
+                  </option>
+                </select>
+                <input
+                  className="dashboard-home-page__tablet-keyword-input"
+                  type="text"
+                  placeholder="Keyword"
+                />
                 <img
-                  className="dashboard-home-page__tablet-vertical-slider-notifications-icon"
-                  src={VerticalSliderMessagesIcon}
-                  alt="Vertical Slider Messages Icon"
+                  className="dashboard-home-page__tablet-search-icon"
+                  src={SearchIcon}
+                  alt="Search Icon"
                 />
               </div>
-              <div className="dashboard-home-page__tablet-messages-container">
-                <div className="dashboard-home-page__tablet-messages-top-container">
-                  <p className="dashboard-home-page__tablet-messages-header">
-                    Messages
-                  </p>
+
+              <div className="dashboard-home-page__tablet-notifications-messages-container">
+                <div className="dashboard-home-page__tablet-notifications-container">
+                  <div className="dashboard-home-page__tablet-notifications-top-container">
+                    <p className="dashboard-home-page__tablet-notifications-header">
+                      Notifications
+                    </p>
+                    <img
+                      className="dashboard-home-page__tablet-notifications-icon"
+                      src={NotificationsIcon}
+                      alt="Notifications Icon"
+                    />
+                  </div>
+                  <table className="dashboard-home-page__tablet-notifications-table">
+                    <thead className="dashboard-home-page__tablet-notifications-table-header-section">
+                      <tr className="dashboard-home-page__tablet-notifications-table-header-row">
+                        <th className="dashboard-home-page__tablet-notifications-table-header-column-needs-attention">
+                          Needs Attention
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-home-page__tablet-notifications-table-data-section">
+                      <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
+                        <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-home-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-home-page__tablet-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-home-page__tablet-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                   <img
-                    className="dashboard-home-page__tablet-messages-four-icon"
-                    src={MessagesFourIcon}
-                    alt="Messages Four Icon"
-                  />
-                  <img
-                    className="dashboard-home-page__tablet-create-message-icon"
-                    src={CreateMessageIcon}
-                    alt="Create Message Icon"
+                    className="dashboard-home-page__tablet-vertical-slider-notifications-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
                   />
                 </div>
-                <table className="dashboard-home-page__tablet-messages-table">
-                  <thead className="dashboard-home-page__tablet-messages-table-header-section">
-                    <tr className="dashboard-home-page__tablet-messages-table-header-row">
-                      <th className="dashboard-home-page__tablet-messages-table-header-column-date">
-                        Date
-                      </th>
-                      <th className="dashboard-home-page__tablet-messages-table-header-column-sender">
-                        Sender
-                      </th>
-                      <th className="dashboard-home-page__tablet-messages-table-header-column-subject">
-                        Subject
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="dashboard-home-page__tablet-messages-table-body-section">
-                    <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
-                    <tr className="dashboard-home-page__tablet-messages-table-data-row-1">
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-1-date">
-                        <img
-                          className="dashboard-home-page__tablet-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot"
-                        />
-                        <span className="dashboard-home-page__tablet-messages-table-data-row-1-date-text">
-                          12:58 PM
-                        </span>
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-1-sender">
-                        Acme Agency
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-1-subject">
-                        NDA Ques...
-                        <img
-                          className="dashboard-home-page__tablet-messages-close-icon-1"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
-                    <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
-                    <tr className="dashboard-home-page__tablet-messages-table-data-row-2">
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-2-date">
-                        <img
-                          className="dashboard-home-page__tablet-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot"
-                        />
-                        <span className="dashboard-home-page__tablet-messages-table-data-row-2-date-text">
-                          12:36 PM
-                        </span>
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-2-sender">
-                        ABC Staffing Inc.
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-2-subject">
-                        Checking in...{" "}
-                        <img
-                          className="dashboard-home-page__tablet-messages-close-icon-2"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
-                    <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
-                    <tr className="dashboard-home-page__tablet-messages-table-data-row-3">
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-3-date">
-                        <img
-                          className="dashboard-home-page__tablet-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot"
-                        />
-                        <span className="dashboard-home-page__tablet-messages-table-data-row-3-date-text">
-                          Fri 7/19
-                        </span>
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-3-sender">
-                        Beta Staffing Agency
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-3-subject">
-                        Partnership...
-                        <img
-                          className="dashboard-home-page__tablet-messages-close-icon-3"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
-                    <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
-                    <tr className="dashboard-home-page__tablet-messages-table-data-row-4">
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-4-date">
-                        {" "}
-                        <img
-                          className="dashboard-home-page__tablet-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot"
-                        />
-                        <span className="dashboard-home-page__tablet-messages-table-data-row-4-date-text">
-                          Fri 7/19
-                        </span>
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-4-sender">
-                        Circular Staffing
-                      </td>
-                      <td className="dashboard-home-page__tablet-messages-table-data-row-4-subject">
-                        Re: Partnersh...
-                        <img
-                          className="dashboard-home-page__tablet-messages-close-icon-4"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <img
-                  className="dashboard-home-page__tablet-messages-vertical-slider-messages-icon"
-                  src={VerticalSliderMessagesIcon}
-                  alt="Vertical Slider Messages Icon"
-                />
+                <div className="dashboard-home-page__tablet-messages-container">
+                  <div className="dashboard-home-page__tablet-messages-top-container">
+                    <p className="dashboard-home-page__tablet-messages-header">
+                      Messages
+                    </p>
+                    <img
+                      className="dashboard-home-page__tablet-messages-four-icon"
+                      src={MessagesFourIcon}
+                      alt="Messages Four Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__tablet-create-message-icon"
+                      src={CreateMessageIcon}
+                      alt="Create Message Icon"
+                    />
+                  </div>
+                  <table className="dashboard-home-page__tablet-messages-table">
+                    <thead className="dashboard-home-page__tablet-messages-table-header-section">
+                      <tr className="dashboard-home-page__tablet-messages-table-header-row">
+                        <th className="dashboard-home-page__tablet-messages-table-header-column-date">
+                          Date
+                        </th>
+                        <th className="dashboard-home-page__tablet-messages-table-header-column-sender">
+                          Sender
+                        </th>
+                        <th className="dashboard-home-page__tablet-messages-table-header-column-subject">
+                          Subject
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-home-page__tablet-messages-table-body-section">
+                      <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-home-page__tablet-messages-table-data-row-1">
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-1-date">
+                          <img
+                            className="dashboard-home-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-home-page__tablet-messages-table-data-row-1-date-text">
+                            12:58 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-1-subject">
+                          NDA Ques...
+                          <img
+                            className="dashboard-home-page__tablet-messages-close-icon-1"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-home-page__tablet-messages-table-data-row-2">
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-2-date">
+                          <img
+                            className="dashboard-home-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-home-page__tablet-messages-table-data-row-2-date-text">
+                            12:36 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-2-sender">
+                          ABC Staffing Inc.
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-2-subject">
+                          Checking in...{" "}
+                          <img
+                            className="dashboard-home-page__tablet-messages-close-icon-2"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-home-page__tablet-messages-table-data-row-3">
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-3-date">
+                          <img
+                            className="dashboard-home-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-home-page__tablet-messages-table-data-row-3-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-3-sender">
+                          Beta Staffing Agency
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-3-subject">
+                          Partnership...
+                          <img
+                            className="dashboard-home-page__tablet-messages-close-icon-3"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-home-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-home-page__tablet-messages-table-data-row-4">
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-4-date">
+                          {" "}
+                          <img
+                            className="dashboard-home-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-home-page__tablet-messages-table-data-row-4-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-4-sender">
+                          Circular Staffing
+                        </td>
+                        <td className="dashboard-home-page__tablet-messages-table-data-row-4-subject">
+                          Re: Partnersh...
+                          <img
+                            className="dashboard-home-page__tablet-messages-close-icon-4"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <img
+                    className="dashboard-home-page__tablet-messages-vertical-slider-messages-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="dashboard-home-page__tablet-calendar-tasks-container">
-              <img
-                className="dashboard-home-page__tablet-calendar-icon"
-                src={MobileCalendarIcon}
-                alt="Calendar Icon"
-              />
-              <div className="dashboard-home-page__tablet-tasks-container">
-                <div className="dashboard-home-page__tablet-tasks-header-container">
-                  <p className="dashboard-home-page__tablet-tasks-header">
-                    Tasks
-                  </p>
-                  <img
-                    className="dashboard-home-page__tablet-task-icon-one-icon"
-                    src={TaskIconOneIcon}
-                    alt="Task Icon One Icon"
-                  />
-                </div>
-                <div className="dashboard-home-page__tablet-tasks-first-row-container">
-                  <img
-                    className="dashboard-home-page__tablet-orange-dot-icon"
-                    src={OrangeDotIcon}
-                    alt="Orange Dot Icon"
-                  />
-                  <p className="dashboard-home-page__tablet-tasks-first-row-date">
-                    9/13/24
-                  </p>
-                  <p className="dashboard-home-page__tablet-tasks-first-row-task-description">
-                    Call Kelly Re: New Applicant
-                  </p>
-                  <img
-                    className="dashboard-home-page__tablet-gray-checkmark-icon"
-                    src={GrayCheckmarkIcon}
-                    alt="Gray Checkmark Icon"
-                  />
-                  <img
-                    className="dashboard-home-page__tablet-tasks-first-row-close-icon"
-                    src={CloseIcon}
-                    alt="Close Icon"
-                  />
-                </div>
-                <div className="dashboard-home-page__tablet-second-row-container">
-                  <img
-                    className="dashboard-home-page__tablet-gray-dot-icon"
-                    src={GrayDotIcon}
-                    alt="Gray Dot Icon"
-                  />
-                  <p className="dashboard-home-page__tablet-tasks-second-row-date">
-                    9/10/24
-                  </p>
-                  <p className="dashboard-home-page__tablet-tasks-second-row-task-description">
-                    Call Jerry about Contract
-                  </p>
-                  <img
-                    className="dashboard-home-page__tablet-orange-checkmark-icon"
-                    src={OrangeCheckmarkIcon}
-                    alt="Orange Checkmark Icon"
-                  />
-                  <img
-                    className="dashboard-home-page__tablet-tasks-second-row-close-icon"
-                    src={CloseIcon}
-                    alt="Close Icon"
-                  />
+              <div className="dashboard-home-page__tablet-calendar-tasks-container">
+                <img
+                  className="dashboard-home-page__tablet-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Calendar Icon"
+                />
+                <div className="dashboard-home-page__tablet-tasks-container">
+                  <div className="dashboard-home-page__tablet-tasks-header-container">
+                    <p className="dashboard-home-page__tablet-tasks-header">
+                      Tasks
+                    </p>
+                    <img
+                      className="dashboard-home-page__tablet-task-icon-one-icon"
+                      src={TaskIconOneIcon}
+                      alt="Task Icon One Icon"
+                    />
+                  </div>
+                  <div className="dashboard-home-page__tablet-tasks-first-row-container">
+                    <img
+                      className="dashboard-home-page__tablet-orange-dot-icon"
+                      src={OrangeDotIcon}
+                      alt="Orange Dot Icon"
+                    />
+                    <p className="dashboard-home-page__tablet-tasks-first-row-date">
+                      9/13/24
+                    </p>
+                    <p className="dashboard-home-page__tablet-tasks-first-row-task-description">
+                      Call Kelly Re: New Applicant
+                    </p>
+                    <img
+                      className="dashboard-home-page__tablet-gray-checkmark-icon"
+                      src={GrayCheckmarkIcon}
+                      alt="Gray Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__tablet-tasks-first-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
+                  <div className="dashboard-home-page__tablet-second-row-container">
+                    <img
+                      className="dashboard-home-page__tablet-gray-dot-icon"
+                      src={GrayDotIcon}
+                      alt="Gray Dot Icon"
+                    />
+                    <p className="dashboard-home-page__tablet-tasks-second-row-date">
+                      9/10/24
+                    </p>
+                    <p className="dashboard-home-page__tablet-tasks-second-row-task-description">
+                      Call Jerry about Contract
+                    </p>
+                    <img
+                      className="dashboard-home-page__tablet-orange-checkmark-icon"
+                      src={OrangeCheckmarkIcon}
+                      alt="Orange Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-home-page__tablet-tasks-second-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -1371,6 +1374,107 @@ export default function DashboardHomePage() {
                       2 Jobs
                     </span>
                   </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-sarah-davis">
+                    Sarah Davis
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-sarah-davis-description">
+                    <span className="dashboard-home-page__tablet-my-candidates-sarah-davis-job-title">
+                      Ultrasound Tech
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-sarah-davis-duration">
+                      34 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-sarah-davis-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-sarah-davis-requests">
+                      4 Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-joe-williams">
+                    Joe Williams
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-joe-williams-description">
+                    <span className="dashboard-home-page__tablet-my-candidates-joe-williams-job-title">
+                      CNA
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-joe-williams-duration">
+                      35 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-joe-williams-status">
+                      Active
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-joe-williams-requests">
+                      5 Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-tim-peterson">
+                    Tim Peterson
+                  </p>
+                  <p className="dashboard-home-page__tablet-my-candidates-tim-peterson-description">
+                    <span className="dashboard-home-page__tablet-my-candidates-tim-peterson-job-title">
+                      RN - ER
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-tim-peterson-duration">
+                      0 Days Remaining
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-tim-peterson-status">
+                      Expired
+                    </span>
+                    <span className="dashboard-home-page__tablet-my-candidates-tim-peterson-requests">
+                      0 Jobs
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__tablet-my-candidates-navigation-container">
+                  <img
+                    className="dashboard-home-page__tablet-my-candidates-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-my-candidates-page-number-peach-one-icon"
+                    src={PageNumberPeachOneIcon}
+                    alt="Page Number Peach One Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-my-candidates-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-my-candidates-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__tablet-my-candidates-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="dashboard-home-page__desktop-container">
+            <div className="dashboard-home-page__desktop-top-container">
+              <p className="dashboard-home-page__desktop-quick-search-header">
+                Quick Search
+              </p>
+              <select
+                className="dashboard-home-page__desktop-candidates-select"
+                name="desktop-candidates"
+                id="desktop-candidates"
+              >
+                <option value="candidates" selected>Candidates</option>
+              </select>
+              <input className="dashboard-home-page__desktop-candidates-input" type="text" placeholder="Keyword" />
+            </div>
+            <div className="dashboard-home-page__desktop-notifications-messages-container">
+              <div className="dashboard-home-page__desktop-notifications-container">
+                <div className="dashboard-home-page__desktop-notifications-header-container">
+                  <p className="dashboard-home-page__desktop-notifications-header">Notifications</p>
+                  <img src={NotificationsIcon} alt="Notifications Icon" />
                 </div>
               </div>
             </div>
