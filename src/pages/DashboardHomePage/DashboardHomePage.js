@@ -1660,15 +1660,117 @@ export default function DashboardHomePage() {
               </div>
             </div>
             <div className="dashboard-home-page__mobile-calendar-tasks-container">
-              <img className="dashboard-home-page__desktop-calendar-icon" src={MobileCalendarIcon} alt="Mobile Calendar Icon" />
+              <img
+                className="dashboard-home-page__desktop-calendar-icon"
+                src={MobileCalendarIcon}
+                alt="Mobile Calendar Icon"
+              />
               <div className="dashboard-home-page__desktop-tasks-container">
                 <div className="dashboard-home-page__desktop-tasks-header-container">
-                  <p className="dashboard-home-page__desktop-tasks-header">Tasks</p>
+                  <p className="dashboard-home-page__desktop-tasks-header">
+                    Tasks
+                  </p>
                   <img
-                      className="dashboard-home-page__desktop-task-icon-one-icon"
-                      src={TaskIconOneIcon}
-                      alt="Task Icon One Icon"
-                    />
+                    className="dashboard-home-page__desktop-tasks-icon-one-icon"
+                    src={TaskIconOneIcon}
+                    alt="Task Icon One Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__desktop-tasks-first-row-container">
+                  <img
+                    className="dashboard-home-page__desktop-tasks-first-row-orange-dot-icon"
+                    src={OrangeDotIcon}
+                    alt="Orange Dot Icon"
+                  />
+                  <p className="dashboard-home-page__desktop-tasks-first-row-date">
+                    9/13/24
+                  </p>
+                  <p className="dashboard-home-page__desktop-tasks-first-row-task-description">
+                    Call Kelly Re: New Applicant
+                  </p>
+                  <img
+                    className="dashboard-home-page__desktop-tasks-first-row-gray-checkmark-icon"
+                    src={GrayCheckmarkIcon}
+                    alt="Gray Checkmark Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__desktop-tasks-first-row-close-icon"
+                    src={CloseIcon}
+                    alt="Close Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__desktop-tasks-second-row-container">
+                  <img
+                    className="dashboard-home-page__desktop-tasks-second-row-gray-dot-icon"
+                    src={GrayDotIcon}
+                    alt="Gray Dot Icon"
+                  />
+                  <p className="dashboard-home-page__desktop-tasks-second-row-date">
+                    9/10/24
+                  </p>
+                  <p className="dashboard-home-page__desktop-tasks-second-row-task-description">
+                    Call Jerry about Contract
+                  </p>
+                  <img
+                    className="dashboard-home-page__desktop-tasks-second-row-orange-checkmark-icon"
+                    src={OrangeCheckmarkIcon}
+                    alt="Orange Checkmark Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__desktop-tasks-second-row-close-icon"
+                    src={CloseIcon}
+                    alt="Close Icon"
+                  />
+                </div>
+                <img
+                  className="dashboard-home-page__desktop-tasks-second-row-vertical-slider-messages-icon"
+                  src={VerticalSliderMessagesIcon}
+                  alt="Vertical Slider Messages Icon"
+                />
+              </div>
+            </div>
+            <div className="dashboard-home-page__desktop-activity-summary-container">
+              <div className="dashboard-home-page__desktop-activity-summary-top-container">
+                <p className="dashboard-home-page__desktop-activity-summary-header">
+                  Activity Summary
+                </p>
+                <div className="dashboard-home-page__desktop-activity-summary-jobs-candidates-placements-container">
+                  <div className="dashboard-home-page__desktop-activity-summary-jobs-container">
+                    <p className="dashboard-home-page__desktop-activity-summary-jobs-text">
+                      Jobs
+                    </p>
+                    <p className="dashboard-home-page__desktop-activity-summary-jobs-number">
+                      0
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__desktop-activity-summary-candidates-container">
+                    <p className="dashboard-home-page__desktop-activity-summary-candidates-text">
+                      Candidates
+                    </p>
+                    <p className="dashboard-home-page__desktop-activity-summary-candidates-number">
+                      0
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__desktop-activity-summary-placements-container">
+                    <p className="dashboard-home-page__desktop-activity-summary-placements-text">
+                      Placements
+                    </p>
+                    <p className="dashboard-home-page__desktop-activity-summary-placements-number">
+                      0
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="dashboard-home-page__desktop-activity-summary-my-jobs-container">
+                <div className="dashboard-home-page__desktop-activity-summary-my-jobs-top-container">
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-header">
+                    MY JOBS
+                  </p>
+                  <img
+                    className="dashboard-home-page__desktop-activity-summary-my-jobs-blue-dash-divider-icon"
+                    src={BlueDashDividerIcon}
+                    alt="Blue Dash Divider Icon"
+                  />
                 </div>
               </div>
             </div>
