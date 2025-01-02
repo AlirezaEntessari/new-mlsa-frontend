@@ -1772,6 +1772,193 @@ export default function DashboardHomePage() {
                     alt="Blue Dash Divider Icon"
                   />
                 </div>
+                <div className="dashboard-home-page__desktop-activity-summary-my-jobs-dashboard-container">
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-all-jobs">
+                    <img
+                      className="dashboard-home-page__desktop-all-jobs-dot-icon"
+                      src={AllJobsDotIcon}
+                      alt="All Jobs Dot Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-all-jobs-text">
+                      All Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-pending">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-pending-bullet-icon"
+                      src={JobsPendingBulletIcon}
+                      alt="Jobs Pending Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-reviews">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-reviews-bullet-icon"
+                      src={JobsReviewsBulletIcon}
+                      alt="Jobs Reviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-submissions">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-submissions-bullet-icon"
+                      src={JobsSubmissionsBulletIcon}
+                      alt="Jobs Submissions Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-interviews">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-interviews-bullet-icon"
+                      src={JobsInterviewsBulletIcon}
+                      alt="Jobs Interviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-offers">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-offers-bullet-icon"
+                      src={JobsOffersBulletIcon}
+                      alt="Jobs Offers Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-placements">
+                    <img
+                      className="dashboard-home-page__desktop-jobs-placements-bullet-icon"
+                      src={JobsPlacementsBulletIcon}
+                      alt="Jobs Placements Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-jobs-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__desktop-activity-summary-my-jobs-description-status-applicants-container">
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-jobs-applicants-text">
+                    APPLICANTS
+                  </p>
+                </div>
+                <button className="dashboard-home-page__desktop-post-my-first-job-button">
+                  Post My First Job
+                </button>
+                <div className="dashboard-home-page__desktop-activity-summary-my-jobs-navigation-container">
+                  <img
+                    className="dashboard-home-page__desktop-activity-summary-my-jobs-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__desktop-activity-summary-my-jobs-page-number-blue-one-icon"
+                    src={PageNumberBlueOneIcon}
+                    alt="Page Number Blue One Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__desktop-activity-summary-my-jobs-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-home-page__desktop-activity-summary-my-candidates-container">
+                <div className="dashboard-home-page__desktop-activity-summary-my-candidates-top-container">
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-header">
+                    MY CANDIDATES
+                  </p>
+                  <img
+                    className="dashboard-home-page__desktop-orange-dash-divider-icon"
+                    src={OrangeDashDividerIcon}
+                    alt="Orange Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__desktop-activity-summary-my-candidates-dashboard-container">
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-all-candidates">
+                    <img
+                      className="dashboard-home-page__desktop-all-candidates-dash-dot-icon"
+                      src={AllCandidatesDashDotIcon}
+                      alt="All Candidates Dash Dot Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-all-candidates-text">
+                      All Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-pending">
+                    <img
+                      className="dashboard-home-page__desktop-my-candidates-pending-icon"
+                      src={MyCandidatesPendingIcon}
+                      alt="My Candidates Pending Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-reviews">
+                    <img
+                      className="dashboard-home-page__desktop-activity-summary-my-candidates-reviews-icon"
+                      src={MyCandidatesReviewsIcon}
+                      alt="My Candidates Reviews Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-submissions">
+                    <img
+                      className="dashboard-home-page__desktop-activity-summary-my-candidates-submissions-icon"
+                      src={MyCandidatesSubmissionsIcon}
+                      alt="My Candidates Submissions Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-interviews">
+                    <img
+                      className="dashboard-home-page__desktop-my-candidates-interviews-icon"
+                      src={MyCandidatesInterviewsIcon}
+                      alt="My Candidates Interviews Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-offers">
+                    <img
+                      className="dashboard-home-page__desktop-my-candidates-offers-icon"
+                      src={MyCandidatesOffersIcon}
+                      alt="My Candidates Offers Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__desktop-activity-summary-my-candidates-placements">
+                    <img
+                      className="dashboard-home-page__desktop-my-candidates-placements-icon"
+                      src={MyCandidatesPlacementsIcon}
+                      alt="My Candidates Placements Icon"
+                    />
+                    <span className="dashboard-home-page__desktop-activity-summary-my-candidates-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
