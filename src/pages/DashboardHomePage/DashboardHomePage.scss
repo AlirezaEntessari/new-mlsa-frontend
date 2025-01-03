@@ -994,6 +994,13 @@
             display: inherit;
         }
 
+        &__desktop-first-half-container {
+            background-color: $my-candidates-light-orange;
+            height: 1200px;
+            padding-top: 50px;
+            width: 1700px;
+        }
+
         &__tablet-top-container {
             display: flex;
             margin-left: 32px;
@@ -2012,6 +2019,7 @@
 @include desktop {
 
     .dashboard-home-page {
+        padding-bottom: 20rem;
 
         &__tablet-container {
             display: none;
@@ -2375,7 +2383,7 @@
             margin-top: 100px;
             border: 2px solid $medium-dark-gray;
             width: 1504px;
-            height: 1840px;
+            height: 1600px;
             border-bottom-left-radius: 28px;
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
@@ -2640,6 +2648,7 @@
             margin-top: 72px;
             margin-left: 570px;
             border-radius: 32px;
+            font-size: 17px;
         }
 
         &__desktop-activity-summary-my-jobs-navigation-container {
@@ -2777,6 +2786,59 @@
             font-size: 17px;
             font-weight: 500;
             color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-description-status-requests-container {
+            display: flex;
+            margin-top: 48px;
+            background-color: $my-candidates-light-orange;
+            height: 72px;
+        }
+
+        &__desktop-activity-summary-my-candidates-description-text {
+            padding-top: 20px;
+            padding-left: 80px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-candidates-status-text {
+            padding-top: 20px;
+            padding-left: 912px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-candidates-requests-text {
+            padding-top: 20px;
+            padding-left: 104px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-post-my-first-candidate-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 320px;
+            height: 50px;
+            margin-top: 72px;
+            margin-left: 570px;
+            border-radius: 32px;
+            font-size: 17px;
+        }
+
+        &__desktop-activity-summary-my-candidates-navigation-container {
+            margin-top: 72px;
+            margin-left: 610px;
+        }
+
+        &__desktop-activity-summary-my-candidates-page-number-peach-one-icon {
+            margin-left: 75px;
+        }
+
+        &__desktop-activity-summary-my-candidates-right-arrow-icon {
+            margin-left: 75px;
         }
 
     }

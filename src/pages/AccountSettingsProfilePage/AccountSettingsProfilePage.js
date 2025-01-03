@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AccountSettingsProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import ProfilePic from "../../assets/icons/profilepicnav.svg";
@@ -6,8 +6,39 @@ import UploadIcon from "../../assets/icons/UPload (2).svg";
 import RadioButton from "../../assets/icons/RadioButtonGrayOff.svg";
 import AccountSettingsNavbar from "../../components/AccountSettingsNavbar/AccountSettingsNavbar";
 import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/AccountSettingsSidePanel";
+import axios from "axios";
 
 export default function AccountSettingsProfilePage() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    biography: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSaveDraft = async () => {
+    console.log(formData); // Debugging: log the formData
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/save-draft",
+        formData
+      );
+      alert(response.data.message || "Draft saved successfully!");
+    } catch (error) {
+      console.error("Error saving draft:", error);
+      alert("Failed to save draft. Please try again.");
+    }
+  };
+
   return (
     <div className="account-settings-profile">
       <AccountSettingsHeader />
@@ -42,14 +73,20 @@ export default function AccountSettingsProfilePage() {
           <div className="account-settings-profile__name-container">
             <input
               className="account-settings-profile__name-input"
+              name="firstName"
               id="name"
               type="text"
               placeholder="First Name"
+              value={formData.firstName}
+              onChange={handleInputChange}
             />
             <input
               className="account-settings-profile__last-name-input"
+              name="lastName"
               type="text"
               placeholder="Last Name"
+              value={formData.lastName}
+              onChange={handleInputChange}
             />
           </div>
           <label
@@ -60,8 +97,11 @@ export default function AccountSettingsProfilePage() {
           </label>
           <input
             className="account-settings-profile__email-input"
+            name="email"
             type="text"
             id="email"
+            value={formData.email}
+            onChange={handleInputChange}
           />
           <label
             className="account-settings-profile__phone-label"
@@ -72,6 +112,10 @@ export default function AccountSettingsProfilePage() {
           <input
             className="account-settings-profile__phone-input"
             type="text"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleInputChange}
           />
           <div className="account-settings-profile__tablet-photo-container">
             <div className="account-settings-profile__photo-text-container">
@@ -122,10 +166,15 @@ export default function AccountSettingsProfilePage() {
           </div>
           <textarea
             className="account-settings-profile__text-area"
-            name="account"
+            name="biography"
             id="account"
+            value={formData.biography}
+            onChange={handleInputChange}
           ></textarea>
-          <button className="account-settings-profile__save-draft-button">
+          <button
+            className="account-settings-profile__save-draft-button"
+            onClick={handleSaveDraft}
+          >
             Save Draft
           </button>
         </div>
