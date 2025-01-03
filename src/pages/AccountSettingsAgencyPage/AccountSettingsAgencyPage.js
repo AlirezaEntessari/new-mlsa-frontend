@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AccountSettingsAgencyPage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import AccountSettingsNavbar from "../../components/AccountSettingsNavbar/AccountSettingsNavbar";
@@ -7,8 +7,50 @@ import HumanReLogo from "../../assets/icons/HumanReLogo.svg";
 import UploadIcon from "../../assets/icons/UPload (2).svg";
 import RadioButton from "../../assets/icons/RadioButtonGrayOff.svg";
 import CheckboxIcon from "../../assets/icons/CheckBoxEmpty.svg";
+import axios from "axios";
 
 export default function AccountSettingsAgencyPage() {
+  const [formData, setFormData] = useState({
+    nameOfAgency: "",
+    agencyPhone: "",
+    agencyWebsite: "",
+    facebookLink: "",
+    instagramLink: "",
+    youtubeLink: "",
+    aboutYourAgency: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSaveDraft = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/save-agency-draft",
+        formData
+      );
+      alert(response.data.message || "Draft saved successfully!");
+      // Clear the form after successful submission
+      setFormData({
+        nameOfAgency: "",
+        agencyPhone: "",
+        agencyWebsite: "",
+        facebookLink: "",
+        instagramLink: "",
+        youtubeLink: "",
+        aboutYourAgency: "",
+      });
+    } catch (error) {
+      console.error("Error saving draft:", error);
+      alert("Failed to save draft. Please try again.");
+    }
+  };
+
   return (
     <div className="account-settings-agency">
       <AccountSettingsHeader />
@@ -44,6 +86,9 @@ export default function AccountSettingsAgencyPage() {
             className="account-settings-agency__name-of-agency-input"
             type="text"
             id="name-of-agency"
+            name="nameOfAgency"
+            value={formData.nameOfAgency}
+            onChange={handleInputChange}
           />
           <label
             className="account-settings-agency__agency-phone-label"
@@ -55,6 +100,9 @@ export default function AccountSettingsAgencyPage() {
             className="account-settings-agency__agency-phone-input"
             type="text"
             id="agency-phone"
+            name="agencyPhone"
+            value={formData.agencyPhone}
+            onChange={handleInputChange}
           />
           <label
             className="account-settings-agency__agency-website-label"
@@ -65,6 +113,10 @@ export default function AccountSettingsAgencyPage() {
           <input
             className="account-settings-agency__agency-website-input"
             type="text"
+            id="agency-website"
+            name="agencyWebsite"
+            value={formData.agencyWebsite}
+            onChange={handleInputChange}
           />
           <div className="account-settings-agency__general-container">
             <div className="account-settings-agency__agency-logo-container">
@@ -101,16 +153,25 @@ export default function AccountSettingsAgencyPage() {
             className="account-settings-agency__facebook-input"
             type="text"
             placeholder="Facebook Link"
+            name="facebookLink"
+            value={formData.facebookLink}
+            onChange={handleInputChange}
           />
           <input
             className="account-settings-agency__instagram-input"
             type="text"
             placeholder="Instagram Link"
+            name="instagramLink"
+            value={formData.instagramLink}
+            onChange={handleInputChange}
           />
           <input
             className="account-settings-agency__youtube-input"
             type="text"
             placeholder="YouTube Link"
+            name="youtubeLink"
+            value={formData.youtubeLink}
+            onChange={handleInputChange}
           />
           <div className="account-settings-agency__about-your-agency-general-container">
             <div className="account-settings-agency__about-your-agency-header-container">
@@ -133,8 +194,16 @@ export default function AccountSettingsAgencyPage() {
               </span>
             </p>
           </div>
-          <textarea className="account-settings-agency__text-area"></textarea>
-          <button className="account-settings-agency__save-draft-button">
+          <textarea
+            className="account-settings-agency__text-area"
+            name="aboutYourAgency"
+            value={formData.aboutYourAgency}
+            onChange={handleInputChange}
+          ></textarea>
+          <button
+            className="account-settings-agency__save-draft-button"
+            onClick={handleSaveDraft}
+          >
             Save Bio Draft
           </button>
           <div className="account-settings-agency__bottom-container">

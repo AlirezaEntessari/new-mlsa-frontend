@@ -33,6 +33,15 @@ export default function AccountSettingsProfilePage() {
         formData
       );
       alert(response.data.message || "Draft saved successfully!");
+
+      // Clear all input fields
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        biography: "",
+      });
     } catch (error) {
       console.error("Error saving draft:", error);
       alert("Failed to save draft. Please try again.");

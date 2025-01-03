@@ -181,6 +181,8 @@
         width: 450px;
         height: 300px;
         border-radius: 8px;
+        padding-left: 16px;
+        padding-top: 14px;
     }
 
     &__save-draft-button {
@@ -401,6 +403,8 @@
             width: 750px;
             height: 300px;
             border-radius: 8px;
+            padding-left: 16px;
+            padding-top: 14px;
         }
 
         &__save-draft-button {
@@ -421,7 +425,7 @@
 
     .account-settings-profile {
 
-        padding-bottom: 100px;
+        padding-bottom: 20rem;
 
         &__main-container {
             display: flex;
@@ -458,21 +462,21 @@
         }
     
         &__personal-details-cancel-button {
-            width: 130px;
-            height: 34px;
+            width: 160px;
+            height: 42px;
             border: 1px solid $dark-navy;
             border-radius: 6px;
             background-color: $white-background;
             border-radius: 20px; 
             position: absolute;
-            left: 790px;
+            left: 1100px;
             bottom: 0px;
             font-size: 16px;
         }
 
         &__personal-details-save-changes-button {
-            width: 150px;
-            height: 34px;
+            width: 180px;
+            height: 42px;
             border: 1px solid $dark-navy;
             border-radius: 6px;
             background-color: $white-background;
@@ -480,7 +484,7 @@
             background-color: $dark-navy;
             color: $white-text;
             position: absolute;
-            left: 940px;
+            left: 1300px;
             bottom: 0px;
             font-size: 16px;
         }
@@ -498,8 +502,8 @@
             display: block;
             margin-left: 60px;
             margin-top: 3px;
-            width: 600px;
-            height: 47px;
+            width: 724px;
+            height: 54px;
             padding-left: 10px;
             border-radius: 8px;
             border: 1px solid $medium-gray;
@@ -507,10 +511,9 @@
 
         &__last-name-input {
             display: block;
-            margin-left: 24px;
-            margin-top: 0px;
-            width: 600px;
-            height: 47px;
+            margin-left: 36px;
+            width: 724px;
+            height: 54px;
             padding-left: 10px;
             border-radius: 8px;
             border: 1px solid $medium-gray;
@@ -526,8 +529,8 @@
             display: block;
             margin-left: 60px;
             margin-top: 3px;
-            width: 600px;
-            height: 47px;
+            width: 724px;
+            height: 54px;
             padding-left: 10px;
             border-radius: 8px;
             border: 1px solid $medium-gray;
@@ -542,8 +545,8 @@
             display: block;
             margin-left: 60px;
             margin-top: 3px;
-            width: 600px;
-            height: 47px;
+            width: 724px;
+            height: 54px;
             padding-left: 10px;
             border-radius: 8px;
             border: 1px solid $medium-gray;
@@ -578,7 +581,8 @@
 
         &__right-photo-container {
             border: 1px solid $soft-black;
-            margin-left: 44px;
+            // margin-left: 44px;
+            margin-left: 370px;
             width: 500px;
             border-radius: 6px;
             font-size: 14px;
@@ -633,18 +637,20 @@
         &__text-area {
             margin-top: 24px;
             margin-left: 60px;
-            width: 1142px;
+            width: 1474px;
             height: 300px;
             border-radius: 8px;
+            padding-left: 16px;
+            padding-top: 14px;
         }
 
         &__save-draft-button {
-            width: 150px;
+            width: 180px;
             background-color: $white-background;
             border: 2px solid $soft-black;
-            border-radius: 20px;
-            height: 36px;
-            margin-left: 570px;
+            border-radius: 32px;
+            height: 48px;
+            margin-left: 700px;
             margin-top: 60px;
         }
 
