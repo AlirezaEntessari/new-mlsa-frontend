@@ -1,12 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AccountSettingsPasswordPage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/AccountSettingsSidePanel";
 import AccountSettingsNavbar from "../../components/AccountSettingsNavbar/AccountSettingsNavbar";
 import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
+import axios from "axios";
 
 export default function AccountSettingsPasswordPage() {
+  const [passwordData, setPasswordData] = useState({
+    password: "",
+    confirmPassword: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setPasswordData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async () => {
+    const { password, confirmPassword } = passwordData;
+
+    // Validate passwords
+    if (password !== confirmPassword) {
+      alert("Passwords do not match. Please try again.");
+      return;
+    }
+
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/account-settings/password",
+        { password, confirmPassword }
+      );
+      alert(response.data.message || "Password updated successfully!");
+      setPasswordData({ password: "", confirmPassword: "" }); // Reset inputs
+    } catch (error) {
+      console.error("Error updating password:", error);
+      alert("Failed to update password. Please try again.");
+    }
+  };
+
   return (
     <div className="account-settings-password">
       <AccountSettingsHeader />
@@ -94,8 +130,11 @@ export default function AccountSettingsPasswordPage() {
               />
               <input
                 className="account-settings-password__password-input"
-                type="text"
+                type="password"
                 placeholder="Enter your password"
+                name="password"
+                value={passwordData.password}
+                onChange={handleInputChange}
               />
               <label
                 className="account-settings-password__confirm-password-label"
@@ -115,13 +154,19 @@ export default function AccountSettingsPasswordPage() {
               />
               <input
                 className="account-settings-password__confirm-password-input"
-                type="text"
+                type="password"
                 placeholder="Enter your password again"
+                name="confirmPassword"
+                value={passwordData.confirmPassword}
+                onChange={handleInputChange}
               />
               <button className="account-settings-password__cancel-button">
                 Cancel
               </button>
-              <button className="account-settings-password__save-changes-button">
+              <button
+                className="account-settings-password__save-changes-button"
+                onClick={handleSubmit}
+              >
                 Save Changes
               </button>
             </div>

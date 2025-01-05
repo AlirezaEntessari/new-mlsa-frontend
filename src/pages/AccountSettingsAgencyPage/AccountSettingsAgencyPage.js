@@ -20,9 +20,23 @@ export default function AccountSettingsAgencyPage() {
     aboutYourAgency: "",
   });
 
+  const [teamMember, setTeamMember] = useState({
+    nameOfTeamMember: "",
+    teamMemberEmail: "",
+  });
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Handles input changes for team member form
+  const handleTeamMemberInputChange = (e) => {
+    const { name, value } = e.target;
+    setTeamMember((prevData) => ({
       ...prevData,
       [name]: value,
     }));
@@ -48,6 +62,36 @@ export default function AccountSettingsAgencyPage() {
     } catch (error) {
       console.error("Error saving draft:", error);
       alert("Failed to save draft. Please try again.");
+    }
+  };
+
+  const handleAddTeamMember = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/team-members",
+        teamMember
+      );
+      alert(response.data.message || "Team member added successfully!");
+      // Reset the teamMember state
+      setTeamMember({ nameOfTeamMember: "", teamMemberEmail: "" });
+    } catch (error) {
+      console.error("Error adding team member:", error);
+      alert("Failed to add team member. Please try again.");
+    }
+  };
+
+  const handleDeleteTeamMember = async () => {
+    try {
+      const response = await axios.delete(
+        "http://localhost:5000/api/team-members",
+        { data: teamMember }
+      );
+      alert(response.data.message || "Team member deleted successfully!");
+      // Reset the teamMember state
+      setTeamMember({ nameOfTeamMember: "", teamMemberEmail: "" });
+    } catch (error) {
+      console.error("Error deleting team member:", error);
+      alert("Failed to delete team member. Please try again.");
     }
   };
 
@@ -223,6 +267,9 @@ export default function AccountSettingsAgencyPage() {
               className="account-settings-agency__name-of-team-member-input"
               type="text"
               id="name-of-team-member"
+              name="nameOfTeamMember"
+              value={teamMember.nameOfTeamMember}
+              onChange={handleTeamMemberInputChange}
             />
             <label
               className="account-settings-agency__team-member-email-label"
@@ -233,8 +280,15 @@ export default function AccountSettingsAgencyPage() {
             <input
               className="account-settings-agency__team-member-email-input"
               type="text"
+              id="team-member-email"
+              name="teamMemberEmail"
+              value={teamMember.teamMemberEmail}
+              onChange={handleTeamMemberInputChange}
             />
-            <button className="account-settings-agency__add-team-member-button">
+            <button
+              className="account-settings-agency__add-team-member-button"
+              onClick={handleAddTeamMember}
+            >
               Add Team Member
             </button>
             <p className="account-settings-agency__current-team-members">
@@ -361,7 +415,10 @@ export default function AccountSettingsAgencyPage() {
                 Kim Miller
               </span>
             </p>
-            <button className="account-settings-agency__delete-team-member-button">
+            <button
+              className="account-settings-agency__delete-team-member-button"
+              onClick={handleDeleteTeamMember}
+            >
               Delete Team Member
             </button>
           </div>
