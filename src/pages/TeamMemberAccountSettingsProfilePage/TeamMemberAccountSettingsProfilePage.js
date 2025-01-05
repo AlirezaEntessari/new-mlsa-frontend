@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TeamMemberAccountSettingsProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/AccountSettingsSidePanel";
@@ -6,8 +6,35 @@ import TeamMemberAccountSettingsNavbar from "../../components/TeamMemberAccountS
 import ProfilePic from "../../assets/icons/profilepicnav.svg";
 import UploadIcon from "../../assets/icons/UPload (2).svg";
 import RadioButtonOff from "../../assets/icons/RadioButtonGrayOff.svg";
+import axios from "axios";
 
 export default function TeamMemberAccountSettingsProfilePage() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    biography: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSaveDraft = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/account-settings/user-profile",
+        formData
+      );
+      alert("Profile saved successfully!");
+    } catch (error) {
+      console.error("Error saving profile:", error);
+      alert("Failed to save profile. Please try again.");
+    }
+  };
+
   return (
     <div className="team-member-account-settings-profile">
       <AccountSettingsHeader />
@@ -47,11 +74,17 @@ export default function TeamMemberAccountSettingsProfilePage() {
               id="name"
               type="text"
               placeholder="First Name"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleInputChange}
             />
             <input
               className="team-member-account-settings-profile__last-name-input"
               type="text"
               placeholder="Last Name"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
             />
           </div>
           <label
@@ -64,6 +97,9 @@ export default function TeamMemberAccountSettingsProfilePage() {
             className="team-member-account-settings-profile__email-input"
             id="email"
             type="text"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
           />
           <label
             className="team-member-account-settings-profile__phone-label"
@@ -75,6 +111,9 @@ export default function TeamMemberAccountSettingsProfilePage() {
             className="team-member-account-settings-profile__phone-input"
             id="phone"
             type="text"
+            name="phone"
+            value={formData.phone}
+            onChange={handleInputChange}
           />
           <div className="team-member-account-settings-profile__photo-upload-container">
             <div className="team-member-account-settings-profile__your-photo-container">
@@ -129,9 +168,14 @@ export default function TeamMemberAccountSettingsProfilePage() {
           </div>
           <textarea
             className="team-member-account-settings-profile__text-area"
-            name="text-area"
+            name="biography"
+            value={formData.biography}
+            onChange={handleInputChange}
           ></textarea>
-          <button className="team-member-account-settings-profile__save-draft-button">
+          <button
+            className="team-member-account-settings-profile__save-draft-button"
+            onClick={handleSaveDraft}
+          >
             Save Draft
           </button>
         </div>
