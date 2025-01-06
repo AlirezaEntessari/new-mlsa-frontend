@@ -14,6 +14,7 @@ import CircleButtonOffIcon from "../../assets/icons/CircleButtonOff.svg";
 import ModalPostJob from "../../components/ModalPostJob/ModalPostJob";
 import ModalSaveDraft from "../../components/ModalSaveDraft/ModalSaveDraft";
 import ModalClearForm from "../../components/ModalClearForm/ModalClearForm";
+import axios from "axios";
 
 export default function MyJobsPostJobPage() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -42,6 +43,52 @@ export default function MyJobsPostJobPage() {
 
   const closeModalClearForm = () => {
     setIsModalClearFormVisible(false);
+  };
+
+  const initialFormData = {
+    clientName: "",
+    agencyJobId: "",
+    country: "",
+    state: "",
+    city: "",
+    zipCode: "",
+    jobTitle: "",
+    industry: "",
+    jobType: "",
+    openings: "",
+    citizenship: "",
+    typeOfVisa: "",
+    experienceLevel: "",
+    salaryType: "",
+    environment: "",
+    startDate: "",
+    travel: "",
+    paidRelocation: "",
+    bonus: "",
+    requiredEducation: "",
+    jobDescription: "",
+    requirement1: "",
+    comments: "",
+    requiredSkills: "",
+    placementFee: "",
+    guaranteePeriod: "",
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async () => {
+    try {
+      await axios.post("http://localhost:5000/api/post-job", formData);
+      alert("Job posted successfully!");
+      setFormData(initialFormData); // Reset form fields after successful submission
+    } catch (error) {
+      alert("An error occurred while posting the job.");
+    }
   };
 
   return (
@@ -144,6 +191,9 @@ export default function MyJobsPostJobPage() {
                 id="mobile-client-name"
                 type="text"
                 placeholder="Enter Client Name"
+                name="clientName"
+                value={formData.clientName}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-agency-job-id-number-container">
@@ -157,6 +207,9 @@ export default function MyJobsPostJobPage() {
                 className="my-jobs-post-job-page__mobile-agency-job-id-number-input"
                 type="text"
                 id="mobile-agency-job-id"
+                name="agencyJobId"
+                value={formData.agencyJobId}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-country-state-container">
@@ -169,10 +222,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-country-select"
-                  name="mobile-country"
                   id="mobile-country"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleChange}
                 >
-                  <option value="USA" disabled selected>
+                  <option value="USA" selected>
                     USA
                   </option>
                   <option value="EU">EU</option>
@@ -190,10 +245,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-state-select"
-                  name="mobile-state"
                   id="mobile-state"
+                  name="state"
+                  value={formData.state}
+                  onChange={handleChange}
                 >
-                  <option value="Alabama" disabled selected>
+                  <option value="Alabama" selected>
                     AL
                   </option>
                   <option value="Alaska">AK</option>
@@ -260,6 +317,9 @@ export default function MyJobsPostJobPage() {
                   type="text"
                   id="mobile-city"
                   placeholder="Enter City"
+                  name="city"
+                  value={formData.city}
+                  onChange={handleChange}
                 />
               </div>
               <div className="my-jobs-post-job-page__mobile-zip-code-container">
@@ -274,6 +334,9 @@ export default function MyJobsPostJobPage() {
                   type="text"
                   id="mobile-zip-code"
                   placeholder="5-digit Zip Code"
+                  name="zipCode"
+                  value={formData.zipCode}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -289,6 +352,9 @@ export default function MyJobsPostJobPage() {
                 type="text"
                 id="mobile-job-title"
                 placeholder="Enter Job Title"
+                name="jobTitle"
+                value={formData.jobTitle}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-industry-job-type-container">
@@ -301,10 +367,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-industry-select"
-                  name="mobile-industry"
                   id="mobile-industry"
+                  name="industry"
+                  value={formData.industry}
+                  onChange={handleChange}
                 >
-                  <option value="aerospace-defense" disabled selected>
+                  <option value="aerospace-defense" selected>
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -338,13 +406,14 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-job-type-select"
-                  name="mobile-job-type"
                   id="mobile-job-type"
+                  name="jobType"
+                  value={formData.jobType}
+                  onChange={handleChange}
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Full Time
                   </option>
-
                   <option value="part-time">Part Time</option>
                   <option value="contract">Contract</option>
                   <option value="internship">Internship</option>
@@ -361,10 +430,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-openings-select"
-                  name="mobile-openings"
                   id="mobile-openings"
+                  name="openings"
+                  value={formData.openings}
+                  onChange={handleChange}
                 >
-                  <option value="0" disabled selected>
+                  <option value="0" selected>
                     0
                   </option>
                   <option value="1">1</option>
@@ -388,10 +459,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-citizenship-select"
-                  name="mobile-citizenship"
                   id="mobile-citizenship"
+                  name="citizenship"
+                  value={formData.citizenship}
+                  onChange={handleChange}
                 >
-                  <option value="US Citizen" disabled selected>
+                  <option value="US Citizen" selected>
                     US Citizen
                   </option>
                   <option value="VISA">VISA</option>
@@ -409,10 +482,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-type-of-visa-select"
-                  name="mobile-type-of-visa"
                   id="mobile-type-of-visa"
+                  name="typeOfVisa"
+                  value={formData.typeOfVisa}
+                  onChange={handleChange}
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Select ...
                   </option>
                   <option value="permanent resident">Permanent Resident</option>
@@ -433,10 +508,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-experience-level-select"
-                  name="mobile-experience-level"
                   id="mobile-experience-level"
+                  name="experienceLevel"
+                  value={formData.experienceLevel}
+                  onChange={handleChange}
                 >
-                  <option value="0 - 1 years" disabled selected>
+                  <option value="0 - 1 years" selected>
                     0 - 1 years
                   </option>
                   <option value="1 - 2 years">1 - 2 years</option>
@@ -459,13 +536,15 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-salary-type-select"
-                  name="mobile-salary-type"
                   id="mobile-salary-type"
+                  name="salaryType"
+                  value={formData.salaryType}
+                  onChange={handleChange}
                 >
-                  <option value="annual" disabled selected>
+                  <option value="annual" selected>
                     Annual
                   </option>
-                  <option value="weekly" disabled selected>
+                  <option value="weekly">
                     Weekly
                   </option>
                   <option value="biweekly">Biweekly</option>
@@ -483,10 +562,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-environment-select"
-                  name="mobile-environment"
                   id="mobile-environment"
+                  name="environment"
+                  value={formData.environment}
+                  onChange={handleChange}
                 >
-                  <option value="on-site" disabled selected>
+                  <option value="on-site" selected>
                     On-site
                   </option>
                   <option value="remote">Remote</option>
@@ -510,6 +591,9 @@ export default function MyJobsPostJobPage() {
                   type="text"
                   id="mobile-start-date"
                   placeholder="mm/dd/yy"
+                  name="startDate"
+                  value={formData.startDate}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -562,10 +646,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-travel-select"
-                  name="mobile-travel"
                   id="mobile-travel"
+                  name="travel"
+                  value={formData.travel}
+                  onChange={handleChange}
                 >
-                  <option value="none required" disabled selected>
+                  <option value="none required" selected>
                     None Required
                   </option>
                   <option value="weekly">weekly</option>
@@ -583,8 +669,10 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-paid-relocation-select"
-                  name="paid-relocation"
                   id="paid-relocation"
+                  name="paidRelocation"
+                  value={formData.paidRelocation}
+                  onChange={handleChange}
                 >
                   <option value="unknown">Unknown</option>
                   <option value="known">Known</option>
@@ -600,8 +688,10 @@ export default function MyJobsPostJobPage() {
               </label>
               <select
                 className="my-jobs-post-job-page__mobile-bonus-select"
-                name="mobile-bonus"
                 id="mobile-bonus"
+                name="bonus"
+                value={formData.bonus}
+                onChange={handleChange}
               >
                 <option value="unknown">Unknown</option>
                 <option value="known">Known</option>
@@ -618,6 +708,9 @@ export default function MyJobsPostJobPage() {
                 className="my-jobs-post-job-page__mobile-required-education-input"
                 type="text"
                 placeholder="Enter Required Education"
+                name="requiredEducation"
+                value={formData.requiredEducation}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-job-description-container">
@@ -629,9 +722,11 @@ export default function MyJobsPostJobPage() {
               </label>
               <textarea
                 className="my-jobs-post-job-page__mobile-job-description-text-area"
-                name="mobile-job-description"
                 id="mobile-job-description"
                 placeholder="Enter Job Description"
+                name="jobDescription"
+                value={formData.jobDescription}
+                onChange={handleChange}
               ></textarea>
             </div>
             <p className="my-jobs-post-job-page__candidate-requirements-text">
@@ -645,6 +740,9 @@ export default function MyJobsPostJobPage() {
                 className="my-jobs-post-job-page__mobile-requirement-one-input"
                 type="text"
                 placeholder="Enter Requirement"
+                name="requirement1"
+                value={formData.requirement1}
+                onChange={handleChange}
               />
             </div>
             <p className="my-jobs-post-job-page__mobile-add-requirement">
@@ -661,6 +759,9 @@ export default function MyJobsPostJobPage() {
                 className="my-jobs-post-job-page__mobile-comments-input"
                 type="text"
                 placeholder="Enter Comment"
+                name="comments"
+                value={formData.comments}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-required-skills-container">
@@ -674,6 +775,9 @@ export default function MyJobsPostJobPage() {
                 className="my-jobs-post-job-page__mobile-required-skills-input"
                 type="text"
                 placeholder="Enter Required Skills separated by commas"
+                name="requiredSkills"
+                value={formData.requiredSkills}
+                onChange={handleChange}
               />
             </div>
             <div className="my-jobs-post-job-page__mobile-fee-type-container">
@@ -771,6 +875,9 @@ export default function MyJobsPostJobPage() {
                   className="my-jobs-post-job-page__mobile-placement-fee-input"
                   type="text"
                   placeholder="20%"
+                  name="placementFee"
+                  value={formData.placementFee}
+                  onChange={handleChange}
                 />
               </div>
               <div className="my-jobs-post-job-page__mobile-guarantee-period-container">
@@ -782,10 +889,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__mobile-guarantee-period-select"
-                  name="mobile-guarantee-period"
                   id="mobile-guarantee-period"
+                  name="guaranteePeriod"
+                  value={formData.guaranteePeriod}
+                  onChange={handleChange}
                 >
-                  <option value="30 days" disabled selected>
+                  <option value="30 days" selected>
                     30 Days
                   </option>
                   <option value="1 week">1 week</option>
@@ -812,7 +921,10 @@ export default function MyJobsPostJobPage() {
             <div className="my-jobs-post-job-page__mobile-bottom-button-container">
               <button
                 className="my-jobs-post-job-page__mobile-post-button"
-                onClick={handlePostJob}
+                onClick={() => {
+                  handlePostJob(); // Triggers the modal
+                  handleSubmit(); // Submits the data
+                }}
               >
                 Post
               </button>
@@ -950,7 +1062,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-country"
                   id="tablet-country"
                 >
-                  <option value="USA" disabled selected>
+                  <option value="USA" selected>
                     USA
                   </option>
                   <option value="Canada">Canada</option>
@@ -972,7 +1084,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-state"
                   id="tablet-state"
                 >
-                  <option value="Alabama" disabled selected>
+                  <option value="Alabama" selected>
                     AL
                   </option>
                   <option value="Alaska">AK</option>
@@ -1080,7 +1192,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-industry"
                   id="tablet-industry"
                 >
-                  <option value="aerospace-defense" disabled selected>
+                  <option value="aerospace-defense" selected>
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -1117,7 +1229,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-openings"
                   id="tablet-openings"
                 >
-                  <option value="1" disabled selected>
+                  <option value="1" selected>
                     1
                   </option>
                   <option value="2">2</option>
@@ -1146,7 +1258,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-job-type"
                   id="tablet-job-type"
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Full Time
                   </option>
 
@@ -1167,7 +1279,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-citizenship"
                   id="tablet-citizenship"
                 >
-                  <option value="US Citizen" disabled selected>
+                  <option value="US Citizen" selected>
                     US Citizen
                   </option>
                   <option value="VISA">VISA</option>
@@ -1188,7 +1300,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-type-of-visa"
                   id="tablet-type-of-visa"
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Select...
                   </option>
                   <option value="H1B">H1B</option>
@@ -1212,7 +1324,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-experience-level"
                   id="tablet-experience-level"
                 >
-                  <option value="0 - 1 years" disabled selected>
+                  <option value="0 - 1 years" selected>
                     0 - 1 years
                   </option>
                   <option value="1 - 2 years">1 - 2 years</option>
@@ -1238,7 +1350,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-salary-type"
                   id="tablet-salary-type"
                 >
-                  <option value="annual" disabled selected>
+                  <option value="annual" selected>
                     Annual
                   </option>
                   <option value="weekly">Weekly</option>
@@ -1260,7 +1372,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-environment"
                   id="tablet-environment"
                 >
-                  <option value="on-site" disabled selected>
+                  <option value="on-site" selected>
                     On-site
                   </option>
                   <option value="remote">Remote</option>
@@ -1340,7 +1452,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-travel"
                   id="tablet-travel"
                 >
-                  <option value="none-required" disabled selected>
+                  <option value="none-required" selected>
                     None Required
                   </option>
                   <option value="travel-required">Travel Required</option>
@@ -1358,7 +1470,7 @@ export default function MyJobsPostJobPage() {
                   name="tablet-paid-relocation"
                   id="tablet-paid-relocation"
                 >
-                  <option value="unknown" disabled selected>
+                  <option value="unknown" selected>
                     Unknown
                   </option>
                   <option value="known">Known</option>
@@ -1727,7 +1839,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-country"
                   id="desktop-country"
                 >
-                  <option value="USA" disabled selected>
+                  <option value="USA" selected>
                     USA
                   </option>
                   <option value="EU">EU</option>
@@ -1748,7 +1860,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-state"
                   id="desktop-state"
                 >
-                  <option value="Alabama" disabled selected>
+                  <option value="Alabama" selected>
                     AL
                   </option>
                   <option value="Alaska">AK</option>
@@ -1854,7 +1966,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-industry"
                   id="desktop-industry"
                 >
-                  <option value="aerospace-defense" disabled selected>
+                  <option value="aerospace-defense" selected>
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -1891,7 +2003,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-openings"
                   id="desktop-openings"
                 >
-                  <option value="1" disabled selected>
+                  <option value="1" selected>
                     1
                   </option>
                   <option value="2">2</option>
@@ -1919,7 +2031,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-job-type"
                   id="desktop-job-type"
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Full Time
                   </option>
 
@@ -1940,7 +2052,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-citizenship"
                   id="desktop-citizenship"
                 >
-                  <option value="US Citizen" disabled selected>
+                  <option value="US Citizen" selected>
                     US Citizen
                   </option>
                   <option value="VISA">VISA</option>
@@ -1961,7 +2073,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-type-of-visa"
                   id="desktop-type-of-visa"
                 >
-                  <option value="" disabled selected>
+                  <option value="" selected>
                     Select...
                   </option>
                   <option value="permanent resident">Permanent Resident</option>
@@ -1985,7 +2097,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-experience-level"
                   id="desktop-experience-level"
                 >
-                  <option value="0 - 1 years" disabled selected>
+                  <option value="0 - 1 years" selected>
                     0 - 1 years
                   </option>
                   <option value="1 - 2 years">1 - 2 years</option>
@@ -2011,10 +2123,10 @@ export default function MyJobsPostJobPage() {
                   name="desktop-salary-type"
                   id="desktop-salary-type"
                 >
-                  <option value="annual" disabled selected>
+                  <option value="annual" selected>
                     Annual
                   </option>
-                  <option value="weekly" disabled selected>
+                  <option value="weekly">
                     Weekly
                   </option>
                   <option value="biweekly">Biweekly</option>
@@ -2035,7 +2147,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-environment"
                   id="desktop-environment"
                 >
-                  <option value="on-site" disabled selected>
+                  <option value="on-site" selected>
                     On-site
                   </option>
                   <option value="remote">Remote</option>
@@ -2113,7 +2225,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-travel"
                   id="desktop-travel"
                 >
-                  <option value="none required" disabled selected>
+                  <option value="none required" selected>
                     None Required
                   </option>
                   <option value="weekly">weekly</option>
@@ -2134,7 +2246,7 @@ export default function MyJobsPostJobPage() {
                   name="desktop-paid-relocation"
                   id="desktop-paid-relocation"
                 >
-                  <option value="unknown" disabled selected>
+                  <option value="unknown" selected>
                     Unknown
                   </option>
                   <option value="known">Known</option>
@@ -2347,7 +2459,7 @@ export default function MyJobsPostJobPage() {
                     name="desktop-guarantee-period"
                     id="desktop-guarantee-period"
                   >
-                    <option value="30 days" disabled selected>
+                    <option value="30 days" selected>
                       30 Days
                     </option>
                     <option value="1 week">1 week</option>
