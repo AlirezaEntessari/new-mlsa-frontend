@@ -78,6 +78,7 @@ export default function MyJobsPostJobPage() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    console.log(`Name: ${name}, Value: ${value}`);
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
@@ -227,9 +228,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.country}
                   onChange={handleChange}
                 >
-                  <option value="USA" selected>
-                    USA
-                  </option>
+                  <option value="USA">USA</option>
                   <option value="EU">EU</option>
                   <option value="Canada">Canada</option>
                   <option value="Mexico">Mexico</option>
@@ -250,9 +249,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.state}
                   onChange={handleChange}
                 >
-                  <option value="Alabama" selected>
-                    AL
-                  </option>
+                  <option value="Alabama">AL</option>
                   <option value="Alaska">AK</option>
                   <option value="Arizona">AZ</option>
                   <option value="Arkansas">AR</option>
@@ -372,7 +369,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.industry}
                   onChange={handleChange}
                 >
-                  <option value="aerospace-defense" selected>
+                  <option value="aerospace-defense">
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -411,9 +408,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.jobType}
                   onChange={handleChange}
                 >
-                  <option value="" selected>
-                    Full Time
-                  </option>
+                  <option value="full-time">Full Time</option>
                   <option value="part-time">Part Time</option>
                   <option value="contract">Contract</option>
                   <option value="internship">Internship</option>
@@ -435,9 +430,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.openings}
                   onChange={handleChange}
                 >
-                  <option value="0" selected>
-                    0
-                  </option>
+                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -464,9 +457,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.citizenship}
                   onChange={handleChange}
                 >
-                  <option value="US Citizen" selected>
-                    US Citizen
-                  </option>
+                  <option value="US Citizen">US Citizen</option>
                   <option value="VISA">VISA</option>
                   <option value="Permanent Resident">Permanent Resident</option>
                   <option value="OPT">OPT</option>
@@ -487,9 +478,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.typeOfVisa}
                   onChange={handleChange}
                 >
-                  <option value="" selected>
-                    Select ...
-                  </option>
+                  <option value="US Citizen">US Citizen</option>
                   <option value="permanent resident">Permanent Resident</option>
                   <option value="F1">F1</option>
                   <option value="H1B">H1B</option>
@@ -513,9 +502,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.experienceLevel}
                   onChange={handleChange}
                 >
-                  <option value="0 - 1 years" selected>
-                    0 - 1 years
-                  </option>
+                  <option value="0 - 1 years">0 - 1 years</option>
                   <option value="1 - 2 years">1 - 2 years</option>
                   <option value="2 - 3 years">2 - 3 years</option>
                   <option value="3 - 4 years">3 - 4 years</option>
@@ -541,12 +528,8 @@ export default function MyJobsPostJobPage() {
                   value={formData.salaryType}
                   onChange={handleChange}
                 >
-                  <option value="annual" selected>
-                    Annual
-                  </option>
-                  <option value="weekly">
-                    Weekly
-                  </option>
+                  <option value="annual">Annual</option>
+                  <option value="weekly">Weekly</option>
                   <option value="biweekly">Biweekly</option>
                   <option value="monthly">Monthly</option>
                 </select>
@@ -567,9 +550,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.environment}
                   onChange={handleChange}
                 >
-                  <option value="on-site" selected>
-                    On-site
-                  </option>
+                  <option value="on-site">On-site</option>
                   <option value="remote">Remote</option>
                   <option value="traveling">Traveling</option>
                 </select>
@@ -651,10 +632,8 @@ export default function MyJobsPostJobPage() {
                   value={formData.travel}
                   onChange={handleChange}
                 >
-                  <option value="none required" selected>
-                    None Required
-                  </option>
-                  <option value="weekly">weekly</option>
+                  <option value="none required">None Required</option>
+                  <option value="weekly">Weekly</option>
                   <option value="biweekly">Biweekly</option>
                   <option value="monthly">Monthly</option>
                   <option value="yearly">Yearly</option>
@@ -894,9 +873,7 @@ export default function MyJobsPostJobPage() {
                   value={formData.guaranteePeriod}
                   onChange={handleChange}
                 >
-                  <option value="30 days" selected>
-                    30 Days
-                  </option>
+                  <option value="30 days">30 Days</option>
                   <option value="1 week">1 week</option>
                   <option value="2 weeks">2 weeks</option>
                   <option value="3 weeks">3 weeks</option>
@@ -1034,6 +1011,9 @@ export default function MyJobsPostJobPage() {
                   className="my-jobs-post-job-page__tablet-client-name-input"
                   type="text"
                   placeholder="Enter Client Name"
+                  name="clientName"
+                  value={formData.clientName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="my-jobs-post-job-page__tablet-agency-job-id-number-container">
@@ -1046,6 +1026,9 @@ export default function MyJobsPostJobPage() {
                 <input
                   className="my-jobs-post-job-page__tablet-agency-job-id-input"
                   type="text"
+                  name="agencyJobId"
+                  value={formData.agencyJobId}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -1059,12 +1042,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-country-select"
-                  name="tablet-country"
                   id="tablet-country"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleChange}
                 >
-                  <option value="USA" selected>
-                    USA
-                  </option>
+                  <option value="USA">USA</option>
                   <option value="Canada">Canada</option>
                   <option value="Mexico">Mexico</option>
                   <option value="United Kingdom">United Kingdom</option>
@@ -1081,10 +1064,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-state-select"
-                  name="tablet-state"
                   id="tablet-state"
+                  name="state"
+                  value={formData.state}
+                  onChange={handleChange}
                 >
-                  <option value="Alabama" selected>
+                  <option value="Alabama">
                     AL
                   </option>
                   <option value="Alaska">AK</option>
@@ -1189,10 +1174,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-industry-select"
-                  name="tablet-industry"
                   id="tablet-industry"
+                  name="industry"
+                  value={formData.industry}
+                  onChange={handleChange}
                 >
-                  <option value="aerospace-defense" selected>
+                  <option value="aerospace-defense">
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -1226,10 +1213,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-openings-select"
-                  name="tablet-openings"
                   id="tablet-openings"
+                  name="openings"
+                  value={formData.openings}
+                  onChange={handleChange}
                 >
-                  <option value="1" selected>
+                  <option value="1">
                     1
                   </option>
                   <option value="2">2</option>
@@ -1255,16 +1244,17 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-job-type-select"
-                  name="tablet-job-type"
                   id="tablet-job-type"
+                  name="jobType"
+                  value={formData.jobType}
+                  onChange={handleChange}
                 >
-                  <option value="" selected>
+                  <option value="Full Time" >
                     Full Time
                   </option>
-
-                  <option value="part-time">Part Time</option>
-                  <option value="contract">Contract</option>
-                  <option value="internship">Internship</option>
+                  <option value="Part Time">Part Time</option>
+                  <option value="Contract">Contract</option>
+                  <option value="Internship">Internship</option>
                 </select>
               </div>
               <div className="my-jobs-post-job-page__tablet-citizenship-container">
@@ -1276,10 +1266,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-citizenship-select"
-                  name="tablet-citizenship"
                   id="tablet-citizenship"
+                  name="citizenship"
+                  value={formData.citizenship}
+                  onChange={handleChange}
                 >
-                  <option value="US Citizen" selected>
+                  <option value="US Citizen">
                     US Citizen
                   </option>
                   <option value="VISA">VISA</option>
@@ -1297,12 +1289,11 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-type-of-visa-select"
-                  name="tablet-type-of-visa"
                   id="tablet-type-of-visa"
+                  name="typeOfVisa"
+                  value={formData.typeOfVisa}
+                  onChange={handleChange}
                 >
-                  <option value="" selected>
-                    Select...
-                  </option>
                   <option value="H1B">H1B</option>
                   <option value="F1">F1</option>
                   <option value="J1">J1</option>
@@ -1321,10 +1312,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-experience-level-select"
-                  name="tablet-experience-level"
                   id="tablet-experience-level"
+                  name="experienceLevel"
+                  value={formData.experienceLevel}
+                  onChange={handleChange}
                 >
-                  <option value="0 - 1 years" selected>
+                  <option value="0 - 1 years">
                     0 - 1 years
                   </option>
                   <option value="1 - 2 years">1 - 2 years</option>
@@ -1347,10 +1340,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-salary-type-select"
-                  name="tablet-salary-type"
                   id="tablet-salary-type"
+                  name="salaryType"
+                  value={formData.salaryType}
+                  onChange={handleChange}
                 >
-                  <option value="annual" selected>
+                  <option value="annual">
                     Annual
                   </option>
                   <option value="weekly">Weekly</option>
@@ -1369,10 +1364,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__tablet-environment-select"
-                  name="tablet-environment"
                   id="tablet-environment"
+                  name="environment"
+                  value={formData.environment}
+                  onChange={handleChange}
                 >
-                  <option value="on-site" selected>
+                  <option value="on-site">
                     On-site
                   </option>
                   <option value="remote">Remote</option>
@@ -1810,6 +1807,9 @@ export default function MyJobsPostJobPage() {
                   className="my-jobs-post-job-page__desktop-client-name-input"
                   type="text"
                   id="desktop-client-name"
+                  name="clientName"
+                  value={formData.clientName}
+                  onChange={handleChange}
                 />
               </div>
               <div className="my-jobs-post-job-page__desktop-agency-job-id-number-container">
@@ -1823,6 +1823,9 @@ export default function MyJobsPostJobPage() {
                   className="my-jobs-post-job-page__desktop-agency-job-id-number-input"
                   type="text"
                   id="desktop-agency-job-id-number"
+                  name="agencyJobId"
+                  value={formData.agencyJobId}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -1836,8 +1839,10 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-country-select"
-                  name="desktop-country"
                   id="desktop-country"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleChange}
                 >
                   <option value="USA" selected>
                     USA
@@ -1857,10 +1862,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-state-select"
-                  name="desktop-state"
                   id="desktop-state"
+                  name="state"
+                  value={formData.state}
+                  onChange={handleChange}
                 >
-                  <option value="Alabama" selected>
+                  <option value="Alabama">
                     AL
                   </option>
                   <option value="Alaska">AK</option>
@@ -1963,10 +1970,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-industry-select"
-                  name="desktop-industry"
                   id="desktop-industry"
+                  name="industry"
+                  value={formData.industry}
+                  onChange={handleChange}
                 >
-                  <option value="aerospace-defense" selected>
+                  <option value="aerospace-defense">
                     Aerospace and Defense
                   </option>
                   <option value="professional-services-consulting">
@@ -2000,10 +2009,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-openings-select"
-                  name="desktop-openings"
                   id="desktop-openings"
+                  name="openings"
+                  value={formData.openings}
+                  onChange={handleChange}
                 >
-                  <option value="1" selected>
+                  <option value="1">
                     1
                   </option>
                   <option value="2">2</option>
@@ -2031,13 +2042,12 @@ export default function MyJobsPostJobPage() {
                   name="desktop-job-type"
                   id="desktop-job-type"
                 >
-                  <option value="" selected>
+                  <option value="Full Time">
                     Full Time
                   </option>
-
-                  <option value="part-time">Part Time</option>
-                  <option value="contract">Contract</option>
-                  <option value="internship">Internship</option>
+                  <option value="Part Time">Part Time</option>
+                  <option value="Contract">Contract</option>
+                  <option value="Internship">Internship</option>
                 </select>
               </div>
               <div className="my-jobs-post-job-page__desktop-citizenship-container">
@@ -2049,10 +2059,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-citizenship-select"
-                  name="desktop-citizenship"
                   id="desktop-citizenship"
+                  name="citizenship"
+                  value={formData.citizenship}
+                  onChange={handleChange}
                 >
-                  <option value="US Citizen" selected>
+                  <option value="US Citizen">
                     US Citizen
                   </option>
                   <option value="VISA">VISA</option>
@@ -2070,12 +2082,11 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-type-of-visa-select"
-                  name="desktop-type-of-visa"
                   id="desktop-type-of-visa"
+                  name="typeOfVisa"
+                  value={formData.typeOfVisa}
+                  onChange={handleChange}
                 >
-                  <option value="" selected>
-                    Select...
-                  </option>
                   <option value="permanent resident">Permanent Resident</option>
                   <option value="F1">F1</option>
                   <option value="H1B">H1B</option>
@@ -2094,10 +2105,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-experience-level-select"
-                  name="desktop-experience-level"
                   id="desktop-experience-level"
+                  name="experienceLevel"
+                  value={formData.experienceLevel}
+                  onChange={handleChange}
                 >
-                  <option value="0 - 1 years" selected>
+                  <option value="0 - 1 years">
                     0 - 1 years
                   </option>
                   <option value="1 - 2 years">1 - 2 years</option>
@@ -2120,15 +2133,15 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-salary-type-select"
-                  name="desktop-salary-type"
                   id="desktop-salary-type"
+                  name="salaryType"
+                  value={formData.salaryType}
+                  onChange={handleChange}
                 >
-                  <option value="annual" selected>
+                  <option value="annual">
                     Annual
                   </option>
-                  <option value="weekly">
-                    Weekly
-                  </option>
+                  <option value="weekly">Weekly</option>
                   <option value="biweekly">Biweekly</option>
                   <option value="monthly">Monthly</option>
                 </select>
@@ -2144,10 +2157,12 @@ export default function MyJobsPostJobPage() {
                 </label>
                 <select
                   className="my-jobs-post-job-page__desktop-environment-select"
-                  name="desktop-environment"
                   id="desktop-environment"
+                  name="environment"
+                  value={formData.environment}
+                  onChange={handleChange}
                 >
-                  <option value="on-site" selected>
+                  <option value="on-site">
                     On-site
                   </option>
                   <option value="remote">Remote</option>
