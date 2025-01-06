@@ -29,6 +29,15 @@ export default function TeamMemberAccountSettingsProfilePage() {
         formData
       );
       alert("Profile saved successfully!");
+
+      // Clear all input fields
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        biography: "",
+      });
     } catch (error) {
       console.error("Error saving profile:", error);
       alert("Failed to save profile. Please try again.");

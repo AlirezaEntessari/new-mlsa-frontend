@@ -1,12 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TeamMemberAccountSettingsPasswordPage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/AccountSettingsSidePanel";
 import TeamMemberAccountSettingsNavbar from "../../components/TeamMemberAccountSettingsNavbar/TeamMemberAccountSettingsNavbar";
 import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import DontShowIcon from "../../assets/icons/ph_eye-light (1).svg";
+import axios from "axios";
 
 export default function TeamMemberAccountSettingsPasswordPage() {
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const URL = 'http://localhost:5000'
+
+  const handleSaveChanges = async () => {
+    if (password !== confirmPassword) {
+      setErrorMessage("Passwords do not match.");
+      return;
+    }
+
+    try {
+      await axios.post(`${URL}/api/account-settings/user-password`, {
+        password,
+        confirmPassword,
+      });
+
+      alert("Password updated successfully!");
+      setPassword("");
+      setConfirmPassword("");
+      setErrorMessage("");
+    } catch (error) {
+      console.error("Error updating password:", error);
+      setErrorMessage("Failed to update password. Please try again.");
+    }
+  };
+
   return (
     <div className="team-member-account-settings-password">
       <AccountSettingsHeader />
@@ -101,8 +130,10 @@ export default function TeamMemberAccountSettingsPasswordPage() {
               <input
                 className="team-member-account-settings-password__password-input"
                 id="password"
-                type="text"
+                type="password"
                 placeholder="Enter your password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
               />
               <label
                 className="team-member-account-settings-password__confirm-password-label"
@@ -122,14 +153,24 @@ export default function TeamMemberAccountSettingsPasswordPage() {
               />
               <input
                 className="team-member-account-settings-password__confirm-password-input"
-                type="text"
+                type="password"
                 placeholder="Enter your password again"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
               />
+              {errorMessage && (
+                <p className="team-member-account-settings-password__error-message">
+                  {errorMessage}
+                </p>
+              )}
               <div className="team-member-account-settings-password__button-container">
                 <button className="team-member-account-settings-password__cancel-button">
                   Cancel
                 </button>
-                <button className="team-member-account-settings-password__save-changes-button">
+                <button
+                  className="team-member-account-settings-password__save-changes-button"
+                  onClick={handleSaveChanges}
+                >
                   Save Changes
                 </button>
               </div>

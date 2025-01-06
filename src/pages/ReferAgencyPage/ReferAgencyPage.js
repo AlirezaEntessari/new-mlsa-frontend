@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ReferAgencyPage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import ProfileSidePanel from "../../components/ProfileSidePanel/ProfileSidePanel";
@@ -6,8 +6,83 @@ import SubmitReferralIcon from "../../assets/icons/SubmitReferralIcon.svg";
 import EnjoyRewardIcon from "../../assets/icons/EnjoyRewardLogo.svg";
 import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
 import reCAPTCHAIcon from "../../assets/icons/reCAPTCHA.svg";
+import axios from "axios";
 
 export default function ReferAgencyPage() {
+  const [formData, setFormData] = useState({
+    agencyName: "",
+    websiteAddress: "",
+    industry: "",
+    agencyEmail: "",
+    phoneNumber: "",
+    yourName: "",
+    yourEmail: "",
+    yourAgency: "",
+    yourMessage: "",
+  });
+
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const URL = "http://localhost:5000";
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async () => {
+    // Basic validation (for required fields only)
+    if (
+      !formData.agencyName ||
+      !formData.agencyEmail ||
+      !formData.yourName ||
+      !formData.yourEmail ||
+      !formData.yourAgency
+    ) {
+      setErrorMessage("Please fill in all required fields.");
+      return;
+    }
+
+    try {
+      await axios.post(`${URL}/api/agency-referral`, formData);
+      alert("Referral submitted successfully!");
+
+      // Clear form after successful submission
+      setFormData({
+        agencyName: "",
+        websiteAddress: "",
+        industry: "",
+        agencyEmail: "",
+        phoneNumber: "",
+        yourName: "",
+        yourEmail: "",
+        yourAgency: "",
+        yourMessage: "",
+      });
+
+      setErrorMessage("");
+    } catch (error) {
+      console.error("Error submitting referral:", error);
+      setErrorMessage("Failed to submit referral. Please try again.");
+    }
+  };
+
+  const handleCancel = () => {
+    // Clear the form when Cancel is clicked
+    setFormData({
+      agencyName: "",
+      websiteAddress: "",
+      industry: "",
+      agencyEmail: "",
+      phoneNumber: "",
+      yourName: "",
+      yourEmail: "",
+      yourAgency: "",
+      yourMessage: "",
+    });
+    setErrorMessage("");
+  };
+
   return (
     <div className="refer-agency-page">
       <AccountSettingsHeader />
@@ -18,6 +93,9 @@ export default function ReferAgencyPage() {
           <p className="refer-agency-page__agency-referral-program">
             Agency Referral Program
           </p>
+          {errorMessage && (
+            <p className="refer-agency-page__error-message">{errorMessage}</p>
+          )}
           <p className="refer-agency-page__refer-staffing-agency">
             Refer a Staffing Agency & Get One Month on Us!
           </p>
@@ -101,6 +179,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="name"
               placeholder="Enter Agency Name You Would Like to Refer"
+              name="agencyName"
+              value={formData.agencyName}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__website-address-label"
@@ -113,6 +194,9 @@ export default function ReferAgencyPage() {
               type="text"
               placeholder="Enter link to the referred Agency Website"
               id="website-address"
+              name="websiteAddress"
+              value={formData.websiteAddress}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__industry-label"
@@ -125,6 +209,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="industry"
               placeholder="Select Industry Field of the referred Agency"
+              name="industry"
+              value={formData.industry}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__email-contact-address-label"
@@ -143,6 +230,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="email-contact-address"
               placeholder="Enter email contact for referred Agency"
+              name="agencyEmail"
+              value={formData.agencyEmail}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__phone-number-label"
@@ -156,6 +246,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="phone-number"
               placeholder="Enter phone number for referred Agency"
+              name="phoneNumber"
+              value={formData.phoneNumber}
+              onChange={handleInputChange}
             />
             <p className="refer-agency-page__your-information-header">
               Your Information
@@ -176,6 +269,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="your-name"
               placeholder="Enter your first and last name"
+              name="yourName"
+              value={formData.yourName}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__your-email-label"
@@ -193,6 +289,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="your-email"
               placeholder="Example: JohnSmith@Example.com"
+              name="yourEmail"
+              value={formData.yourEmail}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__your-agency-label"
@@ -210,6 +309,9 @@ export default function ReferAgencyPage() {
               type="text"
               id="your-agency"
               placeholder="Enter Your Agency Name"
+              name="yourAgency"
+              value={formData.yourAgency}
+              onChange={handleInputChange}
             />
             <label
               className="refer-agency-page__your-message-label"
@@ -224,15 +326,31 @@ export default function ReferAgencyPage() {
             </label>
             <textarea
               className="refer-agency-page__your-message-text-area"
-              name="your-message"
               id="your-message"
               placeholder="Write a short note here on why you think they're a great fit for our association."
+              name="yourMessage"
+              value={formData.yourMessage}
+              onChange={handleInputChange}
             ></textarea>
           </div>
-          <img className="refer-agency-page__reCAPTCHA-icon" src={reCAPTCHAIcon} alt="reCaptcha Icon" />
+          <img
+            className="refer-agency-page__reCAPTCHA-icon"
+            src={reCAPTCHAIcon}
+            alt="reCaptcha Icon"
+          />
           <div className="refer-agency-page__bottom-button-container">
-            <button className="refer-agency-page__submit-button">Submit</button>
-            <button className="refer-agency-page__cancel-button">Cancel</button>
+            <button
+              className="refer-agency-page__submit-button"
+              onClick={handleSubmit}
+            >
+              Submit
+            </button>
+            <button
+              className="refer-agency-page__cancel-button"
+              onClick={handleCancel}
+            >
+              Cancel
+            </button>
           </div>
         </div>
       </div>
