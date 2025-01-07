@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MyCandidatesPostCandidatePage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import CandidatesSidePanel from "../../components/CandidatesSidePanel/CandidatesSidePanel";
@@ -10,8 +10,59 @@ import MinusSignSalaryIcon from "../../assets/icons/MinusSignSalary.svg";
 import DollarSignSalaryIcon from "../../assets/icons/DollarSignSalary.svg";
 import CalendarIcon from "../../assets/icons/CalendarIcon.svg";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 export default function MyCandidatesPostCandidatePage() {
+
+  const [formData, setFormData] = useState({
+    candidateFirstName: "",
+    middleName: "",
+    lastName: "",
+    country: "",
+    state: "",
+    city: "",
+    zipCode: "",
+    primaryEmail: "",
+    homePhone: "",
+    bestTimeToCall: "",
+    title: "",
+    industry: "",
+    jobType: "",
+    citizenship: "",
+    typeOfVisa: "",
+    experienceLevel: "",
+    salaryType: "",
+    environment: "",
+    startDate: "",
+    willingToTravel: "",
+    willingToRelocate: "",
+    education: "",
+    linkedin: "",
+    facebook: "",
+    twitter: "",
+    portfolio: "",
+    candidateDescription: "",
+    skills: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async () => {
+    try {
+      const response = await axios.post("http://localhost:5000/post-candidate", formData);
+      alert(response.data.message);
+    } catch (error) {
+      console.error("Error posting candidate:", error);
+      alert("Failed to post candidate.");
+    }
+  };
+
   return (
     <div className="my-candidates-post-candidate-page">
       <HeaderWithProfilePic />
@@ -120,6 +171,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-candidate-first-name"
                 placeholder="Enter First Name"
+                name="candidateFirstName"
+                value={formData.candidateFirstName}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-middle-name-container">
@@ -133,6 +187,9 @@ export default function MyCandidatesPostCandidatePage() {
                 className="my-candidates-post-candidate-page__mobile-middle-name-input"
                 type="text"
                 placeholder="Enter Middle Name"
+                name="middleName"
+                value={formData.middleName}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-last-name-container">
@@ -146,6 +203,9 @@ export default function MyCandidatesPostCandidatePage() {
                 className="my-candidates-post-candidate-page__mobile-last-name-input"
                 type="text"
                 placeholder="Enter Last Name"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleInputChange}
               />
             </div>
             <p className="my-candidates-post-candidate-page__mobile-check-for-duplicate">
@@ -161,8 +221,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-country-select"
-                  name="mobile-country"
                   id="mobile-country"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleInputChange}
                 >
                   <option value="USA" selected>
                     USA
@@ -187,8 +249,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-state-select"
-                  name="mobile-state"
                   id="mobile-state"
+                  name="state"
+                  value={formData.state}
+                  onChange={handleInputChange}
                 >
                   <option value="Alabama" selected>
                     Alabama
@@ -258,6 +322,9 @@ export default function MyCandidatesPostCandidatePage() {
                   placeholder="Enter City"
                   type="text"
                   id="mobile-city"
+                  name="city"
+                  value={formData.city}
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="my-candidates-post-candidate-page__mobile-zip-code-container">
@@ -272,6 +339,9 @@ export default function MyCandidatesPostCandidatePage() {
                   type="text"
                   id="mobile-zip-code"
                   placeholder="5-digit Zip Code"
+                  name="zipCode"
+                  value={formData.zipCode}
+                  onChange={handleInputChange}
                 />
               </div>
             </div>
@@ -286,6 +356,9 @@ export default function MyCandidatesPostCandidatePage() {
                 className="my-candidates-post-candidate-page__mobile-primary-email-input"
                 type="text"
                 placeholder="Enter Email Address"
+                name="primaryEmail"
+                value={formData.primaryEmail}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-home-phone-container">
@@ -300,6 +373,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-home-phone"
                 placeholder="Enter Home Phone Number"
+                name="homePhone"
+                value={formData.homePhone}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-cell-phone-container">
@@ -314,6 +390,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-cell-phone"
                 placeholder="Enter Cell Phone Number"
+                name="cellPhone"
+                value={formData.cellPhone}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-best-time-to-call-container">
@@ -328,6 +407,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-best-time-to-call"
                 placeholder="Enter Time(s)"
+                name="bestTimeToCall"
+                value={formData.bestTimeToCall}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-title-container">
@@ -342,6 +424,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-title"
                 placeholder="Enter Your Job Title"
+                name="title"
+                value={formData.title}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-industry-job-type-container">
@@ -710,7 +795,7 @@ export default function MyCandidatesPostCandidatePage() {
                 className="my-candidates-post-candidate-page__mobile-twitter-label"
                 htmlFor="mobile-twitter"
               >
-                Twitter (x)*
+                Twitter (X)*
               </label>
               <input
                 className="my-candidates-post-candidate-page__mobile-twitter-input"
@@ -1470,7 +1555,7 @@ export default function MyCandidatesPostCandidatePage() {
                   className="my-candidates-post-candidate-page__tablet-twitter-label"
                   htmlFor="tablet-twitter"
                 >
-                  Twitter (x)*
+                  Twitter (X)*
                 </label>
                 <input
                   className="my-candidates-post-candidate-page__tablet-twitter-input"
@@ -2199,7 +2284,7 @@ export default function MyCandidatesPostCandidatePage() {
                   className="my-candidates-post-candidate-page__desktop-twitter-label"
                   htmlFor="desktop-twitter"
                 >
-                  Twitter (x)*
+                  Twitter (X)*
                 </label>
                 <input
                   className="my-candidates-post-candidate-page__desktop-twitter-input"
