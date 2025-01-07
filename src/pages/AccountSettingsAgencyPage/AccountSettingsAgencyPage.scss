@@ -16,6 +16,8 @@
         font-size: 24px;
         // margin-bottom: 12px;
         margin-bottom: 6px;
+        color: $dark-navy;
+        font-family: 'Roboto Serif';
     }
 
     &__administrator-text {
@@ -23,11 +25,15 @@
         margin-top: 0px;
         font-weight: 500;
         font-size: 18px;
+        color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__agency-information-header {
         margin-left: 24px;
         margin-top: 40px;
+        font-family: 'Roboto';
+        font-weight: 500;
     }
 
     &__personal-details-container {
@@ -48,6 +54,7 @@
         border-radius: 20px; 
         margin-top: 8px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__save-changes-button {
@@ -61,11 +68,13 @@
         background-color: $dark-navy;
         color: $white-text;
         margin-top: 8px;
+        font-family: 'Roboto';
     }
 
     &__name-of-agency-label {
         margin-left: 24px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__name-of-agency-input {
@@ -77,11 +86,13 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__agency-phone-label {
         margin-left: 24px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__agency-phone-input {
@@ -93,11 +104,13 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__agency-website-label {
         margin-left: 24px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__agency-website-input {
@@ -109,15 +122,18 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__agency-logo {
         margin-top: 48px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__agency-logo-description {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__human-re-logo {
@@ -144,15 +160,18 @@
     &__click-to-upload {
         text-align: center;
         margin-bottom: 5px;
+        font-family: 'Roboto';
     }
 
     &__upload-format {
         text-align: center;
+        font-family: 'Roboto';
     }
 
     &__social-media-links-label {
         margin-top: 50px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__facebook-input {
@@ -164,6 +183,7 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__instagram-input {
@@ -175,6 +195,7 @@
         padding-left: 10px;
         margin-top: 12px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__youtube-input {
@@ -186,16 +207,19 @@
         padding-left: 10px;
         margin-top: 12px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__about-your-agency-header {
         margin-top: 48px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__about-your-agency-description {
         width: 445px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__radio-button {
@@ -206,6 +230,7 @@
     &__hidden-from-profile {
         margin-left: 18px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__text-area {
@@ -216,6 +241,7 @@
         height: 300px;
         padding-left: 16px;
         padding-top: 10px;
+        font-family: 'Roboto';
     }
 
     &__save-draft-button {
@@ -223,11 +249,13 @@
         background-color: $white-background;
         border: 1px solid $soft-black;
         border-radius: 6px;
-        width: 120px;
-        margin-left: 185px;
+        width: 150px;
+        // margin-left: 185px;
+        margin-left: 170px;
         margin-top: 32px;
-        height: 32px;
+        height: 40px;
         border-radius: 24px;
+        font-family: 'Roboto';
     }
 
     &__manage-agency-header {
@@ -235,16 +263,19 @@
         font-weight: 500;
         font-size: 19px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__manage-agency-description {
         font-size: 14px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__name-of-team-member-label {
         margin-top: 24px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__name-of-team-member-input {
@@ -256,11 +287,13 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__team-member-email-label {
         margin-top: 32px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__team-member-email-input {
@@ -272,6 +305,7 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__add-team-member-button {
@@ -281,8 +315,9 @@
         margin-top: 48px;
         margin-left: 138px;
         width: 200px;
-        height: 35px;
+        height: 40px;
         border-radius: 24px;
+        font-family: 'Roboto';
     }
 
     &__current-team-members {
@@ -290,6 +325,7 @@
         font-weight: 500;
         font-size: 18px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__first-row-checkbox-container {
@@ -312,6 +348,7 @@
 
     &__checkbox-text {
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__first-right-side-checkbox-icon {
@@ -354,6 +391,7 @@
         margin-top: 32px;
         margin-bottom: 6px;
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__delete-team-member-button {
@@ -363,8 +401,9 @@
         margin-top: 48px;
         margin-left: 136px;
         width: 210px;
-        height: 35px;
+        height: 40px;
         border-radius: 24px;
+        font-family: 'Roboto';
     }
 
 }

@@ -30,15 +30,18 @@
     &__mobile-header-owner-text {
         color: $rust;
         margin-bottom: 4px;
+        font-family: 'Roboto';
     }
 
     &__mobile-header-owner-name {
         color: $rust;
         margin-bottom: 4px;
+        font-family: 'Roboto';
     }
 
     &__mobile-header-owner-agency {
         color: $rust;
+        font-family: 'Roboto';
     }
 
     &__mobile-value-assurance-icon {
@@ -54,11 +57,14 @@
         margin-top: 28px;
         margin-right: 8px;
         text-align: justify;
+        font-family: 'Roboto Serif';
+        font-weight: 500;
     }
 
     &__mobile-client-name-will-not-be-shared {
         margin-top: 24px;
         text-align: center;
+        // font-family: 'Roboto Serif';
     }
 
     &__mobile-top-button-first-level-container {
@@ -75,6 +81,7 @@
         width: 200px;
         font-weight: 500;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-open-archived-candidate-button {
@@ -86,6 +93,7 @@
         font-weight: 500;
         border-radius: 28px;
         margin-left: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-top-button-second-level-container {
@@ -102,6 +110,7 @@
         width: 200px;
         font-weight: 500;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-batch-upload-button {
@@ -113,6 +122,7 @@
         font-weight: 500;
         border-radius: 28px;
         margin-left: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-top-button-third-level-container {
@@ -129,6 +139,7 @@
         width: 200px;
         font-weight: 500;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-return-to-my-candidates-button {
@@ -140,6 +151,7 @@
         font-weight: 500;
         border-radius: 28px;
         margin-left: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-hot-candidate-put-on-hold-container {
@@ -160,6 +172,7 @@
     &__mobile-hot-candidate-text {
         color: $medium-dark-gray;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__mobile-on-hold-off-icon {
@@ -177,6 +190,7 @@
     &__mobile-put-on-hold-text {
         color: $medium-dark-gray;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__mobile-candidate-first-name-container {
@@ -186,6 +200,7 @@
 
     &__mobile-candidate-first-name-label {
         color: $rust;
+        font-family: 'Roboto';
     }
 
     &__mobile-candidate-first-name-input {
@@ -196,6 +211,7 @@
         width: 440px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-middle-name-container {
@@ -205,6 +221,7 @@
 
     &__mobile-middle-name-label {
         color: $rust;
+        font-family: 'Roboto';
     }
 
     &__mobile-middle-name-input {
@@ -215,6 +232,7 @@
         width: 440px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-last-name-container {
@@ -224,6 +242,7 @@
 
     &__mobile-last-name-label {
         color: $rust;
+        font-family: 'Roboto';
     }
 
     &__mobile-last-name-input {
@@ -234,6 +253,7 @@
         width: 440px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-check-for-duplicate {
@@ -241,12 +261,17 @@
         text-decoration: underline;
         margin-top: 24px;
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-country-state-container {
         display: flex;
         margin-top: 48px;
         margin-left: 32px;
+    }
+
+    &__mobile-country-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-country-select {
@@ -257,10 +282,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-state-container {
         margin-left: 32px;
+    }
+
+    &__mobile-state-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-state-select {
@@ -271,12 +301,17 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-city-zip-code-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-city-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-city-input {
@@ -287,10 +322,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-zip-code-container {
         margin-left: 32px;
+    }
+
+    &__mobile-zip-code-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-zip-code-input {
@@ -301,11 +341,16 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-primary-email-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-primary-email-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-primary-email-input {
@@ -316,11 +361,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-home-phone-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-home-phone-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-home-phone-input {
@@ -331,11 +381,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-cell-phone-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-cell-phone-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-cell-phone-input {
@@ -346,11 +401,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-best-time-to-call-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-best-time-to-call-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-best-time-to-call-input {
@@ -361,11 +421,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-title-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-title-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-title-input {
@@ -376,12 +441,17 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-industry-job-type-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-industry-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-industry-select {
@@ -392,10 +462,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-type-container {
         margin-left: 32px;
+    }
+
+    &__mobile-job-type-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-job-type-select {
@@ -406,12 +481,17 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-citizenship-type-of-visa-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-citizenship-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-citizenship-select {
@@ -422,10 +502,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-type-of-visa-container {
         margin-left: 32px;
+    }
+
+    &__mobile-type-of-visa-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-type-of-visa-select {
@@ -436,12 +521,17 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-experience-level-salary-type-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-experience-level-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-experience-level-select {
@@ -452,10 +542,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-type-container {
         margin-left: 32px;
+    }
+
+    &__mobile-salary-type-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-type-select {
@@ -466,12 +561,17 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-environment-start-date-container {
         display: flex;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-environment-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-environment-select {
@@ -482,11 +582,16 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-start-date-container {
         margin-left: 32px;
         position: relative;
+    }
+
+    &__mobile-start-date-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-calendar-icon {
@@ -504,6 +609,7 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-desired-salary-range-container {
@@ -518,6 +624,7 @@
     &__mobile-desired-salary-range-text {
         padding-top: 12px;
         padding-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-desired-salary-range-slider-container {
@@ -546,9 +653,18 @@
         border-radius: 12px;
     }
 
+    &__mobile-desired-salary-range-min-text {
+        font-family: 'Roboto';
+    }
+
+    &__mobile-desired-salary-range-max-text {
+        font-family: 'Roboto';
+    }
+
     &__mobile-desired-salary-range-left-value-number {
         padding-top: 20px;
         padding-left: 42px;
+        font-family: 'Roboto';
     }
 
     &__mobile-minus-sign-salary-icon {
@@ -567,6 +683,7 @@
     &__mobile-desired-salary-range-right-value-number {
         padding-top: 20px;
         padding-left: 36px;
+        font-family: 'Roboto';
     }
 
     &__mobile-dollar-sign-salary-icon {
@@ -579,6 +696,10 @@
         margin-left: 32px;
     }
 
+    &__mobile-willing-to-travel-label {
+        font-family: 'Roboto';
+    }
+
     &__mobile-willing-to-travel-select {
         border: 1px solid $medium-gray;
         display: block;
@@ -587,10 +708,15 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-willing-to-relocate-container {
         margin-left: 32px;
+    }
+
+    &__mobile-willing-to-relocate-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-willing-to-relocate-select {
@@ -601,11 +727,16 @@
         width: 200px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-education-container {
         margin-left: 32px;
         margin-top: 32px;
+    }
+
+    &__mobile-education-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-education-input {
@@ -616,6 +747,7 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-attach-cv-resume-container {
@@ -627,9 +759,14 @@
         display: flex;
     }
 
+    &__mobile-attach-cv-resume-text {
+        font-family: 'Roboto';
+    }
+
     &__mobile-last-uploaded-text {
         font-size: 14px;
         margin-left: 76px;
+        font-family: 'Roboto';
     }
 
     &__mobile-choose-file-resume-link-1-container {
@@ -642,6 +779,7 @@
         width: 170px;
         height: 60px;
         border-radius: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-resume-link-1 {
@@ -649,22 +787,26 @@
         text-decoration: underline;
         margin-top: 14px;
         margin-left: 42px;
+        font-family: 'Roboto';
     }
 
     &__mobile-doc-or-pdf-accepted {
         margin-top: 10px;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__mobile-preview-current-resume-link {
         color: $rust;
         text-decoration: underline;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__mobile-manage-resumes-link {
         color: $rust;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__mobile-attach-blind-resume-container {
@@ -676,9 +818,14 @@
         display: flex;
     }
 
+    &__mobile-attach-blind-resume-text {
+        font-family: 'Roboto';
+    }
+
     &__mobile-no-file-available-text {
         margin-left: 76px;
         font-size: 14px;
+        font-family: 'Roboto';
     }
 
     &__mobile-choose-file-resume-link-2-container {
@@ -691,17 +838,23 @@
         width: 170px;
         height: 60px;
         border-radius: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-no-file-chosen-text {
         color: $dark-navy;
         margin-top: 16px;
         margin-left: 52px;
+        font-family: 'Roboto';
     }
 
     &__mobile-linked-in-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-linkedin-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-linkedin-input {
@@ -712,11 +865,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-facebook-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-facebook-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-facebook-input {
@@ -727,11 +885,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-twitter-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-twitter-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-twitter-input {
@@ -742,11 +905,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-portfolio-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-portfolio-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-portfolio-input {
@@ -757,11 +925,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-candidate-description-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-candidate-description-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-candidate-description-text-area {
@@ -773,11 +946,16 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
 
     &__mobile-skills-container {
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    &__mobile-skills-label {
+        font-family: 'Roboto';
     }
 
     &__mobile-skills-input {
@@ -788,6 +966,7 @@
         width: 432px;
         border-radius: 10px;
         margin-top: 2px;
+        font-family: 'Roboto';
     }
     
     &__mobile-bottom-button-container {
@@ -803,6 +982,7 @@
         height: 50px;
         border-radius: 28px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-preview-button {
@@ -814,6 +994,7 @@
         border-radius: 28px;
         font-weight: 500;
         margin-top: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-save-draft-button {
@@ -825,6 +1006,7 @@
         border-radius: 28px;
         font-weight: 500;
         margin-top: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-clear-form-button {
@@ -836,6 +1018,7 @@
         border-radius: 28px;
         font-weight: 500;
         margin-top: 28px;
+        font-family: 'Roboto';
     }
 
     &__tablet-container {
@@ -877,6 +1060,7 @@
             margin-top: 10px;
             color: $rust;
             margin-left: 250px;
+            font-family: 'Roboto';
         }
 
         &__tablet-top-central-container {
@@ -900,6 +1084,10 @@
             font-family: 'Roboto Serif';
         }
 
+        &__tablet-client-name-will-not-be-shared-text {
+            font-family: 'Roboto';
+        }
+
         &__tablet-top-dashboard-container {
             margin-left: 32px;
             margin-top: 48px;
@@ -917,6 +1105,7 @@
             height: 50px;
             font-weight: 500;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-archived-candidate-button {
@@ -928,6 +1117,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-saved-draft-button {
@@ -939,6 +1129,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-top-dashboard-container-bottom-container {
@@ -954,6 +1145,7 @@
             height: 50px;
             font-weight: 500;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-through-api-button {
@@ -965,6 +1157,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-hot-candidate-put-on-hold-container {
@@ -989,6 +1182,7 @@
             color: $medium-dark-gray;
             margin-left: 5px;
             margin-top: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-put-on-hold-container {
@@ -1009,6 +1203,7 @@
             color: $medium-dark-gray;
             margin-top: 10px;
             margin-left: 5px;
+            font-family: 'Roboto';
         }
 
         &__tablet-candidate-first-name-middle-name-last-name-container {
@@ -1019,6 +1214,7 @@
 
         &__tablet-candidate-first-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-candidate-first-name-input {
@@ -1028,6 +1224,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-name-container {
@@ -1036,6 +1233,7 @@
 
         &__tablet-middle-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-name-input {
@@ -1045,6 +1243,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-last-name-container {
@@ -1053,6 +1252,7 @@
 
         &__tablet-last-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-last-name-input {
@@ -1062,6 +1262,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-check-for-duplicate {
@@ -1069,6 +1270,7 @@
             text-decoration: underline;
             margin-top: 10px;
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-country-state-city-zip-code-container {
@@ -1079,6 +1281,7 @@
 
         &__tablet-country-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-country-select {
@@ -1088,6 +1291,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-state-container {
@@ -1096,6 +1300,7 @@
 
         &__tablet-state-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-state-select {
@@ -1105,6 +1310,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-city-container {
@@ -1113,6 +1319,7 @@
 
         &__tablet-city-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-city-input {
@@ -1122,6 +1329,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-zip-code-container {
@@ -1130,6 +1338,7 @@
 
         &__tablet-zip-code-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-zip-code-input {
@@ -1139,6 +1348,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-primary-email-home-phone-container {
@@ -1149,6 +1359,7 @@
 
         &__tablet-primary-email-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-primary-email-input {
@@ -1158,6 +1369,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-home-phone-container {
@@ -1166,6 +1378,7 @@
 
         &__tablet-home-phone-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-home-phone-input {
@@ -1175,6 +1388,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-best-time-to-call-cell-phone-container {
@@ -1185,6 +1399,7 @@
 
         &__tablet-best-time-to-call-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-best-time-to-call-input {
@@ -1194,6 +1409,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-cell-phone-container {
@@ -1202,6 +1418,7 @@
 
         &__tablet-cell-phone-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-cell-phone-input {
@@ -1211,6 +1428,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-title-container {
@@ -1220,6 +1438,7 @@
 
         &__tablet-title-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-title-input {
@@ -1229,6 +1448,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-industry-job-type-citizenship-type-of-visa-container {
@@ -1239,6 +1459,7 @@
 
         &__tablet-industry-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-industry-select {
@@ -1248,6 +1469,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-type-container {
@@ -1256,6 +1478,7 @@
 
         &__tablet-job-type-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-type-select {
@@ -1265,6 +1488,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-citizenship-container {
@@ -1273,6 +1497,7 @@
 
         &__tablet-citizenship-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-citizenship-select {
@@ -1282,6 +1507,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-type-of-visa-container {
@@ -1290,6 +1516,7 @@
 
         &__tablet-type-of-visa-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-type-of-visa-select {
@@ -1299,6 +1526,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-input-container {
@@ -1313,6 +1541,7 @@
 
         &__tablet-experience-level-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-experience-level-select {
@@ -1322,6 +1551,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-type-container {
@@ -1330,6 +1560,7 @@
 
         &__tablet-salary-type-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-type-select {
@@ -1339,6 +1570,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-input-left-bottom-container {
@@ -1348,6 +1580,7 @@
 
         &__tablet-environment-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-environment-select {
@@ -1357,6 +1590,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-start-date-container {
@@ -1366,6 +1600,7 @@
 
         &__tablet-start-date-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-calendar-icon {
@@ -1382,6 +1617,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-input-right-container {
@@ -1398,12 +1634,21 @@
         &__tablet-desired-salary-range-header {
             padding-top: 16px;
             padding-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-desired-salary-range-slider-container {
             display: flex;
             margin-left: 20px;
             margin-top: 20px;
+        }
+
+        &__tablet-desired-salary-range-min-text {
+            font-family: 'Roboto';
+        }
+
+        &__tablet-desired-salary-range-max-text {
+            font-family: 'Roboto';
         }
 
         &__tablet-desired-salary-range-input {
@@ -1428,6 +1673,7 @@
         &__tablet-desired-salary-range-left-value-number {
             padding-top: 10px;
             padding-left: 28px;
+            font-family: 'Roboto';
         }
 
         &__tablet-minus-sign-salary-icon {
@@ -1446,6 +1692,7 @@
         &__tablet-desired-salary-range-right-value-number {
             padding-top: 10px;
             padding-left: 22px;
+            font-family: 'Roboto';
         }
 
         &__tablet-dollar-sign-salary-icon {
@@ -1461,6 +1708,7 @@
 
         &__tablet-willing-to-travel-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-travel-select {
@@ -1470,6 +1718,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-relocate-container {
@@ -1478,6 +1727,7 @@
 
         &__tablet-willing-to-relocate-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-relocate-select {
@@ -1487,6 +1737,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-education-container {
@@ -1496,6 +1747,7 @@
 
         &__tablet-education-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-education-input {
@@ -1505,6 +1757,7 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-attach-cv-resume-attach-blind-resume-container {
@@ -1519,11 +1772,13 @@
 
         &__tablet-attach-cv-resume-text {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__tablet-last-uploaded-text {
             margin-left: 36px;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-choose-file-uploaded-resume-container {
@@ -1536,6 +1791,7 @@
             width: 150px;
             height: 54px;
             border-radius: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-uploaded-resume-text {
@@ -1543,22 +1799,26 @@
             text-decoration: underline;
             margin-top: 10px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__tablet-doc-or-pdf-accepted {
             margin-top: 8px;
             margin-bottom: 6px;
+            font-family: 'Roboto';
         }
 
         &__tablet-preview-current-resume {
             margin-bottom: 6px;
             color: $rust;
             text-decoration: underline;
+            font-family: 'Roboto';
         }
 
         &__tablet-manage-resumes {
             color: $rust;
             text-decoration: underline;
+            font-family: 'Roboto';
         }
 
         &__tablet-attach-blind-resume-no-file-available-container {
@@ -1566,9 +1826,15 @@
             margin-left: 72px;
         }
 
+        &__tablet-attach-blind-resume-text {
+            color: $rust;
+            font-family: 'Roboto';
+        }
+
         &__tablet-no-file-available-text {
             margin-left: 36px;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-choose-file-button-2 {
@@ -1578,6 +1844,7 @@
             height: 54px;
             border-radius: 10px;
             margin-left: 70px;
+            font-family: 'Roboto';
         }
 
         &__tablet-choose-file-no-file-chosen-container {
@@ -1587,12 +1854,14 @@
         &__tablet-no-file-chosen-text {
             margin-left: 34px;
             margin-top: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-doc-or-pdf-accepted-2 {
             margin-top: 8px;
             margin-bottom: 6px;
             margin-left: 70px;
+            font-family: 'Roboto';
         }
 
         &__tablet-preview-current-resume-text-2 {
@@ -1600,18 +1869,24 @@
             color: $rust;
             text-decoration: underline;
             margin-left: 72px;
+            font-family: 'Roboto';
         }
 
         &__tablet-manage-resumes-2 {
             color: $rust;
             text-decoration: underline;
             margin-left: 72px;
+            font-family: 'Roboto';
         }
 
         &__tablet-linkedin-facebook-container {
             display: flex;
             margin-top: 36px;
             margin-left: 32px;
+        }
+
+        &__tablet-linkedin-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-linkedin-input {
@@ -1621,10 +1896,15 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-facebook-container {
             margin-left: 32px;
+        }
+
+        &__tablet-facebook-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-facebook-input {
@@ -1634,12 +1914,17 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-twitter-portfolio-container {
             display: flex;
             margin-top: 36px;
             margin-left: 32px;
+        }
+
+        &__tablet-twitter-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-twitter-input {
@@ -1649,10 +1934,15 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-portfolio-container {
             margin-left: 32px;
+        }
+
+        &__tablet-portfolio-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-portfolio-input {
@@ -1662,11 +1952,16 @@
             height: 54px;
             display: block;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-candidate-description-container {
             margin-left: 32px;
             margin-top: 36px;
+        }
+
+        &__tablet-candidate-description-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-candidate-description-text-area {
@@ -1676,11 +1971,16 @@
             height: 300px;
             padding-left: 16px;
             padding-top: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-skills-container {
             margin-top: 36px;
             margin-left: 32px;
+        }
+
+        &__tablet-skills-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-skills-input {
@@ -1690,6 +1990,7 @@
             display: block;
             padding-left: 10px;
             height: 54px;
+            font-family: 'Roboto';
         }
 
         &__tablet-post-preview-save-draft-button-container {
@@ -1706,6 +2007,7 @@
             color: $white-text;
             font-weight: 500;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__tablet-preview-button {
@@ -1717,6 +2019,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-save-draft-button {
@@ -1728,6 +2031,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__desktop-container {
@@ -1769,6 +2073,7 @@
             margin-top: 14px;
             font-size: 18px;
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-top-central-container {
@@ -1790,6 +2095,10 @@
             width: 600px;
         }
 
+        &__desktop-candidate-will-not-be-shared-text {
+            font-family: 'Roboto';
+        }
+
         &__desktop-top-button-container {
             margin-top: 40px;
             margin-left: 170px;
@@ -1803,6 +2112,7 @@
             color: $rust;
             font-weight: 500;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__desktop-open-archived-candidate-button {
@@ -1814,6 +2124,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-open-saved-draft-button {
@@ -1825,6 +2136,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-batch-upload-button {
@@ -1836,6 +2148,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-open-through-api-button {
@@ -1847,6 +2160,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-candidate-first-name-middle-name-last-name-container {
@@ -1857,6 +2171,7 @@
 
         &__desktop-candidate-first-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-candidate-first-name-input {
@@ -1867,6 +2182,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-middle-name-container {
@@ -1875,6 +2191,7 @@
 
         &__desktop-middle-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-middle-name-input {
@@ -1885,6 +2202,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-last-name-container {
@@ -1893,6 +2211,7 @@
 
         &__desktop-last-name-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-last-name-input {
@@ -1903,6 +2222,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-check-for-duplicate {
@@ -1910,6 +2230,7 @@
             text-decoration: underline;
             margin-left: 170px;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__desktop-country-state-city-zip-code-container {
@@ -1920,6 +2241,7 @@
 
         &__desktop-country-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-country-select {
@@ -1930,6 +2252,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-state-container {
@@ -1938,6 +2261,7 @@
 
         &__desktop-state-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-state-select {
@@ -1948,6 +2272,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-city-container {
@@ -1956,6 +2281,7 @@
 
         &__desktop-city-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-city-input {
@@ -1966,6 +2292,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-zip-code-container {
@@ -1974,6 +2301,7 @@
 
         &__desktop-zip-code-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-zip-code-input {
@@ -1984,6 +2312,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-primary-email-home-phone-container {
@@ -1994,6 +2323,7 @@
 
         &__desktop-primary-email-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-primary-email-input {
@@ -2004,6 +2334,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-home-phone-container {
@@ -2012,6 +2343,7 @@
 
         &__desktop-home-phone-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-home-phone-input {
@@ -2022,6 +2354,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-best-time-to-call-cell-phone-container {
@@ -2032,6 +2365,7 @@
 
         &__desktop-best-time-to-call-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-best-time-to-call-input {
@@ -2042,6 +2376,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-cell-phone-container {
@@ -2050,6 +2385,7 @@
 
         &__desktop-cell-phone-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-cell-phone-input {
@@ -2060,6 +2396,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-title-container {
@@ -2069,6 +2406,7 @@
 
         &__desktop-title-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-title-input {
@@ -2079,6 +2417,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-industry-job-type-citizenship-type-of-visa-container {
@@ -2089,6 +2428,7 @@
 
         &__desktop-industry-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-industry-select {
@@ -2099,6 +2439,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-job-type-container {
@@ -2107,6 +2448,7 @@
 
         &__desktop-job-type-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-job-type-select {
@@ -2117,6 +2459,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-citizenship-container {
@@ -2125,6 +2468,7 @@
 
         &__desktop-citizenship-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-citizenship-select {
@@ -2135,6 +2479,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-type-of-visa-container {
@@ -2143,6 +2488,7 @@
 
         &__desktop-type-of-visa-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-type-of-visa-select {
@@ -2153,6 +2499,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-middle-dashboard-container {
@@ -2167,6 +2514,7 @@
 
         &__desktop-experience-level-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-experience-level-select {
@@ -2177,6 +2525,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-salary-type-container {
@@ -2185,6 +2534,7 @@
 
         &__desktop-salary-type-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-salary-type-select {
@@ -2195,6 +2545,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-environment-start-date-container {
@@ -2204,6 +2555,7 @@
 
         &__desktop-environment-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-environment-select {
@@ -2214,6 +2566,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-start-date-container {
@@ -2223,6 +2576,7 @@
 
         &__desktop-start-date-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-calendar-icon {
@@ -2240,6 +2594,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-willing-to-travel-willing-to-relocate-container {
@@ -2249,6 +2604,7 @@
 
         &__desktop-willing-to-travel-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-willing-to-travel-select {
@@ -2259,6 +2615,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-willing-to-relocate-container {
@@ -2267,6 +2624,7 @@
 
         &__desktop-willing-to-relocate-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-willing-to-relocate-select {
@@ -2277,6 +2635,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-desired-salary-range-container {
@@ -2292,11 +2651,17 @@
             color: $rust;
             padding-top: 32px;
             padding-left: 88px;
+            font-family: 'Roboto';
+            font-size: 18px;
         }
 
         &__desktop-desired-salary-range-slider-container {
             margin-left: 40px;
             margin-top: 36px;
+        }
+
+        &__desktop-desired-salary-range-min-text {
+            font-family: 'Roboto';
         }
 
         &__desktop-desired-salary-range-slider {
@@ -2306,6 +2671,7 @@
 
         &__desktop-desired-salary-range-max-text {
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__desktop-desired-salary-range-values-container {
@@ -2324,6 +2690,7 @@
         &__desktop-desired-salary-range-left-value-number {
             padding-top: 22px;
             padding-left: 72px;
+            font-family: 'Roboto';
         }
 
         &__desktop-minus-sign-salary-icon {
@@ -2342,6 +2709,7 @@
         &__desktop-desired-salary-range-right-value-number {
             padding-top: 22px;
             padding-left: 64px;
+            font-family: 'Roboto';
         }
 
         &__desktop-dollar-sign-salary-icon {
@@ -2356,6 +2724,7 @@
 
         &__desktop-education-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-education-input {
@@ -2366,6 +2735,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-attach-cv-resume-attach-blind-resume-container {
@@ -2381,10 +2751,12 @@
         &__desktop-attach-cv-resume-header-text {
             color: $rust;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__desktop-last-uploaded-text {
             margin-left: 72px;
+            font-family: 'Roboto';
         }
 
         &__desktop-choose-file-resume-uploaded-container {
@@ -2398,6 +2770,7 @@
             height: 68px;
             background-color: $white-background;
             border-radius: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-resume-uploaded-text {
@@ -2405,22 +2778,26 @@
             margin-left: 48px;
             color: $dark-navy;
             text-decoration: underline;
+            font-family: 'Roboto';
         }
 
         &__desktop-doc-or-pdf-accepted {
             margin-top: 12px;
             margin-bottom: 12px;
+            font-family: 'Roboto';
         }
 
         &__desktop-preview-current-resume {
             text-decoration: underline;
             color: $rust;
             margin-bottom: 12px;
+            font-family: 'Roboto';
         }
 
         &__desktop-manage-resumes {
             text-decoration: underline;
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-attach-blind-resume-container {
@@ -2434,10 +2811,12 @@
         &__desktop-attach-blind-resume-header-text {
             color: $rust;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__desktop-attach-blind-resume-no-file-available {
             margin-left: 80px;
+            font-family: 'Roboto';
         }
 
         &__desktop-choose-file-no-file-chosen-container {
@@ -2448,6 +2827,7 @@
         &__desktop-no-file-chosen-text {
             margin-top: 22px;
             margin-left: 66px;
+            font-family: 'Roboto';
         }
 
         &__desktop-linkedin-facebook-container {
@@ -2458,6 +2838,7 @@
 
         &__desktop-linkedin-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-linkedin-input {
@@ -2468,6 +2849,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-facebook-container {
@@ -2476,6 +2858,7 @@
 
         &__desktop-facebook-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-facebook-input {
@@ -2486,6 +2869,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-twitter-portfolio-container {
@@ -2496,6 +2880,7 @@
 
         &__desktop-twitter-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-twitter-input {
@@ -2506,6 +2891,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-portfolio-container {
@@ -2514,6 +2900,7 @@
 
         &__desktop-portfolio-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-portfolio-input {
@@ -2524,6 +2911,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-candidate-description-container {
@@ -2533,6 +2921,7 @@
 
         &__desktop-candidate-description-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-candidate-description-text-area {
@@ -2544,6 +2933,7 @@
             border-radius: 10px;
             padding-left: 16px;
             padding-top: 16px;
+            font-family: 'Roboto';
         }
 
         &__desktop-skills-container {
@@ -2553,6 +2943,7 @@
 
         &__desktop-skills-label {
             color: $rust;
+            font-family: 'Roboto';
         }
 
         &__desktop-skills-input {
@@ -2563,6 +2954,7 @@
             margin-top: 2px;
             border-radius: 10px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__desktop-bottom-button-container {
@@ -2579,6 +2971,7 @@
             height: 52px;
             font-weight: 500;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__desktop-preview-button {
@@ -2590,6 +2983,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 48px;
+            font-family: 'Roboto';
         }
 
         &__desktop-save-draft-button {
@@ -2601,6 +2995,7 @@
             font-weight: 500;
             border-radius: 28px;
             margin-left: 48px;
+            font-family: 'Roboto';
         }
 
     }

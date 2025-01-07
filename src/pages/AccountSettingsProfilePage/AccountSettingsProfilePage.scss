@@ -15,16 +15,22 @@
         font-weight: 700;
         font-size: 24px;
         margin-bottom: 12px;
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
     }
 
     &__administrator-text {
         margin-left: 24px;
         margin-top: 0px;
+        color: $dark-navy;
+        font-family: 'Roboto';
+        font-weight: 500;
     }
 
     &__profile-information-text {
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__personal-details-container {
@@ -32,6 +38,10 @@
         margin-left: 24px;
         font-size: 12px;
         position: relative;
+    }
+
+    &__personal-details-text {
+        font-family: 'Roboto';
     }
 
     &__personal-details-cancel-button {
@@ -45,6 +55,7 @@
         position: absolute;
         left: 240px;
         bottom: 10px;
+        font-family: 'Roboto';
     }
 
     &__personal-details-save-changes-button {
@@ -60,11 +71,13 @@
         position: absolute;
         left: 350px;
         bottom: 10px;
+        font-family: 'Roboto';
     }
 
     &__name-label {
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__name-input {
@@ -76,6 +89,7 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__last-name-input {
@@ -87,11 +101,13 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__email-label {
         margin-left: 24px;
         margin-top: 36px;
+        font-family: 'Roboto';
     }
 
     &__email-input {
@@ -103,11 +119,13 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__phone-label {
         margin-left: 24px;
         margin-top: 36px; 
+        font-family: 'Roboto';
     }
 
     &__phone-input {
@@ -119,15 +137,18 @@
         padding-left: 10px;
         border-radius: 8px;
         border: 1px solid $medium-gray;
+        font-family: 'Roboto';
     }
 
     &__your-photo-text {
         margin-left: 24px;
         margin-top: 60px;
+        font-family: 'Roboto';
     }
 
     &__your-photo-description {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__photo-container {
@@ -149,6 +170,10 @@
         text-align: center;
     }
 
+    &__right-photo-container-description {
+        font-family: 'Roboto';
+    }
+
     &__upload-icon {
         width: 42px;
     }
@@ -157,10 +182,12 @@
         margin-left: 24px;
         margin-top: 48px;
         margin-bottom: 3px;
+        font-family: 'Roboto';
     }
 
     &__biography-description {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__personal-bio {
@@ -173,6 +200,7 @@
 
     &__personal-bio-text {
         margin-left: 6px;
+        font-family: 'Roboto';
     }
 
     &__text-area {
@@ -183,6 +211,7 @@
         border-radius: 8px;
         padding-left: 16px;
         padding-top: 14px;
+        font-family: 'Roboto';
     }
 
     &__save-draft-button {
@@ -193,6 +222,7 @@
         height: 34px;
         margin-left: 160px;
         margin-top: 48px;
+        font-family: 'Roboto';
     }
     
 
@@ -594,6 +624,7 @@
         &__right-photo-container-description {
             width: 250px;
             margin-left: 100px;
+            font-family: 'Roboto';
         }
 
         &__general-biography-container {

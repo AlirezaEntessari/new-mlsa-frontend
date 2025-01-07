@@ -13,7 +13,6 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 export default function MyCandidatesPostCandidatePage() {
-
   const [formData, setFormData] = useState({
     candidateFirstName: "",
     middleName: "",
@@ -55,8 +54,42 @@ export default function MyCandidatesPostCandidatePage() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/post-candidate", formData);
+      const response = await axios.post(
+        "http://localhost:5000/post-candidate",
+        formData
+      );
       alert(response.data.message);
+
+      setFormData({
+        candidateFirstName: "",
+        middleName: "",
+        lastName: "",
+        country: "",
+        state: "",
+        city: "",
+        zipCode: "",
+        primaryEmail: "",
+        homePhone: "",
+        bestTimeToCall: "",
+        title: "",
+        industry: "",
+        jobType: "",
+        citizenship: "",
+        typeOfVisa: "",
+        experienceLevel: "",
+        salaryType: "",
+        environment: "",
+        startDate: "",
+        willingToTravel: "",
+        willingToRelocate: "",
+        education: "",
+        linkedin: "",
+        facebook: "",
+        twitter: "",
+        portfolio: "",
+        candidateDescription: "",
+        skills: "",
+      });
     } catch (error) {
       console.error("Error posting candidate:", error);
       alert("Failed to post candidate.");
@@ -439,8 +472,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-industry-select"
-                  name="mobile-industry"
                   id="mobile-industry"
+                  name="industry"
+                  value={formData.industry}
+                  onChange={handleInputChange}
                 >
                   <option value="aerospace-defense" selected>
                     Aerospace and Defense
@@ -476,8 +511,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-job-type-select"
-                  name="mobile-job-type"
                   id="mobile-job-type"
+                  name="jobType"
+                  value={formData.jobType}
+                  onChange={handleInputChange}
                 >
                   <option value="full-time" selected>
                     Full Time
@@ -499,8 +536,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-citizenship-select"
-                  name="mobile-citizenship"
                   id="mobile-citizenship"
+                  name="citizenship"
+                  value={formData.citizenship}
+                  onChange={handleInputChange}
                 >
                   <option value="US Citizen" selected>
                     US Citizen
@@ -519,8 +558,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-type-of-visa-select"
-                  name="mobile-type-of-visa"
                   id="mobile-type-of-visa"
+                  name="typeOfVisa"
+                  value={formData.typeOfVisa}
+                  onChange={handleInputChange}
                 >
                   <option value="" disabled selected>
                     Select...
@@ -542,8 +583,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-experience-level-select"
-                  name="mobile-experience-level-select"
                   id="mobile-experience-level"
+                  name="experienceLevel"
+                  value={formData.experienceLevel}
+                  onChange={handleInputChange}
                 >
                   <option value="0-1 years">0-1 years</option>
                   <option value="1-2 years">1-2 years</option>
@@ -563,8 +606,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-salary-type-select"
-                  name="mobile-salary-type"
                   id="mobile-salary-type"
+                  name="salaryType"
+                  value={formData.salaryType}
+                  onChange={handleInputChange}
                 >
                   <option value="annual" selected>
                     Annual
@@ -585,8 +630,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-environment-select"
-                  name="mobile-environment"
                   id="mobile-environment"
+                  name="environment"
+                  value={formData.environment}
+                  onChange={handleInputChange}
                 >
                   <option value="on-site" selected>
                     On-site
@@ -612,6 +659,9 @@ export default function MyCandidatesPostCandidatePage() {
                   type="text"
                   id="mobile-start-date"
                   placeholder="mm/dd/yy"
+                  name="startDate"
+                  value={formData.startDate}
+                  onChange={handleInputChange}
                 />
               </div>
             </div>
@@ -664,8 +714,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-willing-to-travel-select"
-                  name="mobile-willing-to-travel"
                   id="mobile-willing-to-travel"
+                  name="willingToTravel"
+                  value={formData.willingToTravel}
+                  onChange={handleInputChange}
                 >
                   <option value="" disabled selected>
                     Select...
@@ -683,8 +735,10 @@ export default function MyCandidatesPostCandidatePage() {
                 </label>
                 <select
                   className="my-candidates-post-candidate-page__mobile-willing-to-relocate-select"
-                  name="mobile-willing-to-relocate"
                   id="mobile-willing-to-relocate"
+                  name="willingToRelocate"
+                  value={formData.willingToRelocate}
+                  onChange={handleInputChange}
                 >
                   <option value="" disabled selected>
                     Select...
@@ -706,6 +760,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-education"
                 placeholder="Enter Education"
+                name="education"
+                value={formData.education}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-attach-cv-resume-container">
@@ -774,6 +831,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-linkedin"
                 placeholder="Enter Link"
+                name="linkedin"
+                value={formData.linkedin}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-facebook-container">
@@ -788,6 +848,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-facebook"
                 placeholder="Enter Link"
+                name="facebook"
+                value={formData.facebook}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-twitter-container">
@@ -802,6 +865,9 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-twitter"
                 placeholder="Enter Link"
+                name="twitter"
+                value={formData.twitter}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-portfolio-container">
@@ -815,6 +881,9 @@ export default function MyCandidatesPostCandidatePage() {
                 className="my-candidates-post-candidate-page__mobile-portfolio-input"
                 type="text"
                 placeholder="Enter Link"
+                name="portfolio"
+                value={formData.portfolio}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-candidate-description-container">
@@ -826,9 +895,11 @@ export default function MyCandidatesPostCandidatePage() {
               </label>
               <textarea
                 className="my-candidates-post-candidate-page__mobile-candidate-description-text-area"
-                name="mobile-candidate-description"
                 id="mobile-candidate-description"
                 placeholder="Enter Candidate Description/Notes"
+                name="candidateDescription"
+                value={formData.candidateDescription}
+                onChange={handleInputChange}
               ></textarea>
             </div>
             <div className="my-candidates-post-candidate-page__mobile-skills-container">
@@ -843,10 +914,16 @@ export default function MyCandidatesPostCandidatePage() {
                 type="text"
                 id="mobile-skills"
                 placeholder="Enter Skills separated by commas"
+                name="skills"
+                value={formData.skills}
+                onChange={handleInputChange}
               />
             </div>
             <div className="my-candidates-post-candidate-page__mobile-bottom-button-container">
-              <button className="my-candidates-post-candidate-page__mobile-post-button">
+              <button
+                className="my-candidates-post-candidate-page__mobile-post-button"
+                onClick={handleSubmit}
+              >
                 Post
               </button>
               <Link to="/my-candidates-candidate-details-page">

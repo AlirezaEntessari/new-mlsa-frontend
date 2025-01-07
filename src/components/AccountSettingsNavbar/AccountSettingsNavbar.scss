@@ -12,20 +12,28 @@
         padding-bottom: 3px;
     }
 
+    &__profile-option {
+        font-family: 'Roboto';
+    }
+
     &__agency-option {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__password-option {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__billing-option {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__notifications-option {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__profile-link {
@@ -90,21 +98,29 @@
             border-bottom: 1px solid $soft-black;
             // margin-right: 8px;
         }
+
+        &__profile-option {
+            font-family: 'Roboto';
+        }
     
         &__agency-option {
             margin-left: 65px;
+            font-family: 'Roboto';
         }
 
         &__password-option {
             margin-left: 65px;
+            font-family: 'Roboto';
         }
     
         &__billing-option {
             margin-left: 65px;
+            font-family: 'Roboto';
         }
     
         &__notifications-option {
             margin-left: 65px;
+            font-family: 'Roboto';
         }
     
         &__profile-link {
@@ -144,30 +160,35 @@
         &__profile-option {
             font-size: 17px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__agency-option {
             margin-left: 120px;
             font-size: 17px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__password-option {
             margin-left: 120px;
             font-size: 17px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__billing-option {
             margin-left: 120px;
             font-size: 17px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__notifications-option {
             margin-left: 120px;
             font-size: 17px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__profile-link {
