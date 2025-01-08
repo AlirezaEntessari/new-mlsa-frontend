@@ -16,6 +16,7 @@
         font-size: 24px;
         // margin-bottom: 12px;
         margin-bottom: 6px;
+        font-family: 'Roboto Serif';
     }
 
     &__administrator-text {
@@ -23,6 +24,7 @@
         margin-top: 0px;
         font-weight: 500;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__subscription-and-billing-container {
@@ -33,6 +35,7 @@
         font-weight: 500;
         margin-left: 24px;
         margin-top: 36px;
+        font-family: 'Roboto';
     }
 
     &__cancel-button {
@@ -43,6 +46,7 @@
         margin-top: 80px;
         border-radius: 24px;
         font-size: 14px;
+        font-family: 'Roboto';
     }
 
     &__save-changes-button {
@@ -55,6 +59,7 @@
         font-size: 14px;
         margin-left: 10px;
         color: $white-text;
+        font-family: 'Roboto';
     }
 
     &__subscription-container {
@@ -77,15 +82,18 @@
         border: 1px solid $soft-black;
         height: 45px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__monthly-plan {
         margin-left: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__next-payment-due {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__upgrade-to-yearly-plan-button {
@@ -97,6 +105,7 @@
         height: 32px;
         border-radius: 24px;
         margin-top: 12px;
+        font-family: 'Roboto';
     }
 
     &__cancel-subscription {
@@ -104,6 +113,7 @@
         text-decoration: underline;
         margin-left: 24px;
         margin-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__billing-container {
@@ -126,24 +136,29 @@
         border: 1px solid $soft-black;
         height: 45px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__credit-card-on-file {
         margin-left: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__credit-card-number {
         font-weight: 500;
         margin-left: 80px;
+        font-family: 'Roboto';
     }
 
     &__last-payment-received {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__last-payment-received-date {
         margin-left: 50px;
+        font-family: 'Roboto';
     }
 
     &__change-payment-method-button {
@@ -155,6 +170,7 @@
         height: 32px;
         border-radius: 24px;
         margin-top: 12px;
+        font-family: 'Roboto';
     }
 
     &__payment-history {
@@ -162,6 +178,7 @@
         text-decoration: underline;
         margin-left: 24px;
         margin-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__referral-credits-container {
@@ -184,25 +201,30 @@
         border: 1px solid $soft-black;
         height: 45px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__agency-referrals {
         margin-left: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__abc-staffing-inc {
         margin-left: 24px;
         margin-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__abc-staffing-inc-date {
         margin-left: 120px;
+        font-family: 'Roboto';
     }
 
     &__referral-credit {
         margin-left: 24px;
         margin-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__refer-an-agency-button {
@@ -213,16 +235,19 @@
         width: 180px;
         border-radius: 20px;
         height: 32px;
+        font-family: 'Roboto';
     }
 
     &__questions-subscription-billing {
         margin-left: 75px;
         margin-top: 32px;
         margin-bottom: 10px;
+        font-family: 'Roboto';
     } 
 
     &__email-us {
         margin-left: 83px;
+        font-family: 'Roboto';
     }
     
 }
@@ -474,9 +499,9 @@
             font-size: 14px;
         }
 
-        &__footer-container {
-            display: flex;
-        }
+        // &__footer-container {
+        //     // display: flex;
+        // }
 
         &__questions-subscription-billing {
             margin-left: 176px;
