@@ -16,6 +16,7 @@
         font-family: 'Roboto Serif';
         font-size: 32px;
         font-weight: 700;
+        color: $dark-navy;
     }
 
     &__agency-referral-program {
@@ -27,6 +28,7 @@
         border-bottom: 2px solid $soft-black;
         width: 500px;
         padding-bottom: 10px;
+        font-family: 'Roboto';
     }
 
     &__refer-staffing-agency {
@@ -34,22 +36,27 @@
         margin-left: 36px;
         font-weight: 700;
         font-size: 22px;
+        color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__why-participate-in-referral-program {
         font-weight: 600;
         margin-left: 36px;
         margin-top: 36px;
+        font-family: 'Roboto';
     }
 
     &__why-participate-description {
         margin-left: 36px;
         text-align: justify;
         margin-right: 75px;
+        font-family: 'Roboto';
     }
 
     &__bold {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__how-it-works-container {
@@ -66,12 +73,14 @@
         padding-left: 16px;
         font-size: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__how-it-works-description {
         padding-left: 16px;
         text-align: justify;
         margin-right: 32px;
+        font-family: 'Roboto';
     }
 
     &__how-it-works-options-container {
@@ -98,12 +107,14 @@
         padding-left: 24px;
         padding-top: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__submit-your-referral-description {
         padding-left: 24px;
         padding-right: 20px;
         text-align: justify;
+        font-family: 'Roboto';
     }
 
     &__enjoy-your-reward-container {
@@ -127,12 +138,14 @@
         padding-left: 24px;
         padding-top: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__enjoy-your-reward-description {
         padding-left: 24px;
         padding-right: 20px;
         text-align: justify;
+        font-family: 'Roboto';
     }
 
     &__agency-referral-form-container {
@@ -159,11 +172,13 @@
         text-align: justify;
         padding-right: 32px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__name-label {
         padding-left: 16px;
         padding-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__red-asterisk-icon {
@@ -179,11 +194,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__website-address-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__website-address-input {
@@ -194,11 +211,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__industry-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__industry-input {
@@ -209,11 +228,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__email-contact-address-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__email-contact-address-input {
@@ -224,11 +245,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__phone-number-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__phone-number-input {
@@ -239,6 +262,7 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__your-information-header {
@@ -252,6 +276,7 @@
     &__your-name-label {
         padding-left: 16px;
         padding-top: 5px;
+        font-family: 'Roboto';
     }
 
     &__your-name-input {
@@ -262,11 +287,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__your-email-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__your-email-input {
@@ -277,11 +304,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__your-agency-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__your-agency-input {
@@ -292,11 +321,13 @@
         width: 375px;
         border-radius: 8px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__your-message-label {
         padding-left: 16px;
         padding-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__your-message-text-area {
@@ -309,6 +340,7 @@
         border-radius: 8px;
         width: 375px;
         height: 200px;
+        font-family: 'Roboto';
     }
 
     &__reCAPTCHA-icon {
@@ -332,6 +364,7 @@
         border-radius: 24px;
         font-weight: 500;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__cancel-button {
@@ -345,6 +378,7 @@
         font-weight: 500;
         font-size: 17px;
         margin-top: 15px;
+        font-family: 'Roboto';
     }
 
 
@@ -377,6 +411,7 @@
             border-bottom: 2px solid $soft-black;
             width: 700px;
             padding-bottom: 10px;
+            font-family: 'Roboto';
         }
     
         &__refer-staffing-agency {
@@ -384,6 +419,7 @@
             margin-left: 36px;
             font-weight: 700;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__why-participate-in-referral-program {
@@ -391,16 +427,19 @@
             margin-left: 36px;
             margin-top: 36px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
     
         &__why-participate-description {
             margin-left: 36px;
             text-align: justify;
             margin-right: 100px;
+            font-family: 'Roboto';
         }
 
         &__bold {
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__how-it-works-container {
@@ -417,6 +456,7 @@
             padding-left: 24px;
             font-size: 20px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__how-it-works-description {

@@ -19,6 +19,7 @@
         text-align: center;
         margin-left: 100px;
         margin-right: 100px;
+        font-family: 'Roboto Serif';
     }
 
     &__card--yearly-membership {
@@ -35,38 +36,49 @@
         font-size: 36px;
         margin-top: 32px;
         font-weight: 700;
+        font-family: 'Roboto Serif';
     }
 
     &__header-yearly-text {
         margin-left: 190px;
+        font-family: 'Roboto Serif';
     }
 
     &__header-yearly-membership-text {
         // margin-left: 135px;
         display: block;
         margin-left: 135px;
+        font-family: 'Roboto Serif';
     }
 
     &__yearly-membership-description {
         margin-left: 70px;
         margin-right: 70px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__yearly-membership-price {
         font-size: 32px;
         margin-left: 70px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__yearly-membership-price-number {
         font-weight: 500;
+        font-family: 'Roboto';
+    }
+
+    &__yearly-membership-yearly-text {
+        font-family: 'Roboto';
     }
 
     &__yearly-membership-first-line {
         font-weight: 500;
         margin-left: 70px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__check-icon {
@@ -76,14 +88,17 @@
     &__yearly-membership-first-line-text {
         margin-left: 10px;
         font-weight: 600;
+        font-family: 'Roboto';
     }
 
     &__yearly-membership-lines {
         margin-left: 70px;
+        font-family: 'Roboto';
     }
 
     &__yearly-membership-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__yearly-select-plan-button {
@@ -96,6 +111,7 @@
         color: white;
         border-radius: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__card--monthly-membership {
@@ -114,52 +130,63 @@
         margin-top: 32px;
         font-weight: 700;
         // margin-left: 66px;
+        font-family: 'Roboto Serif';
     }
 
     &__header-monthly-text {
         margin-left: 170px;
+        font-family: 'Roboto Serif';
     }
 
     &__header-monthly-membership-text {
         margin-left: 136px;
         display: block;
+        font-family: 'Roboto Serif';
     }
 
     &__monthly-membership-description {
         margin-left: 70px;
         margin-right: 70px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-price {
         font-size: 32px;
         margin-left: 70px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-price-number {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-monthly-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-first-line {
         margin-left: 70px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-first-line-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-lines {
         margin-left: 70px;
+        font-family: 'Roboto';
     }
 
     &__monthly-membership-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__monthly-select-plan-button {
@@ -172,6 +199,7 @@
         color: white;
         border-radius: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
 }
@@ -344,7 +372,7 @@
         }
 
         &__monthly-select-plan-button {
-            margin-top: 66px;
+            margin-top: 93px;
             margin-left: 115px;
             background-color: $access-blue;
             border: 1px solid $access-blue;

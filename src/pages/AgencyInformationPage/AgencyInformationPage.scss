@@ -18,12 +18,14 @@
         margin-top: 48px;
         text-align: center;
         margin-left: 50px;
+        font-family: 'Roboto Serif';
     }
 
     &__instructions {
         margin-top: 40px;
         margin-left: 168px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__input-container {
@@ -33,6 +35,7 @@
 
     &__staffing-agency-name-label {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__red-asterisk-icon {
@@ -48,11 +51,13 @@
         border: 1px solid lightgray;
         padding-left: 10px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__staffing-agency-ein-label {
         font-weight: 500;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__staffing-agency-ein-input {
@@ -63,11 +68,13 @@
         border: 1px solid lightgray;
         padding-left: 10px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__staffing-agency-website-label {
         font-weight: 500;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__staffing-agency-website-input {
@@ -78,12 +85,14 @@
         border: 1px solid lightgray;
         padding-left: 10px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__industry-field-label {
         font-weight: 500;
         margin-top: 48px;
         margin-left: 64px;
+        font-family: 'Roboto';
     }
 
     &__industry-field-description {
@@ -91,6 +100,7 @@
         margin-top: 12px;
         margin-right: 48px;
         text-align: justify;
+        font-family: 'Roboto';
     }
 
     &__checkbox-container-1 {
@@ -198,6 +208,7 @@
         margin-left: 64px;
         font-weight: 500;
         font-size: 20px;
+        font-family: 'Roboto';
     }
 
     &__full-name-admin-input {
@@ -209,59 +220,73 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 64px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-1 {
         margin-top: 32px;
         margin-left: 72px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-2 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__bold {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__rules-line-3 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-4 {
         margin-left: 160px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-5 {
         margin-left: 160px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-6 {
         margin-left: 160px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-7 {
         margin-left: 160px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-8 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-9 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-10 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-11 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__rules-line-12 {
         margin-left: 84px;
+        font-family: 'Roboto';
     }
 
     &__password-label {
@@ -269,6 +294,7 @@
         margin-left: 64px;
         font-weight: 500;
         font-size: 20px;
+        font-family: 'Roboto';
     }
 
     &__password-input {
@@ -280,6 +306,7 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 64px;
+        font-family: 'Roboto';
     }
 
     &__dont-show-icon-password {
@@ -293,6 +320,7 @@
         margin-left: 64px;
         font-weight: 500;
         font-size: 20px;
+        font-family: 'Roboto';
     }
 
     &__confirm-password-input {
@@ -304,6 +332,7 @@
         padding-left: 10px;
         margin-top: 3px;
         margin-left: 64px;
+        font-family: 'Roboto';
     }
 
     &__dont-show-icon-confirm-password {
@@ -315,6 +344,7 @@
     &__terms-and-conditions {
         margin-left: 64px;
         margin-top: 28px;
+        font-family: 'Roboto';
     }
 
     &__terms-and-conditions-checkbox {
@@ -325,6 +355,7 @@
         text-decoration: underline;
         margin-left: 72px;
         color: $logo-orange;
+        font-family: 'Roboto';
     }
 
     &__next-button {
@@ -338,6 +369,7 @@
         border-radius: 48px;
         padding-left: 10px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__terms-of-use {
@@ -345,16 +377,19 @@
         margin-left: 84px;
         text-align: center;
         width: 500px;
+        font-family: 'Roboto';
     }
 
     &__terms-of-use-text {
         color: $logo-blue;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__privacy-policy {
         color: $logo-blue;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__agree-terms-and-conditions-container {
@@ -366,6 +401,7 @@
     &__error-message {
         margin-left: 64px;
         margin-top: 8px;
+        font-family: 'Roboto';
     }
 
 }

@@ -40,6 +40,7 @@
     &__edit-profile-text {
         text-decoration: underline;
         color: $logo-blue;
+        font-family: 'Roboto';
     }
 
     &__hero-container {
@@ -75,14 +76,17 @@
         margin-left: 94px;
         font-weight: 700;
         font-size: 24px;
+        font-family: 'Roboto Serif';
     }
 
     &__company-website {
         margin-left: 62px;
+        font-family: 'Roboto';
     }
 
     &__company-phone-number {
         margin-left: 98px;
+        font-family: 'Roboto';
     }
 
     &__agency-video-placeholder {
@@ -103,6 +107,7 @@
         border-radius: 20px;
         font-size: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__ratings-button {
@@ -114,6 +119,7 @@
         border-radius: 20px;
         font-size: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__partnerships-button {
@@ -125,6 +131,7 @@
         border-radius: 20px;
         font-size: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__bottom-button-container {
@@ -140,6 +147,7 @@
         border-radius: 20px;
         font-size: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__account-settings-button {
@@ -151,6 +159,7 @@
         border-radius: 20px;
         font-size: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__about-container {
@@ -171,10 +180,12 @@
 
     &__about-company-header {
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__about-company-content {
         text-align: justify;
+        font-family: 'Roboto';
     }
 
     &__rating-container {
@@ -188,6 +199,7 @@
         padding-top: 18px;
         padding-left: 18px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__rating-star-container {
@@ -204,17 +216,20 @@
         font-weight: 500;
         font-size: 32px;
         margin-top: 5px;
+        font-family: 'Roboto';
     }
 
     &__rating-description-first-line {
         padding-left: 18px;
         font-style: italic;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__rating-description-second-line {
         padding-left: 18px;
         font-style: italic;
+        font-family: 'Roboto';
     }
 
     &__industry-container {
@@ -228,11 +243,13 @@
         padding-top: 18px;
         padding-left: 18px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__healthcare-text {
         margin-left: 140px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__partnerships-container {
@@ -247,6 +264,7 @@
         padding-top: 18px;
         padding-left: 18px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__partnership-name-container {
@@ -257,6 +275,7 @@
         margin-bottom: 14px;
         text-decoration: underline;
         color: $logo-blue;
+        font-family: 'Roboto';
     }
 
     &__full-scroll-bar-partnerships {
@@ -277,6 +296,7 @@
         padding-top: 12px;
         padding-left: 16px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__recruiter-container {
@@ -290,10 +310,12 @@
     &__recruiter {
         font-weight: 500;
         margin-bottom: 4px;
+        font-family: 'Roboto';
     }
 
     &__recruiter-status {
         margin-bottom: 10px;
+        font-family: 'Roboto';
     }
 
     &__action-icon {
@@ -360,16 +382,18 @@
             margin-left: 152px;
             margin-top: 10px;
             font-size: 24px;
-            font-weight: 500;
-            font-family: $roboto-serif;
+            font-weight: 700;
+            font-family: 'Roboto Serif';
         }
 
         &__tablet-website {
             margin-left: 142px;
+            font-family: 'Roboto';
         }
 
         &__tablet-phone-number {
             margin-left: 154px;
+            font-family: 'Roboto';
         }
 
         &__tablet-social-media-container {
@@ -398,6 +422,7 @@
         &__tablet-edit-profile-text {
             color: $logo-blue;
             text-decoration: underline;
+            font-family: 'Roboto';
         }
 
         &__tablet-edit-pencil-icon {
@@ -424,6 +449,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-ratings-button {
@@ -435,6 +461,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-partnerships-button {
@@ -446,6 +473,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-refer-an-agency-button {
@@ -457,6 +485,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-account-settings-button {
@@ -468,6 +497,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__about-container {
@@ -489,10 +519,12 @@
         
         &__about-company-header {
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__about-company-content {
             text-align: justify;
+            font-family: 'Roboto';
         }
 
         &__rating-container {
@@ -506,6 +538,7 @@
             padding-top: 24px;
             padding-left: 24px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__rating-star-container {
@@ -522,17 +555,20 @@
             font-weight: 500;
             font-size: 32px;
             margin-top: 5px;
+            font-family: 'Roboto';
         }
     
         &__rating-description-first-line {
             padding-left: 24px;
             font-style: italic;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__rating-description-second-line {
             padding-left: 24px;
             font-style: italic;
+            font-family: 'Roboto';
         }
     
         &__industry-container {
@@ -546,11 +582,13 @@
             padding-top: 24px;
             padding-left: 24px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
     
         &__healthcare-text {
             margin-left: 168px;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__partnerships-container {
@@ -565,6 +603,7 @@
             padding-top: 24px;
             padding-left: 24px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__partnership-name-container {
@@ -575,6 +614,7 @@
             margin-bottom: 14px;
             text-decoration: underline;
             color: $logo-blue;
+            font-family: 'Roboto';
         }
 
         &__full-scroll-bar-partnerships {
@@ -595,6 +635,7 @@
             padding-top: 24px;
             padding-left: 24px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
     
         &__recruiter-container {
@@ -608,10 +649,12 @@
         &__recruiter {
             font-weight: 500;
             margin-bottom: 4px;
+            font-family: 'Roboto';
         }
     
         &__recruiter-status {
             margin-bottom: 10px;
+            font-family: 'Roboto';
         }
 
         &__action-icon {
@@ -672,20 +715,22 @@
             margin-left: 170px;
             margin-top: 10px;
             font-size: 40px;
-            font-weight: 500;
-            font-family: $roboto-serif;
+            font-weight: 600;
+            font-family: 'Roboto Serif';
         }
 
         &__tablet-website {
             margin-left: 180px;
             margin-top: 36px;
             font-size: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-phone-number {
             margin-left: 190px;
             margin-top: 36px;
             font-size: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-social-media-container {
@@ -716,6 +761,7 @@
             color: $logo-blue;
             text-decoration: underline;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__tablet-edit-pencil-icon {
@@ -747,6 +793,7 @@
             border-radius: 32px;
             font-size: 16px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-ratings-button {
@@ -759,6 +806,7 @@
             border-radius: 32px;
             font-size: 16px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-partnerships-button {
@@ -771,6 +819,7 @@
             border-radius: 32px;
             font-size: 16px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-refer-an-agency-button {
@@ -783,6 +832,7 @@
             border-radius: 32px;
             font-size: 16px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-account-settings-button {
@@ -795,6 +845,7 @@
             border-radius: 32px;
             font-size: 16px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__about-container {
@@ -817,6 +868,7 @@
             padding-left: 48px;
             font-weight: 500;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-about-middle-container {
@@ -836,6 +888,7 @@
             padding-top: 16px;
             padding-left: 132px;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-star-container {
@@ -861,12 +914,14 @@
             padding-top: 16px;
             padding-left: 120px;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-industry-name {
             padding-left: 114px;
             padding-top: 34px;
             font-size: 20px;
+            font-family: 'Roboto';
         }
 
         &__desktop-team-container {
@@ -883,6 +938,7 @@
             padding-top: 16px;
             padding-left: 140px;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-team-member-container {
@@ -894,18 +950,21 @@
             text-decoration: underline;
             color: $logo-blue;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__desktop-team-member-2 {
             text-decoration: underline;
             color: $logo-blue;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__desktop-team-member-3 {
             text-decoration: underline;
             color: $logo-blue;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__team-full-scrollbar-icon {
@@ -928,6 +987,7 @@
             padding-top: 16px;
             padding-left: 110px;
             font-size: 24px;
+            font-family: 'Roboto';
         }
 
         &__desktop-partners-container {
@@ -939,12 +999,14 @@
             text-decoration: underline;
             color: $logo-blue;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__desktop-partners-2 {
             text-decoration: underline;
             color: $logo-blue;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__partnerships-full-scrollbar-icon {
@@ -959,6 +1021,7 @@
             margin-top: 50px;
             margin-right: 60px;
             text-align: justify;
+            font-family: 'Roboto';
         }
 
 

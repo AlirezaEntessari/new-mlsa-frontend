@@ -9,7 +9,7 @@ export default function CheckBoxTermsAndConditions({ isChecked, setIsChecked }) 
     <div
       className="checkbox-terms-and-conditions"
       onClick={handleCheckboxClick}
-      style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
+      style={{ cursor: "pointer", display: "flex", alignItems: "center", fontFamily: "Roboto" }}
     >
       <svg
         width="18"

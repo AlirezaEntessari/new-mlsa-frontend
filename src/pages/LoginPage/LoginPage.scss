@@ -11,17 +11,20 @@
         margin-top: 32px;
         font-size: 40px;
         font-weight: 700;
+        font-family: 'Roboto Serif';
     }
 
     &__enter-text {
         text-align: center;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__email-label {
         display: block;
         margin-left: 84px;
         margin-top: 48px;
+        font-family: 'Roboto';
     }
 
     &__email-input {
@@ -32,6 +35,7 @@
         border-radius: 5px;
         padding-left: 10px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__hide-icon {
@@ -44,6 +48,7 @@
         display: block;
         margin-left: 84px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__password-input {
@@ -54,11 +59,13 @@
         border-radius: 5px;
         padding-left: 10px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__keep-me-signed-in {
         margin-left: 76px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__checkbox-empty-icon {
@@ -67,12 +74,14 @@
 
     &__keep-me-signed-in-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__forgot-your-password-text {
         color: $logo-orange;
         margin-left: 210px;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 
     &__reCAPTCHA-icon {
@@ -93,17 +102,20 @@
         margin-left: 225px;
         margin-top: 48px;
         border-radius: 24px;
+        font-family: 'Roboto';
     }
 
     &__dont-have-an-account {
         margin-left: 190px;
         margin-top: 72px;
+        font-family: 'Roboto';
     }
 
     &__sign-up-text {
         margin-left: 28px;
         color: $logo-orange;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__sign-up-link {
@@ -149,8 +161,8 @@
 
         &__hide-icon {
             position: absolute;
-            top: 543px;
-            left: 1000px;
+            top: 548px;
+            left: 830px;
         }
     
         &__password-label {

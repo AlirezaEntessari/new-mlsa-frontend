@@ -19,7 +19,7 @@ export default function CheckBoxWithLogic({ labelText, selectedIndustries, setSe
     <div
       className="checkbox-with-logic"
       onClick={handleCheckboxClick}
-      style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
+      style={{ cursor: "pointer", display: "flex", alignItems: "center", fontFamily: "Roboto" }}
     >
       <svg
         width="18"

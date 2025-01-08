@@ -17,6 +17,7 @@
         font-weight: 700;
         margin-top: 48px;
         margin-left: 92px;
+        font-family: 'Roboto Serif';
     }
 
     &__payment-details {
@@ -24,6 +25,7 @@
         font-weight: 500;
         margin-top: 36px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__bill-yearly-container {
@@ -42,6 +44,7 @@
     &__bill-yearly-header {
         padding-left: 12px;
         padding-top: 10px;
+        font-family: 'Roboto';
     }
 
     &__check-in-circle-icon {
@@ -50,11 +53,13 @@
 
     &__bill-yearly-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__bill-yearly-description {
         margin-left: 32px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__bill-monthly-container {
@@ -74,6 +79,7 @@
         padding-left: 12px;
         padding-top: 10px;
         margin-bottom: 0px;
+        font-family: 'Roboto';
     }
 
     &__exit-icon {
@@ -82,11 +88,13 @@
 
     &__bill-monthly-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__bill-monthly-description {
         margin-left: 44px;
         margin-top: 3px;
+        font-family: 'Roboto';
     }
 
     &__bill-yearly-container.selected,
@@ -104,10 +112,12 @@
         font-weight: 500;
         margin-top: 36px;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__payment-method-description {
         margin-left: 92px;
+        font-family: 'Roboto';
     }
 
     &__circle-button-on-icon {
@@ -116,10 +126,12 @@
 
     &__credit-or-debit {
         margin-left: 120px;
+        font-family: 'Roboto';
     }
 
     &__credit-or-debit-card-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__payment-logos-container {
@@ -171,12 +183,14 @@
         margin-left: 24px;
         font-weight: 500;
         font-size: 18px;
+        font-family: 'Roboto';
     }
 
     &__first-name-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__first-name-input {
@@ -187,12 +201,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__last-name-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__last-name-input {
@@ -203,12 +219,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__card-number-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__card-number-input {
@@ -219,12 +237,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__expires-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__expires-input {
@@ -235,12 +255,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__cvv-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__cvv-input {
@@ -251,12 +273,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__address-line-1-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__address-line-1-input {
@@ -267,12 +291,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__address-line-2-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__address-line-2-input {
@@ -283,12 +309,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__city-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__city-input {
@@ -299,12 +327,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__state-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__state-input {
@@ -315,12 +345,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__country-region-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__country-region-input {
@@ -331,12 +363,14 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__zip-code-label {
         display: block;
         margin-left: 24px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__zip-code-input {
@@ -347,6 +381,7 @@
         height: 43px;
         margin-top: 3px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__payment-summary {
@@ -354,20 +389,24 @@
         margin-top: 32px;
         font-size: 18px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership {
         margin-left: 92px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership-price {
         margin-left: 280px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__auto-renews {
@@ -376,25 +415,30 @@
         border-bottom: 2px solid $dark-gray;
         margin-right: 116px;
         padding-bottom: 24px;
+        font-family: 'Roboto';
     }
 
     &__amount-due {
         margin-left: 92px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__amount-due-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__amount-due-price {
         margin-left: 324px;
         font-weight: 500;
         color: $logo-blue;
+        font-family: 'Roboto';
     }
 
     &__amount-due-date {
         margin-left: 92px;
+        font-family: 'Roboto';
     }
 
     &__cancellation-policy {
@@ -402,6 +446,7 @@
         text-decoration: underline;
         color: $logo-blue;
         margin-left: 270px;
+        font-family: 'Roboto';
     }
 
     &__submit-payment-button {
@@ -414,6 +459,7 @@
         margin-top: 24px;
         border-radius: 32px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__tablet-name-labels-container {
@@ -476,6 +522,7 @@
             font-weight: 700;
             margin-top: 32px;
             margin-left: 48px;
+            font-family: 'Roboto Serif';
         }
 
         &__payment-details {
@@ -483,6 +530,7 @@
             font-weight: 500;
             margin-top: 32px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__bill-container {
@@ -506,6 +554,7 @@
         &__bill-yearly-header {
             padding-left: 12px;
             padding-top: 10px;
+            font-family: 'Roboto';
         }
 
         &__check-in-circle-icon {
@@ -514,11 +563,13 @@
     
         &__bill-yearly-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
     
         &__bill-yearly-description {
             margin-left: 32px;
             margin-top: 3px;
+            font-family: 'Roboto';
         }
 
         &__bill-monthly-container {
@@ -538,6 +589,7 @@
             padding-left: 12px;
             padding-top: 10px;
             margin-bottom: 0px;
+            font-family: 'Roboto';
         }
     
         &__exit-icon {
@@ -546,11 +598,13 @@
     
         &__bill-monthly-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
     
         &__bill-monthly-description {
             margin-left: 44px;
             margin-top: 3px;
+            font-family: 'Roboto';
         }
 
         &__payment-method {
@@ -558,10 +612,12 @@
             font-weight: 500;
             margin-top: 36px;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__payment-method-description {
             margin-left: 48px;
+            font-family: 'Roboto';
         }
 
         &__payment-container {
@@ -570,6 +626,7 @@
     
         &__credit-or-debit {
             margin-left: 48px;
+            font-family: 'Roboto';
         }
 
         &__circle-button-on-icon {
@@ -578,6 +635,7 @@
     
         &__credit-or-debit-card-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
     
         &__payment-logos-container {
@@ -629,6 +687,7 @@
             margin-left: 24px;
             font-weight: 500;
             font-size: 18px;
+            font-family: 'Roboto';
         }
 
         &__name-container {
@@ -641,8 +700,13 @@
             margin-top: 36px;
         }
 
+        &__tablet-first-name-label {
+            font-family: 'Roboto';
+        }
+
         &__tablet-last-name-label {
             margin-left: 243px;
+            font-family: 'Roboto';
         }
 
         &__tablet-name-input-container {
@@ -657,6 +721,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-last-name-input {
@@ -667,12 +732,14 @@
             margin-top: 3px;
             margin-left: 15px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__card-number-label {
             display: block;
             margin-left: 24px;
             margin-top: 24px;
+            font-family: 'Roboto';
         }
     
         &__card-number-input {
@@ -683,6 +750,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__expires-cvv-container {
@@ -695,8 +763,13 @@
             margin-top: 24px;
         }
 
+        &__tablet-expires-label {
+            font-family: 'Roboto';
+        }
+
         &__tablet-cvv-label {
             margin-left: 266px;
+            font-family: 'Roboto';
         }
 
         &__tablet-expires-cvv-input-container {
@@ -711,6 +784,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-cvv-input {
@@ -721,12 +795,14 @@
             margin-top: 3px;
             margin-left: 15px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__address-line-1-label {
             display: block;
             margin-left: 24px;
             margin-top: 24px;
+            font-family: 'Roboto';
         }
     
         &__address-line-1-input {
@@ -737,12 +813,14 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__address-line-2-label {
             display: block;
             margin-left: 24px;
             margin-top: 24px;
+            font-family: 'Roboto';
         }
     
         &__address-line-2-input {
@@ -753,6 +831,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__city-state-container {
@@ -765,8 +844,13 @@
             margin-top: 24px;
         }
 
+        &__tablet-city-label {
+            font-family: 'Roboto';
+        }
+
         &__tablet-state-label {
             margin-left: 290px;
+            font-family: 'Roboto';
         }
 
         &__tablet-city-state-input-container {
@@ -781,6 +865,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-state-input {
@@ -791,6 +876,7 @@
             margin-top: 3px;
             margin-left: 15px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__country-region-zip-code-container {
@@ -805,11 +891,16 @@
 
         &__tablet-zip-code-label {
             margin-left: 210px;
+            font-family: 'Roboto';
         }
 
         &__tablet-country-region-zip-code-input-container {
             display: flex;
             margin-left: 24px;
+        }
+
+        &__tablet-country-region-label {
+            font-family: 'Roboto';
         }
 
         &__tablet-country-region-input {
@@ -819,6 +910,7 @@
             height: 43px;
             margin-top: 3px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-zip-code-input {
@@ -829,6 +921,7 @@
             margin-top: 3px;
             margin-left: 15px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__payment-summary {
@@ -836,20 +929,24 @@
             margin-top: 32px;
             font-size: 18px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__mlsa-membership {
             margin-left: 92px;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__mlsa-membership-text {
             font-weight: 500;
+            font-family: 'Roboto';
         }
     
         &__mlsa-membership-price {
             margin-left: 396px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__auto-renews {
@@ -858,25 +955,30 @@
             border-bottom: 2px solid $dark-gray;
             margin-right: 100px;
             padding-bottom: 24px;
+            font-family: 'Roboto';
         }
 
         &__amount-due {
             margin-left: 92px;
             margin-top: 16px;
+            font-family: 'Roboto';
         }
     
         &__amount-due-text {
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__amount-due-price {
             margin-left: 440px;
             font-weight: 500;
             color: $logo-blue;
+            font-family: 'Roboto';
         }
 
         &__amount-due-date {
             margin-left: 92px;
+            font-family: 'Roboto';
         }
 
         &__cancellation-policy-submit-payment-container {
@@ -888,6 +990,7 @@
             color: $logo-blue;
             margin-left: 92px;
             margin-top: 64px;
+            font-family: 'Roboto';
         }
 
         &__submit-payment-button {
@@ -900,6 +1003,7 @@
             margin-top: 15px;
             border-radius: 32px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
     }

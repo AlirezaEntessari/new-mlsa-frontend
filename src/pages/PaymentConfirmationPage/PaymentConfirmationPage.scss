@@ -11,6 +11,7 @@
         margin-top: 24px;
         font-size: 54px;
         font-weight: 700;
+        font-family: 'Roboto Serif';
     }
 
     &__payment-confirmation-header {
@@ -18,26 +19,31 @@
         margin-top: 36px;
         font-size: 22px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__payment-was-received {
         margin-left: 60px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership {
         margin-left: 60px;
         margin-top: 70px;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership-1-year {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mlsa-membership-price {
         margin-left: 300px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__auto-renews {
@@ -46,28 +52,33 @@
         border-bottom: 2px solid $medium-gray;
         padding-bottom: 24px;
         margin-right: 70px;
+        font-family: 'Roboto';
     }
 
     &__amount-paid {
         margin-left: 60px;
         margin-top: 24px;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__amount-paid-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__amount-paid-price {
         margin-left: 395px;
         color: $logo-blue;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__amount-paid-date {
         color: $dark-gray;
         margin-left: 60px;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__credit-card {
@@ -76,20 +87,24 @@
         border-bottom: 2px solid $medium-gray;
         padding-bottom: 24px;
         margin-right: 70px;
+        font-family: 'Roboto';
     }
 
     &__balance-due {
         margin-left: 60px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__balance-due-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__balance-due-number {
         margin-left: 424px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__next-payment-due {
@@ -97,17 +112,20 @@
         font-weight: 500;
         margin-top: 48px;
         margin-bottom: 8px;
+        font-family: 'Roboto';
     }
 
     &__next-payment-due-date {
         margin-left: 60px;
         color: $dark-gray;
+        font-family: 'Roboto';
     }
 
     &__reminder-text {
         color: $dark-gray;
         margin-top: 60px;
         margin-left: 60px;
+        font-family: 'Roboto';
     }
 
     &__cancellation-policy {
@@ -115,6 +133,7 @@
         margin-top: 64px;
         text-decoration: underline;
         color: $logo-blue;
+        font-family: 'Roboto';
     }
 
     &__log-in-button {
@@ -128,6 +147,7 @@
         font-weight: 500;
         border-radius: 24px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__header-logo {
