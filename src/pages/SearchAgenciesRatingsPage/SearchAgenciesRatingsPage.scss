@@ -15,6 +15,7 @@
         font-weight: 700;
         font-family: 'Roboto Serif';
         font-size: 22px;
+        color: $dark-navy;
     }
 
     &__button-container {
@@ -34,11 +35,13 @@
         color: $dark-navy;
         margin-left: 12px;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 
     &__button--active {
         background-color: #1F264F;
         color: #FFFFFF;
+        font-family: 'Roboto';
     }
 
     &__search-icon {
@@ -56,6 +59,7 @@
         border: 1px solid $medium-dark-gray;
         border-radius: 24px;
         padding-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__sort-by-agency-name-container {
@@ -65,11 +69,13 @@
 
     &__sort-by-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__agency-name-text {
         font-weight: 500;
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__menu-circle-arrow-gray-icon {
@@ -88,10 +94,12 @@
     &__human-re-agency-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-header-agency {
@@ -99,6 +107,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__partnership-logo {
@@ -113,6 +122,7 @@
 
     &__rating-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-star-container {
@@ -129,6 +139,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-industry-container {
@@ -139,15 +150,18 @@
 
     &__human-re-agency-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-industry-action {
         margin-left: 80px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-number-of-jobs-container {
@@ -157,6 +171,7 @@
 
     &__human-re-agency-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-number-of-jobs-number {
@@ -169,6 +184,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-message-button {
@@ -179,6 +195,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-number-of-candidates-container {
@@ -188,6 +205,7 @@
 
     &__human-re-agency-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-number-of-candidates-number {
@@ -200,6 +218,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__human-re-agency-card-request-partnership-button {
@@ -210,6 +229,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card {
@@ -225,10 +245,12 @@
     &__acme-agency-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-header-agency {
@@ -236,6 +258,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-rating-container {
@@ -253,6 +276,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-industry-container {
@@ -263,15 +287,18 @@
 
     &__acme-agency-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-industry-action {
         margin-left: 110px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-number-of-jobs-container {
@@ -281,6 +308,7 @@
 
     &__acme-agency-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-number-of-jobs-number {
@@ -293,6 +321,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-message-button {
@@ -303,6 +332,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-number-of-candidates-container {
@@ -312,6 +342,7 @@
 
     &__acme-agency-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-number-of-candidates-number {
@@ -324,6 +355,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__acme-agency-card-request-partnership-button {
@@ -334,6 +366,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card {
@@ -349,10 +382,12 @@
     &__staffing-smarter-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-header-agency {
@@ -360,6 +395,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-rating-container {
@@ -377,6 +413,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-industry-container {
@@ -387,15 +424,18 @@
 
     &__staffing-smarter-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-industry-action {
         margin-left: 80px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-number-of-jobs-container {
@@ -405,6 +445,7 @@
 
     &__staffing-smarter-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-number-of-jobs-number {
@@ -417,6 +458,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-message-button {
@@ -427,6 +469,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-number-of-candidates-container {
@@ -436,6 +479,7 @@
 
     &__staffing-smarter-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-number-of-candidates-number {
@@ -448,6 +492,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__staffing-smarter-card-request-partnership-button {
@@ -458,6 +503,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card {
@@ -473,10 +519,12 @@
     &__champion-agency-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-header-agency {
@@ -484,6 +532,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-rating-container {
@@ -501,6 +550,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-industry-container {
@@ -511,15 +561,18 @@
 
     &__champion-agency-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-industry-action {
         margin-left: 120px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-number-of-jobs-container {
@@ -529,6 +582,7 @@
 
     &__champion-agency-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-number-of-jobs-number {
@@ -541,6 +595,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-message-button {
@@ -551,6 +606,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-number-of-candidates-container {
@@ -560,6 +616,7 @@
 
     &__champion-agency-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-number-of-candidates-number {
@@ -572,6 +629,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__champion-agency-card-request-partnership-button {
@@ -582,6 +640,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card {
@@ -597,10 +656,12 @@
     &__first-agency-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-header-agency {
@@ -608,6 +669,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-rating-container {
@@ -625,6 +687,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-industry-container {
@@ -635,15 +698,18 @@
 
     &__first-agency-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-industry-action {
         margin-left: 120px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
     
     &__first-agency-card-number-of-jobs-container {
@@ -653,6 +719,7 @@
 
     &__first-agency-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-number-of-jobs-number {
@@ -665,6 +732,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-message-button {
@@ -675,6 +743,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-number-of-candidates-container {
@@ -684,6 +753,7 @@
 
     &__first-agency-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-number-of-candidates-number {
@@ -696,6 +766,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__first-agency-card-request-partnership-button {
@@ -706,6 +777,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card {
@@ -721,10 +793,12 @@
     &__excellence-staffing-card-header {
         padding-top: 20px;
         padding-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-header-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-header-agency {
@@ -732,6 +806,7 @@
         margin-left: 20px;
         font-weight: 500;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-rating-container {
@@ -749,6 +824,7 @@
         color: $dark-navy;
         font-weight: 500;
         text-decoration: underline;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-industry-container {
@@ -759,15 +835,18 @@
 
     &__excellence-staffing-agency-card-industry-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-industry-name {
         margin-left: 18px;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-industry-action {
         margin-left: 120px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-number-of-jobs-container {
@@ -777,6 +856,7 @@
 
     &__excellence-staffing-card-number-of-jobs-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-number-of-jobs-number {
@@ -789,6 +869,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-message-button {
@@ -799,6 +880,7 @@
         width: 150px;
         height: 36px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-number-of-candidates-container {
@@ -808,6 +890,7 @@
 
     &__excellence-staffing-agency-card-number-of-candidates-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-number-of-candidates-number {
@@ -820,6 +903,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 100%;
+        font-family: 'Roboto';
     }
 
     &__excellence-staffing-card-request-partnership-button {
@@ -830,6 +914,7 @@
         border-radius: 28px;
         margin-left: 30px;
         color: $dark-navy;
+        font-family: 'Roboto';
     }
 
     &__tablet-table {
@@ -862,6 +947,7 @@
         margin-left: 20px;
         margin-top: 2px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__four-star-rating-container {
@@ -878,6 +964,7 @@
         margin-left: 20px;
         margin-top: 2px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__three-star-rating-container {
@@ -898,6 +985,7 @@
         margin-left: 20px;
         margin-top: 2px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__two-star-rating-container {
@@ -914,6 +1002,7 @@
         margin-left: 20px;
         margin-top: 2px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__one-star-rating-container {
@@ -930,6 +1019,7 @@
         margin-left: 20px;
         margin-top: 2px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__no-ratings-container {
@@ -939,6 +1029,7 @@
 
     &__no-star-rating-text {
         margin-left: 174px;
+        font-family: 'Roboto';
     }
 
     &__page-number-container {
@@ -1006,19 +1097,23 @@
             color: $dark-navy;
             margin-left: 12px;
             cursor: pointer;
+            font-family: 'Roboto';
         }
     
         &__button--active {
             background-color: #1F264F;
             color: #FFFFFF;
+            font-family: 'Roboto';
         }
 
         &__industry-button {
             margin-left: 36px;
+            font-family: 'Roboto';
         } 
 
         &__ratings-button {
             margin-left: 36px;
+            font-family: 'Roboto';
         }
         
         &__search-icon {
@@ -1036,6 +1131,7 @@
             border: 1px solid $medium-dark-gray;
             border-radius: 24px;
             padding-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__sort-by-agency-name-container {
@@ -1056,6 +1152,7 @@
             width: 770px;
             border-radius: 12px;
             height: 1160px;
+            font-family: 'Roboto';
         }
 
         &__header-row {
@@ -1066,6 +1163,7 @@
             padding-top: 20px;
             padding-left: 10px;
             padding-bottom: 20px;
+            font-family: 'Roboto';
         }
 
         &__rating-name-row {
@@ -1073,12 +1171,14 @@
             padding-left: 50px;
             padding-bottom: 20px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__industry-row {
             padding-top: 20px;
             padding-bottom: 20px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__number-of-jobs-row {
@@ -1086,6 +1186,7 @@
             padding-left: 50px;
             padding-bottom: 20px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__number-of-candidates-row {
@@ -1093,6 +1194,7 @@
             padding-left: 50px;
             padding-bottom: 20px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__action-row {
@@ -1100,6 +1202,7 @@
             padding-left: 100px;
             padding-bottom: 20px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-arrow-gray-icon {
@@ -1114,6 +1217,7 @@
             color: $dark-navy;
             text-decoration: underline;
             margin-left: 8px;
+            font-family: 'Roboto';
         }
 
         &__agency-name-data-row {
@@ -1122,6 +1226,7 @@
             padding-bottom: 15px;
             color: $dark-navy;
             text-decoration: underline;
+            font-family: 'Roboto';
         }
 
         &__table-partnership-logo {
@@ -1135,18 +1240,21 @@
 
         &__industry-data-row {
             padding-left: 14px;
+            font-family: 'Roboto';
         }
 
         &__number-of-jobs-data-row {
             padding-left: 45px;
             text-decoration: underline;
             color: $dark-navy;
+            font-family: 'Roboto';
         }
 
         &__number-of-candidates-data-row {
             padding-left: 70px;
             text-decoration: underline;
             color: $dark-navy;
+            font-family: 'Roboto';
         }
 
         &__message-button {
@@ -1156,6 +1264,7 @@
             border-radius: 28px;
             width: 100px;
             font-size: 12px;
+            font-family: 'Roboto';
         }
 
         &__request-partnership-button {
@@ -1168,10 +1277,12 @@
             padding-right: 4px;
             border-radius: 20px;
             margin-bottom: 5px;
+            font-family: 'Roboto';
         }
 
         &__table-row-blue {
             background-color: $background-light-blue;
+            font-family: 'Roboto';
         }
 
         &__rating-data-row-four-stars {
@@ -1185,6 +1296,7 @@
             color: $dark-navy;
             text-decoration: underline;
             font-size: 12px;
+            font-family: 'Roboto';
         }
 
         &__rating-data-row-three-stars {
@@ -1198,6 +1310,7 @@
             color: $dark-navy;
             text-decoration: underline;
             font-size: 12px;
+            font-family: 'Roboto';
         }
 
         &__agency-name-data-row-innovative-solutions-inc {
@@ -1207,6 +1320,7 @@
             color: $dark-navy;
             text-decoration: underline;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__page-number-container {
@@ -1259,6 +1373,7 @@
             margin-top: 2px;
             margin-left: 20px;
             font-size: 17px;
+            font-family: 'Roboto';
         }
 
         &__tablet-desktop-four-star-container {
@@ -1311,6 +1426,7 @@
         &__tablet-desktop-no-ratings-text {
             margin-left: 121px;
             font-size: 17px;
+            font-family: 'Roboto';
         }
 
     }
