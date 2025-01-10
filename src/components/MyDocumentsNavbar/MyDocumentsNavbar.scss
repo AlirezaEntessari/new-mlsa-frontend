@@ -15,32 +15,42 @@
         width: 450px;
     }
 
+    &__agreements {
+        font-family: 'Roboto';
+    }
+
     &__reports {
         margin-left: 80px;
+        font-family: 'Roboto';
     }
 
     &__archive {
         margin-left: 68px;
+        font-family: 'Roboto';
     }
 
     &__agreements:hover, &__reports:hover, &__archive:hover {
         color: $rust;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 
     &__agreements-link {
         text-decoration: none;
         color: inherit;
+        font-family: 'Roboto';
     }
 
     &__reports-link {
         text-decoration: none;
         color: inherit;
+        font-family: 'Roboto';
     }
 
     &__archive-link {
         text-decoration: none;
         color: inherit;
+        font-family: 'Roboto';
     }
 
 }

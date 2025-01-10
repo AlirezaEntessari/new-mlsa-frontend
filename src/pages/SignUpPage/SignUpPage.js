@@ -4,6 +4,14 @@ import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import RightArrowIcon from "../../assets/icons/right arrow.svg";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/clerk-react";
+import { Navigate } from "react-router-dom";
 
 export default function SignUpPage() {
   const [email, setEmail] = useState("");
@@ -18,7 +26,7 @@ export default function SignUpPage() {
     localStorage.setItem("email", email);
     navigate("/membership-plan-page");
   };
-  
+
   return (
     <div className="sign-up">
       <img className="sign-up__mlsa-logo" src={MLSALogo} alt="MLSA Logo" />
@@ -57,6 +65,15 @@ export default function SignUpPage() {
           <span className="sign-up__log-in">Log In</span>
         </Link>
       </p>
+      <div className="sign-up__clerk-button-container">
+          <SignedOut>
+            <SignUpButton mode="modal" />
+            <SignInButton mode="modal" />
+          </SignedOut>
+          <SignedIn>
+            <Navigate to="/login-page" />
+          </SignedIn>
+      </div>
     </div>
   );
 }

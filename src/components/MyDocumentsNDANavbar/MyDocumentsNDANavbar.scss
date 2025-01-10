@@ -15,26 +15,35 @@
         font-weight: 500;
     }
 
+    &__ndas {
+        font-family: 'Roboto';
+    }
+
     &__split-fee {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__partnerships {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__ndas:hover, &__split-fee:hover, &__partnerships:hover {
         color: $rust;
         border-bottom: 1px solid $rust;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 
     &__view-button {
         display: none;
+        font-family: 'Roboto';
     }
 
     &__download-button {
         display: none;
+        font-family: 'Roboto';
     }
 
 }

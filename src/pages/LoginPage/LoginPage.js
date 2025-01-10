@@ -10,6 +10,7 @@ import ModalResetYourPassword from "../../components/ModalResetYourPassword/Moda
 import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
+import { useUser } from "@clerk/clerk-react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -51,6 +52,8 @@ export default function LoginPage() {
     }
   };
 
+  const { user } = useUser();
+
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);
   };
@@ -89,7 +92,7 @@ export default function LoginPage() {
   return (
     <div className="login">
       <Header />
-      <p className="login__header">Welcome to MLSA</p>
+      <p className="login__header">Welcome {user?.firstName} to MLSA</p>
       <p className="login__enter-text">Log in to enter</p>
       <label className="login__email-label" htmlFor="email">
         Email

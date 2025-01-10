@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useParams, Link } from 'react-router-dom';
 import SignUpPage from './pages/SignUpPage/SignUpPage';
 import MembershipPlanPage from './pages/MembershipPlanPage/MembershipPlanPage';
 import AgencyInformationPage from './pages/AgencyInformationPage/AgencyInformationPage';
@@ -75,10 +75,17 @@ import RatingsRateAnAgencyPage from './pages/RatingsRateAnAgencyPage/RatingsRate
 import RatingsMyRatingsPage from './pages/RatingsMyRatingsPage/RatingsMyRatingsPage';
 import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage/RatingsConflictResolutionPage';
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
+import { SignedIn, UserButton } from '@clerk/clerk-react';
+import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
 
 function App() {
   return (
     <div className="App">
+      {/* <div className="navbar">
+        <SignedIn>
+            <UserButton showName appearance={{ baseTheme: light }} />
+        </SignedIn>
+      </div> */}
       <BrowserRouter>
       <Routes>
         <Route path="/sign-up-page" element={<SignUpPage />} />

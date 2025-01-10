@@ -15,18 +15,25 @@
         font-weight: 500;
     }
 
+    &__all-reports {
+        font-family: 'Roboto';
+    }
+
     &__all-reports:hover {
         color: $rust;
         border-bottom: 1px solid $rust;
         cursor: pointer;
+        font-family: 'Roboto';
     }
 
     &__view-button {
         display: none;
+        font-family: 'Roboto';
     }
 
     &__download-button {
         display: none;
+        font-family: 'Roboto';
     }
 
 }
@@ -52,6 +59,7 @@
             color: $rust;
             border-bottom: 1px solid $rust;
             cursor: pointer;
+            font-family: 'Roboto';
         }
     
         &__view-button {
@@ -63,6 +71,7 @@
             height: 34px;
             color: $white-text;
             border-radius: 24px;
+            font-family: 'Roboto';
         }
     
         &__download-button {
@@ -74,6 +83,7 @@
             height: 34px;
             color: $dark-navy;
             border-radius: 24px;
+            font-family: 'Roboto';
         }
 
     }  
