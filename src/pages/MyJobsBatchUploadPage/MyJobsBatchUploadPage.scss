@@ -15,6 +15,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 202px;
+        color: $dark-navy;
     }
 
     &__right-container {
@@ -30,6 +31,7 @@
         border-bottom-left-radius: 24px;
         border-top-right-radius: 24px;
         border-bottom-right-radius: 24px;
+        font-family: 'Roboto';
     }
 
     &__batch-upload-header {
@@ -44,6 +46,7 @@
         border: 2px solid $medium-dark-gray;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__batch-upload-container-central-text {
@@ -54,6 +57,7 @@
         font-size: 20px;
         font-weight: 500;
         text-align: center;
+        font-family: 'Roboto';
     }
 
     &__batch-upload-container-drag-a-file {
@@ -68,6 +72,7 @@
         margin-top: 60px;
         font-size: 17px;
         border-radius: 24px;
+        font-family: 'Roboto';
     }
 
     &__select-a-file-from-computer-button {
@@ -80,6 +85,7 @@
         width: 324px;
         color: $white-text;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__batch-upload-button-container {
@@ -96,6 +102,7 @@
         height: 48px;
         border-radius: 28px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__cancel-button {
@@ -107,6 +114,7 @@
         border-radius: 28px;
         font-weight: 500;
         margin-top: 48px;
+        font-family: 'Roboto';
     }
 
     &__download-batch-container {
@@ -119,6 +127,7 @@
 
     &__download-batch-text {
         margin-left: 156px;
+        font-family: 'Roboto';
     }
 
     &__upload-template-xlsx-container {
@@ -128,6 +137,7 @@
 
     &__xlsx-text {
         font-weight: 400;
+        font-family: 'Roboto';
     }
 
 }

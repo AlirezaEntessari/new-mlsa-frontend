@@ -25,14 +25,17 @@
 
     &__owner-title {
         margin-bottom: 5px;
+        font-family: 'Roboto';
     }
 
     &__owner-name {
         margin-bottom: 5px;
+        font-family: 'Roboto';
     }
 
     &__owner-agency {
         margin-bottom: 5px;
+        font-family: 'Roboto';
     }
 
     &__top-central-container {
@@ -60,10 +63,12 @@
         width: 400px;
         font-size: 14px;
         text-align: center;
+        font-family: 'Roboto';
     }
 
     &__mobile-button-container {
         margin-top: 60px;
+        font-family: 'Roboto';
     }
 
     &__mobile-upload-job-description-button {
@@ -75,6 +80,7 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-open-archived-job-button {
@@ -86,10 +92,12 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-button-second-container {
         margin-top: 60px;
+        font-family: 'Roboto';
     }
 
     &__mobile-open-saved-draft-button {
@@ -101,6 +109,7 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-batch-upload-button {
@@ -112,10 +121,12 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-button-third-container {
         margin-top: 60px;
+        font-family: 'Roboto';
     }
 
     &__mobile-open-job-through-api-button {
@@ -127,6 +138,7 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-return-to-my-jobs-button {
@@ -138,12 +150,14 @@
         border-radius: 28px;
         margin-left: 20px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-hot-job-opening-put-on-hold-container {
         margin-top: 48px;
         margin-left: 32px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-on-hold-hot-button-off-icon {
@@ -158,6 +172,7 @@
     &__mobile-hot-job-opening-text {
         color: $medium-dark-gray;
         margin-left: 6px;
+        font-family: 'Roboto';
     }
 
     &__mobile-put-on-hold-container {
@@ -172,11 +187,13 @@
     &__mobile-put-on-hold-text {
         color: $medium-dark-gray;
         margin-left: 6px;
+        font-family: 'Roboto';
     }
 
     &__mobile-client-name-container {
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-client-name-input {
@@ -188,11 +205,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-agency-job-id-number-container {
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-agency-job-id-number-input {
@@ -204,12 +223,14 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-country-state-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-country-select {
@@ -221,10 +242,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-state-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-state-select {
@@ -236,12 +259,14 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-city-zip-code-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-city-input {
@@ -253,10 +278,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-zip-code-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-zip-code-input {
@@ -268,11 +295,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-title-container {
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-title-input {
@@ -284,11 +313,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-title-container {
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-title-input {
@@ -300,12 +331,14 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-industry-job-type-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-industry-select {
@@ -317,16 +350,19 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-industry-job-type-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-type-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-type-select {
@@ -338,12 +374,14 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-openings-citizenship-type-of-visa-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-openings-select {
@@ -355,10 +393,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-citizenship-container {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__mobile-citizenship-select {
@@ -370,14 +410,17 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-type-of-visa-container {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__mobile-type-of-visa-label {
         color: $medium-dark-gray;
+        font-family: 'Roboto';
     }
 
     &__mobile-type-of-visa-select {
@@ -389,12 +432,14 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-experience-level-salary-type-container {
         display: flex;
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-experience-level-select {
@@ -406,10 +451,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-type-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-type-select {
@@ -420,13 +467,15 @@
         width: 207px;
         border-radius: 12px;
         height: 55px;
-        padding-left: 10px; 
+        padding-left: 10px;
+        font-family: 'Roboto'; 
     }
 
     &__mobile-environment-start-date-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-environment-select {
@@ -438,11 +487,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-start-date-container {
         margin-left: 32px;
         position: relative;
+        font-family: 'Roboto';
     }
 
     &__mobile-calendar-icon {
@@ -461,6 +512,7 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-range-container {
@@ -471,20 +523,24 @@
         padding-top: 10px;
         padding-bottom: 32px;
         border-radius: 14px;
+        font-family: 'Roboto';
     }
 
     &__mobile-slider-values-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-salary-range-header {
         padding-top: 10px;
         padding-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-slider-container {
         margin-top: 10px;
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-slider {
@@ -494,12 +550,14 @@
 
     &__mobile-slider-max-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-slider-values-container {
         margin-top: 20px;
         margin-left: 32px;
         position: relative;
+        font-family: 'Roboto';
     }
 
     &__mobile-first-value-container {
@@ -507,11 +565,13 @@
         width: 125px;
         height: 50px;
         border-radius: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-first-value {
         padding-top: 10px;
         padding-left: 33px;
+        font-family: 'Roboto';
     }
 
     &__mobile-second-value-container {
@@ -520,6 +580,7 @@
         height: 50px;
         border-radius: 12px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-dollar-sign-salary-icon {
@@ -537,12 +598,14 @@
     &__mobile-second-value {
         padding-top: 10px;
         padding-left: 33px;
+        font-family: 'Roboto';
     }
 
     &__mobile-travel-paid-relocation-container {
         margin-top: 40px;
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-travel-select {
@@ -554,10 +617,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-paid-relocation-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-paid-relocation-select {
@@ -569,11 +634,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-bonus-container {
         margin-left: 20px;
         margin-top: 40px;
+        font-family: 'Roboto';
     }
 
     &__mobile-bonus-select {
@@ -585,11 +652,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-required-education-container {
         margin-left: 20px;
         margin-top: 40px;
+        font-family: 'Roboto';
     }
 
     &__mobile-required-education-input {
@@ -601,11 +670,13 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-description-container {
         margin-left: 20px;
         margin-top: 40px;
+        font-family: 'Roboto';
     }
 
     &__mobile-job-description-text-area {
@@ -615,6 +686,7 @@
         height: 500px;
         padding-left: 16px;
         padding-top: 16px;
+        font-family: 'Roboto';
     }
 
     &__candidate-requirements-text {
@@ -622,16 +694,19 @@
         margin-top: 40px;
         font-weight: 500;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__mobile-requirement-container {
         margin-left: 20px;
         margin-top: 40px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__requirement-one-text {
         margin-top: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-requirement-one-input {
@@ -644,25 +719,30 @@
         height: 55px;
         padding-left: 10px;
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-add-requirement {
         margin-left: 20px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-add-requirement-text {
         margin-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__mobile-comments-container {
         margin-left: 20px;
         margin-top: 40px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-comments-text {
         margin-top: 16px;
+        font-family: 'Roboto';
     }
 
     &__mobile-comments-input {
@@ -675,11 +755,13 @@
         height: 55px;
         padding-left: 10px;
         margin-left: 54px;
+        font-family: 'Roboto';
     }
 
     &__mobile-required-skills-container {
         margin-left: 20px;
         margin-top: 40px;
+        font-family: 'Roboto';
     }
 
     &__mobile-required-skills-input {
@@ -691,6 +773,7 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-circle-button-on-icon {
@@ -704,26 +787,32 @@
     &__mobile-fee-type-container {
         margin-top: 40px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-fee-type-header {
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__mobile-inner-fee-type-container {
         margin-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__mobile-percentage-of-salary-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-percentage-of-total-compensation-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-flat-fee-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-split-fee-percentage-of-salary-container {
@@ -732,22 +821,26 @@
         border: 1px solid $medium-gray;
         margin-right: 20px;
         border-radius: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-split-fee-percentage-of-salary-header {
         padding-top: 10px;
         padding-left: 20px;
         font-size: 17px;
+        font-family: 'Roboto';
     }
 
     &__mobile-split-fee-percentage-of-salary-input {
         margin-left: 20px;
         width: 420px;
+        font-family: 'Roboto';
     }
 
     &__mobile-percentage-container {
         display: flex;
         padding-bottom: 50px;
+        font-family: 'Roboto';
     }
 
     &__mobile-my-percentage-container {
@@ -758,6 +851,7 @@
         width: 200px;
         height: 72px;
         border-radius: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-my-percentage-number {
@@ -765,11 +859,13 @@
         font-weight: 500;
         margin-left: 12px;
         margin-top: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-my-percentage-text {
         margin-top: 18px;
         margin-left: 16px;
+        font-family: 'Roboto';
     }
 
     &__mobile-shared-percentage-container {
@@ -779,6 +875,7 @@
         margin-top: 48px;
         width: 200px;
         border-radius: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-shared-percentage-number {
@@ -786,18 +883,21 @@
         font-weight: 500;
         margin-left: 12px;
         margin-top: 12px;
+        font-family: 'Roboto';
     }
 
     &__mobile-shared-percentage-text {
         margin-top: 18px;
         margin-left: 16px;
         font-size: 14px;
+        font-family: 'Roboto';
     }
 
     &__mobile-willing-to-negotiate-fee-container {
         margin-top: 32px;
         display: flex;
         margin-left: 50px;
+        font-family: 'Roboto';
     }
 
     &__willing-to-negotiate-mobile-circle-button-on-icon {
@@ -808,6 +908,7 @@
 
     &__mobile-yes-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__willing-to-negotiate-mobile-circle-button-off-icon {
@@ -818,12 +919,14 @@
 
     &__mobile-no-text {
         margin-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-placement-fee-guarantee-period-container {
         margin-left: 20px;
         margin-top: 40px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-placement-fee-input {
@@ -835,10 +938,12 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-guarantee-period-container {
         margin-left: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-guarantee-period-select {
@@ -850,17 +955,20 @@
         border-radius: 12px;
         height: 55px;
         padding-left: 10px;
+        font-family: 'Roboto';
     }
 
     &__mobile-fee-agreement-text {
         margin-left: 20px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-agreement-container {
         margin-left: 20px;
         margin-top: 32px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-view-agreement-button {
@@ -870,17 +978,20 @@
         height: 60px;
         border-radius: 12px;
         margin-left: 28px;
+        font-family: 'Roboto';
     }
 
     &__mobile-about-this-agreement-text {
         text-decoration: underline;
         margin-left: 20px;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-bottom-button-container {
         margin-top: 50px;
         margin-left: 140px;
+        font-family: 'Roboto';
     }
 
     &__mobile-post-button {
@@ -891,6 +1002,7 @@
         width: 200px;
         border-radius: 24px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__mobile-preview-button {
@@ -903,6 +1015,7 @@
         font-weight: 500;
         display: block;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-save-draft-button {
@@ -915,6 +1028,7 @@
         font-weight: 500;
         display: block;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__mobile-clear-form-button {
@@ -927,6 +1041,7 @@
         font-weight: 500;
         display: block;
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__tablet-container {
@@ -958,6 +1073,7 @@
 
         &__tablet-post-job-container {
             display: flex;
+            font-family: 'Roboto';
         }
 
         &__tablet-post-job-header {
@@ -971,11 +1087,13 @@
         &__tablet-post-job-owner-text {
             margin-top: 26px;
             margin-left: 300px;
+            font-family: 'Roboto';
         }
 
         &__tablet-value-assurance-information-protected {
             display: flex;
             margin-top: 0px;
+            font-family: 'Roboto';
         }
 
         &__tablet-value-assurance-icon {
@@ -987,6 +1105,7 @@
         &__tablet-information-is-protected-client-name-container {
             margin-top: 72px;
             margin-left: 24px;
+            font-family: 'Roboto';
         }
 
         &__tablet-information-is-protected-text {
@@ -997,11 +1116,13 @@
 
         &__tablet-client-name-will-not-be-shared {
             margin-right: 50px;
+            font-family: 'Roboto';
         }
 
         &__tablet-button-container {
             margin-top: 50px;
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-upload-job-description-button {
@@ -1011,6 +1132,7 @@
             height: 48px;
             border-radius: 28px;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-archived-job-button {
@@ -1021,6 +1143,7 @@
             border-radius: 28px;
             font-weight: 500;
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-saved-draft-button {
@@ -1031,11 +1154,13 @@
             border-radius: 28px;
             font-weight: 500;
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-button-bottom-container {
             display: flex;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-batch-upload-button {
@@ -1046,6 +1171,7 @@
             border-radius: 28px;
             font-weight: 500;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-open-job-through-api-button {
@@ -1057,6 +1183,7 @@
             font-weight: 500;
             font-size: 14px;
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-on-hold-button-off-icon {
@@ -1066,6 +1193,7 @@
         &__tablet-hot-job-opening-container {
             margin-left: 18px;
             margin-top: 5px;
+            font-family: 'Roboto';
         }
 
         &__tablet-hot-off-icon {
@@ -1085,17 +1213,20 @@
         &__tablet-put-on-hold-container {
             margin-top: 5px;
             margin-left: 18px;
+            font-family: 'Roboto';
         }
 
         &__tablet-put-on-hold-text {
             margin-left: 5px;
             color: $medium-dark-gray;
+            font-family: 'Roboto';
         }
 
         &__tablet-client-name-agency-job-id-number-container {
             display: flex;
             margin-left: 32px;
             margin-top: 68px;
+            font-family: 'Roboto';
         }
 
         &__tablet-client-name-input {
@@ -1107,10 +1238,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-agency-job-id-number-container {
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-agency-job-id-input {
@@ -1122,12 +1255,14 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-country-state-city-zip-code-container {
             display: flex;
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-country-select {
@@ -1139,10 +1274,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-state-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-state-select {
@@ -1154,10 +1291,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-city-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-city-input {
@@ -1169,10 +1308,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-zip-code-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-zip-code-input {
@@ -1184,11 +1325,13 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-title-container {
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-title-input {
@@ -1200,12 +1343,14 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-industry-openings-job-type-citizenship-type-of-visa-container {
             display: flex;
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-industry-select {
@@ -1217,10 +1362,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-openings-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-openings-select {
@@ -1232,10 +1379,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-type-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-type-select {
@@ -1247,10 +1396,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-citizenship-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-citizenship-select {
@@ -1262,10 +1413,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-type-of-visa-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-type-of-visa-select {
@@ -1277,12 +1430,14 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-experience-level-salary-type-container {
             display: flex;
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-experience-level-select {
@@ -1294,10 +1449,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-type-container {
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-type-select {
@@ -1309,6 +1466,7 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-environment-start-date-container {
@@ -1316,6 +1474,7 @@
             margin-left: 32px;
             margin-top: 48px;
             position: relative;
+            font-family: 'Roboto';
         }
 
         &__tablet-environment-select {
@@ -1327,6 +1486,7 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-calendar-icon {
@@ -1338,6 +1498,7 @@
 
         &__tablet-start-date-container {
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-start-date-input {
@@ -1349,6 +1510,7 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-container {
@@ -1359,24 +1521,29 @@
             position: absolute;
             left: 620px;
             top: 1214px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-header {
             padding-left: 20px;
             padding-top: 12px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-slider-container {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-input {
             margin-left: 10px;
             width: 220px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-max-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-dollar-sign-salary-icon {
@@ -1387,6 +1554,7 @@
             display: flex;
             margin-top: 28px;
             margin-left: 44px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-first-value-container {
@@ -1396,6 +1564,7 @@
             padding-top: 10px;
             padding-bottom: 10px;
             border-radius: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-minus-sign-salary-icon {
@@ -1409,21 +1578,25 @@
             width: 120px;
             height: 50px;
             border-radius: 12px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-second-value {
             margin-top: 10px;
             margin-left: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-salary-range-second-value-number {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-travel-paid-relocation-bonus-container {
             display: flex;
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-travel-select {
@@ -1435,10 +1608,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-paid-relocation-container {
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-paid-relocation-select {
@@ -1450,10 +1625,12 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-bonus-container {
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-bonus-select {
@@ -1465,11 +1642,13 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-required-education-container {
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-required-education-input {
@@ -1481,11 +1660,13 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-description-container {
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-job-description-text-area {
@@ -1497,6 +1678,7 @@
             border-radius: 12px;
             height: 250px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-candidate-requirements-header {
@@ -1504,16 +1686,19 @@
             font-size: 18px;
             font-weight: 500;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-requirement-one-container {
             display: flex;
             margin-top: 32px;
             margin-left: 120px;
+            font-family: 'Roboto';
         }
 
         &__tablet-requirement-one-header {
             margin-top: 18px;
+            font-family: 'Roboto';
         }
 
         &__tablet-requirement-one-input {
@@ -1526,21 +1711,25 @@
             height: 55px;
             padding-left: 10px;
             margin-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-add-requirement {
             margin-left: 120px;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-add-requirement-text {
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-comments-container {
             display: flex;
             margin-left: 120px;
             margin-top: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-comments-input {
@@ -1553,11 +1742,13 @@
             height: 55px;
             padding-left: 10px;
             margin-left: 58px;
+            font-family: 'Roboto';
         }
 
         &__tablet-required-skills-container {
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-required-skills-input {
@@ -1569,6 +1760,7 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-circle-button-on-icon {
@@ -1582,37 +1774,45 @@
         &__tablet-fee-type-container {
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-fee-type-options-container {
             margin-left: 0px;
+            font-family: 'Roboto';
         }
 
         &__tablet-percentage-of-salary-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-percentage-of-total-compensation-container {
             margin-top: 15px;
+            font-family: 'Roboto';
         }
 
         &__tablet-percentage-of-total-compensation-text {
             margin-left: 10px;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-flat-fee-container {
             margin-top: 15px;
+            font-family: 'Roboto';
         }
 
         &__tablet-flat-fee-text {
             margin-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-percentage-of-salary-willing-to-negotiate-fee-container {
             position: absolute;
             right: 30px;
             top: 2460px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-percentage-of-salary-container {
@@ -1620,12 +1820,14 @@
             border-radius: 12px;
             padding-bottom: 32px;
             width: 520px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-percentage-of-salary-header {
             padding-top: 14px;
             padding-left: 24px;
             font-size: 17px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-percentage-of-salary-slider {
@@ -1638,6 +1840,7 @@
             display: flex;
             margin-left: 24px;
             margin-top: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-my-percentage-container {
@@ -1645,16 +1848,19 @@
             display: flex;
             border-radius: 8px;
             padding-right: 24px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-my-percentage-number {
             font-size: 20px;
             font-weight: 500;
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-my-percentage-text {
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-shared-percentage-container {
@@ -1663,26 +1869,31 @@
             display: flex;
             border-radius: 8px;
             padding-right: 24px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-shared-percentage-number {
             font-size: 20px;
             font-weight: 500;
             margin-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-split-fee-shared-percentage-text {
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-negotiate-fee {
             display: flex;
             margin-left: 76px;
             margin-top: 12px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-negotiate-fee-yes-container {
             margin-left: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-negotiate-fee-circle-button-on-icon {
@@ -1695,23 +1906,28 @@
 
         &__tablet-willing-to-negotiate-fee-yes-text {
             margin-left: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-negotiate-fee-no-container {
             margin-left: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-willing-to-negotiate-fee-no-text {
             margin-left: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-placement-fee-container {
             margin-top: 130px;
             margin-left: 60px;
+            font-family: 'Roboto';
         }
 
         &__tablet-placement-fee-label {
             color: $dark-navy;
+            font-family: 'Roboto';
         }
 
         &__tablet-placement-fee-input {
@@ -1723,15 +1939,18 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-guarantee-period-container {
             margin-top: 32px;
             margin-left: 60px;
+            font-family: 'Roboto';
         }
 
         &__tablet-guarantee-period-label {
             color: $dark-navy;
+            font-family: 'Roboto';
         }
 
         &__tablet-guarantee-period-select {
@@ -1743,18 +1962,21 @@
             border-radius: 12px;
             height: 55px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-fee-agreement {
             color: $dark-navy;
             margin-left: 32px;
             margin-top: 48px;
+            font-family: 'Roboto';
         }
 
         &__tablet-auto-generated-agreement-view-agreement-container {
             display: flex;
             margin-left: 32px;
             margin-top: 24px;
+            font-family: 'Roboto';
         }
 
         &__tablet-view-agreement-button {
@@ -1764,6 +1986,7 @@
             width: 150px;
             height: 46px;
             border-radius: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-about-this-agreement-text {
@@ -1771,6 +1994,7 @@
             color: $dark-navy;
             text-decoration: underline;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__tablet-post-button {
@@ -1781,6 +2005,7 @@
             border-radius: 28px;
             color: $white-text;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-preview-button {
@@ -1792,6 +2017,7 @@
             color: $dark-navy;
             font-weight: 500;
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-save-draft-button {
@@ -1803,6 +2029,7 @@
             color: $dark-navy;
             font-weight: 500;
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__tablet-clear-form-button {
@@ -1814,6 +2041,7 @@
             color: $dark-navy;
             font-weight: 500;
             margin-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__desktop-container {

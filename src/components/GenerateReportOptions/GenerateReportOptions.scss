@@ -14,6 +14,7 @@
         margin-top: 28px;
         width: 225px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__candidate-report-option {
@@ -24,6 +25,7 @@
         padding-left: 20px;
         width: 225px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__partnership-report-option {
@@ -34,6 +36,7 @@
         padding-left: 20px;
         width: 225px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__user-activity-report-option {
@@ -44,10 +47,12 @@
         padding-left: 20px;
         width: 225px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__job-report-option:hover, &__candidate-report-option:hover, &__partnership-report-option:hover, &__user-activity-report-option:hover {
         color: $rust;
+        font-family: 'Roboto';
     }
 
     &__job-report-link {

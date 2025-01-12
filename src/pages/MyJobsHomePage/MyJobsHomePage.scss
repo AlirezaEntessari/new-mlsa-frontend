@@ -15,12 +15,14 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 202px;
+        color: $dark-navy;
     }
 
     &__search-my-jobs-container {
         margin-top: 60px;
         margin-left: 20px;
         position: relative;
+        font-family: 'Roboto';
     }
 
     &__search-icon {
@@ -35,6 +37,7 @@
         border: 1px solid $medium-dark-gray;
         margin-left: 20px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-container {
@@ -45,6 +48,7 @@
         height: 2950px;
         border-radius: 18px;
         background-color: $background-light-blue;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-header {
@@ -53,6 +57,7 @@
         border-bottom: 2px solid $dark-navy;
         width: 90px;
         padding-bottom: 5px;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-bullet-icon {
@@ -62,12 +67,14 @@
     &__all-jobs-text {
         margin-left: 10px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-status-top-container {
         margin-left: 20px;
         margin-top: 28px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-pending {
@@ -78,6 +85,7 @@
         padding-left: 15px;
         padding-top: 22px;
         border-radius: 18px;
+        font-family: 'Roboto';
     }
 
     &__jobs-pending-bullet-icon {
@@ -98,6 +106,7 @@
         padding-top: 22px;
         border-radius: 18px;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__jobs-reviews-bullet-icon {
@@ -107,6 +116,7 @@
     &__jobs-reviews-text {
         margin-left: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-submissions {
@@ -118,6 +128,7 @@
         padding-top: 22px;
         border-radius: 18px;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__jobs-submissions-bullet-icon {
@@ -127,11 +138,13 @@
     &__jobs-submissions-text {
         margin-left: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-status-bottom-container {
         margin-left: 20px;
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-interviews {
@@ -142,6 +155,7 @@
         padding-left: 15px;
         padding-top: 22px;
         border-radius: 18px;
+        font-family: 'Roboto';
     }
 
     &__jobs-interviews-bullet-icon {
@@ -151,6 +165,7 @@
     &__jobs-interviews-text {
         margin-left: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__jobs-offers {
@@ -162,6 +177,7 @@
         padding-top: 22px;
         border-radius: 18px;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__jobs-offers-bullet-icon {
@@ -171,6 +187,7 @@
     &__jobs-offers-text {
         margin-left: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__jobs-placements {
@@ -182,6 +199,7 @@
         padding-top: 22px;
         border-radius: 18px;
         margin-left: 4px;
+        font-family: 'Roboto';
     }
 
     &__jobs-placements-icon {
@@ -191,19 +209,23 @@
     &__jobs-placements-text {
         margin-left: 14px;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__sort-by-container {
         margin-top: 20px;
         margin-left: 20px;
+        font-family: 'Roboto';
     }
 
     &__sort-by-text {
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__job-id {
         margin-left: 40px;
+        font-family: 'Roboto';
     }
 
     &__menu-circle-arrow-gray-icon {
@@ -214,6 +236,7 @@
     &__mobile-card-container {
         margin-top: 20px;
         margin-left: 15px;
+        font-family: 'Roboto';
     }
 
     &__mobile-card-one {
@@ -224,6 +247,7 @@
         height: 400px;
         width: 450px;
         background-color: $white-background;
+        font-family: 'Roboto';
     }
 
     &__mobile-card-one-inner-container {
@@ -557,6 +581,7 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             padding-right: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-pending-header {
@@ -745,6 +770,7 @@
 
         &__tablet-table {
             display: inherit;
+            font-family: 'Roboto';
         }
         
         &__page-number-container {

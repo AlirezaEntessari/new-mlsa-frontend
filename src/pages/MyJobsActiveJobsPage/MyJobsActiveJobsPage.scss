@@ -15,12 +15,14 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 202px;
+        color: $dark-navy;
     }
 
     &__search-my-jobs-container {
         margin-top: 60px;
         margin-left: 20px;
         position: relative;
+        font-family: 'Roboto';
     }
 
     &__search-icon {
@@ -35,6 +37,7 @@
         border: 1px solid $medium-dark-gray;
         margin-left: 20px;
         border-radius: 28px;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-container {
@@ -45,6 +48,7 @@
         height: 3000px;
         border-radius: 18px;
         background-color: $background-light-blue;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-header {
@@ -522,6 +526,7 @@
             margin-top: 32px;
             margin-left: 242px;
             position: relative;
+            font-family: 'Roboto';
         }
     
         &__search-icon {
@@ -536,6 +541,7 @@
             border: 1px solid $medium-dark-gray;
             margin-left: 20px;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__all-jobs-container {
@@ -548,15 +554,18 @@
             border-bottom: 2px solid $dark-navy;
             width: 90px;
             padding-bottom: 5px;
+            font-family: 'Roboto';
         }
 
         &__tablet-pending-header {
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-jobs-pending-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-middle-container {
@@ -569,60 +578,72 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             padding-right: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-pending-header {
             margin-top: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-reviews-header {
             margin-top: 20px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-reviews-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-submissions-header {
             margin-top: 20px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-submissions-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-interviews-header {
             margin-top: 20px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-interviews-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-offers-header {
             margin-top: 20px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-offers-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__tablet-placements-header {
             margin-top: 20px;
             margin-left: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-placements-text {
             font-weight: 500;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__header-row {
@@ -638,42 +659,49 @@
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__client-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__job-title-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__industry-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 10px;
+            font-family: 'Roboto';
         }
 
         &__location-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 4px;
+            font-family: 'Roboto';
         }
 
         &__posted-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__appl-column {
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__action-column {
@@ -681,36 +709,44 @@
             padding-bottom: 24px;
             padding-left: 48px;
             padding-right: 40px;
+            font-family: 'Roboto';
         }
 
         &__job-id-data-column {
             text-decoration: underline;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__client-data-column {
             width: 100px;
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__job-title-data-column {
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__industry-data-column {
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__location-data-column {
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__posted-data-column {
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__appl-data-column {
             padding-left: 16px;
+            font-family: 'Roboto';
         }
 
         &__appl-data-value {
@@ -719,10 +755,12 @@
             border-radius: 100%;
             height: 48px;
             padding-top: 11px;
+            font-family: 'Roboto';
         }
 
         &__action-data-column {
             padding-left: 32px;
+            font-family: 'Roboto';
         }
 
         &__tablet-find-candidate-button {
@@ -733,6 +771,7 @@
             border-radius: 28px;
             display: block;
             font-size: 12px;
+            font-family: 'Roboto';
         }
 
         &__tablet-archive-button {
@@ -743,6 +782,7 @@
             border-radius: 28px;
             display: block;
             margin-top: 8px;
+            font-family: 'Roboto';
         }
 
         &__on-hold-blue-icon {
@@ -757,6 +797,7 @@
 
         &__tablet-table {
             display: inherit;
+            font-family: 'Roboto';
         }
         
         &__page-number-container {
@@ -788,6 +829,7 @@
             color: $logo-blue;
             font-weight: 500;
             font-size: 20px;
+            font-family: 'Roboto';
         }
 
     }

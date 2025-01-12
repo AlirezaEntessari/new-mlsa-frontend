@@ -3,10 +3,12 @@
 @use '../../styles/partials/variables' as *;
 
 .my-jobs-top-dashboard {
+    font-family: 'Roboto';
 
     &__top-container {
         display: flex;
         margin-top: 48px;
+        font-family: 'Roboto';
     }
 
     &__active-dashboard {
@@ -80,6 +82,7 @@
 
     &__middle-button-container {
         margin-top: 32px;
+        font-family: 'Roboto';
     }
 
     &__view-drafts-button {
@@ -118,6 +121,7 @@
     &__bottom-button-container {
         display: flex;
         margin-top: 60px;
+        font-family: 'Roboto';
     }
 
     &__post-job-button {
@@ -164,6 +168,7 @@
 
     .my-jobs-top-dashboard {
         display: flex;
+        font-family: 'Roboto';
 
         &__mobile-container {
             display: none;
@@ -171,6 +176,7 @@
 
         &__tablet-container {
             display: inherit;
+            font-family: 'Roboto';
         }
 
         &__tablet-post-job-button {
@@ -324,6 +330,7 @@
 @include desktop {
 
     .my-jobs-top-dashboard {
+        font-family: 'Roboto';
 
         &__tablet-container {
             display: none;
@@ -331,6 +338,7 @@
 
         &__desktop-container {
             display: inherit;
+            font-family: 'Roboto';
         }
 
         &__desktop-dashboard-container {

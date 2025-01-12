@@ -15,6 +15,7 @@
         margin-top: 20px;
         font-weight: 700;
         font-size: 20px;
+        color: $dark-navy;
     }
 
     &__mobile-central-container {
@@ -24,6 +25,7 @@
         width: 456px;
         height: 700px;
         border-radius: 20px;
+        font-family: 'Roboto';
     }
 
     &__mobile-daily-activity-container {
@@ -165,6 +167,7 @@
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-daily-activity-keyword-container {
@@ -258,6 +261,11 @@
             display: none;
         }
 
+        &__tablet-desktop-generate-report-container {
+            display: inherit;
+        }
+     
+
     }
 
 }
@@ -277,6 +285,7 @@
             margin-top: 20px;
             font-weight: 700;
             font-size: 32px;
+            color: $dark-navy;
         }
 
         &__mobile-report-container {
@@ -304,6 +313,7 @@
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+            font-family: 'Roboto';
         }
 
         &__desktop-daily-activity-keyword-container {

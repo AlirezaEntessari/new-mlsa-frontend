@@ -15,6 +15,7 @@
         margin-top: 20px;
         font-weight: 700;
         font-size: 20px;
+        color: $dark-navy;
     }
 
     &__mobile-central-container {
@@ -24,6 +25,7 @@
         width: 456px;
         height: 1150px;
         border-radius: 20px;
+        font-family: 'Roboto';
     }
     
     &__mobile-name-label {
@@ -348,6 +350,7 @@
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+            font-family: 'Roboto';
         }
 
         &__tablet-client-name-container {
@@ -755,6 +758,7 @@
             border-bottom-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+            font-family: 'Roboto';
         }
 
         &__desktop-name-job-type-title-container {

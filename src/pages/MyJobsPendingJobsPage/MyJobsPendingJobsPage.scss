@@ -15,12 +15,14 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 202px;
+        color: $dark-navy
     }
 
     &__search-my-jobs-container {
         margin-top: 60px;
         margin-left: 20px;
         position: relative;
+        font-family: 'Roboto';
     }
 
     &__search-icon {
@@ -45,6 +47,7 @@
         height: 2950px;
         border-radius: 18px;
         background-color: $background-light-blue;
+        font-family: 'Roboto';
     }
 
     &__all-jobs-header {
@@ -557,6 +560,7 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             padding-right: 8px;
+            font-family: 'Roboto';
         }
 
         &__tablet-pending-header {

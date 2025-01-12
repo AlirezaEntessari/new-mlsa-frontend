@@ -15,11 +15,13 @@
         font-weight: 700;
         font-family: 'Roboto Serif';
         font-size: 24px;
+        color: $dark-navy;
     }
 
     &__search-archive-label {
         margin-left: 20px;
         margin-top: 24px;
+        font-family: 'Roboto';
     }
 
     &__search-icon {
@@ -37,6 +39,7 @@
         height: 45px;
         border-radius: 28px;
         padding-left: 24px;
+        font-family: 'Roboto';
     }
 
     &__card-container {
@@ -54,6 +57,7 @@
     &__card-text {
         padding-top: 20px;
         padding-left: 30px;
+        font-family: 'Roboto';
     }
 
     &__logo-container {
@@ -80,6 +84,7 @@
     &__card-gray-text {
         padding-top: 20px;
         padding-left: 50px;
+        font-family: 'Roboto';
     }
 
     &__tablet-white-row-container {
@@ -139,6 +144,7 @@
         &__search-archive-label {
             margin-left: 0px;
             margin-top: 24px;
+            font-family: 'Roboto';
         }
     
         &__search-icon {
@@ -155,6 +161,7 @@
             width: 550px;
             height: 45px;
             border-radius: 28px;
+            font-family: 'Roboto';
         }
 
         &__card-container {
@@ -180,6 +187,7 @@
         &__tablet-white-row-text {
             margin-left: 80px;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__white-row-checkbox-empty-icon {
@@ -199,6 +207,7 @@
         &__tablet-gray-row-text {
             margin-left: 80px;
             font-size: 14px;
+            font-family: 'Roboto';
         }
 
         &__gray-row-checkbox-empty-icon {
