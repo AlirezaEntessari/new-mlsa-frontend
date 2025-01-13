@@ -7,6 +7,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header {
@@ -15,6 +16,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 180px;
+        color: $dark-navy;
     }
 
     &__mobile-search-icon {
@@ -956,6 +958,7 @@
             color: $dark-navy;
             font-size: 24px;
             font-weight: 700;
+            color: $dark-navy;
         }
 
         &__tablet-clear-filters-button {
@@ -1972,6 +1975,7 @@
             font-size: 32px;
             font-weight: 700;
             margin-top: 100px;
+            color: $dark-navy;
         }
 
         &__desktop-search-icon {

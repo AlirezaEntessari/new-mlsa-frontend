@@ -8,6 +8,7 @@
     &__main-container {
         display: flex;
         background-image: url("../../assets/logos/MLSALogoColorSmallTransparent30Opacity\ \(1\).svg");
+        font-family: 'Roboto';
     }
 
     &__mobile-search-jobs-header {
@@ -16,6 +17,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 180px;
+        color: $dark-navy;
     }
 
     &__mobile-saved-searches-dashboard-header {
@@ -297,7 +299,7 @@
         &__tablet-desktop-header {
             font-family: 'Roboto Serif';
             color: $dark-navy;
-            font-size: 26px;
+            font-size: 34px;
             font-weight: 800;
             margin-left: 80px;
             margin-top: 48px;

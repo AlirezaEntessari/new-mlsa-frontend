@@ -6,6 +6,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header-owner-information-container {
@@ -18,6 +19,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 170px;
+        color: $dark-navy;
     }
 
     &__mobile-owner-information-container {
@@ -46,6 +48,9 @@
     &__mobile-information-is-protected-text {
         margin-top: 20px;
         margin-right: 20px;
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 600;
     }
 
     &__mobile-client-name-will-not-be-shared {
@@ -567,6 +572,7 @@
             font-size: 24px;
             font-family: 'Roboto Serif';
             font-weight: 700;
+            color: $dark-navy;
         }
 
         &__tablet-owner-text {
@@ -586,11 +592,12 @@
 
         &__tablet-information-is-protected-text {
             margin-left: 20px;
-            font-weight: 500;
+            font-weight: 600;
             font-family: 'Roboto Serif';
             margin-top: 20px;
             width: 560px;
             margin-bottom: 8px;
+            color: $dark-navy;
         }
 
         &__tablet-client-name-will-not-be-shared {
@@ -1069,6 +1076,7 @@
             font-weight: 700;
             font-family: 'Roboto Serif';
             font-size: 36px;
+            color: $dark-navy;
         }
 
         &__desktop-owner-text {
@@ -1094,9 +1102,10 @@
 
         &__desktop-information-is-protected-text {
             font-family: 'Roboto Serif';
-            font-weight: 700;
+            font-weight: 600;
             font-size: 22px;
             width: 900px;
+            color: $dark-navy;
         }
 
         &__desktop-client-name-will-not-be-shared {

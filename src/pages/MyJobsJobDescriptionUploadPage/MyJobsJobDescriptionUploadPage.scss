@@ -7,6 +7,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__header {
@@ -15,6 +16,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 202px;
+        color: $dark-navy;
     }
 
     &__job-description-upload-container {
@@ -127,6 +129,10 @@
     &__download-job-description-docx-file {
         font-weight: 400;
         padding-left: 4px;
+    }
+
+    &__tablet-download-job-description-template-text {
+        display: none;
     }
 
 }
@@ -245,6 +251,7 @@
             text-decoration: underline;
             margin-top: 60px;
             margin-left: 204px;
+            display: inherit;
         }
 
         &__tablet-download-job-description-docx-file {
