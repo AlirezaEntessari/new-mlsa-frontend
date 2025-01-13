@@ -766,7 +766,7 @@ export default function MyCandidatesCandidateDetailsPage() {
                   src={MenuArrowCircleDownIcon}
                   alt="Menu Arrow Circle Down Icon"
                 />
-                <p className="my-candidates-candidate-details-page__mlsa-member-view-text">
+                <p className="my-candidates-candidate-details-page__desktop-mlsa-member-view-text">
                   MLSA Member View
                 </p>
               </div>

@@ -8,6 +8,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header-text {
@@ -73,7 +74,7 @@
     &__mobile-placements-number {
         font-size: 32px;
         color: $dark-gray;
-        padding-left: 14px;
+        padding-left: 4px;
         padding-top: 4px;
         font-weight: 500;
     }
@@ -100,7 +101,7 @@
     &__mobile-expiring-soon-number {
         font-size: 32px;
         color: $dark-gray;
-        padding-left: 14px;
+        padding-left: 12px;
         padding-top: 4px;
         font-weight: 500;
     }
@@ -202,7 +203,7 @@
 
     &__mobile-search-icon {
         position: absolute;
-        top: 600px;
+        top: 603px;
         right: 60px;
     }
 

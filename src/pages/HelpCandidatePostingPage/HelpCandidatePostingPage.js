@@ -548,7 +548,7 @@ export default function HelpCandidatePostingPage() {
                     </p>
                   </Link>
                   <Link
-                    className="help-candidate-posting-page__desktop-partnerships-option"
+                    className="help-candidate-posting-page__desktop-link"
                     to="/help-dashboard-page"
                   >
                     <p className="help-candidate-posting-page__desktop-dashboard-option">

@@ -7,6 +7,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header {
@@ -1429,9 +1430,9 @@
         }
 
         &__tablet-third-row-rate-agency-button {
-            background-color: $white-background;
+            background-color: $dark-navy;
             border: 2px solid $dark-navy;
-            color: $dark-navy;
+            color: $white-text;
             width: 200px;
             height: 40px;
             display: block;

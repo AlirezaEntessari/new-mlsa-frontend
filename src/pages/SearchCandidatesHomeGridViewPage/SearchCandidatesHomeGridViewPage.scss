@@ -7,6 +7,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header {
@@ -15,6 +16,7 @@
         font-weight: 700;
         font-size: 20px;
         margin-left: 150px;
+        color: $dark-navy;
     }
 
     &__mobile-search-icon {

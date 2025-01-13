@@ -10,35 +10,42 @@
         margin-left: 20px;
         width: 450px;
         padding-bottom: 4px;
+        font-family: 'Roboto';
     }
 
     &__my-partners-section {
         color: $dark-navy;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__my-partners-section:hover {
         color: $logo-orange;
+        font-family: 'Roboto';
     }
 
     &__requests-section {
         margin-left: 80px;
         color: $dark-navy;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__requests-section:hover {
         color: $logo-orange;
+        font-family: 'Roboto';
     }
 
     &__manage-section {
         margin-left: 80px;
         color: $dark-navy;
         font-weight: 500;
+        font-family: 'Roboto';
     }
 
     &__manage-section:hover {
-        color: $logo-orange
+        color: $logo-orange;
+        font-family: 'Roboto';
     }
 
     &__tablet-container {
@@ -79,38 +86,45 @@
             margin-top: 48px;
             margin-left: 32px;
             width: 750px;
+            font-family: 'Roboto';
         }
 
         &__tablet-my-active-partnerships-section {
             color: $dark-navy;
             font-weight: 500;
+            font-family: 'Roboto';
         }
 
         &__tablet-my-active-partnerships-section:hover {
             color: $logo-orange;
             cursor: pointer;
+            font-family: 'Roboto';
         }
 
         &__tablet-partnership-requests-section {
             color: $dark-navy;
             font-weight: 500;
             margin-left: 75px;
+            font-family: 'Roboto';
         }
 
         &__tablet-partnership-requests-section:hover {
             color: $logo-orange;
             cursor: pointer;
+            font-family: 'Roboto';
         }
 
         &__tablet-manage-partnerships-section {
             color: $dark-navy;
             font-weight: 500;
             margin-left: 75px;
+            font-family: 'Roboto';
         }
 
         &__tablet-manage-partnerships-section:hover {
             color: $logo-orange;
             cursor: pointer;
+            font-family: 'Roboto';
         }
 
         &__tablet-partnerships-home-page-link {
