@@ -81,11 +81,11 @@ import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
 function App() {
   return (
     <div className="App">
-      <div className="navbar">
+      {/* <div className="navbar">
         <SignedIn>
             <UserButton showName appearance={{ baseTheme: light }} />
         </SignedIn>
-      </div>
+      </div> */}
       <BrowserRouter>
       <Routes>
         <Route path="/sign-up-page" element={<SignUpPage />} />

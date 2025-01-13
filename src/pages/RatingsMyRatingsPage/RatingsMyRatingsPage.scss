@@ -7,6 +7,7 @@
 
     &__main-container {
         display: flex;
+        font-family: 'Roboto';
     }
 
     &__mobile-header-container {
@@ -1759,6 +1760,7 @@
             font-weight: 700;
             margin-top: 32px;
             margin-left: 80px;
+            color: $dark-navy;
         }
 
         &__desktop-top-button-value-assurance-container {

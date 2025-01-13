@@ -10,6 +10,7 @@ import RatingStarSmallIcon from "../../assets/icons/RatingStar.svg";
 import StarBoxedFullIcon from "../../assets/icons/StarBoxedFull.svg";
 import StarBoxedEmptyIcon from "../../assets/icons/StarBoxedEmpty.svg";
 import MenuArrowCircleDownIcon from "../../assets/icons/MenuCircleArrowGray.svg";
+import { Link } from "react-router-dom";
 
 export default function RatingsMyRatingsPage() {
   return (
@@ -31,20 +32,26 @@ export default function RatingsMyRatingsPage() {
             </div>
             <div className="ratings-my-ratings-page__mobile-button-container">
               <div className="ratings-my-ratings-page__mobile-top-button-container">
-                <button className="ratings-my-ratings-page__mobile-rate-an-agency-button">
-                  Rate an Agency
-                </button>
-                <button className="ratings-my-ratings-page__mobile-my-ratings-button">
-                  My Ratings
-                </button>
+                <Link to="/ratings-rate-an-agency-page">
+                  <button className="ratings-my-ratings-page__mobile-rate-an-agency-button">
+                    Rate an Agency
+                  </button>
+                </Link>
+                <Link to="/ratings-my-ratings-page">
+                  <button className="ratings-my-ratings-page__mobile-my-ratings-button">
+                    My Ratings
+                  </button>
+                </Link>
               </div>
               <div className="ratings-my-ratings-page__mobile-bottom-button-container">
                 <button className="ratings-my-ratings-page__mobile-search-agencies-button">
                   Search Agencies
                 </button>
-                <button className="ratings-my-ratings-page__mobile-conflict-resolution-button">
-                  Conflict Resolution
-                </button>
+                <Link to="/ratings-conflict-resolution-page">
+                  <button className="ratings-my-ratings-page__mobile-conflict-resolution-button">
+                    Conflict Resolution
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="ratings-my-ratings-page__mobile-my-rating-container">
@@ -1071,18 +1078,24 @@ export default function RatingsMyRatingsPage() {
               />
             </div>
             <div className="ratings-my-ratings-page__tablet-button-container">
-              <button className="ratings-my-ratings-page__tablet-rate-an-agency-button">
-                Rate an Agency
-              </button>
-              <button className="ratings-my-ratings-page__tablet-my-ratings-button">
-                My Ratings
-              </button>
+              <Link to="/ratings-rate-an-agency-page">
+                <button className="ratings-my-ratings-page__tablet-rate-an-agency-button">
+                  Rate an Agency
+                </button>
+              </Link>
+              <Link to="/ratings-my-ratings-page">
+                <button className="ratings-my-ratings-page__tablet-my-ratings-button">
+                  My Ratings
+                </button>
+              </Link>
               <button className="ratings-my-ratings-page__tablet-search-agencies-button">
                 Search Agencies
               </button>
-              <button className="ratings-my-ratings-page__tablet-conflict-resolution-button">
-                Conflict Resolution
-              </button>
+              <Link to="/ratings-conflict-resolution-page">
+                <button className="ratings-my-ratings-page__tablet-conflict-resolution-button">
+                  Conflict Resolution
+                </button>
+              </Link>
             </div>
             <div className="ratings-my-ratings-page__tablet-logo-my-rating-container">
               <img
@@ -2146,18 +2159,24 @@ export default function RatingsMyRatingsPage() {
             </p>
             <div className="ratings-my-ratings-page__desktop-top-button-value-assurance-container">
               <div className="ratings-my-ratings-page__desktop-top-button-container">
-                <button className="ratings-my-ratings-page__desktop-rate-an-agency-button">
-                  Rate an Agency
-                </button>
-                <button className="ratings-my-ratings-page__desktop-my-ratings-button">
-                  My Ratings
-                </button>
+                <Link to="/ratings-rate-an-agency-page">
+                  <button className="ratings-my-ratings-page__desktop-rate-an-agency-button">
+                    Rate an Agency
+                  </button>
+                </Link>
+                <Link to="/ratings-my-ratings-page">
+                  <button className="ratings-my-ratings-page__desktop-my-ratings-button">
+                    My Ratings
+                  </button>
+                </Link>
                 <button className="ratings-my-ratings-page__desktop-search-agencies-button">
                   Search Agencies
                 </button>
-                <button className="ratings-my-ratings-page__desktop-conflict-resolution-button">
-                  Conflict Resolution
-                </button>
+                <Link to="/ratings-conflict-resolution-page">
+                  <button className="ratings-my-ratings-page__desktop-conflict-resolution-button">
+                    Conflict Resolution
+                  </button>
+                </Link>
               </div>
               <img
                 className="ratings-my-ratings-page__desktop-mlsa-value-assurance-icon"
