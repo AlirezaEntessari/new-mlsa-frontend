@@ -211,6 +211,104 @@ export default function RatingsGivingNegativeFeedbackPage() {
               If you have been contacted by another Agency about the negative
               rating or feedback you left:
             </p>
+            <div className="ratings-giving-negative-feedback-page__step-2-container">
+              <p className="ratings-giving-negative-feedback-page__step-2-text">
+                <span className="ratings-giving-negative-feedback-page__step-2-bolded-text">
+                  Step 2:
+                </span>{" "}
+                <span className="ratings-giving-negative-feedback-page__communicate-with-agency-and-attempt-resolution-text">
+                  Communicate with the Agency and attempt resolution
+                </span>{" "}
+              </p>
+            </div>
+            <p className="ratings-giving-negative-feedback-page__given-negative-feedback-and-want-to-resolve-issue">
+              When you've given negative feedback and want to resolve the issue,
+              engaging in direct communication is a key step. Here's how you can
+              do this effectively.
+            </p>
+            <div className="ratings-giving-negative-feedback-page__resolve-the-issue-container">
+              <div className="ratings-giving-negative-feedback-page__resolve-the-issue-inner-container">
+                <div className="ratings-giving-negative-feedback-page__resolve-the-issue-first-step-container">
+                  <p className="ratings-giving-negative-feedback-page__reach-out-promptly">
+                    1.{" "}
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Reach Out Promptly
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__reach-out-promptly-do">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Contact the agency as soon as possible to discuss the issue.
+                    Addressing the problem while it's fresh increases the
+                    chances of a resolution.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__reach-out-promptly-dont">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Wait too long to reach out, as the details may become
+                    unclear, and the provider may not remember the specifics of
+                    your case.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__reach-out-promptly-example">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Example
+                    </span>{" "}
+                    "I wanted to follow up on my recent project with you. I
+                    experienced delays that affected my deadlines, and I'd like
+                    to discuss how we can address this."
+                  </p>
+                </div>
+                <div className="ratings-giving-negative-feedback-page__resolve-the-issue-second-step-container">
+                  <p className="ratings-giving-negative-feedback-page__stay-calm-and-professional">
+                    2.{" "}
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Stay Calm and Professional
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__stay-calm-and-professional-do">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Keep your communication respectful and professional. A calm
+                    tone helps maintain a productive dialogue and increases the
+                    likelihood of finding a solution.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__stay-calm-and-professional-dont">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Let your frustration lead to accusatory or emotional
+                    language. This can put the recipient on the defensive and
+                    make resolution more difficult.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__stay-calm-and-professional-example">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "While I was disappointed with the delay, I'm hoping we can
+                    find a way to prevent this in the future."
+                  </p>
+                </div>
+                <div className="ratings-giving-negative-feedback-page__resolve-the-issue-third-step-container">
+                  <p className="ratings-giving-negative-feedback-page__be-clear-and-specific">
+                    3.{" "}
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Be Clear and Specific
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__be-clear-and-specific-do">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Clearly state the issue you encountered. Reference specific
+                    problems and explain how they affected your experience. This
+                    helps the agency understand exactly what went wrong.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
