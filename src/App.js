@@ -74,6 +74,7 @@ import RatingsHomePage from './pages/RatingsHomePage/RatingsHomePage';
 import RatingsRateAnAgencyPage from './pages/RatingsRateAnAgencyPage/RatingsRateAnAgencyPage';
 import RatingsMyRatingsPage from './pages/RatingsMyRatingsPage/RatingsMyRatingsPage';
 import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage/RatingsConflictResolutionPage';
+import RatingsGivingNegativeFeedbackPage from './pages/RatingsGivingNegativeFeedbackPage/RatingsGivingNegativeFeedbackPage';
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
@@ -162,6 +163,7 @@ function App() {
         <Route path="/ratings-rate-an-agency-page" element={<RatingsRateAnAgencyPage />} />
         <Route path="/ratings-my-ratings-page" element={<RatingsMyRatingsPage />} />
         <Route path="/ratings-conflict-resolution-page" element={<RatingsConflictResolutionPage />} />
+        <Route path="/ratings-giving-negative-feedback-page" element={<RatingsGivingNegativeFeedbackPage />} />
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
       </Routes>
       </BrowserRouter>

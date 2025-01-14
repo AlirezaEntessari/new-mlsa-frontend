@@ -1,0 +1,195 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-giving-negative-feedback-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__header-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__header {
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 86px;
+    }
+
+    &__mlsa-value-assurance-icon {
+        width: 120px;
+        position: absolute;
+        bottom: -64px;
+        left: 340px;
+    }
+
+    &__giving-negative-feedback-rating-text {
+        color: $dark-navy;
+        margin-top: 96px;
+        margin-left: 32px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__when-preparing-to-give-bad-rating {
+        margin-top: 32px;
+        margin-left: 32px;
+        line-height: 40px;
+        text-align: justify;
+        margin-right: 40px;
+    }
+
+    &__steps-for-giving-negative-feedback-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 2120px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__steps-for-giving-negative-feedback-header {
+        margin-top: 40px;
+        margin-left: 32px;
+        font-weight: 500;
+        font-size: 22px;
+        width: 300px;
+    }
+
+    &__steps-for-giving-negative-feedback-inner-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__bolded-text {
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    &__evaluate-the-situation-objectively-do {
+        line-height: 34px;
+    }
+
+    &__evaluate-the-situation-objectively-dont {
+        line-height: 34px;
+    }
+
+    &__evaluate-the-situation-objectively-tip {
+        line-height: 34px;
+    }
+
+    &__steps-for-giving-negative-feedback-second-step-container {
+        margin-top: 48px;
+    }
+
+    &__be-specific-and-clear-do {
+        line-height: 34px;
+    }
+
+    &__be-specific-and-clear-dont {
+        line-height: 34px;
+    }
+
+    &__be-specific-and-clear-example {
+        line-height: 34px;
+    }
+
+    &__steps-for-giving-negative-feedback-third-step-container {
+        margin-top: 48px;
+    }
+
+    &__offer-constructive-suggestions-do {
+        line-height: 34px;
+    }
+
+    &__offer-constructive-suggestions-dont {
+        line-height: 34px;
+    }
+
+    &__offer-constructive-suggestions-example {
+        line-height: 34px;
+    }
+
+    &__steps-for-giving-negative-feedback-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__remain-professional-and-respectful-do {
+        line-height: 34px;
+    }
+
+    &__remain-professional-and-respectful-dont {
+        line-height: 34px;
+    }
+
+    &__remain-professional-and-respectful-example {
+        line-height: 34px;
+    }
+
+    &__steps-for-giving-negative-feedback-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__consider-private-communication-first-do {
+        line-height: 34px;
+    }
+
+    &__consider-private-communication-first-dont {
+        line-height: 34px;
+    }
+
+    &__consider-private-communication-first-example {
+        line-height: 34px;
+    }
+
+    &__more-about-step-1-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 520px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__more-about-step-1-inner-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__more-about-step-1-header {
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    &__more-about-step-1-description {
+        margin-top: 48px;
+        line-height: 34px;
+    }
+
+    &__if-you-have-been-contacted-by-another-agency {
+        margin-top: 48px;
+        margin-left: 32px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 48px;
+        width: 400px;
+    }
+
+}
