@@ -1,0 +1,155 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-receiving-negative-feedback-page {
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__header-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__header {
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 90px;
+    }
+
+    &__mlsa-value-assurance-icon {
+        width: 120px;
+        position: absolute;
+        bottom: -64px;
+        left: 340px;
+    }
+
+    &__receiving-negative-feedback-rating-text {
+        color: $dark-navy;
+        margin-top: 96px;
+        margin-left: 32px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__step-2-container {
+        border: 1px solid $medium-gray;
+        margin-top: 36px;
+        margin-left: 32px;
+        width: 436px;
+        height: 150px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__step-2-description {
+        padding-left: 32px;
+        padding-top: 40px;
+        font-size: 20px;
+        line-height: 34px;
+        width: 400px;
+    }
+
+    &__step-2-bolded-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__contact-the-agency-resolution-text {
+        margin-left: 8px;
+    }
+
+    &__when-reaching-out-to-someone {
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: justify;
+        line-height: 34px;
+        margin-top: 32px;
+    }
+
+    &__step-by-step-guide-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 2120px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__step-by-step-guide-inner-container {
+        margin-top: 40px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__bolded-text {
+        font-weight: 500;
+    }
+
+    &__stay-calm-and-professional-do {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-second-step-container {
+        margin-top: 48px;
+    }
+
+    &__acknowledge-the-feedback-do {
+        line-height: 34px;
+    }
+
+    &__acknowledge-the-feedback-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-third-step-container {
+        margin-top: 48px;
+    }
+
+    &__clarify-the-issue-do {
+        line-height: 34px;
+    }
+
+    &__clarify-the-issue-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__take-responsibility-do {
+        line-height: 34px;
+    }
+
+    &__take-responsibility-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__refer-to-the-agreement-do {
+        line-height: 34px;
+    }
+
+    &__refer-to-the-agreement-dont {
+        line-height: 34px;
+    }
+
+    &__refer-to-the-agreement-example {
+        line-height: 34px;
+    }
+
+}

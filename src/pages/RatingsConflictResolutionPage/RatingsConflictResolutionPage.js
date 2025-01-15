@@ -4,6 +4,7 @@ import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWi
 import RatingsSidePanel from "../../components/RatingsSidePanel/RatingsSidePanel";
 import ValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function RatingsConflictResolutionPage() {
   const navigate = useNavigate();
@@ -326,9 +327,14 @@ export default function RatingsConflictResolutionPage() {
                 experience accurately and constructively.
               </p>
               <div className="ratings-conflict-resolution-page__mobile-would-like-to-leave-negative-feedback-button-container">
-                <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
-                  This describes my issue
-                </button>
+                <Link
+                  className="ratings-conflict-resolution-page__link"
+                  to="/ratings-giving-negative-feedback-page"
+                >
+                  <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
+                    This describes my issue
+                  </button>
+                </Link>
                 <button
                   onClick={handleLearnMoreClick}
                   className="ratings-conflict-resolution-page__mobile-learn-more-about-ratings-button"
@@ -668,9 +674,14 @@ export default function RatingsConflictResolutionPage() {
                   reflects your experience accurately and constructively.
                 </p>
                 <div className="ratings-conflict-resolution-page__tablet-would-like-to-leave-a-negative-rating-or-feedback-button-container">
-                  <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
-                    This describes my issue
-                  </button>
+                  <Link
+                    className="ratings-conflict-resolution-page__link"
+                    to="/ratings-giving-negative-feedback-page"
+                  >
+                    <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
+                      This describes my issue
+                    </button>
+                  </Link>
                   <button className="ratings-conflict-resolution-page__tablet-learn-more-about-ratings-button">
                     Learn more about Ratings
                   </button>
@@ -1009,9 +1020,14 @@ export default function RatingsConflictResolutionPage() {
                   reflects your experience accurately and constructively.
                 </p>
                 <div className="ratings-conflict-resolution-page__desktop-would-like-to-leave-or-have-left-a-negative-rating-or-feedback-button-container">
-                  <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
-                    This describes my issue
-                  </button>
+                  <Link
+                    className="ratings-conflict-resolution-page__link"
+                    to="/ratings-giving-negative-feedback-page"
+                  >
+                    <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
+                      This describes my issue
+                    </button>
+                  </Link>
                   <button className="ratings-conflict-resolution-page__desktop-learn-more-about-ratings-button">
                     Learn more about Ratings
                   </button>
