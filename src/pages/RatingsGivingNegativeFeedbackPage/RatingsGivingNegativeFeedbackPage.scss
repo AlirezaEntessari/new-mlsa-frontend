@@ -167,7 +167,7 @@
     }
 
     &__more-about-step-1-inner-container {
-        margin-top: 32px;
+        margin-top: 48px;
         margin-left: 32px;
         text-align: justify;
         margin-right: 32px;
@@ -233,7 +233,7 @@
         margin-left: 32px;
         border: 1px solid $medium-gray;
         width: 436px;
-        height: 2120px;
+        height: 2500px;
         border-top-right-radius: 24px;
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
@@ -280,6 +280,935 @@
 
     &__be-clear-and-specific-do {
         line-height: 34px;
+    }
+
+    &__be-clear-and-specific-dont {
+        line-height: 34px;
+    }
+
+    &__be-clear-and-specific-example {
+        line-height: 34px;
+    }
+
+    &__resolve-the-issue-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__ask-for-a-proposed-solution-do {
+        line-height: 34px;
+    }
+
+    &__ask-for-a-proposed-solution-dont {
+        line-height: 34px;
+    }
+
+    &__ask-for-a-proposed-solution-example {
+        line-height: 34px;
+    }
+
+    &__resolve-the-issue-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__be-open-to-discussion-do {
+        line-height: 34px;
+    }
+
+    &__be-open-to-discussion-dont {
+        line-height: 34px;
+    }
+
+    &__be-open-to-discussion-example {
+        line-height: 34px;
+    }
+
+    &__effective-communication-is-essential-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 354px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__effective-communication-is-essential-inner-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__effective-communication-is-essential-description {
+        line-height: 40px;
+    }
+
+    &__when-you-have-completed-step-2 {
+        margin-left: 80px;
+        margin-top: 48px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__bottom-button-container {
+        margin-left: 108px;
+        margin-top: 48px;
+    }
+
+    &__go-to-step-3-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        font-weight: 500;
+    }
+
+    &__back-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+    &__go-to-dashboard-messages-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-giving-negative-feedback-page {
+        padding-bottom: 15rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 32px;
+            margin-left: 32px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 180px;
+            position: absolute;
+            bottom: -110px;
+            left: 560px;
+        }
+
+        &__giving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 110px;
+            margin-left: 32px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    
+        &__when-preparing-to-give-bad-rating {
+            margin-top: 32px;
+            margin-left: 32px;
+            line-height: 40px;
+            text-align: justify;
+            margin-right: 40px;
+        }
+
+        &__steps-for-giving-negative-feedback-container {
+            margin-top: 48px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 1690px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__steps-for-giving-negative-feedback-header {
+            margin-top: 42px;
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 22px;
+            width: inherit;
+        }
+
+        &__steps-for-giving-negative-feedback-inner-container {
+            margin-top: 32px;
+            margin-left: 40px;
+            text-align: justify;
+            margin-right: 48px;
+        }
+    
+        &__bolded-text {
+            font-weight: 500;
+            font-size: 17px;
+        }
+    
+        &__evaluate-the-situation-objectively-do {
+            line-height: 34px;
+        }
+
+        &__evaluate-the-situation-objectively-dont {
+            line-height: 34px;
+        }
+    
+        &__evaluate-the-situation-objectively-tip {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-second-step-container {
+            margin-top: 48px;
+        }
+    
+        &__be-specific-and-clear-do {
+            line-height: 34px;
+        }
+    
+        &__be-specific-and-clear-dont {
+            line-height: 34px;
+        }
+    
+        &__be-specific-and-clear-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-third-step-container {
+            margin-top: 48px;
+        }
+    
+        &__offer-constructive-suggestions-do {
+            line-height: 34px;
+        }
+    
+        &__offer-constructive-suggestions-dont {
+            line-height: 34px;
+        }
+    
+        &__offer-constructive-suggestions-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-fourth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__remain-professional-and-respectful-do {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-respectful-dont {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-respectful-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-fifth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__consider-private-communication-first-do {
+            line-height: 34px;
+        }
+    
+        &__consider-private-communication-first-dont {
+            line-height: 34px;
+        }
+    
+        &__consider-private-communication-first-example {
+            line-height: 34px;
+        }
+
+        &__more-about-step-1-container {
+            margin-top: 64px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 400px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__more-about-step-1-inner-container {
+            margin-top: 48px;
+            margin-left: 40px;
+            text-align: justify;
+            margin-right: 48px;
+        }
+
+        &__more-about-step-1-header {
+            font-weight: 500;
+            font-size: 22px;
+        }
+    
+        &__more-about-step-1-description {
+            margin-top: 48px;
+            line-height: 40px;
+        }
+
+        &__if-you-have-been-contacted-by-another-agency {
+            margin-top: 48px;
+            margin-left: 32px;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 48px;
+            width: 730px;
+        }
+    
+        &__step-2-container {
+            border: 1px solid $medium-gray;
+            margin-top: 36px;
+            margin-left: 32px;
+            width: 730px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        &__step-2-text {
+            padding-left: 32px;
+            padding-top: 40px;
+            font-size: 20px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-2-bolded-text {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__communicate-with-agency-and-attempt-resolution-text {
+            margin-left: 4px;
+        }
+    
+        &__given-negative-feedback-and-want-to-resolve-issue {
+            margin-top: 32px;
+            margin-left: 32px;
+            line-height: 34px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+
+        &__resolve-the-issue-container {
+            margin-top: 32px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 1780px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__resolve-the-issue-inner-container {
+            margin-top: 48px;
+            margin-left: 40px;
+            text-align: justify;
+            margin-right: 48px;
+        }
+
+        &__reach-out-promptly-do {
+            line-height: 34px;
+        }
+    
+        &__reach-out-promptly-dont {
+            line-height: 34px;
+        }
+    
+        &__reach-out-promptly-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-second-step-container {
+            margin-top: 48px;
+        }
+    
+        &__stay-calm-and-professional-do {
+            line-height: 34px;
+        }
+    
+        &__stay-calm-and-professional-dont {
+            line-height: 34px;
+        }
+    
+        &__stay-calm-and-professional-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-third-step-container {
+            margin-top: 48px;
+        }
+    
+        &__be-clear-and-specific-do {
+            line-height: 34px;
+        }
+    
+        &__be-clear-and-specific-dont {
+            line-height: 34px;
+        }
+    
+        &__be-clear-and-specific-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-fourth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__ask-for-a-proposed-solution-do {
+            line-height: 34px;
+        }
+    
+        &__ask-for-a-proposed-solution-dont {
+            line-height: 34px;
+        }
+    
+        &__ask-for-a-proposed-solution-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-fifth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__be-open-to-discussion-do {
+            line-height: 34px;
+        }
+    
+        &__be-open-to-discussion-dont {
+            line-height: 34px;
+        }
+    
+        &__be-open-to-discussion-example {
+            line-height: 34px;
+        }
+
+        &__effective-communication-is-essential-container {
+            margin-top: 64px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 354px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__effective-communication-is-essential-inner-container {
+            margin-top: 48px;
+            margin-left: 40px;
+            text-align: justify;
+            margin-right: 48px;
+        }
+
+        &__effective-communication-is-essential-description {
+            line-height: 40px;
+        }
+    
+        &__when-you-have-completed-step-2 {
+            margin-left: 150px;
+            margin-top: 68px;
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+
+        &__bottom-button-container {
+            margin-left: 12px;
+            margin-top: 74px;
+            display: flex;
+        }
+    
+        &__go-to-step-3-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+        }
+    
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+    
+
+    }
+
+}
+
+@include desktop {
+
+    .ratings-giving-negative-feedback-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 32px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 280px;
+            position: absolute;
+            bottom: -190px;
+            left: 1240px;
+        }
+
+        &__giving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 180px;
+            margin-left: 80px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+    
+        &__when-preparing-to-give-bad-rating {
+            margin-top: 48px;
+            margin-left: 80px;
+            line-height: 44px;
+            text-align: justify;
+            margin-right: 40px;
+            font-size: 18px;
+            width: 1520px;
+        }
+
+        &__steps-for-giving-negative-feedback-container {
+            margin-top: 100px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 1430px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__steps-for-giving-negative-feedback-header {
+            margin-top: 64px;
+            margin-left: 80px;
+            font-weight: 500;
+            font-size: 26px;
+            width: inherit;
+        }
+
+        &__steps-for-giving-negative-feedback-inner-container {
+            margin-top: 54px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+            font-size: 19px;
+        }
+    
+        &__bolded-text {
+            font-weight: 500;
+            font-size: 19px;
+        }
+
+        &__evaluate-the-situation-objectively-do {
+            line-height: 34px;
+        }
+
+        &__evaluate-the-situation-objectively-dont {
+            line-height: 34px;
+        }
+    
+        &__evaluate-the-situation-objectively-tip {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-second-step-container {
+            margin-top: 60px;
+        }
+    
+        &__be-specific-and-clear-do {
+            line-height: 34px;
+        }
+
+        &__be-specific-and-clear-dont {
+            line-height: 34px;
+        }
+    
+        &__be-specific-and-clear-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-third-step-container {
+            margin-top: 60px;
+        }
+    
+        &__offer-constructive-suggestions-do {
+            line-height: 34px;
+        }
+    
+        &__offer-constructive-suggestions-dont {
+            line-height: 34px;
+        }
+    
+        &__offer-constructive-suggestions-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-fourth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__remain-professional-and-respectful-do {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-respectful-dont {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-respectful-example {
+            line-height: 34px;
+        }
+    
+        &__steps-for-giving-negative-feedback-fifth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__consider-private-communication-first-do {
+            line-height: 34px;
+        }
+    
+        &__consider-private-communication-first-dont {
+            line-height: 34px;
+        }
+    
+        &__consider-private-communication-first-example {
+            line-height: 34px;
+        }
+
+        &__more-about-step-1-container {
+            margin-top: 64px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 350px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__more-about-step-1-inner-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+        }
+
+        &__more-about-step-1-header {
+            font-weight: 500;
+            font-size: 24px;
+        }
+    
+        &__more-about-step-1-description {
+            margin-top: 48px;
+            line-height: 48px;
+            font-size: 19px;
+        }
+
+        &__if-you-have-been-contacted-by-another-agency {
+            margin-top: 72px;
+            margin-left: 80px;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 48px;
+            width: inherit;
+        }
+    
+        &__step-2-container {
+            border: 1px solid $medium-gray;
+            margin-top: 72px;
+            margin-left: 80px;
+            width: 1550px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        &__step-2-text {
+            padding-left: 80px;
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-2-bolded-text {
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        &__communicate-with-agency-and-attempt-resolution-text {
+            margin-left: 4px;
+        }
+    
+        &__given-negative-feedback-and-want-to-resolve-issue {
+            margin-top: 64px;
+            margin-left: 80px;
+            line-height: 34px;
+            text-align: justify;
+            margin-right: 32px;
+            font-size: 20px;
+        }
+
+        &__resolve-the-issue-container {
+            margin-top: 64px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 1450px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__resolve-the-issue-inner-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 48px;
+            font-size: 20px;
+        }
+
+        &__reach-out-promptly-do {
+            line-height: 34px;
+        }
+    
+        &__reach-out-promptly-dont {
+            line-height: 34px;
+        }
+    
+        &__reach-out-promptly-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-second-step-container {
+            margin-top: 60px;
+        }
+    
+        &__stay-calm-and-professional-do {
+            line-height: 34px;
+        }
+
+        &__stay-calm-and-professional-dont {
+            line-height: 34px;
+        }
+    
+        &__stay-calm-and-professional-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-third-step-container {
+            margin-top: 60px;
+        }
+    
+        &__be-clear-and-specific-do {
+            line-height: 34px;
+        }
+    
+        &__be-clear-and-specific-dont {
+            line-height: 34px;
+        }
+    
+        &__be-clear-and-specific-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-fourth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__ask-for-a-proposed-solution-do {
+            line-height: 34px;
+        }
+    
+        &__ask-for-a-proposed-solution-dont {
+            line-height: 34px;
+        }
+    
+        &__ask-for-a-proposed-solution-example {
+            line-height: 34px;
+        }
+    
+        &__resolve-the-issue-fifth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__be-open-to-discussion-do {
+            line-height: 34px;
+        }
+    
+        &__be-open-to-discussion-dont {
+            line-height: 34px;
+        }
+    
+        &__be-open-to-discussion-example {
+            line-height: 34px;
+        }
+
+        &__effective-communication-is-essential-container {
+            margin-top: 80px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 250px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__effective-communication-is-essential-inner-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+        }
+
+        &__effective-communication-is-essential-description {
+            line-height: 50px;
+            font-size: 20px;
+        }
+    
+        &__when-you-have-completed-step-2 {
+            margin-left: 460px;
+            margin-top: 80px;
+            font-size: 28px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+
+        &__bottom-button-container {
+            margin-left: 280px;
+            margin-top: 120px;
+            display: flex;
+        }
+    
+        &__go-to-step-3-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+
+
     }
 
 }

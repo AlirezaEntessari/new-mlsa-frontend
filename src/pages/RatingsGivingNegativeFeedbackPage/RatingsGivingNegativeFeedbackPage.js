@@ -306,8 +306,112 @@ export default function RatingsGivingNegativeFeedbackPage() {
                     problems and explain how they affected your experience. This
                     helps the agency understand exactly what went wrong.
                   </p>
+                  <p className="ratings-giving-negative-feedback-page__be-clear-and-specific-dont">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Be vague or use generalized statements like "the project was
+                    bad" or "nothing went right". Without details, the recipient
+                    won't know what to focus on.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__be-clear-and-specific-example">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "The project was delayed by two weeks, which caused me to
+                    miss an important deadline for my client."
+                  </p>
+                </div>
+                <div className="ratings-giving-negative-feedback-page__resolve-the-issue-fourth-step-container">
+                  <p className="ratings-giving-negative-feedback-page__ask-for-a-proposed-solution">
+                    4.{" "}
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Ask for a Proposed Solution
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__ask-for-a-proposed-solution-do">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Ask the agency how they plan to resolve the issue or what
+                    steps they can take to prevent it from happening again. This
+                    opens the door for them to offer a solution.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__ask-for-a-proposed-solution-dont">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Demand a specific outcome without first hearing what they
+                    propose. Giving them a chance to offer a solution shows you
+                    are open to working things out.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__ask-for-a-proposed-solution-example">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "Could you let me know you plan to avoid these delays in
+                    future projects? I'm open to suggestions."
+                  </p>
+                </div>
+                <div className="ratings-giving-negative-feedback-page__resolve-the-issue-fifth-step-container">
+                  <p className="ratings-giving-negative-feedback-page__be-open-to-discussion">
+                    5.{" "}
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Be Open to Discussion
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__be-open-to-discussion-do">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Be willing to discuss the issue further and consider the
+                    agency's response. They may provide additional context or
+                    clarify misunderstandings that could change your
+                    perspective.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__be-open-to-discussion-dont">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Close off communication or refuse to consider their side of
+                    the story. A one-sided approach can hinder the chances of
+                    reaching a fair resolution.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-page__be-open-to-discussion-example">
+                    <span className="ratings-giving-negative-feedback-page__bolded-text">
+                      Example:
+                    </span>{" "}
+                    "I didn't realize there were unforeseen issues on your end.
+                    Thank you for clarifying, and I'm happy to discuss how we
+                    can move forward."
+                  </p>
                 </div>
               </div>
+            </div>
+            <div className="ratings-giving-negative-feedback-page__effective-communication-is-essential-container">
+              <div className="ratings-giving-negative-feedback-page__effective-communication-is-essential-inner-container">
+                <p className="ratings-giving-negative-feedback-page__effective-communication-is-essential-description">
+                  Effective communication is essential when attempting to
+                  resolve issues after giving negative feedback. By reaching out
+                  promptly, staying calm, being clear, and allowing for open
+                  dialogue, you increase the chances of resolving the issue in a
+                  way that benefits both parties.
+                </p>
+              </div>
+            </div>
+            <p className="ratings-giving-negative-feedback-page__when-you-have-completed-step-2">
+              When you have completed Step 2 move on to Step 3
+            </p>
+            <div className="ratings-giving-negative-feedback-page__bottom-button-container">
+              <button className="ratings-giving-negative-feedback-page__go-to-step-3-button">
+                Go to Step 3
+              </button>
+              <button className="ratings-giving-negative-feedback-page__back-button">
+                Back
+              </button>
+              <button className="ratings-giving-negative-feedback-page__go-to-dashboard-messages-button">
+                Go to Dashboard Messages
+              </button>
             </div>
           </div>
         </div>
