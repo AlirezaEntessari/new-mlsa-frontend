@@ -3,6 +3,7 @@
 @use '../../styles/partials/variables' as *;
 
 .ratings-receiving-negative-feedback-page {
+    padding-bottom: 10rem;
 
     &__main-container {
         display: flex;
@@ -79,7 +80,7 @@
         margin-left: 32px;
         border: 1px solid $medium-gray;
         width: 436px;
-        height: 2120px;
+        height: 4080px;
         border-top-right-radius: 24px;
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
@@ -150,6 +151,887 @@
 
     &__refer-to-the-agreement-example {
         line-height: 34px;
+    }
+
+    &__step-by-step-guide-sixth-step-container {
+        margin-top: 48px;
+    }
+
+    &__focus-on-long-term-relationships-do {
+        line-height: 34px;
+    }
+
+    &__focus-on-long-term-relationships-dont {
+        line-height: 34px;
+    }
+
+    &__focus-on-long-term-relationships-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-seventh-step-container {
+        margin-top: 48px;
+    }
+
+    &__offer-a-solution-or-compromise-do {
+        line-height: 34px;
+    }
+
+    &__offer-a-solution-or-compromise-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-eighth-step-container {
+        margin-top: 48px;
+    }
+
+    &__listen-and-be-empathetic-do {
+        line-height: 34px;
+    }
+
+    &__listen-and-be-empathetic-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-ninth-step-container {
+        margin-top: 48px;
+    }
+
+    &__provide-assurance-do {
+        line-height: 34px;
+    }
+
+    &__provide-assurance-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-tenth-step-container {
+        margin-top: 48px;
+    }
+
+    &__follow-up-do {
+        line-height: 34px;
+    }
+
+    &__follow-up-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-eleventh-step-container {
+        margin-top: 48px;
+    }
+
+    &__ask-for-revised-feedback-do {
+        line-height: 34px;
+    }
+
+    &__ask-for-revised-feedback-example {
+        line-height: 34px;
+    }
+
+    &__step-by-step-guide-twelfth-step-container {
+        margin-top: 48px;
+    }
+
+    &__stay-positive-and-gracious-do {
+        line-height: 34px;
+    }
+
+    &__tips-for-a-win-win-outcome-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 690px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__tips-for-a-win-win-outcome-inner-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__tips-for-a-win-win-outcome-header {
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    &__tips-for-a-win-win-outcome-top-container {
+        margin-top: 40px;
+    }
+
+    &__focus-on-the-future {
+        line-height: 34px;
+    }
+
+    &__personalize-your-approach {
+        line-height: 34px;
+    }
+
+    &__encourage-ongoing-communication {
+        line-height: 34px;
+    }
+
+    &__tips-for-a-win-win-outcome-bottom-container {
+        margin-top: 48px;
+    }
+
+    &__tips-for-a-win-win-outcome-following-these-steps {
+        line-height: 34px;
+    }
+
+    &__when-you-have-completed-step-2 {
+        margin-left: 80px;
+        margin-top: 48px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__bottom-button-container {
+        margin-left: 108px;
+        margin-top: 48px;
+    }
+
+    &__go-to-step-3-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        font-weight: 500;
+    }
+
+    &__back-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+    &__go-to-dashboard-messages-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+
+}
+
+@include tablet {
+
+    .ratings-receiving-negative-feedback-page {
+        padding-bottom: 15rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 32px;
+            margin-left: 32px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 800;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 180px;
+            position: absolute;
+            bottom: -110px;
+            left: 560px;
+        }
+
+        &__receiving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 110px;
+            margin-left: 32px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    
+        &__step-2-container {
+            border: 1px solid $medium-gray;
+            margin-top: 54px;
+            margin-left: 32px;
+            width: 730px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-2-description {
+            padding-left: 32px;
+            padding-top: 40px;
+            font-size: 20px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-2-bolded-text {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__contact-the-agency-resolution-text {
+            margin-left: 8px;
+        }
+    
+        &__when-reaching-out-to-someone {
+            margin-left: 32px;
+            margin-right: 32px;
+            text-align: justify;
+            line-height: 34px;
+            margin-top: 48px;
+        }
+
+        &__step-by-step-guide-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 2950px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-by-step-guide-inner-container {
+            margin-top: 54px;
+            margin-left: 32px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+
+        &__bolded-text {
+            font-weight: 500;
+        }
+    
+        &__stay-calm-and-professional-do {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-second-step-container {
+            margin-top: 48px;
+        }
+    
+        &__acknowledge-the-feedback-do {
+            line-height: 34px;
+        }
+    
+        &__acknowledge-the-feedback-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-third-step-container {
+            margin-top: 48px;
+        }
+    
+        &__clarify-the-issue-do {
+            line-height: 34px;
+        }
+    
+        &__clarify-the-issue-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-fourth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__take-responsibility-do {
+            line-height: 34px;
+        }
+    
+        &__take-responsibility-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-fifth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__refer-to-the-agreement-do {
+            line-height: 34px;
+        }
+    
+        &__refer-to-the-agreement-dont {
+            line-height: 34px;
+        }
+    
+        &__refer-to-the-agreement-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-sixth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__focus-on-long-term-relationships-do {
+            line-height: 34px;
+        }
+    
+        &__focus-on-long-term-relationships-dont {
+            line-height: 34px;
+        }
+    
+        &__focus-on-long-term-relationships-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-seventh-step-container {
+            margin-top: 48px;
+        }
+    
+        &__offer-a-solution-or-compromise-do {
+            line-height: 34px;
+        }
+    
+        &__offer-a-solution-or-compromise-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-eighth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__listen-and-be-empathetic-do {
+            line-height: 34px;
+        }
+    
+        &__listen-and-be-empathetic-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-ninth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__provide-assurance-do {
+            line-height: 34px;
+        }
+    
+        &__provide-assurance-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-tenth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__follow-up-do {
+            line-height: 34px;
+        }
+    
+        &__follow-up-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-eleventh-step-container {
+            margin-top: 48px;
+        }
+    
+        &__ask-for-revised-feedback-do {
+            line-height: 34px;
+        }
+    
+        &__ask-for-revised-feedback-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-twelfth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__stay-positive-and-gracious-do {
+            line-height: 34px;
+        }
+
+        &__tips-for-a-win-win-outcome-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 560px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__tips-for-a-win-win-outcome-inner-container {
+            margin-top: 48px;
+            margin-left: 32px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+    
+        &__tips-for-a-win-win-outcome-header {
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        &__tips-for-a-win-win-outcome-top-container {
+            margin-top: 54px;
+        }
+    
+        &__focus-on-the-future {
+            line-height: 34px;
+        }
+    
+        &__personalize-your-approach {
+            line-height: 34px;
+        }
+    
+        &__encourage-ongoing-communication {
+            line-height: 34px;
+        }
+
+        &__tips-for-a-win-win-outcome-bottom-container {
+            margin-top: 54px;
+        }
+    
+        &__tips-for-a-win-win-outcome-following-these-steps {
+            line-height: 34px;
+        }
+
+        &__when-you-have-completed-step-2 {
+            margin-left: 150px;
+            margin-top: 68px;
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+    
+        &__bottom-button-container {
+            margin-left: 12px;
+            margin-top: 74px;
+            display: flex;
+        }
+
+        &__go-to-step-3-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+        }
+    
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+
+
+    }
+
+}
+
+@include desktop {
+
+    .ratings-receiving-negative-feedback-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 800;
+            font-size: 32px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+
+        &__mlsa-value-assurance-icon {
+            width: 280px;
+            position: absolute;
+            bottom: -190px;
+            left: 1240px;
+        }
+
+        &__receiving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 180px;
+            margin-left: 80px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        &__step-2-container {
+            border: 1px solid $medium-gray;
+            margin-top: 72px;
+            margin-left: 80px;
+            width: 1550px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-2-description {
+            padding-left: 80px;
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-2-bolded-text {
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        &__contact-the-agency-resolution-text {
+            margin-left: 8px;
+        }
+    
+        &__when-reaching-out-to-someone {
+            margin-top: 48px;
+            margin-left: 80px;
+            line-height: 44px;
+            text-align: justify;
+            font-size: 20px;
+            margin-right: 100px;
+        }
+
+        &__step-by-step-guide-container {
+            margin-top: 100px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 2550px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-by-step-guide-inner-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+            font-size: 19px;
+        }
+
+        &__bolded-text {
+            font-weight: 500;
+        }
+
+        &__stay-calm-and-professional-do {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-second-step-container {
+            margin-top: 60px;
+        }
+    
+        &__acknowledge-the-feedback-do {
+            line-height: 34px;
+        }
+    
+        &__acknowledge-the-feedback-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-third-step-container {
+            margin-top: 60px;
+        }
+    
+        &__clarify-the-issue-do {
+            line-height: 34px;
+        }
+    
+        &__clarify-the-issue-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-fourth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__take-responsibility-do {
+            line-height: 34px;
+        }
+    
+        &__take-responsibility-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-fifth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__refer-to-the-agreement-do {
+            line-height: 34px;
+        }
+    
+        &__refer-to-the-agreement-dont {
+            line-height: 34px;
+        }
+    
+        &__refer-to-the-agreement-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-sixth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__focus-on-long-term-relationships-do {
+            line-height: 34px;
+        }
+    
+        &__focus-on-long-term-relationships-dont {
+            line-height: 34px;
+        }
+    
+        &__focus-on-long-term-relationships-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-seventh-step-container {
+            margin-top: 60px;
+        }
+    
+        &__offer-a-solution-or-compromise-do {
+            line-height: 34px;
+        }
+    
+        &__offer-a-solution-or-compromise-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-eighth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__listen-and-be-empathetic-do {
+            line-height: 34px;
+        }
+    
+        &__listen-and-be-empathetic-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-ninth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__provide-assurance-do {
+            line-height: 34px;
+        }
+    
+        &__provide-assurance-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-tenth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__follow-up-do {
+            line-height: 34px;
+        }
+    
+        &__follow-up-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-eleventh-step-container {
+            margin-top: 60px;
+        }
+    
+        &__ask-for-revised-feedback-do {
+            line-height: 34px;
+        }
+    
+        &__ask-for-revised-feedback-example {
+            line-height: 34px;
+        }
+    
+        &__step-by-step-guide-twelfth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__stay-positive-and-gracious-do {
+            line-height: 34px;
+        }
+
+        &__tips-for-a-win-win-outcome-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 460px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__tips-for-a-win-win-outcome-inner-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+        }
+
+        &__tips-for-a-win-win-outcome-header {
+            font-weight: 500;
+            font-size: 28px;
+        }
+
+        &__tips-for-a-win-win-outcome-top-container {
+            margin-top: 54px;
+        }
+    
+        &__focus-on-the-future {
+            line-height: 34px;
+            font-size: 20px;
+        }
+    
+        &__personalize-your-approach {
+            line-height: 34px;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+    
+        &__encourage-ongoing-communication {
+            line-height: 34px;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+
+        &__tips-for-a-win-win-outcome-bottom-container {
+            margin-top: 54px;
+        }
+    
+        &__tips-for-a-win-win-outcome-following-these-steps {
+            line-height: 34px;
+            font-size: 20px;
+            margin-top: 54px;
+        }
+
+        &__when-you-have-completed-step-2 {
+            margin-left: 460px;
+            margin-top: 80px;
+            font-size: 28px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+
+        &__bottom-button-container {
+            margin-left: 280px;
+            margin-top: 120px;
+            display: flex;
+        }
+
+        &__go-to-step-3-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+
+
     }
 
 }

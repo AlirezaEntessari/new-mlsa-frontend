@@ -165,7 +165,225 @@ export default function RatingsReceivingNegativeFeedbackPage() {
                     the commission was to be split."
                   </p>
                 </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-sixth-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__focus-on-long-term-relationships">
+                    6.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Focus on Long-Term Relationships
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__focus-on-long-term-relationships-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Members should aim to resolve conflicts in a way that
+                    preserves professional relationships. The staffing industry
+                    is relationship-driven, and burning bridges over a single
+                    transaction can harm future business opportunities.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__focus-on-long-term-relationships-dont">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Sacrifice long-term partnerships for short-term gains.
+                    Finding a fair compromise benefits both parties in the long
+                    run.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__focus-on-long-term-relationships-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "I value our working relationship, and I want to make sure
+                    we both feel this resolution is fair. Let's resolve this so
+                    we can continue collaborating in the future."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-seventh-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__offer-a-solution-or-compromise">
+                    7.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Offer a Solution or Compromise
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__offer-a-solution-or-compromise-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Present a concrete solution or offer alternatives to resolve
+                    the issue. Be flexible, and ask the person what would help
+                    make things right for them.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__offer-a-solution-or-compromise-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "I'd like to make it up to you. What could I do to help
+                    address the issue?"
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-eighth-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__listen-and-be-empathetic">
+                    8.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Listen and Be Empathetic
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__listen-and-be-empathetic-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Show genuine care for their experience. Sometimes, people
+                    just want to feel heard. Be empathetic and patient while
+                    listening to their concerns.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__listen-and-be-empathetic-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "I completely understand how this situation could be
+                    frustrating. Let me see what I can do to ensure it doesn't
+                    happen again."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-ninth-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__provide-assurance">
+                    9.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Provide Assurance
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__provide-assurance-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Let the person know what steps you're taking to ensure the
+                    issue won't be repeated. This builds trust and shows that
+                    you are committed to improvement.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__provide-assurance-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "I've already taken steps to address this internally, and
+                    we're reviewing our processes to prevent similar
+                    situations."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-tenth-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__follow-up">
+                    10.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Follow Up
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__follow-up-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Once the situation is resolved, follow up to make sure they
+                    are satisfied. This should be through a MLSA message to show
+                    your commitment to making things right.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__follow-up-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "I just wanted to check to see if the resolution was
+                    satisfactory and it there's anything else I can do."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-eleventh-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__ask-for-revised-feedback">
+                    11.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Ask for Revised Feedback
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__ask-for-revised-feedback-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    If the issue is resolved and the person is satisfied, you
+                    can politely ask if they'd be willing to update their review
+                    or feedback to reflect the resolution.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__ask-for-revised-feedback-example">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "If you're happy with the outcome, it would mean a lot to us
+                    if you could consider updating your review."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__step-by-step-guide-twelfth-step-container">
+                  <p className="ratings-receiving-negative-feedback-page__stay-positive-and-gracious">
+                    12.{" "}
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Stay Positive and Gracious
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__stay-positive-and-gracious-do">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Even if the person does not change their feedback, thank
+                    them again for the opportunity to improve. Handling a
+                    difficult situation gracefully leaves a lasting positive
+                    impression.
+                  </p>
+                </div>
               </div>
+            </div>
+            <div className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-container">
+              <div className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-inner-container">
+                <p className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-header">
+                  Tips for a Win-Win Outcome:
+                </p>
+                <div className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-top-container">
+                  <p className="ratings-receiving-negative-feedback-page__focus-on-the-future">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Focus on the future:
+                    </span>{" "}
+                    Start the conversation from what went wrong to how you can
+                    improve the experience moving forward.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__personalize-your-approach">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Personalize your approach:
+                    </span>{" "}
+                    Make the other person feel special by tailoring your
+                    responses and solutions to their specific situation.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-page__encourage-ongoing-communication">
+                    <span className="ratings-receiving-negative-feedback-page__bolded-text">
+                      Encourage ongoing communication:
+                    </span>{" "}
+                    Offer to keep an open line for any future concerns, showing
+                    that you value long-term relationships.
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-bottom-container">
+                  <p className="ratings-receiving-negative-feedback-page__tips-for-a-win-win-outcome-following-these-steps">
+                    By following these steps, you're more likely to turn a
+                    negative experience into a constructive one, leaving both
+                    parties feeling respected and valued.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="ratings-receiving-negative-feedback-page__when-you-have-completed-step-2">
+              When you have completed Step 2 move on to Step 3
+            </p>
+            <div className="ratings-receiving-negative-feedback-page__bottom-button-container">
+              <button className="ratings-receiving-negative-feedback-page__go-to-step-3-button">
+                Go to Step 3
+              </button>
+              <button className="ratings-receiving-negative-feedback-page__back-button">
+                Back
+              </button>
+              <button className="ratings-receiving-negative-feedback-page__go-to-dashboard-messages-button">
+                Go to Dashboard Messages
+              </button>
             </div>
           </div>
         </div>
