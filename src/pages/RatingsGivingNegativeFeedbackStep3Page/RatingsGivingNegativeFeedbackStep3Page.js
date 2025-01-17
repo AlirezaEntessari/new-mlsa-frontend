@@ -170,7 +170,66 @@ export default function RatingsGivingNegativeFeedbackStep3Page() {
                     willing to reconsider the rating."
                   </p>
                 </div>
+                <div className="ratings-giving-negative-feedback-step-3-page__process-fifth-step-container">
+                  <p className="ratings-giving-negative-feedback-step-3-page__conclude-the-discussion-professionally">
+                    5.{" "}
+                    <span className="ratings-giving-negative-feedback-step-3-page__bolded-text">
+                      Conclude the Discussion Professionally
+                    </span>
+                  </p>
+                  <p className="ratings-giving-negative-feedback-step-3-page__conclude-the-discussion-professionally-do">
+                    <span className="ratings-giving-negative-feedback-step-3-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    End the conversation on a positive and respectful note,
+                    whether or not you adjust the rating. Thank them for their
+                    time and efforts in resolving the issue.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-step-3-page__conclude-the-discussion-professionally-dont">
+                    <span className="ratings-giving-negative-feedback-step-3-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Leave the conversation abruptly or on a confrontational
+                    note, even if you choose not to change the rating.
+                    Maintaining professionalism keeps the relationship civil.
+                  </p>
+                  <p className="ratings-giving-negative-feedback-step-3-page__conclude-the-discussion-professionally-example">
+                    <span className="ratings-giving-negative-feedback-step-3-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "Thank you for explaining the situation and making an effort
+                    to address the concerns. I'll update the review to reflect
+                    this conversation."
+                  </p>
+                </div>
               </div>
+            </div>
+            <div className="ratings-giving-negative-feedback-step-3-page__communicating-and-resolving-feedback-container">
+              <div className="ratings-giving-negative-feedback-step-3-page__communicating-and-resolving-feedback-inner-container">
+                <p className="ratings-giving-negative-feedback-step-3-page__communicating-and-resolving-feedback-description">
+                  Communicating and resolving a feedback issue requires careful
+                  listening, mutual respect, and clear dialogue. By hearing the
+                  other party's perspective, restating your concerns, and
+                  considering possible solutions, you help create an atmosphere
+                  where both sides can feel heard and understood. Even if you
+                  choose not to adjust your feedback, handling the discussion
+                  with professionalism can lead to a more positive outcome.
+                </p>
+              </div>
+            </div>
+            <p className="ratings-giving-negative-feedback-step-3-page__when-you-have-completed-step-3">
+              When you have completed Step 3 move on to Step 4
+            </p>
+            <div className="ratings-giving-negative-feedback-step-3-page__bottom-button-container">
+              <button className="ratings-giving-negative-feedback-step-3-page__go-to-step-4-button">
+                Go to Step 4
+              </button>
+              <button className="ratings-giving-negative-feedback-step-3-page__back-button">
+                Back
+              </button>
+              <button className="ratings-giving-negative-feedback-step-3-page__go-to-dashboard-messages-button">
+                Go to Dashboard Messages
+              </button>
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@ import "./RatingsGivingNegativeFeedbackPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import RatingsSidePanel from "../../components/RatingsSidePanel/RatingsSidePanel";
 import MLSAValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
+import { Link } from "react-router-dom";
 
 export default function RatingsGivingNegativeFeedbackPage() {
   return (
@@ -403,9 +404,14 @@ export default function RatingsGivingNegativeFeedbackPage() {
               When you have completed Step 2 move on to Step 3
             </p>
             <div className="ratings-giving-negative-feedback-page__bottom-button-container">
-              <button className="ratings-giving-negative-feedback-page__go-to-step-3-button">
-                Go to Step 3
-              </button>
+              <Link
+                className="ratings-giving-negative-feedback-page__link"
+                to="/ratings-giving-negative-feedback-step-3-page"
+              >
+                <button className="ratings-giving-negative-feedback-page__go-to-step-3-button">
+                  Go to Step 3
+                </button>
+              </Link>
               <button className="ratings-giving-negative-feedback-page__back-button">
                 Back
               </button>
