@@ -70,9 +70,9 @@ export default function SignUpPage() {
             <SignUpButton mode="modal" />
             <SignInButton mode="modal" />
           </SignedOut>
-          <SignedIn>
+          {/* <SignedIn>
             <Navigate to="/login-page" />
-          </SignedIn>
+          </SignedIn> */}
       </div>
     </div>
   );
