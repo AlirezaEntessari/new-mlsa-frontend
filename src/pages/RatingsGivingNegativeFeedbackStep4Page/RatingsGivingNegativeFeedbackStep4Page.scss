@@ -1,0 +1,246 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-giving-negative-feedback-step-4-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__header-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__header {
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 86px;
+    }
+
+    &__mlsa-value-assurance-icon {
+        width: 120px;
+        position: absolute;
+        bottom: -64px;
+        left: 340px;
+    }
+
+    &__giving-negative-feedback-rating-text {
+        color: $dark-navy;
+        margin-top: 96px;
+        margin-left: 32px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__step-4-container {
+        border: 1px solid $medium-gray;
+        margin-top: 48px;
+        margin-left: 32px;
+        width: 436px;
+        height: 120px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__step-4-text {
+        padding-left: 32px;
+        padding-top: 26px;
+        font-size: 20px;
+        line-height: 34px;
+        width: 400px;
+    }
+
+    &__step-4-bolded-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__after-discussing-the-issue {
+        margin-top: 32px;
+        margin-left: 32px;
+        line-height: 40px;
+        text-align: justify;
+        margin-right: 40px;
+    }
+
+    &__navigate-step-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 2590px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__navigate-step-inner-container {
+        margin-top: 42px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__bolded-text {
+        font-weight: 500;
+    }
+
+    &__reevaluate-your-feedback-based-on-the-discussion-do {
+        line-height: 34px;
+    }
+
+    &__reevaluate-your-feedback-based-on-the-discussion-dont {
+        line-height: 34px;
+    }
+
+    &__reevaluate-your-feedback-based-on-the-discussion-example {
+        line-height: 34px;
+    }
+
+    &__navigate-step-second-step-container {
+        margin-top: 48px;
+    }
+
+    &__adjust-your-rating-if-appropriate-do {
+        line-height: 34px;
+    }
+
+    &__adjust-your-rating-if-appropriate-dont {
+        line-height: 34px;
+    }
+
+    &__adjust-your-rating-if-appropriate-example {
+        line-height: 34px;
+    }
+
+    &__navigate-step-third-step-container {
+        margin-top: 48px;
+    }
+
+    &__leave-a-feedback-response-do {
+        line-height: 34px;
+    }
+
+    &__leave-a-feedback-response-dont {
+        line-height: 34px;
+    }
+
+    &__leave-a-feedback-response-example {
+        line-height: 34px;
+    }
+
+    &__navigate-step-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__be-transparent-in-your-update-or-response-do {
+        line-height: 34px;
+    }
+
+    &__be-transparent-in-your-update-or-response-dont {
+        line-height: 34px;
+    }
+
+    &__be-transparent-in-your-update-or-response-example {
+        line-height: 34px;
+    }
+
+    &__navigate-step-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__maintain-a-positive-tone-do {
+        line-height: 34px;
+    }
+
+    &__maintain-a-positive-tone-dont {
+        line-height: 34px;
+    }
+
+    &__maintain-a-positive-tone-example {
+        line-height: 34px;
+    }
+
+    &__communicating-and-resolving-feedback-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 475px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__communicating-and-resolving-feedback-inner-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__communicating-and-resolving-feedback-text {
+        line-height: 38px;
+    }
+
+    &__when-you-have-completed-step-4 {
+        margin-left: 80px;
+        margin-top: 48px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__bottom-button-container {
+        margin-left: 108px;
+        margin-top: 48px;
+    }
+
+    &__go-to-step-5-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        font-weight: 500;
+    }
+
+    &__back-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+    &__go-to-dashboard-messages-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+
+}

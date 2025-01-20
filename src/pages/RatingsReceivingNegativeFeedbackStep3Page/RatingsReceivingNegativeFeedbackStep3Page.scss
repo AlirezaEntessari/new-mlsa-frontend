@@ -753,6 +753,331 @@
             font-weight: 600;
         }
 
+        &__step-3-container {
+            border: 1px solid $medium-gray;
+            margin-top: 72px;
+            margin-left: 80px;
+            width: 1550px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-3-description {
+            padding-left: 80px;
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 34px;
+        }
+    
+        &__step-3-bolded-text {
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        &__communicate-and-resolve-text {
+            margin-left: 8px;
+        }
+
+        &__when-moving-into {
+            margin-top: 48px;
+            margin-left: 80px;
+            line-height: 44px;
+            text-align: justify;
+            font-size: 20px;
+            margin-right: 100px;
+        }
+
+        &__structured-approach-container {
+            margin-top: 100px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 2550px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        &__structured-approach-inner-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+            font-size: 19px;
+        }
+    
+        &__bolded-text {
+            font-weight: 500;
+        }
+
+        &__initiate-the-dialogue-do {
+            line-height: 34px;
+        }
+    
+        &__initiate-the-dialogue-dont {
+            line-height: 34px;
+        }
+    
+        &__initiate-the-dialogue-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-second-step-container {
+            margin-top: 48px;
+        }
+    
+        &__actively-listen-and-confirm-understanding-do {
+            line-height: 34px;
+        }
+    
+        &__actively-listen-and-confirm-understanding-dont {
+            line-height: 34px;
+        }
+    
+        &__actively-listen-and-confirm-understanding-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-third-step-container {
+            margin-top: 48px;
+        }
+    
+        &__ask-for-their-desired-outcome-do {
+            line-height: 34px;
+        }
+    
+        &__ask-for-their-desired-outcome-dont {
+            line-height: 34px;
+        }
+    
+        &__ask-for-their-desired-outcome-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-fourth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__offer-practical-solutions-do {
+            line-height: 34px;
+        }
+    
+        &__offer-practical-solutions-dont {
+            line-height: 34px;
+        }
+    
+        &__offer-practical-solutions-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-fifth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__negotiate-a-compromise-do {
+            line-height: 34px;
+        }
+    
+        &__negotiate-a-compromise-dont {
+            line-height: 34px;
+        }
+    
+        &__negotiate-a-compromise-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-sixth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__remain-calm-and-focused-on-resolution {
+            line-height: 34px;
+        }
+    
+        &__remain-calm-and-focused-on-resolution-do {
+            line-height: 34px;
+        }
+    
+        &__remain-calm-and-focused-on-resolution-dont {
+            line-height: 34px;
+        }
+    
+        &__remain-calm-and-focused-on-resolution-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-seventh-step-container {
+            margin-top: 48px;
+        }
+    
+        &__confirm-the-agreed-solution-do {
+            line-height: 34px;
+        }
+    
+        &__confirm-the-agreed-solution-dont {
+            line-height: 34px;
+        }
+    
+        &__confirm-the-agreed-solution-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-eighth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__take-immediate-action-do {
+            line-height: 34px;
+        }
+    
+        &__take-immediate-action-dont {
+            line-height: 34px;
+        }
+    
+        &__take-immediate-action-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-ninth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__keep-the-person-updated-do {
+            line-height: 34px;
+        }
+    
+        &__keep-the-person-updated-dont {
+            line-height: 34px;
+        }
+    
+        &__keep-the-person-updated-example {
+            line-height: 34px;
+        }
+    
+        &__structured-approach-tenth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__follow-up-after-resolution-do {
+            line-height: 34px;
+        }
+    
+        &__follow-up-after-resolution-dont {
+            line-height: 34px;
+        }
+    
+        &__follow-up-after-resolution-example {
+            line-height: 34px;
+        }
+
+        &__tips-for-successful-communication-and-resolution-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 590px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__tips-for-successful-communication-and-resolution-inner-container {
+            margin-top: 54px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+        }
+
+        &__tips-for-successful-communication-and-resolution-header {
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        &__be-transparent {
+            margin-top: 48px;
+            line-height: 50px;
+            font-size: 20px;
+        }
+    
+        &__maintain-a-positive-attitude {
+            line-height: 46px;
+            font-size: 20px;
+        }
+    
+        &__focus-on-the-future {
+            line-height: 46px;
+            font-size: 20px;
+        }
+    
+        &__leave-room-for-improvement {
+            line-height: 46px;
+            font-size: 20px;
+        }
+
+        &__by-focusing-on-clear-respectful-communication {
+            line-height: 46px;
+            margin-top: 54px;
+            font-size: 20px;
+        }
+
+        &__when-you-have-completed-step-3 {
+            margin-left: 460px;
+            margin-top: 80px;
+            font-size: 28px;
+            font-weight: 500;
+            color: $dark-navy;
+            text-align: inherit;
+        }
+    
+        &__bottom-button-container {
+            margin-left: 280px;
+            margin-top: 120px;
+            display: flex;
+        }
+
+        &__go-to-step-4-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+
 
     }
 

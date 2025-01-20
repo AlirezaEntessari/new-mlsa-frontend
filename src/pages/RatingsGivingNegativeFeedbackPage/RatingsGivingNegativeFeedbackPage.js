@@ -407,6 +407,7 @@ export default function RatingsGivingNegativeFeedbackPage() {
               <Link
                 className="ratings-giving-negative-feedback-page__link"
                 to="/ratings-giving-negative-feedback-step-3-page"
+                onClick={() => window.scrollTo(0, 0)}
               >
                 <button className="ratings-giving-negative-feedback-page__go-to-step-3-button">
                   Go to Step 3
