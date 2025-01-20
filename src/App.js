@@ -77,6 +77,7 @@ import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage
 import RatingsGivingNegativeFeedbackPage from './pages/RatingsGivingNegativeFeedbackPage/RatingsGivingNegativeFeedbackPage';
 import RatingsGivingNegativeFeedbackStep3Page from './pages/RatingsGivingNegativeFeedbackStep3Page/RatingsGivingNegativeFeedbackStep3Page';
 import RatingsReceivingNegativeFeedbackPage from './pages/RatingsReceivingNegativeFeedbackPage/RatingsReceivingNegativeFeedbackPage';
+import RatingsReceivingNegativeFeedbackStep3Page from './pages/RatingsReceivingNegativeFeedbackStep3Page/RatingsReceivingNegativeFeedbackStep3Page';
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
@@ -168,6 +169,7 @@ function App() {
         <Route path="/ratings-giving-negative-feedback-page" element={<RatingsGivingNegativeFeedbackPage />} />
         <Route path="/ratings-giving-negative-feedback-step-3-page" element={<RatingsGivingNegativeFeedbackStep3Page />} />
         <Route path="/ratings-receiving-negative-feedback-page" element={<RatingsReceivingNegativeFeedbackPage />} />
+        <Route path="/ratings-receiving-negative-feedback-step-3-page" element={<RatingsReceivingNegativeFeedbackStep3Page />} />
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
       </Routes>
       </BrowserRouter>
