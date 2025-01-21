@@ -1,0 +1,177 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-receiving-negative-feedback-step-4-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__header-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__header {
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 90px;
+    }
+
+    &__mlsa-value-assurance-icon {
+        width: 120px;
+        position: absolute;
+        bottom: -64px;
+        left: 340px;
+    }
+
+    &__receiving-negative-feedback-rating-text {
+        color: $dark-navy;
+        margin-top: 96px;
+        margin-left: 32px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__step-4-container {
+        border: 1px solid $medium-gray;
+        margin-top: 36px;
+        margin-left: 32px;
+        width: 436px;
+        height: 130px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__step-4-text {
+        padding-left: 32px;
+        padding-top: 32px;
+        font-size: 20px;
+        line-height: 34px;
+        width: 400px;
+    }
+
+    &__step-4-bolded-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__rating-adjustment-or-feedback-response-text {
+        margin-left: 8px;
+    }
+
+    &__when-the-conflict-has-been-addressed {
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: justify;
+        line-height: 34px;
+        margin-top: 32px;
+    }
+
+    &__approach-steps-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 4080px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__approach-steps-inner-container {
+        margin-top: 42px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__bolded-text {
+        font-weight: 500;
+    }
+
+    &__politely-request-a-rating-adjustment-do {
+        line-height: 34px;
+    }
+
+    &__politely-request-a-rating-adjustment-dont {
+        line-height: 34px;
+    }
+
+    &__politely-request-a-rating-adjustment-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-second-step-container {
+        margin-top: 48px;
+    }
+
+    &__make-it-easy-for-them-to-update-do {
+        line-height: 34px;
+    }
+
+    &__make-it-easy-for-them-to-update-dont {
+        line-height: 34px;
+    }
+
+    &__make-it-easy-for-them-to-update-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-third-step-container {
+        margin-top: 48px;
+    }
+
+    &__respond-graciously-do {
+        line-height: 34px;
+    }
+
+    &__respond-graciously-dont {
+        line-height: 34px;
+    }
+
+    &__respond-graciously-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__craft-a-public-response-do {
+        line-height: 34px;
+    }
+
+    &__craft-a-public-response-dont {
+        line-height: 34px;
+    }
+
+    &__craft-a-public-response-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__highlight-the-resolution-do {
+        line-height: 34px;
+    }
+
+    &__highlight-the-resolution-dont {
+        line-height: 34px;
+    }
+
+    &__highlight-the-resolution-example {
+        line-height: 34px;
+    }
+
+
+}
