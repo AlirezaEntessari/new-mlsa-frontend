@@ -80,7 +80,7 @@
         margin-left: 32px;
         border: 1px solid $medium-gray;
         width: 436px;
-        height: 4080px;
+        height: 5360px;
         border-top-right-radius: 24px;
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
@@ -173,5 +173,895 @@
         line-height: 34px;
     }
 
+    &__approach-steps-sixth-step-container {
+        margin-top: 48px;
+    }
+
+    &__remain-professional-and-positive-do {
+        line-height: 34px;
+    }
+
+    &__remain-professional-and-positive-dont {
+        line-height: 34px;
+    }
+
+    &__remain-professional-and-positive-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-seventh-step-container {
+        margin-top: 48px;
+    }
+
+    &__use-feedback-as-a-learning-opportunity-do {
+        line-height: 34px;
+    }
+
+    &__use-feedback-as-a-learning-opportunity-dont {
+        line-height: 34px;
+    }
+
+    &__use-feedback-as-a-learning-opportunity-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-eighth-step-container {
+        margin-top: 48px;
+    }
+
+    &__encourage-future-interaction-do {
+        line-height: 34px;
+    }
+
+    &__encourage-future-interaction-dont {
+        line-height: 34px;
+    }
+
+    &__encourage-future-interaction-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-ninth-step-container {
+        margin-top: 48px;
+    }
+
+    &__handle-positive-feedback-after-conflict-do {
+        line-height: 34px;
+    }
+
+    &__handle-positive-feedback-after-conflict-dont {
+        line-height: 34px;
+    }
+
+    &__handle-positive-feedback-after-conflict-example {
+        line-height: 34px;
+    }
+
+    &__approach-steps-tenth-step-container {
+        margin-top: 48px;
+    }
+
+    &__learn-from-the-process-do {
+        line-height: 34px;
+    }
+
+    &__learn-from-the-process-dont {
+        line-height: 34px;
+    }
+
+    &__learn-from-the-process-example {
+        line-height: 34px;
+    }
+
+    &__tips-for-managing-ratings-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 960px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__tips-for-managing-ratings-header {
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__tips-for-managing-ratings-inner-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__be-transparent-text {
+        line-height: 34px;
+    }
+
+    &__stay-consistent-text {
+        line-height: 34px;
+    }
+
+    &__follow-through-text {
+        line-height: 34px;
+    }
+
+    &__way-you-handle-feedback {
+        margin-top: 64px;
+        line-height: 34px;
+    }
+
+    &__when-you-have-completed-step-4 {
+        margin-left: 80px;
+        margin-top: 48px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__bottom-button-container {
+        margin-left: 108px;
+        margin-top: 48px;
+    }
+
+    &__go-to-step-5-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        font-weight: 500;
+    }
+
+    &__back-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+    &__go-to-dashboard-messages-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-receiving-negative-feedback-step-4-page {
+        padding-bottom: 15rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 32px;
+            margin-left: 32px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 800;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 180px;
+            position: absolute;
+            bottom: -110px;
+            left: 560px;
+        }
+    
+        &__receiving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 110px;
+            margin-left: 32px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        &__step-4-container {
+            border: 1px solid $medium-gray;
+            margin-top: 54px;
+            margin-left: 32px;
+            width: 730px;
+            height: 100px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-4-text {
+            padding-left: 32px;
+            padding-top: 32px;
+            font-size: 20px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-4-bolded-text {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__rating-adjustment-or-feedback-response-text {
+            margin-left: 8px;
+        }
+    
+        &__when-the-conflict-has-been-addressed {
+            margin-left: 32px;
+            margin-right: 32px;
+            text-align: justify;
+            line-height: 34px;
+            margin-top: 48px;
+        }
+
+        &__approach-steps-container {
+            margin-top: 60px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 3750px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__approach-steps-inner-container {
+            margin-top: 54px;
+            margin-left: 32px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+    
+        &__bolded-text {
+            font-weight: 500;
+        }
+
+        &__politely-request-a-rating-adjustment-do {
+            line-height: 34px;
+        }
+    
+        &__politely-request-a-rating-adjustment-dont {
+            line-height: 34px;
+        }
+    
+        &__politely-request-a-rating-adjustment-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-second-step-container {
+            margin-top: 48px;
+        }
+    
+        &__make-it-easy-for-them-to-update-do {
+            line-height: 34px;
+        }
+    
+        &__make-it-easy-for-them-to-update-dont {
+            line-height: 34px;
+        }
+    
+        &__make-it-easy-for-them-to-update-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-third-step-container {
+            margin-top: 48px;
+        }
+    
+        &__respond-graciously-do {
+            line-height: 34px;
+        }
+    
+        &__respond-graciously-dont {
+            line-height: 34px;
+        }
+    
+        &__respond-graciously-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-fourth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__craft-a-public-response-do {
+            line-height: 34px;
+        }
+    
+        &__craft-a-public-response-dont {
+            line-height: 34px;
+        }
+    
+        &__craft-a-public-response-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-fifth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__highlight-the-resolution-do {
+            line-height: 34px;
+        }
+    
+        &__highlight-the-resolution-dont {
+            line-height: 34px;
+        }
+    
+        &__highlight-the-resolution-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-sixth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__remain-professional-and-positive-do {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-positive-dont {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-positive-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-seventh-step-container {
+            margin-top: 48px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-do {
+            line-height: 34px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-dont {
+            line-height: 34px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-eighth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__encourage-future-interaction-do {
+            line-height: 34px;
+        }
+    
+        &__encourage-future-interaction-dont {
+            line-height: 34px;
+        }
+    
+        &__encourage-future-interaction-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-ninth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-do {
+            line-height: 34px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-dont {
+            line-height: 34px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-tenth-step-container {
+            margin-top: 48px;
+        }
+    
+        &__learn-from-the-process-do {
+            line-height: 34px;
+        }
+    
+        &__learn-from-the-process-dont {
+            line-height: 34px;
+        }
+    
+        &__learn-from-the-process-example {
+            line-height: 34px;
+        }
+
+        &__tips-for-managing-ratings-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 730px;
+            height: 630px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__tips-for-managing-ratings-header {
+            font-weight: 500;
+            font-size: 22px;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+    
+        &__tips-for-managing-ratings-inner-container {
+            margin-top: 48px;
+            margin-left: 32px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+
+        &__be-transparent-text {
+            line-height: 34px;
+        }
+    
+        &__stay-consistent-text {
+            line-height: 34px;
+        }
+    
+        &__follow-through-text {
+            line-height: 34px;
+        }
+    
+        &__way-you-handle-feedback {
+            margin-top: 64px;
+            line-height: 34px;
+        }
+
+        &__when-you-have-completed-step-4 {
+            margin-left: 150px;
+            margin-top: 68px;
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+    
+        &__bottom-button-container {
+            margin-left: 12px;
+            margin-top: 74px;
+            display: flex;
+        }
+
+        &__go-to-step-5-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+        }
+    
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 250px;
+            height: 50px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .ratings-receiving-negative-feedback-step-4-page {
+        padding-bottom: 20rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+
+        &__header-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 800;
+            font-size: 32px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 280px;
+            position: absolute;
+            bottom: -190px;
+            left: 1240px;
+        }
+
+        &__receiving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 180px;
+            margin-left: 80px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        &__step-4-container {
+            border: 1px solid $medium-gray;
+            margin-top: 60px;
+            margin-left: 80px;
+            width: 1550px;
+            height: 120px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        &__step-4-text {
+            padding-left: 80px;
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 34px;
+            width: inherit;
+        }
+    
+        &__step-4-bolded-text {
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        &__rating-adjustment-or-feedback-response-text {
+            margin-left: 8px;
+        }
+    
+        &__when-the-conflict-has-been-addressed {
+            margin-top: 48px;
+            margin-left: 80px;
+            line-height: 44px;
+            text-align: justify;
+            font-size: 20px;
+            margin-right: 100px;
+        }
+
+        &__approach-steps-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 3100px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__approach-steps-inner-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+            font-size: 19px;
+        }
+    
+        &__bolded-text {
+            font-weight: 500;
+        }
+
+        &__politely-request-a-rating-adjustment-do {
+            line-height: 34px;
+        }
+    
+        &__politely-request-a-rating-adjustment-dont {
+            line-height: 34px;
+        }
+    
+        &__politely-request-a-rating-adjustment-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-second-step-container {
+            margin-top: 60px;
+        }
+    
+        &__make-it-easy-for-them-to-update-do {
+            line-height: 34px;
+        }
+    
+        &__make-it-easy-for-them-to-update-dont {
+            line-height: 34px;
+        }
+    
+        &__make-it-easy-for-them-to-update-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-third-step-container {
+            margin-top: 60px;
+        }
+    
+        &__respond-graciously-do {
+            line-height: 34px;
+        }
+    
+        &__respond-graciously-dont {
+            line-height: 34px;
+        }
+    
+        &__respond-graciously-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-fourth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__craft-a-public-response-do {
+            line-height: 34px;
+        }
+    
+        &__craft-a-public-response-dont {
+            line-height: 34px;
+        }
+    
+        &__craft-a-public-response-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-fifth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__highlight-the-resolution-do {
+            line-height: 34px;
+        }
+    
+        &__highlight-the-resolution-dont {
+            line-height: 34px;
+        }
+    
+        &__highlight-the-resolution-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-sixth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__remain-professional-and-positive-do {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-positive-dont {
+            line-height: 34px;
+        }
+    
+        &__remain-professional-and-positive-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-seventh-step-container {
+            margin-top: 60px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-do {
+            line-height: 34px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-dont {
+            line-height: 34px;
+        }
+    
+        &__use-feedback-as-a-learning-opportunity-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-eighth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__encourage-future-interaction-do {
+            line-height: 34px;
+        }
+    
+        &__encourage-future-interaction-dont {
+            line-height: 34px;
+        }
+    
+        &__encourage-future-interaction-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-ninth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-do {
+            line-height: 34px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-dont {
+            line-height: 34px;
+        }
+    
+        &__handle-positive-feedback-after-conflict-example {
+            line-height: 34px;
+        }
+    
+        &__approach-steps-tenth-step-container {
+            margin-top: 60px;
+        }
+    
+        &__learn-from-the-process-do {
+            line-height: 34px;
+        }
+    
+        &__learn-from-the-process-dont {
+            line-height: 34px;
+        }
+    
+        &__learn-from-the-process-example {
+            line-height: 34px;
+        }
+
+        &__tips-for-managing-ratings-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            border: 1px solid $medium-gray;
+            width: 1550px;
+            height: 550px;
+            border-top-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            background-color: $background-light-blue;
+        }
+    
+        &__tips-for-managing-ratings-header {
+            font-weight: 500;
+            font-size: 28px;
+            margin-top: 54px;
+            margin-left: 80px;
+        }
+
+        &__tips-for-managing-ratings-inner-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            text-align: justify;
+            margin-right: 100px;
+        }
+
+        &__be-transparent-text {
+            line-height: 34px;
+            font-size: 20px;
+        }
+    
+        &__stay-consistent-text {
+            line-height: 34px;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+
+        &__follow-through-text {
+            line-height: 34px;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+    
+        &__way-you-handle-feedback {
+            margin-top: 64px;
+            line-height: 34px;
+            font-size: 20px;
+        }
+
+        &__when-you-have-completed-step-4 {
+            margin-left: 460px;
+            margin-top: 80px;
+            font-size: 28px;
+            font-weight: 500;
+            color: $dark-navy;
+            width: inherit;
+            text-align: inherit;
+        }
+    
+        &__bottom-button-container {
+            margin-left: 280px;
+            margin-top: 120px;
+            display: flex;
+        }
+
+        &__go-to-step-5-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    
+        &__back-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+    
+        &__go-to-dashboard-messages-button {
+            background-color: $white-background;
+            border: 2px solid $dark-navy;
+            color: $dark-navy;
+            width: 300px;
+            height: 58px;
+            border-radius: 32px;
+            display: block;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 48px;
+            font-size: 18px;
+        }
+
+
+    }
 
 }

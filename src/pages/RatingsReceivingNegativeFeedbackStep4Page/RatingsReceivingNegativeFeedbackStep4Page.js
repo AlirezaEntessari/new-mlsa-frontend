@@ -211,7 +211,219 @@ export default function RatingsReceivingNegativeFeedbackStep4Page() {
                     already taken steps to prevent this issue in the future."
                   </p>
                 </div>
+                <div className="ratings-receiving-negative-feedback-step-4-page__approach-steps-sixth-step-container">
+                  <p className="ratings-receiving-negative-feedback-step-4-page__remain-professional-and-positive">
+                    6.{" "}
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      Remain Professional and Positive
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__remain-professional-and-positive-do">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Keep the tone of your responses professional, positive, and
+                    solution-oriented. Even if the feedback is harsh, other
+                    people reading your response will see your professionalism.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__remain-professional-and-positive-dont">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Respond with defensiveness or sarcasm. A negative tone can
+                    escalate the situation and reflect poorly on your brand.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__remain-professional-and-positive-example">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "Thank you for taking the time to share your thoughts. We're
+                    sorry for the inconvenience, and we'll continue to work on
+                    improving our services to provide a better experience for
+                    everyone."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-step-4-page__approach-steps-seventh-step-container">
+                  <p className="ratings-receiving-negative-feedback-step-4-page__use-feedback-as-a-learning-opportunity">
+                    7.{" "}
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      Use Feedback as a Learning Opportunity
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__use-feedback-as-a-learning-opportunity-do">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Highlight in your response how you're using the feedback to
+                    improve. This shows that you're proactive and turning a
+                    negative experience into a learning opportunity.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__use-feedback-as-a-learning-opportunity-dont">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Ignore valuable constructive criticism. Addressing it
+                    publicly can demonstrate that you're committed to bettering
+                    your services.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__use-feedback-as-a-learning-opportunity-example">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "We've taken your comments seriously and have already made
+                    changes to our process to ensure this doesn't happen again.
+                    We're grateful for your input, and it's helping us improve."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-step-4-page__approach-steps-eighth-step-container">
+                  <p className="ratings-receiving-negative-feedback-step-4-page__encourage-future-interaction">
+                    8.{" "}
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      Encourage Future Interaction
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__encourage-future-interaction-do">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Even after resolving the issue, invite the person to reach
+                    out again if they have further concerns. This leaves the
+                    door open for continued engagement and demonstrates that you
+                    value long-term relationships.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__encourage-future-interaction-dont">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Don't
+                    </span>{" "}
+                    Assume that one resolution means the relationship is over.
+                    Encourage continued dialogue.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__encourage-future-interaction-example">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "Please don't hesitate to reach out in the future if there's
+                    anything else we can do for you. We're always here to help!"
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-step-4-page__approach-steps-ninth-step-container">
+                  <p className="ratings-receiving-negative-feedback-step-4-page__handle-positive-feedback-after-conflict">
+                    9.{" "}
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      Handle Positive Feedback After Conflict
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__handle-positive-feedback-after-conflict-do">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    If the customer updates their feedback to something
+                    positive, thank them for revisiting their experience. This
+                    reinforces goodwill and shows appreciation for their time
+                    and effort in making the update.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__handle-positive-feedback-after-conflict-dont">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Forget to publicly acknowledge and thank them for changing
+                    their review.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__handle-positive-feedback-after-conflict-example">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "Thank you so much for updating your review! We're happy
+                    that we could turn things around for you, and we appreciate
+                    your willingness to give us a second chance."
+                  </p>
+                </div>
+                <div className="ratings-receiving-negative-feedback-step-4-page__approach-steps-tenth-step-container">
+                  <p className="ratings-receiving-negative-feedback-step-4-page__learn-from-the-process">
+                    10.{" "}
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      Learn from the Process
+                    </span>
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__learn-from-the-process-do">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Do:
+                    </span>{" "}
+                    Whether the feedback is changed or not, use this experience
+                    to improve how you handle similar situations in the future.
+                    Reflect on what went well and what could be done better next
+                    time.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__learn-from-the-process-dont">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Don't:
+                    </span>{" "}
+                    Ignore recurring patterns in negative feedback. If similar
+                    issues keep coming up, it's a sign that adjustments need to
+                    be made in your service or process.
+                  </p>
+                  <p className="ratings-receiving-negative-feedback-step-4-page__learn-from-the-process-example">
+                    <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                      -Example:
+                    </span>{" "}
+                    "We've noticed similar feedback regarding communication
+                    delays, so we've implemented new measures to improve our
+                    response times and keep clients better informed."
+                  </p>
+                </div>
               </div>
+            </div>
+            <div className="ratings-receiving-negative-feedback-step-4-page__tips-for-managing-ratings-container">
+              <p className="ratings-receiving-negative-feedback-step-4-page__tips-for-managing-ratings-header">
+                Tips for Managing Ratings and Feedback After Conflict:
+              </p>
+              <div className="ratings-receiving-negative-feedback-step-4-page__tips-for-managing-ratings-inner-container">
+                <p className="ratings-receiving-negative-feedback-step-4-page__be-transparent-text">
+                  <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                    Be Transparent:
+                  </span>{" "}
+                  Other potential clients will appreciate seeing your honest,
+                  solution-oriented responses. It shows that you take all
+                  feedback seriously.
+                </p>
+                <p className="ratings-receiving-negative-feedback-step-4-page__stay-consistent-text">
+                  <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                    Stay Consistent:
+                  </span>{" "}
+                  Keep your tone and approach consistent across all feedback
+                  responses, whether positive or negative. Professionalism
+                  should be maintained at all times.
+                </p>
+                <p className="ratings-receiving-negative-feedback-step-4-page__follow-through-text">
+                  <span className="ratings-receiving-negative-feedback-step-4-page__bolded-text">
+                    Follow Through:
+                  </span>{" "}
+                  If you promise changes or improvements in your response,
+                  ensure you follow through. Your credibility is built on
+                  actions, not just words.
+                </p>
+                <p className="ratings-receiving-negative-feedback-step-4-page__way-you-handle-feedback">
+                  The way you handle feedback, especially negative feedback,
+                  plays a significant role in shaping your reputation. Even if
+                  the rating or review isn't adjusted, your public response can
+                  turn a negative situation into a demonstration of your
+                  professionalism and commitment to customer satisfaction.
+                </p>
+              </div>
+            </div>
+            <p className="ratings-receiving-negative-feedback-step-4-page__when-you-have-completed-step-4">
+              When you have completed Step 4 move on to Step 5
+            </p>
+            <div className="ratings-receiving-negative-feedback-step-4-page__bottom-button-container">
+              <button className="ratings-receiving-negative-feedback-step-4-page__go-to-step-5-button">
+                Go to Step 5
+              </button>
+              <button className="ratings-receiving-negative-feedback-step-4-page__back-button">
+                Back
+              </button>
+              <button className="ratings-receiving-negative-feedback-step-4-page__go-to-dashboard-messages-button">
+                Go to Dashboard Messages
+              </button>
             </div>
           </div>
         </div>

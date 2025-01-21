@@ -330,6 +330,7 @@ export default function RatingsConflictResolutionPage() {
                 <Link
                   className="ratings-conflict-resolution-page__link"
                   to="/ratings-giving-negative-feedback-page"
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
                     This describes my issue
@@ -358,9 +359,15 @@ export default function RatingsConflictResolutionPage() {
                 system for everyone involved.
               </p>
               <div className="ratings-conflict-resolution-page__mobile-have-received-negative-rating-or-feedback-button-container">
-                <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
-                  This describes my issue
-                </button>
+                <Link
+                  className="ratings-conflict-resolution-page__link"
+                  to="/ratings-receiving-negative-feedback-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
+                    This describes my issue
+                  </button>
+                </Link>
                 <button className="ratings-conflict-resolution-page__mobile-learn-more-about-ratings-button">
                   Learn more about Ratings
                 </button>
@@ -677,6 +684,7 @@ export default function RatingsConflictResolutionPage() {
                   <Link
                     className="ratings-conflict-resolution-page__link"
                     to="/ratings-giving-negative-feedback-page"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
                       This describes my issue
@@ -702,9 +710,15 @@ export default function RatingsConflictResolutionPage() {
                   of the review system for everyone involved.
                 </p>
                 <div className="ratings-conflict-resolution-page__tablet-have-received-a-negative-rating-or-feedback-button-container">
-                  <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
-                    This describes my issue
-                  </button>
+                  <Link
+                    className="ratings-conflict-resolution-page__link"
+                    to="/ratings-receiving-negative-feedback-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
+                      This describes my issue
+                    </button>
+                  </Link>
                   <button
                     onClick={handleLearnMoreClick}
                     className="ratings-conflict-resolution-page__tablet-learn-more-about-ratings-button"
@@ -1023,6 +1037,7 @@ export default function RatingsConflictResolutionPage() {
                   <Link
                     className="ratings-conflict-resolution-page__link"
                     to="/ratings-giving-negative-feedback-page"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
                       This describes my issue
@@ -1048,9 +1063,15 @@ export default function RatingsConflictResolutionPage() {
                   of the review system for everyone involved.
                 </p>
                 <div className="ratings-conflict-resolution-page__desktop-have-received-a-negative-rating-or-feedback-button-container">
-                  <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
-                    This describes my issue
-                  </button>
+                  <Link
+                    className="ratings-conflict-resolution-page__link"
+                    to="/ratings-receiving-negative-feedback-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
+                      This describes my issue
+                    </button>
+                  </Link>
                   <button
                     onClick={handleLearnMoreClick}
                     className="ratings-conflict-resolution-page__desktop-learn-more-about-ratings-button"
