@@ -77,6 +77,7 @@ import RatingsConflictResolutionPage from './pages/RatingsConflictResolutionPage
 import RatingsGivingNegativeFeedbackPage from './pages/RatingsGivingNegativeFeedbackPage/RatingsGivingNegativeFeedbackPage';
 import RatingsGivingNegativeFeedbackStep3Page from './pages/RatingsGivingNegativeFeedbackStep3Page/RatingsGivingNegativeFeedbackStep3Page';
 import RatingsGivingNegativeFeedbackStep4Page from './pages/RatingsGivingNegativeFeedbackStep4Page/RatingsGivingNegativeFeedbackStep4Page';
+import RatingsGivingNegativeFeedbackStep5Page from './pages/RatingsGivingNegativeFeedbackStep5Page/RatingsGivingNegativeFeedbackStep5Page';
 import RatingsReceivingNegativeFeedbackPage from './pages/RatingsReceivingNegativeFeedbackPage/RatingsReceivingNegativeFeedbackPage';
 import RatingsReceivingNegativeFeedbackStep3Page from './pages/RatingsReceivingNegativeFeedbackStep3Page/RatingsReceivingNegativeFeedbackStep3Page';
 import RatingsReceivingNegativeFeedbackStep4Page from './pages/RatingsReceivingNegativeFeedbackStep4Page/RatingsReceivingNegativeFeedbackStep4Page';
@@ -171,6 +172,7 @@ function App() {
         <Route path="/ratings-giving-negative-feedback-page" element={<RatingsGivingNegativeFeedbackPage />} />
         <Route path="/ratings-giving-negative-feedback-step-3-page" element={<RatingsGivingNegativeFeedbackStep3Page />} />
         <Route path="/ratings-giving-negative-feedback-step-4-page" element={<RatingsGivingNegativeFeedbackStep4Page />} />
+        <Route path="/ratings-giving-negative-feedback-step-5-page" element={<RatingsGivingNegativeFeedbackStep5Page />} />
         <Route path="/ratings-receiving-negative-feedback-page" element={<RatingsReceivingNegativeFeedbackPage />} />
         <Route path="/ratings-receiving-negative-feedback-step-3-page" element={<RatingsReceivingNegativeFeedbackStep3Page />} />
         <Route path="/ratings-receiving-negative-feedback-step-4-page" element={<RatingsReceivingNegativeFeedbackStep4Page />} />

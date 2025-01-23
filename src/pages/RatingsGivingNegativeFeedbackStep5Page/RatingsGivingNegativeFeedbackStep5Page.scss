@@ -1,0 +1,350 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.ratings-giving-negative-feedback-step-5-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__header-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        position: relative;
+    }
+
+    &__header {
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Roboto Serif';
+        margin-left: 86px;
+    }
+
+    &__mlsa-value-assurance-icon {
+        width: 120px;
+        position: absolute;
+        bottom: -64px;
+        left: 340px;
+    }
+
+    &__giving-negative-feedback-rating-text {
+        color: $dark-navy;
+        margin-top: 96px;
+        margin-left: 32px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__step-5-container {
+        border: 1px solid $medium-gray;
+        margin-top: 36px;
+        margin-left: 32px;
+        width: 436px;
+        height: 100px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__step-5-text {
+        padding-left: 32px;
+        padding-top: 32px;
+        font-size: 20px;
+        line-height: 34px;
+        width: 400px;
+    }
+
+    &__step-5-bolded-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__end-dispute-text {
+        margin-left: 4px;
+    }
+
+    &__after-communicating {
+        margin-top: 32px;
+        margin-left: 32px;
+        line-height: 34px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__end-the-dispute-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 3510px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    &__end-the-dispute-inner-container {
+        margin-top: 40px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__bolded-text {
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    &__reevaluate-the-feedback-do {
+        line-height: 34px;
+    }
+
+    &__reevaluate-the-feedback-dont {
+        line-height: 34px;
+    }
+
+    &__reevaluate-the-feedback-example {
+        line-height: 34px;
+    }
+
+    &__end-the-dispute-second-step-container {
+        margin-top: 48px;
+    }
+
+    &__acknowledge-the-resolution-do {
+        line-height: 34px;
+    }
+
+    &__acknowledge-the-resolution-dont {
+        line-height: 34px;
+    }
+
+    &__acknowledge-the-resolution-example {
+        line-height: 34px;
+    }
+
+    &__end-the-dispute-third-step-container {
+        margin-top: 48px;
+    }
+
+    &__be-professional-no-resolution-reached-do {
+        line-height: 34px;
+    }
+
+    &__be-professional-no-resolution-reached-dont {
+        line-height: 34px;
+    }
+
+    &__be-professional-no-resolution-reached-example {
+        line-height: 34px;
+    }
+
+    &__end-the-dispute-fourth-step-container {
+        margin-top: 48px;
+    }
+
+    &__ensure-clarity-final-communication-do {
+        line-height: 34px;
+    }
+
+    &__ensure-clarity-final-communication-dont {
+        line-height: 34px;
+    }
+
+    &__ensure-clarity-final-communication-example {
+        line-height: 34px;
+    }
+
+    &__end-the-dispute-fifth-step-container {
+        margin-top: 48px;
+    }
+
+    &__thank-the-other-party-do {
+        line-height: 34px;
+    }
+
+    &__thank-the-other-party-dont {
+        line-height: 34px;
+    }
+
+    &__thank-the-other-party-example {
+        line-height: 34px;
+    }
+
+    &__end-the-dispute-sixth-step-container {
+        margin-top: 48px;
+    }
+
+    &__focus-on-moving-forward-do {
+        line-height: 34px;
+    }
+
+    &__focus-on-moving-forward-dont {
+        line-height: 34px;
+    }
+
+    &__focus-on-moving-forward-example {
+        line-height: 34px;
+    }
+
+    &__ending-a-dispute-effectively {
+        line-height: 34px;
+        margin-top: 72px;
+    }
+
+    &__communicating-resolving-feedback-issue-container {
+        margin-top: 64px;
+        margin-left: 32px;
+        border: 1px solid $medium-gray;
+        width: 436px;
+        height: 490px;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: $background-light-blue;
+    }
+
+    &__communicating-resolving-feedback-issue-inner-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        text-align: justify;
+        margin-right: 32px;
+    }
+
+    &__communicating-resolving-feedback-issue-text {
+        line-height: 40px;
+    }
+
+    &__when-you-have-completed-step-5 {
+        margin-left: 80px;
+        margin-top: 48px;
+        font-size: 20px;
+        font-weight: 500;
+        color: $dark-navy;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__bottom-button-container {
+        margin-left: 108px;
+        margin-top: 48px;
+    }
+
+    &__end-dispute-button {
+        border: 1px solid $dark-navy;
+        background-color: $dark-navy;
+        color: $white-text;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        font-weight: 500;
+    }
+
+    &__back-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+    &__go-to-dashboard-messages-button {
+        background-color: $white-background;
+        border: 2px solid $dark-navy;
+        color: $dark-navy;
+        width: 250px;
+        height: 50px;
+        border-radius: 32px;
+        display: block;
+        margin-top: 32px;
+        font-weight: 500;
+    }
+
+}
+
+@include tablet {
+
+    .ratings-giving-negative-feedback-step-5-page {
+        padding-bottom: 15rem;
+
+        &__main-container {
+            display: flex;
+            font-family: 'Roboto';
+        }
+    
+        &__header-container {
+            margin-top: 32px;
+            margin-left: 32px;
+            position: relative;
+        }
+
+        &__header {
+            color: $dark-navy;
+            font-weight: 800;
+            font-size: 24px;
+            font-family: 'Roboto Serif';
+            margin-left: 0px;
+        }
+    
+        &__mlsa-value-assurance-icon {
+            width: 180px;
+            position: absolute;
+            bottom: -110px;
+            left: 560px;
+        }
+
+        &__giving-negative-feedback-rating-text {
+            color: $dark-navy;
+            margin-top: 110px;
+            margin-left: 32px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        &__step-5-container {
+            border: 1px solid $medium-gray;
+            margin-top: 40px;
+            margin-left: 32px;
+            width: 730px;
+            height: 100px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+    
+        &__step-5-text {
+            padding-left: 32px;
+            padding-top: 32px;
+            font-size: 20px;
+            line-height: 34px;
+            width: inherit;
+        }
+
+        &__step-5-bolded-text {
+            font-weight: 500;
+            font-size: 20px;
+        }
+    
+        &__end-dispute-text {
+            margin-left: 4px;
+        }
+
+        &__after-communicating {
+            margin-top: 32px;
+            margin-left: 32px;
+            line-height: 34px;
+            text-align: justify;
+            margin-right: 32px;
+        }
+
+    }
+
+}
