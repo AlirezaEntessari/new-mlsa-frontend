@@ -252,16 +252,20 @@ export default function RatingsGivingNegativeFeedbackStep5Page() {
                 </p>
               </div>
             </div>
-            <div className="ratings-giving-negative-feedback-step-5-page__communicating-resolving-feedback-issue-container">
-              <div className="ratings-giving-negative-feedback-step-5-page__communicating-resolving-feedback-issue-inner-container">
-                <p className="ratings-giving-negative-feedback-step-5-page__communicating-resolving-feedback-issue-text">
-                  Communicating and resolving a feedback issue requires careful
-                  listening, mutual respect, and clear dialogue. By hearing the
-                  other party's perspective, restating your concerns, and
-                  considering possible solutions, you help create an atmosphere
-                  where both sides can feel heard and understood. Even if you
-                  choose not to adjust your feedback, handling the discussion
-                  with professionalism can lead to a more positive outcome.
+            <div className="ratings-giving-negative-feedback-step-5-page__ending-a-dispute-effectively-container">
+              <div className="ratings-giving-negative-feedback-step-5-page__ending-a-dispute-effectively-inner-container">
+                <p className="ratings-giving-negative-feedback-step-5-page__final-thought">
+                  Final Thought
+                </p>
+                <p className="ratings-giving-negative-feedback-step-5-page__ending-a-dispute-effectively-text">
+                  Ending a dispute effectively is crucial for maintaining
+                  professionalism and ensuring that the resolution process has
+                  been fruitful. Whether the issue was fully resolved or not,
+                  closing the conversation with respect, clarity, and
+                  appreciation sets a positive tone for the future. By
+                  acknowledging the resolution of the efforts made, you leave
+                  the door open for continued collaboration and help maintain a
+                  constructive working relationship.
                 </p>
               </div>
             </div>
