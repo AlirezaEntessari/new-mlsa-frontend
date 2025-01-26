@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.ratings-giving-negative-feedback-end-dispute-page {
+.ratings-receiving-negative-feedback-end-dispute-page {
     padding-bottom: 10rem;
 
     &__main-container {
@@ -21,7 +21,7 @@
         font-weight: 700;
         font-size: 20px;
         font-family: 'Roboto Serif';
-        margin-left: 86px;
+        margin-left: 90px;
     }
 
     &__mlsa-value-assurance-icon {
@@ -31,7 +31,7 @@
         left: 340px;
     }
 
-    &__giving-negative-feedback-rating-text {
+    &__receiving-negative-feedback-rating-text {
         color: $dark-navy;
         margin-top: 96px;
         margin-left: 32px;
@@ -60,12 +60,12 @@
         font-weight: 600;
     }
 
-    &__congratulations-successfully-navigating {
-        margin-top: 40px;
+    &__congratulations-on-successfully-navigating {
         margin-left: 32px;
-        line-height: 40px;
+        margin-right: 32px;
         text-align: justify;
-        margin-right: 40px;
+        line-height: 34px;
+        margin-top: 40px;
     }
 
     &__bottom-button-container {
@@ -116,8 +116,8 @@
 }
 
 @include tablet {
-    
-    .ratings-giving-negative-feedback-end-dispute-page {
+
+    .ratings-receiving-negative-feedback-end-dispute-page {
         padding-bottom: 15rem;
 
         &__main-container {
@@ -138,15 +138,15 @@
             font-family: 'Roboto Serif';
             margin-left: 0px;
         }
-
+    
         &__mlsa-value-assurance-icon {
             width: 180px;
             position: absolute;
             bottom: -110px;
             left: 560px;
         }
-    
-        &__giving-negative-feedback-rating-text {
+
+        &__receiving-negative-feedback-rating-text {
             color: $dark-navy;
             margin-top: 110px;
             margin-left: 32px;
@@ -175,20 +175,20 @@
             font-weight: 600;
         }
 
-        &__congratulations-successfully-navigating {
+        &__congratulations-on-successfully-navigating {
             margin-top: 48px;
             margin-left: 32px;
             line-height: 40px;
             text-align: justify;
             margin-right: 40px;
         }
-
+    
         &__bottom-button-container {
             margin-left: 12px;
             margin-top: 100px;
             display: flex;
         }
-    
+
         &__go-to-ratings-home-page-button {
             border: 1px solid $dark-navy;
             background-color: $dark-navy;
@@ -199,7 +199,7 @@
             display: block;
             font-weight: 500;
         }
-
+    
         &__back-button {
             background-color: $white-background;
             border: 2px solid $dark-navy;
@@ -232,7 +232,7 @@
 
 @include desktop {
 
-    .ratings-giving-negative-feedback-end-dispute-page {
+    .ratings-receiving-negative-feedback-end-dispute-page {
         padding-bottom: 20rem;
 
         &__main-container {
@@ -253,7 +253,7 @@
             font-family: 'Roboto Serif';
             margin-left: 0px;
         }
-
+    
         &__mlsa-value-assurance-icon {
             width: 280px;
             position: absolute;
@@ -261,7 +261,7 @@
             left: 1240px;
         }
 
-        &__giving-negative-feedback-rating-text {
+        &__receiving-negative-feedback-rating-text {
             color: $dark-navy;
             margin-top: 180px;
             margin-left: 80px;
@@ -279,7 +279,7 @@
             border-top-right-radius: 24px;
             border-bottom-right-radius: 24px;
         }
-    
+
         &__congratulations-on-resolving-your-dispute-text {
             padding-left: 80px;
             padding-top: 40px;
@@ -288,7 +288,7 @@
             width: inherit;
         }
 
-        &__congratulations-successfully-navigating {
+        &__congratulations-on-successfully-navigating {
             margin-top: 48px;
             margin-left: 80px;
             line-height: 46px;
@@ -296,7 +296,7 @@
             margin-right: 100px;
             font-size: 20px;
         }
-
+    
         &__bottom-button-container {
             margin-left: 280px;
             margin-top: 120px;
@@ -314,7 +314,7 @@
             font-weight: 500;
             font-size: 18px;
         }
-
+    
         &__back-button {
             background-color: $white-background;
             border: 2px solid $dark-navy;
@@ -328,7 +328,7 @@
             margin-left: 48px;
             font-size: 18px;
         }
-
+    
         &__go-to-dashboard-messages-button {
             background-color: $white-background;
             border: 2px solid $dark-navy;

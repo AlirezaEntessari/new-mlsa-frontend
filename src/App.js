@@ -83,6 +83,7 @@ import RatingsReceivingNegativeFeedbackPage from './pages/RatingsReceivingNegati
 import RatingsReceivingNegativeFeedbackStep3Page from './pages/RatingsReceivingNegativeFeedbackStep3Page/RatingsReceivingNegativeFeedbackStep3Page';
 import RatingsReceivingNegativeFeedbackStep4Page from './pages/RatingsReceivingNegativeFeedbackStep4Page/RatingsReceivingNegativeFeedbackStep4Page';
 import RatingsReceivingNegativeFeedbackStep5Page from './pages/RatingsReceivingNegativeFeedbackStep5Page/RatingsReceivingNegativeFeedbackStep5Page';
+import RatingsReceivingNegativeFeedbackEndDisputePage from './pages/RatingsReceivingNegativeFeedbackEndDisputePage/RatingsReceivingNegativeFeedbackEndDisputePage';
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
@@ -180,6 +181,7 @@ function App() {
         <Route path="/ratings-receiving-negative-feedback-step-3-page" element={<RatingsReceivingNegativeFeedbackStep3Page />} />
         <Route path="/ratings-receiving-negative-feedback-step-4-page" element={<RatingsReceivingNegativeFeedbackStep4Page />} />
         <Route path="/ratings-receiving-negative-feedback-step-5-page" element={<RatingsReceivingNegativeFeedbackStep5Page />} />
+        <Route path="/ratings-receiving-negative-feedback-end-dispute-page" element={<RatingsReceivingNegativeFeedbackEndDisputePage />} />
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
       </Routes>
       </BrowserRouter>

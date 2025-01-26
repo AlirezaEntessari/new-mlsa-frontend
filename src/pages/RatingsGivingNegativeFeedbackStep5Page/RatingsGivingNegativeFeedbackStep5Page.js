@@ -3,6 +3,7 @@ import "./RatingsGivingNegativeFeedbackStep5Page.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import RatingsSidePanel from "../../components/RatingsSidePanel/RatingsSidePanel";
 import MLSAValueAssuranceIcon from "../../assets/icons/ValueAssurance.svg";
+import { Link } from "react-router-dom";
 
 export default function RatingsGivingNegativeFeedbackStep5Page() {
   return (
@@ -273,9 +274,15 @@ export default function RatingsGivingNegativeFeedbackStep5Page() {
               When you have completed Step 5 you may end the dispute
             </p>
             <div className="ratings-giving-negative-feedback-step-5-page__bottom-button-container">
-              <button className="ratings-giving-negative-feedback-step-5-page__end-dispute-button">
-                End Dispute
-              </button>
+              <Link
+                className="ratings-giving-negative-feedback-step-5-page__link"
+                to="/ratings-giving-negative-feedback-end-dispute-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <button className="ratings-giving-negative-feedback-step-5-page__end-dispute-button">
+                  End Dispute
+                </button>
+              </Link>
               <button className="ratings-giving-negative-feedback-step-5-page__back-button">
                 Back
               </button>
