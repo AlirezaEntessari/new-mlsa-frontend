@@ -1623,7 +1623,573 @@ export default function DashboardQuickSearchResultsPage() {
                   <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-location">
                     Delray Beach, FL
                   </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-date">
+                    7/23/24
+                  </span>
                 </p>
+                <p className="dashboard-quick-search-results-page__desktop-electrical-engineer-actalent-description">
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-actalent-text">
+                    Electrical Engineer
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-actalent-company">
+                    Actalent
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-actalent-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-actalent-date">
+                    7/22/24
+                  </span>
+                </p>
+                <p className="dashboard-quick-search-results-page__desktop-electrical-engineer-razorback-electric-description">
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-razorback-electric-text">
+                    Electrical Engineer
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-razorback-electric-company">
+                    Razorback Electric
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-razorback-electric-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineer-razorback-electric-date">
+                    6/23/24
+                  </span>
+                </p>
+                <p className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-division-16-description">
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-division-16-text">
+                    Electrical Engineering Intern
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-division-16-company">
+                    Division 16
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-division-16-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-division-16-date">
+                    5/20/24
+                  </span>
+                </p>
+                <button className="dashboard-quick-search-results-page__desktop-top-results-close-button">
+                  Close
+                </button>
+              </div>
+            </div>
+            <div className="dashboard-quick-search-results-page__desktop-central-orange-container">
+              <div className="dashboard-quick-search-results-page__desktop-notifications-messages-container">
+                <div className="dashboard-quick-search-results-page__desktop-notifications-container">
+                  <div className="dashboard-quick-search-results-page__desktop-notifications-header-container">
+                    <p className="dashboard-quick-search-results-page__desktop-notifications-header">
+                      Notifications
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-notifications-icon"
+                      src={NotificationsIcon}
+                      alt="Notifications Icon"
+                    />
+                  </div>
+                  <table className="dashboard-quick-search-results-page__desktop-notifications-table">
+                    <thead className="dashboard-quick-search-results-page__desktop-notifications-table-header-section">
+                      <tr className="dashboard-quick-search-results-page__desktop-notifications-table-header-row">
+                        <th className="dashboard-quick-search-results-page__desktop-notifications-table-header-column-needs-attention">
+                          Needs Attention
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-quick-search-results-page__desktop-notifications-table-data-section">
+                      <tr className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1">
+                        <td className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-vertical-slider-notifications-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__desktop-messages-container">
+                  <div className="dashboard-quick-search-results-page__desktop-messages-header-container">
+                    <p className="dashboard-quick-search-results-page__desktop-messages-header">
+                      Messages
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-messages-four-icon"
+                      src={MessagesFourIcon}
+                      alt="Messages Four Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-create-message-icon"
+                      src={CreateMessageIcon}
+                      alt="Create Message Icon"
+                    />
+                  </div>
+                  <table className="dashboard-quick-search-results-page__desktop-messages-table">
+                    <thead className="dashboard-quick-search-results-page__desktop-messages-table-header-section">
+                      <tr className="dashboard-quick-search-results-page__desktop-messages-table-header-row">
+                        <th className="dashboard-quick-search-results-page__desktop-messages-table-header-column-date">
+                          Date
+                        </th>
+                        <th className="dashboard-quick-search-results-page__desktop-messages-table-header-column-sender">
+                          Sender
+                        </th>
+                        <th className="dashboard-quick-search-results-page__desktop-messages-table-header-column-subject">
+                          Subject
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-quick-search-results-page__desktop-messages-table-body-section">
+                      <div className="dashboard-quick-search-results-page__desktop-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1">
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-date">
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-date-text">
+                            12:58 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-subject">
+                          NDA Ques...
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-messages-close-icon-1"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__desktop-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__desktop-messages-table-data-row-2">
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-2-date">
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__desktop-messages-table-data-row-2-date-text">
+                            12:36 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-2-sender">
+                          ABC Staffing Inc.
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-2-subject">
+                          Checking in...{" "}
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-messages-close-icon-2"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__desktop-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__desktop-messages-table-data-row-3">
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-3-date">
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__desktop-messages-table-data-row-3-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-3-sender">
+                          Beta Staffing Agency
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-3-subject">
+                          Partnership...
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-messages-close-icon-3"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__desktop-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__desktop-messages-table-data-row-4">
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-4-date">
+                          {" "}
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__desktop-messages-table-data-row-4-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-4-sender">
+                          Circular Staffing
+                        </td>
+                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-4-subject">
+                          Re: Partnersh...
+                          <img
+                            className="dashboard-quick-search-results-page__desktop-messages-close-icon-4"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-messages-vertical-slider-messages-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__desktop-calendar-tasks-container">
+                <img
+                  className="dashboard-quick-search-results-page__desktop-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Calendar Icon"
+                />
+                <div className="dashboard-quick-search-results-page__desktop-tasks-container">
+                  <div className="dashboard-quick-search-results-page__desktop-tasks-header-container">
+                    <p className="dashboard-quick-search-results-page__desktop-tasks-header">
+                      Tasks
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-icon-one-icon"
+                      src={TaskIconOneIcon}
+                      alt="Task Icon One Icon"
+                    />
+                  </div>
+                  <div className="dashboard-quick-search-results-page__desktop-tasks-first-row-container">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-first-row-orange-dot-icon"
+                      src={OrangeDotIcon}
+                      alt="Orange Dot Icon"
+                    />
+                    <p className="dashboard-quick-search-results-page__desktop-tasks-first-row-date">
+                      9/13/24
+                    </p>
+                    <p className="dashboard-quick-search-results-page__desktop-tasks-first-row-task-description">
+                      Call Kelly Re: New Applicant
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-first-row-gray-checkmark-icon"
+                      src={GrayCheckmarkIcon}
+                      alt="Gray Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-first-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
+                  <div className="dashboard-quick-search-results-page__desktop-tasks-second-row-container">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-second-row-gray-dot-icon"
+                      src={GrayDotIcon}
+                      alt="Gray Dot Icon"
+                    />
+                    <p className="dashboard-quick-search-results-page__desktop-tasks-second-row-date">
+                      9/10/24
+                    </p>
+                    <p className="dashboard-quick-search-results-page__desktop-tasks-second-row-task-description">
+                      Call Jerry about Contract
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-second-row-orange-checkmark-icon"
+                      src={OrangeCheckmarkIcon}
+                      alt="Orange Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-tasks-second-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-tasks-second-row-vertical-slider-tasks-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="dashboard-quick-search-results-page__desktop-activity-summary-container">
+              <div className="dashboard-quick-search-results-page__desktop-activity-summary-top-container">
+                <p className="dashboard-quick-search-results-page__desktop-activity-summary-header">
+                  Activity Summary
+                </p>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-jobs-candidates-placements-container">
+                  <div className="dashboard-quick-search-results-page__desktop-activity-summary-jobs-container">
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-jobs-text">
+                      Jobs
+                    </p>
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-jobs-number">
+                      0
+                    </p>
+                  </div>
+                  <div className="dashboard-quick-search-results-page__desktop-activity-summary-candidates-container">
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-candidates-text">
+                      Candidates
+                    </p>
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-candidates-number">
+                      0
+                    </p>
+                  </div>
+                  <div className="dashboard-quick-search-results-page__desktop-activity-summary-placements-container">
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-placements-text">
+                      Placements
+                    </p>
+                    <p className="dashboard-quick-search-results-page__desktop-activity-summary-placements-number">
+                      0
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-container">
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-top-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-header">
+                    MY JOBS
+                  </p>
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-blue-dash-divider-icon"
+                    src={BlueDashDividerIcon}
+                    alt="Blue Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-dashboard-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-all-jobs">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-all-jobs-dot-icon"
+                      src={AllJobsDotIcon}
+                      alt="All Jobs Dot Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-all-jobs-text">
+                      All Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-pending">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-pending-bullet-icon"
+                      src={JobsPendingBulletIcon}
+                      alt="Jobs Pending Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-reviews">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-reviews-bullet-icon"
+                      src={JobsReviewsBulletIcon}
+                      alt="Jobs Reviews Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-submissions">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-submissions-bullet-icon"
+                      src={JobsSubmissionsBulletIcon}
+                      alt="Jobs Submissions Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-interviews">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-interviews-bullet-icon"
+                      src={JobsInterviewsBulletIcon}
+                      alt="Jobs Interviews Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-offers">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-offers-bullet-icon"
+                      src={JobsOffersBulletIcon}
+                      alt="Jobs Offers Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-placements">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-jobs-placements-bullet-icon"
+                      src={JobsPlacementsBulletIcon}
+                      alt="Jobs Placements Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-description-status-applicants-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-applicants-text">
+                    APPLICANTS
+                  </p>
+                </div>
+                <button className="dashboard-quick-search-results-page__desktop-post-my-first-job-button">
+                  Post My First Job
+                </button>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-navigation-container">
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-page-number-blue-one-icon"
+                    src={PageNumberBlueOneIcon}
+                    alt="Page Number Blue One Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-jobs-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-container">
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-top-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-header">
+                    MY CANDIDATES
+                  </p>
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-orange-dash-divider-icon"
+                    src={OrangeDashDividerIcon}
+                    alt="Orange Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-dashboard-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-all-candidates">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-all-candidates-dash-dot-icon"
+                      src={AllCandidatesDashDotIcon}
+                      alt="All Candidates Dash Dot Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-all-candidates-text">
+                      All Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-pending">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-my-candidates-pending-icon"
+                      src={MyCandidatesPendingIcon}
+                      alt="My Candidates Pending Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-reviews">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-reviews-icon"
+                      src={MyCandidatesReviewsIcon}
+                      alt="My Candidates Reviews Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-submissions">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-submissions-icon"
+                      src={MyCandidatesSubmissionsIcon}
+                      alt="My Candidates Submissions Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-interviews">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-my-candidates-interviews-icon"
+                      src={MyCandidatesInterviewsIcon}
+                      alt="My Candidates Interviews Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-offers">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-my-candidates-offers-icon"
+                      src={MyCandidatesOffersIcon}
+                      alt="My Candidates Offers Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-placements">
+                    <img
+                      className="dashboard-quick-search-results-page__desktop-my-candidates-placements-icon"
+                      src={MyCandidatesPlacementsIcon}
+                      alt="My Candidates Placements Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-description-status-requests-container">
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-requests-text">
+                    REQUESTS
+                  </p>
+                </div>
+                <button className="dashboard-quick-search-results-page__desktop-post-my-first-candidate-button">
+                  Post My First Candidate
+                </button>
+                <div className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-navigation-container">
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-page-number-peach-one-icon"
+                    src={PageNumberPeachOneIcon}
+                    alt="Page Number Peach One Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-activity-summary-my-candidates-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
               </div>
             </div>
           </div>

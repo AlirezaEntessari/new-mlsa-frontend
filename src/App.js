@@ -86,17 +86,19 @@ import RatingsReceivingNegativeFeedbackStep5Page from './pages/RatingsReceivingN
 import RatingsReceivingNegativeFeedbackEndDisputePage from './pages/RatingsReceivingNegativeFeedbackEndDisputePage/RatingsReceivingNegativeFeedbackEndDisputePage';
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 import DashboardQuickSearchResultsPage from './pages/DashboardQuickSearchResultsPage/DashboardQuickSearchResultsPage';
+import SignUpClerkPage from './pages/SignUpClerkPage/SignUpClerkPage';
+import MembershipPlanClerkPage from './pages/MembershipPlanClerkPage/MembershipPlanClerkPage';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
 
 function App() {
   return (
     <div className="App">
-      {/* <div className="navbar">
+      <div className="navbar">
         <SignedIn>
             <UserButton showName appearance={{ baseTheme: light }} />
         </SignedIn>
-      </div> */}
+      </div>
       <BrowserRouter>
       <Routes>
         <Route path="/sign-up-page" element={<SignUpPage />} />
@@ -185,6 +187,8 @@ function App() {
         <Route path="/ratings-receiving-negative-feedback-end-dispute-page" element={<RatingsReceivingNegativeFeedbackEndDisputePage />} />
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
         <Route path="/dashboard-quick-search-results-page" element={<DashboardQuickSearchResultsPage />} />
+        <Route path="/sign-up-clerk-page" element={<SignUpClerkPage />} />
+        <Route path="/membership-plan-clerk-page" element={<MembershipPlanClerkPage />} />
       </Routes>
       </BrowserRouter>
     </div>

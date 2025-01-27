@@ -36,6 +36,7 @@ import MyCandidatesInterviewsIcon from "../../assets/icons/CReviewsDot.svg";
 import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
 import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
 import PageNumberPeachOneIcon from "../../assets/icons/PageNumberPeach1.svg";
+import { Link } from "react-router-dom";
 
 export default function DashboardHomePage() {
   return (
@@ -63,12 +64,17 @@ export default function DashboardHomePage() {
                   </option>
                 </select>
               </div>
-              <input
-                className="dashboard-home-page__mobile-keywords-input"
-                type="text"
-                placeholder="Keywords"
-                id="mobile-candidates-select"
-              />
+              <Link
+                className="dashboard-home-page__link"
+                to="/dashboard-quick-search-results-page"
+              >
+                <input
+                  className="dashboard-home-page__mobile-keywords-input"
+                  type="text"
+                  placeholder="Keywords"
+                  id="mobile-candidates-select"
+                />
+              </Link>
               <img
                 className="dashboard-home-page__mobile-search-icon"
                 src={SearchIcon}
@@ -777,11 +783,16 @@ export default function DashboardHomePage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-home-page__tablet-keyword-input"
-                  type="text"
-                  placeholder="Keyword"
-                />
+                <Link
+                  className="dashboard-home-page__link"
+                  to="/dashboard-quick-search-results-page"
+                >
+                  <input
+                    className="dashboard-home-page__tablet-keyword-input"
+                    type="text"
+                    placeholder="Keyword"
+                  />
+                </Link>
                 <img
                   className="dashboard-home-page__tablet-search-icon"
                   src={SearchIcon}
@@ -1471,11 +1482,16 @@ export default function DashboardHomePage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-home-page__desktop-candidates-input"
-                  type="text"
-                  placeholder="Keyword"
-                />
+                <Link
+                  className="dashboard-home-page__link"
+                  to="/dashboard-quick-search-results-page"
+                >
+                  <input
+                    className="dashboard-home-page__desktop-candidates-input"
+                    type="text"
+                    placeholder="Keyword"
+                  />
+                </Link>
               </div>
               <div className="dashboard-home-page__desktop-notifications-messages-container">
                 <div className="dashboard-home-page__desktop-notifications-container">
