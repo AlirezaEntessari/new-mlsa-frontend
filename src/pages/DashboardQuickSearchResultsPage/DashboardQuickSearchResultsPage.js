@@ -859,18 +859,769 @@ export default function DashboardQuickSearchResultsPage() {
                 <p className="dashboard-quick-search-results-page__tablet-top-results-search-parameter-text">
                   Results for: Electrical Engineering Delray Beach Florida
                 </p>
-                <p className="dashboard-quick-search-results-page__electrical-engineering-intern-kimley-horn-description">
-                  <span className="dashboard-quick-search-results-page__electrical-engineering-intern-kimley-horn-text">
+                <p className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-kimley-horn-description">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-kimley-horn-text">
                     Electrical Engineering Intern
                   </span>
-                  <span className="dashboard-quick-search-results-page__electrical-engineering-intern-kimley-horn-company">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-kimley-horn-company">
                     Kimley-Horn
                   </span>
-                  <span className="dashboard-quick-search-results-page__electrical-engineering-intern-kimley-horn-location">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-kimley-horn-location">
                     Delray Beach, FL
                   </span>
-                  <span className="dashboard-quick-search-results-page__electrical-engineering-intern-kimley-horn-date">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-kimley-horn-date">
                     7/23/24
+                  </span>
+                </p>
+                <p className="dashboard-quick-search-results-page__tablet-electrical-engineer-actalent-description">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-actalent-text">
+                    Electrical Engineer
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-actalent-company">
+                    Actalent
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-actalent-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-actalent-date">
+                    7/22/24
+                  </span>
+                </p>
+                <p className="dashboard-quick-search-results-page__tablet-electrical-engineer-razorback-electric-description">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-razorback-electric-text">
+                    Electrical Engineer
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-razorback-electric-company">
+                    Razorback Electric
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-razorback-electric-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineer-razorback-electric-date">
+                    5/20/24
+                  </span>
+                </p>
+                <p className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-division-16-description">
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-division-16-text">
+                    Electrical Engineering Intern
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-division-16-company">
+                    Division 16
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-division-16-location">
+                    Delray Beach, FL
+                  </span>
+                  <span className="dashboard-quick-search-results-page__tablet-electrical-engineering-intern-division-16-date">
+                    5/20/24
+                  </span>
+                </p>
+                <button className="dashboard-quick-search-results-page__tablet-top-results-close-button">
+                  Close
+                </button>
+              </div>
+            </div>
+            <div className="dashboard-quick-search-results-page__tablet-central-orange-container">
+              <div className="dashboard-quick-search-results-page__tablet-notifications-messages-container">
+                <div className="dashboard-quick-search-results-page__tablet-notifications-container">
+                  <div className="dashboard-quick-search-results-page__tablet-notifications-top-container">
+                    <p className="dashboard-quick-search-results-page__tablet-notifications-header">
+                      Notifications
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-notifications-icon"
+                      src={NotificationsIcon}
+                      alt="Notifications Icon"
+                    />
+                  </div>
+                  <table className="dashboard-quick-search-results-page__tablet-notifications-table">
+                    <thead className="dashboard-quick-search-results-page__tablet-notifications-table-header-section">
+                      <tr className="dashboard-quick-search-results-page__tablet-notifications-table-header-row">
+                        <th className="dashboard-quick-search-results-page__tablet-notifications-table-header-column-needs-attention">
+                          Needs Attention
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-quick-search-results-page__tablet-notifications-table-data-section">
+                      <tr className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1">
+                        <td className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-vertical-slider-notifications-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-messages-container">
+                  <div className="dashboard-quick-search-results-page__tablet-messages-top-container">
+                    <p className="dashboard-quick-search-results-page__tablet-messages-header">
+                      Messages
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-messages-four-icon"
+                      src={MessagesFourIcon}
+                      alt="Messages Four Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-create-message-icon"
+                      src={CreateMessageIcon}
+                      alt="Create Message Icon"
+                    />
+                  </div>
+                  <table className="dashboard-quick-search-results-page__tablet-messages-table">
+                    <thead className="dashboard-quick-search-results-page__tablet-messages-table-header-section">
+                      <tr className="dashboard-quick-search-results-page__tablet-messages-table-header-row">
+                        <th className="dashboard-quick-search-results-page__tablet-messages-table-header-column-date">
+                          Date
+                        </th>
+                        <th className="dashboard-quick-search-results-page__tablet-messages-table-header-column-sender">
+                          Sender
+                        </th>
+                        <th className="dashboard-quick-search-results-page__tablet-messages-table-header-column-subject">
+                          Subject
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="dashboard-quick-search-results-page__tablet-messages-table-body-section">
+                      <div className="dashboard-quick-search-results-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1">
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-date">
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-date-text">
+                            12:58 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-subject">
+                          NDA Ques...
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-messages-close-icon-1"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__tablet-messages-table-data-row-2">
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-2-date">
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__tablet-messages-table-data-row-2-date-text">
+                            12:36 PM
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-2-sender">
+                          ABC Staffing Inc.
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-2-subject">
+                          Checking in...{" "}
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-messages-close-icon-2"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__tablet-messages-table-data-row-3">
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-3-date">
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__tablet-messages-table-data-row-3-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-3-sender">
+                          Beta Staffing Agency
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-3-subject">
+                          Partnership...
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-messages-close-icon-3"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                      <div className="dashboard-quick-search-results-page__tablet-messages-table-white-space"></div>
+                      <tr className="dashboard-quick-search-results-page__tablet-messages-table-data-row-4">
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-4-date">
+                          {" "}
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot"
+                          />
+                          <span className="dashboard-quick-search-results-page__tablet-messages-table-data-row-4-date-text">
+                            Fri 7/19
+                          </span>
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-4-sender">
+                          Circular Staffing
+                        </td>
+                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-4-subject">
+                          Re: Partnersh...
+                          <img
+                            className="dashboard-quick-search-results-page__tablet-messages-close-icon-4"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-messages-vertical-slider-messages-icon"
+                    src={VerticalSliderMessagesIcon}
+                    alt="Vertical Slider Messages Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__tablet-calendar-tasks-container">
+                <img
+                  className="dashboard-quick-search-results-page__tablet-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Calendar Icon"
+                />
+                <div className="dashboard-quick-search-results-page__tablet-tasks-container">
+                  <div className="dashboard-quick-search-results-page__tablet-tasks-header-container">
+                    <p className="dashboard-quick-search-results-page__tablet-tasks-header">
+                      Tasks
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-task-icon-one-icon"
+                      src={TaskIconOneIcon}
+                      alt="Task Icon One Icon"
+                    />
+                  </div>
+                  <div className="dashboard-quick-search-results-page__tablet-tasks-first-row-container">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                      src={OrangeDotIcon}
+                      alt="Orange Dot Icon"
+                    />
+                    <p className="dashboard-quick-search-results-page__tablet-tasks-first-row-date">
+                      9/13/24
+                    </p>
+                    <p className="dashboard-quick-search-results-page__tablet-tasks-first-row-task-description">
+                      Call Kelly Re: New Applicant
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-gray-checkmark-icon"
+                      src={GrayCheckmarkIcon}
+                      alt="Gray Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-tasks-first-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
+                  <div className="dashboard-quick-search-results-page__tablet-second-row-container">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-gray-dot-icon"
+                      src={GrayDotIcon}
+                      alt="Gray Dot Icon"
+                    />
+                    <p className="dashboard-quick-search-results-page__tablet-tasks-second-row-date">
+                      9/10/24
+                    </p>
+                    <p className="dashboard-quick-search-results-page__tablet-tasks-second-row-task-description">
+                      Call Jerry about Contract
+                    </p>
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-orange-checkmark-icon"
+                      src={OrangeCheckmarkIcon}
+                      alt="Orange Checkmark Icon"
+                    />
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-tasks-second-row-close-icon"
+                      src={CloseIcon}
+                      alt="Close Icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="dashboard-quick-search-results-page__tablet-activity-summary-container">
+              <div className="dashboard-quick-search-results-page__tablet-activity-summary-top-container">
+                <p className="dashboard-quick-search-results-page__tablet-activity-summary-header">
+                  Activity Summary
+                </p>
+                <div className="dashboard-quick-search-results-page__tablet-activity-summary-jobs-candidates-placements-container">
+                  <div className="dashboard-quick-search-results-page__tablet-activity-summary-jobs-container">
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-jobs-text">
+                      Jobs
+                    </p>
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-jobs-number">
+                      17
+                    </p>
+                  </div>
+                  <div className="dashboard-quick-search-results-page__tablet-activity-summary-candidates-container">
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-candidates-text">
+                      Candidates
+                    </p>
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-candidates-number">
+                      12
+                    </p>
+                  </div>
+                  <div className="dashboard-quick-search-results-page__tablet-activity-summary-placements-container">
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-placements-text">
+                      Placements
+                    </p>
+                    <p className="dashboard-quick-search-results-page__tablet-activity-summary-placements-number">
+                      29
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-container">
+                <div className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-header-container">
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-header-text">
+                    MY JOBS
+                  </p>
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-blue-dash-divider-icon"
+                    src={BlueDashDividerIcon}
+                    alt="Blue Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-top-dashboard-container">
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-all-jobs">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-activity-summary-all-jobs-dot-icon"
+                      src={AllJobsDotIcon}
+                      alt="All Jobs Dot Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-all-jobs-text">
+                      All Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-my-jobs-pending">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-pending-bullet-icon"
+                      src={JobsPendingBulletIcon}
+                      alt="Jobs Pending Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-reviews">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-reviews-bullet-icon"
+                      src={JobsReviewsBulletIcon}
+                      alt="Jobs Reviews Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-submissions">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-submissions-bullet-icon"
+                      src={JobsSubmissionsBulletIcon}
+                      alt="Jobs Submissions Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-interviews">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-interviews-bullet-icon"
+                      src={JobsInterviewsBulletIcon}
+                      alt="Jobs Interviews Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-offers">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-offers-bullet-icon"
+                      src={JobsOffersBulletIcon}
+                      alt="Jobs Offers Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-placements">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-jobs-placements-bullet-icon"
+                      src={JobsPlacementsBulletIcon}
+                      alt="Jobs Placements Bullet Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-activity-summary-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-description-status-applicants-container">
+                  <p className="dashboard-quick-search-results-page__tablet-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-applicants-text">
+                    APPLICANTS
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-my-jobs-job-description-container">
+                  <p className="dashboard-quick-search-results-page__tablet-ct-tech">
+                    CT Tech at Berkshire Medical Center
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-ct-tech-description">
+                    <span className="dashboard-quick-search-results-page__tablet-ct-tech-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ct-tech-job-duration">
+                      27 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ct-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ct-tech-job-number-of-applicants">
+                      5 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-ultrasound-tech">
+                    Ultrasound Tech at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-ultrasound-tech-description">
+                    <span className="dashboard-quick-search-results-page__tablet-ultrasound-tech-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ultrasound-tech-job-duration">
+                      28 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ultrasound-tech-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-ultrasound-tech-job-number-of-applicants">
+                      8 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-cna">
+                    CNA at Atrium Health Union West
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-cna-description">
+                    <span className="dashboard-quick-search-results-page__tablet-cna-job-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-cna-job-duration">
+                      29 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-cna-job-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-cna-job-number-of-applicants">
+                      10 Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-allied-cma">
+                    Allied CMA at Texas Health Presbyterian
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-allied-cma-description">
+                    <span className="dashboard-quick-search-results-page__tablet-allied-cma-nature">
+                      Contract
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-allied-cma-duration">
+                      30 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-allied-cma-status">
+                      Expired
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-allied-cma-applicants">
+                      4 Candidates
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-my-jobs-navigation-container">
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-page-number-blue-one-icon"
+                    src={PageNumberBlueOneIcon}
+                    alt="Page Number Blue One Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+              <div className="dashboard-quick-search-results-page__tablet-activity-summary-my-candidates-container">
+                <div className="dashboard-quick-search-results-page__tablet-activity-summary-my-candidates-header-container">
+                  <p className="dashboard-quick-search-results-page__tablet-activity-summary-my-candidates-header-text">
+                    MY CANDIDATES
+                  </p>
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-orange-dash-divider-icon"
+                    src={OrangeDashDividerIcon}
+                    alt="Orange Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-top-dashboard-container">
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-all-candidates">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-all-candidates-dash-dot-icon"
+                      src={AllCandidatesDashDotIcon}
+                      alt="All Candidates Dash Dat Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-all-candidates-text">
+                      All Candidates
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-pending">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-pending-icon"
+                      src={MyCandidatesPendingIcon}
+                      alt="My Candidates Pending Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-reviews">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-reviews-icon"
+                      src={MyCandidatesReviewsIcon}
+                      alt="My Candidates Reviews Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-submissions">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-submissions-icon"
+                      src={MyCandidatesSubmissionsIcon}
+                      alt="My Candidates Submissions Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-interviews">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-interviews-icon"
+                      src={MyCandidatesInterviewsIcon}
+                      alt="My Candidates Interviews Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-offers">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-offers-icon"
+                      src={MyCandidatesOffersIcon}
+                      alt="My Candidates Offers Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-placements">
+                    <img
+                      className="dashboard-quick-search-results-page__tablet-my-candidates-placements-icon"
+                      src={MyCandidatesPlacementsIcon}
+                      alt="My Candidates Placements Icon"
+                    />
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-my-candidates-description-status-requests-container">
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-description-text">
+                    DESCRIPTION
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-status-text">
+                    STATUS
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-requests-text">
+                    REQUESTS
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-my-candidates-description-container">
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton">
+                    Ann Morton
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton-description">
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton-job-title">
+                      RN - ER
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton-duration">
+                      27 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-ann-morton-requests">
+                      2 Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis">
+                    Sarah Davis
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis-description">
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis-job-title">
+                      Ultrasound Tech
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis-duration">
+                      34 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-sarah-davis-requests">
+                      4 Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams">
+                    Joe Williams
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams-description">
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams-job-title">
+                      CNA
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams-duration">
+                      35 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams-status">
+                      Active
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-joe-williams-requests">
+                      5 Jobs
+                    </span>
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson">
+                    Tim Peterson
+                  </p>
+                  <p className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson-description">
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson-job-title">
+                      RN - ER
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson-duration">
+                      0 Days Remaining
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson-status">
+                      Expired
+                    </span>
+                    <span className="dashboard-quick-search-results-page__tablet-my-candidates-tim-peterson-requests">
+                      0 Jobs
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-quick-search-results-page__tablet-my-candidates-navigation-container">
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-my-candidates-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-my-candidates-page-number-peach-one-icon"
+                    src={PageNumberPeachOneIcon}
+                    alt="Page Number Peach One Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-my-candidates-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-my-candidates-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-my-candidates-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="dashboard-quick-search-results-page__desktop-container">
+            <div className="dashboard-quick-search-results-page__desktop-quick-search-top-container">
+              <p className="dashboard-quick-search-results-page__desktop-quick-search-text">
+                Quick Search
+              </p>
+              <select
+                className="dashboard-quick-search-results-page__desktop-candidates-select"
+                name="desktop-candidates"
+                id="desktop-candidates"
+              >
+                <option value="" selected>
+                  Candidates
+                </option>
+              </select>
+              <input
+                className="dashboard-quick-search-results-page__desktop-quick-search-here-input"
+                type="text"
+                placeholder="Quick Search Here"
+              />
+            </div>
+            <div className="dashboard-quick-search-results-page__desktop-top-results-container">
+              <div className="dashboard-quick-search-results-page__desktop-top-results-inner-container">
+                <p className="dashboard-quick-search-results-page__desktop-top-results-text">
+                  Results for: Electrical Engineering Delray Beach Florida
+                </p>
+                <p className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-description">
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-text">
+                    Electrical Engineering Intern
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-company">
+                    Kimley-Horn
+                  </span>
+                  <span className="dashboard-quick-search-results-page__desktop-electrical-engineering-intern-kimley-horn-location">
+                    Delray Beach, FL
                   </span>
                 </p>
               </div>

@@ -1128,7 +1128,7 @@
         }
 
         &__tablet-candidates-select {
-            width: 150px;
+            width: 200px;
             height: 60px;
             margin-left: 24px;
             padding-left: 16px;
@@ -1143,9 +1143,9 @@
         }
 
         &__tablet-keyword-input {
-            width: 220px;
+            width: 360px;
             height: 60px;
-            margin-left: 16px;
+            margin-left: 32px;
             padding-left: 24px;
             border: 1px solid $medium-gray;
             border-bottom-left-radius: 40px;
@@ -1162,7 +1162,7 @@
         &__tablet-top-results-container {
             border: 1px solid $medium-gray;
             margin-top: 48px;
-            width: 524px;
+            width: 720px;
             height: 500px;
             margin-left: 32px;
             border-bottom-left-radius: 24px;
@@ -1182,32 +1182,1185 @@
             padding-bottom: 30px;
         }
 
-        &__electrical-engineering-intern-kimley-horn-description {
+        &__tablet-electrical-engineering-intern-kimley-horn-description {
             border-bottom: 2px solid $medium-dark-gray;
             padding-bottom: 30px;
         }
 
-        &__electrical-engineering-intern-kimley-horn-text {
+        &__tablet-electrical-engineering-intern-kimley-horn-text {
             font-weight: 500;
             text-decoration: underline;
-            font-size: 12px;
+            font-size: 14px;
         }
 
-        &__electrical-engineering-intern-kimley-horn-company {
-            font-size: 12px;
+        &__tablet-electrical-engineering-intern-kimley-horn-company {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineering-intern-kimley-horn-location {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineering-intern-kimley-horn-date {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineer-actalent-description {
+            border-bottom: 2px solid $medium-dark-gray;
+            padding-bottom: 30px;
+        }
+
+        &__tablet-electrical-engineer-actalent-text {
+            font-weight: 500;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-electrical-engineer-actalent-company {
+            font-size: 14px;
+            margin-left: 132px;
+        }
+
+        &__tablet-electrical-engineer-actalent-location {
+            font-size: 14px;
+            margin-left: 98px;
+        }
+
+        &__tablet-electrical-engineer-actalent-date {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-text {
+            font-weight: 500;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-description {
+            border-bottom: 2px solid $medium-dark-gray;
+            padding-bottom: 30px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-text {
+            font-weight: 500;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-company {
+            font-size: 14px;
+            margin-left: 132px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-location {
+            font-size: 14px;
+            margin-left: 34px;
+        }
+
+        &__tablet-electrical-engineer-razorback-electric-date {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineering-intern-division-16-description {
+            border-bottom: 2px solid $medium-dark-gray;
+            padding-bottom: 30px;
+        }
+
+        &__tablet-electrical-engineering-intern-division-16-text {
+            font-weight: 500;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        &__tablet-electrical-engineering-intern-division-16-company {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-electrical-engineering-intern-division-16-location {
+            font-size: 14px;
+            margin-left: 83px;
+        }
+
+        &__tablet-electrical-engineering-intern-division-16-date {
+            font-size: 14px;
+            margin-left: 72px;
+        }
+
+        &__tablet-top-results-close-button {
+            background-color: $white-background;
+            border: 2px solid $dark-gray;
+            width: 100px;
+            height: 36px;
+            border-radius: 28px;
+            font-size: 15px;
+            color: $dark-gray;
+            margin-top: 32px;
+            margin-left: 540px;
+        }
+
+        &__tablet-central-orange-container {
+            // width: 100%;
+            padding-top: 6px;
+            background-color: $my-candidates-light-orange;
+        }
+
+        &__tablet-notifications-messages-container {
+            display: flex;
+            margin-top: 64px;
             margin-left: 32px;
         }
 
-        &__electrical-engineering-intern-kimley-horn-location {
+        &__tablet-notifications-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+        }
+
+        &__tablet-notifications-top-container {
+            display: flex;
+            position: relative;
+        }
+    
+        &__tablet-notifications-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 260px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 62px;
+        }
+    
+        &__tablet-notifications-icon {
+            width: 48px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        &__tablet-notifications-table {
+            margin-left: 32px;
+            margin-top: 32px;
+            width: 250px;
+        }
+    
+        &__tablet-notifications-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-notifications-table-header-column-needs-attention {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-value {
+            padding-top: 10px;
+        }
+    
+        &__tablet-orange-dot-icon {
+            width: 14px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-text {
+            padding-left: 20px;
+        }
+    
+        &__tablet-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__tablet-vertical-slider-notifications-icon {
+            width: 42px;
+            position: absolute;
+            top: 1016px;
+            right: 416px;
+        }
+
+        &__tablet-messages-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 16px;
+            background-color: $white-background;
+        }
+
+        &__tablet-messages-top-container {
+            display: flex;
+        }
+
+        &__tablet-messages-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 190px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-messages-four-icon {
+            width: 72px;
+            margin-left: 20px;
+        }
+
+        &__tablet-create-message-icon {
+            width: 64px;
+            margin-left: 6px;
+        }
+
+        &__tablet-messages-table {
+            // margin-left: 32px;
+            margin-left: 6px;
+            margin-top: 24px;
+            width: 320px;
+        }
+    
+        &__tablet-messages-table-header-column-date {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-data-row-1-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-table-header-column-sender {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-column-subject {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-messages-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__tablet-messages-table-data-row-2-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-1 {
+            width: 24px;
+            margin-left: 28px;
+        }
+    
+        &__tablet-messages-close-icon-2 {
+            width: 24px;
+            margin-left: 16px;
+        }
+    
+        &__tablet-messages-table-data-row-3-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+        
+        &__tablet-messages-table-data-row-3-sender {
             font-size: 12px;
+        }
+    
+        &__tablet-messages-close-icon-3 {
+            width: 24px;
+            margin-left: 23px;
+        }
+    
+        &__tablet-messages-table-data-row-4-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-4 {
+            width: 24px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-messages-vertical-slider-messages-icon {
+            width: 42px;
+            position: absolute;
+            top: 1016px;
+            right: 16px;
+        }
+    
+        &__tablet-messages-table-white-space {
+            height: 10px;
+        }
+
+        &__tablet-calendar-tasks-container {
+            display: flex;
+            margin-top: 48px;
             margin-left: 32px;
         }
 
-        &__electrical-engineering-intern-kimley-horn-date {
-            font-size: 12px;
+        &__tablet-calendar-icon {
+            width: 370px;
+            // position: absolute;
+            // top: 898px;
+        }
+
+        &__tablet-tasks-container {
+            margin-left: 16px;
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 250px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+        }
+    
+        &__tablet-tasks-header-container {
+            display: flex;
+        }
+    
+        &__tablet-tasks-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 160px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-task-icon-one-icon {
+            width: 64px;
+            margin-left: 110px;
+        }
+    
+        &__tablet-tasks-first-row-container {
+            display: flex;
+        }
+
+        &__tablet-tasks-first-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-first-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-gray-checkmark-icon {
+            width: 32px;
+            margin-left: 10px;
+        }
+
+        &__tablet-tasks-first-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+        &__tablet-second-row-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        &__tablet-gray-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-tasks-second-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-second-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-orange-checkmark-icon {
+            width: 32px;
             margin-left: 32px;
         }
 
+        &__tablet-tasks-second-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+        &__tablet-activity-summary-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            border: 2px solid $medium-dark-gray;
+            width: 754px;
+            height: 1840px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-activity-summary-top-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-activity-summary-header {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            color: $dark-gray;
+            font-size: 24px;
+        }
+
+        &__tablet-activity-summary-jobs-candidates-placements-container {
+            display: flex;
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-jobs-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-activity-summary-jobs-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-jobs-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 66px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-candidates-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-candidates-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-candidates-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 20px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-placements-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-placements-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-placements-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 14px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-my-jobs-header-container {
+            margin-top: 48px;
+            margin-left: 24px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-my-jobs-header-text {
+            color: $access-blue;
+            font-weight: 500;
+            font-size: 32px;
+        }
+
+        &__tablet-blue-dash-divider-icon {
+            width: 579px;
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-my-jobs-top-dashboard-container {
+            margin-top: 32px;
+            margin-left: 8px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-all-jobs-dot-icon {
+            width: 22px;
+        }
+
+        &__tablet-activity-summary-all-jobs-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-my-jobs-pending {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-pending-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-pending-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-reviews {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-reviews-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-reviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-submissions {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-submissions-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-submissions-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-interviews {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-interviews-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-interviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-offers {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-offers-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-offers-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-placements {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-placements-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-placements-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-description-status-applicants-container {
+            background-color: $background-blue;
+            display: flex;
+            margin-top: 32px;
+            height: 60px;
+        }
+
+        &__tablet-description-text {
+            padding-top: 18px;
+            padding-left: 32px;
+            font-weight: 500;
+        }
+
+        &__tablet-status-text {
+            padding-top: 18px;
+            padding-left: 320px;
+            font-weight: 500;
+        }
+
+        &__tablet-applicants-text {
+            padding-top: 18px;
+            padding-left: 72px;
+            font-weight: 500;
+        }
+
+        &__tablet-ct-tech {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-ct-tech-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-ct-tech-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-ct-tech-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-ct-tech-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-ultrasound-tech {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-ultrasound-tech-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-ultrasound-tech-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-ultrasound-tech-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-ultrasound-tech-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-cna {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-cna-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-cna-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-cna-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-cna-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-allied-cma {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-allied-cma-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-allied-cma-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-allied-cma-status {
+            margin-left: 172px;
+            color: red;
+        }
+
+        &__tablet-allied-cma-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-jobs-navigation-container {
+            margin-top: 60px;
+            margin-left: 270px;
+        }
+
+        &__tablet-page-number-blue-one-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-two-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-three-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-right-arrow-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-activity-summary-my-candidates-header-container {
+            margin-top: 48px;
+            margin-left: 24px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-my-candidates-header-text {
+            color: $rust;
+            font-weight: 500;
+            font-size: 32px;
+        }
+
+        &__tablet-orange-dash-divider-icon {
+            width: 461px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-container {
+            margin-top: 32px;
+            margin-left: 8px;
+            display: flex;
+        }
+
+        &__tablet-all-candidates-dash-dot-icon {
+            width: 18px;
+        }
+
+        &__tablet-my-candidates-all-candidates-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-pending {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-pending-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-pending-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-reviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-reviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-reviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-submissions {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-submissions-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-submissions-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-interviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-interviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-interviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-offers {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-offers-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-offers-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-placements {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-placements-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-placements-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-description-status-requests-container {
+            background-color: $my-candidates-light-orange;
+            display: flex;
+            margin-top: 32px;
+            height: 60px;
+        }
+
+        &__tablet-my-candidates-description-text {
+            padding-top: 18px;
+            padding-left: 32px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-status-text {
+            padding-top: 18px;
+            padding-left: 320px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-requests-text {
+            padding-top: 18px;
+            padding-left: 72px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-ann-morton {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-ann-morton-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-ann-morton-duration {
+            margin-left: 112px;
+        }
+
+        &__tablet-my-candidates-ann-morton-status {
+            margin-left: 124px;
+        }
+
+        &__tablet-my-candidates-ann-morton-requests {
+            margin-left: 94px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-sarah-davis {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-sarah-davis-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-duration {
+            margin-left: 54px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-status {
+            margin-left: 124px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-requests {
+            margin-left: 94px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-joe-williams {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-joe-williams-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-joe-williams-duration {
+            margin-left: 138px;
+        }
+
+        &__tablet-my-candidates-joe-williams-status {
+            margin-left: 122px;
+        }
+
+        &__tablet-my-candidates-joe-williams-requests {
+            text-decoration: underline;
+            margin-left: 94px;
+        }
+
+        &__tablet-my-candidates-tim-peterson {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-tim-peterson-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-tim-peterson-duration {
+            margin-left: 120px;
+        }
+
+        &__tablet-my-candidates-tim-peterson-status {
+            margin-left: 124px;
+            color: red;
+        }
+
+        &__tablet-my-candidates-tim-peterson-requests {
+            text-decoration: underline;
+            margin-left: 91px;
+        }
+
+        &__tablet-my-candidates-navigation-container {
+            margin-top: 60px;
+            margin-left: 270px;
+        }
+
+        &__tablet-my-candidates-page-number-peach-one-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-page-number-gray-two-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-page-number-gray-three-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-right-arrow-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-central-container {
+            background-color: $my-candidates-light-orange;
+            padding-top: 32px;
+            padding-bottom: 64px;
+        }
+
+
+    }
+
+}
+
+@include desktop {
+
+    .dashboard-quick-search-results-page {
+        padding-bottom: 20rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-quick-search-top-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 80px;
+        }
+
+        &__desktop-quick-search-text {
+            color: $medium-dark-gray;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        &__desktop-candidates-select {
+            border: 1px solid $medium-gray;
+            color: $dark-gray;
+            width: 500px;
+            height: 60px;
+            padding-left: 32px;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 32px;
+            border-bottom-right-radius: 32px;
+            margin-left: 32px;
+        }
+
+        &__desktop-quick-search-here-input {
+            padding-left: 32px;
+            border: 1px solid $medium-gray;
+            width: 800px;
+            height: 60px;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 32px;
+            border-bottom-right-radius: 32px;
+            margin-left: 32px;
+        }
+
+        &__desktop-top-results-container {
+            margin-left: 80px;
+            width: 1540px;
+            height: 600px;
+            border: 1px solid $medium-gray;
+            margin-top: 64px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+        }
+
+        &__desktop-top-results-inner-container {
+            margin-top: 60px;
+            margin-left: 64px;
+        }
+
+        &__desktop-top-results-text {
+            color: $medium-dark-gray;
+            font-size: 18px;
+            border-bottom: 2px solid $medium-dark-gray;
+            padding-bottom: 42px;
+            margin-right: 80px;
+        }
 
     }
 
