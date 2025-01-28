@@ -202,6 +202,11 @@
         font-family: 'Roboto';
     }
 
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {

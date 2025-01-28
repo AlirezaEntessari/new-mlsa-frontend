@@ -1,0 +1,1210 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.agency-information-clerk-page {
+
+    padding-bottom: 10rem;
+
+    &__mlsa-logo {
+        width: 500px;
+        margin-left: 110px;
+        margin-top: 72px;
+    }
+
+    &__header {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 48px;
+        text-align: center;
+        margin-left: 50px;
+        font-family: 'Roboto Serif';
+    }
+
+    &__instructions {
+        margin-top: 40px;
+        margin-left: 168px;
+        font-size: 18px;
+        font-family: 'Roboto';
+    }
+
+    &__input-container {
+        margin-left: 64px;
+        margin-top: 48px;
+    }
+
+    &__staffing-agency-name-label {
+        font-weight: 500;
+        font-family: 'Roboto';
+    }
+
+    &__red-asterisk-icon {
+        width: 10px;
+        margin-bottom: 12px;
+    }
+
+    &__staffing-agency-name-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        font-family: 'Roboto';
+    }
+
+    &__staffing-agency-ein-label {
+        font-weight: 500;
+        margin-top: 24px;
+        font-family: 'Roboto';
+    }
+
+    &__staffing-agency-ein-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        font-family: 'Roboto';
+    }
+
+    &__staffing-agency-website-label {
+        font-weight: 500;
+        margin-top: 24px;
+        font-family: 'Roboto';
+    }
+
+    &__staffing-agency-website-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        font-family: 'Roboto';
+    }
+
+    &__industry-field-label {
+        font-weight: 500;
+        margin-top: 48px;
+        margin-left: 64px;
+        font-family: 'Roboto';
+    }
+
+    &__industry-field-description {
+        margin-left: 64px;
+        margin-top: 12px;
+        margin-right: 48px;
+        text-align: justify;
+        font-family: 'Roboto';
+    }
+
+    &__checkbox-container-1 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__hospitality-and-leisure-container {
+        margin-left: 120px;
+    }
+
+    &__checkbox-container-2 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__insurance-container {
+        margin-left: 205px;
+    }
+
+    &__checkbox-container-3 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__landscaping-container {
+        margin-left: 90px;
+    }
+
+    &__checkbox-container-4 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__manufacturing-container {
+        margin-left: 195px;
+    }
+
+    &__checkbox-container-5 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__oil-and-gas-container {
+        margin-left: 163px;
+    }
+
+    &__checkbox-container-6 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__pharmaceuticals-container {
+        margin-left: 216px;
+    }
+
+    &__checkbox-container-7 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__power-and-utilities-container {
+        margin-left: 201px;
+    }
+
+    &__checkbox-container-8 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__professional-services-consulting-container {
+        margin-left: 226px;
+    }
+
+    &__checkbox-container-9 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__telecommunications-container {
+        margin-left: 199px;
+    }
+
+    &__checkbox-container-10 {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 80px;
+    }
+
+    &__other-container {
+        margin-left: 211px;
+    }
+
+    &__full-name-admin-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+
+    &__full-name-admin-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-1 {
+        margin-top: 32px;
+        margin-left: 72px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-2 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__bold {
+        font-weight: 500;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-3 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-4 {
+        margin-left: 160px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-5 {
+        margin-left: 160px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-6 {
+        margin-left: 160px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-7 {
+        margin-left: 160px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-8 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-9 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-10 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-11 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__rules-line-12 {
+        margin-left: 84px;
+        font-family: 'Roboto';
+    }
+
+    &__password-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+
+    &__password-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+        font-family: 'Roboto';
+    }
+
+    &__dont-show-icon-password {
+        position: absolute;
+        top: 2120px;
+        left: 600px;
+    }
+
+    &__confirm-password-label {
+        margin-top: 48px;
+        margin-left: 64px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+
+    &__confirm-password-input {
+        display: block;
+        width: 600px;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        margin-top: 3px;
+        margin-left: 64px;
+        font-family: 'Roboto';
+    }
+
+    &__dont-show-icon-confirm-password {
+        position: absolute;
+        top: 2252px;
+        left: 600px;
+    }
+
+    &__terms-and-conditions {
+        margin-left: 64px;
+        margin-top: 28px;
+        font-family: 'Roboto';
+    }
+
+    &__terms-and-conditions-checkbox {
+        width: 36px;
+    }
+
+    &__view-agreement {
+        text-decoration: underline;
+        margin-left: 72px;
+        color: $logo-orange;
+        font-family: 'Roboto';
+    }
+
+    &__next-button {
+        margin-top: 42px;
+        margin-left: 260px;
+        background-color: $access-blue;
+        border: 1px solid $access-blue;
+        width: 170px;
+        height: 50px;
+        color: white;
+        border-radius: 48px;
+        padding-left: 10px;
+        font-weight: 500;
+        font-family: 'Roboto';
+    }
+
+    &__terms-of-use {
+        margin-top: 48px;
+        margin-left: 84px;
+        text-align: center;
+        width: 500px;
+        font-family: 'Roboto';
+    }
+
+    &__terms-of-use-text {
+        color: $logo-blue;
+        text-decoration: underline;
+        font-family: 'Roboto';
+    }
+
+    &__privacy-policy {
+        color: $logo-blue;
+        text-decoration: underline;
+        font-family: 'Roboto';
+    }
+
+    &__agree-terms-and-conditions-container {
+        margin-top: 28px;
+        margin-bottom: 16px;
+        margin-left: 72px;
+    }
+
+    &__error-message {
+        margin-left: 64px;
+        margin-top: 8px;
+        font-family: 'Roboto';
+    }
+
+    &__checkbox-icon {
+        width: 36px;
+    }
+
+}
+
+@include tablet {
+
+    .agency-information-clerk-page {
+
+        padding-bottom: 15rem;
+
+        &__mlsa-logo {
+            width: 525px;
+            margin-left: 260px;
+            margin-top: 72px;
+        }
+
+        &__header {
+            font-size: 50px;
+            font-weight: 700;
+            margin-top: 48px;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        &__instructions {
+            margin-top: 40px;
+            margin-left: 316px;
+            font-size: 18px;
+        }
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__input-container {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        &__staffing-agency-name-label {
+            font-weight: 500;
+        }
+    
+        &__red-asterisk-icon {
+            width: 10px;
+            margin-bottom: 12px;
+        }
+
+        &__staffing-agency-name-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__staffing-agency-ein-label {
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__staffing-agency-ein-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__staffing-agency-website-label {
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__staffing-agency-website-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__industry-field-label {
+            font-weight: 500;
+            margin-top: 24px;
+            margin-left: 0px;
+        }
+    
+        &__industry-field-description {
+            margin-left: 0px;
+            margin-top: 0px;
+            // margin-right: 24px;
+            width: 450px;
+            text-align: justify;
+        }
+
+        &__checkbox-container-1 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    
+        &__hospitality-and-leisure-container {
+            margin-left: 95px;
+        }
+    
+        &__checkbox-container-2 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__insurance-container {
+            margin-left: 180px;
+        }
+    
+        &__checkbox-container-3 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__landscaping-container {
+            margin-left: 66px;
+        }
+
+        &__checkbox-container-4 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__manufacturing-container {
+            margin-left: 173px;
+        }
+
+        &__checkbox-container-5 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__oil-and-gas-container {
+            margin-left: 141px;
+        }
+    
+        &__checkbox-container-6 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__pharmaceuticals-container {
+            margin-left: 194px;
+        }
+
+        &__checkbox-container-7 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__power-and-utilities-container {
+            margin-left: 179px;
+        }
+    
+        &__checkbox-container-8 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+
+        &__professional-services-consulting-container {
+            margin-left: 203px;
+            font-size: 14px;
+        }
+
+        &__checkbox-container-9 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+
+        &__telecommunications-container {
+            margin-left: 176px;
+        }
+
+        &__checkbox-container-10 {
+            display: flex;
+            margin-top: 12px;
+            margin-left: 0px;
+        }
+    
+        &__other-container {
+            margin-left: 188px;
+        }
+
+        &__full-name-admin-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__dont-show-icon-admin {
+            position: absolute;
+            top: 500px;
+            left: 900px;
+        }
+    
+        &__full-name-admin-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-1 {
+            margin-top: 24px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-2 {
+            margin-left: 24px;
+        }
+
+        &__bold {
+            font-weight: 500;
+        }
+    
+        &__rules-line-3 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-4 {
+            margin-left: 72px;
+        }
+    
+        &__rules-line-5 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-6 {
+            margin-left: 72px;
+        }
+    
+        &__rules-line-7 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-8 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-9 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-10 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-11 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-12 {
+            margin-left: 24px;
+        }
+
+        &__password-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+    
+        &__password-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-password {
+            position: absolute;
+            top: 1130px;
+            left: 900px;
+        }
+    
+        &__confirm-password-label {
+            margin-top: 16px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__confirm-password-input {
+            display: block;
+            width: 425px;
+            height: 50px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-confirm-password {
+            position: absolute;
+            top: 1225px;
+            left: 900px;
+        }
+
+        &__terms-and-conditions {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    
+        &__terms-and-conditions-checkbox {
+            width: 36px;
+        }
+
+        &__view-agreement {
+            text-decoration: underline;
+            margin-left: 8px;
+            color: $logo-orange;
+        }
+
+        &__next-button {
+            margin-top: 54px;
+            margin-left: 420px;
+            background-color: $access-blue;
+            border: 1px solid $access-blue;
+            width: 170px;
+            height: 50px;
+            color: white;
+            border-radius: 48px;
+            padding-left: 10px;
+            font-weight: 500;
+        }
+
+        &__terms-of-use {
+            margin-top: 48px;
+            margin-left: 235px;
+            text-align: center;
+            width: 500px;
+        }
+
+        &__terms-of-use-text {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+    
+        &__privacy-policy {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__left-container {
+            width: 50%;
+            margin-left: 16px;
+            margin-top: 32px;
+        }
+
+        &__right-container {
+            width: 50%;
+            margin-left: 16px;
+            margin-top: 32px;
+        }
+
+        &__agree-terms-and-conditions-container {
+            margin-top: 28px;
+            margin-bottom: 16px;
+            margin-left: 4px;
+        }
+
+        &__error-message {
+            margin-left: 0px;
+            margin-top: 8px;
+        }
+
+        &__agree-to-terms-and-conditions {
+            margin-left: 5px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .agency-information-clerk-page {
+
+        padding-bottom: 15rem;
+
+        &__mlsa-logo {
+            width: 600px;
+            margin-left: 650px;
+            margin-top: 72px;
+        }
+
+        &__header {
+            font-size: 54px;
+            font-weight: 700;
+            margin-top: 48px;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+        &__instructions {
+            margin-top: 48px;
+            margin-left: 743px;
+            font-size: 18px;
+        }
+
+        &__main-container {
+            display: flex;
+        }
+
+        &__input-container {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        &__staffing-agency-name-label {
+            font-weight: 500;
+        }
+    
+        &__red-asterisk-icon {
+            width: 10px;
+            margin-bottom: 12px;
+        }
+
+        &__staffing-agency-name-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__staffing-agency-ein-label {
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__staffing-agency-ein-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__staffing-agency-website-label {
+            font-weight: 500;
+            margin-top: 24px;
+        }
+
+        &__staffing-agency-website-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+        }
+
+        &__industry-field-label {
+            font-weight: 500;
+            margin-top: 24px;
+            margin-left: 0px;
+        }
+    
+        &__industry-field-description {
+            margin-left: 0px;
+            margin-top: 0px;
+            // margin-right: 24px;
+            width: 450px;
+            text-align: justify;
+        }
+
+        &__checkbox-container-1 {
+            display: flex;
+            margin-top: 0px;
+            margin-left: 9px;
+        }
+
+        &__hospitality-and-leisure-checkbox {
+            margin-left: 28px;
+            width: 100px;
+        }
+
+        &__hospitality-and-leisure-container {
+            margin-left: 94px;
+        }
+
+        &__checkbox-container-2 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__insurance-container {
+            margin-left: 178px;
+        }
+
+        &__checkbox-container-3 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__landscaping-container {
+            margin-left: 64px;
+        }
+
+        &__checkbox-container-4 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__manufacturing-container {
+            margin-left: 170px;
+        }
+
+        &__checkbox-container-5 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__oil-and-gas-container {
+            margin-left: 138px;
+        }
+
+        &__checkbox-container-6 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__pharmaceuticals-container {
+            margin-left: 190px;
+        }
+
+        &__checkbox-container-7 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__power-and-utilities-container {
+            margin-left: 174px;
+        }
+
+        &__checkbox-container-8 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__professional-services-consulting-container {
+            margin-left: 198px;
+        }
+
+        &__checkbox-container-9 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+
+        &__telecommunications-container {
+            margin-left: 170px;
+        }
+
+        &__checkbox-container-10 {
+            display: flex;
+            margin-top: 24px;
+            margin-left: 9px;
+        }
+    
+        &__other-container {
+            margin-left: 182px;
+        }
+
+        &__full-name-admin-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__dont-show-icon-admin {
+            position: absolute;
+            top: 500px;
+            left: 900px;
+        }
+
+        &__full-name-admin-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-1 {
+            margin-top: 24px;
+            margin-left: 0px;
+        }
+
+        &__rules-line-2 {
+            margin-left: 24px;
+        }
+
+        &__bold {
+            font-weight: 500;
+        }
+    
+        &__rules-line-3 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-4 {
+            margin-left: 72px;
+        }
+    
+        &__rules-line-5 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-6 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-7 {
+            margin-left: 72px;
+        }
+
+        &__rules-line-8 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-9 {
+            margin-left: 24px;
+        }
+
+        &__rules-line-10 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-11 {
+            margin-left: 24px;
+        }
+    
+        &__rules-line-12 {
+            margin-left: 24px;
+        }
+
+        &__password-label {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+    
+        &__password-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-password {
+            position: absolute;
+            top: 1163px;
+            left: 1600px;
+        }
+    
+        &__confirm-password-label {
+            margin-top: 16px;
+            margin-left: 0px;
+            font-weight: 500;
+            font-size: inherit;
+        }
+
+        &__confirm-password-input {
+            display: block;
+            width: 600px;
+            height: 53px;
+            border-radius: 6px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+
+        &__dont-show-icon-confirm-password {
+            position: absolute;
+            top: 1260px;
+            left: 1600px;
+        }
+
+        &__terms-and-conditions {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    
+        &__terms-and-conditions-checkbox {
+            width: 36px;
+        }
+
+        &__view-agreement {
+            text-decoration: underline;
+            margin-left: 8px;
+            color: $logo-orange;
+        }
+
+        &__next-button {
+            margin-top: 64px;
+            margin-left: 830px;
+            background-color: $access-blue;
+            border: 1px solid $access-blue;
+            width: 170px;
+            height: 50px;
+            color: white;
+            border-radius: 48px;
+            padding-left: 10px;
+            font-weight: 500;
+        }
+
+        &__terms-of-use {
+            margin-top: 78px;
+            margin-left: 650px;
+            text-align: center;
+            width: 500px;
+        }
+
+        &__terms-of-use-text {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__privacy-policy {
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+
+        &__left-container {
+            width: 50%;
+            margin-left: 180px;
+            margin-top: 72px;
+        }
+
+        &__right-container {
+            width: 50%;
+            margin-left: 32px;
+            margin-top: 72px;
+        }
+
+        &__agree-terms-and-conditions-container {
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        &__error-message {
+            margin-left: 0px;
+            margin-top: 8px;
+        }
+
+    }
+
+}

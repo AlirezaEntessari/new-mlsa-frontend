@@ -16,6 +16,11 @@
         margin-left: 180px;
     }
 
+    &__mobile-first-half-container {
+        background-color: $my-candidates-light-orange;
+        padding-right: 32px;
+    }
+
     &__mobile-quick-search-text {
         margin-top: 16px;
     }
@@ -59,6 +64,7 @@
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
+        background-color: $white-background;
     }
 
     &__mobile-notifications-header {
@@ -114,9 +120,9 @@
     }
 
     &__mobile-vertical-slider-messages-icon {
-        width: 36px;
+        width: 42px;
         position: absolute;
-        top: 550px;
+        top: 548px;
         right: 48px;
     }
 
@@ -129,6 +135,7 @@
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
+        background-color: $white-background;
     }
 
     &__mobile-messages-top-container {
@@ -256,6 +263,7 @@
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
+        background-color: $white-background;
     }
 
     &__mobile-tasks-header-container {
@@ -319,9 +327,9 @@
     }
 
     &__mobile-tasks-vertical-slider-messages-icon {
-        width: 36px;
+        width: 42px;
         position: absolute;
-        top: 1662px;
+        top: 1670px;
         right: 36px;
     }
 
@@ -334,6 +342,7 @@
         border-bottom-left-radius: 28px;
         border-top-right-radius: 28px;
         border-bottom-right-radius: 28px;
+        background-color: $white-background;
     }
 
     &__mobile-activity-summary-top-container {

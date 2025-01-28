@@ -100,7 +100,7 @@ export default function SignUpClerkPage() {
           </Link>
         </SignedOut>
         <SignedIn>
-          <Navigate to="/login-page" />
+          <Navigate to="/membership-plan-clerk-page" />
         </SignedIn>
       </div>
       <p className="sign-up-clerk__already-have-account">

@@ -46,7 +46,7 @@ export default function DashboardHomePage() {
         <DashboardSidePanel />
         <div className="dashboard-home-page__right-container">
           <div className="dashboard-home-page__mobile-container">
-            <div className="dashboard-home-page__mobile__mobile-first-half-container">
+            <div className="dashboard-home-page__mobile-first-half-container">
               <div className="dashboard-home-page__mobile-top-container">
                 <label
                   className="dashboard-home-page__mobile-quick-search-text"
@@ -343,427 +343,427 @@ export default function DashboardHomePage() {
                   alt="Vertical Slider Messages Icon"
                 />
               </div>
-              <div className="dashboard-home-page__mobile-activity-summary-container">
-                <div className="dashboard-home-page__mobile-activity-summary-top-container">
-                  <p className="dashboard-home-page__mobile-activity-summary-header">
-                    Activity Summary
-                  </p>
-                  <div className="dashboard-home-page__mobile-activity-summary-jobs-candidates-placements-container">
-                    <div className="dashboard-home-page__mobile-activity-summary-jobs-container">
-                      <p className="dashboard-home-page__mobile-activity-summary-jobs-text">
-                        Jobs
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-jobs-number">
-                        17
-                      </p>
-                    </div>
-                    <div className="dashboard-home-page__mobile-activity-summary-candidates-container">
-                      <p className="dashboard-home-page__mobile-activity-summary-candidates-text">
-                        Candidates
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-candidates-number">
-                        12
-                      </p>
-                    </div>
-                    <div className="dashboard-home-page__mobile-activity-summary-placements-container">
-                      <p className="dashboard-home-page__mobile-activity-summary-placements-text">
-                        Placements
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-placements-number">
-                        29
-                      </p>
-                    </div>
+            </div>
+            <div className="dashboard-home-page__mobile-activity-summary-container">
+              <div className="dashboard-home-page__mobile-activity-summary-top-container">
+                <p className="dashboard-home-page__mobile-activity-summary-header">
+                  Activity Summary
+                </p>
+                <div className="dashboard-home-page__mobile-activity-summary-jobs-candidates-placements-container">
+                  <div className="dashboard-home-page__mobile-activity-summary-jobs-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-jobs-text">
+                      Jobs
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-jobs-number">
+                      17
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__mobile-activity-summary-candidates-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-candidates-text">
+                      Candidates
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-candidates-number">
+                      12
+                    </p>
+                  </div>
+                  <div className="dashboard-home-page__mobile-activity-summary-placements-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-placements-text">
+                      Placements
+                    </p>
+                    <p className="dashboard-home-page__mobile-activity-summary-placements-number">
+                      29
+                    </p>
                   </div>
                 </div>
-                <div className="dashboard-home-page__mobile-activity-summary-my-jobs-container">
-                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-text">
-                    MY JOBS
+              </div>
+              <div className="dashboard-home-page__mobile-activity-summary-my-jobs-container">
+                <p className="dashboard-home-page__mobile-activity-summary-my-jobs-text">
+                  MY JOBS
+                </p>
+                <img
+                  className="dashboard-home-page__mobile-blue-dash-divider-icon"
+                  src={BlueDashDividerIcon}
+                  alt="Blue Dash Divider Icon"
+                />
+              </div>
+              <div className="dashboard-home-page__mobile-activity-summary-my-jobs-dashboard-container">
+                <div className="dashboard-home-page__mobile-activity-summary-my-jobs-top-dashboard-container">
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-all-jobs">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-all-jobs-dot-icon"
+                      src={AllJobsDotIcon}
+                      alt="All Jobs Dot Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-all-jobs-text">
+                      All Jobs
+                    </span>
                   </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-pending">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-pending-bullet-icon"
+                      src={JobsPendingBulletIcon}
+                      alt="Jobs Pending Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-pending-text">
+                      Pending
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-reviews">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-reviews-bullet-icon"
+                      src={JobsReviewsBulletIcon}
+                      alt="Jobs Reviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-reviews-text">
+                      Reviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-submissions">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-submissions-bullet-icon"
+                      src={JobsSubmissionsBulletIcon}
+                      alt="Jobs Submissions Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-submissions-text">
+                      Submissions
+                    </span>
+                  </p>
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-my-jobs-bottom-dashboard-container">
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-interviews">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-interviews-bullet-icon"
+                      src={JobsInterviewsBulletIcon}
+                      alt="Jobs Interviews Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-interviews-text">
+                      Interviews
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-offers">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-offers-bullet-icon"
+                      src={JobsOffersBulletIcon}
+                      alt="Jobs Offers Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-offers-text">
+                      Offers
+                    </span>
+                  </p>
+                  <p className="dashboard-home-page__mobile-activity-summary-my-jobs-placements">
+                    <img
+                      className="dashboard-home-page__mobile-activity-summary-jobs-placements-bullet-icon"
+                      src={JobsPlacementsBulletIcon}
+                      alt="Jobs Placements Bullet Icon"
+                    />
+                    <span className="dashboard-home-page__mobile-activity-summary-jobs-placements-text">
+                      Placements
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="dashboard-home-page__mobile-activity-summary-description-status-applicants-container">
+                <p className="dashboard-home-page__mobile-activity-summary-description">
+                  DESCRIPTION
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-status">
+                  STATUS
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-applicants">
+                  APPLICANTS
+                </p>
+              </div>
+              <div className="dashboard-home-page__mobile-activity-summary-job-openings-container">
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech">
+                  CT Tech at Berkshire Medical Center
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-description">
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-nature">
+                    Contract
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-duration">
+                    27 days Remaining
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-status">
+                    Active
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-number">
+                    5
+                  </span>
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech">
+                  Ultrasound Tech at Texas Health Presbyterian
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-description">
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-nature">
+                    Contract
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-duration">
+                    28 Days Remaining
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-status">
+                    Active
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-number">
+                    8
+                  </span>
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna">
+                  CNA at Atrium Health Union West
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna-description">
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-nature">
+                    Contract
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-duration">
+                    29 Days Remaining
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-status">
+                    Active
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-number">
+                    10
+                  </span>
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma">
+                  Allied CMA at Texas Health Presbyterian
+                </p>
+                <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-description">
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-nature">
+                    Contract
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-duration">
+                    30 Days Remaining
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-status">
+                    Expired
+                  </span>
+                  <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-number">
+                    4
+                  </span>
+                </p>
+                <div className="dashboard-home-page__mobile-activity-summary-job-openings-navigation-container">
                   <img
-                    className="dashboard-home-page__mobile-blue-dash-divider-icon"
-                    src={BlueDashDividerIcon}
-                    alt="Blue Dash Divider Icon"
+                    className="dashboard-home-page__mobile-activity-summary-job-openings-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-blue-one-icon"
+                    src={PageNumberBlueOneIcon}
+                    alt="Page Number Blue One Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-activity-summary-job-openings-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
                   />
                 </div>
-                <div className="dashboard-home-page__mobile-activity-summary-my-jobs-dashboard-container">
-                  <div className="dashboard-home-page__mobile-activity-summary-my-jobs-top-dashboard-container">
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-all-jobs">
+              </div>
+              <div className="dashboard-home-page__mobile-activity-summary-my-candidates-container">
+                <div className="dashboard-home-page__mobile-activity-summary-my-candidates-top-container">
+                  <p className="dashboard-home-page__mobile-activity-summary-my-candidates-text">
+                    MY CANDIDATES
+                  </p>
+                  <img
+                    className="dashboard-home-page__mobile-activity-summary-orange-dash-divider-icon"
+                    src={OrangeDashDividerIcon}
+                    alt="Orange Dash Divider Icon"
+                  />
+                </div>
+                <div className="dashboard-home-page__mobile-activity-summary-dashboard-container">
+                  <div className="dashboard-home-page__mobile-activity-summary-dashboard-top-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-all-candidates">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-all-jobs-dot-icon"
-                        src={AllJobsDotIcon}
-                        alt="All Jobs Dot Icon"
+                        className="dashboard-home-page__mobile-all-candidates-dash-dot-icon"
+                        src={AllCandidatesDashDotIcon}
+                        alt="All Candidates Dash Dot Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-all-jobs-text">
-                        All Jobs
+                      <span className="dashboard-home-page__mobile-activity-summary-all-candidates-text">
+                        All Candidates
                       </span>
                     </p>
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-pending">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-pending">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-pending-bullet-icon"
-                        src={JobsPendingBulletIcon}
-                        alt="Jobs Pending Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-pending-icon"
+                        src={MyCandidatesPendingIcon}
+                        alt="My Candidates Pending Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-pending-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-pending-text">
                         Pending
                       </span>
                     </p>
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-reviews">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-reviews">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-reviews-bullet-icon"
-                        src={JobsReviewsBulletIcon}
-                        alt="Jobs Reviews Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-reviews-icon"
+                        src={MyCandidatesReviewsIcon}
+                        alt="My Candidates Reviews Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-reviews-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-reviews-text">
                         Reviews
                       </span>
                     </p>
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-submissions">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-submissions">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-submissions-bullet-icon"
-                        src={JobsSubmissionsBulletIcon}
-                        alt="Jobs Submissions Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-submissions-icon"
+                        src={MyCandidatesSubmissionsIcon}
+                        alt="My Candidates Submissions Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-submissions-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-submissions-text">
                         Submissions
                       </span>
                     </p>
                   </div>
-                  <div className="dashboard-home-page__mobile-activity-summary-my-jobs-bottom-dashboard-container">
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-interviews">
+                  <div className="dashboard-home-page__mobile-activity-summary-dashboard-bottom-container">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-interviews">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-interviews-bullet-icon"
-                        src={JobsInterviewsBulletIcon}
-                        alt="Jobs Interviews Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-interviews-icon"
+                        src={MyCandidatesInterviewsIcon}
+                        alt="My Candidates Interviews Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-interviews-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-dashboard-interviews-text">
                         Interviews
                       </span>
                     </p>
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-offers">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-offers">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-offers-bullet-icon"
-                        src={JobsOffersBulletIcon}
-                        alt="Jobs Offers Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-offers-icon"
+                        src={MyCandidatesOffersIcon}
+                        alt="My Candidates Offers Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-offers-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-offers-text">
                         Offers
                       </span>
                     </p>
-                    <p className="dashboard-home-page__mobile-activity-summary-my-jobs-placements">
+                    <p className="dashboard-home-page__mobile-activity-summary-dashboard-placements">
                       <img
-                        className="dashboard-home-page__mobile-activity-summary-jobs-placements-bullet-icon"
-                        src={JobsPlacementsBulletIcon}
-                        alt="Jobs Placements Bullet Icon"
+                        className="dashboard-home-page__mobile-my-candidates-placements-icon"
+                        src={MyCandidatesPlacementsIcon}
+                        alt="My Candidates Placements Icon"
                       />
-                      <span className="dashboard-home-page__mobile-activity-summary-jobs-placements-text">
+                      <span className="dashboard-home-page__mobile-activity-summary-placements-text">
                         Placements
                       </span>
                     </p>
                   </div>
                 </div>
-                <div className="dashboard-home-page__mobile-activity-summary-description-status-applicants-container">
-                  <p className="dashboard-home-page__mobile-activity-summary-description">
+                <div className="dashboard-home-page__mobile-my-candidates-description-status-requests-container">
+                  <p className="dashboard-home-page__mobile-my-candidates-description-text">
                     DESCRIPTION
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-status">
+                  <p className="dashboard-home-page__mobile-my-candidates-status-text">
                     STATUS
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-applicants">
-                    APPLICANTS
+                  <p className="dashboard-home-page__mobile-my-candidates-requests-text">
+                    REQUESTS
                   </p>
                 </div>
-                <div className="dashboard-home-page__mobile-activity-summary-job-openings-container">
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech">
-                    CT Tech at Berkshire Medical Center
+                <div className="dashboard-home-page__mobile-my-candidates-dashboard-container">
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton">
+                    Ann Morton
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-description">
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-nature">
-                      Contract
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-description">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-job-title">
+                      RN - ER
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-duration">
-                      27 days Remaining
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-duration">
+                      27 Days Remaining
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-status">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-status">
                       Active
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ct-tech-job-number">
-                      5
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-number-of-jobs">
+                      2 Jobs
                     </span>
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech">
-                    Ultrasound Tech at Texas Health Presbyterian
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis">
+                    Sarah Davis
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-description">
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-nature">
-                      Contract
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-description">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-job-title">
+                      Ultrasound Tech
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-duration">
-                      28 Days Remaining
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-duration">
+                      34 Days Remaining
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-status">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-status">
                       Active
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-ultrasound-tech-job-number">
-                      8
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-number-of-jobs">
+                      4 Jobs
                     </span>
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna">
-                    CNA at Atrium Health Union West
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams">
+                    Joe Williams
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-cna-description">
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-nature">
-                      Contract
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-description">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-job-title">
+                      CNA
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-duration">
-                      29 Days Remaining
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-duration">
+                      35 Days Remaining
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-status">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-status">
                       Active
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-cna-job-number">
-                      10
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-number-of-jobs">
+                      5 Jobs
                     </span>
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma">
-                    Allied CMA at Texas Health Presbyterian
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson">
+                    Tim Peterson
                   </p>
-                  <p className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-description">
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-nature">
-                      Contract
+                  <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-description">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-job-title">
+                      RN-ER
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-duration">
-                      30 Days Remaining
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-duration">
+                      0 Days Remaining
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-status">
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-status">
                       Expired
                     </span>
-                    <span className="dashboard-home-page__mobile-activity-summary-job-openings-allied-cma-job-number">
-                      4
+                    <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-number-of-jobs">
+                      0 Jobs
                     </span>
                   </p>
-                  <div className="dashboard-home-page__mobile-activity-summary-job-openings-navigation-container">
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-job-openings-left-arrow-icon"
-                      src={LeftArrowIcon}
-                      alt="Left Arrow Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-blue-one-icon"
-                      src={PageNumberBlueOneIcon}
-                      alt="Page Number Blue One Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-two-icon"
-                      src={PageNumberGrayTwoIcon}
-                      alt="Page Number Gray Two Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-job-openings-page-number-gray-three-icon"
-                      src={PageNumberGrayThreeIcon}
-                      alt="Page Number Gray Three Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-job-openings-right-arrow-icon"
-                      src={RightArrowIcon}
-                      alt="Right Arrow Icon"
-                    />
-                  </div>
                 </div>
-                <div className="dashboard-home-page__mobile-activity-summary-my-candidates-container">
-                  <div className="dashboard-home-page__mobile-activity-summary-my-candidates-top-container">
-                    <p className="dashboard-home-page__mobile-activity-summary-my-candidates-text">
-                      MY CANDIDATES
-                    </p>
-                    <img
-                      className="dashboard-home-page__mobile-activity-summary-orange-dash-divider-icon"
-                      src={OrangeDashDividerIcon}
-                      alt="Orange Dash Divider Icon"
-                    />
-                  </div>
-                  <div className="dashboard-home-page__mobile-activity-summary-dashboard-container">
-                    <div className="dashboard-home-page__mobile-activity-summary-dashboard-top-container">
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-all-candidates">
-                        <img
-                          className="dashboard-home-page__mobile-all-candidates-dash-dot-icon"
-                          src={AllCandidatesDashDotIcon}
-                          alt="All Candidates Dash Dot Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-all-candidates-text">
-                          All Candidates
-                        </span>
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-pending">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-pending-icon"
-                          src={MyCandidatesPendingIcon}
-                          alt="My Candidates Pending Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-pending-text">
-                          Pending
-                        </span>
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-reviews">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-reviews-icon"
-                          src={MyCandidatesReviewsIcon}
-                          alt="My Candidates Reviews Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-reviews-text">
-                          Reviews
-                        </span>
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-submissions">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-submissions-icon"
-                          src={MyCandidatesSubmissionsIcon}
-                          alt="My Candidates Submissions Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-submissions-text">
-                          Submissions
-                        </span>
-                      </p>
-                    </div>
-                    <div className="dashboard-home-page__mobile-activity-summary-dashboard-bottom-container">
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-interviews">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-interviews-icon"
-                          src={MyCandidatesInterviewsIcon}
-                          alt="My Candidates Interviews Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-dashboard-interviews-text">
-                          Interviews
-                        </span>
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-offers">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-offers-icon"
-                          src={MyCandidatesOffersIcon}
-                          alt="My Candidates Offers Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-offers-text">
-                          Offers
-                        </span>
-                      </p>
-                      <p className="dashboard-home-page__mobile-activity-summary-dashboard-placements">
-                        <img
-                          className="dashboard-home-page__mobile-my-candidates-placements-icon"
-                          src={MyCandidatesPlacementsIcon}
-                          alt="My Candidates Placements Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-activity-summary-placements-text">
-                          Placements
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="dashboard-home-page__mobile-my-candidates-description-status-requests-container">
-                    <p className="dashboard-home-page__mobile-my-candidates-description-text">
-                      DESCRIPTION
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-status-text">
-                      STATUS
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-requests-text">
-                      REQUESTS
-                    </p>
-                  </div>
-                  <div className="dashboard-home-page__mobile-my-candidates-dashboard-container">
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton">
-                      Ann Morton
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-description">
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-job-title">
-                        RN - ER
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-duration">
-                        27 Days Remaining
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-status">
-                        Active
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-ann-morton-number-of-jobs">
-                        2 Jobs
-                      </span>
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis">
-                      Sarah Davis
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-description">
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-job-title">
-                        Ultrasound Tech
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-duration">
-                        34 Days Remaining
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-status">
-                        Active
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-sarah-davis-number-of-jobs">
-                        4 Jobs
-                      </span>
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams">
-                      Joe Williams
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-description">
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-job-title">
-                        CNA
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-duration">
-                        35 Days Remaining
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-status">
-                        Active
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-joe-williams-number-of-jobs">
-                        5 Jobs
-                      </span>
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson">
-                      Tim Peterson
-                    </p>
-                    <p className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-description">
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-job-title">
-                        RN-ER
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-duration">
-                        0 Days Remaining
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-status">
-                        Expired
-                      </span>
-                      <span className="dashboard-home-page__mobile-my-candidates-dashboard-tim-peterson-number-of-jobs">
-                        0 Jobs
-                      </span>
-                    </p>
-                  </div>
-                  <div className="dashboard-home-page__mobile-my-candidates-navigation-container">
-                    <img
-                      className="dashboard-home-page__mobile-my-candidates-left-arrow-icon"
-                      src={LeftArrowIcon}
-                      alt="Left Arrow Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-my-candidates-page-number-peach-one-icon"
-                      src={PageNumberPeachOneIcon}
-                      alt="Page Number Peach One Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-my-candidates-page-number-gray-two-icon"
-                      src={PageNumberGrayTwoIcon}
-                      alt="Page Number Gray Two Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-my-candidates-page-number-gray-three-icon"
-                      src={PageNumberGrayThreeIcon}
-                      alt="Page Number Gray Three Icon"
-                    />
-                    <img
-                      className="dashboard-home-page__mobile-my-candidates-page-number-right-arrow-icon"
-                      src={RightArrowIcon}
-                      alt="Right Arrow Icon"
-                    />
-                  </div>
+                <div className="dashboard-home-page__mobile-my-candidates-navigation-container">
+                  <img
+                    className="dashboard-home-page__mobile-my-candidates-left-arrow-icon"
+                    src={LeftArrowIcon}
+                    alt="Left Arrow Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-my-candidates-page-number-peach-one-icon"
+                    src={PageNumberPeachOneIcon}
+                    alt="Page Number Peach One Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-my-candidates-page-number-gray-two-icon"
+                    src={PageNumberGrayTwoIcon}
+                    alt="Page Number Gray Two Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-my-candidates-page-number-gray-three-icon"
+                    src={PageNumberGrayThreeIcon}
+                    alt="Page Number Gray Three Icon"
+                  />
+                  <img
+                    className="dashboard-home-page__mobile-my-candidates-page-number-right-arrow-icon"
+                    src={RightArrowIcon}
+                    alt="Right Arrow Icon"
+                  />
                 </div>
               </div>
             </div>
