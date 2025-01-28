@@ -1,0 +1,1835 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.activity-summary {
+
+    &__mobile-activity-summary-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $medium-dark-gray;
+        width: 440px;
+        height: 1980px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        background-color: $white-background;
+    }
+
+    &__mobile-activity-summary-top-container {
+        display: flex;
+    }
+
+    &__mobile-activity-summary-jobs-candidates-placements-container {
+        margin-top: 16px;
+        margin-left: 36px;
+    }
+
+    &__mobile-activity-summary-header {
+        margin-top: 24px;
+        margin-left: 24px;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        color: $dark-gray;
+        font-size: 20px;
+    }
+
+    &__mobile-activity-summary-jobs-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-jobs-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 72px;
+    }
+
+    &__mobile-activity-summary-candidates-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 16px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-candidates-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-candidates-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 25px;
+    }
+
+    &__mobile-activity-summary-placements-container {
+        border: 1px solid $medium-gray;
+        width: 160px;
+        display: flex;
+        height: 54px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 16px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    &__mobile-activity-summary-placements-text {
+        font-weight: 500;
+        color: $dark-gray;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-placements-number {
+        font-weight: 500;
+        color: $dark-gray;
+        font-size: 32px;
+        margin-left: 20px;
+    }
+
+    &__mobile-activity-summary-my-jobs-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-my-jobs-text {
+        color: $access-blue;
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__mobile-blue-dash-divider-icon {
+        width: 300px;
+        margin-left: 22px;
+    }
+
+    &__mobile-activity-summary-my-jobs-dashboard-container {
+        margin-top: 24px;
+    }
+
+    &__mobile-activity-summary-my-jobs-top-dashboard-container {
+        display: flex;
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-all-jobs-dot-icon {
+        width: 18px;
+    }
+
+    &__mobile-activity-summary-all-jobs-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-pending {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-pending-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-pending-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-reviews {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-reviews-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-reviews-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-submissions {
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-jobs-submissions-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-submissions-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-bottom-dashboard-container {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__mobile-activity-summary-jobs-interviews-bullet-icon {
+        width: 12px;
+    }
+
+    &__mobile-activity-summary-jobs-interviews-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-offers {
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-jobs-offers-bullet-icon {
+        width: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-offers-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-my-jobs-placements {
+        margin-left: 43px;
+    }
+
+    &__mobile-activity-summary-jobs-placements-bullet-icon {
+        width: 10px;
+    }
+
+    &__mobile-activity-summary-jobs-placements-text {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-description-status-applicants-container {
+        display: flex;
+        padding-left: 16px;
+        margin-top: 24px;
+        background-color: $background-blue;
+        height: 60px;
+    }
+
+    &__mobile-activity-summary-description {
+        padding-top: 18px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-status {
+        padding-top: 18px;
+        padding-left: 100px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-applicants {
+        padding-top: 18px;
+        padding-left: 32px;
+        font-weight: 500;
+    }
+
+    &__mobile-activity-summary-job-openings-container {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-activity-summary-job-openings-ct-tech {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-activity-summary-job-openings-ct-tech-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+    }
+
+    &__mobile-activity-summary-job-openings-ct-tech-job-duration {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-ct-tech-job-status {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-ct-tech-job-number {
+        margin-left: 48px;
+        text-decoration: underline;
+    }
+
+    &__mobile-activity-summary-job-openings-ultrasound-tech {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-top: 24px;
+    }
+
+    &__mobile-activity-summary-job-openings-ultrasound-tech-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+    }
+
+    &__mobile-activity-summary-job-openings-ultrasound-tech-job-duration {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-ultrasound-tech-job-status {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-ultrasound-tech-job-number {
+        margin-left: 48px;
+        text-decoration: underline;
+    }
+
+    &__mobile-activity-summary-job-openings-cna {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-top: 24px;
+    }
+
+    &__mobile-activity-summary-job-openings-cna-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+    }
+
+    &__mobile-activity-summary-job-openings-cna-job-duration {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-cna-job-status {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-cna-job-number {
+        margin-left: 48px;
+        text-decoration: underline;
+    }
+
+    &__mobile-activity-summary-job-openings-allied-cma {
+        font-weight: 500;
+        text-decoration: underline;
+        margin-top: 24px;
+    }
+
+    &__mobile-activity-summary-job-openings-allied-cma-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+    }
+
+    &__mobile-activity-summary-job-openings-allied-cma-job-duration {
+        margin-left: 48px;
+    }
+
+    &__mobile-activity-summary-job-openings-allied-cma-job-status {
+        margin-left: 48px;
+        color: red;
+    }
+
+    &__mobile-activity-summary-job-openings-allied-cma-job-number {
+        margin-left: 48px;
+        text-decoration: underline;
+    }
+
+    &__mobile-activity-summary-job-openings-navigation-container {
+        margin-top: 48px;
+        margin-left: 86px;
+    }
+
+    &__mobile-activity-summary-job-openings-page-number-blue-one-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-job-openings-page-number-gray-two-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-job-openings-page-number-gray-three-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-job-openings-right-arrow-icon {
+        margin-left: 10px;
+    }
+
+    &__mobile-activity-summary-my-candidates-container {
+        margin-top: 72px;
+    }
+
+    &__mobile-activity-summary-my-candidates-top-container {
+        display: flex;
+    }
+
+    &__mobile-activity-summary-my-candidates-text {
+        color: $rust;
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 22px;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-orange-dash-divider-icon {
+        width: 250px;
+        margin-left: 8px;
+    }
+
+    &__mobile-activity-summary-dashboard-top-container {
+        display: flex;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    &__mobile-all-candidates-dash-dot-icon {
+        width: 18px;
+    }
+
+    &__mobile-activity-summary-all-candidates-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-dashboard-pending {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-pending-icon {
+        width: 14px;
+    }
+
+    &__mobile-activity-summary-pending-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-dashboard-reviews {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-reviews-icon {
+        width: 14px;
+    }
+
+    &__mobile-activity-summary-reviews-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-dashboard-submissions {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-submissions-icon {
+        width: 14px;
+    }
+
+    &__mobile-activity-summary-submissions-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-dashboard-bottom-container {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-interviews-icon {
+        width: 14px;
+    }
+
+    &__mobile-activity-summary-dashboard-interviews-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-activity-summary-dashboard-offers {
+        margin-left: 44px;
+    }
+
+    &__mobile-my-candidates-offers-icon {
+        width: 14px;
+    }
+
+    &__mobile-activity-summary-offers-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-my-candidates-placements-icon {
+        width: 14px;
+        margin-left: 28px;
+    }
+
+    &__mobile-activity-summary-placements-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-left: 6px;
+    }
+
+    &__mobile-my-candidates-description-status-requests-container {
+        display: flex;
+        background-color: $my-candidates-light-orange;
+        margin-top: 32px;
+        height: 64px;
+    }
+
+    &__mobile-my-candidates-description-text {
+        font-weight: 500;
+        padding-top: 22px;
+        padding-left: 28px;
+    }
+
+    &__mobile-my-candidates-status-text {
+        font-weight: 500;
+        padding-top: 22px;
+        padding-left: 110px;
+    }
+
+    &__mobile-my-candidates-requests-text {
+        font-weight: 500;
+        padding-top: 22px;
+        padding-left: 28px;
+    }
+
+    &__mobile-my-candidates-dashboard-container {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton {
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-duration {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-status {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-ann-morton-number-of-jobs {
+        margin-left: 32px;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-duration {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-status {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-sarah-davis-number-of-jobs {
+        margin-left: 20px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-duration {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-status {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-joe-williams-number-of-jobs {
+        margin-left: 36px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson {
+        margin-top: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-description {
+        border-bottom: 2px solid $medium-gray;
+        padding-bottom: 8px;
+        margin-top: 24px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-duration {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-status {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-dashboard-tim-peterson-number-of-jobs {
+        margin-left: 32px;
+    }
+
+    &__mobile-my-candidates-navigation-container {
+        margin-top: 64px;
+        margin-left: 104px;
+    }
+
+    &__mobile-my-candidates-page-number-peach-one-icon {
+        margin-left: 10px;   
+    }
+
+    &__mobile-my-candidates-page-number-gray-two-icon {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-page-number-gray-three-icon {
+        margin-left: 16px;
+    }
+
+    &__mobile-my-candidates-page-number-right-arrow-icon {
+        margin-left: 10px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .activity-summary {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+        &__tablet-activity-summary-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            border: 2px solid $medium-dark-gray;
+            width: 754px;
+            height: 1840px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-activity-summary-top-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+
+        &__tablet-activity-summary-header {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            color: $dark-gray;
+            font-size: 24px;
+        }
+
+        &__tablet-activity-summary-jobs-candidates-placements-container {
+            display: flex;
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-jobs-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__tablet-activity-summary-jobs-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-jobs-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 66px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-candidates-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-candidates-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-candidates-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 20px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-placements-container {
+            border: 1px solid $medium-gray;
+            width: 150px;
+            height: 60px;
+            display: flex;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-placements-text {
+            margin-left: 10px;
+            margin-top: 16px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-placements-number {
+            font-size: 20px;
+            font-weight: 500;
+            color: $dark-gray;
+            font-size: 32px;
+            margin-left: 14px;
+            margin-top: 2px;
+        }
+
+        &__tablet-activity-summary-my-jobs-header-container {
+            margin-top: 48px;
+            margin-left: 24px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-my-jobs-header-text {
+            color: $access-blue;
+            font-weight: 500;
+            font-size: 32px;
+        }
+
+        &__tablet-blue-dash-divider-icon {
+            width: 579px;
+            margin-left: 16px;
+        }
+
+        &__tablet-activity-summary-my-jobs-top-dashboard-container {
+            margin-top: 32px;
+            margin-left: 8px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-all-jobs-dot-icon {
+            width: 22px;
+        }
+
+        &__tablet-activity-summary-all-jobs-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-my-jobs-pending {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-pending-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-pending-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-reviews {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-reviews-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-reviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-submissions {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-submissions-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-submissions-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-interviews {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-interviews-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-interviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-offers {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-offers-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-offers-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-activity-summary-placements {
+            margin-left: 20px;
+        }
+
+        &__tablet-jobs-placements-bullet-icon {
+            width: 14px;
+        }
+
+        &__tablet-activity-summary-placements-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-description-status-applicants-container {
+            background-color: $background-blue;
+            display: flex;
+            margin-top: 32px;
+            height: 60px;
+        }
+
+        &__tablet-description-text {
+            padding-top: 18px;
+            padding-left: 32px;
+            font-weight: 500;
+        }
+
+        &__tablet-status-text {
+            padding-top: 18px;
+            padding-left: 320px;
+            font-weight: 500;
+        }
+
+        &__tablet-applicants-text {
+            padding-top: 18px;
+            padding-left: 72px;
+            font-weight: 500;
+        }
+
+        &__tablet-ct-tech {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-ct-tech-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-ct-tech-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-ct-tech-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-ct-tech-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-ultrasound-tech {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-ultrasound-tech-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-ultrasound-tech-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-ultrasound-tech-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-ultrasound-tech-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-cna {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-cna-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-cna-job-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-cna-job-status {
+            margin-left: 172px;
+        }
+
+        &__tablet-cna-job-number-of-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-allied-cma {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-allied-cma-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 8px;
+        }
+
+        &__tablet-allied-cma-duration {
+            margin-left: 60px;
+        }
+
+        &__tablet-allied-cma-status {
+            margin-left: 172px;
+            color: red;
+        }
+
+        &__tablet-allied-cma-applicants {
+            margin-left: 76px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-jobs-navigation-container {
+            margin-top: 60px;
+            margin-left: 270px;
+        }
+
+        &__tablet-page-number-blue-one-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-two-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-page-number-gray-three-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-right-arrow-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-activity-summary-my-candidates-header-container {
+            margin-top: 48px;
+            margin-left: 24px;
+            display: flex;
+        }
+
+        &__tablet-activity-summary-my-candidates-header-text {
+            color: $rust;
+            font-weight: 500;
+            font-size: 32px;
+        }
+
+        &__tablet-orange-dash-divider-icon {
+            width: 461px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-container {
+            margin-top: 32px;
+            margin-left: 8px;
+            display: flex;
+        }
+
+        &__tablet-all-candidates-dash-dot-icon {
+            width: 18px;
+        }
+
+        &__tablet-my-candidates-all-candidates-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-pending {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-pending-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-pending-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-reviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-reviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-reviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-submissions {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-submissions-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-submissions-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-interviews {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-interviews-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-interviews-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-offers {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-offers-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-offers-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-placements {
+            margin-left: 12px;
+        }
+
+        &__tablet-my-candidates-placements-icon {
+            width: 14px;
+        }
+
+        &__tablet-my-candidates-placements-text {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__tablet-my-candidates-description-status-requests-container {
+            background-color: $my-candidates-light-orange;
+            display: flex;
+            margin-top: 32px;
+            height: 60px;
+        }
+
+        &__tablet-my-candidates-description-text {
+            padding-top: 18px;
+            padding-left: 32px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-status-text {
+            padding-top: 18px;
+            padding-left: 320px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-requests-text {
+            padding-top: 18px;
+            padding-left: 72px;
+            font-weight: 500;
+        }
+
+        &__tablet-my-candidates-ann-morton {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-ann-morton-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-ann-morton-duration {
+            margin-left: 112px;
+        }
+
+        &__tablet-my-candidates-ann-morton-status {
+            margin-left: 124px;
+        }
+
+        &__tablet-my-candidates-ann-morton-requests {
+            margin-left: 94px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-sarah-davis {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-sarah-davis-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-duration {
+            margin-left: 54px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-status {
+            margin-left: 124px;
+        }
+
+        &__tablet-my-candidates-sarah-davis-requests {
+            margin-left: 94px;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-joe-williams {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-joe-williams-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-joe-williams-duration {
+            margin-left: 138px;
+        }
+
+        &__tablet-my-candidates-joe-williams-status {
+            margin-left: 122px;
+        }
+
+        &__tablet-my-candidates-joe-williams-requests {
+            text-decoration: underline;
+            margin-left: 94px;
+        }
+
+        &__tablet-my-candidates-tim-peterson {
+            margin-left: 32px;
+            margin-top: 32px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        &__tablet-my-candidates-tim-peterson-description {
+            margin-left: 32px;
+            border-bottom: 2px solid $medium-gray;
+            padding-bottom: 16px;
+        }
+
+        &__tablet-my-candidates-tim-peterson-duration {
+            margin-left: 120px;
+        }
+
+        &__tablet-my-candidates-tim-peterson-status {
+            margin-left: 124px;
+            color: red;
+        }
+
+        &__tablet-my-candidates-tim-peterson-requests {
+            text-decoration: underline;
+            margin-left: 91px;
+        }
+
+        &__tablet-my-candidates-navigation-container {
+            margin-top: 60px;
+            margin-left: 270px;
+        }
+
+        &__tablet-my-candidates-page-number-peach-one-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-page-number-gray-two-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-page-number-gray-three-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-my-candidates-right-arrow-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-central-container {
+            background-color: $my-candidates-light-orange;
+            padding-top: 32px;
+            padding-bottom: 64px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .activity-summary {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-activity-summary-container {
+            margin-left: 80px;
+            margin-top: 100px;
+            border: 2px solid $medium-dark-gray;
+            width: 1504px;
+            height: 1600px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__desktop-activity-summary-top-container {
+            margin-top: 40px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-activity-summary-header {
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            color: $dark-gray;
+            font-size: 28px;
+        }
+
+        &__desktop-activity-summary-jobs-candidates-placements-container {
+            display: flex;
+            margin-left: 360px;
+        }
+
+        &__desktop-activity-summary-jobs-container {
+            border: 1px solid $medium-dark-gray;
+            width: 200px;
+            display: flex;
+            height: 68px;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        &__desktop-activity-summary-jobs-text {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-activity-summary-jobs-number {
+            font-size: 40px;
+            color: $dark-gray;
+            font-weight: 700;
+            margin-left: 100px;
+        }
+
+        &__desktop-activity-summary-candidates-container {
+            border: 1px solid $medium-dark-gray;
+            width: 200px;
+            display: flex;
+            height: 68px;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 32px;
+        }
+
+        &__desktop-activity-summary-candidates-text {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-activity-summary-candidates-number {
+            font-size: 40px;
+            color: $dark-gray;
+            font-weight: 700;
+            margin-left: 48px;
+        }
+
+        &__desktop-activity-summary-placements-container {
+            border: 1px solid $medium-dark-gray;
+            width: 200px;
+            display: flex;
+            height: 68px;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 32px;
+        }
+
+        &__desktop-activity-summary-placements-text {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-activity-summary-placements-number {
+            font-size: 40px;
+            color: $dark-gray;
+            font-weight: 700;
+            margin-left: 48px;
+        }
+
+        &__desktop-activity-summary-my-jobs-top-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+
+        &__desktop-activity-summary-my-jobs-header {
+            color: $access-blue;
+            font-weight: 500;
+            font-size: 48px;
+        }
+
+        &__desktop-activity-summary-my-jobs-blue-dash-divider-icon {
+            width: 1144px;
+            margin-left: 80px;
+        }
+
+        &__desktop-activity-summary-my-jobs-dashboard-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-all-jobs-dot-icon {
+            width: 24px;
+        }
+
+        &__desktop-activity-summary-my-jobs-all-jobs-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-pending {
+            margin-left: 100px;
+        }
+
+        &__desktop-jobs-pending-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-pending-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-reviews {
+            margin-left: 100px;
+        }
+
+        &__desktop-jobs-reviews-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-reviews-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-submissions {
+             margin-left: 100px;
+        }
+
+        &__desktop-jobs-submissions-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-submissions-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-interviews {
+            margin-left: 100px;
+        }
+
+        &__desktop-jobs-interviews-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-interviews-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-offers {
+            margin-left: 100px;
+        }
+
+        &__desktop-jobs-offers-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-offers-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-placements {
+            margin-left: 100px;
+        }
+
+        &__desktop-jobs-placements-bullet-icon {
+            width: 16px;
+        }
+
+        &__desktop-activity-summary-my-jobs-placements-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-jobs-description-status-applicants-container {
+            display: flex;
+            margin-top: 48px;
+            background-color: $background-blue;
+            height: 72px;
+        }
+
+        &__desktop-activity-summary-my-jobs-description-text {
+            padding-top: 20px;
+            padding-left: 80px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-jobs-status-text {
+            padding-top: 20px;
+            padding-left: 912px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-jobs-applicants-text {
+            padding-top: 20px;
+            padding-left: 104px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-post-my-first-job-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 320px;
+            height: 50px;
+            margin-top: 72px;
+            margin-left: 570px;
+            border-radius: 32px;
+            font-size: 17px;
+        }
+
+        &__desktop-activity-summary-my-jobs-navigation-container {
+            margin-top: 72px;
+            margin-left: 610px;
+        }
+
+        &__desktop-activity-summary-my-jobs-page-number-blue-one-icon {
+            margin-left: 75px;
+        }
+
+        &__desktop-activity-summary-my-jobs-right-arrow-icon {
+            margin-left: 75px;
+        }
+
+        &__desktop-activity-summary-my-candidates-top-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+
+        &__desktop-activity-summary-my-candidates-header {
+            color: $logo-orange;
+            font-weight: 500;
+            font-size: 48px;
+        }
+
+        &__desktop-orange-dash-divider-icon {
+            width: 999px;
+            margin-left: 48px;
+        }
+
+        &__desktop-activity-summary-my-candidates-dashboard-container {
+            margin-top: 48px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-all-candidates-dash-dot-icon {
+            width: 26px;
+        }
+
+        &__desktop-activity-summary-my-candidates-all-candidates-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-pending {
+            margin-left: 88px;
+        }
+
+        &__desktop-my-candidates-pending-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-pending-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-reviews {
+            margin-left: 88px;
+        }
+
+        &__desktop-activity-summary-my-candidates-reviews-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-reviews-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-submissions {
+            margin-left: 88px;
+        }
+
+        &__desktop-activity-summary-my-candidates-submissions-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-submissions-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-interviews {
+            margin-left: 88px;
+        }
+
+        &__desktop-my-candidates-interviews-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-interviews-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-offers {
+            margin-left: 88px;
+        }
+
+        &__desktop-my-candidates-offers-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-offers-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-placements {
+            margin-left: 88px;
+        }
+
+        &__desktop-my-candidates-placements-icon {
+            width: 20px;
+        }
+
+        &__desktop-activity-summary-my-candidates-placements-text {
+            margin-left: 16px;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark-gray;
+        }
+
+        &__desktop-activity-summary-my-candidates-description-status-requests-container {
+            display: flex;
+            margin-top: 48px;
+            background-color: $my-candidates-light-orange;
+            height: 72px;
+        }
+
+        &__desktop-activity-summary-my-candidates-description-text {
+            padding-top: 20px;
+            padding-left: 80px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-candidates-status-text {
+            padding-top: 20px;
+            padding-left: 912px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-activity-summary-my-candidates-requests-text {
+            padding-top: 20px;
+            padding-left: 104px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        &__desktop-post-my-first-candidate-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 320px;
+            height: 50px;
+            margin-top: 72px;
+            margin-left: 570px;
+            border-radius: 32px;
+            font-size: 17px;
+        }
+
+        &__desktop-activity-summary-my-candidates-navigation-container {
+            margin-top: 72px;
+            margin-left: 610px;
+        }
+
+        &__desktop-activity-summary-my-candidates-page-number-peach-one-icon {
+            margin-left: 75px;
+        }
+
+        &__desktop-activity-summary-my-candidates-right-arrow-icon {
+            margin-left: 75px;
+        }
+
+    }
+
+}

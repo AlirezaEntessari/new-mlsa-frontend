@@ -87,6 +87,7 @@ import RatingsReceivingNegativeFeedbackEndDisputePage from './pages/RatingsRecei
 import DashboardHomePage from './pages/DashboardHomePage/DashboardHomePage';
 import DashboardQuickSearchResultsPage from './pages/DashboardQuickSearchResultsPage/DashboardQuickSearchResultsPage';
 import DashboardReadNotificationPage from './pages/DashboardReadNotificationPage/DashboardReadNotificationPage';
+import DashboardReadMessagePage from './pages/DashboardReadMessagePage/DashboardReadMessagePage';
 import SignUpClerkPage from './pages/SignUpClerkPage/SignUpClerkPage';
 import MembershipPlanClerkPage from './pages/MembershipPlanClerkPage/MembershipPlanClerkPage';
 import AgencyInformationClerkPage from './pages/AgencyInformationClerkPage/AgencyInformationClerkPage';
@@ -190,6 +191,7 @@ function App() {
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
         <Route path="/dashboard-quick-search-results-page" element={<DashboardQuickSearchResultsPage />} />
         <Route path="/dashboard-read-notification-page" element={<DashboardReadNotificationPage />} />
+        <Route path="/dashboard-read-message-page" element={<DashboardReadMessagePage />} />
         <Route path="/sign-up-clerk-page" element={<SignUpClerkPage />} />
         <Route path="/membership-plan-clerk-page" element={<MembershipPlanClerkPage />} />
         <Route path="/agency-information-clerk-page" element={<AgencyInformationClerkPage />} />

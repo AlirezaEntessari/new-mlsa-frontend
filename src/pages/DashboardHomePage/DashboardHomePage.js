@@ -100,23 +100,28 @@ export default function DashboardHomePage() {
                     </tr>
                   </thead>
                   <tbody className="dashboard-home-page__mobile-notifications-table-data-section">
-                    <tr className="dashboard-home-page__mobile-notifications-table-data-row-1">
-                      <td className="dashboard-home-page__mobile-notifications-table-data-row-1-value">
-                        <img
-                          className="dashboard-home-page__mobile-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot Icon"
-                        />
-                        <span className="dashboard-home-page__mobile-notifications-table-data-row-1-text">
-                          Welcome New MLSA Member!
-                        </span>
-                        <img
-                          className="dashboard-home-page__mobile-close-icon"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
+                    <Link
+                      className="dashboard-home-page__link"
+                      to="/dashboard-read-notification-page"
+                    >
+                      <tr className="dashboard-home-page__mobile-notifications-table-data-row-1">
+                        <td className="dashboard-home-page__mobile-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-home-page__mobile-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-home-page__mobile-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-home-page__mobile-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </Link>
                   </tbody>
                 </table>
                 <img
@@ -799,7 +804,6 @@ export default function DashboardHomePage() {
                   alt="Search Icon"
                 />
               </div>
-
               <div className="dashboard-home-page__tablet-notifications-messages-container">
                 <div className="dashboard-home-page__tablet-notifications-container">
                   <div className="dashboard-home-page__tablet-notifications-top-container">
@@ -821,23 +825,28 @@ export default function DashboardHomePage() {
                       </tr>
                     </thead>
                     <tbody className="dashboard-home-page__tablet-notifications-table-data-section">
-                      <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
-                        <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
-                          <img
-                            className="dashboard-home-page__tablet-orange-dot-icon"
-                            src={OrangeDotIcon}
-                            alt="Orange Dot Icon"
-                          />
-                          <span className="dashboard-home-page__tablet-notifications-table-data-row-1-text">
-                            Welcome New MLSA Member!
-                          </span>
-                          <img
-                            className="dashboard-home-page__tablet-close-icon"
-                            src={CloseIcon}
-                            alt="Close Icon"
-                          />
-                        </td>
-                      </tr>
+                      <Link
+                        className="dashboard-home-page__link"
+                        to="/dashboard-read-notification-page"
+                      >
+                        <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
+                          <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
+                            <img
+                              className="dashboard-home-page__tablet-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot Icon"
+                            />
+                            <span className="dashboard-home-page__tablet-notifications-table-data-row-1-text">
+                              Welcome New MLSA Member!
+                            </span>
+                            <img
+                              className="dashboard-home-page__tablet-close-icon"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                      </Link>
                     </tbody>
                   </table>
                   <img
@@ -1514,23 +1523,28 @@ export default function DashboardHomePage() {
                       </tr>
                     </thead>
                     <tbody className="dashboard-home-page__desktop-notifications-table-data-section">
-                      <tr className="dashboard-home-page__desktop-notifications-table-data-row-1">
-                        <td className="dashboard-home-page__desktop-notifications-table-data-row-1-value">
-                          <img
-                            className="dashboard-home-page__desktop-orange-dot-icon"
-                            src={OrangeDotIcon}
-                            alt="Orange Dot Icon"
-                          />
-                          <span className="dashboard-home-page__desktop-notifications-table-data-row-1-text">
-                            Welcome New MLSA Member!
-                          </span>
-                          <img
-                            className="dashboard-home-page__desktop-close-icon"
-                            src={CloseIcon}
-                            alt="Close Icon"
-                          />
-                        </td>
-                      </tr>
+                      <Link
+                        className="dashboard-home-page__link"
+                        to="/dashboard-read-notification-page"
+                      >
+                        <tr className="dashboard-home-page__desktop-notifications-table-data-row-1">
+                          <td className="dashboard-home-page__desktop-notifications-table-data-row-1-value">
+                            <img
+                              className="dashboard-home-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot Icon"
+                            />
+                            <span className="dashboard-home-page__desktop-notifications-table-data-row-1-text">
+                              Welcome New MLSA Member!
+                            </span>
+                            <img
+                              className="dashboard-home-page__desktop-close-icon"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                      </Link>
                     </tbody>
                   </table>
                   <img

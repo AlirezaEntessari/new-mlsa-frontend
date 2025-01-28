@@ -14,6 +14,7 @@
         background-color: $my-candidates-light-orange;
         padding-right: 32px;
         padding-top: 24px;
+        padding-bottom: 48px;
     }
 
     &__mobile-quick-search-candidates-container {
@@ -258,6 +259,860 @@
 
     &__mobile-messages-table-white-space {
         height: 10px;
+    }
+
+    &__mobile-mobile-calendar-icon {
+        margin-left: 32px;
+        margin-top: 32px;
+        width: 440px;
+    }
+
+    &__mobile-tasks-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $logo-orange;
+        width: 440px;
+        height: 350px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        background-color: $white-background;
+    }
+
+    &__mobile-tasks-header-container {
+        display: flex;
+    }
+
+    &__mobile-tasks-header {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        border: 2px solid $logo-orange;
+        padding-top: 20px;
+        padding-left: 24px;
+        font-size: 24px;
+        width: 200px;
+        padding-bottom: 16px;
+        border-top-right-radius: 48px;
+        border-bottom-right-radius: 48px;
+    }
+
+    &__mobile-tasks-table {
+        margin-left: 16px;
+        margin-top: 32px;
+        width: 90%;
+    }
+
+    &__mobile-task-icon-one-icon {
+        width: 64px;
+        margin-left: 140px;
+    }
+
+    &__mobile-tasks-data-row-1-date-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-gray-checkmark-icon {
+        width: 32px;
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-close-icon {
+        width: 24px;
+        margin-left: 10px;
+    }
+
+    &__mobile-tasks-gray-dot-icon {
+        width: 14px;
+    }
+
+    &__mobile-tasks-data-row-2-date-text {
+        margin-left: 10px;
+    }
+
+    &__mobile-orange-checkmark-icon {
+        width: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-tasks-white-space {
+        height: 10px;
+    }
+
+    &__mobile-tasks-vertical-slider-messages-icon {
+        width: 42px;
+        position: absolute;
+        top: 1816px;
+        right: 36px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .dashboard-read-notification-page {
+        padding-bottom: 15rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-first-half-container {
+            background-color: $my-candidates-light-orange;
+            padding-top: 32px;
+            padding-bottom: 64px;
+        }
+
+        &__tablet-top-quick-search-container {
+            display: flex;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-quick-search-header {
+            font-family: 'Roboto Serif';
+            color: $dark-gray;
+            font-weight: 700;
+            margin-top: 16px;
+        }
+
+        &__tablet-candidates-select {
+            width: 200px;
+            height: 60px;
+            padding-left: 16px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+            margin-left: 16px;
+        }
+
+        &__tablet-keyword-input {
+            margin-left: 32px;
+            height: 60px;
+            width: 400px;
+            padding-left: 10px;
+            border: 1px solid $dark-gray;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+            padding-left: 16px;
+        }
+
+        &__tablet-notifications-messages-container {
+            display: flex;
+            margin-top: 64px;
+            margin-left: 32px;
+        }
+
+        &__tablet-notifications-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 480px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+        }
+
+        &__tablet-notifications-top-container {
+            display: flex;
+            position: relative;
+        }
+    
+        &__tablet-notifications-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 260px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 62px;
+        }
+    
+        &__tablet-notifications-icon {
+            width: 48px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        &__tablet-notifications-table {
+            margin-left: 32px;
+            margin-top: 32px;
+            width: 250px;
+        }
+    
+        &__tablet-notifications-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-notifications-table-header-column-needs-attention {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-value {
+            padding-top: 10px;
+        }
+    
+        &__tablet-orange-dot-icon {
+            width: 14px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-text {
+            padding-left: 20px;
+        }
+    
+        &__tablet-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+
+        &__tablet-notifications-table-white-space {
+            height: 32px;
+        }
+
+        &__tablet-notifications-table-data-row-2 {
+            line-height: 32px;
+            text-align: justify;
+        }
+    
+        &__tablet-vertical-slider-notifications-icon {
+            width: 42px;
+            position: absolute;
+            top: 500px;
+            right: 420px;
+        }
+
+        &__tablet-messages-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 480px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 16px;
+            background-color: $white-background;
+        }
+
+        &__tablet-messages-top-container {
+            display: flex;
+        }
+
+        &__tablet-messages-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 190px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-messages-four-icon {
+            width: 72px;
+            margin-left: 20px;
+        }
+
+        &__tablet-create-message-icon {
+            width: 64px;
+            margin-left: 6px;
+        }
+
+        &__tablet-messages-table {
+            // margin-left: 32px;
+            margin-left: 6px;
+            margin-top: 24px;
+            width: 320px;
+        }
+    
+        &__tablet-messages-table-header-column-date {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-data-row-1-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-table-header-column-sender {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-column-subject {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-messages-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__tablet-messages-table-data-row-2-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-1 {
+            width: 24px;
+            margin-left: 28px;
+        }
+    
+        &__tablet-messages-close-icon-2 {
+            width: 24px;
+            margin-left: 16px;
+        }
+    
+        &__tablet-messages-table-data-row-3-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+        
+        &__tablet-messages-table-data-row-3-sender {
+            font-size: 12px;
+        }
+    
+        &__tablet-messages-close-icon-3 {
+            width: 24px;
+            margin-left: 23px;
+        }
+    
+        &__tablet-messages-table-data-row-4-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-4 {
+            width: 24px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-messages-vertical-slider-messages-icon {
+            width: 42px;
+            position: absolute;
+            top: 500px;
+            right: 10px;
+        }
+    
+        &__tablet-messages-table-white-space {
+            height: 10px;
+        }
+
+        &__tablet-calendar-tasks-container {
+            display: flex;
+            margin-top: 48px;
+            margin-left: 32px;
+        }
+
+        &__tablet-calendar-icon {
+            width: 370px;
+            position: absolute;
+            top: 860px;
+        }
+
+        &__tablet-tasks-container {
+            margin-left: 386px;
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 250px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+        }
+    
+        &__tablet-tasks-header-container {
+            display: flex;
+        }
+    
+        &__tablet-tasks-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 160px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-task-icon-one-icon {
+            width: 64px;
+            margin-left: 110px;
+        }
+    
+        &__tablet-tasks-first-row-container {
+            display: flex;
+        }
+
+        &__tablet-tasks-first-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-first-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-gray-checkmark-icon {
+            width: 32px;
+            margin-left: 10px;
+        }
+
+        &__tablet-tasks-first-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+        &__tablet-second-row-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        &__tablet-gray-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-tasks-second-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-second-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-orange-checkmark-icon {
+            width: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-tasks-second-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .dashboard-read-notification-page {
+        padding-bottom: 20rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-first-half-container {
+            background-color: $my-candidates-light-orange;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-right: 100px;
+        }
+
+        &__desktop-top-container {
+            margin-left: 80px;
+            margin-top: 80px;
+            display: flex;
+        }
+
+        &__desktop-quick-search-header {
+            font-family: 'Roboto Serif';
+            color: $dark-gray;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &__desktop-candidates-select {
+            width: 300px;
+            height: 60px;
+            padding-left: 16px;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+            margin-left: 100px;
+        }
+
+        &__desktop-candidates-input {
+            margin-left: 60px;
+            height: 60px;
+            width: 900px;
+            padding-left: 10px;
+            border: 1px solid $dark-gray;
+            border-bottom-left-radius: 36px;
+            border-top-right-radius: 36px;
+            border-bottom-right-radius: 36px;
+            padding-left: 24px;
+            cursor: pointer;
+        }
+
+        &__desktop-notifications-messages-container {
+            margin-top: 100px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__desktop-notifications-container {
+            border: 2px solid $logo-orange;
+            width: 732px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+        }
+
+        &__desktop-notifications-header-container {
+            display: flex;
+            position: relative;
+        }
+
+        &__desktop-notifications-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 300px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 66px;
+        }
+
+        &__desktop-notifications-icon {
+            margin-left: 322px;
+            width: 60px;
+        }
+
+        &__desktop-notifications-table {
+            margin-left: 32px;
+            margin-top: 32px;
+            width: 600px;
+        }
+    
+        &__desktop-notifications-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__desktop-notifications-table-header-column-needs-attention {
+            padding-bottom: 10px;
+        }
+    
+        &__desktop-notifications-table-data-row-1-value {
+            padding-top: 10px;
+        }
+    
+        &__desktop-orange-dot-icon {
+            width: 14px;
+        }
+    
+        &__desktop-notifications-table-data-row-1-text {
+            padding-left: 20px;
+        }
+    
+        &__desktop-close-icon {
+            width: 24px;
+            margin-left: 290px;
+        }
+
+        &__desktop-notifications-table-white-space {
+            height: 32px;
+        }
+
+        &__desktop-notifications-table-data-row-2 {
+            text-align: justify;
+            line-height: 32px;
+        }
+    
+        &__desktop-vertical-slider-notifications-icon {
+            width: 42px;
+            position: absolute;
+            top: 640px;
+            right: 920px;
+        }
+
+        &__desktop-messages-container {
+            border: 2px solid $logo-orange;
+            width: 732px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+            margin-left: 40px;
+        }
+
+        &__desktop-messages-header-container {
+            display: flex;
+        }
+
+        &__desktop-messages-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 300px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 66px;
+        }
+
+        &__desktop-messages-four-icon {
+            width: 90px;
+            margin-left: 200px;
+        }
+
+        &__desktop-create-message-icon {
+            width: 72px;
+            margin-left: 12px;
+        }
+
+        &__desktop-messages-table {
+            margin-left: 32px;
+            margin-top: 24px;
+            width: 600px;
+        }
+    
+        &__desktop-messages-table-header-column-date {
+            padding-bottom: 10px;
+        }
+    
+        &__desktop-messages-table-data-row-1-date-text {
+            font-size: inherit;
+            padding-left: 12px;
+        }
+    
+        &__desktop-messages-table-header-column-sender {
+            padding-bottom: 10px;
+        }
+    
+        &__desktop-messages-table-header-column-subject {
+            padding-bottom: 10px;
+        }
+    
+        &__desktop-messages-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__desktop-messages-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__desktop-messages-table-data-row-2-date-text {
+            font-size: inherit;
+            padding-left: 12px;
+        }
+    
+        &__desktop-messages-close-icon-1 {
+            width: 24px;
+            margin-left: 28px;
+        }
+    
+        &__desktop-messages-close-icon-2 {
+            width: 24px;
+            margin-left: 16px;
+        }
+    
+        &__desktop-messages-table-data-row-3-date-text {
+            font-size: inherit;
+            padding-left: 12px;
+        }
+        
+        &__desktop-messages-table-data-row-3-sender {
+            font-size: 16px;
+        }
+    
+        &__desktop-messages-close-icon-3 {
+            width: 24px;
+            margin-left: 23px;
+        }
+    
+        &__desktop-messages-table-data-row-4-date-text {
+            font-size: inherit;
+            padding-left: 12px;
+        }
+    
+        &__desktop-messages-close-icon-4 {
+            width: 24px;
+            margin-left: 12px;
+        }
+    
+        &__desktop-messages-vertical-slider-messages-icon {
+            width: 42px;
+            position: absolute;
+            top: 640px;
+            right: 148px;
+        }
+    
+        &__desktop-messages-table-white-space {
+            height: 10px;
+        }
+
+        &__mobile-calendar-tasks-container {
+            display: flex;
+            margin-top: 64px;
+            margin-left: 80px;
+        }
+
+        &__desktop-calendar-icon {
+            width: 650px;
+        }
+
+        &__desktop-tasks-container {
+            border: 2px solid $logo-orange;
+            width: 732px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+            margin-left: 124px;
+            margin-top: 20px;
+        }
+
+        &__desktop-tasks-header-container {
+            display: flex;
+        }
+
+        &__desktop-tasks-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 300px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 66px;
+        }
+
+        &__desktop-tasks-icon-one-icon {
+            width: 64px;
+            margin-left: 330px;
+        }
+
+        &__desktop-tasks-first-row-container {
+            display: flex;
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+
+        &__desktop-tasks-first-row-orange-dot-icon {
+            width: 20px;
+            margin-top: 8px;
+        }
+
+        &__desktop-tasks-first-row-date {
+            margin-left: 36px;
+            margin-top: 20px;
+        }
+
+        &__desktop-tasks-first-row-task-description {
+            margin-left: 48px;
+            margin-top: 20px;
+        }
+
+        &__desktop-tasks-first-row-gray-checkmark-icon {
+            width: 32px;
+            margin-left: 120px;
+        }
+
+        &__desktop-tasks-first-row-close-icon {
+            width: 24px;
+            margin-left: 16px;
+        }
+
+        &__desktop-tasks-second-row-container {
+            display: flex;
+            margin-left: 24px;
+        }
+
+        &__desktop-tasks-second-row-gray-dot-icon {
+            width: 20px;
+            margin-top: 8px;
+        }
+
+        &__desktop-tasks-second-row-date {
+            margin-left: 36px;
+            margin-top: 20px;
+        }
+
+        &__desktop-tasks-second-row-task-description {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        &__desktop-tasks-second-row-orange-checkmark-icon {
+            width: 32px;
+            margin-left: 142px;
+        }
+
+        &__desktop-tasks-second-row-close-icon {
+            width: 24px;
+            margin-left: 16px;
+        }
+
+        &__desktop-tasks-second-row-vertical-slider-messages-icon {
+            position: absolute;
+            top: 1050px;
+            right: 148px;
+            width: 42px;
+        }
+
     }
 
 }
