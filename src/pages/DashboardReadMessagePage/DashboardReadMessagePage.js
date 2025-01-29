@@ -37,6 +37,9 @@ import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
 import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
 import PageNumberPeachOneIcon from "../../assets/icons/PageNumberPeach1.svg";
 import ActivitySummary from "../../components/ActivitySummary/ActivitySummary";
+import PageBackArrowLeftDashIcon from "../../assets/icons/pagebackarrowleftdash.svg";
+import BackArrowDashIcon from "../../assets/icons/backarrowdash.svg";
+import { Link } from "react-router-dom";
 
 export default function DashboardReadMessagePage() {
   return (
@@ -121,8 +124,23 @@ export default function DashboardReadMessagePage() {
               <div className="dashboard-read-message-page__mobile-messages-container">
                 <div className="dashboard-read-message-page__mobile-messages-top-container">
                   <p className="dashboard-read-message-page__mobile-messages-header">
-                    Messages
+                    Messages{" "}
+                    <Link
+                      className="dashboard-read-message-page__link"
+                      to="/dashboard-home-page"
+                    >
+                      <img
+                        className="dashboard-read-message-page__mobile-page-back-arrow-left-dash-icon"
+                        src={PageBackArrowLeftDashIcon}
+                        alt="Page Back Arrow Left Dash Icon"
+                      />
+                    </Link>
                   </p>
+                  <img
+                    className="dashboard-read-message-page__mobile-back-arrow-dash-icon"
+                    src={BackArrowDashIcon}
+                    alt="Back Arrow Dash Icon"
+                  />
                   <img
                     className="dashboard-read-message-page__mobile-messages-close-icon"
                     src={CloseIcon}
@@ -401,7 +419,22 @@ export default function DashboardReadMessagePage() {
                     <div className="dashboard-read-message-page__tablet-messages-top-container">
                       <p className="dashboard-read-message-page__tablet-messages-header">
                         Messages
+                        <Link
+                          className="dashboard-read-message-page__link"
+                          to="/dashboard-home-page"
+                        >
+                          <img
+                            className="dashboard-read-message-page__tablet-page-back-arrow-left-dash-icon"
+                            src={PageBackArrowLeftDashIcon}
+                            alt="Page Back Arrow Left Dash Icon"
+                          />
+                        </Link>
                       </p>
+                      <img
+                        className="dashboard-read-message-page__tablet-back-arrow-dash-icon"
+                        src={BackArrowDashIcon}
+                        alt="Back Arrow Dash Icon"
+                      />
                       <img
                         className="dashboard-read-message-page__tablet-messages-close-icon"
                         src={CloseIcon}
@@ -598,7 +631,22 @@ export default function DashboardReadMessagePage() {
                     <div className="dashboard-read-message-page__desktop-messages-header-container">
                       <p className="dashboard-read-message-page__desktop-messages-header">
                         Messages
+                        <Link
+                          className="dashboard-read-message-page__link"
+                          to="/dashboard-home-page"
+                        >
+                          <img
+                            className="dashboard-read-message-page__desktop-page-back-arrow-left-dash-icon"
+                            src={PageBackArrowLeftDashIcon}
+                            alt="Page Back Arrow Left Dash Icon"
+                          />
+                        </Link>
                       </p>
+                      <img
+                        className="dashboard-read-message-page__desktop-back-arrow-dash-icon"
+                        src={BackArrowDashIcon}
+                        alt="Back Arrow Dash Icon"
+                      />
                       <img
                         className="dashboard-read-message-page__desktop-messages-close-icon"
                         src={CloseIcon}
@@ -607,7 +655,7 @@ export default function DashboardReadMessagePage() {
                     </div>
                     <div className="dashboard-read-message-page__desktop-messages-inner-container">
                       <p className="dashboard-read-message-page__desktop-messages-sender">
-                        <span className="dashboard-read-message-page__rust-text">
+                        <span className="dashboard-read-message-page__desktop-rust-text">
                           Sender:
                         </span>
                         <span className="dashboard-read-message-page__desktop-messages-sender-company">
@@ -615,20 +663,43 @@ export default function DashboardReadMessagePage() {
                         </span>
                       </p>
                       <p className="dashboard-read-message-page__desktop-messages-subject">
-                        <span className="dashboard-read-message-page__rust-text">
+                        <span className="dashboard-read-message-page__desktop-rust-text">
                           Subject:
                         </span>
                         <span className="dashboard-read-message-page__desktop-messages-welcome-text">
                           Welcome!
                         </span>
                       </p>
-                      <p className="dashboard-read-message-page__desktop-messages-message-header">Message:</p>
-                      <p className=""></p>
+                      <p className="dashboard-read-message-page__desktop-messages-message-header">
+                        Message:
+                      </p>
+                      <p className="dashboard-read-message-page__desktop-messages-message-description">
+                        Hi John! Welcome to MLSA! This message would be
+                        something welcoming you to our platform and telling you
+                        about the great success you will have. It will also give
+                        you some direction on what to do next and some tips on
+                        how to have a better experience.
+                      </p>
+                      <div className="dashboard-read-message-page__desktop-messages-message-footer-container">
+                        <p className="dashboard-read-message-page__desktop-messages-message-many-thanks">
+                          Many thanks,
+                        </p>
+                        <p className="dashboard-read-message-page__desktop-messages-message-recruiter-name">
+                          Samantha Arico
+                        </p>
+                        <p className="dashboard-read-message-page__desktop-messages-message-association">
+                          Multiple Listing Staffing Association
+                        </p>
+                      </div>
                     </div>
+                    <button className="dashboard-read-message-page__desktop-save-and-close-button">
+                      Save & Close
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
+            <ActivitySummary />
           </div>
         </div>
       </div>

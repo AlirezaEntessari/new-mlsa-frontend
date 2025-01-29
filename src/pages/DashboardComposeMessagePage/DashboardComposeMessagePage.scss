@@ -1,0 +1,265 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.dashboard-compose-message-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        font-family: 'Roboto';
+        display: flex;
+    }
+
+    &__mobile-first-half-container {
+        background-color: $my-candidates-light-orange;
+        padding-top: 32px;
+        padding-right: 32px;
+    }
+
+    &__mobile-quick-search-candidates-container {
+        display: flex;
+        margin-top: 32px;
+        margin-left: 190px;
+    }
+
+    &__mobile-quick-search-text {
+        font-weight: 500;
+        padding-top: 16px;
+    }
+
+    &__mobile-candidates-select {
+        width: 150px;
+        height: 54px;
+        margin-left: 32px;
+        padding-left: 16px;
+        border-bottom-left-radius: 32px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+
+    &__mobile-input-container {
+        position: relative;
+        margin-left: 32px;
+        margin-top: 40px;
+    }
+
+    &__mobile-keywords-input {
+        width: 440px;
+        height: 48px;
+        padding-left: 20px;
+        border-bottom-left-radius: 32px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        right: 28px;
+        top: 12px;
+    }
+
+    &__mobile-notifications-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $logo-orange;
+        width: 440px;
+        height: 350px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        background-color: $white-background;
+    }
+
+    &__mobile-notifications-header {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        border: 2px solid $logo-orange;
+        padding-top: 20px;
+        padding-left: 24px;
+        font-size: 24px;
+        width: 260px;
+        padding-bottom: 16px;
+        border-top-right-radius: 48px;
+        border-bottom-right-radius: 48px;
+    }
+
+    &__mobile-notifications-icon {
+        width: 48px;
+        position: absolute;
+        top: 430px;
+        right: 58px;
+    }
+
+    &__mobile-notifications-table {
+        margin-left: 32px;
+        margin-top: 32px;
+        width: 320px;
+    }
+
+    &__mobile-notifications-table-header-row {
+        border-bottom: 1px solid $soft-black;
+    }
+
+    &__mobile-notifications-table-header-column-needs-attention {
+        padding-bottom: 10px;
+    }
+
+    &__mobile-notifications-table-data-row-1-value {
+        padding-top: 10px;
+    }
+
+    &__mobile-orange-dot-icon {
+        width: 14px;
+    }
+
+    &__mobile-notifications-table-data-row-1-text {
+        padding-left: 20px;
+    }
+
+    &__mobile-close-icon {
+        width: 24px;
+        margin-left: 36px;
+    }
+
+    &__mobile-vertical-slider-messages-icon {
+        width: 42px;
+        position: absolute;
+        top: 556px;
+        right: 48px;
+    }
+
+    &__mobile-messages-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $logo-orange;
+        width: 440px;
+        height: 800px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        background-color: $white-background;
+    }
+
+    &__mobile-messages-top-container {
+        display: flex;
+    }
+
+    &__mobile-messages-header {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        border: 2px solid $logo-orange;
+        padding-top: 20px;
+        padding-left: 24px;
+        font-size: 24px;
+        width: 220px;
+        padding-bottom: 16px;
+        border-top-right-radius: 48px;
+        border-bottom-right-radius: 48px;
+    }
+
+    &__mobile-page-back-arrow-left-dash-icon {
+        width: 20px;
+        margin-left: 28px;
+    }
+
+    &__mobile-back-arrow-dash-icon {
+        width: 32px;
+        margin-left: 80px;
+    }
+
+    &__mobile-messages-close-icon {
+        width: 28px;
+        margin-left: 160px;
+    }
+
+    &__mobile-messages-inner-container {
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 36px;
+    }
+
+    &__rust-text {
+        font-weight: 500;
+        color: $rust;
+    }
+
+    &__mobile-messages-recruiter-name {
+        margin-left: 28px;
+    }
+
+    &__mobile-re-welcome-text {
+        margin-left: 28px;
+    }
+
+    &__mobile-messages-message-header {
+        font-weight: 500;
+        color: $rust;
+    }
+
+    &__mobile-messages-message-description-container {
+        border: 1px solid $medium-dark-gray;
+        width: 380px;
+        height: 320px;
+        margin-top: 44px;
+        border-radius: 24px;
+    }
+
+    &__mobile-messages-message-description-inner-container {
+        margin-top: 28px;
+        margin-left: 32px;
+    }
+
+    &__mobile-messages-message-description {
+        text-align: justify;
+        line-height: 32px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    &__mobile-messages-many-thanks {
+        margin-bottom: 6px;
+    }
+
+    &__mobile-messages-recruiter-name {
+        margin-bottom: 6px;
+    }
+
+    &__mobile-messages-message-description-glad {
+        margin-top: 32px;
+        margin-bottom: 12px;
+    }
+
+    &__mobile-messages-message-description-sincerely {
+        margin-bottom: 12px;
+        margin-top: 54px;
+    }
+
+    &__mobile-messages-button-container {
+        margin-top: 64px;
+        margin-left: 64px;
+    }
+
+    &__mobile-messages-save-draft-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 170px;
+        height: 50px;
+        color: $rust;
+        font-size: 18px;
+        border-radius: 28px;
+    }
+
+    &__mobile-messages-send-button {
+        border: 1px solid $rust;
+        background-color: $rust;
+        width: 150px;
+        height: 50px;
+        color: $white-text;
+        border-radius: 28px;
+        font-size: 18px;
+        margin-left: 24px;
+    }
+
+}

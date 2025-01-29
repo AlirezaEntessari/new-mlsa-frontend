@@ -173,9 +173,14 @@ export default function DashboardHomePage() {
                           12:58 PM
                         </span>
                       </td>
-                      <td className="dashboard-home-page__mobile-messages-table-data-row-1-sender">
-                        Acme Agency
-                      </td>
+                      <Link
+                        className="dashboard-home-page__mobile-messages-link"
+                        to="/dashboard-read-message-page"
+                      >
+                        <td className="dashboard-home-page__mobile-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                      </Link>
                       <td className="dashboard-home-page__mobile-messages-table-data-row-1-subject">
                         NDA Ques...
                         <img
@@ -898,9 +903,14 @@ export default function DashboardHomePage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-home-page__tablet-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-home-page__link"
+                          to="/dashboard-read-message-page"
+                        >
+                          <td className="dashboard-home-page__tablet-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-home-page__tablet-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -1596,9 +1606,14 @@ export default function DashboardHomePage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-home-page__desktop-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-home-page__link"
+                          to="/dashboard-read-message-page"
+                        >
+                          <td className="dashboard-home-page__desktop-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-home-page__desktop-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -1690,7 +1705,7 @@ export default function DashboardHomePage() {
                   />
                 </div>
               </div>
-              <div className="dashboard-home-page__mobile-calendar-tasks-container">
+              <div className="dashboard-home-page__desktop-calendar-tasks-container">
                 <img
                   className="dashboard-home-page__desktop-calendar-icon"
                   src={MobileCalendarIcon}

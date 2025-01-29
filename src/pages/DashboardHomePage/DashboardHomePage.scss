@@ -19,6 +19,7 @@
     &__mobile-first-half-container {
         background-color: $my-candidates-light-orange;
         padding-right: 32px;
+        padding-top: 32px;
     }
 
     &__mobile-quick-search-text {
@@ -52,7 +53,7 @@
     &__mobile-search-icon {
         position: absolute;
         right: 54px;
-        top: 314px;
+        top: 346px;
     }
 
     &__mobile-notifications-container {
@@ -84,8 +85,8 @@
     &__mobile-notifications-icon {
         width: 48px;
         position: absolute;
-        top: 420px;
-        right: 70px;
+        top: 450px;
+        right: 58px;
     }
 
     &__mobile-notifications-table {
@@ -122,7 +123,7 @@
     &__mobile-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 548px;
+        top: 580px;
         right: 48px;
     }
 
@@ -240,7 +241,7 @@
     &__mobile-messages-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 950px;
+        top: 990px;
         right: 48px;
     }
 
@@ -329,7 +330,7 @@
     &__mobile-tasks-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 1670px;
+        top: 1702px;
         right: 36px;
     }
 
@@ -996,6 +997,11 @@
         cursor: pointer;
     }
 
+    &__mobile-messages-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -1135,10 +1141,10 @@
         }
     
         &__tablet-vertical-slider-notifications-icon {
-            width: 36px;
+            width: 42px;
             position: absolute;
-            top: 460px;
-            right: 420px;
+            top: 486px;
+            right: 418px;
         }
 
         &__tablet-messages-container {
@@ -1255,7 +1261,7 @@
         &__tablet-messages-vertical-slider-messages-icon {
             width: 42px;
             position: absolute;
-            top: 460px;
+            top: 486px;
             right: 10px;
         }
     
@@ -1272,7 +1278,7 @@
         &__tablet-calendar-icon {
             width: 370px;
             position: absolute;
-            top: 698px;
+            top: 728px;
         }
 
         &__tablet-tasks-container {
@@ -2158,7 +2164,7 @@
         &__desktop-vertical-slider-notifications-icon {
             width: 42px;
             position: absolute;
-            top: 586px;
+            top: 640px;
             right: 920px;
         }
 
@@ -2276,7 +2282,7 @@
         &__desktop-messages-vertical-slider-messages-icon {
             width: 42px;
             position: absolute;
-            top: 586px;
+            top: 640px;
             right: 148px;
         }
     
@@ -2284,14 +2290,14 @@
             height: 10px;
         }
 
-        &__mobile-calendar-tasks-container {
+        &__desktop-calendar-tasks-container {
             display: flex;
             margin-top: 64px;
             margin-left: 80px;
         }
 
         &__desktop-calendar-icon {
-            width: 450px;
+            width: 732px;
         }
 
         &__desktop-tasks-container {
@@ -2302,7 +2308,8 @@
             border-top-right-radius: 28px;
             border-bottom-right-radius: 28px;
             background-color: $white-background;
-            margin-left: 320px;
+            margin-left: 38px;
+            margin-top: 20px;
         }
 
         &__desktop-tasks-header-container {
@@ -2392,7 +2399,7 @@
 
         &__desktop-tasks-second-row-vertical-slider-messages-icon {
             position: absolute;
-            top: 980px;
+            top: 1046px;
             right: 148px;
             width: 42px;
         }

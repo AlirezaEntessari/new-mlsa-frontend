@@ -154,15 +154,25 @@
         padding-top: 20px;
         padding-left: 24px;
         font-size: 24px;
-        width: 200px;
+        width: 220px;
         padding-bottom: 16px;
         border-top-right-radius: 48px;
         border-bottom-right-radius: 48px;
     }
 
+    &__mobile-page-back-arrow-left-dash-icon {
+        width: 20px;
+        margin-left: 28px;
+    }
+
+    &__mobile-back-arrow-dash-icon {
+        width: 32px;
+        margin-left: 80px;
+    }
+
     &__mobile-messages-close-icon {
         width: 28px;
-        margin-left: 170px;
+        margin-left: 36px;
     }
 
     &__mobile-messages-inner-container {
@@ -309,6 +319,11 @@
 
     &__desktop-container {
         display: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
     }
 
 }
@@ -574,15 +589,25 @@
             padding-top: 20px;
             padding-left: 24px;
             font-size: 24px;
-            width: 190px;
+            width: 200px;
             padding-bottom: 16px;
             border-top-right-radius: 48px;
             border-bottom-right-radius: 48px;
         }
 
+        &__tablet-page-back-arrow-left-dash-icon {
+            width: 20px;
+            margin-left: 16px;
+        }
+
+        &__tablet-back-arrow-dash-icon {
+            width: 28px;
+            margin-left: 54px;
+        }
+
         &__tablet-messages-close-icon {
             width: 28px;
-            margin-left: 120px;
+            margin-left: 28px;
         }
 
         &__tablet-messages-inner-container {
@@ -668,6 +693,7 @@
             background-color: $my-candidates-light-orange;
             padding-top: 32px;
             padding-right: 116px;
+            padding-bottom: 100px;
         }
 
         &__desktop-quick-search-top-container {
@@ -922,19 +948,40 @@
             border-bottom-right-radius: 48px;
             height: 66px;
         }
+
+        &__desktop-page-back-arrow-left-dash-icon {
+            width: 20px;
+            margin-left: 80px;
+        }
+
+        &__desktop-back-arrow-dash-icon {
+            width: 32px;
+            margin-left: 250px;
+        }
     
         &__desktop-messages-close-icon {
             width: 34px;
-            margin-left: 340px;
+            margin-left: 50px;
         }
 
         &__desktop-messages-inner-container {
             margin-top: 32px;
-            margin-left: 48px;
+            margin-left: 54px;
+            margin-right: 48px;
+            font-size: 18px;
+        }
+
+        &__desktop-rust-text {
+            font-weight: 500;
+            color: $rust;
         }
 
         &__desktop-messages-sender-company {
             margin-left: 10px;
+        }
+
+        &__desktop-messages-subject {
+            margin-top: 28px;
         }
 
         &__desktop-messages-welcome-text {
@@ -944,6 +991,29 @@
         &__desktop-messages-message-header {
             font-weight: 500;
             color: $rust;
+            margin-top: 28px;
+        }
+
+        &__desktop-messages-message-description {
+            text-align: justify;
+            line-height: 34px;
+            margin-top: 48px;
+        }
+
+        &__desktop-messages-message-footer-container {
+            margin-top: 60px;
+        }
+
+        &__desktop-save-and-close-button {
+            border: 1px solid $rust;
+            background-color: $rust;
+            width: 180px;
+            height: 54px;
+            border-radius: 36px;
+            color: $white-text;
+            font-size: 18px;
+            margin-top: 180px;
+            margin-left: 500px;
         }
 
 
