@@ -88,7 +88,7 @@
     &__mobile-notifications-icon {
         width: 48px;
         position: absolute;
-        top: 420px;
+        top: 436px;
         right: 70px;
     }
 
@@ -126,7 +126,7 @@
     &__mobile-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 548px;
+        top: 566px;
         right: 48px;
     }
 
@@ -168,6 +168,7 @@
     &__mobile-back-arrow-dash-icon {
         width: 32px;
         margin-left: 80px;
+        margin-top: 28px;
     }
 
     &__mobile-messages-close-icon {
@@ -309,7 +310,7 @@
     &__mobile-tasks-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 1960px;
+        top: 1980px;
         right: 36px;
     }
 
@@ -603,6 +604,7 @@
         &__tablet-back-arrow-dash-icon {
             width: 28px;
             margin-left: 54px;
+            margin-top: 30px;
         }
 
         &__tablet-messages-close-icon {
@@ -957,6 +959,7 @@
         &__desktop-back-arrow-dash-icon {
             width: 32px;
             margin-left: 250px;
+            margin-top: 26px;
         }
     
         &__desktop-messages-close-icon {

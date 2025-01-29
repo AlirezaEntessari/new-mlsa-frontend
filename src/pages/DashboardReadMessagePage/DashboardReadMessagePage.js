@@ -136,11 +136,16 @@ export default function DashboardReadMessagePage() {
                       />
                     </Link>
                   </p>
-                  <img
-                    className="dashboard-read-message-page__mobile-back-arrow-dash-icon"
-                    src={BackArrowDashIcon}
-                    alt="Back Arrow Dash Icon"
-                  />
+                  <Link
+                    className="dashboard-read-message-page__link"
+                    to="/dashboard-compose-message-page"
+                  >
+                    <img
+                      className="dashboard-read-message-page__mobile-back-arrow-dash-icon"
+                      src={BackArrowDashIcon}
+                      alt="Back Arrow Dash Icon"
+                    />
+                  </Link>
                   <img
                     className="dashboard-read-message-page__mobile-messages-close-icon"
                     src={CloseIcon}
@@ -430,11 +435,16 @@ export default function DashboardReadMessagePage() {
                           />
                         </Link>
                       </p>
-                      <img
-                        className="dashboard-read-message-page__tablet-back-arrow-dash-icon"
-                        src={BackArrowDashIcon}
-                        alt="Back Arrow Dash Icon"
-                      />
+                      <Link
+                        className="dashboard-read-message-page__link"
+                        to="/dashboard-compose-message-page"
+                      >
+                        <img
+                          className="dashboard-read-message-page__tablet-back-arrow-dash-icon"
+                          src={BackArrowDashIcon}
+                          alt="Back Arrow Dash Icon"
+                        />
+                      </Link>
                       <img
                         className="dashboard-read-message-page__tablet-messages-close-icon"
                         src={CloseIcon}
@@ -642,11 +652,16 @@ export default function DashboardReadMessagePage() {
                           />
                         </Link>
                       </p>
-                      <img
-                        className="dashboard-read-message-page__desktop-back-arrow-dash-icon"
-                        src={BackArrowDashIcon}
-                        alt="Back Arrow Dash Icon"
-                      />
+                      <Link
+                        className="dashboard-read-message-page__link"
+                        to="/dashboard-compose-message-page"
+                      >
+                        <img
+                          className="dashboard-read-message-page__desktop-back-arrow-dash-icon"
+                          src={BackArrowDashIcon}
+                          alt="Back Arrow Dash Icon"
+                        />
+                      </Link>
                       <img
                         className="dashboard-read-message-page__desktop-messages-close-icon"
                         src={CloseIcon}
