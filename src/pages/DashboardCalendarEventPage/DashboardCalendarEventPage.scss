@@ -160,6 +160,11 @@
         border-bottom-right-radius: 48px;
     }
 
+    &__mobile-page-back-arrow-left-dash-icon {
+        width: 20px;
+        margin-left: 20px;
+    }
+
     &__mobile-messages-four-icon {
         width: 72px;
         margin-left: 64px;
@@ -258,6 +263,99 @@
         width: 440px;
     }
 
+    &__mobile-calendar-container {
+        margin-top: 48px;
+        margin-left: 32px;
+        border: 2px solid $logo-orange;
+        width: 440px;
+        height: 540px;
+        border-bottom-left-radius: 28px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        background-color: $white-background;
+    }
+
+    &__mobile-calendar-inner-container {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    &__mobile-calendar-container-header {
+        font-family: 'Roboto Serif';
+        color: $rust;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__mobile-calendar-name-of-event-container {
+        margin-top: 36px;
+    }
+
+    &__mobile-name-of-event-input {
+        display: block;
+        width: 360px;
+        height: 70px;
+        margin-top: 16px;
+        border-radius: 24px;
+        padding-left: 16px;
+    }
+
+    &__mobile-calendar-time-of-event-container {
+        margin-top: 48px;
+    }
+
+    &__mobile-calendar-select-all-day-container {
+        display: flex;
+    }
+
+    &__mobile-time-of-event-select {
+        width: 140px;
+        padding-left: 16px;
+        height: 44px;
+        border-radius: 28px;
+        border: 2px solid $medium-dark-gray;
+    }
+
+    &__mobile-gray-radio-button-icon {
+        margin-left: 32px;
+        width: 72px;
+    }
+
+    &__mobile-all-day-text {
+        color: gray;
+        font-size: 20px;
+        margin-left: 32px;
+        margin-top: 6px;
+    }
+
+    &__mobile-calendar-button-container {
+        margin-top: 72px;
+        margin-left: 72px;
+    }
+
+    &__mobile-calendar-cancel-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 150px;
+        height: 50px;
+        color: $rust;
+        border-radius: 28px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__mobile-calendar-add-event-button {
+        border: 1px solid $rust;
+        background-color: $rust;
+        color: $white-text;
+        width: 180px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
     &__mobile-tasks-container {
         margin-top: 48px;
         margin-left: 32px;
@@ -333,13 +431,391 @@
     &__mobile-tasks-vertical-slider-messages-icon {
         width: 42px;
         position: absolute;
-        top: 2094px;
+        top: 2282px;
         right: 36px;
     }
 
     &__link {
         text-decoration: none;
         color: inherit;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .dashboard-calendar-event-page {
+        padding-bottom: 15rem;
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-first-half-container {
+            background-color: $my-candidates-light-orange;
+            padding-top: 32px;
+            padding-right: 24px;
+            padding-bottom: 72px;
+        }
+
+        &__tablet-header-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-header {
+            color: $dark-gray;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        &__tablet-candidates-select {
+            width: 200px;
+            height: 60px;
+            margin-left: 24px;
+            padding-left: 16px;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            border: 1px solid $medium-gray;
+        }
+
+        &__tablet-keyword-input-container {
+            position: relative;
+        }
+
+        &__tablet-keyword-input {
+            width: 360px;
+            height: 60px;
+            margin-left: 32px;
+            padding-left: 24px;
+            border: 1px solid $medium-gray;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 24px;
+            top: 18px;
+        }
+
+        &__tablet-central-container {
+            margin-top: 72px;
+            margin-left: 32px;
+            display: flex;
+        }
+
+        &__tablet-calendar-icon {
+            width: 370px;
+        }
+
+        &__tablet-messages-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            margin-left: 16px;
+            background-color: $white-background;
+        }
+
+        &__tablet-orange-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-messages-top-container {
+            display: flex;
+        }
+
+        &__tablet-messages-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 190px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-messages-four-icon {
+            width: 72px;
+            margin-left: 20px;
+        }
+
+        &__tablet-create-message-icon {
+            width: 64px;
+            margin-left: 6px;
+        }
+
+        &__tablet-messages-table {
+            // margin-left: 32px;
+            margin-left: 6px;
+            margin-top: 24px;
+            width: 320px;
+        }
+    
+        &__tablet-messages-table-header-column-date {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-data-row-1-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-table-header-column-sender {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-column-subject {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-messages-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-messages-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__tablet-messages-table-data-row-2-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-1 {
+            width: 24px;
+            margin-left: 28px;
+        }
+    
+        &__tablet-messages-close-icon-2 {
+            width: 24px;
+            margin-left: 16px;
+        }
+    
+        &__tablet-messages-table-data-row-3-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+        
+        &__tablet-messages-table-data-row-3-sender {
+            font-size: 12px;
+        }
+    
+        &__tablet-messages-close-icon-3 {
+            width: 24px;
+            margin-left: 23px;
+        }
+    
+        &__tablet-messages-table-data-row-4-date-text {
+            font-size: 8px;
+            padding-left: 2px;
+        }
+    
+        &__tablet-messages-close-icon-4 {
+            width: 24px;
+            margin-left: 12px;
+        }
+    
+        &__tablet-messages-vertical-slider-messages-icon {
+            width: 42px;
+            position: absolute;
+            top: 486px;
+            right: 10px;
+        }
+    
+        &__tablet-messages-table-white-space {
+            height: 10px;
+        }
+
+        &__tablet-tasks-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 250px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+            margin-top: 32px;
+            margin-left: 14px;
+        }
+    
+        &__tablet-tasks-header-container {
+            display: flex;
+        }
+    
+        &__tablet-tasks-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 20px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 160px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+        }
+
+        &__tablet-task-icon-one-icon {
+            width: 64px;
+            margin-left: 110px;
+        }
+    
+        &__tablet-tasks-first-row-container {
+            display: flex;
+        }
+
+        &__tablet-tasks-first-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-first-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-gray-checkmark-icon {
+            width: 32px;
+            margin-left: 10px;
+        }
+
+        &__tablet-tasks-first-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+        &__tablet-second-row-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        &__tablet-gray-dot-icon {
+            width: 14px;
+        }
+
+        &__tablet-tasks-second-row-date {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-tasks-second-row-task-description {
+            margin-left: 10px;
+            margin-top: 14px;
+        }
+
+        &__tablet-orange-checkmark-icon {
+            width: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-tasks-second-row-close-icon {
+            width: 24px;
+            margin-left: 10px;
+        }
+
+        &__tablet-notifications-container {
+            border: 2px solid $logo-orange;
+            width: 370px;
+            height: 350px;
+            border-bottom-left-radius: 28px;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            background-color: $white-background;
+            margin-top: 32px;
+            margin-left: 12px;
+        }
+
+        &__tablet-notifications-top-container {
+            display: flex;
+            position: relative;
+        }
+    
+        &__tablet-notifications-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            border: 2px solid $logo-orange;
+            padding-top: 12px;
+            padding-left: 24px;
+            font-size: 24px;
+            width: 260px;
+            padding-bottom: 16px;
+            border-top-right-radius: 48px;
+            border-bottom-right-radius: 48px;
+            height: 62px;
+        }
+    
+        &__tablet-notifications-icon {
+            width: 48px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        &__tablet-notifications-table {
+            margin-left: 32px;
+            margin-top: 32px;
+            width: 250px;
+        }
+    
+        &__tablet-notifications-table-header-row {
+            border-bottom: 1px solid $soft-black;
+        }
+    
+        &__tablet-notifications-table-header-column-needs-attention {
+            padding-bottom: 10px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-value {
+            padding-top: 10px;
+        }
+    
+        &__tablet-orange-dot-icon {
+            width: 14px;
+        }
+    
+        &__tablet-notifications-table-data-row-1-text {
+            padding-left: 20px;
+        }
+    
+        &__tablet-close-icon {
+            width: 24px;
+            margin-left: 36px;
+        }
+    
+        &__tablet-vertical-slider-notifications-icon {
+            width: 42px;
+            position: absolute;
+            top: 1174px;
+            right: 36px;
+        }
+
     }
 
 }
