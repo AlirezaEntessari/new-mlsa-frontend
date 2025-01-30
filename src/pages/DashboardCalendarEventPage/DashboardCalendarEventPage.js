@@ -316,9 +316,24 @@ export default function DashboardCalendarEventPage() {
                         name="mobile-time-of-event"
                         id="mobile-time-of-event"
                       >
-                        <option value="" selected>
+                        <option value="7:00 AM" selected>
                           7:00 AM
                         </option>
+                        <option value="8:00 AM">8:00 AM</option>
+                        <option value="9:00 AM">9:00 AM</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:00 AM">11:00 AM</option>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="4:00 PM">4:00 PM</option>
+                        <option value="5:00 PM">5:00 PM</option>
+                        <option value="6:00 PM">6:00 PM</option>
+                        <option value="7:00 PM">7:00 PM</option>
+                        <option value="8:00 PM">8:00 PM</option>
+                        <option value="9:00 PM">9:00 PM</option>
+                        <option value="10:00 PM">10:00 PM</option>
                       </select>
                       <img
                         className="dashboard-calendar-event-page__mobile-gray-radio-button-icon"
@@ -455,6 +470,74 @@ export default function DashboardCalendarEventPage() {
                     src={MobileCalendarIcon}
                     alt="Calendar Icon"
                   />
+                  <div className="dashboard-calendar-event-page__tablet-calendar-container">
+                    <div className="dashboard-calendar-event-page__tablet-calendar-inner-container">
+                      <p className="dashboard-calendar-event-page__tablet-calendar-header">
+                        Tuesday, August 2, 2024
+                      </p>
+                      <div className="dashboard-calendar-event-page__tablet-calendar-name-of-event-container">
+                        <label
+                          className="dashboard-calendar-event-page__tablet-name-of-event-label"
+                          htmlFor="tablet-name-of-event"
+                        >
+                          Name of Event:
+                        </label>
+                        <input
+                          className="dashboard-calendar-event-page__tablet-name-of-event-input"
+                          type="text"
+                          id="tablet-name-of-event"
+                          placeholder="Type the name of your event here"
+                        />
+                      </div>
+                      <div className="dashboard-calendar-event-page__tablet-time-of-event-container">
+                        <label className="dashboard-calendar-event-page__tablet-time-of-event-text">
+                          Time of Event:
+                        </label>
+                        <div className="dashboard-calendar-event-page__tablet-time-of-event-select-all-day-container">
+                          <select
+                            className="dashboard-calendar-event-page__tablet-time-of-event-select"
+                            name="tablet-time-of-event"
+                            id="tablet-time-of-event"
+                          >
+                            <option value="7:00 AM" selected>
+                              7:00 AM
+                            </option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                            <option value="8:00 PM">8:00 PM</option>
+                            <option value="9:00 PM">9:00 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                          </select>
+                          <img
+                            className="dashboard-calendar-event-page__tablet-gray-radio-button-icon"
+                            src={GrayRadioButtonIcon}
+                            alt="Gray Radio Button Icon"
+                          />
+                          <p className="dashboard-calendar-event-page__tablet-all-day-text">
+                            All Day
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="dashboard-calendar-event-page__tablet-calendar-button-container">
+                      <button className="dashboard-calendar-event-page__tablet-calendar-cancel-button">
+                        Cancel
+                      </button>
+                      <button className="dashboard-calendar-event-page__tablet-calendar-add-event-button">
+                        Add Event
+                      </button>
+                    </div>
+                  </div>
                 </div>
                 <div className="dashboard-calendar-event-page__tablet-central-right-container">
                   <div className="dashboard-calendar-event-page__tablet-messages-container">
@@ -709,6 +792,364 @@ export default function DashboardCalendarEventPage() {
                 </div>
               </div>
             </div>
+            <ActivitySummary />
+          </div>
+          <div className="dashboard-calendar-event-page__desktop-container">
+            <div className="dashboard-calendar-event-page__desktop-first-half-container">
+              <div className="dashboard-calendar-event-page__desktop-quick-search-top-container">
+                <p className="dashboard-calendar-event-page__desktop-quick-search-text">
+                  Quick Search
+                </p>
+                <select
+                  className="dashboard-calendar-event-page__desktop-candidates-select"
+                  name="desktop-candidates"
+                  id="desktop-candidates"
+                >
+                  <option value="" selected>
+                    Candidates
+                  </option>
+                </select>
+                <input
+                  className="dashboard-calendar-event-page__desktop-quick-search-here-input"
+                  type="text"
+                  placeholder="Quick Search Here"
+                />
+              </div>
+              <div className="dashboard-calendar-event-page__desktop-central-container">
+                <div className="dashboard-calendar-event-page__desktop-central-left-container">
+                  <img
+                    className="dashboard-calendar-event-page__desktop-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Calendar Icon"
+                  />
+                  <div className="dashboard-calendar-event-page__desktop-calendar-container">
+                    <div className="dashboard-calendar-event-page__desktop-calendar-inner-container">
+                      <p className="dashboard-calendar-event-page__desktop-calendar-header">
+                        Tuesday, August 2, 2024
+                      </p>
+                      <div className="dashboard-calendar-event-page__desktop-calendar-name-of-event-container">
+                        <label
+                          className="dashboard-calendar-event-page__desktop-calendar-name-of-event-label"
+                          htmlFor="desktop-name-of-event"
+                        >
+                          Name of Event:
+                        </label>
+                        <input
+                          className="dashboard-calendar-event-page__desktop-name-of-event-input"
+                          type="text"
+                          placeholder="Type the name of your event here"
+                          id="desktop-name-of-event"
+                        />
+                      </div>
+                      <div className="dashboard-calendar-event-page__desktop-time-of-event-container">
+                        <p className="dashboard-calendar-event-page__desktop-time-of-event-text">
+                          Time of Event:
+                        </p>
+                        <div className="dashboard-calendar-event-page__desktop-time-of-event-select-all-day-container">
+                          <select
+                            className="dashboard-calendar-event-page__desktop-time-of-event-select"
+                            name="desktop-time-of-event"
+                            id="desktop-time-of-event"
+                          >
+                            <option value="7:00 AM" selected>
+                              7:00 AM
+                            </option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                            <option value="8:00 PM">8:00 PM</option>
+                            <option value="9:00 PM">9:00 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                          </select>
+                          <img
+                            className="dashboard-calendar-event-page__desktop-gray-radio-button-icon"
+                            src={GrayRadioButtonIcon}
+                            alt="Gray Radio Button Icon"
+                          />
+                          <p className="dashboard-calendar-event-page__desktop-all-day-text">
+                            All Day
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="dashboard-calendar-event-page__desktop-calendar-button-container">
+                      <button className="dashboard-calendar-event-page__desktop-calendar-cancel-button">
+                        Cancel
+                      </button>
+                      <button className="dashboard-calendar-event-page__desktop-calendar-add-event-button">
+                        Add Event
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="dashboard-calendar-event-page__desktop-central-right-container">
+                  <div className="dashboard-calendar-event-page__desktop-messages-container">
+                    <div className="dashboard-calendar-event-page__desktop-messages-header-container">
+                      <p className="dashboard-calendar-event-page__desktop-messages-header">
+                        Messages
+                      </p>
+                      <img
+                        className="dashboard-calendar-event-page__desktop-messages-four-icon"
+                        src={MessagesFourIcon}
+                        alt="Messages Four Icon"
+                      />
+                      <img
+                        className="dashboard-calendar-event-page__desktop-create-message-icon"
+                        src={CreateMessageIcon}
+                        alt="Create Message Icon"
+                      />
+                    </div>
+                    <table className="dashboard-calendar-event-page__desktop-messages-table">
+                      <thead className="dashboard-calendar-event-page__desktop-messages-table-header-section">
+                        <tr className="dashboard-calendar-event-page__desktop-messages-table-header-row">
+                          <th className="dashboard-calendar-event-page__desktop-messages-table-header-column-date">
+                            Date
+                          </th>
+                          <th className="dashboard-calendar-event-page__desktop-messages-table-header-column-sender">
+                            Sender
+                          </th>
+                          <th className="dashboard-calendar-event-page__desktop-messages-table-header-column-subject">
+                            Subject
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="dashboard-calendar-event-page__desktop-messages-table-body-section">
+                        <div className="dashboard-calendar-event-page__desktop-messages-table-white-space"></div>
+                        <tr className="dashboard-calendar-event-page__desktop-messages-table-data-row-1">
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-date">
+                            <img
+                              className="dashboard-calendar-event-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot"
+                            />
+                            <span className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-date-text">
+                              12:58 PM
+                            </span>
+                          </td>
+                          <Link
+                            className="dashboard-calendar-event-page__link"
+                            to="/dashboard-read-message-page"
+                          >
+                            <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-sender">
+                              Acme Agency
+                            </td>
+                          </Link>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-subject">
+                            NDA Ques...
+                            <img
+                              className="dashboard-calendar-event-page__desktop-messages-close-icon-1"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                        <div className="dashboard-calendar-event-page__desktop-messages-table-white-space"></div>
+                        <tr className="dashboard-calendar-event-page__desktop-messages-table-data-row-2">
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-2-date">
+                            <img
+                              className="dashboard-calendar-event-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot"
+                            />
+                            <span className="dashboard-calendar-event-page__desktop-messages-table-data-row-2-date-text">
+                              12:36 PM
+                            </span>
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-2-sender">
+                            ABC Staffing Inc.
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-2-subject">
+                            Checking in...{" "}
+                            <img
+                              className="dashboard-calendar-event-page__desktop-messages-close-icon-2"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                        <div className="dashboard-calendar-event-page__desktop-messages-table-white-space"></div>
+                        <tr className="dashboard-calendar-event-page__desktop-messages-table-data-row-3">
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-3-date">
+                            <img
+                              className="dashboard-calendar-event-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot"
+                            />
+                            <span className="dashboard-calendar-event-page__desktop-messages-table-data-row-3-date-text">
+                              Fri 7/19
+                            </span>
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-3-sender">
+                            Beta Staffing Agency
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-3-subject">
+                            Partnership...
+                            <img
+                              className="dashboard-calendar-event-page__desktop-messages-close-icon-3"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                        <div className="dashboard-calendar-event-page__desktop-messages-table-white-space"></div>
+                        <tr className="dashboard-calendar-event-page__desktop-messages-table-data-row-4">
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-4-date">
+                            {" "}
+                            <img
+                              className="dashboard-calendar-event-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot"
+                            />
+                            <span className="dashboard-calendar-event-page__desktop-messages-table-data-row-4-date-text">
+                              Fri 7/19
+                            </span>
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-4-sender">
+                            Circular Staffing
+                          </td>
+                          <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-4-subject">
+                            Re: Partnersh...
+                            <img
+                              className="dashboard-calendar-event-page__desktop-messages-close-icon-4"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <img
+                      className="dashboard-calendar-event-page__desktop-messages-vertical-slider-messages-icon"
+                      src={VerticalSliderMessagesIcon}
+                      alt="Vertical Slider Messages Icon"
+                    />
+                  </div>
+                  <div className="dashboard-calendar-event-page__desktop-tasks-container">
+                    <div className="dashboard-calendar-event-page__desktop-tasks-header-container">
+                      <p className="dashboard-calendar-event-page__desktop-tasks-header">
+                        Tasks
+                      </p>
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-icon-one-icon"
+                        src={TaskIconOneIcon}
+                        alt="Task Icon One Icon"
+                      />
+                    </div>
+                    <div className="dashboard-calendar-event-page__desktop-tasks-first-row-container">
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-first-row-orange-dot-icon"
+                        src={OrangeDotIcon}
+                        alt="Orange Dot Icon"
+                      />
+                      <p className="dashboard-calendar-event-page__desktop-tasks-first-row-date">
+                        9/13/24
+                      </p>
+                      <p className="dashboard-calendar-event-page__desktop-tasks-first-row-task-description">
+                        Call Kelly Re: New Applicant
+                      </p>
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-first-row-gray-checkmark-icon"
+                        src={GrayCheckmarkIcon}
+                        alt="Gray Checkmark Icon"
+                      />
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-first-row-close-icon"
+                        src={CloseIcon}
+                        alt="Close Icon"
+                      />
+                    </div>
+                    <div className="dashboard-calendar-event-page__desktop-tasks-second-row-container">
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-second-row-gray-dot-icon"
+                        src={GrayDotIcon}
+                        alt="Gray Dot Icon"
+                      />
+                      <p className="dashboard-calendar-event-page__desktop-tasks-second-row-date">
+                        9/10/24
+                      </p>
+                      <p className="dashboard-calendar-event-page__desktop-tasks-second-row-task-description">
+                        Call Jerry about Contract
+                      </p>
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-second-row-orange-checkmark-icon"
+                        src={OrangeCheckmarkIcon}
+                        alt="Orange Checkmark Icon"
+                      />
+                      <img
+                        className="dashboard-calendar-event-page__desktop-tasks-second-row-close-icon"
+                        src={CloseIcon}
+                        alt="Close Icon"
+                      />
+                    </div>
+                    <img
+                      className="dashboard-calendar-event-page__desktop-tasks-second-row-vertical-slider-messages-icon"
+                      src={VerticalSliderMessagesIcon}
+                      alt="Vertical Slider Messages Icon"
+                    />
+                  </div>
+                  <div className="dashboard-calendar-event-page__desktop-notifications-container">
+                    <div className="dashboard-calendar-event-page__desktop-notifications-header-container">
+                      <p className="dashboard-calendar-event-page__desktop-notifications-header">
+                        Notifications
+                      </p>
+                      <img
+                        className="dashboard-calendar-event-page__desktop-notifications-icon"
+                        src={NotificationsIcon}
+                        alt="Notifications Icon"
+                      />
+                    </div>
+                    <table className="dashboard-calendar-event-page__desktop-notifications-table">
+                      <thead className="dashboard-calendar-event-page__desktop-notifications-table-header-section">
+                        <tr className="dashboard-calendar-event-page__desktop-notifications-table-header-row">
+                          <th className="dashboard-calendar-event-page__desktop-notifications-table-header-column-needs-attention">
+                            Needs Attention
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="dashboard-calendar-event-page__desktop-notifications-table-data-section">
+                        <Link
+                          className="dashboard-calendar-event-page__link"
+                          to="/dashboard-read-notification-page"
+                        >
+                          <tr className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1">
+                            <td className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1-value">
+                              <img
+                                className="dashboard-calendar-event-page__desktop-orange-dot-icon"
+                                src={OrangeDotIcon}
+                                alt="Orange Dot Icon"
+                              />
+                              <span className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1-text">
+                                Welcome New MLSA Member!
+                              </span>
+                              <img
+                                className="dashboard-calendar-event-page__desktop-close-icon"
+                                src={CloseIcon}
+                                alt="Close Icon"
+                              />
+                            </td>
+                          </tr>
+                        </Link>
+                      </tbody>
+                    </table>
+                    <img
+                      className="dashboard-calendar-event-page__desktop-vertical-slider-notifications-icon"
+                      src={VerticalSliderMessagesIcon}
+                      alt="Vertical Slider Messages Icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ActivitySummary />
           </div>
         </div>
       </div>

@@ -271,11 +271,16 @@ export default function DashboardHomePage() {
                   alt="Vertical Slider Messages Icon"
                 />
               </div>
-              <img
-                className="dashboard-home-page__mobile-mobile-calendar-icon"
-                src={MobileCalendarIcon}
-                alt="Mobile Calendar Icon"
-              />
+              <Link
+                className="dashboard-home-page__link"
+                to="/dashboard-calendar-event-page"
+              >
+                <img
+                  className="dashboard-home-page__mobile-mobile-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Mobile Calendar Icon"
+                />
+              </Link>
               <div className="dashboard-home-page__mobile-tasks-container">
                 <div className="dashboard-home-page__mobile-tasks-header-container">
                   <p className="dashboard-home-page__mobile-tasks-header">
@@ -1003,11 +1008,16 @@ export default function DashboardHomePage() {
                 </div>
               </div>
               <div className="dashboard-home-page__tablet-calendar-tasks-container">
-                <img
-                  className="dashboard-home-page__tablet-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Calendar Icon"
-                />
+                <Link
+                  className="dashboard-home-page__link"
+                  to="/dashboard-calendar-event-page"
+                >
+                  <img
+                    className="dashboard-home-page__tablet-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-home-page__tablet-tasks-container">
                   <div className="dashboard-home-page__tablet-tasks-header-container">
                     <p className="dashboard-home-page__tablet-tasks-header">
@@ -1706,11 +1716,16 @@ export default function DashboardHomePage() {
                 </div>
               </div>
               <div className="dashboard-home-page__desktop-calendar-tasks-container">
-                <img
-                  className="dashboard-home-page__desktop-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Mobile Calendar Icon"
-                />
+                <Link
+                  className="dashboard-home-page__link"
+                  to="/dashboard-calendar-event-page"
+                >
+                  <img
+                    className="dashboard-home-page__desktop-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Mobile Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-home-page__desktop-tasks-container">
                   <div className="dashboard-home-page__desktop-tasks-header-container">
                     <p className="dashboard-home-page__desktop-tasks-header">
