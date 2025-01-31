@@ -353,6 +353,14 @@
         color: inherit;
     }
 
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
 }
 
 @include tablet {
@@ -761,6 +769,10 @@
             margin-left: 32px;
         }
 
+        &__desktop-quick-search-container {
+            position: relative;
+        }
+
         &__desktop-quick-search-here-input {
             padding-left: 32px;
             border: 1px solid $medium-gray;
@@ -770,6 +782,12 @@
             border-top-right-radius: 32px;
             border-bottom-right-radius: 32px;
             margin-left: 32px;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 18px;
+            right: 32px;
         }
 
         &__desktop-central-container {
@@ -841,13 +859,13 @@
     
         &__desktop-close-icon {
             width: 24px;
-            margin-left: 400px;
+            margin-left: 300px;
         }
     
         &__desktop-vertical-slider-notifications-icon {
             width: 42px;
             position: absolute;
-            top: 586px;
+            top: 600px;
             right: 920px;
         }
 

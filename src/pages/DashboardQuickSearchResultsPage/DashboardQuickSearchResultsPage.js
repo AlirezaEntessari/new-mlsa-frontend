@@ -36,6 +36,7 @@ import MyCandidatesInterviewsIcon from "../../assets/icons/CReviewsDot.svg";
 import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
 import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
 import PageNumberPeachOneIcon from "../../assets/icons/PageNumberPeach1.svg";
+import { Link } from "react-router-dom";
 
 export default function DashboardQuickSearchResultsPage() {
   return (
@@ -159,23 +160,29 @@ export default function DashboardQuickSearchResultsPage() {
                     </tr>
                   </thead>
                   <tbody className="dashboard-quick-search-results-page__mobile-notifications-table-data-section">
-                    <tr className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1">
-                      <td className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1-value">
-                        <img
-                          className="dashboard-quick-search-results-page__mobile-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot Icon"
-                        />
-                        <span className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1-text">
-                          Welcome New MLSA Member!
-                        </span>
-                        <img
-                          className="dashboard-quick-search-results-page__mobile-close-icon"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
+                    <Link
+                      className="dashboard-quick-search-results-page__link"
+                      to="/dashboard-read-notification-page"
+                      onClick={() => window.scrollTo(0, 0)}
+                    >
+                      <tr className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1">
+                        <td className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-quick-search-results-page__mobile-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-quick-search-results-page__mobile-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </Link>
                   </tbody>
                 </table>
                 <img
@@ -227,9 +234,15 @@ export default function DashboardQuickSearchResultsPage() {
                           12:58 PM
                         </span>
                       </td>
-                      <td className="dashboard-quick-search-results-page__mobile-messages-table-data-row-1-sender">
-                        Acme Agency
-                      </td>
+                      <Link
+                        className="dashboard-quick-search-results-page__link"
+                        to="/dashboard-read-message-page"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <td className="dashboard-quick-search-results-page__mobile-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                      </Link>
                       <td className="dashboard-quick-search-results-page__mobile-messages-table-data-row-1-subject">
                         NDA Ques...
                         <img
@@ -320,11 +333,17 @@ export default function DashboardQuickSearchResultsPage() {
                   alt="Vertical Slider Messages Icon"
                 />
               </div>
-              <img
-                className="dashboard-quick-search-results-page__mobile-calendar-icon"
-                src={MobileCalendarIcon}
-                alt="Mobile Calendar Icon"
-              />
+              <Link
+                className="dashboard-quick-search-results-page__link"
+                to="/dashboard-calendar-event-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <img
+                  className="dashboard-quick-search-results-page__mobile-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Mobile Calendar Icon"
+                />
+              </Link>
               <div className="dashboard-quick-search-results-page__mobile-tasks-container">
                 <div className="dashboard-quick-search-results-page__mobile-tasks-header-container">
                   <p className="dashboard-quick-search-results-page__mobile-tasks-header">
@@ -942,23 +961,29 @@ export default function DashboardQuickSearchResultsPage() {
                       </tr>
                     </thead>
                     <tbody className="dashboard-quick-search-results-page__tablet-notifications-table-data-section">
-                      <tr className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1">
-                        <td className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-value">
-                          <img
-                            className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
-                            src={OrangeDotIcon}
-                            alt="Orange Dot Icon"
-                          />
-                          <span className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-text">
-                            Welcome New MLSA Member!
-                          </span>
-                          <img
-                            className="dashboard-quick-search-results-page__tablet-close-icon"
-                            src={CloseIcon}
-                            alt="Close Icon"
-                          />
-                        </td>
-                      </tr>
+                      <Link
+                        className="dashboard-quick-search-results-page__link"
+                        to="/dashboard-read-notification-page"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <tr className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1">
+                          <td className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-value">
+                            <img
+                              className="dashboard-quick-search-results-page__tablet-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot Icon"
+                            />
+                            <span className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1-text">
+                              Welcome New MLSA Member!
+                            </span>
+                            <img
+                              className="dashboard-quick-search-results-page__tablet-close-icon"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                      </Link>
                     </tbody>
                   </table>
                   <img
@@ -1010,9 +1035,15 @@ export default function DashboardQuickSearchResultsPage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-quick-search-results-page__link"
+                          to="/dashboard-read-message-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -1105,11 +1136,17 @@ export default function DashboardQuickSearchResultsPage() {
                 </div>
               </div>
               <div className="dashboard-quick-search-results-page__tablet-calendar-tasks-container">
-                <img
-                  className="dashboard-quick-search-results-page__tablet-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Calendar Icon"
-                />
+                <Link
+                  className="dashboard-quick-search-results-page__link"
+                  to="/dashboard-calendar-event-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <img
+                    className="dashboard-quick-search-results-page__tablet-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-quick-search-results-page__tablet-tasks-container">
                   <div className="dashboard-quick-search-results-page__tablet-tasks-header-container">
                     <p className="dashboard-quick-search-results-page__tablet-tasks-header">
@@ -1696,23 +1733,29 @@ export default function DashboardQuickSearchResultsPage() {
                       </tr>
                     </thead>
                     <tbody className="dashboard-quick-search-results-page__desktop-notifications-table-data-section">
-                      <tr className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1">
-                        <td className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-value">
-                          <img
-                            className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
-                            src={OrangeDotIcon}
-                            alt="Orange Dot Icon"
-                          />
-                          <span className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-text">
-                            Welcome New MLSA Member!
-                          </span>
-                          <img
-                            className="dashboard-quick-search-results-page__desktop-close-icon"
-                            src={CloseIcon}
-                            alt="Close Icon"
-                          />
-                        </td>
-                      </tr>
+                      <Link
+                        className="dashboard-quick-search-results-page__link"
+                        to="/dashboard-read-notification-page"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <tr className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1">
+                          <td className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-value">
+                            <img
+                              className="dashboard-quick-search-results-page__desktop-orange-dot-icon"
+                              src={OrangeDotIcon}
+                              alt="Orange Dot Icon"
+                            />
+                            <span className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1-text">
+                              Welcome New MLSA Member!
+                            </span>
+                            <img
+                              className="dashboard-quick-search-results-page__desktop-close-icon"
+                              src={CloseIcon}
+                              alt="Close Icon"
+                            />
+                          </td>
+                        </tr>
+                      </Link>
                     </tbody>
                   </table>
                   <img
@@ -1764,9 +1807,15 @@ export default function DashboardQuickSearchResultsPage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-quick-search-results-page__link"
+                          to="/dashboard-read-message-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -1859,11 +1908,17 @@ export default function DashboardQuickSearchResultsPage() {
                 </div>
               </div>
               <div className="dashboard-quick-search-results-page__desktop-calendar-tasks-container">
-                <img
-                  className="dashboard-quick-search-results-page__desktop-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Calendar Icon"
-                />
+                <Link
+                  className="dashboard-quick-search-results-page__link"
+                  to="/dashboard-calendar-event-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <img
+                    className="dashboard-quick-search-results-page__desktop-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-quick-search-results-page__desktop-tasks-container">
                   <div className="dashboard-quick-search-results-page__desktop-tasks-header-container">
                     <p className="dashboard-quick-search-results-page__desktop-tasks-header">

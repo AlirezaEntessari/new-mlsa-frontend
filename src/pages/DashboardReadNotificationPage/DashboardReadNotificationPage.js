@@ -37,6 +37,7 @@ import MyCandidatesOffersIcon from "../../assets/icons/COffersDot.svg";
 import MyCandidatesPlacementsIcon from "../../assets/icons/CPlacementsDot.svg";
 import PageNumberPeachOneIcon from "../../assets/icons/PageNumberPeach1.svg";
 import ActivitySummary from "../../components/ActivitySummary/ActivitySummary";
+import { Link } from "react-router-dom";
 
 export default function DashboardReadNotificationPage() {
   return (
@@ -61,18 +62,24 @@ export default function DashboardReadNotificationPage() {
                   </option>
                 </select>
               </div>
-              <div className="dashboard-read-notification-page__mobile-input-container">
-                <input
-                  className="dashboard-read-notification-page__mobile-keywords-input"
-                  type="text"
-                  placeholder="Keywords"
-                />
-                <img
-                  className="dashboard-read-notification-page__mobile-search-icon"
-                  src={SearchIcon}
-                  alt="Search Icon"
-                />
-              </div>
+              <Link
+                className="dashboard-read-notification-page__link"
+                to="/dashboard-quick-search-results-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <div className="dashboard-read-notification-page__mobile-input-container">
+                  <input
+                    className="dashboard-read-notification-page__mobile-keywords-input"
+                    type="text"
+                    placeholder="Keywords"
+                  />
+                  <img
+                    className="dashboard-read-notification-page__mobile-search-icon"
+                    src={SearchIcon}
+                    alt="Search Icon"
+                  />
+                </div>
+              </Link>
               <div className="dashboard-read-notification-page__mobile-notifications-container">
                 <div className="dashboard-read-notification-page__mobile-notifications-top-container">
                   <p className="dashboard-read-notification-page__mobile-notifications-header">
@@ -169,9 +176,15 @@ export default function DashboardReadNotificationPage() {
                           12:58 PM
                         </span>
                       </td>
-                      <td className="dashboard-read-notification-page__mobile-messages-table-data-row-1-sender">
-                        Acme Agency
-                      </td>
+                      <Link
+                        className="dashboard-read-notification-page__link"
+                        to="/dashboard-read-message-page"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <td className="dashboard-read-notification-page__mobile-messages-table-data-row-1-sender">
+                          Acme Agency
+                        </td>
+                      </Link>
                       <td className="dashboard-read-notification-page__mobile-messages-table-data-row-1-subject">
                         NDA Ques...
                         <img
@@ -262,11 +275,17 @@ export default function DashboardReadNotificationPage() {
                   alt="Vertical Slider Messages Icon"
                 />
               </div>
-              <img
-                className="dashboard-read-notification-page__mobile-mobile-calendar-icon"
-                src={MobileCalendarIcon}
-                alt="Mobile Calendar Icon"
-              />
+              <Link
+                className="dashboard-read-notification-page__link"
+                to="/dashboard-calendar-event-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <img
+                  className="dashboard-read-notification-page__mobile-mobile-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Mobile Calendar Icon"
+                />
+              </Link>
               <div className="dashboard-read-notification-page__mobile-tasks-container">
                 <div className="dashboard-read-notification-page__mobile-tasks-header-container">
                   <p className="dashboard-read-notification-page__mobile-tasks-header">
@@ -362,11 +381,24 @@ export default function DashboardReadNotificationPage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-read-notification-page__tablet-keyword-input"
-                  type="text"
-                  placeholder="Keyword"
-                />
+                <Link
+                  className="dashboard-read-notification-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-read-notification-page__tablet-keyword-container">
+                    <input
+                      className="dashboard-read-notification-page__tablet-keyword-input"
+                      type="text"
+                      placeholder="Keyword"
+                    />
+                    <img
+                      className="dashboard-read-notification-page__tablet-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-read-notification-page__tablet-notifications-messages-container">
                 <div className="dashboard-read-notification-page__tablet-notifications-container">
@@ -463,9 +495,15 @@ export default function DashboardReadNotificationPage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-read-notification-page__tablet-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-read-notification-page__link"
+                          to="/dashboard-read-message-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <td className="dashboard-read-notification-page__tablet-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-read-notification-page__tablet-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -558,11 +596,17 @@ export default function DashboardReadNotificationPage() {
                 </div>
               </div>
               <div className="dashboard-read-notification-page__tablet-calendar-tasks-container">
-                <img
-                  className="dashboard-read-notification-page__tablet-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Calendar Icon"
-                />
+                <Link
+                  className="dashboard-read-notification-page__link"
+                  to="/dashboard-calendar-event-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <img
+                    className="dashboard-read-notification-page__tablet-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-read-notification-page__tablet-tasks-container">
                   <div className="dashboard-read-notification-page__tablet-tasks-header-container">
                     <p className="dashboard-read-notification-page__tablet-tasks-header">
@@ -640,11 +684,24 @@ export default function DashboardReadNotificationPage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-read-notification-page__desktop-candidates-input"
-                  type="text"
-                  placeholder="Keyword"
-                />
+                <Link
+                  className="dashboard-read-notification-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-read-notification-page__desktop-keyword-input-container">
+                    <input
+                      className="dashboard-read-notification-page__desktop-candidates-input"
+                      type="text"
+                      placeholder="Keyword"
+                    />
+                    <img
+                      className="dashboard-read-notification-page__desktop-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-read-notification-page__desktop-notifications-messages-container">
                 <div className="dashboard-read-notification-page__desktop-notifications-container">
@@ -741,9 +798,15 @@ export default function DashboardReadNotificationPage() {
                             12:58 PM
                           </span>
                         </td>
-                        <td className="dashboard-read-notification-page__desktop-messages-table-data-row-1-sender">
-                          Acme Agency
-                        </td>
+                        <Link
+                          className="dashboard-read-notification-page__link"
+                          to="/dashboard-read-message-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <td className="dashboard-read-notification-page__desktop-messages-table-data-row-1-sender">
+                            Acme Agency
+                          </td>
+                        </Link>
                         <td className="dashboard-read-notification-page__desktop-messages-table-data-row-1-subject">
                           NDA Ques...
                           <img
@@ -836,11 +899,17 @@ export default function DashboardReadNotificationPage() {
                 </div>
               </div>
               <div className="dashboard-read-notification-page__mobile-calendar-tasks-container">
-                <img
-                  className="dashboard-read-notification-page__desktop-calendar-icon"
-                  src={MobileCalendarIcon}
-                  alt="Mobile Calendar Icon"
-                />
+                <Link
+                  className="dashboard-read-notification-page__link"
+                  to="/dashboard-calendar-event-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <img
+                    className="dashboard-read-notification-page__desktop-calendar-icon"
+                    src={MobileCalendarIcon}
+                    alt="Mobile Calendar Icon"
+                  />
+                </Link>
                 <div className="dashboard-read-notification-page__desktop-tasks-container">
                   <div className="dashboard-read-notification-page__desktop-tasks-header-container">
                     <p className="dashboard-read-notification-page__desktop-tasks-header">

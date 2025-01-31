@@ -354,6 +354,11 @@
         display: none;
     }
 
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {
@@ -402,6 +407,10 @@
             margin-left: 16px;
         }
 
+        &__tablet-keyword-container {
+            position: relative;
+        }
+
         &__tablet-keyword-input {
             margin-left: 32px;
             height: 60px;
@@ -412,6 +421,12 @@
             border-top-right-radius: 36px;
             border-bottom-right-radius: 36px;
             padding-left: 16px;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            right: 28px;
+            top: 18px;
         }
 
         &__tablet-notifications-messages-container {
@@ -776,6 +791,10 @@
             margin-left: 100px;
         }
 
+        &__desktop-keyword-input-container {
+            position: relative;
+        }
+
         &__desktop-candidates-input {
             margin-left: 60px;
             height: 60px;
@@ -787,6 +806,12 @@
             border-bottom-right-radius: 36px;
             padding-left: 24px;
             cursor: pointer;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            right: 32px;
+            top: 18px;
         }
 
         &__desktop-notifications-messages-container {

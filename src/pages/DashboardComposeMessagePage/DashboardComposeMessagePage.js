@@ -39,18 +39,24 @@ export default function DashboardComposeMessagePage() {
                   </option>
                 </select>
               </div>
-              <div className="dashboard-compose-message-page__mobile-input-container">
-                <input
-                  className="dashboard-compose-message-page__mobile-keywords-input"
-                  type="text"
-                  placeholder="Keywords"
-                />
-                <img
-                  className="dashboard-compose-message-page__mobile-search-icon"
-                  src={SearchIcon}
-                  alt="Search Icon"
-                />
-              </div>
+              <Link
+                className="dashboard-compose-message-page__link"
+                to="/dashboard-quick-search-results-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <div className="dashboard-compose-message-page__mobile-input-container">
+                  <input
+                    className="dashboard-compose-message-page__mobile-keywords-input"
+                    type="text"
+                    placeholder="Keywords"
+                  />
+                  <img
+                    className="dashboard-compose-message-page__mobile-search-icon"
+                    src={SearchIcon}
+                    alt="Search Icon"
+                  />
+                </div>
+              </Link>
               <div className="dashboard-compose-message-page__mobile-notifications-container">
                 <div className="dashboard-compose-message-page__mobile-notifications-top-container">
                   <p className="dashboard-compose-message-page__mobile-notifications-header">
@@ -71,23 +77,29 @@ export default function DashboardComposeMessagePage() {
                     </tr>
                   </thead>
                   <tbody className="dashboard-compose-message-page__mobile-notifications-table-data-section">
-                    <tr className="dashboard-compose-message-page__mobile-notifications-table-data-row-1">
-                      <td className="dashboard-compose-message-page__mobile-notifications-table-data-row-1-value">
-                        <img
-                          className="dashboard-compose-message-page__mobile-orange-dot-icon"
-                          src={OrangeDotIcon}
-                          alt="Orange Dot Icon"
-                        />
-                        <span className="dashboard-compose-message-page__mobile-notifications-table-data-row-1-text">
-                          Welcome New MLSA Member!
-                        </span>
-                        <img
-                          className="dashboard-compose-message-page__mobile-close-icon"
-                          src={CloseIcon}
-                          alt="Close Icon"
-                        />
-                      </td>
-                    </tr>
+                    <Link
+                      className="dashboard-compose-message-page__link"
+                      to="/dashboard-read-notification-page"
+                      onClick={() => window.scrollTo(0, 0)}
+                    >
+                      <tr className="dashboard-compose-message-page__mobile-notifications-table-data-row-1">
+                        <td className="dashboard-compose-message-page__mobile-notifications-table-data-row-1-value">
+                          <img
+                            className="dashboard-compose-message-page__mobile-orange-dot-icon"
+                            src={OrangeDotIcon}
+                            alt="Orange Dot Icon"
+                          />
+                          <span className="dashboard-compose-message-page__mobile-notifications-table-data-row-1-text">
+                            Welcome New MLSA Member!
+                          </span>
+                          <img
+                            className="dashboard-compose-message-page__mobile-close-icon"
+                            src={CloseIcon}
+                            alt="Close Icon"
+                          />
+                        </td>
+                      </tr>
+                    </Link>
                   </tbody>
                 </table>
                 <img
@@ -103,6 +115,7 @@ export default function DashboardComposeMessagePage() {
                     <Link
                       className="dashboard-compose-message-page__link"
                       to="/dashboard-home-page"
+                      onClick={() => window.scrollTo(0, 0)}
                     >
                       <img
                         className="dashboard-compose-message-page__mobile-page-back-arrow-left-dash-icon"
@@ -166,11 +179,17 @@ export default function DashboardComposeMessagePage() {
                   </button>
                 </div>
               </div>
-              <img
-                className="dashboard-compose-message-page__mobile-calendar-icon"
-                src={MobileCalendarIcon}
-                alt="Mobile Calendar Icon"
-              />
+              <Link
+                className="dashboard-compose-message-page__link"
+                to="/dashboard-calendar-event-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <img
+                  className="dashboard-compose-message-page__mobile-calendar-icon"
+                  src={MobileCalendarIcon}
+                  alt="Mobile Calendar Icon"
+                />
+              </Link>
               <div className="dashboard-compose-message-page__mobile-tasks-container">
                 <div className="dashboard-compose-message-page__mobile-tasks-header-container">
                   <p className="dashboard-compose-message-page__mobile-tasks-header">
@@ -266,18 +285,24 @@ export default function DashboardComposeMessagePage() {
                     Candidates
                   </option>
                 </select>
-                <div className="dashboard-compose-message-page__tablet-keyword-input-container">
-                  <input
-                    className="dashboard-compose-message-page__tablet-keyword-input"
-                    type="text"
-                    placeholder="Keyword"
-                  />
-                  <img
-                    className="dashboard-compose-message-page__tablet-search-icon"
-                    src={SearchIcon}
-                    alt="Search Icon"
-                  />
-                </div>
+                <Link
+                  className="dashboard-compose-message-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-compose-message-page__tablet-keyword-input-container">
+                    <input
+                      className="dashboard-compose-message-page__tablet-keyword-input"
+                      type="text"
+                      placeholder="Keyword"
+                    />
+                    <img
+                      className="dashboard-compose-message-page__tablet-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-compose-message-page__tablet-central-container">
                 <div className="dashboard-compose-message-page__tablet-central-left-container">
@@ -301,23 +326,29 @@ export default function DashboardComposeMessagePage() {
                         </tr>
                       </thead>
                       <tbody className="dashboard-compose-message-page__tablet-notifications-table-data-section">
-                        <tr className="dashboard-compose-message-page__tablet-notifications-table-data-row-1">
-                          <td className="dashboard-compose-message-page__tablet-notifications-table-data-row-1-value">
-                            <img
-                              className="dashboard-compose-message-page__tablet-orange-dot-icon"
-                              src={OrangeDotIcon}
-                              alt="Orange Dot Icon"
-                            />
-                            <span className="dashboard-compose-message-page__tablet-notifications-table-data-row-1-text">
-                              Welcome New MLSA Member!
-                            </span>
-                            <img
-                              className="dashboard-compose-message-page__tablet-close-icon"
-                              src={CloseIcon}
-                              alt="Close Icon"
-                            />
-                          </td>
-                        </tr>
+                        <Link
+                          className="dashboard-compose-message-page__link"
+                          to="/dashboard-read-notification-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <tr className="dashboard-compose-message-page__tablet-notifications-table-data-row-1">
+                            <td className="dashboard-compose-message-page__tablet-notifications-table-data-row-1-value">
+                              <img
+                                className="dashboard-compose-message-page__tablet-orange-dot-icon"
+                                src={OrangeDotIcon}
+                                alt="Orange Dot Icon"
+                              />
+                              <span className="dashboard-compose-message-page__tablet-notifications-table-data-row-1-text">
+                                Welcome New MLSA Member!
+                              </span>
+                              <img
+                                className="dashboard-compose-message-page__tablet-close-icon"
+                                src={CloseIcon}
+                                alt="Close Icon"
+                              />
+                            </td>
+                          </tr>
+                        </Link>
                       </tbody>
                     </table>
                     <img
@@ -326,11 +357,17 @@ export default function DashboardComposeMessagePage() {
                       alt="Vertical Slider Messages Icon"
                     />
                   </div>
-                  <img
-                    className="dashboard-compose-message-page__tablet-calendar-icon"
-                    src={MobileCalendarIcon}
-                    alt="Calendar Icon"
-                  />
+                  <Link
+                    className="dashboard-compose-message-page__link"
+                    to="/dashboard-calendar-event-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <img
+                      className="dashboard-compose-message-page__tablet-calendar-icon"
+                      src={MobileCalendarIcon}
+                      alt="Calendar Icon"
+                    />
+                  </Link>
                   <div className="dashboard-compose-message-page__tablet-tasks-container">
                     <div className="dashboard-compose-message-page__tablet-tasks-header-container">
                       <p className="dashboard-compose-message-page__tablet-tasks-header">
@@ -398,6 +435,7 @@ export default function DashboardComposeMessagePage() {
                         <Link
                           className="dashboard-compose-message-page__link"
                           to="/dashboard-home-page"
+                          onClick={() => window.scrollTo(0, 0)}
                         >
                           <img
                             className="dashboard-compose-message-page__tablet-page-back-arrow-left-dash-icon"
@@ -478,11 +516,24 @@ export default function DashboardComposeMessagePage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-compose-message-page__desktop-quick-search-here-input"
-                  type="text"
-                  placeholder="Quick Search Here"
-                />
+                <Link
+                  className="dashboard-compose-message-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-compose-message-page__desktop-quick-search-container">
+                    <input
+                      className="dashboard-compose-message-page__desktop-quick-search-here-input"
+                      type="text"
+                      placeholder="Quick Search Here"
+                    />
+                    <img
+                      className="dashboard-compose-message-page__desktop-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-compose-message-page__desktop-central-container">
                 <div className="dashboard-compose-message-page__desktop-central-left-container">
@@ -506,23 +557,29 @@ export default function DashboardComposeMessagePage() {
                         </tr>
                       </thead>
                       <tbody className="dashboard-compose-message-page__desktop-notifications-table-data-section">
-                        <tr className="dashboard-compose-message-page__desktop-notifications-table-data-row-1">
-                          <td className="dashboard-compose-message-page__desktop-notifications-table-data-row-1-value">
-                            <img
-                              className="dashboard-compose-message-page__desktop-orange-dot-icon"
-                              src={OrangeDotIcon}
-                              alt="Orange Dot Icon"
-                            />
-                            <span className="dashboard-compose-message-page__desktop-notifications-table-data-row-1-text">
-                              Welcome New MLSA Member!
-                            </span>
-                            <img
-                              className="dashboard-compose-message-page__desktop-close-icon"
-                              src={CloseIcon}
-                              alt="Close Icon"
-                            />
-                          </td>
-                        </tr>
+                        <Link
+                          className="dashboard-compose-message-page__link"
+                          to="/dashboard-read-notification-page"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <tr className="dashboard-compose-message-page__desktop-notifications-table-data-row-1">
+                            <td className="dashboard-compose-message-page__desktop-notifications-table-data-row-1-value">
+                              <img
+                                className="dashboard-compose-message-page__desktop-orange-dot-icon"
+                                src={OrangeDotIcon}
+                                alt="Orange Dot Icon"
+                              />
+                              <span className="dashboard-compose-message-page__desktop-notifications-table-data-row-1-text">
+                                Welcome New MLSA Member!
+                              </span>
+                              <img
+                                className="dashboard-compose-message-page__desktop-close-icon"
+                                src={CloseIcon}
+                                alt="Close Icon"
+                              />
+                            </td>
+                          </tr>
+                        </Link>
                       </tbody>
                     </table>
                     <img
@@ -531,11 +588,17 @@ export default function DashboardComposeMessagePage() {
                       alt="Vertical Slider Messages Icon"
                     />
                   </div>
-                  <img
-                    className="dashboard-compose-message-page__desktop-calendar-icon"
-                    src={MobileCalendarIcon}
-                    alt="Calendar Icon"
-                  />
+                  <Link
+                    className="dashboard-compose-message-page__link"
+                    to="/dashboard-calendar-event-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <img
+                      className="dashboard-compose-message-page__desktop-calendar-icon"
+                      src={MobileCalendarIcon}
+                      alt="Calendar Icon"
+                    />
+                  </Link>
                   <div className="dashboard-compose-message-page__desktop-tasks-container">
                     <div className="dashboard-compose-message-page__desktop-tasks-header-container">
                       <p className="dashboard-compose-message-page__desktop-tasks-header">
@@ -608,6 +671,7 @@ export default function DashboardComposeMessagePage() {
                         <Link
                           className="dashboard-compose-message-page__link"
                           to="/dashboard-home-page"
+                          onClick={() => window.scrollTo(0, 0)}
                         >
                           <img
                             className="dashboard-compose-message-page__desktop-page-back-arrow-left-dash-icon"

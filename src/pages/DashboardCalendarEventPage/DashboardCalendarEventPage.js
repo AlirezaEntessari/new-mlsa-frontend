@@ -64,23 +64,24 @@ export default function DashboardCalendarEventPage() {
                   </option>
                 </select>
               </div>
-              <div className="dashboard-calendar-event-page__mobile-input-container">
-                <Link
-                  className="dashboard-calendar-event-page__link"
-                  to="/dashboard-quick-search-results-page"
-                >
+              <Link
+                className="dashboard-calendar-event-page__link"
+                to="/dashboard-quick-search-results-page"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <div className="dashboard-calendar-event-page__mobile-input-container">
                   <input
                     className="dashboard-calendar-event-page__mobile-keywords-input"
                     type="text"
                     placeholder="Keywords"
                   />
-                </Link>
-                <img
-                  className="dashboard-calendar-event-page__mobile-search-icon"
-                  src={SearchIcon}
-                  alt="Search Icon"
-                />
-              </div>
+                  <img
+                    className="dashboard-calendar-event-page__mobile-search-icon"
+                    src={SearchIcon}
+                    alt="Search Icon"
+                  />
+                </div>
+              </Link>
               <div className="dashboard-calendar-event-page__mobile-notifications-container">
                 <div className="dashboard-calendar-event-page__mobile-notifications-top-container">
                   <p className="dashboard-calendar-event-page__mobile-notifications-header">
@@ -104,6 +105,7 @@ export default function DashboardCalendarEventPage() {
                     <Link
                       className="dashboard-calendar-event-page__link"
                       to="/dashboard-read-notification-page"
+                      onClick={() => window.scrollTo(0, 0)}
                     >
                       <tr className="dashboard-calendar-event-page__mobile-notifications-table-data-row-1">
                         <td className="dashboard-calendar-event-page__mobile-notifications-table-data-row-1-value">
@@ -138,6 +140,7 @@ export default function DashboardCalendarEventPage() {
                     <Link
                       className="dashboard-calendar-event-page__link"
                       to="/dashboard-home-page"
+                      onClick={() => window.scrollTo(0, 0)}
                     >
                       <img
                         className="dashboard-calendar-event-page__mobile-page-back-arrow-left-dash-icon"
@@ -187,6 +190,7 @@ export default function DashboardCalendarEventPage() {
                       <Link
                         className="dashboard-calendar-event-page__link"
                         to="/dashboard-read-message-page"
+                        onClick={() => window.scrollTo(0, 0)}
                       >
                         <td className="dashboard-calendar-event-page__mobile-messages-table-data-row-1-sender">
                           Acme Agency
@@ -450,18 +454,24 @@ export default function DashboardCalendarEventPage() {
                     Candidates
                   </option>
                 </select>
-                <div className="dashboard-calendar-event-page__tablet-keyword-input-container">
-                  <input
-                    className="dashboard-calendar-event-page__tablet-keyword-input"
-                    type="text"
-                    placeholder="Keyword"
-                  />
-                  <img
-                    className="dashboard-calendar-event-page__tablet-search-icon"
-                    src={SearchIcon}
-                    alt="Search Icon"
-                  />
-                </div>
+                <Link
+                  className="dashboard-calendar-event-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-calendar-event-page__tablet-keyword-input-container">
+                    <input
+                      className="dashboard-calendar-event-page__tablet-keyword-input"
+                      type="text"
+                      placeholder="Keyword"
+                    />
+                    <img
+                      className="dashboard-calendar-event-page__tablet-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-calendar-event-page__tablet-central-container">
                 <div className="dashboard-calendar-event-page__tablet-central-left-container">
@@ -586,6 +596,7 @@ export default function DashboardCalendarEventPage() {
                           <Link
                             className="dashboard-calendar-event-page__link"
                             to="/dashboard-read-message-page"
+                            onClick={() => window.scrollTo(0, 0)}
                           >
                             <td className="dashboard-calendar-event-page__tablet-messages-table-data-row-1-sender">
                               Acme Agency
@@ -762,6 +773,7 @@ export default function DashboardCalendarEventPage() {
                         <Link
                           className="dashboard-calendar-event-page__link"
                           to="/dashboard-read-notification-page"
+                          onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-calendar-event-page__tablet-notifications-table-data-row-1">
                             <td className="dashboard-calendar-event-page__tablet-notifications-table-data-row-1-value">
@@ -809,11 +821,24 @@ export default function DashboardCalendarEventPage() {
                     Candidates
                   </option>
                 </select>
-                <input
-                  className="dashboard-calendar-event-page__desktop-quick-search-here-input"
-                  type="text"
-                  placeholder="Quick Search Here"
-                />
+                <Link
+                  className="dashboard-calendar-event-page__link"
+                  to="/dashboard-quick-search-results-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <div className="dashboard-calendar-event-page__desktop-quick-search-container">
+                    <input
+                      className="dashboard-calendar-event-page__desktop-quick-search-here-input"
+                      type="text"
+                      placeholder="Quick Search Here"
+                    />
+                    <img
+                      className="dashboard-calendar-event-page__desktop-search-icon"
+                      src={SearchIcon}
+                      alt="Search Icon"
+                    />
+                  </div>
+                </Link>
               </div>
               <div className="dashboard-calendar-event-page__desktop-central-container">
                 <div className="dashboard-calendar-event-page__desktop-central-left-container">
@@ -938,6 +963,7 @@ export default function DashboardCalendarEventPage() {
                           <Link
                             className="dashboard-calendar-event-page__link"
                             to="/dashboard-read-message-page"
+                            onClick={() => window.scrollTo(0, 0)}
                           >
                             <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-sender">
                               Acme Agency
@@ -1119,6 +1145,7 @@ export default function DashboardCalendarEventPage() {
                         <Link
                           className="dashboard-calendar-event-page__link"
                           to="/dashboard-read-notification-page"
+                          onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1">
                             <td className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1-value">

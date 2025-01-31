@@ -959,6 +959,10 @@
             margin-left: 32px;
         }
 
+        &__desktop-quick-search-container {
+            position: relative;
+        }
+
         &__desktop-quick-search-here-input {
             padding-left: 32px;
             border: 1px solid $medium-gray;
@@ -968,6 +972,12 @@
             border-top-right-radius: 32px;
             border-bottom-right-radius: 32px;
             margin-left: 32px;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 18px;
+            right: 32px;
         }
 
         &__desktop-central-container {
