@@ -52,6 +52,7 @@ import MyCandidatesPostCandidatePage from './pages/MyCandidatesPostCandidatePage
 import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage';
 import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
 import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
+import PartnershipsReviewPartnershipRequestsPage from './pages/PartnershipsReviewPartnershipRequestPage/PartnershipsReviewPartnershipRequestsPage';
 import PartnershipsManagePage from './pages/PartnershipsManagePage/PartnershipsManagePage';
 import PartnershipsViewAgreementPage from './pages/PartnershipsViewAgreementPage/PartnershipsViewAgreementPage';
 import PartnershipsViewActivityPage from './pages/PartnershipsViewActivityPage/PartnershipsViewActivityPage';
@@ -99,11 +100,11 @@ import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
 function App() {
   return (
     <div className="App">
-      <div className="navbar">
+      {/* <div className="navbar">
         <SignedIn>
             <UserButton showName appearance={{ baseTheme: light }} />
         </SignedIn>
-      </div>
+      </div> */}
       <BrowserRouter>
       <Routes>
         <Route path="/sign-up-page" element={<SignUpPage />} />
@@ -158,6 +159,7 @@ function App() {
         <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
         <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
         <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
+        <Route path="/partnerships-review-partnership-requests-page" element={<PartnershipsReviewPartnershipRequestsPage />} />
         <Route path="/partnerships-manage-page" element={<PartnershipsManagePage />} />
         <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />
         <Route path="/partnerships-view-activity-page" element={<PartnershipsViewActivityPage />} />

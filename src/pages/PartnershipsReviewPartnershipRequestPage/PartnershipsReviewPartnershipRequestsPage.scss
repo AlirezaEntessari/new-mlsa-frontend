@@ -1,0 +1,246 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.partnerships-review-partnership-requests-page {
+    padding-bottom: 10rem;
+
+    &__main-container {
+        display: flex;
+        font-family: 'Roboto';
+    }
+
+    &__mobile-header {
+        margin-top: 20px;
+        margin-left: 180px;
+        font-family: 'Roboto Serif';
+        color: $dark-navy;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__mobile-review-partnership-request {
+        border-bottom: 2px solid $dark-navy;
+        margin-top: 48px;
+        margin-left: 20px;
+        padding-bottom: 4px;
+        color: $dark-navy;
+        font-weight: 500;
+        margin-right: 28px;
+    }
+
+    &__mobile-lmn-staffing-inc-container {
+        margin-left: 32px;
+        display: flex;
+        margin-top: 48px;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 40px;
+    }
+
+    &__mobile-lmn-staffing-inc-logo {
+        width: 100px;
+        border-radius: 12px;
+    }
+
+    &__mobile-lmn-staffing-inc-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-lmn-staffing-icon-reviews-container {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+
+    &__mobile-lmn-staffing-inc-star-container {
+        display: flex;
+    }
+
+    &__mobile-rating-star-icon-1 {
+        width: 20px; 
+    }
+
+    &__mobile-rating-star-icon {
+        margin-left: 5px;
+        width: 20px;
+    }
+
+    &__mobile-lmn-staffing-inc-star-icons-text {
+        color: $dark-navy;
+        text-decoration: underline;
+        margin-left: 12px;
+    }
+
+    &__mobile-active-jobs-active-candidates-container {
+        margin-left: 24px;
+    }
+
+    &__mobile-active-jobs-container {
+        border: 1px solid $medium-gray;
+        width: 170px;
+        height: 64px;
+        display: flex;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &__mobile-active-jobs-text {
+        padding-top: 8px;
+        padding-left: 10px;
+        width: 70px;
+        font-weight: 500;
+    }
+
+    &__mobile-active-jobs-number {
+        margin-left: 46px;
+        margin-top: 6px;
+        font-size: 32px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-active-candidates-container {
+        border: 1px solid $medium-gray;
+        width: 170px;
+        height: 64px;
+        display: flex;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 10px;
+    }
+
+    &__mobile-active-candidates-text {
+        padding-top: 8px;
+        padding-left: 10px;
+        width: 70px;
+        font-weight: 500;
+    }
+
+    &__mobile-active-candidates-number {
+        margin-left: 56px;
+        margin-top: 6px;
+        font-size: 32px;
+        color: $dark-gray;
+        font-weight: 700;
+    }
+
+    &__mobile-instructions-for-signing-the-partnership-agreement-container {
+        margin-left: 32px;
+        margin-top: 42px;
+    }
+
+    &__mobile-instructions-for-signing-the-partnership-agreement-header {
+        font-weight: 500;
+    }
+
+    &__mobile-instructions-for-signing-the-partnership-agreement-inner-container {
+        text-align: justify;
+        margin-right: 32px;
+        line-height: 28px;
+    }
+
+    &__mobile-bolded-text {
+        font-weight: 500;
+    }
+
+    &__mobile-instructions-bottom-text {
+        margin-top: 42px;
+    }
+
+    &__mobile-partnership-agreement-container {
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+
+    &__mobile-partnership-agreement-header {
+        font-weight: 500;
+    }
+
+    &__mobile-partnership-agreement-inner-container {
+        text-align: justify;
+        margin-right: 32px;
+        line-height: 28px;
+    }
+
+    &__mobile-partnership-agreement-purpose-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-purpose-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-partnership-agreement-responsibilities-of-the-parties-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-responsibilities-of-the-parties-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-term-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-term-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-confidentiality-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-confidentiality-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-profit-sharing-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-termination-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-governing-law-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-governing-law-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-entire-agreement-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-entire-agreement-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-amendments-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-amendments-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-miscellaneous-container {
+        margin-top: 32px;
+    }
+
+    &__mobile-miscellaneous-header {
+        margin-bottom: 8px;
+    }
+
+    &__mobile-misellaneous-dispute-resolution {
+        margin-bottom: 8px;
+    }
+
+}
