@@ -378,7 +378,7 @@ export default function RatingsReceivingNegativeFeedbackPage() {
             <div className="ratings-receiving-negative-feedback-page__bottom-button-container">
               <Link
                 className="ratings-receiving-negative-feedback-page__link"
-                to="/ratings-receiving-negative-feedback-step-3-page"
+                to="/ratings/receiving-negative-feedback-step-3"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <button className="ratings-receiving-negative-feedback-page__go-to-step-3-button">

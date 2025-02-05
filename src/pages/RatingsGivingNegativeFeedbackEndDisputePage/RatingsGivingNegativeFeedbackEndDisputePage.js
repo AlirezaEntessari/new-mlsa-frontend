@@ -47,7 +47,7 @@ export default function RatingsGivingNegativeFeedbackEndDisputePage() {
             <div className="ratings-giving-negative-feedback-end-dispute-page__bottom-button-container">
               <Link
                 className="ratings-giving-negative-feedback-end-dispute-page__link"
-                to="/ratings-home-page"
+                to="/ratings/home"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <button className="ratings-giving-negative-feedback-end-dispute-page__go-to-ratings-home-page-button">

@@ -329,7 +329,7 @@ export default function RatingsConflictResolutionPage() {
               <div className="ratings-conflict-resolution-page__mobile-would-like-to-leave-negative-feedback-button-container">
                 <Link
                   className="ratings-conflict-resolution-page__link"
-                  to="/ratings-giving-negative-feedback-page"
+                  to="/ratings/giving-negative-feedback"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
@@ -361,7 +361,7 @@ export default function RatingsConflictResolutionPage() {
               <div className="ratings-conflict-resolution-page__mobile-have-received-negative-rating-or-feedback-button-container">
                 <Link
                   className="ratings-conflict-resolution-page__link"
-                  to="/ratings-receiving-negative-feedback-page"
+                  to="/ratings/receiving-negative-feedback"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <button className="ratings-conflict-resolution-page__mobile-this-describes-my-issue-button">
@@ -683,7 +683,7 @@ export default function RatingsConflictResolutionPage() {
                 <div className="ratings-conflict-resolution-page__tablet-would-like-to-leave-a-negative-rating-or-feedback-button-container">
                   <Link
                     className="ratings-conflict-resolution-page__link"
-                    to="/ratings-giving-negative-feedback-page"
+                    to="/ratings/giving-negative-feedback"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
@@ -712,7 +712,7 @@ export default function RatingsConflictResolutionPage() {
                 <div className="ratings-conflict-resolution-page__tablet-have-received-a-negative-rating-or-feedback-button-container">
                   <Link
                     className="ratings-conflict-resolution-page__link"
-                    to="/ratings-receiving-negative-feedback-page"
+                    to="/ratings/receiving-negative-feedback"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__tablet-this-describes-my-issue-button">
@@ -1036,7 +1036,7 @@ export default function RatingsConflictResolutionPage() {
                 <div className="ratings-conflict-resolution-page__desktop-would-like-to-leave-or-have-left-a-negative-rating-or-feedback-button-container">
                   <Link
                     className="ratings-conflict-resolution-page__link"
-                    to="/ratings-giving-negative-feedback-page"
+                    to="/ratings/giving-negative-feedback"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">
@@ -1065,7 +1065,7 @@ export default function RatingsConflictResolutionPage() {
                 <div className="ratings-conflict-resolution-page__desktop-have-received-a-negative-rating-or-feedback-button-container">
                   <Link
                     className="ratings-conflict-resolution-page__link"
-                    to="/ratings-receiving-negative-feedback-page"
+                    to="/ratings/receiving-negative-feedback"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <button className="ratings-conflict-resolution-page__desktop-this-describes-my-issue-button">

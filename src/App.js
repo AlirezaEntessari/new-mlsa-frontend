@@ -96,6 +96,17 @@ import MembershipPlanClerkPage from './pages/MembershipPlanClerkPage/MembershipP
 import AgencyInformationClerkPage from './pages/AgencyInformationClerkPage/AgencyInformationClerkPage';
 import { SignedIn, UserButton } from '@clerk/clerk-react';
 import { dark, light, neobrutalism, shadesOfPurple } from '@clerk/themes';
+import AccountSettingsLayout from './pages/AccountSettingsLayout/AccountSettingsLayout';
+import TeamMemberAccountSettingsLayout from './pages/TeamMemberAccountSettingsLayout/TeamMemberAccountSettingsLayout';
+import SearchAgenciesLayout from './SearchAgenciesLayout';
+import MyDocumentsLayout from './layouts/MyDocumentsLayout/MyDocumentsLayout';
+import MyJobsLayout from './layouts/MyJobsLayout/MyJobsLayout';
+import SearchJobsLayout from './layouts/SearchJobsLayout/SearchJobsLayout';
+import SearchCandidatesLayout from './layouts/SearchCandidatesLayout/SearchCandidatesLayout';
+import MyCandidatesLayout from './layouts/MyCandidatesLayout/MyCandidatesLayout';
+import PartnershipsLayout from './layouts/PartnershipsLayout/PartnershipsLayout';
+import HelpLayout from './layouts/HelpLayout/HelpLayout';
+import RatingsLayout from './layouts/RatingsLayout/RatingsLayout';
 
 function App() {
   return (
@@ -113,85 +124,107 @@ function App() {
         <Route path="/membership-subscription-page" element={<MembershipSubscriptionPage />} />
         <Route path="/payment-confirmation-page" element={<PaymentConfirmationPage />} />
         <Route path="/login-page" element={<LoginPage />} />
-        <Route path="/account-settings-profile-page" element={<AccountSettingsProfilePage />} />
-        <Route path="/account-settings-agency-page" element={<AccountSettingsAgencyPage />} />
-        <Route path="/account-settings-password-page" element={<AccountSettingsPasswordPage />} />
-        <Route path="/account-settings-billing-page" element={<AccountSettingsBillingPage />} />
-        <Route path="/account-settings-notifications-page" element={<AccountSettingsNotificationsPage />} />
-        <Route path="/team-member-account-settings-profile-page" element={<TeamMemberAccountSettingsProfilePage />} />
-        <Route path="/team-member-account-settings-password-page" element={<TeamMemberAccountSettingsPasswordPage />} />
-        <Route path="/team-member-account-settings-notifications-page" element={<TeamMemberAccountSettingsNotificationsPage />} />
+        <Route path="/account-settings" element={<AccountSettingsLayout />}>
+          <Route path="profile" element={<AccountSettingsProfilePage />} />
+          <Route path="agency" element={<AccountSettingsAgencyPage />} />
+          <Route path="password" element={<AccountSettingsPasswordPage />} />
+          <Route path="billing" element={<AccountSettingsBillingPage />} />
+          <Route path="notifications" element={<AccountSettingsNotificationsPage />} />
+        </Route>
+        <Route path="/team-member-account-settings" element={<TeamMemberAccountSettingsLayout />}>
+          <Route path="profile" element={<TeamMemberAccountSettingsProfilePage />} />
+          <Route path="password" element={<TeamMemberAccountSettingsPasswordPage />} />
+          <Route path="notifications" element={<TeamMemberAccountSettingsNotificationsPage />} />
+        </Route>
         <Route path="/personal-profile-page" element={<PersonalProfilePage />} />
         <Route path="/agency-profile-page" element={<AgencyProfilePage />} />
         <Route path="/refer-agency-page" element={<ReferAgencyPage />} /> 
-        <Route path="/search-agencies-all-agencies-page" element={<SearchAgenciesAllAgenciesPage />} />
-        <Route path="/search-agencies-industry-page" element={<SearchAgenciesIndustryPage />} />
-        <Route path="/search-agencies-ratings-page" element={<SearchAgenciesRatingsPage />} />
-        <Route path="/my-documents-agreements-page" element={<MyDocumentsAgreementsPage />} />
-        <Route path="/my-documents-reports-page" element={<MyDocumentsReportsPage />} />
-        <Route path="/my-documents-archive-page" element={<MyDocumentsArchivePage />} />
-        <Route path="/my-documents-job-report-page" element={<MyDocumentsJobReportPage />} />
-        <Route path="/my-documents-candidate-report-page" element={<MyDocumentsCandidateReportPage />} />
-        <Route path="/my-documents-partnership-report-page" element={<MyDocumentsPartnershipReportPage />} />
-        <Route path="/my-documents-user-activity-report-page" element={<MyDocumentsUserActivityReportPage />} />
-        <Route path="/my-jobs-home-page" element={<MyJobsHomePage />} />
-        <Route path="/my-jobs-batch-upload-page" element={<MyJobsBatchUploadPage />} />
-        <Route path="/my-jobs-active-jobs-page" element={<MyJobsActiveJobsPage />} />
-        <Route path="/my-jobs-pending-jobs-page" element={<MyJobsPendingJobsPage />} />
-        <Route path="/my-jobs-reviews-jobs-page" element={<MyJobsReviewsJobsPage />} />
-        <Route path="/my-jobs-submissions-page" element={<MyJobsSubmissionsPage />} />
-        <Route path="/my-jobs-interviews-page" element={<MyJobsInterviewsPage />} />
-        <Route path="/my-jobs-offers-page" element={<MyJobsOffersPage />} />
-        <Route path="/my-jobs-placements-page" element={<MyJobsPlacementsPage />} />
-        <Route path="/my-jobs-post-job-page" element={<MyJobsPostJobPage />} />
-        <Route path="/my-jobs-job-description-upload-page" element={<MyJobsJobDescriptionUploadPage />} />
-        <Route path="/my-jobs-post-job-batch-upload-page" element={<MyJobsPostJobBatchUploadPage />} />
-        <Route path="/my-jobs-job-details-page" element={<MyJobsJobDetailsPage />} />
-        <Route path="/search-jobs-home-grid-view-page" element={<SearchJobsHomeGridViewPage />} />
-        <Route path="/search-jobs-view-searches-page" element={<SearchJobsViewSearchesPage />} />
-        <Route path="/search-jobs-list-view-page" element={<SearchJobsListViewPage />} />
-        <Route path="/search-candidates-home-grid-view-page" element={<SearchCandidatesHomeGridViewPage />} />
-        <Route path="/search-candidates-view-searches-page" element={<SearchCandidatesViewSearchesPage />} />
-        <Route path="/search-candidates-list-view-page" element={<SearchCandidatesListViewPage />} />
+        <Route path="/search-agencies" element={<SearchAgenciesLayout />}>
+          <Route path="all" element={<SearchAgenciesAllAgenciesPage />} />
+          <Route path="industry" element={<SearchAgenciesIndustryPage />} />
+          <Route path="ratings" element={<SearchAgenciesRatingsPage />} />
+        </Route>
+        <Route path="/my-documents" element={<MyDocumentsLayout />}>
+          <Route path="agreements" element={<MyDocumentsAgreementsPage />} />
+          <Route path="reports" element={<MyDocumentsReportsPage />} />
+          <Route path="archive" element={<MyDocumentsArchivePage />} />
+          <Route path="job-report" element={<MyDocumentsJobReportPage />} />
+          <Route path="candidate-report" element={<MyDocumentsCandidateReportPage />} />
+          <Route path="partnership-report" element={<MyDocumentsPartnershipReportPage />} />
+          <Route path="user-activity-report" element={<MyDocumentsUserActivityReportPage />} />
+        </Route>
+        <Route path="/my-jobs" element={<MyJobsLayout />}>
+          <Route path="home" element={<MyJobsHomePage />} />
+          <Route path="batch-upload" element={<MyJobsBatchUploadPage />} />
+          <Route path="active-jobs" element={<MyJobsActiveJobsPage />} />
+          <Route path="pending-jobs" element={<MyJobsPendingJobsPage />} />
+          <Route path="reviews-jobs" element={<MyJobsReviewsJobsPage />} />
+          <Route path="submissions" element={<MyJobsSubmissionsPage />} />
+          <Route path="interviews" element={<MyJobsInterviewsPage />} />
+          <Route path="offers" element={<MyJobsOffersPage />} />
+          <Route path="placements" element={<MyJobsPlacementsPage />} />
+          <Route path="post-job" element={<MyJobsPostJobPage />} />
+          <Route path="job-description-upload" element={<MyJobsJobDescriptionUploadPage />} />
+          <Route path="post-job-batch-upload" element={<MyJobsPostJobBatchUploadPage />} />
+          <Route path="job-details" element={<MyJobsJobDetailsPage />} />
+        </Route>
+        <Route path="/search-jobs" element={<SearchJobsLayout />}>
+          <Route path="home-grid-view" element={<SearchJobsHomeGridViewPage />} />
+          <Route path="view-searches" element={<SearchJobsViewSearchesPage />} />
+          <Route path="list-view" element={<SearchJobsListViewPage />} />
+        </Route>
+        <Route path="/search-candidates" element={<SearchCandidatesLayout />}>
+          <Route path="home-grid-view" element={<SearchCandidatesHomeGridViewPage />} />
+          <Route path="view-searches" element={<SearchCandidatesViewSearchesPage />} />
+          <Route path="list-view" element={<SearchCandidatesListViewPage />} />
+        </Route>
         <Route path="/my-placements-home-page" element={<MyPlacementsHomePage />} />
-        <Route path="/my-candidates-home-page" element={<MyCandidatesHomePage />} />
-        <Route path="/my-candidates-post-candidate-page" element={<MyCandidatesPostCandidatePage />} />
-        <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
-        <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
-        <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
-        <Route path="/partnerships-review-partnership-requests-page" element={<PartnershipsReviewPartnershipRequestsPage />} />
-        <Route path="/partnerships-manage-page" element={<PartnershipsManagePage />} />
-        <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />
-        <Route path="/partnerships-view-activity-page" element={<PartnershipsViewActivityPage />} />
-        <Route path="/partnerships-terminate-agreement-page" element={<PartnershipsTerminateAgreementPage />} />
-        <Route path="/help-home-page" element={<HelpHomePage />} />
-        <Route path="/help-my-account-page" element={<HelpMyAccountPage />} />
-        <Route path="/help-job-posting-page" element={<HelpJobPostingPage />} />
-        <Route path="/help-candidate-posting-page" element={<HelpCandidatePostingPage />} />
-        <Route path="/help-documents-page" element={<HelpDocumentsPage />} />
-        <Route path="/help-partnerships-page" element={<HelpPartnershipsPage />} />
-        <Route path="/help-dashboard-page" element={<HelpDashboardPage />} />
-        <Route path="/help-searching-page" element={<HelpSearchingPage />} />
-        <Route path="/help-ratings-and-feedback-page" element={<HelpRatingsAndFeedbackPage />} />
-        <Route path="/help-reports-page" element={<HelpReportsPage />} />
-        <Route path="/help-membership-page" element={<HelpMembershipPage />} />
-        <Route path="/help-policies-and-terms-page" element={<HelpPoliciesAndTermsPage />} />
-        <Route path="/help-faq-page" element={<HelpFAQPage />} />
-        <Route path="/help-glossary-page" element={<HelpGlossaryPage />} />
-        <Route path="/ratings-home-page" element={<RatingsHomePage />} />
-        <Route path="/ratings-rate-an-agency-page" element={<RatingsRateAnAgencyPage />} />
-        <Route path="/ratings-my-ratings-page" element={<RatingsMyRatingsPage />} />
-        <Route path="/ratings-conflict-resolution-page" element={<RatingsConflictResolutionPage />} />
-        <Route path="/ratings-giving-negative-feedback-page" element={<RatingsGivingNegativeFeedbackPage />} />
-        <Route path="/ratings-giving-negative-feedback-step-3-page" element={<RatingsGivingNegativeFeedbackStep3Page />} />
-        <Route path="/ratings-giving-negative-feedback-step-4-page" element={<RatingsGivingNegativeFeedbackStep4Page />} />
-        <Route path="/ratings-giving-negative-feedback-step-5-page" element={<RatingsGivingNegativeFeedbackStep5Page />} />
-        <Route path="/ratings-giving-negative-feedback-end-dispute-page" element={<RatingsGivingNegativeFeedbackEndDisputePage />} />
-        <Route path="/ratings-receiving-negative-feedback-page" element={<RatingsReceivingNegativeFeedbackPage />} />
-        <Route path="/ratings-receiving-negative-feedback-step-3-page" element={<RatingsReceivingNegativeFeedbackStep3Page />} />
-        <Route path="/ratings-receiving-negative-feedback-step-4-page" element={<RatingsReceivingNegativeFeedbackStep4Page />} />
-        <Route path="/ratings-receiving-negative-feedback-step-5-page" element={<RatingsReceivingNegativeFeedbackStep5Page />} />
-        <Route path="/ratings-receiving-negative-feedback-end-dispute-page" element={<RatingsReceivingNegativeFeedbackEndDisputePage />} />
+        <Route path="/my-candidates" element={<MyCandidatesLayout />}>
+          <Route path="home" element={<MyCandidatesHomePage />} />
+          <Route path="post-candidate" element={<MyCandidatesPostCandidatePage />} />
+          <Route path="candidate-details" element={<MyCandidatesCandidateDetailsPage />} />
+        </Route>
+        <Route path="/partnerships" element={<PartnershipsLayout />}>
+          <Route path="home" element={<PartnershipsHomePage />} />
+          <Route path="requests" element={<PartnershipsRequestsPage />} />
+          <Route path="review-requests" element={<PartnershipsReviewPartnershipRequestsPage />} />
+          <Route path="manage" element={<PartnershipsManagePage />} />
+          <Route path="view-agreement" element={<PartnershipsViewAgreementPage />} />
+          <Route path="view-activity" element={<PartnershipsViewActivityPage />} />
+          <Route path="terminate-agreement" element={<PartnershipsTerminateAgreementPage />} />
+        </Route>
+        <Route path="/help" element={<HelpLayout />}>
+          <Route path="home" element={<HelpHomePage />} />
+          <Route path="my-account" element={<HelpMyAccountPage />} />
+          <Route path="job-posting" element={<HelpJobPostingPage />} />
+          <Route path="candidate-posting" element={<HelpCandidatePostingPage />} />
+          <Route path="documents" element={<HelpDocumentsPage />} />
+          <Route path="partnerships" element={<HelpPartnershipsPage />} />
+          <Route path="dashboard" element={<HelpDashboardPage />} />
+          <Route path="searching" element={<HelpSearchingPage />} />
+          <Route path="ratings-and-feedback" element={<HelpRatingsAndFeedbackPage />} />
+          <Route path="reports" element={<HelpReportsPage />} />
+          <Route path="membership" element={<HelpMembershipPage />} />
+          <Route path="policies-and-terms" element={<HelpPoliciesAndTermsPage />} />
+          <Route path="faq" element={<HelpFAQPage />} />
+          <Route path="glossary" element={<HelpGlossaryPage />} />
+        </Route>
+        <Route path="/ratings" element={<RatingsLayout />}>
+          <Route path="home" element={<RatingsHomePage />} />
+          <Route path="rate-an-agency" element={<RatingsRateAnAgencyPage />} />
+          <Route path="my-ratings" element={<RatingsMyRatingsPage />} />
+          <Route path="conflict-resolution" element={<RatingsConflictResolutionPage />} />
+          <Route path="giving-negative-feedback" element={<RatingsGivingNegativeFeedbackPage />} />
+          <Route path="giving-negative-feedback-step-3" element={<RatingsGivingNegativeFeedbackStep3Page />} />
+          <Route path="giving-negative-feedback-step-4" element={<RatingsGivingNegativeFeedbackStep4Page />} />
+          <Route path="giving-negative-feedback-step-5" element={<RatingsGivingNegativeFeedbackStep5Page />} />
+          <Route path="giving-negative-feedback-end-dispute" element={<RatingsGivingNegativeFeedbackEndDisputePage />} />
+          <Route path="receiving-negative-feedback" element={<RatingsReceivingNegativeFeedbackPage />} />
+          <Route path="receiving-negative-feedback-step-3" element={<RatingsReceivingNegativeFeedbackStep3Page />} />
+          <Route path="receiving-negative-feedback-step-4" element={<RatingsReceivingNegativeFeedbackStep4Page />} />
+          <Route path="receiving-negative-feedback-step-5" element={<RatingsReceivingNegativeFeedbackStep5Page />} />
+          <Route path="receiving-negative-feedback-end-dispute" element={<RatingsReceivingNegativeFeedbackEndDisputePage />} />
+        </Route>
         <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
         <Route path="/dashboard-quick-search-results-page" element={<DashboardQuickSearchResultsPage />} />
         <Route path="/dashboard-read-notification-page" element={<DashboardReadNotificationPage />} />
