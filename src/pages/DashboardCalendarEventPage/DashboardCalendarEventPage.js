@@ -66,7 +66,7 @@ export default function DashboardCalendarEventPage() {
               </div>
               <Link
                 className="dashboard-calendar-event-page__link"
-                to="/dashboard-quick-search-results-page"
+                to="/dashboard/quick-search-results"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <div className="dashboard-calendar-event-page__mobile-input-container">
@@ -104,7 +104,7 @@ export default function DashboardCalendarEventPage() {
                   <tbody className="dashboard-calendar-event-page__mobile-notifications-table-data-section">
                     <Link
                       className="dashboard-calendar-event-page__link"
-                      to="/dashboard-read-notification-page"
+                      to="/dashboard/read-notification"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <tr className="dashboard-calendar-event-page__mobile-notifications-table-data-row-1">
@@ -139,7 +139,7 @@ export default function DashboardCalendarEventPage() {
                     Messages
                     <Link
                       className="dashboard-calendar-event-page__link"
-                      to="/dashboard-home-page"
+                      to="/dashboard/home"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <img
@@ -189,7 +189,7 @@ export default function DashboardCalendarEventPage() {
                       </td>
                       <Link
                         className="dashboard-calendar-event-page__link"
-                        to="/dashboard-read-message-page"
+                        to="/dashboard/read-message"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <td className="dashboard-calendar-event-page__mobile-messages-table-data-row-1-sender">
@@ -456,7 +456,7 @@ export default function DashboardCalendarEventPage() {
                 </select>
                 <Link
                   className="dashboard-calendar-event-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-calendar-event-page__tablet-keyword-input-container">
@@ -595,7 +595,7 @@ export default function DashboardCalendarEventPage() {
                           </td>
                           <Link
                             className="dashboard-calendar-event-page__link"
-                            to="/dashboard-read-message-page"
+                            to="/dashboard/read-message"
                             onClick={() => window.scrollTo(0, 0)}
                           >
                             <td className="dashboard-calendar-event-page__tablet-messages-table-data-row-1-sender">
@@ -772,7 +772,7 @@ export default function DashboardCalendarEventPage() {
                       <tbody className="dashboard-calendar-event-page__tablet-notifications-table-data-section">
                         <Link
                           className="dashboard-calendar-event-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-calendar-event-page__tablet-notifications-table-data-row-1">
@@ -823,7 +823,7 @@ export default function DashboardCalendarEventPage() {
                 </select>
                 <Link
                   className="dashboard-calendar-event-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-calendar-event-page__desktop-quick-search-container">
@@ -962,7 +962,7 @@ export default function DashboardCalendarEventPage() {
                           </td>
                           <Link
                             className="dashboard-calendar-event-page__link"
-                            to="/dashboard-read-message-page"
+                            to="/dashboard/read-message"
                             onClick={() => window.scrollTo(0, 0)}
                           >
                             <td className="dashboard-calendar-event-page__desktop-messages-table-data-row-1-sender">
@@ -1144,7 +1144,7 @@ export default function DashboardCalendarEventPage() {
                       <tbody className="dashboard-calendar-event-page__desktop-notifications-table-data-section">
                         <Link
                           className="dashboard-calendar-event-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-calendar-event-page__desktop-notifications-table-data-row-1">

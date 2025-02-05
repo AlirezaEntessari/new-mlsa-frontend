@@ -66,7 +66,7 @@ export default function DashboardHomePage() {
               </div>
               <Link
                 className="dashboard-home-page__link"
-                to="/dashboard-quick-search-results-page"
+                to="/dashboard/quick-search-results"
               >
                 <input
                   className="dashboard-home-page__mobile-keywords-input"
@@ -102,7 +102,7 @@ export default function DashboardHomePage() {
                   <tbody className="dashboard-home-page__mobile-notifications-table-data-section">
                     <Link
                       className="dashboard-home-page__link"
-                      to="/dashboard-read-notification-page"
+                      to="/dashboard/read-notification"
                     >
                       <tr className="dashboard-home-page__mobile-notifications-table-data-row-1">
                         <td className="dashboard-home-page__mobile-notifications-table-data-row-1-value">
@@ -175,7 +175,7 @@ export default function DashboardHomePage() {
                       </td>
                       <Link
                         className="dashboard-home-page__mobile-messages-link"
-                        to="/dashboard-read-message-page"
+                        to="/dashboard/read-message"
                       >
                         <td className="dashboard-home-page__mobile-messages-table-data-row-1-sender">
                           Acme Agency
@@ -273,7 +273,7 @@ export default function DashboardHomePage() {
               </div>
               <Link
                 className="dashboard-home-page__link"
-                to="/dashboard-calendar-event-page"
+                to="/dashboard/calendar-event"
               >
                 <img
                   className="dashboard-home-page__mobile-mobile-calendar-icon"
@@ -800,7 +800,7 @@ export default function DashboardHomePage() {
                 </select>
                 <Link
                   className="dashboard-home-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                 >
                   <input
                     className="dashboard-home-page__tablet-keyword-input"
@@ -837,7 +837,7 @@ export default function DashboardHomePage() {
                     <tbody className="dashboard-home-page__tablet-notifications-table-data-section">
                       <Link
                         className="dashboard-home-page__link"
-                        to="/dashboard-read-notification-page"
+                        to="/dashboard/read-notification"
                       >
                         <tr className="dashboard-home-page__tablet-notifications-table-data-row-1">
                           <td className="dashboard-home-page__tablet-notifications-table-data-row-1-value">
@@ -910,7 +910,7 @@ export default function DashboardHomePage() {
                         </td>
                         <Link
                           className="dashboard-home-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                         >
                           <td className="dashboard-home-page__tablet-messages-table-data-row-1-sender">
                             Acme Agency
@@ -1010,7 +1010,7 @@ export default function DashboardHomePage() {
               <div className="dashboard-home-page__tablet-calendar-tasks-container">
                 <Link
                   className="dashboard-home-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                 >
                   <img
                     className="dashboard-home-page__tablet-calendar-icon"
@@ -1513,7 +1513,7 @@ export default function DashboardHomePage() {
                 </select>
                 <Link
                   className="dashboard-home-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                 >
                   <input
                     className="dashboard-home-page__desktop-candidates-input"
@@ -1545,7 +1545,7 @@ export default function DashboardHomePage() {
                     <tbody className="dashboard-home-page__desktop-notifications-table-data-section">
                       <Link
                         className="dashboard-home-page__link"
-                        to="/dashboard-read-notification-page"
+                        to="/dashboard/read-notification"
                       >
                         <tr className="dashboard-home-page__desktop-notifications-table-data-row-1">
                           <td className="dashboard-home-page__desktop-notifications-table-data-row-1-value">
@@ -1618,7 +1618,7 @@ export default function DashboardHomePage() {
                         </td>
                         <Link
                           className="dashboard-home-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                         >
                           <td className="dashboard-home-page__desktop-messages-table-data-row-1-sender">
                             Acme Agency
@@ -1718,7 +1718,7 @@ export default function DashboardHomePage() {
               <div className="dashboard-home-page__desktop-calendar-tasks-container">
                 <Link
                   className="dashboard-home-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                 >
                   <img
                     className="dashboard-home-page__desktop-calendar-icon"

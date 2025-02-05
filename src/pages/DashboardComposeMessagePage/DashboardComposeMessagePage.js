@@ -41,7 +41,7 @@ export default function DashboardComposeMessagePage() {
               </div>
               <Link
                 className="dashboard-compose-message-page__link"
-                to="/dashboard-quick-search-results-page"
+                to="/dashboard/quick-search-results"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <div className="dashboard-compose-message-page__mobile-input-container">
@@ -79,7 +79,7 @@ export default function DashboardComposeMessagePage() {
                   <tbody className="dashboard-compose-message-page__mobile-notifications-table-data-section">
                     <Link
                       className="dashboard-compose-message-page__link"
-                      to="/dashboard-read-notification-page"
+                      to="/dashboard/read-notification"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <tr className="dashboard-compose-message-page__mobile-notifications-table-data-row-1">
@@ -114,7 +114,7 @@ export default function DashboardComposeMessagePage() {
                     Messages{" "}
                     <Link
                       className="dashboard-compose-message-page__link"
-                      to="/dashboard-home-page"
+                      to="/dashboard/home"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <img
@@ -181,7 +181,7 @@ export default function DashboardComposeMessagePage() {
               </div>
               <Link
                 className="dashboard-compose-message-page__link"
-                to="/dashboard-calendar-event-page"
+                to="/dashboard/calendar-event"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <img
@@ -287,7 +287,7 @@ export default function DashboardComposeMessagePage() {
                 </select>
                 <Link
                   className="dashboard-compose-message-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-compose-message-page__tablet-keyword-input-container">
@@ -328,7 +328,7 @@ export default function DashboardComposeMessagePage() {
                       <tbody className="dashboard-compose-message-page__tablet-notifications-table-data-section">
                         <Link
                           className="dashboard-compose-message-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-compose-message-page__tablet-notifications-table-data-row-1">
@@ -359,7 +359,7 @@ export default function DashboardComposeMessagePage() {
                   </div>
                   <Link
                     className="dashboard-compose-message-page__link"
-                    to="/dashboard-calendar-event-page"
+                    to="/dashboard/calendar-event"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <img
@@ -434,7 +434,7 @@ export default function DashboardComposeMessagePage() {
                         Messages
                         <Link
                           className="dashboard-compose-message-page__link"
-                          to="/dashboard-home-page"
+                          to="/dashboard/home"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <img
@@ -518,7 +518,7 @@ export default function DashboardComposeMessagePage() {
                 </select>
                 <Link
                   className="dashboard-compose-message-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-compose-message-page__desktop-quick-search-container">
@@ -559,7 +559,7 @@ export default function DashboardComposeMessagePage() {
                       <tbody className="dashboard-compose-message-page__desktop-notifications-table-data-section">
                         <Link
                           className="dashboard-compose-message-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-compose-message-page__desktop-notifications-table-data-row-1">
@@ -590,7 +590,7 @@ export default function DashboardComposeMessagePage() {
                   </div>
                   <Link
                     className="dashboard-compose-message-page__link"
-                    to="/dashboard-calendar-event-page"
+                    to="/dashboard/calendar-event"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <img
@@ -670,7 +670,7 @@ export default function DashboardComposeMessagePage() {
                         Messages
                         <Link
                           className="dashboard-compose-message-page__link"
-                          to="/dashboard-home-page"
+                          to="/dashboard/home"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <img

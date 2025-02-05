@@ -66,7 +66,7 @@ export default function DashboardReadMessagePage() {
               </div>
               <Link
                 className="dashboard-read-message-page__link"
-                to="/dashboard-quick-search-results-page"
+                to="/dashboard/quick-search-results"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <div className="dashboard-read-message-page__mobile-input-container">
@@ -104,7 +104,7 @@ export default function DashboardReadMessagePage() {
                   <tbody className="dashboard-read-message-page__mobile-notifications-table-data-section">
                     <Link
                       className="dashboard-read-message-page__link"
-                      to="/dashboard-read-notification-page"
+                      to="/dashboard/read-notification"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <tr className="dashboard-read-message-page__mobile-notifications-table-data-row-1">
@@ -139,7 +139,7 @@ export default function DashboardReadMessagePage() {
                     Messages{" "}
                     <Link
                       className="dashboard-read-message-page__link"
-                      to="/dashboard-home-page"
+                      to="/dashboard/home"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <img
@@ -151,7 +151,7 @@ export default function DashboardReadMessagePage() {
                   </p>
                   <Link
                     className="dashboard-read-message-page__link"
-                    to="/dashboard-compose-message-page"
+                    to="/dashboard/compose-message"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <img
@@ -211,7 +211,7 @@ export default function DashboardReadMessagePage() {
               </div>
               <Link
                 className="dashboard-read-message-page__link"
-                to="/dashboard-calendar-event-page"
+                to="/dashboard/calendar-event"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <img
@@ -317,7 +317,7 @@ export default function DashboardReadMessagePage() {
                 </select>
                 <Link
                   className="dashboard-read-message-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-read-message-page__tablet-keyword-input-container">
@@ -358,7 +358,7 @@ export default function DashboardReadMessagePage() {
                       <tbody className="dashboard-read-message-page__tablet-notifications-table-data-section">
                         <Link
                           className="dashboard-read-message-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-read-message-page__tablet-notifications-table-data-row-1">
@@ -389,7 +389,7 @@ export default function DashboardReadMessagePage() {
                   </div>
                   <Link
                     className="dashboard-read-message-page__link"
-                    to="/dashboard-calendar-event-page"
+                    to="/dashboard/calendar-event"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <img
@@ -464,7 +464,7 @@ export default function DashboardReadMessagePage() {
                         Messages
                         <Link
                           className="dashboard-read-message-page__link"
-                          to="/dashboard-home-page"
+                          to="/dashboard/home"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <img
@@ -476,7 +476,7 @@ export default function DashboardReadMessagePage() {
                       </p>
                       <Link
                         className="dashboard-read-message-page__link"
-                        to="/dashboard-compose-message-page"
+                        to="/dashboard/compose-message"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <img
@@ -556,7 +556,7 @@ export default function DashboardReadMessagePage() {
                 </select>
                 <Link
                   className="dashboard-read-message-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-read-message-page__desktop-quick-search-input-container">
@@ -597,7 +597,7 @@ export default function DashboardReadMessagePage() {
                       <tbody className="dashboard-read-message-page__desktop-notifications-table-data-section">
                         <Link
                           className="dashboard-read-message-page__link"
-                          to="/dashboard-read-notification-page"
+                          to="/dashboard/read-notification"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <tr className="dashboard-read-message-page__desktop-notifications-table-data-row-1">
@@ -628,7 +628,7 @@ export default function DashboardReadMessagePage() {
                   </div>
                   <Link
                     className="dashboard-read-message-page__link"
-                    to="/dashboard-calendar-event-page"
+                    to="/dashboard/calendar-event"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     <img
@@ -708,7 +708,7 @@ export default function DashboardReadMessagePage() {
                         Messages
                         <Link
                           className="dashboard-read-message-page__link"
-                          to="/dashboard-home-page"
+                          to="/dashboard/home"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <img
@@ -720,7 +720,7 @@ export default function DashboardReadMessagePage() {
                       </p>
                       <Link
                         className="dashboard-read-message-page__link"
-                        to="/dashboard-compose-message-page"
+                        to="/dashboard/compose-message"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <img

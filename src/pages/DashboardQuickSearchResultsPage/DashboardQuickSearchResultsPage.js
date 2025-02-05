@@ -162,7 +162,7 @@ export default function DashboardQuickSearchResultsPage() {
                   <tbody className="dashboard-quick-search-results-page__mobile-notifications-table-data-section">
                     <Link
                       className="dashboard-quick-search-results-page__link"
-                      to="/dashboard-read-notification-page"
+                      to="/dashboard/read-notification"
                       onClick={() => window.scrollTo(0, 0)}
                     >
                       <tr className="dashboard-quick-search-results-page__mobile-notifications-table-data-row-1">
@@ -236,7 +236,7 @@ export default function DashboardQuickSearchResultsPage() {
                       </td>
                       <Link
                         className="dashboard-quick-search-results-page__link"
-                        to="/dashboard-read-message-page"
+                        to="/dashboard/read-message"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <td className="dashboard-quick-search-results-page__mobile-messages-table-data-row-1-sender">
@@ -335,7 +335,7 @@ export default function DashboardQuickSearchResultsPage() {
               </div>
               <Link
                 className="dashboard-quick-search-results-page__link"
-                to="/dashboard-calendar-event-page"
+                to="/dashboard/calendar-event"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <img
@@ -963,7 +963,7 @@ export default function DashboardQuickSearchResultsPage() {
                     <tbody className="dashboard-quick-search-results-page__tablet-notifications-table-data-section">
                       <Link
                         className="dashboard-quick-search-results-page__link"
-                        to="/dashboard-read-notification-page"
+                        to="/dashboard/read-notification"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <tr className="dashboard-quick-search-results-page__tablet-notifications-table-data-row-1">
@@ -1037,7 +1037,7 @@ export default function DashboardQuickSearchResultsPage() {
                         </td>
                         <Link
                           className="dashboard-quick-search-results-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <td className="dashboard-quick-search-results-page__tablet-messages-table-data-row-1-sender">
@@ -1138,7 +1138,7 @@ export default function DashboardQuickSearchResultsPage() {
               <div className="dashboard-quick-search-results-page__tablet-calendar-tasks-container">
                 <Link
                   className="dashboard-quick-search-results-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <img
@@ -1735,7 +1735,7 @@ export default function DashboardQuickSearchResultsPage() {
                     <tbody className="dashboard-quick-search-results-page__desktop-notifications-table-data-section">
                       <Link
                         className="dashboard-quick-search-results-page__link"
-                        to="/dashboard-read-notification-page"
+                        to="/dashboard/read-notification"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <tr className="dashboard-quick-search-results-page__desktop-notifications-table-data-row-1">
@@ -1809,7 +1809,7 @@ export default function DashboardQuickSearchResultsPage() {
                         </td>
                         <Link
                           className="dashboard-quick-search-results-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <td className="dashboard-quick-search-results-page__desktop-messages-table-data-row-1-sender">
@@ -1910,7 +1910,7 @@ export default function DashboardQuickSearchResultsPage() {
               <div className="dashboard-quick-search-results-page__desktop-calendar-tasks-container">
                 <Link
                   className="dashboard-quick-search-results-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <img

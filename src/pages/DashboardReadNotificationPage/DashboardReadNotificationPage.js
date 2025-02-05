@@ -64,7 +64,7 @@ export default function DashboardReadNotificationPage() {
               </div>
               <Link
                 className="dashboard-read-notification-page__link"
-                to="/dashboard-quick-search-results-page"
+                to="/dashboard/quick-search-results"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <div className="dashboard-read-notification-page__mobile-input-container">
@@ -178,7 +178,7 @@ export default function DashboardReadNotificationPage() {
                       </td>
                       <Link
                         className="dashboard-read-notification-page__link"
-                        to="/dashboard-read-message-page"
+                        to="/dashboard/read-message"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <td className="dashboard-read-notification-page__mobile-messages-table-data-row-1-sender">
@@ -277,7 +277,7 @@ export default function DashboardReadNotificationPage() {
               </div>
               <Link
                 className="dashboard-read-notification-page__link"
-                to="/dashboard-calendar-event-page"
+                to="/dashboard/calendar-event"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <img
@@ -383,7 +383,7 @@ export default function DashboardReadNotificationPage() {
                 </select>
                 <Link
                   className="dashboard-read-notification-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-read-notification-page__tablet-keyword-container">
@@ -497,7 +497,7 @@ export default function DashboardReadNotificationPage() {
                         </td>
                         <Link
                           className="dashboard-read-notification-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <td className="dashboard-read-notification-page__tablet-messages-table-data-row-1-sender">
@@ -598,7 +598,7 @@ export default function DashboardReadNotificationPage() {
               <div className="dashboard-read-notification-page__tablet-calendar-tasks-container">
                 <Link
                   className="dashboard-read-notification-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <img
@@ -686,7 +686,7 @@ export default function DashboardReadNotificationPage() {
                 </select>
                 <Link
                   className="dashboard-read-notification-page__link"
-                  to="/dashboard-quick-search-results-page"
+                  to="/dashboard/quick-search-results"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="dashboard-read-notification-page__desktop-keyword-input-container">
@@ -800,7 +800,7 @@ export default function DashboardReadNotificationPage() {
                         </td>
                         <Link
                           className="dashboard-read-notification-page__link"
-                          to="/dashboard-read-message-page"
+                          to="/dashboard/read-message"
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <td className="dashboard-read-notification-page__desktop-messages-table-data-row-1-sender">
@@ -901,7 +901,7 @@ export default function DashboardReadNotificationPage() {
               <div className="dashboard-read-notification-page__mobile-calendar-tasks-container">
                 <Link
                   className="dashboard-read-notification-page__link"
-                  to="/dashboard-calendar-event-page"
+                  to="/dashboard/calendar-event"
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <img

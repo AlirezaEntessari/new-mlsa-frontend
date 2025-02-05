@@ -107,6 +107,7 @@ import MyCandidatesLayout from './layouts/MyCandidatesLayout/MyCandidatesLayout'
 import PartnershipsLayout from './layouts/PartnershipsLayout/PartnershipsLayout';
 import HelpLayout from './layouts/HelpLayout/HelpLayout';
 import RatingsLayout from './layouts/RatingsLayout/RatingsLayout';
+import DashboardLayout from './layouts/DashboardLayout/DashboardLayout';
 
 function App() {
   return (
@@ -225,12 +226,14 @@ function App() {
           <Route path="receiving-negative-feedback-step-5" element={<RatingsReceivingNegativeFeedbackStep5Page />} />
           <Route path="receiving-negative-feedback-end-dispute" element={<RatingsReceivingNegativeFeedbackEndDisputePage />} />
         </Route>
-        <Route path="/dashboard-home-page" element={<DashboardHomePage />} />
-        <Route path="/dashboard-quick-search-results-page" element={<DashboardQuickSearchResultsPage />} />
-        <Route path="/dashboard-read-notification-page" element={<DashboardReadNotificationPage />} />
-        <Route path="/dashboard-read-message-page" element={<DashboardReadMessagePage />} />
-        <Route path="/dashboard-compose-message-page" element={<DashboardComposeMessagePage />} />
-        <Route path="/dashboard-calendar-event-page" element={<DashboardCalendarEventPage />} />
+        <Route path="/dashboard" element={<DashboardLayout />}>
+          <Route path="home" element={<DashboardHomePage />} />
+          <Route path="quick-search-results" element={<DashboardQuickSearchResultsPage />} />
+          <Route path="read-notification" element={<DashboardReadNotificationPage />} />
+          <Route path="read-message" element={<DashboardReadMessagePage />} />
+          <Route path="compose-message" element={<DashboardComposeMessagePage />} />
+          <Route path="calendar-event" element={<DashboardCalendarEventPage />} />
+        </Route>
         <Route path="/sign-up-clerk-page" element={<SignUpClerkPage />} />
         <Route path="/membership-plan-clerk-page" element={<MembershipPlanClerkPage />} />
         <Route path="/agency-information-clerk-page" element={<AgencyInformationClerkPage />} />
