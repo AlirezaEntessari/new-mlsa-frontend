@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PartnershipsReviewPartnershipRequestsPage.scss";
 import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWithProfilePic";
 import PartnershipsSidePanel from "../../components/PartnershipsSidePanel/PartnershipsSidePanel";
 import PartnershipsNavbar from "../../components/PartnershipsNavbar/PartnershipsNavbar";
 import LMNStaffingIncLogo from "../../assets/icons/lmnstaffinginc.svg";
 import RatingStarIcon from "../../assets/icons/RatingStar.svg";
+import ModalPartnershipAgreement from "../../components/ModalPartnershipAgreement/ModalPartnershipAgreement";
 
 export default function PartnershipsReviewPartnershipRequestsPage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="partnerships-review-partnership-requests-page">
       <HeaderWithProfilePic />
@@ -279,6 +290,131 @@ export default function PartnershipsReviewPartnershipRequestsPage() {
                 </div>
               </div>
             </div>
+            <div className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-for-accepting-to-partner-container">
+              <p className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-for-accepting-to-partner-header">
+                Terms and Conditions for Accepting to Partner with Staffing
+                Agency
+              </p>
+              <div className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-for-accepting-to-partner-inner-container">
+                <p className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-carefully-read">
+                  Please carefully read and understand these terms and
+                  conditions before requesting client details. By Clicking on
+                  the "Acknowledge & Agree" button, you acknowledge and agree to
+                  the following terms and conditions:
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-non-disclosure-agreement-text">
+                  Non-disclosure agreement:
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-agree-not-to-contact-client-directly">
+                  I agree to not contact the client directly or indirectly,
+                  unless explicitly authorized with written consent by the MLSA
+                  platform.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-shall-maintain-confidentiality">
+                  I shall maintain the confidentiality of client information
+                  retrieved through the platform and use it solely for the
+                  purpose of submitting candidates for the posted job.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-agree-not-to-share-client-details">
+                  I agree not to share the client details with any third party
+                  within or outside the platform.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-understand-that-any-disclosure-of-client-information">
+                  I understand that any disclosure of client information to a
+                  third party will lead to legal action and a penalty of up to
+                  $1,000,000 USD impacting personal assets.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-agree-to-avoid-disclosing">
+                  I agree to avoid disclosing the name of the client to
+                  candidates to avoid the possibility of the candidate reaching
+                  out to the client directly.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-agree-not-to-post-positions">
+                  I agree not to post positions listed on MLSA on any
+                  third-party job posting sites or other company websites.
+                </p>
+                <p className="partnerships-review-partnership-requests-page__mobile-clicking-on-acknowledge-and-agree">
+                  By clicking on the "Acknowledge & Agree" button, you confirm
+                  that you have read, understood, and agree to be bound by the
+                  Terms and Conditions, Privacy Policy, Terms of Service, EULA &
+                  Rules and Regulations and Partnership agreements. Failure to
+                  comply may result in severe consequences, including legal
+                  action up to $1,000,000 USD and the termination of your
+                  account on the MLSA platform.
+                </p>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-for-accepting-to-partner-button-container">
+                <button className="partnerships-review-partnership-requests-page__mobile-acknowledge-and-agree-button">
+                  Acknowledge & Agree
+                </button>
+                <button className="partnerships-review-partnership-requests-page__mobile-cancel-button">
+                  Cancel
+                </button>
+              </div>
+              <p className="partnerships-review-partnership-requests-page__mobile-to-complete-your-partnership">
+                To complete your partnership, click the "Sign" button below. By
+                clicking the "Sign" button you agree to be bound by the
+                Partnership agreement and the Terms and Conditions for accepting
+                to partner with a Staffing Agency.
+              </p>
+            </div>
+            <div className="partnerships-review-partnership-requests-page__mobile-bottom-card-container">
+              <div className="partnerships-review-partnership-requests-page__mobile-agency-1-card-container">
+                <div className="partnerships-review-partnership-requests-page__mobile-agency-1-card-inner-container">
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-header">
+                    Agency 1
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-agency-name">
+                    Agency Name: LMN Staffing Inc.
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-signee">
+                    Signee: Jennifer Matthews
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-title">
+                    Title: Administrator
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-date">
+                    Date: 8/23/24
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-1-card-officially-signed">
+                    This document was officially signed on 8/23/24
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__mobile-agency-2-card-container">
+                <div className="partnerships-review-partnership-requests-page__mobile-agency-2-card-inner-container">
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-2-card-header">
+                    Agency 2
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-2-card-agency-name">
+                    Agency Name: HumanRe
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-2-card-signee">
+                    Signee: John Smith
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-2-card-title">
+                    Title: Administrator
+                  </p>
+                  <p className="partnerships-review-partnership-requests-page__mobile-agency-2-card-date">
+                    Date: 8/23/24
+                  </p>
+                  <div className="partnerships-review-partnership-requests-page__mobile-agency-2-card-button-container">
+                    <button
+                      className="partnerships-review-partnership-requests-page__mobile-agency-2-card-sign-button"
+                      onClick={openModal}
+                    >
+                      Sign
+                    </button>
+                    <button className="partnerships-review-partnership-requests-page__mobile-agency-2-card-cancel-button">
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {isModalOpen && (
+              <ModalPartnershipAgreement closeModal={closeModal} />
+            )}
           </div>
         </div>
       </div>
