@@ -657,6 +657,726 @@
             margin-bottom: 8px;
         }
 
+        &__tablet-desktop-partnership-agreement-termination-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-termination-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-governing-law-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-governing-law-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-entire-agreement-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-entire-agreement-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-amendments-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-amendments-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-dispute-resolution {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-terms-and-conditions-container {
+            margin-top: 64px;
+            margin-left: 32px;
+            margin-right: 32px;
+            text-align: justify;
+        }
+
+        &__tablet-desktop-terms-and-conditions-header {
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-terms-and-conditions-please-carefully-read {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-non-disclosure-agreement {
+            font-weight: 500;
+            margin-top: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-contact-client {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-shall-maintain-the-confidentiality {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-share-client-details {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-understand-that-any-disclosure {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-post-positions {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-clicking-on-the-acknowledge-and-agree-button {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-acknowledge-and-agree-cancel-button-container {
+            margin-top: 100px;
+            margin-left: 140px;
+        }
+
+        &__tablet-desktop-acknowledge-and-agree-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 220px;
+            height: 54px;
+            font-weight: 500;
+            border-radius: 32px;
+        }
+
+        &__tablet-desktop-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 220px;
+            height: 54px;
+            font-weight: 500;
+            border-radius: 32px;
+            margin-left: 28px;
+        }
+
+        &__tablet-desktop-to-complete-your-partnership {
+            margin-top: 100px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agency-1-agency-2-card-container {
+            margin-top: 72px;
+            margin-left: 96px;
+        }
+
+        &__tablet-desktop-agency-1-card-container {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 360px;
+            border-radius: 32px;
+        }
+
+        &__tablet-desktop-agency-1-card-inner-container {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        &__tablet-desktop-agency-1-card-header {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-1-card-agency-name-title-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-desktop-agency-1-card-title {
+            margin-left: 80px;
+        }
+
+        &__tablet-desktop-agency-1-card-signee-date-container {
+            display: flex;
+        }
+
+        &__tablet-desktop-agency-1-card-date {
+            margin-left: 122px;
+        }
+
+        &__tablet-desktop-agency-1-card-officially-signed {
+            margin-top: 54px;
+        }
+
+        &__tablet-desktop-agency-2-card-container {
+            border: 1px solid $medium-gray;
+            width: 600px;
+            height: 360px;
+            border-radius: 32px;
+            margin-top: 64px;
+        }
+
+        &__tablet-desktop-agency-2-card-inner-container {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        &__tablet-desktop-agency-2-card-header {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-2-card-agency-name-title-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-desktop-agency-2-card-title {
+            margin-left: 138px;
+        }
+
+        &__tablet-desktop-agency-2-card-signee-date-container {
+            display: flex;
+        }
+
+        &__tablet-desktop-agency-2-card-date {
+            margin-left: 180px;
+        }
+
+        &__tablet-desktop-agency-2-card-button-container {
+            margin-top: 54px;
+            margin-left: 50px;
+        }
+
+        &__tablet-desktop-agency-2-card-sign-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 220px;
+            height: 48px;
+            border-radius: 32px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-2-card-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 220px;
+            height: 48px;
+            border-radius: 32px;
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 32px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .partnerships-review-partnership-requests-page {
+        padding-bottom: 20rem;
+
+        &__tablet-desktop-header {
+            font-family: 'Roboto Serif';
+            color: $dark-navy;
+            font-weight: 700;
+            font-size: 32px;
+            margin-top: 32px;
+            margin-left: 80px;
+        }
+
+        &__tablet-desktop-review-partnership-request {
+            border-bottom: 2px solid $dark-navy;
+            margin-top: 72px;
+            margin-left: 80px;
+            padding-bottom: 4px;
+            color: $dark-navy;
+            font-weight: 500;
+            margin-right: 120px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-container {
+            margin-top: 32px;
+            margin-left: 80px;
+            display: flex;
+            border-bottom: 2px solid $dark-navy;
+            padding-bottom: 40px;
+            margin-right: 120px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-logo {
+            width: 120px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            font-weight: 500;
+            margin-top: 60px;
+            margin-left: 120px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-reviews-container {
+            display: flex;
+            margin-top: 56px;
+            margin-left: 180px;
+        }
+
+        &__tablet-desktop-rating-star-icon {
+            margin-left: 10px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-desktop-rating-text {
+            color: $dark-navy;
+            text-decoration: underline;
+            margin-left: 32px;
+            font-size: 18px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-active-jobs-active-candidates-container {
+            margin-left: 420px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-active-jobs-container {
+            border: 1px solid $medium-gray;
+            width: 220px;
+            height: 70px;
+            display: flex;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        &__tablet-desktop-active-jobs-text {
+            color: $dark-gray;
+            font-weight: 500;
+            width: 80px;
+            margin-top: 10px;
+            margin-left: 14px;
+        }
+
+        &__tablet-desktop-active-jobs-number {
+            color: $dark-gray;
+            font-size: 36px;
+            font-weight: 700;
+            margin-left: 60px;
+            margin-top: 6px;
+        }
+
+        &__tablet-desktop-lmn-staffing-inc-active-candidates-container {
+            border: 1px solid $medium-gray;
+            width: 220px;
+            height: 70px;
+            display: flex;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 10px;
+        }
+
+        &__tablet-desktop-active-candidates-text {
+            color: $dark-gray;
+            font-weight: 500;
+            width: 70px;
+            margin-top: 10px;
+            margin-left: 14px;
+        }
+
+        &__tablet-desktop-active-candidates-number {
+            color: $dark-gray;
+            font-size: 36px;
+            font-weight: 700;
+            margin-left: 80px;
+            margin-top: 6px;
+        }
+
+        &__tablet-desktop-instructions-for-signing-partnership-agreement-container {
+            margin-left: 80px;
+            margin-top: 80px;
+            margin-right: 120px;
+        }
+
+        &__tablet-desktop-instructions-for-signing-partnership-agreement-header {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-before-you-proceed {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-bolded-text {
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-read-carefully {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-seek-clarification {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-verify-details {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-signature {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-date {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-instructions-by-following-these-instructions {
+            margin-top: 48px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-container {
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-right: 120px;
+            text-align: justify;
+        }
+
+        &__tablet-desktop-partnership-agreement-header {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-desktop-partnership-agreement-introduction {
+            line-height: 28px;
+            margin-top: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-purpose-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-purpose-container {
+            line-height: 28px;
+            margin-top: 32px;
+        }
+
+        &__tablet-desktop-partnership-agreement-responsibilities-of-the-parties-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-responsibilities-of-the-parties-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-responsibilities-of-the-parties-agency-1 {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-term-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-term-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-confidentiality-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-confidentiality-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-profit-sharing-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-profit-sharing-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-termination-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-termination-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-governing-law-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-governing-law-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-entire-agreement-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-entire-agreement-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-amendments-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-amendments-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-container {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-header {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-partnership-agreement-miscellaneous-dispute-resolution {
+            margin-bottom: 8px;
+        }
+
+        &__tablet-desktop-terms-and-conditions-container {
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-right: 120px;
+            text-align: justify;
+        }
+
+        &__tablet-desktop-terms-and-conditions-header {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        &__tablet-desktop-terms-and-conditions-please-carefully-read {
+            margin-top: 32px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-non-disclosure-agreement {
+            font-weight: 500;
+            margin-top: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-contact-client {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-shall-maintain-the-confidentiality {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-share-client-details {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-understand-that-any-disclosure {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agree-not-to-post-positions {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-clicking-on-the-acknowledge-and-agree-button {
+            margin-top: 28px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-acknowledge-and-agree-cancel-button-container {
+            margin-top: 150px;
+            margin-left: 420px;
+        }
+
+        &__tablet-desktop-acknowledge-and-agree-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 270px;
+            height: 60px;
+            font-weight: 500;
+            border-radius: 32px;
+            font-size: 18px;
+        }
+
+        &__tablet-desktop-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 270px;
+            height: 60px;
+            font-weight: 500;
+            border-radius: 32px;
+            margin-left: 36px;
+            font-size: 18px;
+        }
+
+        &__tablet-desktop-to-complete-your-partnership {
+            margin-top: 100px;
+            line-height: 28px;
+        }
+
+        &__tablet-desktop-agency-1-agency-2-card-container {
+            margin-top: 72px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        &__tablet-desktop-agency-1-card-container {
+            border: 1px solid $medium-gray;
+            width: 690px;
+            height: 360px;
+            border-radius: 32px;
+        }
+
+        &__tablet-desktop-agency-1-card-inner-container {
+            margin-top: 44px;
+            margin-left: 64px;
+        }
+
+        &__tablet-desktop-agency-1-card-header {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-1-card-agency-name-title-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-desktop-agency-1-card-title {
+            margin-left: 120px;
+        }
+
+        &__tablet-desktop-agency-1-card-signee-date-container {
+            display: flex;
+        }
+
+        &__tablet-desktop-agency-1-card-date {
+            margin-left: 162px;
+        }
+
+        &__tablet-desktop-agency-1-card-officially-signed {
+            margin-top: 54px;
+        }
+
+        &__tablet-desktop-agency-2-card-container {
+            border: 1px solid $medium-gray;
+            width: 690px;
+            height: 360px;
+            border-radius: 32px;
+            margin-top: 0px;
+            margin-left: 120px;
+        }
+
+        &__tablet-desktop-agency-2-card-inner-container {
+            margin-top: 44px;
+            margin-left: 64px;
+        }
+
+        &__tablet-desktop-agency-2-card-header {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-2-card-agency-name-title-container {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        &__tablet-desktop-agency-2-card-title {
+            margin-left: 178px;
+        }
+
+        &__tablet-desktop-agency-2-card-signee-date-container {
+            display: flex;
+        }
+
+        &__tablet-desktop-agency-2-card-date {
+            margin-left: 220px;
+        }
+
+        &__tablet-desktop-agency-2-card-button-container {
+            margin-top: 54px;
+            margin-left: 64px;
+        }
+
+        &__tablet-desktop-agency-2-card-sign-button {
+            border: 1px solid $dark-navy;
+            background-color: $dark-navy;
+            color: $white-text;
+            width: 240px;
+            height: 50px;
+            border-radius: 32px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        &__tablet-desktop-agency-2-card-cancel-button {
+            border: 2px solid $dark-navy;
+            background-color: $white-background;
+            color: $dark-navy;
+            width: 240px;
+            height: 50px;
+            border-radius: 32px;
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 48px;
+        }
+
     }
 
 }

@@ -6,9 +6,11 @@ import PartnershipsNavbar from "../../components/PartnershipsNavbar/Partnerships
 import LMNStaffingIncLogo from "../../assets/icons/lmnstaffinginc.svg";
 import RatingStarIcon from "../../assets/icons/RatingStar.svg";
 import ModalPartnershipAgreement from "../../components/ModalPartnershipAgreement/ModalPartnershipAgreement";
+import ModalAcknowledgeAndAgree from "../../components/ModalAcknowledgeAndAgree/ModalAcknowledgeAndAgree";
 
 export default function PartnershipsReviewPartnershipRequestsPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAcknowledgeModalOpen, setIsAcknowledgeModalOpen] = useState(false);
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -16,6 +18,14 @@ export default function PartnershipsReviewPartnershipRequestsPage() {
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  const openAcknowledgeModal = () => {
+    setIsAcknowledgeModalOpen(true);
+  };
+
+  const closeAcknowledgeModal = () => {
+    setIsAcknowledgeModalOpen(false);
   };
 
   return (
@@ -344,7 +354,10 @@ export default function PartnershipsReviewPartnershipRequestsPage() {
                 </p>
               </div>
               <div className="partnerships-review-partnership-requests-page__mobile-terms-and-conditions-for-accepting-to-partner-button-container">
-                <button className="partnerships-review-partnership-requests-page__mobile-acknowledge-and-agree-button">
+                <button
+                  className="partnerships-review-partnership-requests-page__mobile-acknowledge-and-agree-button"
+                  onClick={openAcknowledgeModal}
+                >
                   Acknowledge & Agree
                 </button>
                 <button className="partnerships-review-partnership-requests-page__mobile-cancel-button">
@@ -414,6 +427,9 @@ export default function PartnershipsReviewPartnershipRequestsPage() {
             </div>
             {isModalOpen && (
               <ModalPartnershipAgreement closeModal={closeModal} />
+            )}
+            {isAcknowledgeModalOpen && (
+              <ModalAcknowledgeAndAgree closeModal={closeAcknowledgeModal} />
             )}
           </div>
           <div className="partnerships-review-partnership-requests-page__tablet-desktop-container">
@@ -619,7 +635,199 @@ export default function PartnershipsReviewPartnershipRequestsPage() {
                   to each Party.
                 </p>
               </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-termination-container">
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-termination-header">
+                  6. Termination
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-termination-description">
+                  Either Party may terminate this Agreement at any time by
+                  providing [number] days' written notice to the other Party.
+                  Upon termination, the Parties shall cease all joint activities
+                  and settle any outstanding financial obligations.
+                </p>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-governing-law-container">
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-governing-law-header">
+                  7. Governing Law
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-governing-law-description">
+                  This Agreement shall be governed by and continued in
+                  accordance with the laws of the State of [State], without
+                  regard to its conflict of laws principles.
+                </p>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-entire-agreement-container">
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-entire-agreement-header">
+                  8. Entire Agreement
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-entire-agreement-description">
+                  This Agreement constitutes the entire understanding between
+                  the Parties with respect to the subject matter hereof and
+                  supercedes all prior discussions, agreements, or
+                  understandings of any kind.
+                </p>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-amendments-container">
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-amendments-header">
+                  9. Amendments
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-amendments-description">
+                  This Agreement may be amended or modified only in writing,
+                  signed by both Parties.
+                </p>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-miscellaneous-container">
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-miscellaneous-header">
+                  10. Miscellaneous
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-miscellaneous-dispute-resolution">
+                  -**Dispute Resolution.** Any disputes arising out of or in
+                  connection with this Agreement shall be resolved through
+                  [mediation/arbitration] in [Location].
+                </p>
+                <p className="partnerships-review-partnership-requests-page__tablet-desktop-partnership-agreement-miscellaneous-severability">
+                  -**Severability.** If any provision of this Agreement is found
+                  to be invalid or unenforceable, the remainder of the Agreement
+                  shall continue in full force and effect.
+                </p>
+              </div>
             </div>
+            <div className="partnerships-review-partnership-requests-page__tablet-desktop-terms-and-conditions-container">
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-terms-and-conditions-header">
+                Terms and Conditions for Accepting to Partner with Staffing
+                Agency
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-terms-and-conditions-please-carefully-read">
+                Please carefully read and understand these terms and conditions
+                before requesting client details. By Clicking on the
+                "Acknowledge & Agree" button, you acknowledge and agree to the
+                following terms and conditions:
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-non-disclosure-agreement">
+                Non-disclosure agreement:
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-agree-not-to-contact-client">
+                I agree to not contact the client directly or indirectly, unless
+                explicitly authorized with written consent by the MLSA platform.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-shall-maintain-the-confidentiality">
+                I shall maintain the confidentiality of client information
+                retrieved through this platform and use it solely for the
+                purpose of submitting candidates for the posted job.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-agree-not-to-share-client-details">
+                I agree not to share the client details with any third party
+                within or outside the platform.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-understand-that-any-disclosure">
+                I understand that any disclosure of client information to a
+                third party will lead to legal action and a penalty of up to
+                $1,000,000 USD impacting personal assets.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-agree-to-avoid-disclosing">
+                I agree to avoid disclosing the name of the client to candidates
+                to avoid the possibility of the candidate reaching out to the
+                client directly.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-agree-not-to-post-positions">
+                I agree not to post positions listed on MLSA on any third-party
+                job posting sites or other company websites.
+              </p>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-clicking-on-the-acknowledge-and-agree-button">
+                By clicking on the "Acknowledge & Agree" button, you confirm
+                that you have read, understood, and agree to be bound by the
+                Terms and Conditions, Privacy Policy, Terms of Service, EULA &
+                Rules and Regulations and Partnership agreements. Failure to
+                comply may result in severe consequences, including legal action
+                up to $1,000,000 USD and the termination of your account on the
+                MLSA platform.
+              </p>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-acknowledge-and-agree-cancel-button-container">
+                <button
+                  className="partnerships-review-partnership-requests-page__tablet-desktop-acknowledge-and-agree-button"
+                  onClick={openAcknowledgeModal}
+                >
+                  Acknowledge & Agree
+                </button>
+                <button className="partnerships-review-partnership-requests-page__tablet-desktop-cancel-button">
+                  Cancel
+                </button>
+              </div>
+              <p className="partnerships-review-partnership-requests-page__tablet-desktop-to-complete-your-partnership">
+                To complete your partnership, click the "Sign" button below. By
+                clicking the "Sign" button you agree to be bound by the
+                Partnership agreement and the Terms and Conditions for accepting
+                to partner with a Staffing Agency.
+              </p>
+            </div>
+            <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-agency-2-card-container">
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-container">
+                <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-inner-container">
+                  <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-header">
+                    Agency 1
+                  </p>
+                  <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-agency-name-title-container">
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-agency-name">
+                      Agency Name: LMN Staffing Inc.
+                    </p>
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-title">
+                      Title: Administrator
+                    </p>
+                  </div>
+                  <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-signee-date-container">
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-signee">
+                      Signee: Jennifer Matthews
+                    </p>
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-date">
+                      Date: 8/23/24
+                    </p>
+                  </div>
+                  <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-1-card-officially-signed">
+                    This document was officially signed on 8/23/24
+                  </p>
+                </div>
+              </div>
+              <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-container">
+                <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-inner-container">
+                  <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-header">
+                    Agency 2
+                  </p>
+                  <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-agency-name-title-container">
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-agency-name">
+                      Agency Name: HumanRe
+                    </p>
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-title">
+                      Title: Administrator
+                    </p>
+                  </div>
+                  <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-signee-date-container">
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-signee">
+                      Signee: John Smith
+                    </p>
+                    <p className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-date">
+                      Date: 8/23/24
+                    </p>
+                  </div>
+                </div>
+                <div className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-button-container">
+                  <button
+                    className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-sign-button"
+                    onClick={openModal}
+                  >
+                    Sign
+                  </button>
+                  <button className="partnerships-review-partnership-requests-page__tablet-desktop-agency-2-card-cancel-button">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+            {isModalOpen && (
+              <ModalPartnershipAgreement closeModal={closeModal} />
+            )}
+            {isAcknowledgeModalOpen && (
+              <ModalAcknowledgeAndAgree closeModal={closeAcknowledgeModal} />
+            )}
           </div>
         </div>
       </div>
