@@ -48,10 +48,12 @@ import SearchCandidatesViewSearchesPage from './pages/SearchCandidatesViewSearch
 import SearchCandidatesListViewPage from './pages/SearchCandidatesListViewPage/SearchCandidatesListViewPage';
 import MyPlacementsHomePage from './pages/MyPlacementsHomePage/MyPlacementsHomePage';
 import MyCandidatesHomePage from './pages/MyCandidatesHomePage/MyCandidatesHomePage';
+import MyCandidatesBatchUploadPage from './pages/MyCandidatesBatchUploadPage/MyCandidatesBatchUploadPage';
 import MyCandidatesPostCandidatePage from './pages/MyCandidatesPostCandidatePage/MyCandidatesPostCandidatePage';
 import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage';
 import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
 import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
+import PartnershipsRequestPartnershipPage from './pages/PartnershipsRequestPartnershipPage/PartnershipsRequestPartnershipPage';
 import PartnershipsReviewPartnershipRequestsPage from './pages/PartnershipsReviewPartnershipRequestPage/PartnershipsReviewPartnershipRequestsPage';
 import PartnershipsManagePage from './pages/PartnershipsManagePage/PartnershipsManagePage';
 import PartnershipsViewAgreementPage from './pages/PartnershipsViewAgreementPage/PartnershipsViewAgreementPage';
@@ -155,10 +157,12 @@ function App() {
         <Route path="/search-candidates-list-view-page" element={<SearchCandidatesListViewPage />} />
         <Route path="/my-placements-home-page" element={<MyPlacementsHomePage />} />
         <Route path="/my-candidates-home-page" element={<MyCandidatesHomePage />} />
+        <Route path="/my-candidates-batch-upload-page" element={<MyCandidatesBatchUploadPage />} />
         <Route path="/my-candidates-post-candidate-page" element={<MyCandidatesPostCandidatePage />} />
         <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
         <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
         <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
+        <Route path="/partnerships-request-partnership-page" element={<PartnershipsRequestPartnershipPage />} />
         <Route path="/partnerships-review-partnership-requests-page" element={<PartnershipsReviewPartnershipRequestsPage />} />
         <Route path="/partnerships-manage-page" element={<PartnershipsManagePage />} />
         <Route path="/partnerships-view-agreement-page" element={<PartnershipsViewAgreementPage />} />

@@ -10,6 +10,7 @@ import UniversalStaffingIcon from "../../assets/icons/UNIVERSALSTAFFING.svg";
 import SearchIcon from "../../assets/icons/Search (2).svg";
 import XYZStaffingIcon from "../../assets/icons/xyzstaffing.svg";
 import ZoltanStaffingIcon from "../../assets/icons/zoltanstaffing.svg";
+import { Link } from "react-router-dom";
 
 export default function PartnershipsRequestsPage() {
   return (
@@ -97,9 +98,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-1-button-container">
-                  <button className="partnerships-requests-page__mobile-card-1-review-request-button">
-                    Review Request
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-review-partnership-requests-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-1-review-request-button">
+                      Review Request
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-1-message-agency-button">
                     Message Agency
                   </button>
@@ -175,9 +182,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-2-button-container">
-                  <button className="partnerships-requests-page__mobile-card-2-review-request-button">
-                    Review Request
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-review-partnership-requests-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-2-review-request-button">
+                      Review Request
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-2-message-agency-button">
                     Message Agency
                   </button>
@@ -253,9 +266,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-3-button-container">
-                  <button className="partnerships-requests-page__mobile-card-3-review-request-button">
-                    Review Request
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-review-partnership-requests-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-3-review-request-button">
+                      Review Request
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-3-message-agency-button">
                     Message Agency
                   </button>
@@ -357,9 +376,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-4-button-container">
-                  <button className="partnerships-requests-page__mobile-card-4-request-partnership-button">
-                    Request Partnership
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-request-partnership-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-4-request-partnership-button">
+                      Request Partnership
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-4-message-agency-button">
                     Message Agency
                   </button>
@@ -435,9 +460,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-5-button-container">
-                  <button className="partnerships-requests-page__mobile-card-5-request-partnership-button">
-                    Request Partnership
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-request-partnership-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-5-request-partnership-button">
+                      Request Partnership
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-5-message-agency-button">
                     Message Agency
                   </button>
@@ -513,9 +544,15 @@ export default function PartnershipsRequestsPage() {
                   </div>
                 </div>
                 <div className="partnerships-requests-page__mobile-card-6-button-container">
-                  <button className="partnerships-requests-page__mobile-card-6-request-partnership-button">
-                    Request Partnership
-                  </button>
+                  <Link
+                    className="partnerships-requests-page__link"
+                    to="/partnerships-request-partnership-page"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    <button className="partnerships-requests-page__mobile-card-6-request-partnership-button">
+                      Request Partnership
+                    </button>
+                  </Link>
                   <button className="partnerships-requests-page__mobile-card-6-message-agency-button">
                     Message Agency
                   </button>
@@ -606,9 +643,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-first-row-button-container">
-                <button className="partnerships-requests-page__tablet-first-row-review-request-button">
-                  Review Request
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-review-partnership-requests-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-first-row-review-request-button">
+                    Review Request
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-first-row-message-agency-button">
                   Message Agency
                 </button>
@@ -689,9 +732,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-second-row-button-container">
-                <button className="partnerships-requests-page__tablet-second-row-review-request-button">
-                  Review Request
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-review-partnership-requests-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-second-row-review-request-button">
+                    Review Request
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-second-row-message-agency-button">
                   Message Agency
                 </button>
@@ -772,9 +821,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-third-row-button-container">
-                <button className="partnerships-requests-page__tablet-third-row-review-request-button">
-                  Review Request
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-review-partnership-requests-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-third-row-review-request-button">
+                    Review Request
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-third-row-message-agency-button">
                   Message Agency
                 </button>
@@ -879,9 +934,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-fourth-row-button-container">
-                <button className="partnerships-requests-page__tablet-fourth-row-request-partnership-button">
-                  Request Partnership
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-request-partnership-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-fourth-row-request-partnership-button">
+                    Request Partnership
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-fourth-row-message-agency-button">
                   Message Agency
                 </button>
@@ -962,9 +1023,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-fifth-row-button-container">
-                <button className="partnerships-requests-page__tablet-fifth-row-request-partnership-button">
-                  Request Partnership
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-request-partnership-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-fifth-row-request-partnership-button">
+                    Request Partnership
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-fifth-row-message-agency-button">
                   Message Agency
                 </button>
@@ -1045,9 +1112,15 @@ export default function PartnershipsRequestsPage() {
                 </div>
               </div>
               <div className="partnerships-requests-page__tablet-sixth-row-button-container">
-                <button className="partnerships-requests-page__tablet-sixth-row-request-partnership-button">
-                  Request Partnership
-                </button>
+                <Link
+                  className="partnerships-requests-page__link"
+                  to="/partnerships-request-partnership-page"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="partnerships-requests-page__tablet-sixth-row-request-partnership-button">
+                    Request Partnership
+                  </button>
+                </Link>
                 <button className="partnerships-requests-page__tablet-sixth-row-message-agency-button">
                   Message Agency
                 </button>

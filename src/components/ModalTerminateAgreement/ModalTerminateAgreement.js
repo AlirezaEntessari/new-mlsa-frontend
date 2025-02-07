@@ -1,9 +1,11 @@
 import React, { useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./ModalTerminateAgreement.scss";
 import ClosePopUpWindowIcon from "../../assets/icons/XsmWindow.svg";
 
 export default function ModalTerminateAgreement({ closeModal }) {
   const modalRef = useRef(null);
+  const navigate = useNavigate();
 
   // Close the modal if clicked outside of it
   const handleClickOutside = (event) => {
@@ -19,6 +21,13 @@ export default function ModalTerminateAgreement({ closeModal }) {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  // Redirect user when clicking OK and scroll to top
+  const handleOkClick = () => {
+    closeModal(); // Close the modal first
+    navigate("/partnerships-home-page", { replace: true }); // Redirect user
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
 
   return (
     <div className="modal-terminate-agreement">
@@ -42,7 +51,7 @@ export default function ModalTerminateAgreement({ closeModal }) {
           <div className="modal-terminate-agreement__button-container">
             <button
               className="modal-terminate-agreement__ok-button"
-              onClick={closeModal}
+              onClick={handleOkClick}
             >
               OK
             </button>
