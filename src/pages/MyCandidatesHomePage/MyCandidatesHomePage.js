@@ -19,6 +19,7 @@ import PageNumberPeach1Icon from "../../assets/icons/PageNumberPeach1.svg";
 import PageNumberGray2Icon from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3Icon from "../../assets/icons/PageNumberGray3.svg";
 import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
+import { Link } from "react-router-dom";
 
 export default function MyCandidatesHomePage() {
   return (
@@ -77,9 +78,14 @@ export default function MyCandidatesHomePage() {
                 />
                 Post Candidate
               </button>
-              <button className="my-candidates-home-page__mobile-batch-upload-button">
-                Batch Upload
-              </button>
+              <Link
+                className="my-candidates-home-page__link"
+                to="/my-candidates-batch-upload-page"
+              >
+                <button className="my-candidates-home-page__mobile-batch-upload-button">
+                  Batch Upload
+                </button>
+              </Link>
             </div>
             <div className="my-candidates-home-page__mobile-search-my-candidates-container">
               <p className="my-candidates-home-page__mobile-search-my-candidates-text">
@@ -638,9 +644,14 @@ export default function MyCandidatesHomePage() {
                   />{" "}
                   Post Candidate
                 </button>
-                <button className="my-candidates-home-page__tablet-batch-upload-button">
-                  Batch Upload
-                </button>
+                <Link
+                  className="my-candidates-home-page__link"
+                  to="/my-candidates-batch-upload-page"
+                >
+                  <button className="my-candidates-home-page__tablet-batch-upload-button">
+                    Batch Upload
+                  </button>
+                </Link>
               </div>
               <div className="my-candidates-home-page__tablet-top-dashboard-right-container">
                 <div className="my-candidates-home-page__tablet-top-dashboard-active-placements-expiring-soon-container">
@@ -1201,9 +1212,14 @@ export default function MyCandidatesHomePage() {
                 />
                 Post Candidate
               </button>
-              <button className="my-candidates-home-page__desktop-batch-upload-button">
-                Batch Upload
-              </button>
+              <Link
+                className="my-candidates-home-page__link"
+                to="/my-candidates-batch-upload-page"
+              >
+                <button className="my-candidates-home-page__desktop-batch-upload-button">
+                  Batch Upload
+                </button>
+              </Link>
               <button className="my-candidates-home-page__desktop-view-drafts-button">
                 View Drafts
               </button>

@@ -51,6 +51,7 @@ import MyCandidatesHomePage from './pages/MyCandidatesHomePage/MyCandidatesHomeP
 import MyCandidatesBatchUploadPage from './pages/MyCandidatesBatchUploadPage/MyCandidatesBatchUploadPage';
 import MyCandidatesPostCandidatePage from './pages/MyCandidatesPostCandidatePage/MyCandidatesPostCandidatePage';
 import MyCandidatesCandidateDetailsPage from './pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage';
+import MyCandidatesActiveCandidatesPage from './pages/MyCandidatesActiveCandidatesPage/MyCandidatesActiveCandidatesPage';
 import PartnershipsHomePage from './pages/PartnershipsHomePage/PartnershipsHomePage';
 import PartnershipsRequestsPage from './pages/PartnershipsRequestsPage/PartnershipsRequestsPage';
 import PartnershipsRequestPartnershipPage from './pages/PartnershipsRequestPartnershipPage/PartnershipsRequestPartnershipPage';
@@ -160,6 +161,7 @@ function App() {
         <Route path="/my-candidates-batch-upload-page" element={<MyCandidatesBatchUploadPage />} />
         <Route path="/my-candidates-post-candidate-page" element={<MyCandidatesPostCandidatePage />} />
         <Route path="/my-candidates-candidate-details-page" element={<MyCandidatesCandidateDetailsPage />} />
+        <Route path="/my-candidates-active-candidates-page" element={<MyCandidatesActiveCandidatesPage />} />
         <Route path="/partnerships-home-page" element={<PartnershipsHomePage />} />
         <Route path="/partnerships-requests-page" element={<PartnershipsRequestsPage />} />
         <Route path="/partnerships-request-partnership-page" element={<PartnershipsRequestPartnershipPage />} />

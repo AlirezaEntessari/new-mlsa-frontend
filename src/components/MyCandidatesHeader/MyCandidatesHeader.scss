@@ -1,0 +1,635 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-header {
+    &__mobile-header-text {
+        color: $rust;
+        font-family: 'Roboto Serif';
+        font-weight: 700;
+        margin-left: 170px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    &__mobile-active-placements-expiring-soon-container {
+        display: flex;
+        margin-top: 48px;
+        margin-left: 10px;
+    }
+
+    &__mobile-active-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        height: 66px;
+    }
+
+    &__mobile-active-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-active-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 40px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-placements-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 16px;
+        height: 66px;
+    }
+
+    &__mobile-placements-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-placements-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 4px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-expiring-soon-container {
+        border: 1px solid $medium-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        display: flex;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-left: 16px;
+        height: 66px;
+    }
+
+    &__mobile-expiring-soon-text {
+        padding-left: 10px;
+        padding-top: 18px;
+        color: $dark-gray;
+        font-weight: 500;
+    }
+
+    &__mobile-expiring-soon-number {
+        font-size: 32px;
+        color: $dark-gray;
+        padding-left: 12px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+
+    &__mobile-view-drafts-archived-generate-report-container {
+        margin-top: 54px;
+        margin-left: 8px;
+    }
+
+    &__mobile-view-drafts-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 150px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-archived-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 150px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 10px;
+    }
+
+    &__mobile-generate-report-button {
+        border: 2px solid $rust;
+        background-color: $white-background;
+        width: 160px;
+        height: 54px;
+        color: $rust;
+        font-weight: 500;
+        border-radius: 28px;
+        margin-left: 10px;
+    }
+
+    &__mobile-post-candidate-batch-upload-container {
+        display: flex;
+        margin-top: 54px;
+        margin-left: 50px;
+    }
+
+    &__mobile-post-candidate-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        height: 54px;
+        width: 180px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-post-candidate-button:hover {
+        background-color: $logo-orange;
+    }
+
+    &__mobile-plus-white-icon {
+        width: 14px;
+        margin-right: 10px;
+    }
+
+    &__mobile-batch-upload-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        height: 54px;
+        width: 180px;
+        border-radius: 28px;
+        font-weight: 500;
+        margin-left: 28px;
+    }
+
+    &__mobile-batch-upload-button:hover {
+        background-color: $logo-orange;
+    }
+
+    &__mobile-search-my-candidates-container {
+        display: flex;
+        margin-left: 28px;
+        margin-top: 54px;
+    }
+
+    &__mobile-search-my-candidates-text {
+        width: 100px;
+    }
+
+    &__mobile-search-my-candidates-input {
+        width: 330px;
+        height: 54px;
+        border: 2px solid $medium-gray;
+        margin-left: 10px;
+        border-radius: 28px;
+    }
+
+    &__mobile-search-icon {
+        position: absolute;
+        top: 603px;
+        right: 60px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+}
+
+@include tablet {
+
+    .my-candidates-header {
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-header-text {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 48px;
+        }
+
+        &__tablet-top-dashboard-container {
+            margin-left: 20px;
+            margin-top: 48px;
+            display: flex;
+        }
+
+        &__tablet-post-candidate-button {
+            background-color: $rust;
+            border: 1px solid $rust;
+            color: $white-text;
+            width: 200px;
+            height: 48px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+        }
+
+        &__tablet-batch-upload-button {
+            background-color: $rust;
+            border: 1px solid $rust;
+            color: $white-text;
+            width: 200px;
+            height: 48px;
+            font-weight: 500;
+            border-radius: 28px;
+            display: block;
+            margin-top: 24px;
+        }
+
+        &__tablet-plus-white-icon {
+            width: 12px;
+            margin-right: 10px;
+        }
+
+        &__tablet-top-dashboard-right-container {
+            margin-left: 40px;
+        }
+
+        &__tablet-top-dashboard-active-placements-expiring-soon-container {
+            display: flex;
+        }
+
+        &__tablet-top-dashboard-active-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+        }
+
+        &__tablet-top-dashboard-active-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-active-number {
+            color: $dark-gray;
+            margin-left: 32px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__tablet-top-dashboard-placements-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-placements-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-placements-number {
+            color: $dark-gray;
+            margin-left: 16px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-container {
+            border: 1px solid $medium-gray;
+            display: flex;
+            width: 160px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 14px;
+            border-bottom-right-radius: 14px;
+            height: 70px;
+            margin-left: 16px;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-text {
+            font-weight: 500;
+            color: $dark-gray;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 10px;
+            color: $dark-gray;
+        }
+
+        &__tablet-top-dashboard-expiring-soon-number {
+            color: $dark-gray;
+            margin-left: 16px;
+            font-size: 36px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__tablet-view-drafts-archived-generate-report-container {
+            margin-top: 32px;
+        }
+
+        &__tablet-view-drafts-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__tablet-archived-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-generate-report-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            height: 28px;
+            width: 160px;
+            height: 48px;
+            color: $rust;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 16px;
+        }
+
+        &__tablet-search-my-candidates-container {
+            margin-top: 48px;
+            margin-left: 184px;
+        }
+
+        &__tablet-search-my-candidates-label {
+            color: $dark-gray;
+        }
+
+        &__tablet-search-icon {
+            position: absolute;
+            top: 494px;
+            right: 60px;
+        }
+
+        &__tablet-search-my-candidates-input {
+            border: 2px solid $medium-gray;
+            border-radius: 28px;
+            height: 50px;
+            width: 400px;
+            margin-left: 32px;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .my-candidates-header {
+
+        &__tablet-container {
+            display: none;
+        }
+
+        &__desktop-container {
+            display: inherit;
+        }
+
+        &__desktop-header-container {
+            display: flex;
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+
+        &__desktop-header-text {
+            color: $rust;
+            font-weight: 700;
+            font-size: 32px;
+            font-family: 'Roboto Serif';
+        }
+
+        &__desktop-active-placements-expiring-soon-container {
+            display: flex;
+            margin-left: 432px;
+            margin-top: 36px;
+        }
+
+        &__desktop-active-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        &__desktop-active-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-active-number {
+            color: $dark-gray;
+            margin-left: 72px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-placements-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 32px;
+        }
+
+        &__desktop-placements-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-placements-number {
+            color: $dark-gray;
+            margin-left: 42px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-expiring-soon-container {
+            border: 1px solid $medium-gray;
+            width: 210px;
+            height: 80px;
+            display: flex;
+            border-bottom-left-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 32px;
+        }
+
+        &__desktop-expiring-soon-text {
+            padding-top: 22px;
+            padding-left: 16px;
+            color: $dark-gray;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        &__desktop-expiring-soon-number {
+            color: $logo-orange;
+            margin-left: 38px;
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 4px;
+        }
+
+        &__desktop-top-dashboard-button-container {
+            display: flex;
+            margin-top: 72px;
+            margin-left: 200px;
+        }
+
+        &__desktop-post-candidate-button {
+            background-color: $rust;
+            color: $white-text;
+            border: 1px solid $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+        }
+
+        &__desktop-plus-white-icon {
+            width: 14px;
+            margin-right: 20px;
+        }
+
+        &__desktop-batch-upload-button {
+            background-color: $rust;
+            color: $white-text;
+            border: 1px solid $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-view-drafts-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-archived-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-generate-report-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            color: $rust;
+            width: 210px;
+            height: 56px;
+            font-weight: 500;
+            border-radius: 28px;
+            margin-left: 48px;
+        }
+
+        &__desktop-search-my-candidates-container {
+            margin-top: 64px;
+            margin-left: 200px;
+            display: flex;
+            position: relative;
+        }
+
+        &__desktop-search-my-candidates-label {
+            margin-top: 14px;
+        }
+
+        &__desktop-search-my-candidates-input {
+            border: 1px solid $medium-dark-gray;
+            width: 1050px;
+            height: 54px;
+            margin-left: 32px;
+            border-radius: 28px;
+        }
+
+        &__desktop-search-icon {
+            position: absolute;
+            top: 14px;
+            right: 300px;
+        }
+
+    }
+
+}
