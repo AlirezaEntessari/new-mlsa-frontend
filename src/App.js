@@ -108,6 +108,7 @@ import { SignedIn, UserButton } from "@clerk/clerk-react";
 import { dark, light, neobrutalism, shadesOfPurple } from "@clerk/themes";
 import ProtectedRoute from "./ProtectedRoute";
 import ProtectedRouteWithAgency from "./ProtectedRouteWithAgency";
+import RedirectIfAuthenticated from "./RedirectIfAuthenticated";
 
 function App() {
   return (
@@ -120,8 +121,22 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Public Routes */}
-          <Route path="/sign-up-page" element={<SignUpPage />} />
-          <Route path="/login-page" element={<LoginPage />} />
+          <Route
+            path="/sign-up-page"
+            element={
+              <RedirectIfAuthenticated>
+                <SignUpPage />
+              </RedirectIfAuthenticated>
+            }
+          />
+          <Route
+            path="/login-page"
+            element={
+              <RedirectIfAuthenticated>
+                <LoginPage />
+              </RedirectIfAuthenticated>
+            }
+          />
           {/* Protected Routes */}
           <Route
             path="/membership-plan-page"
