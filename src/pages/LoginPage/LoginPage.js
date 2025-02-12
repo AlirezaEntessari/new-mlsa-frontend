@@ -10,7 +10,7 @@ import ModalResetYourPassword from "../../components/ModalResetYourPassword/Moda
 import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { useUser } from "@clerk/clerk-react";
+import { useUser, SignInButton } from "@clerk/clerk-react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -21,8 +21,10 @@ export default function LoginPage() {
     useState(false);
   const [isResetYourPasswordModalVisible, setResetYourPasswordModalVisible] =
     useState(false);
-  const [isPasswordConfirmationModalVisible, setPasswordConfirmationModalVisible] =
-    useState(false);
+  const [
+    isPasswordConfirmationModalVisible,
+    setPasswordConfirmationModalVisible,
+  ] = useState(false);
   const navigate = useNavigate();
 
   const handleEmailChange = (e) => {
@@ -94,7 +96,7 @@ export default function LoginPage() {
       <Header />
       <p className="login__header">Welcome {user?.firstName} to MLSA</p>
       <p className="login__enter-text">Log in to enter</p>
-      <label className="login__email-label" htmlFor="email">
+      {/* <label className="login__email-label" htmlFor="email">
         Email
       </label>
       <input
@@ -117,7 +119,21 @@ export default function LoginPage() {
         placeholder="Enter your password"
         value={password}
         onChange={handlePasswordChange}
-      />
+      /> */}
+      <div className="login__clerk-login-button-container">
+        <SignInButton
+          mode="modal"
+          forceRedirectUrl="/membership-plan-page" // Redirect here after sign in
+          style={{
+            backgroundColor: "white",
+            padding: "1rem",
+            border: "1px solid #dddddd",
+            borderRadius: "4px",
+            marginLeft: "16px",
+            fontFamily: "Roboto",
+          }}
+        />
+      </div>
       <p className="login__keep-me-signed-in">
         <img
           className="login__checkbox-empty-icon"

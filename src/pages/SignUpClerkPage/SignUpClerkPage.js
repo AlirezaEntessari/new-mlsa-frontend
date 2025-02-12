@@ -99,9 +99,9 @@ export default function SignUpClerkPage() {
             />
           </Link>
         </SignedOut>
-        <SignedIn>
+        {/* <SignedIn>
           <Navigate to="/membership-plan-clerk-page" />
-        </SignedIn>
+        </SignedIn> */}
       </div>
       <p className="sign-up-clerk__already-have-account">
         Already have an account?{" "}

@@ -65,15 +65,15 @@ export default function SignUpPage() {
           <span className="sign-up__log-in">Log In</span>
         </Link>
       </p>
-      <div className="sign-up__clerk-button-container">
+      {/* <div className="sign-up__clerk-button-container">
           <SignedOut>
             <SignUpButton mode="modal" />
             <SignInButton mode="modal" />
           </SignedOut>
-          {/* <SignedIn>
+          <SignedIn>
             <Navigate to="/login-page" />
-          </SignedIn> */}
-      </div>
+          </SignedIn>
+      </div> */}
     </div>
   );
 }

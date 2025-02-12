@@ -123,6 +123,10 @@
         color: inherit;
     }
 
+    &__clerk-login-button-container {
+        margin-left: 293px;
+    }
+
 }
 
 @include tablet {
@@ -231,6 +235,10 @@
             font-weight: 500;
         }
 
+        &__clerk-login-button-container {
+            margin-left: 442px;
+        } 
+
     }
 
 }
@@ -271,7 +279,8 @@
 
         &__hide-icon {
             position: absolute;
-            top: 583px;
+            // top: 583px;
+            top: 597px;
             left: 1320px;
         }
     
@@ -340,6 +349,10 @@
             color: $logo-orange;
             font-weight: 500;
         }
+
+        &__clerk-login-button-container {
+            margin-left: 894px;
+        } 
 
 
     }

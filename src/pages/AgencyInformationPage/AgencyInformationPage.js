@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./AgencyInformationPage.scss";
 import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import RedAsteriskIcon from "../../assets/icons/mingcute_asterisk-line.svg";
@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import CheckBoxWithLogic from "../../components/CheckBoxWithLogic/CheckBoxWithLogic";
 import CheckBoxTermsAndConditions from "../../components/CheckBoxTermsAndConditions/CheckBoxTermsAndConditions";
+import { useUser } from "@clerk/clerk-react";
 
 export default function AgencyInformationPage() {
   const [staffingAgencyName, setStaffingAgencyName] = useState("");
@@ -21,6 +22,13 @@ export default function AgencyInformationPage() {
   const [errorMessage, setErrorMessage] = useState(""); // State for error message
   const [isChecked, setIsChecked] = useState(false);
   const navigate = useNavigate();
+  const { user } = useUser(); // Get user data from Clerk
+
+  useEffect(() => {
+    if (user?.primaryEmailAddress?.emailAddress) {
+      localStorage.setItem("email", user.primaryEmailAddress.emailAddress);
+    }
+  }, [user]);
 
   const handleAgencyNameChange = (e) => {
     setStaffingAgencyName(e.target.value);
@@ -49,6 +57,13 @@ export default function AgencyInformationPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Debug: Check local storage values
+    console.log("Email from Local Storage:", localStorage.getItem("email"));
+    console.log(
+      "Membership Plan from Local Storage:",
+      localStorage.getItem("membershipPlan")
+    );
+
     // Check if passwords match
     if (password !== confirmPassword) {
       alert("Passwords do not match");
@@ -62,7 +77,8 @@ export default function AgencyInformationPage() {
     }
 
     // Retrieve email and membership plan from local storage
-    const email = localStorage.getItem("email");
+    // const email = localStorage.getItem("email");
+    const email = user?.primaryEmailAddress?.emailAddress || ""; // Get user email
     const membershipPlan = localStorage.getItem("membershipPlan");
 
     // Ensure both email and membership plan are retrieved correctly
