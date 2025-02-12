@@ -1,0 +1,25 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-navbar {
+
+    &__navbar {
+        color: $dark-navy;
+        border-bottom: 2px solid $dark-navy;
+        padding-bottom: 6px;
+        margin-top: 48px;
+        margin-left: 32px;
+        font-weight: 500;
+        width: 450px;
+    }
+
+    &__archive-section {
+        margin-left: 84px;
+    }
+
+    &__expiring-soon-section {
+        margin-left: 84px;
+    }
+
+}

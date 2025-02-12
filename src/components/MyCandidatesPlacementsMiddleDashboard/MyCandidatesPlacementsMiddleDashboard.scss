@@ -2,7 +2,7 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.my-candidates-middle-dashboard {
+.my-candidates-placements-middle-dashboard {
     &__mobile-central-container {
         border: 2px solid $rust;
         margin-top: 32px;
@@ -10,15 +10,15 @@
         height: 3000px;
         margin-left: 6px;
         border-radius: 20px;
-        background-color: $my-candidates-light-orange;
+        background-color: $brown-background;
     }
 
-    &__mobile-all-candidates-header {
+    &__mobile-placements-header {
         margin-top: 20px;
         margin-left: 20px;
-        color: $rust;
+        color: $white-text;
         font-weight: 500;
-        border-bottom: 2px solid $rust;
+        border-bottom: 2px solid $white-background;
         width: 136px;
     }
 
@@ -26,7 +26,7 @@
         width: 14px;
     }
 
-    &__mobile-all-candidates-text {
+    &__mobile-placements-text {
         margin-left: 10px;
     }
 
@@ -173,11 +173,13 @@
 
     &__mobile-sort-by-text {
         font-weight: 500;
+        color: $white-text;
     }
 
     &__mobile-id-number-text {
         font-weight: 500;
         margin-left: 48px;
+        color: $white-text;
     }
 
     &__mobile-menu-arrow-circle-down-icon {
@@ -445,7 +447,7 @@
 
 @include tablet {
 
-    .my-candidates-middle-dashboard {
+    .my-candidates-placements-middle-dashboard {
 
         &__mobile-container {
             display: none;
@@ -786,7 +788,7 @@
 
 @include desktop {
 
-    .my-candidates-middle-dashboard {
+    .my-candidates-placements-middle-dashboard {
 
         &__tablet-container {
             display: none;

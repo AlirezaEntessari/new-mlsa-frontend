@@ -4,6 +4,7 @@ import HeaderWithProfilePic from "../../components/HeaderWithProfilePic/HeaderWi
 import CandidatesSidePanel from "../../components/CandidatesSidePanel/CandidatesSidePanel";
 import MyCandidatesHeader from "../../components/MyCandidatesHeader/MyCandidatesHeader";
 import MyCandidatesMiddleDashboard from "../../components/MyCandidatesMiddleDashboard/MyCandidatesMiddleDashboard";
+import MyCandidatesActiveCandidatesMiddleDashboard from "../../components/MyCandidatesActiveCandidatesMiddleDashboard/MyCandidatesActiveCandidatesMiddleDashboard";
 
 export default function MyCandidatesActiveCandidatesPage() {
   return (
@@ -13,7 +14,7 @@ export default function MyCandidatesActiveCandidatesPage() {
         <CandidatesSidePanel />
         <div className="my-candidates-active-candidates-page__right-container">
           <MyCandidatesHeader />
-          <MyCandidatesMiddleDashboard />
+          <MyCandidatesActiveCandidatesMiddleDashboard />
         </div>
       </div>
     </div>

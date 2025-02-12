@@ -1,0 +1,12 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-placements-page {
+    padding-bottom: 20rem;
+
+    &__main-container {
+        display: flex;
+    }
+
+}

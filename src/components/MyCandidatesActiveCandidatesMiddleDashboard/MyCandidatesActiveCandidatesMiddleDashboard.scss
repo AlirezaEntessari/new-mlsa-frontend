@@ -2,12 +2,12 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
 
-.my-candidates-middle-dashboard {
+.my-candidates-active-candidates-middle-dashboard {
     &__mobile-central-container {
         border: 2px solid $rust;
         margin-top: 32px;
         width: 490px;
-        height: 3000px;
+        height: 3050px;
         margin-left: 6px;
         border-radius: 20px;
         background-color: $my-candidates-light-orange;
@@ -28,6 +28,13 @@
 
     &__mobile-all-candidates-text {
         margin-left: 10px;
+    }
+
+    &__mobile-active-candidates-text {
+        margin-top: 32px;
+        margin-left: 20px;
+        color: $logo-orange;
+        font-weight: 500;
     }
 
     &__mobile-dashboard-top-container {
@@ -445,7 +452,7 @@
 
 @include tablet {
 
-    .my-candidates-middle-dashboard {
+    .my-candidates-active-candidates-middle-dashboard {
 
         &__mobile-container {
             display: none;
@@ -455,9 +462,17 @@
             display: inherit;
         }
 
+        &__tablet-active-candidates-header {
+            margin-top: 54px;
+            margin-left: 32px;
+            font-size: 18px;
+            color: $logo-orange;
+            font-weight: 500;
+        }
+
         &__tablet-middle-dashboard-container {
             border: 1px solid $medium-gray;
-            margin-top: 60px;
+            margin-top: 0px;
             border-bottom: transparent;
             margin-left: 0px;
             height: 50px;
@@ -786,7 +801,7 @@
 
 @include desktop {
 
-    .my-candidates-middle-dashboard {
+    .my-candidates-active-candidates-middle-dashboard {
 
         &__tablet-container {
             display: none;
@@ -796,9 +811,17 @@
             display: inherit;
         }
 
+        &__desktop-active-candidates-text {
+            margin-left: 158px;
+            color: $logo-orange;
+            margin-top: 60px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
         &__desktop-middle-dashboard-container {
             display: flex;
-            margin-top: 60px;
+            margin-top: 28px;
             margin-left: 80px;
             border: 1px solid $medium-gray;
             border-bottom: transparent;

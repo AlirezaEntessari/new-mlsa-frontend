@@ -59,6 +59,8 @@ import MyCandidatesBatchUploadPage from "./pages/MyCandidatesBatchUploadPage/MyC
 import MyCandidatesPostCandidatePage from "./pages/MyCandidatesPostCandidatePage/MyCandidatesPostCandidatePage";
 import MyCandidatesCandidateDetailsPage from "./pages/MyCandidatesCandidateDetailsPage/MyCandidatesCandidateDetailsPage";
 import MyCandidatesActiveCandidatesPage from "./pages/MyCandidatesActiveCandidatesPage/MyCandidatesActiveCandidatesPage";
+import MyCandidatesPlacementsPage from "./pages/MyCandidatesPlacementsPage/MyCandidatesPlacementsPage";
+import MyCandidatesExpiringSoonPage from "./pages/MyCandidatesExpiringSoonPage/MyCandidatesExpiringSoonPage";
 import PartnershipsHomePage from "./pages/PartnershipsHomePage/PartnershipsHomePage";
 import PartnershipsRequestsPage from "./pages/PartnershipsRequestsPage/PartnershipsRequestsPage";
 import PartnershipsRequestPartnershipPage from "./pages/PartnershipsRequestPartnershipPage/PartnershipsRequestPartnershipPage";
@@ -517,6 +519,22 @@ function App() {
             element={
               <ProtectedRoute>
                 <MyCandidatesActiveCandidatesPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/my-candidates-placements-page"
+            element={
+              <ProtectedRoute>
+                <MyCandidatesPlacementsPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/my-candidates-expiring-soon-page"
+            element={
+              <ProtectedRoute>
+                <MyCandidatesExpiringSoonPage />
               </ProtectedRoute>
             }
           />
