@@ -112,26 +112,26 @@ export default function AgencyInformationPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (password !== confirmPassword) {
       alert("Passwords do not match");
       return;
     }
-
+  
     if (!isChecked) {
       alert("You must agree to the terms and conditions");
       return;
     }
-
+  
     const email = user?.primaryEmailAddress?.emailAddress || "";
     const userId = user?.id || "";
     const membershipPlan = localStorage.getItem("membershipPlan");
-
+  
     if (!email || !membershipPlan) {
       console.error("Email or membership plan is missing");
       return;
     }
-
+  
     const requestData = {
       email,
       membershipPlan,
@@ -143,19 +143,25 @@ export default function AgencyInformationPage() {
       password,
       userId,
     };
-
+  
     try {
-      const token = await getToken(); // Fetch session token
-
-      await axios.post("http://localhost:5000/api/agency_information", requestData, {
+      const token = await getToken(); // Fetch Clerk session token
+  
+      const response = await axios.post("http://localhost:5000/api/agency_information", requestData, {
         headers: { Authorization: `Bearer ${token}` },
       });
-
-      navigate("/membership-subscription-page");
+  
+      if (response.status === 200) {
+        navigate("/membership-subscription-page"); // Navigate to the next page only on success
+      } else {
+        alert("An error occurred. Please try again.");
+      }
     } catch (err) {
       console.error("Error submitting agency information:", err);
+      alert("Failed to submit agency information. Please try again later.");
     }
   };
+  
 
   return (
     <div className="agency-information-page">
