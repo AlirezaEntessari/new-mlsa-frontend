@@ -38,6 +38,11 @@
         margin-left: 40px;
     }
 
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 }
 
 @include tablet {

@@ -17,6 +17,7 @@ import PageNumberPeach1Icon from "../../assets/icons/PageNumberPeach1.svg";
 import PageNumberGray2Icon from "../../assets/icons/PageNumberGray2.svg";
 import PageNumberGray3Icon from "../../assets/icons/PageNumberGray3.svg";
 import PageArrowRightIcon from "../../assets/icons/PageArrowRight.svg";
+import PlacementsDotWhiteIcon from "../../assets/icons/CPlacementsDotWhite.svg";
 import { Link } from "react-router-dom";
 
 export default function MyCandidatesPlacementsMiddleDashboard() {
@@ -26,9 +27,9 @@ export default function MyCandidatesPlacementsMiddleDashboard() {
         <div className="my-candidates-placements-middle-dashboard__mobile-central-container">
           <p className="my-candidates-placements-middle-dashboard__mobile-placements-header">
             <img
-              className="my-candidates-placements-middle-dashboard__mobile-all-candidates-dot-icon"
-              src={AllCandidatesDotIcon}
-              alt="All Candidates Dot Icon"
+              className="my-candidates-placements-middle-dashboard__mobile-placements-dot-white-icon"
+              src={PlacementsDotWhiteIcon}
+              alt="Placements Dot White Icon"
             />
             <span className="my-candidates-placements-middle-dashboard__mobile-placements-text">
               Placements

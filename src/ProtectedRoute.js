@@ -1,7 +1,7 @@
 import { useAuth } from "@clerk/clerk-react";
-import { Navigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 
-const ProtectedRoute = ({ children }) => {
+const ProtectedRoute = () => {
   const { isSignedIn, isLoaded } = useAuth();
 
   if (!isLoaded) {
@@ -9,11 +9,12 @@ const ProtectedRoute = ({ children }) => {
   }
 
   if (!isSignedIn) {
-    return <Navigate to="/login-page" replace />
+    return <Navigate to="/login-page" replace />;
   }
 
-  return children;
+  return <Outlet />;
 };
 
 export default ProtectedRoute;
+
 

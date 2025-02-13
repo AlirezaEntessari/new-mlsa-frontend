@@ -1,7 +1,7 @@
 import { useAuth } from "@clerk/clerk-react";
-import { Navigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 
-const RedirectIfAuthenticated = ({ children }) => {
+const RedirectIfAuthenticated = () => {
   const { isSignedIn, isLoaded } = useAuth();
 
   if (!isLoaded) {
@@ -12,10 +12,7 @@ const RedirectIfAuthenticated = ({ children }) => {
     return <Navigate to="/" replace />;
   }
 
-  return children;
+  return <Outlet />; // Render the child route that matches
 };
 
 export default RedirectIfAuthenticated;
-
-
-

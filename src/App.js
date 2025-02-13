@@ -123,784 +123,374 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Public Routes */}
-          <Route
-            path="/sign-up-page"
-            element={
-              <RedirectIfAuthenticated>
-                <SignUpPage />
-              </RedirectIfAuthenticated>
-            }
-          />
-          <Route
-            path="/login-page"
-            element={
-              <RedirectIfAuthenticated>
-                <LoginPage />
-              </RedirectIfAuthenticated>
-            }
-          />
+          <Route element={<RedirectIfAuthenticated />}>
+            <Route path="/sign-up-page" element={<SignUpPage />} />
+            <Route path="/login-page" element={<LoginPage />} />
+          </Route>
           {/* Protected Routes */}
-          <Route
-            path="/membership-plan-page"
-            element={
-              <ProtectedRoute>
-                <MembershipPlanPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/agency-information-page"
-            element={
-              <ProtectedRoute>
-                <AgencyInformationPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/membership-subscription-page"
-            element={
-              <ProtectedRoute>
-                <MembershipSubscriptionPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/payment-confirmation-page"
-            element={
-              <ProtectedRoute>
-                <PaymentConfirmationPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/account-settings-profile-page"
-            element={
-              <ProtectedRoute>
-                <AccountSettingsProfilePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/account-settings-agency-page"
-            element={
-              <ProtectedRoute>
-                <AccountSettingsAgencyPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/account-settings-password-page"
-            element={
-              <ProtectedRoute>
-                <AccountSettingsPasswordPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/account-settings-billing-page"
-            element={
-              <ProtectedRoute>
-                <AccountSettingsBillingPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/account-settings-notifications-page"
-            element={
-              <ProtectedRoute>
-                <AccountSettingsNotificationsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/team-member-account-settings-profile-page"
-            element={
-              <ProtectedRoute>
-                <TeamMemberAccountSettingsProfilePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/team-member-account-settings-password-page"
-            element={
-              <ProtectedRoute>
-                <TeamMemberAccountSettingsPasswordPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/team-member-account-settings-notifications-page"
-            element={
-              <ProtectedRoute>
-                <TeamMemberAccountSettingsNotificationsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/personal-profile-page"
-            element={<PersonalProfilePage />}
-          />
-          <Route
-            path="/agency-profile-page"
-            element={
-              <ProtectedRoute>
-                <AgencyProfilePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/refer-agency-page"
-            element={
-              <ProtectedRoute>
-                <ReferAgencyPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-agencies-all-agencies-page"
-            element={
-              <ProtectedRoute>
-                <SearchAgenciesAllAgenciesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-agencies-industry-page"
-            element={
-              <ProtectedRoute>
-                <SearchAgenciesIndustryPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-agencies-ratings-page"
-            element={
-              <ProtectedRoute>
-                <SearchAgenciesRatingsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-agreements-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsAgreementsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-reports-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsReportsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-archive-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsArchivePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-job-report-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsJobReportPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-candidate-report-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsCandidateReportPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-partnership-report-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsPartnershipReportPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-documents-user-activity-report-page"
-            element={
-              <ProtectedRoute>
-                <MyDocumentsUserActivityReportPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route path="/my-jobs-home-page" element={<MyJobsHomePage />} />
-          <Route
-            path="/my-jobs-batch-upload-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsBatchUploadPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-active-jobs-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsActiveJobsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-pending-jobs-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsPendingJobsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-reviews-jobs-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsReviewsJobsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-submissions-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsSubmissionsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-interviews-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsInterviewsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route path="/my-jobs-offers-page" element={<MyJobsOffersPage />} />
-          <Route
-            path="/my-jobs-placements-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsPlacementsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-post-job-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsPostJobPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-job-description-upload-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsJobDescriptionUploadPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-post-job-batch-upload-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsPostJobBatchUploadPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-jobs-job-details-page"
-            element={
-              <ProtectedRoute>
-                <MyJobsJobDetailsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-jobs-home-grid-view-page"
-            element={
-              <ProtectedRoute>
-                <SearchJobsHomeGridViewPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-jobs-view-searches-page"
-            element={
-              <ProtectedRoute>
-                <SearchJobsViewSearchesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-jobs-list-view-page"
-            element={
-              <ProtectedRoute>
-                <SearchJobsListViewPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-candidates-home-grid-view-page"
-            element={
-              <ProtectedRoute>
-                <SearchCandidatesHomeGridViewPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-candidates-view-searches-page"
-            element={
-              <ProtectedRoute>
-                <SearchCandidatesViewSearchesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/search-candidates-list-view-page"
-            element={
-              <ProtectedRoute>
-                <SearchCandidatesListViewPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-placements-home-page"
-            element={
-              <ProtectedRoute>
-                <MyPlacementsHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-home-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-batch-upload-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesBatchUploadPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-post-candidate-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesPostCandidatePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-candidate-details-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesCandidateDetailsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-active-candidates-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesActiveCandidatesPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-placements-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesPlacementsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/my-candidates-expiring-soon-page"
-            element={
-              <ProtectedRoute>
-                <MyCandidatesExpiringSoonPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-home-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-requests-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsRequestsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-request-partnership-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsRequestPartnershipPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-review-partnership-requests-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsReviewPartnershipRequestsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-manage-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsManagePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-view-agreement-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsViewAgreementPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-view-activity-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsViewActivityPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/partnerships-terminate-agreement-page"
-            element={
-              <ProtectedRoute>
-                <PartnershipsTerminateAgreementPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-home-page"
-            element={
-              <ProtectedRoute>
-                <HelpHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-my-account-page"
-            element={
-              <ProtectedRoute>
-                <HelpMyAccountPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-job-posting-page"
-            element={
-              <ProtectedRoute>
-                <HelpJobPostingPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-candidate-posting-page"
-            element={
-              <ProtectedRoute>
-                <HelpCandidatePostingPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-documents-page"
-            element={
-              <ProtectedRoute>
-                <HelpDocumentsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-partnerships-page"
-            element={
-              <ProtectedRoute>
-                <HelpPartnershipsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-dashboard-page"
-            element={
-              <ProtectedRoute>
-                <HelpDashboardPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-searching-page"
-            element={
-              <ProtectedRoute>
-                <HelpSearchingPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-ratings-and-feedback-page"
-            element={
-              <ProtectedRoute>
-                <HelpRatingsAndFeedbackPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-reports-page"
-            element={
-              <ProtectedRoute>
-                <HelpReportsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-membership-page"
-            element={
-              <ProtectedRoute>
-                <HelpMembershipPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-policies-and-terms-page"
-            element={
-              <ProtectedRoute>
-                <HelpPoliciesAndTermsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-faq-page"
-            element={
-              <ProtectedRoute>
-                <HelpFAQPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/help-glossary-page"
-            element={
-              <ProtectedRoute>
-                <HelpGlossaryPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-home-page"
-            element={
-              <ProtectedRoute>
-                <RatingsHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-rate-an-agency-page"
-            element={
-              <ProtectedRoute>
-                <RatingsRateAnAgencyPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-my-ratings-page"
-            element={
-              <ProtectedRoute>
-                <RatingsMyRatingsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-conflict-resolution-page"
-            element={
-              <ProtectedRoute>
-                <RatingsConflictResolutionPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-giving-negative-feedback-page"
-            element={
-              <ProtectedRoute>
-                <RatingsGivingNegativeFeedbackPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-giving-negative-feedback-step-3-page"
-            element={
-              <ProtectedRoute>
-                <RatingsGivingNegativeFeedbackStep3Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-giving-negative-feedback-step-4-page"
-            element={
-              <ProtectedRoute>
-                <RatingsGivingNegativeFeedbackStep4Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-giving-negative-feedback-step-5-page"
-            element={
-              <ProtectedRoute>
-                <RatingsGivingNegativeFeedbackStep5Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-giving-negative-feedback-end-dispute-page"
-            element={
-              <ProtectedRoute>
-                <RatingsGivingNegativeFeedbackEndDisputePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-receiving-negative-feedback-page"
-            element={
-              <ProtectedRoute>
-                <RatingsReceivingNegativeFeedbackPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-receiving-negative-feedback-step-3-page"
-            element={
-              <ProtectedRoute>
-                <RatingsReceivingNegativeFeedbackStep3Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-receiving-negative-feedback-step-4-page"
-            element={
-              <ProtectedRoute>
-                <RatingsReceivingNegativeFeedbackStep4Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-receiving-negative-feedback-step-5-page"
-            element={
-              <ProtectedRoute>
-                <RatingsReceivingNegativeFeedbackStep5Page />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/ratings-receiving-negative-feedback-end-dispute-page"
-            element={
-              <ProtectedRoute>
-                <RatingsReceivingNegativeFeedbackEndDisputePage />
-              </ProtectedRoute>
-            }
-          />
-          {/* <Route path="/dashboard-home-page" element={<DashboardHomePage />} /> */}
-          <Route
-            path="/"
-            element={
-              <ProtectedRoute>
-                <DashboardHomePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/dashboard-quick-search-results-page"
-            element={
-              <ProtectedRoute>
-                <DashboardQuickSearchResultsPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/dashboard-read-notification-page"
-            element={
-              <ProtectedRoute>
-                <DashboardReadNotificationPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/dashboard-read-message-page"
-            element={
-              <ProtectedRoute>
-                <DashboardReadMessagePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/dashboard-compose-message-page"
-            element={
-              <ProtectedRoute>
-                <DashboardComposeMessagePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/dashboard-calendar-event-page"
-            element={
-              <ProtectedRoute>
-                <DashboardCalendarEventPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/sign-up-clerk-page"
-            element={
-              <ProtectedRoute>
-                <SignUpClerkPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/membership-plan-clerk-page"
-            element={
-              <ProtectedRoute>
-                <MembershipPlanClerkPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/agency-information-clerk-page"
-            element={
-              <ProtectedRoute>
-                <AgencyInformationClerkPage />
-              </ProtectedRoute>
-            }
-          />
-          {/* Catch-All (404) Route: Redirect Any Undefined Route to Login */}
-          <Route path="*" element={<Navigate to="/login-page" replace />} />
+          <Route element={<ProtectedRoute />}>
+            <Route
+              path="/membership-plan-page"
+              element={<MembershipPlanPage />}
+            />
+            <Route
+              path="/agency-information-page"
+              element={<AgencyInformationPage />}
+            />
+            <Route
+              path="/membership-subscription-page"
+              element={<MembershipSubscriptionPage />}
+            />
+            <Route
+              path="/payment-confirmation-page"
+              element={<PaymentConfirmationPage />}
+            />
+            <Route
+              path="/account-settings-profile-page"
+              element={<AccountSettingsProfilePage />}
+            />
+            <Route
+              path="/account-settings-agency-page"
+              element={<AccountSettingsAgencyPage />}
+            />
+            <Route
+              path="/account-settings-password-page"
+              element={<AccountSettingsPasswordPage />}
+            />
+            <Route
+              path="/account-settings-billing-page"
+              element={<AccountSettingsBillingPage />}
+            />
+            <Route
+              path="/account-settings-notifications-page"
+              element={<AccountSettingsNotificationsPage />}
+            />
+            <Route
+              path="/team-member-account-settings-profile-page"
+              element={<TeamMemberAccountSettingsProfilePage />}
+            />
+            <Route
+              path="/team-member-account-settings-password-page"
+              element={<TeamMemberAccountSettingsPasswordPage />}
+            />
+            <Route
+              path="/team-member-account-settings-notifications-page"
+              element={<TeamMemberAccountSettingsNotificationsPage />}
+            />
+            <Route
+              path="/personal-profile-page"
+              element={<PersonalProfilePage />}
+            />
+            <Route
+              path="/agency-profile-page"
+              element={<AgencyProfilePage />}
+            />
+            <Route path="/refer-agency-page" element={<ReferAgencyPage />} />
+            <Route
+              path="/search-agencies-all-agencies-page"
+              element={<SearchAgenciesAllAgenciesPage />}
+            />
+            <Route
+              path="/search-agencies-industry-page"
+              element={<SearchAgenciesIndustryPage />}
+            />
+            <Route
+              path="/search-agencies-ratings-page"
+              element={<SearchAgenciesRatingsPage />}
+            />
+            <Route
+              path="/my-documents-agreements-page"
+              element={<MyDocumentsAgreementsPage />}
+            />
+            <Route
+              path="/my-documents-reports-page"
+              element={<MyDocumentsReportsPage />}
+            />
+            <Route
+              path="/my-documents-archive-page"
+              element={<MyDocumentsArchivePage />}
+            />
+            <Route
+              path="/my-documents-job-report-page"
+              element={<MyDocumentsJobReportPage />}
+            />
+            <Route
+              path="/my-documents-candidate-report-page"
+              element={<MyDocumentsCandidateReportPage />}
+            />
+            <Route
+              path="/my-documents-partnership-report-page"
+              element={<MyDocumentsPartnershipReportPage />}
+            />
+            <Route
+              path="/my-documents-user-activity-report-page"
+              element={<MyDocumentsUserActivityReportPage />}
+            />
+            <Route path="/my-jobs-home-page" element={<MyJobsHomePage />} />
+            <Route
+              path="/my-jobs-batch-upload-page"
+              element={<MyJobsBatchUploadPage />}
+            />
+            <Route
+              path="/my-jobs-active-jobs-page"
+              element={<MyJobsActiveJobsPage />}
+            />
+            <Route
+              path="/my-jobs-pending-jobs-page"
+              element={<MyJobsPendingJobsPage />}
+            />
+            <Route
+              path="/my-jobs-reviews-jobs-page"
+              element={<MyJobsReviewsJobsPage />}
+            />
+            <Route
+              path="/my-jobs-submissions-page"
+              element={<MyJobsSubmissionsPage />}
+            />
+            <Route
+              path="/my-jobs-interviews-page"
+              element={<MyJobsInterviewsPage />}
+            />
+            <Route path="/my-jobs-offers-page" element={<MyJobsOffersPage />} />
+            <Route
+              path="/my-jobs-placements-page"
+              element={<MyJobsPlacementsPage />}
+            />
+            <Route
+              path="/my-jobs-post-job-page"
+              element={<MyJobsPostJobPage />}
+            />
+            <Route
+              path="/my-jobs-job-description-upload-page"
+              element={<MyJobsJobDescriptionUploadPage />}
+            />
+            <Route
+              path="/my-jobs-post-job-batch-upload-page"
+              element={<MyJobsPostJobBatchUploadPage />}
+            />
+            <Route
+              path="/my-jobs-job-details-page"
+              element={<MyJobsJobDetailsPage />}
+            />
+            <Route
+              path="/search-jobs-home-grid-view-page"
+              element={<SearchJobsHomeGridViewPage />}
+            />
+            <Route
+              path="/search-jobs-view-searches-page"
+              element={<SearchJobsViewSearchesPage />}
+            />
+            <Route
+              path="/search-jobs-list-view-page"
+              element={<SearchJobsListViewPage />}
+            />
+            <Route
+              path="/search-candidates-home-grid-view-page"
+              element={<SearchCandidatesHomeGridViewPage />}
+            />
+            <Route
+              path="/search-candidates-view-searches-page"
+              element={<SearchCandidatesViewSearchesPage />}
+            />
+            <Route
+              path="/search-candidates-list-view-page"
+              element={<SearchCandidatesListViewPage />}
+            />
+            <Route
+              path="/my-placements-home-page"
+              element={<MyPlacementsHomePage />}
+            />
+            <Route
+              path="/my-candidates-home-page"
+              element={<MyCandidatesHomePage />}
+            />
+            <Route
+              path="/my-candidates-batch-upload-page"
+              element={<MyCandidatesBatchUploadPage />}
+            />
+            <Route
+              path="/my-candidates-post-candidate-page"
+              element={<MyCandidatesPostCandidatePage />}
+            />
+            <Route
+              path="/my-candidates-candidate-details-page"
+              element={<MyCandidatesCandidateDetailsPage />}
+            />
+            <Route
+              path="/my-candidates-active-candidates-page"
+              element={<MyCandidatesActiveCandidatesPage />}
+            />
+            <Route
+              path="/my-candidates-placements-page"
+              element={<MyCandidatesPlacementsPage />}
+            />
+            <Route
+              path="/my-candidates-expiring-soon-page"
+              element={<MyCandidatesExpiringSoonPage />}
+            />
+            <Route
+              path="/partnerships-home-page"
+              element={<PartnershipsHomePage />}
+            />
+            <Route
+              path="/partnerships-requests-page"
+              element={<PartnershipsRequestsPage />}
+            />
+            <Route
+              path="/partnerships-request-partnership-page"
+              element={<PartnershipsRequestPartnershipPage />}
+            />
+            <Route
+              path="/partnerships-review-partnership-requests-page"
+              element={<PartnershipsReviewPartnershipRequestsPage />}
+            />
+            <Route
+              path="/partnerships-manage-page"
+              element={<PartnershipsManagePage />}
+            />
+            <Route
+              path="/partnerships-view-agreement-page"
+              element={<PartnershipsViewAgreementPage />}
+            />
+            <Route
+              path="/partnerships-view-activity-page"
+              element={<PartnershipsViewActivityPage />}
+            />
+            <Route
+              path="/partnerships-terminate-agreement-page"
+              element={<PartnershipsTerminateAgreementPage />}
+            />
+            <Route path="/help-home-page" element={<HelpHomePage />} />
+            <Route
+              path="/help-my-account-page"
+              element={<HelpMyAccountPage />}
+            />
+            <Route
+              path="/help-job-posting-page"
+              element={<HelpJobPostingPage />}
+            />
+            <Route
+              path="/help-candidate-posting-page"
+              element={<HelpCandidatePostingPage />}
+            />
+            <Route
+              path="/help-documents-page"
+              element={<HelpDocumentsPage />}
+            />
+            <Route
+              path="/help-partnerships-page"
+              element={<HelpPartnershipsPage />}
+            />
+            <Route
+              path="/help-dashboard-page"
+              element={<HelpDashboardPage />}
+            />
+            <Route
+              path="/help-searching-page"
+              element={<HelpSearchingPage />}
+            />
+            <Route
+              path="/help-ratings-and-feedback-page"
+              element={<HelpRatingsAndFeedbackPage />}
+            />
+            <Route path="/help-reports-page" element={<HelpReportsPage />} />
+            <Route
+              path="/help-membership-page"
+              element={<HelpMembershipPage />}
+            />
+            <Route
+              path="/help-policies-and-terms-page"
+              element={<HelpPoliciesAndTermsPage />}
+            />
+            <Route path="/help-faq-page" element={<HelpFAQPage />} />
+            <Route path="/help-glossary-page" element={<HelpGlossaryPage />} />
+            <Route path="/ratings-home-page" element={<RatingsHomePage />} />
+            <Route
+              path="/ratings-rate-an-agency-page"
+              element={<RatingsRateAnAgencyPage />}
+            />
+            <Route
+              path="/ratings-my-ratings-page"
+              element={<RatingsMyRatingsPage />}
+            />
+            <Route
+              path="/ratings-conflict-resolution-page"
+              element={<RatingsConflictResolutionPage />}
+            />
+            <Route
+              path="/ratings-giving-negative-feedback-page"
+              element={<RatingsGivingNegativeFeedbackPage />}
+            />
+            <Route
+              path="/ratings-giving-negative-feedback-step-3-page"
+              element={<RatingsGivingNegativeFeedbackStep3Page />}
+            />
+            <Route
+              path="/ratings-giving-negative-feedback-step-4-page"
+              element={<RatingsGivingNegativeFeedbackStep4Page />}
+            />
+            <Route
+              path="/ratings-giving-negative-feedback-step-5-page"
+              element={<RatingsGivingNegativeFeedbackStep5Page />}
+            />
+            <Route
+              path="/ratings-giving-negative-feedback-end-dispute-page"
+              element={<RatingsGivingNegativeFeedbackEndDisputePage />}
+            />
+            <Route
+              path="/ratings-receiving-negative-feedback-page"
+              element={<RatingsReceivingNegativeFeedbackPage />}
+            />
+            <Route
+              path="/ratings-receiving-negative-feedback-step-3-page"
+              element={<RatingsReceivingNegativeFeedbackStep3Page />}
+            />
+            <Route
+              path="/ratings-receiving-negative-feedback-step-4-page"
+              element={<RatingsReceivingNegativeFeedbackStep4Page />}
+            />
+            <Route
+              path="/ratings-receiving-negative-feedback-step-5-page"
+              element={<RatingsReceivingNegativeFeedbackStep5Page />}
+            />
+            <Route
+              path="/ratings-receiving-negative-feedback-end-dispute-page"
+              element={<RatingsReceivingNegativeFeedbackEndDisputePage />}
+            />
+            {/* <Route path="/dashboard-home-page" element={<DashboardHomePage />} /> */}
+            <Route path="/" element={<DashboardHomePage />} />
+            <Route
+              path="/dashboard-quick-search-results-page"
+              element={<DashboardQuickSearchResultsPage />}
+            />
+            <Route
+              path="/dashboard-read-notification-page"
+              element={<DashboardReadNotificationPage />}
+            />
+            <Route
+              path="/dashboard-read-message-page"
+              element={<DashboardReadMessagePage />}
+            />
+            <Route
+              path="/dashboard-compose-message-page"
+              element={<DashboardComposeMessagePage />}
+            />
+            <Route
+              path="/dashboard-calendar-event-page"
+              element={<DashboardCalendarEventPage />}
+            />
+            <Route path="/sign-up-clerk-page" element={<SignUpClerkPage />} />
+            <Route
+              path="/membership-plan-clerk-page"
+              element={<MembershipPlanClerkPage />}
+            />
+            <Route
+              path="/agency-information-clerk-page"
+              element={<AgencyInformationClerkPage />}
+            />
+            {/* Catch-All (404) Route: Redirect Any Undefined Route to Login */}
+            <Route path="*" element={<Navigate to="/login-page" replace />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

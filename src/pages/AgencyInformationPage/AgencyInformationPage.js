@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import CheckBoxWithLogic from "../../components/CheckBoxWithLogic/CheckBoxWithLogic";
 import CheckBoxTermsAndConditions from "../../components/CheckBoxTermsAndConditions/CheckBoxTermsAndConditions";
-import { useUser } from "@clerk/clerk-react";
+import { useUser, useAuth } from "@clerk/clerk-react";
 
 export default function AgencyInformationPage() {
   const [staffingAgencyName, setStaffingAgencyName] = useState("");
@@ -23,6 +23,7 @@ export default function AgencyInformationPage() {
   const [isChecked, setIsChecked] = useState(false);
   const navigate = useNavigate();
   const { user } = useUser(); // Get user data from Clerk
+  const { getToken } = useAuth(); // Fetch Clerk session token
 
   useEffect(() => {
     if (user?.primaryEmailAddress?.emailAddress) {
@@ -54,58 +55,105 @@ export default function AgencyInformationPage() {
     setConfirmPassword(e.target.value);
   };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+
+  //   // Debug: Check local storage values
+  //   console.log("Email from Local Storage:", localStorage.getItem("email"));
+  //   console.log(
+  //     "Membership Plan from Local Storage:",
+  //     localStorage.getItem("membershipPlan")
+  //   );
+
+  //   // Check if passwords match
+  //   if (password !== confirmPassword) {
+  //     alert("Passwords do not match");
+  //     return; // Prevent form submission if passwords don't match
+  //   }
+
+  //   // Check if terms and conditions are agreed upon
+  //   if (!isChecked) {
+  //     alert("You must agree to the terms and conditions");
+  //     return; // Prevent form submission if terms and conditions are not agreed
+  //   }
+
+  //   // Retrieve email and membership plan from local storage
+  //   // const email = localStorage.getItem("email");
+  //   const email = user?.primaryEmailAddress?.emailAddress || ""; // Get user email
+  //   const membershipPlan = localStorage.getItem("membershipPlan");
+
+  //   // Ensure both email and membership plan are retrieved correctly
+  //   if (!email || !membershipPlan) {
+  //     console.error("Email or membership plan is missing from local storage");
+  //     return;
+  //   }
+
+  //   const requestData = {
+  //     email: email, // Include email
+  //     membershipPlan: membershipPlan, // Include membership plan
+  //     staffingAgencyName,
+  //     staffingAgencyEIN,
+  //     staffingAgencyWebsite,
+  //     industryField: selectedIndustries.join(", "),
+  //     fullNameAdmin: fullName,
+  //     password,
+  //   };
+
+  //   try {
+  //     await axios.post(
+  //       "http://localhost:5000/api/agency_information",
+  //       requestData
+  //     );
+  //     navigate("/membership-subscription-page");
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Debug: Check local storage values
-    console.log("Email from Local Storage:", localStorage.getItem("email"));
-    console.log(
-      "Membership Plan from Local Storage:",
-      localStorage.getItem("membershipPlan")
-    );
-
-    // Check if passwords match
     if (password !== confirmPassword) {
       alert("Passwords do not match");
-      return; // Prevent form submission if passwords don't match
+      return;
     }
 
-    // Check if terms and conditions are agreed upon
     if (!isChecked) {
       alert("You must agree to the terms and conditions");
-      return; // Prevent form submission if terms and conditions are not agreed
+      return;
     }
 
-    // Retrieve email and membership plan from local storage
-    // const email = localStorage.getItem("email");
-    const email = user?.primaryEmailAddress?.emailAddress || ""; // Get user email
+    const email = user?.primaryEmailAddress?.emailAddress || "";
+    const userId = user?.id || "";
     const membershipPlan = localStorage.getItem("membershipPlan");
 
-    // Ensure both email and membership plan are retrieved correctly
     if (!email || !membershipPlan) {
-      console.error("Email or membership plan is missing from local storage");
+      console.error("Email or membership plan is missing");
       return;
     }
 
     const requestData = {
-      email: email, // Include email
-      membershipPlan: membershipPlan, // Include membership plan
+      email,
+      membershipPlan,
       staffingAgencyName,
       staffingAgencyEIN,
       staffingAgencyWebsite,
       industryField: selectedIndustries.join(", "),
       fullNameAdmin: fullName,
       password,
+      userId,
     };
 
     try {
-      await axios.post(
-        "http://localhost:5000/api/agency_information",
-        requestData
-      );
+      const token = await getToken(); // Fetch session token
+
+      await axios.post("http://localhost:5000/api/agency_information", requestData, {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+
       navigate("/membership-subscription-page");
     } catch (err) {
-      console.error(err);
+      console.error("Error submitting agency information:", err);
     }
   };
 
