@@ -152,7 +152,7 @@ export default function AgencyInformationPage() {
       });
   
       if (response.status === 200) {
-        navigate("/membership-subscription-page"); // Navigate to the next page only on success
+        navigate("/membership-plan-page"); // Navigate to the next page only on success
       } else {
         alert("An error occurred. Please try again.");
       }
@@ -394,7 +394,7 @@ export default function AgencyInformationPage() {
             </div>
           </div>
           <div className="agency-information-page__right-container">
-            <label
+            {/* <label
               className="agency-information-page__full-name-admin-label"
               htmlFor="full-name-admin"
             >
@@ -513,7 +513,7 @@ export default function AgencyInformationPage() {
               <p className="agency-information-page__error-message">
                 {errorMessage}
               </p>
-            )}
+            )} */}
             <div className="agency-information-page__agree-terms-and-conditions-container">
               <CheckBoxTermsAndConditions
                 isChecked={isChecked}

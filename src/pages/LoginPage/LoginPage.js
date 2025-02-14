@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./LoginPage.scss";
 import Header from "../../components/Header/Header";
 import HideIcon from "../../assets/icons/ph_eye-light (1).svg";
@@ -10,7 +10,7 @@ import ModalResetYourPassword from "../../components/ModalResetYourPassword/Moda
 import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { useUser, SignInButton, SignIn } from "@clerk/clerk-react";
+import { useUser, SignInButton, SignIn, useClerk } from "@clerk/clerk-react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -54,7 +54,27 @@ export default function LoginPage() {
     }
   };
 
-  const { user } = useUser();
+  const { user, isSignedIn } = useUser();
+  const { openSignIn } = useClerk();
+
+  // Log user data when user signs in, then manually redirect
+  useEffect(() => {
+    if (isSignedIn && user) {
+      console.log("User signed in:", {
+        clerkUserId: user.id,
+        name: `${user.firstName} ${user.lastName}`,
+        dateOfSignUp: user.createdAt,
+        lastTimeUserLoggedIn: user.lastSignInAt,
+        dateUserWasDisabled: user.deletedAt || null
+      });
+
+      // Wait 1 second to allow logs, then navigate
+      setTimeout(() => {
+        navigate("/dashboard"); // Manually redirect after logging
+      }, 1000);
+    }
+  }, [isSignedIn, user, navigate]); // Runs when `isSignedIn` changes
+
 
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);

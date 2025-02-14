@@ -10,7 +10,7 @@ export default function MembershipPlanPage() {
 
   const handleSelectPlan = async (plan) => {
     localStorage.setItem("membershipPlan", plan);
-    navigate("/agency-information-page");
+    navigate("/payment-confirmation-page");
   };
   
   return (
