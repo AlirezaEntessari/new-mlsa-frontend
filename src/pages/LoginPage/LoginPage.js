@@ -10,7 +10,7 @@ import ModalResetYourPassword from "../../components/ModalResetYourPassword/Moda
 import ModalPasswordConfirmation from "../../components/ModalPasswordConfirmation/ModalPasswordConfirmation";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { useUser, SignInButton } from "@clerk/clerk-react";
+import { useUser, SignInButton, SignIn } from "@clerk/clerk-react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -121,7 +121,7 @@ export default function LoginPage() {
         onChange={handlePasswordChange}
       /> */}
       <div className="login__clerk-login-button-container">
-        <SignInButton
+        {/* <SignInButton
           mode="modal"
           forceRedirectUrl="/membership-plan-page" // Redirect here after sign in
           style={{
@@ -132,6 +132,11 @@ export default function LoginPage() {
             marginLeft: "16px",
             fontFamily: "Roboto",
           }}
+        /> */}
+        <SignIn
+          path="/login-page"
+          routing="path"
+          forceRedirectUrl="/agency-information-page"
         />
       </div>
       <p className="login__keep-me-signed-in">

@@ -1,0 +1,267 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.my-candidates-mobile-card-container {
+
+    &__mobile-card-container {
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $white-background;
+    }
+
+    &__mobile-card-1-id-posted-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-id-number {
+        margin-left: 32px;
+        color: $rust;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-posted {
+        margin-left: 130px;
+    }
+
+    &__mobile-card-1-posted-date {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-job-title-requests-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-1-job-title-name {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-requests {
+        margin-left: 78px;
+    }
+
+    &__mobile-card-1-requests-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: $background-light-blue;
+        padding: 20px;
+        border-radius: 32px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-candidate-find-job-container {
+        margin-top: 32px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-card-1-candidate-name {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-find-job-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        margin-left: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-1-industry{
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-industry-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-1-archive-button {
+        border: 1px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        width: 154px;
+        height: 54px;
+        margin-left: 268px;
+        // margin-top: 12px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-1-location {
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    &__mobile-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $card-gray-background-color;
+        margin-top: 28px;
+    }
+
+    &__mobile-card-2-id-posted-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-id-number {
+        margin-left: 32px;
+        color: $rust;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-posted {
+        margin-left: 81px;
+    }
+
+    &__mobile-card-2-posted-date {
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-job-title-requests-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__mobile-card-2-job-title-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-requests {
+        margin-left: 148px;
+    }
+
+    &__mobile-card-2-requests-number {
+        margin-left: 20px;
+        text-decoration: underline;
+        background-color: $background-light-blue;
+        padding: 20px;
+        border-radius: 32px;
+        color: $dark-navy;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-candidate-find-job-container {
+        margin-top: 32px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    &__mobile-card-2-candidate-name {
+        margin-left: 10px;
+        font-weight: 500;
+    }
+
+    &__mobile-card-2-find-job-button {
+        background-color: $rust;
+        color: $white-text;
+        border: 1px solid $rust;
+        margin-left: 90px;
+        width: 150px;
+        height: 50px;
+        border-radius: 28px;
+        font-weight: 500;
+    }
+
+    &__mobile-on-hold-orange-icon {
+        width: 28px;
+        margin-left: 20px;
+    }
+
+    &__mobile-industry {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    &__mobile-industry-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-archive-button {
+        border: 1px solid $rust;
+        background-color: $white-background;
+        color: $rust;
+        width: 154px;
+        height: 54px;
+        margin-left: 268px;
+        // margin-top: 12px;
+        font-weight: 500;
+        border-radius: 28px;
+    }
+
+    &__mobile-card-2-location {
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-2-location-name {
+        font-weight: 500;
+        margin-left: 20px;
+    }
+
+    &__mobile-card-3 {
+        border: 2px solid $rust;
+        width: 450px;
+        height: 400px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: $white-background;
+        margin-top: 28px;
+    }
+
+}
+
+@include tablet {
+
+    .my-candidates-mobile-card-container {
+        display: none;
+    }
+
+}
+
+@include desktop {
+
+    .my-candidates-mobile-card-container {
+        display: none;
+    }
+
+}

@@ -23,3 +23,29 @@
     }
 
 }
+
+@include tablet {
+
+    .my-candidates-navbar {
+
+        &__navbar {
+            color: $dark-navy;
+            border-bottom: 2px solid $dark-navy;
+            padding-bottom: 6px;
+            margin-top: 54px;
+            margin-left: 32px;
+            font-weight: 500;
+            width: 720px;
+        }
+
+        &__archive-section {
+            margin-left: 120px;
+        }
+
+        &__expiring-soon-section {
+            margin-left: 120px;
+        }
+
+    }
+
+}

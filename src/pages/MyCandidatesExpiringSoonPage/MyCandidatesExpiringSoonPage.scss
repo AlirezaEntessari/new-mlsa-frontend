@@ -5,6 +5,10 @@
 .my-candidates-expiring-soon-page {
     padding-bottom: 10rem;
 
+    &__right-container {
+        background-image: url("../../assets//logos/MLSALogoColorSmallTransparent30Opacity\ \(1\).svg");
+    }
+
     &__main-container {
         display: flex;
         font-family: 'Roboto';
@@ -17,6 +21,183 @@
         margin-left: 170px;
         margin-top: 20px;
         font-size: 20px;
+    }
+
+    &__mobile-search-expiring-soon-container {
+        margin-top: 48px;
+        margin-left: 32px;
+    }
+
+    &__mobile-search-expiring-soon-input-container {
+        position: relative;
+    }
+
+    &__mobile-search-expiring-soon-input {
+        margin-top: 10px;
+        width: 440px;
+        height: 56px;
+        border: 1px solid $medium-gray;
+        border-radius: 32px;
+    }
+
+    &__mobile-search-expiring-soon-search-icon {
+        position: absolute;
+        top: 26px;
+        right: 32px;
+    }
+
+    &__mobile-sort-by-date-container {
+        margin-left: 32px;
+        display: flex;
+        margin-top: 32px;
+    }
+
+    &__mobile-date-container {
+        display: flex;
+        margin-left: 48px;
+    }
+
+    &__mobile-menu-arrow-circle-down-icon {
+        margin-left: 10px;
+        margin-bottom: 12px;
+    }
+
+    &__tablet-container {
+        display: none;
+    }
+
+    &__desktop-container {
+        display: none;
+    }
+
+}
+
+@include tablet {
+
+    .my-candidates-expiring-soon-page {
+
+        &__right-container {
+            background-image: none;
+        }
+
+        &__mobile-container {
+            display: none;
+        }
+
+        &__tablet-container {
+            display: inherit;
+        }
+
+        &__tablet-my-candidates-header {
+            color: $rust;
+            font-family: 'Roboto Serif';
+            font-weight: 700;
+            font-size: 24px;
+            margin-left: 32px;
+            margin-top: 32px;
+        }
+
+        &__tablet-search-expiring-soon-my-candidates-container {
+            display: flex;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        &__tablet-search-expiring-soon-label {
+            margin-top: 12px;
+        }
+
+        &__tablet-search-expiring-soon-container {
+            position: relative;
+        }
+
+        &__tablet-search-expiring-soon-input {
+            border: 1px solid $medium-gray;
+            height: 50px;
+            width: 350px;
+            border-radius: 32px;
+            margin-left: 20px;
+        }
+
+        &__tablet-search-expiring-soon-search-icon {
+            position: absolute;
+            top: 13px;
+            right: 28px;
+        }
+
+        &__tablet-my-candidates-button {
+            border: 2px solid $rust;
+            background-color: $white-background;
+            width: 200px;
+            border-radius: 32px;
+            height: 50px;
+            color: $rust;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        &__tablet-table {
+            margin-top: 48px;
+        }
+
+        &__tablet-header-row {
+            background-color: $table-light-gray-background-color;
+            height: 80px;
+            font-size: 15.5px;
+        }
+
+        &__tablet-scroll-down-arrow-icon {
+            width: 14px;
+        }
+
+        &__tablet-header-row-id {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-full-name {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-job-title {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-industry {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-availability-date {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-posted-date {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-requests {
+            padding-left: 16px;
+        }
+
+        &__tablet-header-row-action {
+            padding-left: 16px;
+        }
+
+        &__tablet-data-row-1-id {
+            color: $rust;
+            text-decoration: underline;
+        }
+
+        &__tablet-data-row-1-requests {
+            background-color: $background-light-blue;
+            margin-left: 20px;
+            text-decoration: underline;
+            width: 32px;
+            padding-left: 12px;
+            border-radius: 60px;
+            height: 32px;
+            padding-top: 2px;
+        }
+
     }
 
 }
