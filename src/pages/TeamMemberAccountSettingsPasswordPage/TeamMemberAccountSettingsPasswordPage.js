@@ -12,7 +12,7 @@ export default function TeamMemberAccountSettingsPasswordPage() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const URL = 'http://localhost:5000'
+  const URL = 'http://localhost:5001'
 
   const handleSaveChanges = async () => {
     if (password !== confirmPassword) {

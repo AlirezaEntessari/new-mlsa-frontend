@@ -55,7 +55,7 @@ export default function MyCandidatesPostCandidatePage() {
   const handleSubmit = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/post-candidate",
+        "http://localhost:5001/post-candidate",
         formData
       );
       alert(response.data.message);

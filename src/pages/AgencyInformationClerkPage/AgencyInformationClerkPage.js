@@ -85,7 +85,7 @@ export default function AgencyInformationClerkPage() {
 
   //     try {
   //       await axios.post(
-  //         "http://localhost:5000/api/agency_information",
+  //         "http://localhost:5001/api/agency_information",
   //         requestData
   //       );
   //       navigate("/membership-subscription-page");
@@ -110,7 +110,7 @@ export default function AgencyInformationClerkPage() {
     try {
       // Send request to backend to create Stripe Checkout session
       const response = await axios.post(
-        "http://localhost:5000/api/create-checkout-session",
+        "http://localhost:5001/api/create-checkout-session",
         { email, membershipPlan }
       );
 

@@ -55,7 +55,7 @@ export default function MembershipSubscriptionPage() {
 
   //   try {
   //     const response = await axios.post(
-  //       "http://localhost:5000/api/payment-details",
+  //       "http://localhost:5001/api/payment-details",
   //       paymentDetails
   //     );
 
@@ -90,7 +90,7 @@ export default function MembershipSubscriptionPage() {
   
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/payment-details",
+        "http://localhost:5001/api/payment-details",
         paymentDetails
       );
   

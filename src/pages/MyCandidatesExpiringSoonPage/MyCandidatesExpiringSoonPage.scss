@@ -62,11 +62,7 @@
         margin-bottom: 12px;
     }
 
-    &__tablet-container {
-        display: none;
-    }
-
-    &__desktop-container {
+    &__tablet-desktop-container {
         display: none;
     }
 
@@ -84,11 +80,11 @@
             display: none;
         }
 
-        &__tablet-container {
+        &__tablet-desktop-container {
             display: inherit;
         }
 
-        &__tablet-my-candidates-header {
+        &__tablet-desktop-my-candidates-header {
             color: $rust;
             font-family: 'Roboto Serif';
             font-weight: 700;
@@ -97,21 +93,21 @@
             margin-top: 32px;
         }
 
-        &__tablet-search-expiring-soon-my-candidates-container {
+        &__tablet-desktop-search-expiring-soon-my-candidates-container {
             display: flex;
             margin-top: 32px;
             margin-left: 32px;
         }
 
-        &__tablet-search-expiring-soon-label {
+        &__tablet-desktop-search-expiring-soon-label {
             margin-top: 12px;
         }
 
-        &__tablet-search-expiring-soon-container {
+        &__tablet-desktop-search-expiring-soon-container {
             position: relative;
         }
 
-        &__tablet-search-expiring-soon-input {
+        &__tablet-desktop-search-expiring-soon-input {
             border: 1px solid $medium-gray;
             height: 50px;
             width: 350px;
@@ -119,13 +115,13 @@
             margin-left: 20px;
         }
 
-        &__tablet-search-expiring-soon-search-icon {
+        &__tablet-desktop-search-expiring-soon-search-icon {
             position: absolute;
             top: 13px;
             right: 28px;
         }
 
-        &__tablet-my-candidates-button {
+        &__tablet-desktop-my-candidates-button {
             border: 2px solid $rust;
             background-color: $white-background;
             width: 200px;
@@ -136,85 +132,85 @@
             margin-left: 20px;
         }
 
-        &__tablet-table {
+        &__tablet-desktop-table {
             margin-top: 48px;
         }
 
-        &__tablet-data-row-1 {
+        &__tablet-desktop-data-row-1 {
             height: 60px;
         }
 
-        &__tablet-header-row {
+        &__tablet-desktop-header-row {
             background-color: $table-light-gray-background-color;
             height: 80px;
             font-size: 15.5px;
         }
 
-        &__tablet-scroll-down-arrow-icon {
+        &__tablet-desktop-scroll-down-arrow-icon {
             width: 14px;
         }
 
-        &__tablet-header-row-id {
+        &__tablet-desktop-header-row-id {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-full-name {
+        &__tablet-desktop-header-row-full-name {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-job-title {
+        &__tablet-desktop-header-row-job-title {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-industry {
+        &__tablet-desktop-header-row-industry {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-availability-date {
+        &__tablet-desktop-header-row-availability-date {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-posted-date {
+        &__tablet-desktop-header-row-posted-date {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-requests {
+        &__tablet-desktop-header-row-requests {
             padding-left: 16px;
         }
 
-        &__tablet-header-row-action {
+        &__tablet-desktop-header-row-action {
             padding-left: 16px;
         }
 
-        &__tablet-data-row-1 {
+        &__tablet-desktop-data-row-1 {
             height: 60px;
             border-bottom: 1px solid $medium-gray;
         }
 
-        &__tablet-data-row-1-id {
+        &__tablet-desktop-data-row-1-id {
             color: $rust;
             text-decoration: underline;
             padding-left: 4px;
         }
 
-        &__tablet-data-row-1-full-name {
+        &__tablet-desktop-data-row-1-full-name {
             padding-left: 6px;
         }
 
-        &__tablet-data-row-1-job-title {
+        &__tablet-desktop-data-row-1-job-title {
             padding-left: 20px;
         }
 
-        &__tablet-data-row-1-availability-date {
+        &__tablet-desktop-data-row-1-availability-date {
             padding-left: 20px;
         }
 
-        &__tablet-data-row-1-posted-date {
+        &__tablet-desktop-data-row-1-posted-date {
             padding-left: 12px;
             color: $penn-red;
         }
 
-        &__tablet-data-row-1-requests {
+        &__tablet-desktop-data-row-1-requests {
             background-color: $background-light-blue;
             margin-left: 20px;
             text-decoration: underline;
@@ -225,11 +221,11 @@
             padding-top: 2px;
         }
 
-        &__tablet-data-row-1-find-job-action {
+        &__tablet-desktop-data-row-1-find-job-action {
             padding-left: 12px;
         }
 
-        &__tablet-find-job-button {
+        &__tablet-desktop-find-job-button {
             border: 1px solid $brown-background;
             width: 80px;
             height: 28px;
@@ -240,7 +236,7 @@
             margin-top: 10px;
         }
 
-        &__tablet-other-actions-button {
+        &__tablet-desktop-other-actions-button {
             border: 1px solid $brown-background;
             background-color: $white-background;
             height: 28px;
@@ -252,44 +248,44 @@
             margin-bottom: 20px;
         }
 
-        &__tablet-data-row-2 {
+        &__tablet-desktop-data-row-2 {
             height: 60px;
             border-bottom: 1px solid $medium-gray;
         }
 
-        &__tablet-data-row-2-id {
+        &__tablet-desktop-data-row-2-id {
             color: $rust;
             text-decoration: underline;
             padding-left: 4px;
         }
 
-        &__tablet-on-hold-orange-icon {
+        &__tablet-desktop-on-hold-orange-icon {
             width: 20px;
             margin-left: 16px;
         }
 
-        &__tablet-data-row-2-full-name {
+        &__tablet-desktop-data-row-2-full-name {
             padding-left: 10px;
         }
 
-        &__tablet-data-row-2-job-title {
+        &__tablet-desktop-data-row-2-job-title {
             padding-left: 12px;
         }
 
-        &__tablet-data-row-2-industry {
+        &__tablet-desktop-data-row-2-industry {
             padding-left: 2px;
         }
 
-        &__tablet-data-row-2-availability-date {
+        &__tablet-desktop-data-row-2-availability-date {
             padding-left: 20px;
         }
 
-        &__tablet-data-row-2-posted-date {
+        &__tablet-desktop-data-row-2-posted-date {
             padding-left: 10px;
             color: $penn-red;
         }
 
-        &__tablet-data-row-2-requests {
+        &__tablet-desktop-data-row-2-requests {
             background-color: $background-light-blue;
             margin-left: 20px;
             text-decoration: underline;
@@ -300,43 +296,43 @@
             padding-top: 2px;
         }
 
-        &__tablet-data-row-2-action {
+        &__tablet-desktop-data-row-2-action {
             padding-left: 14px;
         }
 
-        &__tablet-data-row-3 {
+        &__tablet-desktop-data-row-3 {
             height: 60px;
             border-bottom: 1px solid $medium-gray;
         }
 
-        &__tablet-data-row-3-id {
+        &__tablet-desktop-data-row-3-id {
             color: $rust;
             text-decoration: underline;
             padding-left: 4px;
         }
 
-        &__tablet-data-row-3-full-name {
+        &__tablet-desktop-data-row-3-full-name {
             padding-left: 10px;
         }
 
-        &__tablet-data-row-3-job-title {
+        &__tablet-desktop-data-row-3-job-title {
             padding-left: 16px;
         }
 
-        &__tablet-data-row-3-industry {
+        &__tablet-desktop-data-row-3-industry {
             padding-left: 2px;
         }
 
-        &__tablet-data-row-3-availability-date {
+        &__tablet-desktop-data-row-3-availability-date {
             padding-left: 22px;
         }
 
-        &__tablet-data-row-3-posted-date {
+        &__tablet-desktop-data-row-3-posted-date {
             padding-left: 10px;
             color: $penn-red;
         }
 
-        &__tablet-data-row-3-requests {
+        &__tablet-desktop-data-row-3-requests {
             background-color: $background-light-blue;
             margin-left: 20px;
             text-decoration: underline;
@@ -347,43 +343,43 @@
             padding-top: 2px;
         }
 
-        &__tablet-data-row-3-action {
+        &__tablet-desktop-data-row-3-action {
             padding-left: 14px;
         }
 
-        &__tablet-data-row-4 {
+        &__tablet-desktop-data-row-4 {
             height: 60px;
             border-bottom: 1px solid $medium-gray;
         }
 
-        &__tablet-data-row-4-id {
+        &__tablet-desktop-data-row-4-id {
             color: $rust;
             text-decoration: underline;
             padding-left: 4px;
         }
 
-        &__tablet-data-row-4-full-name {
+        &__tablet-desktop-data-row-4-full-name {
             padding-left: 10px;
         }
 
-        &__tablet-data-row-4-job-title {
+        &__tablet-desktop-data-row-4-job-title {
             padding-left: 16px;
         }
 
-        &__tablet-data-row-4-industry {
+        &__tablet-desktop-data-row-4-industry {
             padding-left: 2px;
         }
 
-        &__tablet-data-row-4-availability-date {
+        &__tablet-desktop-data-row-4-availability-date {
             padding-left: 22px;
         }
 
-        &__tablet-data-row-4-posted-date {
+        &__tablet-desktop-data-row-4-posted-date {
             padding-left: 10px;
             color: $penn-red;
         }
 
-        &__tablet-data-row-4-requests {
+        &__tablet-desktop-data-row-4-requests {
             background-color: $background-light-blue;
             margin-left: 20px;
             text-decoration: underline;
@@ -394,22 +390,22 @@
             padding-top: 2px;
         }
 
-        &__tablet-data-row-4-action {
+        &__tablet-desktop-data-row-4-action {
             padding-left: 14px;
         }
 
-        &__tablet-data-row-5 {
+        &__tablet-desktop-data-row-5 {
             height: 60px;
             border-bottom: 1px solid $medium-gray;
         }
 
-        &__tablet-data-row-5-id {
+        &__tablet-desktop-data-row-5-id {
             color: $rust;
             text-decoration: underline;
             padding-left: 4px;
         }
 
-        &__tablet-data-row-5-full-name {
+        &__tablet-desktop-data-row-5-full-name {
             padding-left: 10px;
         }
 

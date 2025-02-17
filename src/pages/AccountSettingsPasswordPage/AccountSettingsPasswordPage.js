@@ -32,7 +32,7 @@ export default function AccountSettingsPasswordPage() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/account-settings/password",
+        "http://localhost:5001/api/account-settings/password",
         { password, confirmPassword }
       );
       alert(response.data.message || "Password updated successfully!");

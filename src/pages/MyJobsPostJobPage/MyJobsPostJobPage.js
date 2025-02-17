@@ -84,7 +84,7 @@ export default function MyJobsPostJobPage() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post("http://localhost:5000/api/post-job", formData);
+      await axios.post("http://localhost:5001/api/post-job", formData);
       alert("Job posted successfully!");
       setFormData(initialFormData); // Reset form fields after successful submission
     } catch (error) {

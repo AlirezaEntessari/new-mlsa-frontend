@@ -10,7 +10,7 @@ const ProtectedRouteWithAgency = ({ children }) => {
   useEffect(() => {
     if (user) {
       axios
-        .get(`http://localhost:5000/api/check-agency?email=${user.primaryEmailAddress?.emailAddress}`)
+        .get(`http://localhost:5001/api/check-agency?email=${user.primaryEmailAddress?.emailAddress}`)
         .then((response) => {
           setHasAgency(response.data.hasAgency);
         })
