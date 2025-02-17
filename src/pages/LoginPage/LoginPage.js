@@ -57,24 +57,26 @@ export default function LoginPage() {
   const { user, isSignedIn } = useUser();
   const { openSignIn } = useClerk();
 
-  // Log user data when user signs in, then manually redirect
   useEffect(() => {
-    if (isSignedIn && user) {
-      console.log("User signed in:", {
-        clerkUserId: user.id,
-        name: `${user.firstName} ${user.lastName}`,
-        dateOfSignUp: user.createdAt,
-        lastTimeUserLoggedIn: user.lastSignInAt,
-        dateUserWasDisabled: user.deletedAt || null
-      });
+    console.log("useEffect triggered: Checking if user is signed in...");
+    console.log("isSignedIn:", isSignedIn);
+    console.log("user:", user);
 
-      // Wait 1 second to allow logs, then navigate
+    if (!isSignedIn || !user) {
+      console.log("User not signed in yet. Retrying in 2 seconds...");
       setTimeout(() => {
-        navigate("/dashboard"); // Manually redirect after logging
-      }, 1000);
+        console.log("Retrying sign-in check...");
+      }, 2000);
+      return; // Exit until user is signed in
     }
-  }, [isSignedIn, user, navigate]); // Runs when `isSignedIn` changes
 
+    console.log(
+      "User is signed in. Redirecting to agency information page..."
+    );
+
+    // Redirect the user immediately since Clerk webhook handles DB insertion
+    navigate("/agency-information-page");
+  }, [isSignedIn, user, navigate]); // Runs when user logs in
 
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);
