@@ -184,10 +184,10 @@ export default function AgencyInformationPage() {
       agency_name: staffingAgencyName,
       agency_ein: staffingAgencyEIN,
       website: staffingAgencyWebsite,
-      location, // ✅ Directly use state instead of document.querySelector
-      industry: selectedIndustries.join(", "), // ✅ Convert selected industries to string
+      location, // Directly use state instead of document.querySelector
+      industry: selectedIndustries.join(", "), // Convert selected industries to string
       agency_id: agencyId,
-      referral, // ✅ Use state for referral instead of document.querySelector
+      referral, // Use state for referral instead of document.querySelector
     };
   
     try {
@@ -202,7 +202,7 @@ export default function AgencyInformationPage() {
       );
   
       if (response.status === 200) {
-        navigate("/membership-plan-page");
+        navigate("/your-mlsa-membership-subscription-page");
       } else {
         alert("An error occurred. Please try again.");
       }

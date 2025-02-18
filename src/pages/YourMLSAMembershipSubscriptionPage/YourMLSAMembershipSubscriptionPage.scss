@@ -109,11 +109,74 @@
 
     &__payment-summary-container {
         margin-left: 92px;
+        margin-top: 64px;
+    }
+
+    &__payment-summary-header {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    &__mlsa-membership-container {
+        margin-top: 32px;
+        display: flex;
+        border-bottom: 3px solid $medium-gray;
+        margin-right: 40px;
+        padding-bottom: 16px;
+    }
+
+    &__mlsa-membership-name-text {
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    &__mlsa-membership-price-container {
+        margin-left: 278px;
+    }
+
+    &__mlsa-membership-price-text {
+        font-weight: 500;
+    }
+
+    &__amount-due-container {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    &__amount-due-name-text {
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    &__amount-due-price-container {
+        margin-left: 362px;
+    }
+
+    &__amount-due-price-number {
+        color: $logo-blue;
+        font-weight: 500;
+    }
+
+    &__bottom-container {
         margin-top: 48px;
     }
 
-    &__mlsa-membership-amount-due-container {
-        margin-left: 148px;
+    &__cancellation-policy {
+        margin-left: 290px;
+        color: $logo-blue;
+        text-decoration: underline;
+    }
+
+    &__continue-to-stripe-button {
+        border: 1px solid $access-blue;
+        background-color: $access-blue;
+        width: 220px;
+        height: 54px;
+        color: $white-text;
+        border-radius: 32px;
+        margin-left: 250px;
+        margin-top: 32px;
+        font-weight: 500;
     }
 
 }
@@ -132,10 +195,10 @@
         &__container {
             margin-left: 100px;
             margin-right: 100px;
-            border: 1.5px solid $soft-black;
-            margin-top: 50px;
-            border-radius: 8px;
-            padding-bottom: 50px;
+            border: 3px solid $medium-dark-gray;
+            margin-top: 72px;
+            border-radius: 18px;
+            padding-bottom: 100px;
         }
 
         &__header {
@@ -228,6 +291,85 @@
             font-family: 'Roboto';
         }
 
+        &__payment-summary-container {
+            margin-left: 48px;
+            margin-top: 64px;
+        }
+    
+        &__payment-summary-header {
+            font-weight: 500;
+            font-size: 18px;
+        }
+    
+        &__mlsa-membership-container {
+            margin-top: 32px;
+            display: flex;
+            border-bottom: 3px solid $medium-gray;
+            margin-right: 0px;
+            padding-bottom: 16px;
+            margin-left: 78px;
+            margin-right: 70px;
+        }
+    
+        &__mlsa-membership-name-text {
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+    
+        &__mlsa-membership-price-container {
+            margin-left: 300px;
+        }
+    
+        &__mlsa-membership-price-text {
+            font-weight: 500;
+        }
+    
+        &__amount-due-container {
+            margin-top: 32px;
+            display: flex;
+            margin-left: 78px;
+        }
+    
+        &__amount-due-name-text {
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+    
+        &__amount-due-price-container {
+            margin-left: 384px;
+        }
+
+        &__amount-due-price-number {
+            color: $logo-blue;
+            font-weight: 500;
+        }
+    
+        &__bottom-container {
+            margin-top: 54px;
+            display: flex;
+            margin-left: 126px;
+        }
+    
+        &__cancellation-policy {
+            margin-left: 0px;
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+    
+        &__continue-to-stripe-button {
+            border: 1px solid $access-blue;
+            background-color: $access-blue;
+            width: 220px;
+            height: 54px;
+            color: $white-text;
+            border-radius: 32px;
+            margin-left: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 250px;
+            font-size: 18px;
+        }
+
     }
 
 }
@@ -246,24 +388,24 @@
         &__container {
             margin-left: 400px;
             margin-right: 400px;
-            border: 1.5px solid $soft-black;
-            margin-top: 50px;
-            border-radius: 8px;
-            padding-bottom: 50px;
+            border: 3px solid $medium-dark-gray;
+            margin-top: 72px;
+            border-radius: 20px;
+            padding-bottom: 120px;
         }
 
         &__header {
             font-size: 34px;
             font-weight: 700;
-            margin-top: 32px;
+            margin-top: 40px;
             margin-left: 72px;
         }
 
         &__payment-details {
             margin-left: 72px;
             font-weight: 500;
-            margin-top: 40px;
-            font-size: 18px;
+            margin-top: 54px;
+            font-size: 22px;
         }
 
         &__bill-container {
@@ -332,6 +474,85 @@
         &__bill-monthly-description {
             margin-left: 44px;
             margin-top: 3px;
+        }
+
+        &__payment-summary-container {
+            margin-left: 72px;
+            margin-top: 80px;
+        }
+    
+        &__payment-summary-header {
+            font-weight: 500;
+            font-size: 18px;
+        }
+    
+        &__mlsa-membership-container {
+            margin-top: 32px;
+            display: flex;
+            border-bottom: 3px solid $medium-gray;
+            margin-right: 0px;
+            padding-bottom: 16px;
+            margin-left: 78px;
+            margin-right: 70px;
+        }
+    
+        &__mlsa-membership-name-text {
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+    
+        &__mlsa-membership-price-container {
+            margin-left: 540px;
+        }
+    
+        &__mlsa-membership-price-text {
+            font-weight: 500;
+        }
+    
+        &__amount-due-container {
+            margin-top: 32px;
+            display: flex;
+            margin-left: 78px;
+        }
+    
+        &__amount-due-name-text {
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+    
+        &__amount-due-price-container {
+            margin-left: 626px;
+        }
+
+        &__amount-due-price-number {
+            color: $logo-blue;
+            font-weight: 500;
+        }
+    
+        &__bottom-container {
+            margin-top: 54px;
+            display: flex;
+            margin-left: 150px;
+        }
+    
+        &__cancellation-policy {
+            margin-left: 0px;
+            color: $logo-blue;
+            text-decoration: underline;
+        }
+    
+        &__continue-to-stripe-button {
+            border: 1px solid $access-blue;
+            background-color: $access-blue;
+            width: 220px;
+            height: 54px;
+            color: $white-text;
+            border-radius: 32px;
+            margin-left: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 480px;
+            font-size: 18px;
         }
 
     }

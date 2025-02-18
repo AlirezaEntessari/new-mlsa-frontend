@@ -12,7 +12,37 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function YourMLSAMembershipSubscriptionPage() {
-  const [billingDuration, setBillingDuration] = useState("");
+  const [billingDuration, setBillingDuration] = useState("Yearly"); // Default to yearly
+  const navigate = useNavigate();
+
+  const handleYearlyClick = () => {
+    setBillingDuration("Yearly");
+  };
+
+  const handleMonthlyClick = () => {
+    setBillingDuration("Monthly");
+  };
+
+  const handleStripeCheckout = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5001/api/payment-details-stripe",
+        {
+          billingDuration,
+        }
+      );
+
+      if (response.data.url) {
+        window.location.href = response.data.url; // Redirect to Stripe checkout
+      } else {
+        alert("Error: Unable to proceed to payment.");
+      }
+    } catch (error) {
+      console.error("Error redirecting to Stripe:", error);
+      alert("An error occurred. Please try again.");
+    }
+  };
+
   return (
     <div className="your-mlsa-membership-subscription-page">
       <img
@@ -32,7 +62,7 @@ export default function YourMLSAMembershipSubscriptionPage() {
             className={`your-mlsa-membership-subscription-page__bill-yearly-container ${
               billingDuration === "Yearly" ? "selected" : ""
             }`}
-            // onClick={handleYearlyClick}
+            onClick={handleYearlyClick}
           >
             <p className="your-mlsa-membership-subscription-page__bill-yearly-header">
               <img
@@ -52,7 +82,7 @@ export default function YourMLSAMembershipSubscriptionPage() {
             className={`your-mlsa-membership-subscription-page__bill-monthly-container ${
               billingDuration === "Monthly" ? "selected" : ""
             }`}
-            // onClick={handleMonthlyClick}
+            onClick={handleMonthlyClick}
           >
             <p className="your-mlsa-membership-subscription-page__bill-monthly-header">
               <img
@@ -73,23 +103,47 @@ export default function YourMLSAMembershipSubscriptionPage() {
           <p className="your-mlsa-membership-subscription-page__payment-summary-header">
             Payment Summary
           </p>
-          <div className="your-mlsa-membership-subscription-page__mlsa-membership-amount-due-container">
-            <div className="your-mlsa-membership-subscription-page__mlsa-membership-container">
-              <div className="your-mlsa-membership-subscription-page__mlsa-membership-name-container">
-                <p className="your-mlsa-membership-subscription-page__mlsa-membership-name-text">
-                  MLSA Membership
-                </p>
-                <p className="your-mlsa-membership-subscription-page__mlsa-membership-auto-renews">
-                  Auto-Renews Yearly on 8/30
-                </p>
-              </div>
-              <div className="your-mlsa-membership-subscription-page__mlsa-membership-price-container">
-                <p className="your-mlsa-membership-subscription-page__mlsa-membership-price-text">
-                  $3,499
-                </p>
-              </div>
+          <div className="your-mlsa-membership-subscription-page__mlsa-membership-container">
+            <div className="your-mlsa-membership-subscription-page__mlsa-membership-name-container">
+              <p className="your-mlsa-membership-subscription-page__mlsa-membership-name-text">
+                MLSA Membership
+              </p>
+              <p className="your-mlsa-membership-subscription-page__mlsa-membership-auto-renews">
+                Auto-Renews Yearly on 8/30
+              </p>
+            </div>
+            <div className="your-mlsa-membership-subscription-page__mlsa-membership-price-container">
+              <p className="your-mlsa-membership-subscription-page__mlsa-membership-price-text">
+                $3,499.00
+              </p>
             </div>
           </div>
+          <div className="your-mlsa-membership-subscription-page__amount-due-container">
+            <div className="your-mlsa-membership-subscription-page__amount-due-name-container">
+              <p className="your-mlsa-membership-subscription-page__amount-due-name-text">
+                Amount due
+              </p>
+              <p className="your-mlsa-membership-subscription-page__amount-due-name-date">
+                August 30, 2024
+              </p>
+            </div>
+            <div className="your-mlsa-membership-subscription-page__amount-due-price-container">
+              <p className="your-mlsa-membership-subscription-page__amount-due-price-number">
+                $3,499.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="your-mlsa-membership-subscription-page__bottom-container">
+          <p className="your-mlsa-membership-subscription-page__cancellation-policy">
+            Cancellation Policy
+          </p>
+          <button
+            onClick={handleStripeCheckout}
+            className="your-mlsa-membership-subscription-page__continue-to-stripe-button"
+          >
+            Continue to Stripe
+          </button>
         </div>
       </div>
     </div>
