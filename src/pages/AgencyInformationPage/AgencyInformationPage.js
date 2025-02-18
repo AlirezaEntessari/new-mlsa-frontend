@@ -110,57 +110,57 @@ export default function AgencyInformationPage() {
   //   }
   // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
   
-    if (password !== confirmPassword) {
-      alert("Passwords do not match");
-      return;
-    }
+  //   if (password !== confirmPassword) {
+  //     alert("Passwords do not match");
+  //     return;
+  //   }
   
-    if (!isChecked) {
-      alert("You must agree to the terms and conditions");
-      return;
-    }
+  //   if (!isChecked) {
+  //     alert("You must agree to the terms and conditions");
+  //     return;
+  //   }
   
-    const email = user?.primaryEmailAddress?.emailAddress || "";
-    const userId = user?.id || "";
-    const membershipPlan = localStorage.getItem("membershipPlan");
+  //   const email = user?.primaryEmailAddress?.emailAddress || "";
+  //   const userId = user?.id || "";
+  //   const membershipPlan = localStorage.getItem("membershipPlan");
   
-    if (!email || !membershipPlan) {
-      console.error("Email or membership plan is missing");
-      return;
-    }
+  //   if (!email || !membershipPlan) {
+  //     console.error("Email or membership plan is missing");
+  //     return;
+  //   }
   
-    const requestData = {
-      email,
-      membershipPlan,
-      staffingAgencyName,
-      staffingAgencyEIN,
-      staffingAgencyWebsite,
-      industryField: selectedIndustries.join(", "),
-      fullNameAdmin: fullName,
-      password,
-      userId,
-    };
+  //   const requestData = {
+  //     email,
+  //     membershipPlan,
+  //     staffingAgencyName,
+  //     staffingAgencyEIN,
+  //     staffingAgencyWebsite,
+  //     industryField: selectedIndustries.join(", "),
+  //     fullNameAdmin: fullName,
+  //     password,
+  //     userId,
+  //   };
   
-    try {
-      const token = await getToken(); // Fetch Clerk session token
+  //   try {
+  //     const token = await getToken(); // Fetch Clerk session token
   
-      const response = await axios.post("http://localhost:5001/api/agency_information", requestData, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+  //     const response = await axios.post("http://localhost:5001/api/agency_information", requestData, {
+  //       headers: { Authorization: `Bearer ${token}` },
+  //     });
   
-      if (response.status === 200) {
-        navigate("/membership-plan-page"); // Navigate to the next page only on success
-      } else {
-        alert("An error occurred. Please try again.");
-      }
-    } catch (err) {
-      console.error("Error submitting agency information:", err);
-      alert("Failed to submit agency information. Please try again later.");
-    }
-  };
+  //     if (response.status === 200) {
+  //       navigate("/membership-plan-page"); // Navigate to the next page only on success
+  //     } else {
+  //       alert("An error occurred. Please try again.");
+  //     }
+  //   } catch (err) {
+  //     console.error("Error submitting agency information:", err);
+  //     alert("Failed to submit agency information. Please try again later.");
+  //   }
+  // };
   
 
   return (
@@ -174,7 +174,7 @@ export default function AgencyInformationPage() {
       <p className="agency-information-page__instructions">
         Complete the form below to create your account.
       </p>
-      <form onSubmit={handleSubmit}>
+      <form>
         <div className="agency-information-page__main-container">
           <div className="agency-information-page__left-container">
             <div className="agency-information-page__input-container">
