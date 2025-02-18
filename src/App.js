@@ -11,6 +11,7 @@ import SignUpPage from "./pages/SignUpPage/SignUpPage";
 import MembershipPlanPage from "./pages/MembershipPlanPage/MembershipPlanPage";
 import AgencyInformationPage from "./pages/AgencyInformationPage/AgencyInformationPage";
 import MembershipSubscriptionPage from "./pages/MembershipSubscriptionPage/MembershipSubscriptionPage";
+import YourMLSAMembershipSubscriptionPage from "./pages/YourMLSAMembershipSubscriptionPage/YourMLSAMembershipSubscriptionPage";
 import PaymentConfirmationPage from "./pages/PaymentConfirmationPage/PaymentConfirmationPage";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import AccountSettingsProfilePage from "./pages/AccountSettingsProfilePage/AccountSettingsProfilePage";
@@ -140,6 +141,10 @@ function App() {
             <Route
               path="/membership-subscription-page"
               element={<MembershipSubscriptionPage />}
+            />
+            <Route
+              path="/your-mlsa-membership-subscription-page"
+              element={<YourMLSAMembershipSubscriptionPage />}
             />
             <Route
               path="/payment-confirmation-page"

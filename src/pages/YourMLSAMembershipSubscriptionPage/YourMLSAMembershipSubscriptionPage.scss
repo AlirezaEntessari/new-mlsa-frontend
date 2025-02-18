@@ -1,0 +1,339 @@
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.your-mlsa-membership-subscription-page {
+    padding-bottom: 10rem;
+    font-family: 'Roboto';
+
+    &__mlsa-logo {
+        width: 500px;
+        margin-left: 110px;
+        margin-top: 72px;
+    }
+
+    &__header {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 48px;
+        margin-left: 92px;
+        font-family: 'Roboto Serif';
+    }
+
+    &__payment-details {
+        margin-left: 92px;
+        font-weight: 500;
+        margin-top: 36px;
+        font-size: 18px;
+        font-family: 'Roboto';
+    }
+
+    &__bill-yearly-container {
+        width: 280px;
+        height: 80px;
+        border: 1px solid $medium-gray;
+        margin-left: 200px;
+        border-radius: 8px;
+        margin-top: 24px;
+    }
+
+    &__bill-yearly-container:hover {
+        border: 1px solid $logo-orange;
+    }
+
+    &__bill-yearly-header {
+        padding-left: 12px;
+        padding-top: 10px;
+        font-family: 'Roboto';
+    }
+
+    &__check-in-circle-icon {
+        width: 24px;
+    }
+
+    &__bill-yearly-text {
+        margin-left: 10px;
+        font-family: 'Roboto';
+    }
+
+    &__bill-yearly-description {
+        margin-left: 32px;
+        margin-top: 3px;
+        font-family: 'Roboto';
+    }
+
+    &__bill-monthly-container {
+        width: 280px;
+        height: 80px;
+        border: 1px solid $medium-gray;
+        margin-left: 200px;
+        border-radius: 8px;
+        margin-top: 24px;
+    }
+
+    &__bill-monthly-container:hover {
+        border: 1px solid $logo-orange;
+    }
+
+    &__bill-monthly-header {
+        padding-left: 12px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        font-family: 'Roboto';
+    }
+
+    &__exit-icon {
+        width: 24px;
+    }
+
+    &__bill-monthly-text {
+        margin-left: 10px;
+        font-family: 'Roboto';
+    }
+
+    &__bill-monthly-description {
+        margin-left: 44px;
+        margin-top: 3px;
+        font-family: 'Roboto';
+    }
+
+    &__bill-yearly-container.selected,
+    &__bill-monthly-container.selected {
+      border: 2px solid $logo-orange; // Solid border when selected
+    }
+
+    &__bill-yearly-container.selected:hover,
+    &__bill-monthly-container.selected:hover {
+        border: 2px solid $logo-orange; // Ensure hover works when selected
+    }
+
+    &__payment-summary-container {
+        margin-left: 92px;
+        margin-top: 48px;
+    }
+
+    &__mlsa-membership-amount-due-container {
+        margin-left: 148px;
+    }
+
+}
+
+@include tablet {
+
+    .your-mlsa-membership-subscription-page {
+        padding-bottom: 15rem;
+
+        &__mlsa-logo {
+            width: 450px;
+            margin-left: 290px;
+            margin-top: 72px;
+        }
+
+        &__container {
+            margin-left: 100px;
+            margin-right: 100px;
+            border: 1.5px solid $soft-black;
+            margin-top: 50px;
+            border-radius: 8px;
+            padding-bottom: 50px;
+        }
+
+        &__header {
+            font-size: 34px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 48px;
+            font-family: 'Roboto Serif';
+        }
+
+        &__payment-details {
+            margin-left: 48px;
+            font-weight: 500;
+            margin-top: 32px;
+            font-size: 18px;
+            font-family: 'Roboto';
+        }
+
+        &__bill-container {
+            display: flex;
+            margin-left: 48px;
+        }
+
+        &__bill-yearly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 0px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-yearly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-yearly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+            font-family: 'Roboto';
+        }
+
+        &__check-in-circle-icon {
+            width: 24px;
+        }
+    
+        &__bill-yearly-text {
+            margin-left: 10px;
+            font-family: 'Roboto';
+        }
+    
+        &__bill-yearly-description {
+            margin-left: 32px;
+            margin-top: 3px;
+            font-family: 'Roboto';
+        }
+
+        &__bill-monthly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-monthly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-monthly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+            font-family: 'Roboto';
+        }
+    
+        &__exit-icon {
+            width: 24px;
+        }
+    
+        &__bill-monthly-text {
+            margin-left: 10px;
+            font-family: 'Roboto';
+        }
+    
+        &__bill-monthly-description {
+            margin-left: 44px;
+            margin-top: 3px;
+            font-family: 'Roboto';
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .your-mlsa-membership-subscription-page {
+        padding-bottom: 20rem;
+
+        &__mlsa-logo {
+            width: 500px;
+            margin-left: 700px;
+            margin-top: 72px;
+        }
+
+        &__container {
+            margin-left: 400px;
+            margin-right: 400px;
+            border: 1.5px solid $soft-black;
+            margin-top: 50px;
+            border-radius: 8px;
+            padding-bottom: 50px;
+        }
+
+        &__header {
+            font-size: 34px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-left: 72px;
+        }
+
+        &__payment-details {
+            margin-left: 72px;
+            font-weight: 500;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+
+        &__bill-container {
+            display: flex;
+            margin-left: 72px;
+        }
+
+        &__bill-yearly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 0px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-yearly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-yearly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+        }
+
+        &__check-in-circle-icon {
+            width: 24px;
+        }
+    
+        &__bill-yearly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-yearly-description {
+            margin-left: 32px;
+            margin-top: 3px;
+        }
+
+        &__bill-monthly-container {
+            width: 280px;
+            height: 80px;
+            border: 1px solid $medium-gray;
+            margin-left: 32px;
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+
+        &__bill-monthly-container:hover {
+            border: 1px solid $logo-orange;
+        }
+    
+        &__bill-monthly-header {
+            padding-left: 12px;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        &__exit-icon {
+            width: 24px;
+        }
+    
+        &__bill-monthly-text {
+            margin-left: 10px;
+        }
+    
+        &__bill-monthly-description {
+            margin-left: 44px;
+            margin-top: 3px;
+        }
+
+    }
+
+}

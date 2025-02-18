@@ -16,6 +16,8 @@ export default function AgencyInformationPage() {
   const [staffingAgencyEIN, setStaffingAgencyEIN] = useState("");
   const [staffingAgencyWebsite, setStaffingAgencyWebsite] = useState("");
   const [selectedIndustries, setSelectedIndustries] = useState([]);
+  const [location, setLocation] = useState("");
+  const [referral, setReferral] = useState("");
   const [fullName, setFullName] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState(""); // State for confirm password
@@ -112,26 +114,26 @@ export default function AgencyInformationPage() {
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
-  
+
   //   if (password !== confirmPassword) {
   //     alert("Passwords do not match");
   //     return;
   //   }
-  
+
   //   if (!isChecked) {
   //     alert("You must agree to the terms and conditions");
   //     return;
   //   }
-  
+
   //   const email = user?.primaryEmailAddress?.emailAddress || "";
   //   const userId = user?.id || "";
   //   const membershipPlan = localStorage.getItem("membershipPlan");
-  
+
   //   if (!email || !membershipPlan) {
   //     console.error("Email or membership plan is missing");
   //     return;
   //   }
-  
+
   //   const requestData = {
   //     email,
   //     membershipPlan,
@@ -143,14 +145,14 @@ export default function AgencyInformationPage() {
   //     password,
   //     userId,
   //   };
-  
+
   //   try {
   //     const token = await getToken(); // Fetch Clerk session token
-  
+
   //     const response = await axios.post("http://localhost:5001/api/agency_information", requestData, {
   //       headers: { Authorization: `Bearer ${token}` },
   //     });
-  
+
   //     if (response.status === 200) {
   //       navigate("/membership-plan-page"); // Navigate to the next page only on success
   //     } else {
@@ -161,6 +163,54 @@ export default function AgencyInformationPage() {
   //     alert("Failed to submit agency information. Please try again later.");
   //   }
   // };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!isChecked) {
+      alert("You must agree to the terms and conditions before proceeding.");
+      return; // Stop form submission
+    }
+  
+    const email = user?.primaryEmailAddress?.emailAddress || "";
+    const agencyId = user?.id || ""; // Clerk User ID
+  
+    if (!email || !agencyId) {
+      console.error("Missing required user data");
+      return;
+    }
+  
+    const requestData = {
+      agency_name: staffingAgencyName,
+      agency_ein: staffingAgencyEIN,
+      website: staffingAgencyWebsite,
+      location, // ✅ Directly use state instead of document.querySelector
+      industry: selectedIndustries.join(", "), // ✅ Convert selected industries to string
+      agency_id: agencyId,
+      referral, // ✅ Use state for referral instead of document.querySelector
+    };
+  
+    try {
+      const token = await getToken(); // Fetch Clerk session token
+  
+      const response = await axios.post(
+        "http://localhost:5001/api/agency-information-clerk",
+        requestData,
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
+  
+      if (response.status === 200) {
+        navigate("/membership-plan-page");
+      } else {
+        alert("An error occurred. Please try again.");
+      }
+    } catch (err) {
+      console.error("Error submitting agency information:", err);
+      alert("Failed to submit agency information. Please try again later.");
+    }
+  };
   
 
   return (
@@ -174,7 +224,7 @@ export default function AgencyInformationPage() {
       <p className="agency-information-page__instructions">
         Complete the form below to create your account.
       </p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="agency-information-page__main-container">
           <div className="agency-information-page__left-container">
             <div className="agency-information-page__input-container">
@@ -235,7 +285,44 @@ export default function AgencyInformationPage() {
                 value={staffingAgencyWebsite}
                 onChange={handleStaffingAgencyWebsiteChange}
               />
+              <label
+                className="agency-information-page__staffing-agency-location-label"
+                htmlFor="staffing-agency-location"
+              >
+                Staffing Agency Location
+              </label>
+              <input
+                className="agency-information-page__staffing-agency-location-input"
+                id="staffing-agency-location"
+                type="text"
+                placeholder="Enter City, State"
+                value={location}
+                onChange={(e) => setLocation(e.target.value)}
+              />
+              <label
+                className="agency-information-page__how-did-you-hear-about-us-label"
+                htmlFor="how-did-you-hear-about-us"
+              >
+                How did you hear about us?
+              </label>
+              <select
+                className="agency-information-page__how-did-you-hear-about-us-select"
+                name="how-did-you-hear-about-us"
+                id="how-did-you-hear-about-us"
+                value={referral}
+                onChange={(e) => setReferral(e.target.value)}
+              >
+                <option value="" disabled selected>
+                  Select
+                </option>
+                <option value="Website">Website</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Referral">Referral</option>
+                <option value="Advertisement">Advertisement</option>
+              </select>
             </div>
+          </div>
+          <div className="agency-information-page__right-container">
             <label
               className="agency-information-page__industry-field-label"
               htmlFor="industry-field"
@@ -392,8 +479,6 @@ export default function AgencyInformationPage() {
                 />
               </div>
             </div>
-          </div>
-          <div className="agency-information-page__right-container">
             {/* <label
               className="agency-information-page__full-name-admin-label"
               htmlFor="full-name-admin"
