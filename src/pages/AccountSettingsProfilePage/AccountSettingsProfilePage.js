@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useUser } from "@clerk/clerk-react";
 import "./AccountSettingsProfilePage.scss";
 import AccountSettingsHeader from "../../components/AccountSettingsHeader/AccountSettingsHeader";
 import ProfilePic from "../../assets/icons/profilepicnav.svg";
@@ -9,6 +10,54 @@ import AccountSettingsSidePanel from "../../components/AccountSettingsSidePanel/
 import axios from "axios";
 
 export default function AccountSettingsProfilePage() {
+  const { user, isSignedIn } = useUser();
+  // useEffect(() => {
+  //   if (isSignedIn && user) {
+  //     console.log("User name:", user.firstName);
+  //   } else {
+  //     console.log("No user found");
+  //   }
+  // }, [isSignedIn, user]);
+
+  useEffect(() => {
+    if (isSignedIn && user) {
+      console.log("User found:", user.firstName);
+      setFormData({
+        firstName: user.firstName || "",
+        lastName: user.lastName || "",
+        email: user.primaryEmailAddress?.emailAddress || "",
+        phone: user.phoneNumbers[0]?.phoneNumber || "",
+        //! biography should be handled as {} (idk if its because of clerk or because of how its set) making it a string is just
+        //! a current work-around for now
+        biography: typeof user.publicMetadata?.biography === "string" ? user.publicMetadata.biography : "",          }); 
+    } else {
+      console.log("No user found");
+    }
+  }, [isSignedIn, user]);
+
+  const handleUpdateFirstName = async () => {
+    if (!user) {
+      alert("No user found!");
+      return;
+    }
+  
+    console.log("🔍 Attempting to update user with:", { firstName: formData.firstName });
+  
+    try {
+      await user.update({
+        
+        firstName: formData.firstName, // Trim extra spaces to prevent errors
+      });
+      console.log("Updating Clerk user:", { firstName: formData.firstName });
+  
+      alert("✅ First name updated successfully in Clerk!");
+    } catch (error) {
+      console.error("❌ Error updating first name:", error);
+      alert(`Failed to update first name: ${error.message}`);
+    }
+  };
+
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -69,7 +118,7 @@ export default function AccountSettingsProfilePage() {
             <button className="account-settings-profile__personal-details-cancel-button">
               Cancel
             </button>
-            <button className="account-settings-profile__personal-details-save-changes-button">
+            <button onClick={handleUpdateFirstName} className="account-settings-profile__personal-details-save-changes-button">
               Save Changes
             </button>
           </div>
