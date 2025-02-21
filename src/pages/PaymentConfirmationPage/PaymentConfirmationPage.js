@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import "./PaymentConfirmationPage.scss";
+import axios from "axios";
 import Header from "../../components/Header/Header";
 import MLSALogo from "../../assets/logos/MLSAFullLogoColorSmall.png";
 import { Link } from "react-router-dom";
 
 export default function PaymentConfirmationPage() {
+  const [searchParams] = useSearchParams();
+  const sessionId = searchParams.get("session_id");
+  const [paymentDetails, setPaymentDetails] = useState(null);
+
+  useEffect(() => {
+    if (sessionId) {
+      axios
+        .post("http://localhost:5001/api/payment-success", {
+          session_id: sessionId,
+        })
+        .then((response) => {
+          setPaymentDetails(response.data.data);
+        })
+        .catch((error) => {
+          console.error("Error retrieving payment details:", error);
+        });
+    }
+  }, [sessionId]);
+
   return (
     <div className="payment-confirmation">
       <Header />
@@ -28,7 +49,7 @@ export default function PaymentConfirmationPage() {
             MLSA Membership - 1 Year
           </span>
           <span className="payment-confirmation__mlsa-membership-price">
-            $2,499.00
+            $3,499.00
           </span>
         </p>
         <p className="payment-confirmation__auto-renews">
@@ -39,7 +60,7 @@ export default function PaymentConfirmationPage() {
             Amount Paid
           </span>{" "}
           <span className="payment-confirmation__amount-paid-price">
-            $2,499.00
+            $3,499.00
           </span>
         </p>
         <p className="payment-confirmation__amount-paid-date">

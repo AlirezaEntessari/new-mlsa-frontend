@@ -78,6 +78,34 @@ export default function LoginPage() {
     navigate("/agency-information-page");
   }, [isSignedIn, user, navigate]); // Runs when user logs in
 
+
+  useEffect(() => {
+    if (!isSignedIn || !user) return;
+
+    // Check if the user has made a payment
+    const checkPaymentStatus = async () => {
+        try {
+            const response = await axios.get(`http://localhost:5001/api/check-payment-status`, {
+                params: { user_id: user.id },
+            });
+
+            if (response.data.paid) {
+                // If paid, proceed to the dashboard
+                navigate("/dashboard");
+            } else {
+                // If not paid, send to Stripe payment page
+                navigate("/your-mlsa-membership-subscription-page");
+            }
+        } catch (error) {
+            console.error("Error checking payment status:", error);
+        }
+    };
+
+    checkPaymentStatus();
+}, [isSignedIn, user, navigate]);
+
+
+
   const handleForgotPasswordClick = () => {
     setForgotPasswordModalVisible(true);
   };
