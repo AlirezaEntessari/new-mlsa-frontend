@@ -27,7 +27,7 @@ export default function AccountSettingsProfilePage() {
         lastName: user.lastName || "",
         email: user.primaryEmailAddress?.emailAddress || "",
         phone: user.phoneNumbers[0]?.phoneNumber || "",
-        //! biography should be handled as {} (idk if its because of clerk or because of how its set) making it a string is just
+        //todo: biography should be handled as {} (idk if its because of clerk or because of how its set) making it a string is just
         //! a current work-around for now
         biography: typeof user.publicMetadata?.biography === "string" ? user.publicMetadata.biography : "",          }); 
     } else {
@@ -42,11 +42,12 @@ export default function AccountSettingsProfilePage() {
     }
   
     console.log("🔍 Attempting to update user with:", { firstName: formData.firstName });
-  
+  // todo: theres something going wrong here. Form data gets sent as firstName but the endpoint is getting first_name which it allegedly is not a valid paramater for the request but idk why.
+  //probably missing something simple as to why this doesnt work. 
     try {
       await user.update({
         
-        firstName: formData.firstName, // Trim extra spaces to prevent errors
+        firstName: formData.firstName,
       });
       console.log("Updating Clerk user:", { firstName: formData.firstName });
   
